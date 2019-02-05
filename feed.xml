@@ -1,70 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>TesterGadungan</title>
+    <title>Celoteh FachrulCH</title>
     <link href="https://blog.fachrul.id/feed.xml" rel="self" />
     <link href="https://blog.fachrul.id" />
-    <updated>2019-02-06T06:11:25+07:00</updated>
+    <updated>2019-02-06T06:36:42+07:00</updated>
     <author>
-        <name>FachrulCh</name>
+        <name>@FachrulCH</name>
     </author>
     <id>https://blog.fachrul.id</id>
 
     <entry>
-        <title>Post kdua</title>
+        <title>Karir sebagai software quality assurance / tester itu keren banget!</title>
         <author>
-            <name>FachrulCh</name>
+            <name>@FachrulCH</name>
         </author>
-        <link href="https://blog.fachrul.id/post-kdua/"/>
-        <id>https://blog.fachrul.id/post-kdua/</id>
+        <link href="https://blog.fachrul.id/karir-sebagai-software-quality-assurance-tester-itu-keren-banget/"/>
+        <id>https://blog.fachrul.id/karir-sebagai-software-quality-assurance-tester-itu-keren-banget/</id>
+            <category term="software-testing"/>
 
-        <updated>2019-02-04T23:42:50+07:00</updated>
+        <updated>2019-02-06T06:35:22+07:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://blog.fachrul.id/media/posts/2/" alt="" />
-                    https://github.com/testergadungan/testergadungan.github.io.git
+                        <img src="https://blog.fachrul.id/media/posts/3/checking.jpeg" alt="checking app" />
+                    Jika kamu adalah mahasiswa yang akan/baru lulus dan mulai mencari-cari lowongan kerja di bidang software development, mungkin bisa dipertimbangkan lowongan sebagai Software tester/QA sebagai pilihan karir yang bagus. Kenapa begitu? Oke mari saya tunjukan kenapa menjadi seorang software tester itu sangat menarik. Sebagai gambaran, saya&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://blog.fachrul.id/media/posts/2/" alt="" />
-                https://github.com/testergadungan/testergadungan.github.io.git
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Pertamax gan</title>
-        <author>
-            <name>FachrulCh</name>
-        </author>
-        <link href="https://blog.fachrul.id/pertamax-gan/"/>
-        <id>https://blog.fachrul.id/pertamax-gan/</id>
-            <category term="test"/>
-
-        <updated>2019-02-04T22:54:03+07:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.fachrul.id/media/posts/1/medal_393165.png" alt="medali" />
-                    Mencoba aplikasi static blog dengan Publii https://getpublii.com/ Link youtube https://www.youtube.com/watch?v=XW1qOApu2D0 Embed: Insert gambar: 
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://blog.fachrul.id/media/posts/1/medal_393165.png" alt="medali" />
-                <p>Mencoba aplikasi static blog dengan Publii <a href="https://getpublii.com/">https://getpublii.com/</a> </p>
-<p>Link youtube</p>
-<p><a href="https://www.youtube.com/watch?v=XW1qOApu2D0">https://www.youtube.com/watch?v=XW1qOApu2D0</a></p>
-<p>Embed:</p>
-<figure class="post__video"><iframe width="560" height="314" src="https://www.youtube.com/embed/XW1qOApu2D0" allowfullscreen="allowfullscreen" ></iframe></figure>
-<p>Insert gambar:</p>
-<div class="gallery"   >
-<figure class="gallery__item"><a href="https://blog.fachrul.id/media/posts/1/gallery/medal_393165.png" ><img src="https://blog.fachrul.id/media/posts/1/gallery/medal_393165-thumbnail.png" alt="medali" width="240" height="240"></a>
-<figcaption class="gallery-description">medali</figcaption>
-</figure>
-<figure class="gallery__item"><a href="https://blog.fachrul.id/media/posts/1/gallery/star.png" ><img src="https://blog.fachrul.id/media/posts/1/gallery/star-thumbnail.png" alt="bintang" width="240" height="240"></a>
-<figcaption class="gallery-description">bintang</figcaption>
-</figure>
+                    <img src="https://blog.fachrul.id/media/posts/3/checking.jpeg" alt="checking app" />
+                <p id="fdf7" class="graf graf--p graf-after--h3">Jika kamu adalah mahasiswa yang akan/baru lulus dan mulai mencari-cari lowongan kerja di bidang software development, mungkin bisa dipertimbangkan lowongan sebagai Software tester/QA sebagai pilihan karir yang bagus. Kenapa begitu? Oke mari saya tunjukan kenapa menjadi seorang software tester itu sangat menarik.</p>
+<p id="17be" class="graf graf--p graf-after--p graf--trailing">Sebagai gambaran, saya sendiri memulai karir di dunia tech sebagai software tester secara tidak sengaja, karena memang sedari kuliah tidak tahu ada roles software tester di industri pengembangan aplikasi komputer, tapi nyatanya sampai sekarang saya tidak menyesal mengambil pilihan software testing sebagai karir saya.</p>
+<hr>
+<h3 id="c76d" class="graf graf--h3 graf--leading">Apa itu software tester/software quality assurance secara sederhana?</h3>
+<p id="6769" class="graf graf--p graf-after--h3">Sebagai pembuat aplikasi teknologi, kita tentu ingin mempersembahkan pengalaman terbaik bagi pengguna, nah tester disini akan mencoba aplikasi baru sebelum pengguna sesungguhnya, agar nantinya tim bisa mencapai standar mutu terbaik</p>
+<p id="1123" class="graf graf--p graf-after--p">Alasan-alasan nyata kenapa software tester/software QA adalah pilihan karir yang keren</p>
+<h3 id="e083" class="graf graf--h3 graf-after--figure">Semua berlomba menjadi digital</h3>
+<p id="cac7" class="graf graf--p graf-after--h3">Jaman now, semua kebutuhan kita sudah mulai tersedia dalam genggaman, dari mencari berita, beli makanan, transfer uang, kursus dan lain-lain sudah serba online, ini karena imbas dengan banyaknya perusahaan startup yang berdiri. Akan selalu ada pilihan untuk layanan online yang bisa kita gunakan, tetapi selalu yang terbaiklah yang akan bertahan. Nah bagaimana layanan itu mencapai yang terbaik? Jawabanya adalah dengan selalu memberikan layanan berkualitas bagi pengguna. Disinilah alasan kenapa lowongan sebagai tester/QA selau ada.</p>
+<figure id="004e" class="graf graf--figure graf-after--p">
+<div class="aspectRatioPlaceholder is-locked">
+<div class="aspectRatioPlaceholder-fill"> </div>
+<div class="progressiveMedia js-progressiveMedia graf-image is-canvasLoaded is-imageLoaded"    ><canvas class="progressiveMedia-canvas js-progressiveMedia-canvas" width="75" height="47"></canvas><img class="progressiveMedia-image js-progressiveMedia-image" src="https://cdn-images-1.medium.com/max/1600/0*D6hpkzWJNtPtajrp.png" ></div>
 </div>
-<p> </p>
+<figcaption class="imageCaption">sumber gambar: <a href="http://fintechnews.sg/4814/indonesia/new-fintech-report-highlights-indonesias-untapped-opportunity/"  class="markup--anchor markup--figure-anchor" rel="nofollow noopener noreferrer" target="_blank">http://fintechnews.sg/4814/indonesia/new-fintech-report-highlights-indonesias-untapped-opportunity/</a></figcaption>
+</figure>
+<h3 id="11af" class="graf graf--h3 graf-after--figure">Bayaran nya bagus</h3>
+<p id="677f" class="graf graf--p graf-after--h3">Banyak mitos yang beredar, kalo karir sebagai tester/QA itu bayarannya lebih sedikit daripada menjadi developer, tapi percayalah ini tidak benar. Sebagai fresh graduate/karir pertama, tentu profesi sebagai tester atau developer memiliki standar gaji yang sama, seiring berjalan waktu, semakin bertambah kemampuan kamu, maka pendapatan yang kamu terima pun semakin besar, karena perusahaan pun akan melihat kemampuan kamu sebagai aset masa depan. Apalagi kalau kamu menguasai automation test, kamu bisa jadi lebih cepat naik gajinya ahaha</p>
+<figure id="fb01" class="graf graf--figure graf-after--p">
+<div class="aspectRatioPlaceholder is-locked">
+<div class="aspectRatioPlaceholder-fill"> </div>
+<div class="progressiveMedia js-progressiveMedia graf-image is-canvasLoaded is-imageLoaded"      ><canvas class="progressiveMedia-canvas js-progressiveMedia-canvas" width="75" height="53"></canvas><img class="progressiveMedia-image js-progressiveMedia-image" src="https://cdn-images-1.medium.com/max/1600/1*K3zdDg0J2XlxqLpLMfB8Ug.png" ></div>
+</div>
+<figcaption class="imageCaption">techinasia job, diakses 7-des-2018 19.00</figcaption>
+</figure>
+<h3 id="bacb" class="graf graf--h3 graf-after--figure">Relatif lebih mudah bagi kamu untuk menjadi tester/SQA</h3>
+<p id="cfc6" class="graf graf--p graf-after--h3">Coba lihat deh lowongan yang banyak beredar, apakah kriteria menjadi seorang software tester/SQA? Biasanya bahkan bisa aja menerima dari jurusan TI loh, karena dari segi tester pun ada yang menjadi manual tester ataupun automation tester. Kalau manual tester umumnya kemampuan menganalisa masalah yang menjadi kebutuhan besar, kalau automation tester kamu harus senang dengan koding, tapi koding yang ada di tester ga terlalu komplex seperti developer sih menurut saya. Relatif :P</p>
+<h3 id="b253" class="graf graf--h3 graf-after--p">Perpindahan dari developer ke testing jauh lebih mudah</h3>
+<p id="4f5f" class="graf graf--p graf-after--h3">Pernah ngerasa bosen ngelihat kode terus? Pindah jadi tester juga seru loh! Karena kamu akan mulai berfikir lebih ekploratif, deduktif, sebab-akibat seperti layaknya detektif partikelir sedang menganalisa kasus hilang nya data transaksi akibat bug yang berkeliaran :D</p>
+<p id="bef1" class="graf graf--p graf-after--p">Apalagi jika dengan latar sebagai developer kamu akan memiliki keuntungan karena tahu betul bagaimana aplikasi dibuat, sehingga bisa memverifikasi aplikasi sudah dibangun dengan benar. Belum lagi kamu akan lebih mudah mempelajari automation tools macam selenium, karena sudah memahami cara kerja kode.</p>
+<h3 id="7c3b" class="graf graf--h3 graf-after--p">Ilmu yang mudah dipelajari</h3>
+<p id="4041" class="graf graf--p graf-after--h3">Alat untuk membantu testing banyak yang sudah memiliki tampilan bagus kok, seperti postman, katalon studio, apalagi dengan googling sedikit kita bisa mempelajari konsep testing dari dasar hingga mahir, dari ISTQB hingga BDD cucumber</p>
+<h3 id="0994" class="graf graf--h3 graf-after--p">Tidak pusing dengan tools</h3>
+<p id="51dc" class="graf graf--p graf-after--h3">Jika kamu developer tentu familiar dengan banyaknya library dan framework yang ada diluar sana, apalagi jika kamu adalah javascript developer, sepertinya setiap hari selalu saja ada library/framework yang lahir dan banyak dibicarakan komunitas. Tapi tren seperti itu relatif tidak terjadi di dunia testing. Konsep testing jarang berubah, tools/libarary pun didominasi oleh teknologi yang serupa, selenium mungkin library yang penting, tinggal selera saja pilih bahasa pemrograman apa untuk pilih library menjalankan selenium, dan selama 3 tahun terakhir pun tidak banyak berubah</p>
+<figure id="e7dc" class="graf graf--figure graf-after--p">
+<div class="aspectRatioPlaceholder is-locked">
+<div class="aspectRatioPlaceholder-fill"> </div>
+<div class="progressiveMedia js-progressiveMedia graf-image is-canvasLoaded is-imageLoaded"       ><canvas class="progressiveMedia-canvas js-progressiveMedia-canvas" width="75" height="50"></canvas><img class="progressiveMedia-image js-progressiveMedia-image" src="https://cdn-images-1.medium.com/max/1600/0*dXTFPRBC3mZm65Ko" ></div>
+</div>
+<figcaption class="imageCaption">Photo by <a href="https://unsplash.com/@markusspiske?utm_source=medium&amp;utm_medium=referral"  class="markup--anchor markup--figure-anchor" rel="photo-creator nofollow noopener noreferrer" target="_blank">Markus Spiske</a> on <a href="https://unsplash.com/?utm_source=medium&amp;utm_medium=referral"  class="markup--anchor markup--figure-anchor" rel="photo-source nofollow noopener noreferrer" target="_blank">Unsplash</a></figcaption>
+</figure>
+<h3 id="3a08" class="graf graf--h3 graf-after--figure">Mengembangkan sayap</h3>
+<p id="f8e3" class="graf graf--p graf-after--h3">Ketika kamu telah memiliki kemampuan yang mumpuni di dunia testing atau SQA, menurut saya sangat mudah ketika memutuskan untuk menjalani karir sebagai business analyst, product owner, scrum master bahkan devops. Karena secara umum kamu sudah :</p>
+<ul class="postList">
+<li id="f811" class="graf graf--li graf-after--p">Menguasai seluk beluk aplikasi, dari segi bisnis, koding, dan user</li>
+<li id="1961" class="graf graf--li graf-after--li">Kemeampuan komunikasi yang baik</li>
+<li id="bc31" class="graf graf--li graf-after--li">Lancar dalam menyampaikan gagasan yang mudah dimengerti oleh developer, product owner, dan stake holder</li>
+</ul>
+<figure id="f182" class="graf graf--figure graf-after--li graf--trailing">
+<div class="aspectRatioPlaceholder is-locked">
+<div class="aspectRatioPlaceholder-fill"> </div>
+<div class="progressiveMedia js-progressiveMedia graf-image is-canvasLoaded is-imageLoaded"      ><canvas class="progressiveMedia-canvas js-progressiveMedia-canvas" width="75" height="31"></canvas><img class="progressiveMedia-image js-progressiveMedia-image" src="https://cdn-images-1.medium.com/max/1600/1*jXJdjxgD1tFhIcgx2HkfXw.png" ></div>
+</div>
+<figcaption class="imageCaption">Jenjang karir (Tegar, sumber: <a href="http://www.isqa.club/?p=280"  class="markup--anchor markup--figure-anchor" rel="nofollow noopener noreferrer" target="_blank">http://www.isqa.club/?p=280</a>)</figcaption>
+</figure>
             ]]>
         </content>
     </entry>
