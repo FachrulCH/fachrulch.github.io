@@ -2,21 +2,21 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "TesterGadungan",
     "description": "",
-    "home_page_url": "https://fachrulch.github.io",
-    "feed_url": "https://fachrulch.github.io/feed.json",
+    "home_page_url": "https://blog.fachrul.net",
+    "feed_url": "https://blog.fachrul.net/feed.json",
     "user_comment": "",
-    "icon": "https://fachrulch.github.io/media/website/tester-gadungan-icon.png",
+    "icon": "https://blog.fachrul.net/media/website/tester-gadungan-icon.png",
     "author": {
         "name": "FachrulCh"
     },
     "items": [
         {
-            "id": "https://fachrulch.github.io/post-kdua/",
-            "url": "https://fachrulch.github.io/post-kdua/",
+            "id": "https://blog.fachrul.net/post-kdua/",
+            "url": "https://blog.fachrul.net/post-kdua/",
             "title": "Post kdua",
             "summary": "https://github.com/testergadungan/testergadungan.github.io.git",
             "content_html": "https://github.com/testergadungan/testergadungan.github.io.git",
-            "image": "https://fachrulch.github.io/media/posts/2/",
+            "image": "https://blog.fachrul.net/media/posts/2/",
             "author": {
                 "name": "FachrulCh"
             },
@@ -26,12 +26,12 @@
             "date_modified": "2019-02-04T23:42:50+07:00"
         },
         {
-            "id": "https://fachrulch.github.io/pertamax-gan/",
-            "url": "https://fachrulch.github.io/pertamax-gan/",
+            "id": "https://blog.fachrul.net/pertamax-gan/",
+            "url": "https://blog.fachrul.net/pertamax-gan/",
             "title": "Pertamax gan",
             "summary": "Mencoba aplikasi static blog dengan Publii https://getpublii.com/ Link youtube https://www.youtube.com/watch?v=XW1qOApu2D0 Embed: Insert gambar: ",
-            "content_html": "<p>Mencoba aplikasi static blog dengan Publii <a href=\"https://getpublii.com/\">https://getpublii.com/</a> </p>\n<p>Link youtube</p>\n<p><a href=\"https://www.youtube.com/watch?v=XW1qOApu2D0\">https://www.youtube.com/watch?v=XW1qOApu2D0</a></p>\n<p>Embed:</p>\n<figure class=\"post__video\"><iframe width=\"560\" height=\"314\" src=\"https://www.youtube.com/embed/XW1qOApu2D0\" allowfullscreen=\"allowfullscreen\" ></iframe></figure>\n<p>Insert gambar:</p>\n<div class=\"gallery\"   >\n<figure class=\"gallery__item\"><a href=\"https://fachrulch.github.io/media/posts/1/gallery/medal_393165.png\" ><img src=\"https://fachrulch.github.io/media/posts/1/gallery/medal_393165-thumbnail.png\" alt=\"medali\" width=\"240\" height=\"240\"></a>\n<figcaption class=\"gallery-description\">medali</figcaption>\n</figure>\n<figure class=\"gallery__item\"><a href=\"https://fachrulch.github.io/media/posts/1/gallery/star.png\" ><img src=\"https://fachrulch.github.io/media/posts/1/gallery/star-thumbnail.png\" alt=\"bintang\" width=\"240\" height=\"240\"></a>\n<figcaption class=\"gallery-description\">bintang</figcaption>\n</figure>\n</div>\n<p> </p>",
-            "image": "https://fachrulch.github.io/media/posts/1/medal_393165.png",
+            "content_html": "<p>Mencoba aplikasi static blog dengan Publii <a href=\"https://getpublii.com/\">https://getpublii.com/</a> </p>\n<p>Link youtube</p>\n<p><a href=\"https://www.youtube.com/watch?v=XW1qOApu2D0\">https://www.youtube.com/watch?v=XW1qOApu2D0</a></p>\n<p>Embed:</p>\n<figure class=\"post__video\"><iframe width=\"560\" height=\"314\" src=\"https://www.youtube.com/embed/XW1qOApu2D0\" allowfullscreen=\"allowfullscreen\" ></iframe></figure>\n<p>Insert gambar:</p>\n<div class=\"gallery\"   >\n<figure class=\"gallery__item\"><a href=\"https://blog.fachrul.net/media/posts/1/gallery/medal_393165.png\" ><img src=\"https://blog.fachrul.net/media/posts/1/gallery/medal_393165-thumbnail.png\" alt=\"medali\" width=\"240\" height=\"240\"></a>\n<figcaption class=\"gallery-description\">medali</figcaption>\n</figure>\n<figure class=\"gallery__item\"><a href=\"https://blog.fachrul.net/media/posts/1/gallery/star.png\" ><img src=\"https://blog.fachrul.net/media/posts/1/gallery/star-thumbnail.png\" alt=\"bintang\" width=\"240\" height=\"240\"></a>\n<figcaption class=\"gallery-description\">bintang</figcaption>\n</figure>\n</div>\n<p> </p>",
+            "image": "https://blog.fachrul.net/media/posts/1/medal_393165.png",
             "author": {
                 "name": "FachrulCh"
             },
