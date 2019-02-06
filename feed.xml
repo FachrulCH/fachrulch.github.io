@@ -3,7 +3,7 @@
     <title>Celoteh FachrulCH</title>
     <link href="https://blog.fachrul.id/feed.xml" rel="self" />
     <link href="https://blog.fachrul.id" />
-    <updated>2019-02-06T13:28:37+07:00</updated>
+    <updated>2019-02-07T05:39:50+07:00</updated>
     <author>
         <name>@FachrulCH</name>
     </author>
@@ -16,14 +16,15 @@
         </author>
         <link href="https://blog.fachrul.id/saya-software-quality-tester-baru-bagaimana-cara-saya-memulai/"/>
         <id>https://blog.fachrul.id/saya-software-quality-tester-baru-bagaimana-cara-saya-memulai/</id>
+            <category term="tutorials"/>
             <category term="software-testing"/>
 
-        <updated>2019-02-06T13:27:42+07:00</updated>
+        <updated>2019-02-07T05:39:44+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.fachrul.id/media/posts/4/angry-annoyed-cafe-52608.jpg" alt="pusing-belajar-qa" />
                     <h2 id="mcetoc_1d30ltv460">Salam kenal</h2>
-<p>Hai.. Senang sekali mendengarnya, selamat datang di dunia yang penuh tantangan, saya bisa merasakan aroma penasaran dari kamu :) memang betul mempelajari software testing akan sangat menarik dan penuh lika-liku, tapi tenang saja kamu berada di sumber yang tepat.</p>
+<p>Hai.. Senang sekali mendengarnya, selamat datang di dunia yang penuh tantangan, saya bisa merasakan aroma penasaran dari kamu :) memang betul mempelajari software testing akan sangat menarik dan penuh lika-liku, tapi tenang saja kamu berada di sumber yang (semoga saja) tepat. 😅</p>
 
                 ]]>
             </summary>
@@ -31,14 +32,18 @@
             <![CDATA[
                     <img src="https://blog.fachrul.id/media/posts/4/angry-annoyed-cafe-52608.jpg" alt="pusing-belajar-qa" />
                 <h2 id="mcetoc_1d30ltv460">Salam kenal</h2>
-<p>Hai.. Senang sekali mendengarnya, selamat datang di dunia yang penuh tantangan, saya bisa merasakan aroma penasaran dari kamu :) memang betul mempelajari software testing akan sangat menarik dan penuh lika-liku, tapi tenang saja kamu berada di sumber yang tepat.</p>
+<p>Hai.. Senang sekali mendengarnya, selamat datang di dunia yang penuh tantangan, saya bisa merasakan aroma penasaran dari kamu :) memang betul mempelajari software testing akan sangat menarik dan penuh lika-liku, tapi tenang saja kamu berada di sumber yang (semoga saja) tepat. 😅</p>
 <hr>
 <h2 id="mcetoc_1d30lufqm1">Overdosis informasi</h2>
-<p>Dengan adanya internet seharusnya semua akan lebih mudah belajar dan cepat menguasainya, tapi nyatanya banyak juga loh artikel sampah yang malah bikin kamu bingung, apalagi dalam tahap pemula, kamu akan dihadapi dengan banjirnya informasi yang akan bikin kamu merasa terlalu banyak yang harus dipelajari sekaligus. Tanamkan pemikiran "Ga semua yang di internet itu benar" kadang apa yang kita gugling belum tentu baik untuk diimplementasi ke kita juga. Jangan puas dari apa yang dituliskan disitu, tetaplah kritis bertanya. Hmmm.. Maka dari itu saya akan coba runut kan apa saja sebenernya yang bisa kamu pelajari di awal karir sebagai tester.</p>
+<p>Dengan adanya internet seharusnya semua akan lebih mudah belajar dan cepat menguasainya, tapi nyatanya banyak juga loh artikel sampah yang malah bikin kamu bingung, apalagi dalam tahap pemula, kamu akan dihadapi dengan banjirnya informasi yang akan bikin kamu merasa terlalu banyak yang harus dipelajari sekaligus. Tanamkan pemikiran "Ga semua yang di internet itu benar" kadang apa yang kita gugling belum tentu baik untuk diimplementasi ke kita juga. Jangan puas dari apa yang dituliskan disitu, tetaplah kritis bertanya.</p>
+<p>Hmmm.. Maka dari itu saya akan coba runut kan apa saja sebenernya yang bisa kamu pelajari di awal karir sebagai tester, kebanyakan materi yang saya bagikan nanti adalah buku ataupun online course (video), karena menurut saya ini adalah materi terbaik, dimana kamu belajar secara runut dan bertahap, tidak seperti dari posting blog ataupun stackoverflow result yang memiliki informasi tercecer dan langsung ke intinya.</p>
+<figure class="post__image post__image" ><img src="https://blog.fachrul.id/media/posts/4/adult-business-businessman-374820.jpg" alt="belajar yuk" width="5760" height="3840">
+<figcaption >source: <a href="https://www.pexels.com/photo/man-using-ballpoint-pen-374820/">https://www.pexels.com/photo/man-using-ballpoint-pen-374820/</a></figcaption>
+</figure>
 <h3 id="mcetoc_1d30lvdhv2">Rekomendasi materi belajar Software Quality</h3>
 <p>Disclaimer: ini subjektif pengalaman saya (@fahcrulCH) saja ya, mungkin tidak lengkap karena memang pengetahuan dan bacaan saya terbatas :) mohon informasinya apabila teman-teman punya referensi bagus, oh iya list ini pun akan sering saya update ketika menemukan sumber baru yang relevan</p>
-<ul>
-<li>Komunitas, karena belajar bareng-bareng lebih asyik (:
+<h4 id="mcetoc_1d31n0dcn0">Oke, kita mulai belajar dari mana nih?</h4>
+<p>Hmm sepengalaman saya, belajar bareng itu lebih asyik daripada belajar sendiri, maka dari itu kita harus join ke komunitas agar bisa interaksi tanya jawab juga dengan orang lain yang sudah pengalaman</p>
 <ul>
 <li>Indonesia Software Quality Assurance
 <ul>
@@ -46,55 +51,95 @@
 <li>Telegram <a href="https://t.me/sqa_id">https://t.me/sqa_id</a></li>
 </ul>
 </li>
+<li>Ministry of Testing 
+<ul>
+<li>forum: <a href="https://club.ministryoftesting.com/">https://club.ministryoftesting.com/</a></li>
+<li>pelatihan: <a href="https://www.ministryoftesting.com/dojo">https://www.ministryoftesting.com/dojo</a></li>
 </ul>
 </li>
+</ul>
+<h4 id="mcetoc_1d31n8dtj1">Saya sudah join di komunitas diatas, dan beberapa kesempatan juga sudah tanya ini-itu, lalu apa lagi?</h4>
+<p>Nah kali ini kita masuk ke pembelajaran bagaimana menjadi seorang tester yang mumpuni, tentu ada berbagai latihan untuk mengasah jurus-jurus jitu dalam menjaga dunia aplikasi tetap kondusif dan prima di user.</p>
+<ul>
 <li>Kursus online (yang gratis :)
 <ul>
-<li><a href="https://www.guru99.com/software-testing.html">guru99 - software testing</a></li>
+<li><a href="https://www.guru99.com/software-testing.html">guru99 - software testing</a> </li>
 <li><a href="https://www.guru99.com/agile-testing-course.html">guru99 - agile testing</a></li>
 <li><a href="https://www.guru99.com/mobile-testing.html">guru99 - mobile testing</a></li>
-<li><a href="https://www.udacity.com/course/software-analysis-testing--ud333">Software Analysis &amp; testing by Google</a> (video)</li>
+<li><a href="https://www.udacity.com/course/software-analysis-testing--ud333">Software Analysis &amp; testing by Google</a> (📹)</li>
+<li><a href="https://www.oreilly.com/library/view/agile-testing-essentials/9780134683287/">Agile testing essensial</a> (📹, 💵)</li>
 </ul>
 </li>
 <li>Rekomendasi buku testing:<br>
 <ul>
-<li><a href="https://leanpub.com/howtobeatester">How To Be A Tester</a> (gratis)</li>
+<li><a href="https://www.bukalapak.com/p/hobi-koleksi/buku/teknik/lqmmjr-jual-e-book-otomatisasi-pengujian-perangkat-lunak-atau-software-testing-automation?from=product_owner&amp;product_owner=normal_seller">Otomatisasi Pengujian Perangkat Lunak Atau Software Testing Automation </a> (📖, rekomendasi, penyusunan buku yang bagus dari konsep testing sampai membuat automation framework, berbahasa indonesia pula)</li>
+<li><a href="https://leanpub.com/howtobeatester">How To Be A Tester</a>  (📖, membahas cara penulis menjadi seorang tester secara kebetulan)</li>
+<li><a href="https://www.oreilly.com/library/view/more-agile-testing/9780133749571/">More agile testing</a> (💵, prinsip dari agile testing)</li>
 </ul>
 </li>
-<li>Rekomendasi Youtube channel:
+</ul>
+<p>Satu hal lagi, akan lebih baik kalo kamu mempersiapkan untuk mengambil sertifikasi ISTQB (mahal sih, tapi minimal memahami konsep nya), untuk belajar ISTQB bisa melalui:</p>
 <ul>
+<li><a href="https://www.oreilly.com/library/view/software-testing-/9781780172996/">Software Testing - An ISTQB-BCS Certified Tester Foundation guide</a> (📖, 💵 panduan mempelajari ISTQB yang bagus)</li>
+<li><a href="https://www.oreilly.com/library/view/advanced-software-testing/9781457189517/">Advanced Software Testing - Vol. 1</a> (📖, 💵 belajar lebih mendalam)</li>
+<li><a href="https://www.oreilly.com/library/view/software-testing-foundations/9781492001454/">Software Testing Foundations</a> (📖, 💵 konsep testing)</li>
+</ul>
+<h4 id="mcetoc_1d32dulk41">Sebenarnya saya males baca sih, ada cara lain buat belajar?</h4>
+<p>oke saya paham, memang cara belajar setiap orang bisa beda-beda, ada yang visual, audio, bahkan kinetik, ada sih beberapa hal rekomendasi untuk belajar selain membaca seperti:</p>
+<ul>
+<li>kursus testing
+<ul>
+<li><a href="https://www.idstb.org/training.html">Indonesia Software Testing Board (IDSTB)</a> ada bayak kursus dan ujian sertifikasi disini loh</li>
+</ul>
+</li>
+<li>podcast software testing
+<ul>
+<li><a href="https://testingpodcast.com/" rel="nofollow">Ragam testing podcast</a></li>
+<li><a href="https://joecolantonio.com/testtalks/" rel="nofollow">test talks</a> (favorit saya)</li>
+<li><a href="https://www.angryweasel.com/ABTesting/">AB testing</a> (ini juga bagus)</li>
+<li><a href="http://testinginthepub.co.uk/testinginthepub/" rel="nofollow">testinginthepub</a></li>
+<li><a href="https://soundcloud.com/ministryoftesting" rel="nofollow">ministry of testing</a></li>
+<li><a href="http://pythontesting.net/test-podcast" rel="nofollow">Python testing</a></li>
+</ul>
+</li>
+<li>video
+<ul>
+<li>T<a href="https://testautomationu.applitools.com/">est Automation University</a> (📹, kuliah gratis loh)</li>
+<li>Rekomendasi Youtube channel 📹:
+<ul>
+<li><a href="https://www.youtube.com/channel/UCO1aucBAJgFR8odzfXOZ5uw/featured">Sekolah Koding</a></li>
 <li><a href="https://www.youtube.com/channel/UCO1aucBAJgFR8odzfXOZ5uw/featured">Execute Automation</a></li>
-<li><a href="https://www.youtube.com/channel/UCpSPS5yLCxYRuZSrCx-eBjA">Sekolah Koding</a></li>
 <li><a href="https://www.youtube.com/channel/UCzUaF3G8L5rfoh9xR6a51kg">SauceLabs</a></li>
 </ul>
 </li>
 </ul>
+</li>
+</ul>
+<p>Tapi saran saya sih tetap mempelajari lewat buku, ga mesti harus full satu buku dibaca semua kok, kita bisa lihat daftar isi terus lompat ke topik yang paling menarik buat dipelajari, atau metode membaca secara scanning biar cepat, karena faktanya "too many books, so little time" </p>
 <h3 id="mcetoc_1d30m0aul3">Rekomendasi materi belajar Software Quality Engineer (QA Automation)</h3>
 <p>Materi berikut adalah pengembangan dari materi diatas (manual QA) dimana kamu sudah mulai familiar dengan exploratory testing dan mengerti apa yang harus di uji secara manual, lalu ingin mengembangkan karir menjadi seorang Software Quality Engineer / Software Development Engineer in Test (SDET)</p>
+<h4 id="mcetoc_1d31nihh32">Bagaimana menjadi Software Quality Engineer (SDET) ?</h4>
+<p>Emang udah lancar testing manual? kalo begitu mari kita belajar automation agar kita bisa mendelegasikan komputer untuk melakukan checking</p>
+<p>Oh iya, untuk menguasai automation, tentu kita harus bisa ngoding, minimal ngerti algoritma, percabangan, pengulangan, ya kurang lebih basic bahasa pemrograman dahulu, baru lanjut ke implementasi tools automation (yang umumnya ngoding script selenium)</p>
+<p>Konsep:</p>
 <ul>
-<li>Konsep:<br>
-<ul>
-<li><a href="https://leanpub.com/testingindevops">A Practical Guide to Testing in DevOps </a> (buku, gratis)</li>
-<li></li>
+<li><a href="https://leanpub.com/testingindevops">A Practical Guide to Testing in DevOps </a> (📖, tantangan testing di era devops)</li>
+<li><a href="https://testautomationu.applitools.com/setting-a-foundation-for-successful-test-automation/index.html">Setting a foundation for successful test automation</a> (📹, kuliah gratis)</li>
+<li><a href="https://www.oreilly.com/library/view/the-way-of/9781680502251/">The Way of the Web Tester</a> (📖, 💵 buku yang menyenangkan untuk di baca, banyak ilustrasi lucu juga)</li>
 </ul>
-</li>
-<li>Kursus pemrograman (jurus dasar koding):
+<p>Kursus pemrograman (jurus dasar koding):</p>
 <ul>
 <li><a href="http://codingdojo.org/">CodingDojo</a></li>
 <li><a href="https://www.sekolahkoding.com/" rel="nofollow">Sekolah koding</a></li>
 <li><a href="https://www.codepolitan.com/interactive-coding" rel="nofollow">Codepolitan</a></li>
 <li><a href="https://www.dicoding.com/" rel="nofollow">Dicoding</a></li>
 <li><a href="https://kelaskita.com/index/kategori/pemrograman/" rel="nofollow">KelasKita</a></li>
-</ul>
-</li>
-<li>Buku pemrograman (gratis):
-<ul>
-<li><a href="https://books.goalkicker.com">Berbagai bahasa pemrograman </a></li>
+<li><a href="https://books.goalkicker.com">Buku menguasai berbagai bahasa pemrograman </a> </li>
 <li><a href="https://github.com/EbookFoundation/free-programming-books">Repo sumber bahasa pemrograman</a></li>
 </ul>
-</li>
-<li>Belajar automation:
+<p>Automation tools:</p>
 <ul>
+<li><a href="https://www.oreilly.com/library/view/selenium-fundamentals/9781789804638/">Selenium Fundamentals</a></li>
 <li>TDD/Unit test:<br>
 <ul>
 <li><a href="https://learntdd.in/">Learn TDD</a> (tdd backend, frontend. gratis)</li>
@@ -107,15 +152,32 @@
 </li>
 <li>Automation REST API/Web service:
 <ul>
-<li><a href="https://leanpub.com/testrestapi">Automation REST API</a> (buku, berbayar)</li>
-<li><a href="https://www.youtube.com/watch?v=TeAU1n9UspI&amp;list=PL6tu16kXT9PpgqfMbMdzUzDenYgb0gbk0">API testing with RestAssured</a> (youtube, gratis)</li>
+<li><a href="https://leanpub.com/testrestapi">Automation REST API</a> (📖, berbayar)</li>
+<li><a href="https://www.youtube.com/watch?v=TeAU1n9UspI&amp;list=PL6tu16kXT9PpgqfMbMdzUzDenYgb0gbk0">API testing with RestAssured</a> (📹, gratis)</li>
+<li><a href="https://testautomationu.applitools.com/exploring-service-apis-through-test-automation/index.html">Exploring service apis through test automation</a> (📹, gratis)</li>
 </ul>
 </li>
-<li>Terkait server/devops:</li>
+<li>Mobile app automation</li>
+<li>Terkait server/devops:
+<ul>
+<li><a href="https://testautomationu.applitools.com/scaling-tests-with-docker/index.html">Scaling Tests with Docker</a> (📹, gratis)</li>
+</ul>
+</li>
+<li>Advance Testing:
+<ul>
+<li>Performance testing</li>
+<li>Security testing</li>
+<li>Testing documentation</li>
 </ul>
 </li>
 </ul>
-<p> </p>
+<h4 id="mcetoc_1d31o7bn67"> Mantap, saya sudah menguasai kebanyakan tools diatas, bahkan sekarang saya sudah memimpin tim QA loh, adakah yang bisa saya pelajari lagi?</h4>
+<p>Wuiih hebat, tentu ada, jangan berhenti belajar ya, karena tidak tahu belajar apa artinya stagnan, maka dari itu yuk kita pelajari lebih jauh bagaimana mengatur tim kita.</p>
+<ul>
+<li><a href="https://www.oreilly.com/library/view/the-expert-test/9781492018742/">The Expert Test Manager </a> (📖, 💵)</li>
+<li><a href="https://www.safaribooksonline.com/library/view/optimizing-selenium-test/9781788476522/">Optimizing Selenium Test Performance</a> (📹,💵)</li>
+<li><a href="https://www.safaribooksonline.com/library/view/design-a-selenium/9781789131048/">Design a Selenium Test Framework from Scratch-Architect level</a> (💵)</li>
+</ul>
             ]]>
         </content>
     </entry>
