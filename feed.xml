@@ -3,12 +3,122 @@
     <title>Celoteh FachrulCH</title>
     <link href="https://blog.fachrul.id/feed.xml" rel="self" />
     <link href="https://blog.fachrul.id" />
-    <updated>2019-02-06T07:40:11+07:00</updated>
+    <updated>2019-02-06T13:28:37+07:00</updated>
     <author>
         <name>@FachrulCH</name>
     </author>
     <id>https://blog.fachrul.id</id>
 
+    <entry>
+        <title>Saya Software Quality Tester baru, bagaimana cara saya memulai?</title>
+        <author>
+            <name>@FachrulCH</name>
+        </author>
+        <link href="https://blog.fachrul.id/saya-software-quality-tester-baru-bagaimana-cara-saya-memulai/"/>
+        <id>https://blog.fachrul.id/saya-software-quality-tester-baru-bagaimana-cara-saya-memulai/</id>
+            <category term="software-testing"/>
+
+        <updated>2019-02-06T13:27:42+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.fachrul.id/media/posts/4/angry-annoyed-cafe-52608.jpg" alt="pusing-belajar-qa" />
+                    <h2 id="mcetoc_1d30ltv460">Salam kenal</h2>
+<p>Hai.. Senang sekali mendengarnya, selamat datang di dunia yang penuh tantangan, saya bisa merasakan aroma penasaran dari kamu :) memang betul mempelajari software testing akan sangat menarik dan penuh lika-liku, tapi tenang saja kamu berada di sumber yang tepat.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://blog.fachrul.id/media/posts/4/angry-annoyed-cafe-52608.jpg" alt="pusing-belajar-qa" />
+                <h2 id="mcetoc_1d30ltv460">Salam kenal</h2>
+<p>Hai.. Senang sekali mendengarnya, selamat datang di dunia yang penuh tantangan, saya bisa merasakan aroma penasaran dari kamu :) memang betul mempelajari software testing akan sangat menarik dan penuh lika-liku, tapi tenang saja kamu berada di sumber yang tepat.</p>
+<hr>
+<h2 id="mcetoc_1d30lufqm1">Overdosis informasi</h2>
+<p>Dengan adanya internet seharusnya semua akan lebih mudah belajar dan cepat menguasainya, tapi nyatanya banyak juga loh artikel sampah yang malah bikin kamu bingung, apalagi dalam tahap pemula, kamu akan dihadapi dengan banjirnya informasi yang akan bikin kamu merasa terlalu banyak yang harus dipelajari sekaligus. Tanamkan pemikiran "Ga semua yang di internet itu benar" kadang apa yang kita gugling belum tentu baik untuk diimplementasi ke kita juga. Jangan puas dari apa yang dituliskan disitu, tetaplah kritis bertanya. Hmmm.. Maka dari itu saya akan coba runut kan apa saja sebenernya yang bisa kamu pelajari di awal karir sebagai tester.</p>
+<h3 id="mcetoc_1d30lvdhv2">Rekomendasi materi belajar Software Quality</h3>
+<p>Disclaimer: ini subjektif pengalaman saya (@fahcrulCH) saja ya, mungkin tidak lengkap karena memang pengetahuan dan bacaan saya terbatas :) mohon informasinya apabila teman-teman punya referensi bagus, oh iya list ini pun akan sering saya update ketika menemukan sumber baru yang relevan</p>
+<ul>
+<li>Komunitas, karena belajar bareng-bareng lebih asyik (:
+<ul>
+<li>Indonesia Software Quality Assurance
+<ul>
+<li>Meetup <a href="https://www.meetup.com/Indonesia-Software-Quality-Assurance/">https://www.meetup.com/Indonesia-Software-Quality-Assurance/</a></li>
+<li>Telegram <a href="https://t.me/sqa_id">https://t.me/sqa_id</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Kursus online (yang gratis :)
+<ul>
+<li><a href="https://www.guru99.com/software-testing.html">guru99 - software testing</a></li>
+<li><a href="https://www.guru99.com/agile-testing-course.html">guru99 - agile testing</a></li>
+<li><a href="https://www.guru99.com/mobile-testing.html">guru99 - mobile testing</a></li>
+<li><a href="https://www.udacity.com/course/software-analysis-testing--ud333">Software Analysis &amp; testing by Google</a> (video)</li>
+</ul>
+</li>
+<li>Rekomendasi buku testing:<br>
+<ul>
+<li><a href="https://leanpub.com/howtobeatester">How To Be A Tester</a> (gratis)</li>
+</ul>
+</li>
+<li>Rekomendasi Youtube channel:
+<ul>
+<li><a href="https://www.youtube.com/channel/UCO1aucBAJgFR8odzfXOZ5uw/featured">Execute Automation</a></li>
+<li><a href="https://www.youtube.com/channel/UCpSPS5yLCxYRuZSrCx-eBjA">Sekolah Koding</a></li>
+<li><a href="https://www.youtube.com/channel/UCzUaF3G8L5rfoh9xR6a51kg">SauceLabs</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="mcetoc_1d30m0aul3">Rekomendasi materi belajar Software Quality Engineer (QA Automation)</h3>
+<p>Materi berikut adalah pengembangan dari materi diatas (manual QA) dimana kamu sudah mulai familiar dengan exploratory testing dan mengerti apa yang harus di uji secara manual, lalu ingin mengembangkan karir menjadi seorang Software Quality Engineer / Software Development Engineer in Test (SDET)</p>
+<ul>
+<li>Konsep:<br>
+<ul>
+<li><a href="https://leanpub.com/testingindevops">A Practical Guide to Testing in DevOps </a> (buku, gratis)</li>
+<li></li>
+</ul>
+</li>
+<li>Kursus pemrograman (jurus dasar koding):
+<ul>
+<li><a href="http://codingdojo.org/">CodingDojo</a></li>
+<li><a href="https://www.sekolahkoding.com/" rel="nofollow">Sekolah koding</a></li>
+<li><a href="https://www.codepolitan.com/interactive-coding" rel="nofollow">Codepolitan</a></li>
+<li><a href="https://www.dicoding.com/" rel="nofollow">Dicoding</a></li>
+<li><a href="https://kelaskita.com/index/kategori/pemrograman/" rel="nofollow">KelasKita</a></li>
+</ul>
+</li>
+<li>Buku pemrograman (gratis):
+<ul>
+<li><a href="https://books.goalkicker.com">Berbagai bahasa pemrograman </a></li>
+<li><a href="https://github.com/EbookFoundation/free-programming-books">Repo sumber bahasa pemrograman</a></li>
+</ul>
+</li>
+<li>Belajar automation:
+<ul>
+<li>TDD/Unit test:<br>
+<ul>
+<li><a href="https://learntdd.in/">Learn TDD</a> (tdd backend, frontend. gratis)</li>
+</ul>
+</li>
+<li>Automation website: 
+<ul>
+<li><a href="https://www.guru99.com/selenium-tutorial.html">guru99 - selenium tutorial</a> (kursus online, gratis)</li>
+</ul>
+</li>
+<li>Automation REST API/Web service:
+<ul>
+<li><a href="https://leanpub.com/testrestapi">Automation REST API</a> (buku, berbayar)</li>
+<li><a href="https://www.youtube.com/watch?v=TeAU1n9UspI&amp;list=PL6tu16kXT9PpgqfMbMdzUzDenYgb0gbk0">API testing with RestAssured</a> (youtube, gratis)</li>
+</ul>
+</li>
+<li>Terkait server/devops:</li>
+</ul>
+</li>
+</ul>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Karir sebagai software quality assurance / tester itu keren banget!</title>
         <author>
