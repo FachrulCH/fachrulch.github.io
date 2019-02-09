@@ -1,0 +1,596 @@
+<!doctype html><html amp lang="en"><head><meta charset="utf-8"><title>Jangan Minder Kalau Kamu adalah Manual Tester yang Tidak Bisa Koding - Celoteh FachrulCH</title><meta name="description" content="Bagaimana mengasah keahlian dalam testing manual (quality assurance) sehingga lebih bernilai bagi tim"><meta name="robots" content="index, follow"><link rel="canonical" href="https://blog.fachrul.id/jangan-minder-kalau-kamu-adalah-manual-tester-yang-tidak-bisa-koding/"><meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"><link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css"><script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script><script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script><script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script><script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.fachrul.id/amp/jangan-minder-kalau-kamu-adalah-manual-tester-yang-tidak-bisa-koding/"},"headline":"Jangan Minder Kalau Kamu adalah Manual Tester yang Tidak Bisa Koding","datePublished":"2019-02-09T22:30","dateModified":"2019-02-09T22:30","image":{"@type":"ImageObject","url":"https://blog.fachrul.id/media/posts/5/board-broccoli-carrots-952478.jpg","height":3264,"width":4928},"description":"Saya pernah dengar istilah \"Asahlah pisau pada sisinya yang tajam\", artinya kita seharusnya fokus pada apa yang menjadi kelebihan yang dimiliki untuk menjadi lebih mahir lagi dalam hal tersebut. Untuk kamu yang pernah menonton Jiro: Dream of Sushi mungkin ada sedikit gambaran mengenai apa yang dinamakan spesialis,&hellip;","author":{"@type":"Person","name":"@FachrulCH"},"publisher":{"@type":"Organization","name":"@FachrulCH","logo":{"@type":"ImageObject","url":"https://blog.fachrul.id/media/website/tester-gadungan-icon.png","height":320,"width":320}}}</script><style amp-custom>article,
+aside,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block; }
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+amp-img {
+  max-width: 100%; }
+
+button,
+input,
+select,
+textarea {
+  font: inherit; }
+
+html {
+  font-size: 1rem; }
+
+body {
+  background: #f1f1f1;
+  color: #262626;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  line-height: 1.6; }
+
+a {
+  color:  #D40821;
+  text-decoration: none;
+  -webkit-transition: all 0.12s linear 0s;
+  -o-transition: all 0.12s linear 0s;
+  transition: all 0.12s linear 0s; }
+
+a:hover {
+  color: #262626;
+  text-decoration: underline;
+  -webkit-text-decoration-skip: ink;
+  text-decoration-skip: ink; }
+
+a:active {
+  color: #262626; }
+
+a:focus {
+  outline: 2px dotted #D40821; }
+
+figure,
+blockquote,
+p,
+ul,
+ol,
+dl,
+table,
+hr,
+fieldset {
+  margin-top: 1.6rem; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #262626;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 2.13333rem; }
+
+h1 {
+  font-size: 1.67583rem;
+  font-weight: normal; }
+
+h2 {
+  font-size: 1.4729rem; }
+
+h3 {
+  font-size: 1.29454rem; }
+
+h4 {
+  font-size: 1.13778rem; }
+
+h5 {
+  font-size: 1rem; }
+
+h6 {
+  font-size: 0.87891rem; }
+
+h2 + p,
+h3 + p,
+h4 + p,
+h5 + p,
+h6 + p {
+  margin-top: 0.8rem; }
+
+b,
+strong {
+  font-weight: 600; }
+
+blockquote {
+  color: #6c7175;
+  font-family: "Droid Serif", "Times", "Source Serif Pro", serif;
+  font-style: italic;
+  padding: 1.33333rem 0.53333rem 1.33333rem 3.2rem;
+  position: relative; }
+  blockquote:before {
+    display: block;
+    content: "\201C";
+    font-size: 4.41226rem;
+    position: absolute;
+    left: 0;
+    top: -12px;
+    color: rgba(108, 113, 117, 0.5); }
+  blockquote > :nth-child(1) {
+    margin-top: 0; }
+
+ul,
+ol {
+  margin-left: 2rem; }
+  ul > li,
+  ol > li {
+    list-style: inherit;
+    padding: 0 0 0.26667rem 0.26667rem; }
+
+dl dt {
+  color: #262626;
+  font-weight: 600; }
+
+code,
+pre {
+  background-color: #f1f1f1;
+  font-family: monospace; }
+
+pre {
+  margin: 1.6rem 0 0;
+  padding: 1.6rem;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-x: auto; }
+  pre > code {
+    color: #262626;
+    padding: 0; }
+
+code {
+  border-radius: 3px;
+  color: #262626;
+  padding: 0.26667rem 0.53333rem; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid #d4d4d4;
+  width: 100%;
+  overflow-x: auto;
+  vertical-align: top;
+  text-align: left;
+  white-space: nowrap; }
+  table th {
+    font-weight: 500;
+    padding: 0.53333rem 1.06667rem; }
+  table tr {
+    border-bottom: 1px solid #d4d4d4; }
+    table tr:nth-child(2n) {
+      background: #f1f1f1; }
+  table td {
+    padding: 0.53333rem 1.06667rem; }
+
+figcaption {
+  clear: both;
+  color: rgba(108, 113, 117, 0.6);
+  font-size: 0.82397rem;
+  margin: 0.8rem 0 0;
+  text-align: center; }
+
+sub,
+sup {
+  font-size: 65%; }
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+
+.btn, [type=button],
+[type=submit],
+button {
+  background: #D40821;
+  border: none;
+  border-radius: 2px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.87891rem;
+  font-weight: 500;
+  line-height: 1.9;
+  padding: 0.53333rem 1.33333rem;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: all .15s ease;
+  -o-transition: all .15s ease;
+  transition: all .15s ease;
+  width: auto; }
+  .btn:hover, [type=button]:hover,
+  [type=submit]:hover,
+  button:hover {
+    background: #262626;
+    color: #ffffff; }
+  .btn:focus, [type=button]:focus,
+  [type=submit]:focus,
+  button:focus {
+    outline: none; }
+  .btn-outline {
+    border: 1px solid #ddd;
+    background: #ffffff;
+    border-radius: 3px;
+    color: #262626; }
+
+[type=button],
+[type=submit],
+button {
+  text-transform: uppercase;
+  -webkit-appearance: none;
+  -moz-appearance: none; }
+
+.navbar {
+  background: #D40821;
+  -webkit-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
+  line-height: 3;
+  max-height: 4rem; }
+  .navbar > div {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: left;
+    max-width: 700px;
+    margin: 0 auto; }
+  .navbar a {
+    color: #ffffff;
+    text-decoration: none; }
+  .navbar-sidebar-toggle {
+    left: 0;
+    position: relative;
+    text-indent: -99999rem; }
+    .navbar-sidebar-toggle:before {
+      content: "";
+      display: block;
+      border-top: 0.375rem double #ffffff;
+      border-bottom: 0.125rem solid #ffffff;
+      height: 0.125rem;
+      position: absolute;
+      text-indent: 0;
+      top: 50%;
+      width: 1.3rem;
+      -webkit-transform: translate(0px, -50%);
+      -ms-transform: translate(0px, -50%);
+      transform: translate(0px, -50%); }
+
+
+.logo {
+                    background-image: url('https://blog.fachrul.id/media/website/tester-gadungan-icon.png');
+                    background-size: auto 2rem;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+            display: inline-block;
+  font-weight: 600;
+  line-height: 1;
+            margin: 0 auto;
+            height: 2rem;
+            text-indent: -9999px;
+            width: 240px;vertical-align: middle;
+        }
+        .logo.logo-text {
+            line-height: 2;
+            text-align: center;
+            text-indent: 0;
+        }
+
+amp-sidebar {
+  background: #ffffff;
+  width: 240px; }
+  amp-sidebar > ul {
+    margin: 0.8rem 0 0;
+    padding: 0; }
+    amp-sidebar > ul ul {
+      border-left: 1px solid #d4d4d4;
+      margin: 0.53333rem 0 0; }
+    amp-sidebar > ul li {
+      color: #262626;
+      font-size: 0.9375rem;
+      font-weight: 600;
+      list-style: none;
+      line-height: 1.4;
+      padding: 0.42667rem 1.06667rem; }
+      amp-sidebar > ul li li {
+        font-weight: normal;
+        padding: 0.26667rem 0 0.26667rem 1.06667rem; }
+    amp-sidebar > ul a,
+    amp-sidebar > ul a:visited {
+      color: #262626; }
+
+.bg-white {
+  background: #ffffff; }
+
+.wrap-page {
+  max-width: 700px;
+  margin: 0 auto; }
+
+@media all and (max-width: 43.6875em) {
+  .wrap-inner {
+    padding: 0 6%; } }
+
+.page-title {
+  background: #ffffff;
+  -webkit-box-shadow: 0 2px 3px rgba(38, 38, 38, 0.1);
+  box-shadow: 0 2px 3px rgba(38, 38, 38, 0.1);
+  margin-bottom: 0.8rem;
+  padding: 1.6rem 6%; }
+  .page-title > h1 {
+    margin: 0;
+    font-size: 1.29454rem; }
+  .page-title > p {
+    font-size: 0.87891rem;
+    color: #6c7175;
+    line-height: 1.3;
+    margin: 0.26667rem 0 0; }
+  .page-title-author {
+    border-radius: 50%;
+    float: left;
+    height: 2.5rem;
+    width: 2.5rem; }
+    .page-title-author + h1 {
+      margin-left: 3.5rem; }
+      .page-title-author + h1 + p {
+        margin-left: 3.5rem; }
+
+.card {
+  background: #ffffff;
+  -webkit-box-shadow: 0 2px 3px rgba(38, 38, 38, 0.1);
+  box-shadow: 0 2px 3px rgba(38, 38, 38, 0.1);
+  margin-bottom: 0.8rem;
+  padding-bottom: 1.06667rem; }
+
+  .card-meta {
+    border-top: 1px solid #d4d4d4;
+    color: rgba(108, 113, 117, 0.6);
+    font-size: 0.7242rem;
+    font-weight: 500;
+    margin-top: 1.06667rem;
+    padding-top: 1.06667rem;
+    text-transform: uppercase; }
+    .card-meta a + time:before {
+      content: "";
+      background: #d4d4d4;
+      display: inline-block;
+      height: 3px;
+      margin: 0 8px;
+      width: 3px;
+      vertical-align: middle;
+      border-radius: 50%; }
+  .card-text {
+    font-size: 0.9375rem;
+    overflow: hidden;
+    padding: 0 6%; }
+    .card-text h2 {
+      font-size: 1.13778rem; }
+
+.post {
+  margin-bottom: 2.13333rem; }
+  .post-featured-image {
+    margin-top: 0;
+    position: relative; }
+    .post-featured-image > figcaption {
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 3px;
+      color: #ffffff;
+      position: absolute;
+      bottom: 0.8rem;
+      padding: 0 0.26667rem;
+      right: 6%; }
+  .post-header {
+    margin-bottom: 2.13333rem; }
+  .post-meta {
+    border-bottom: 1px solid #d4d4d4;
+    color: rgba(108, 113, 117, 0.6);
+    font-size: 0.7242rem;
+    font-weight: 500;
+    margin-top: 1.06667rem;
+    padding-bottom: 1.06667rem;
+    text-transform: uppercase; }
+    .post-meta a + time:before {
+      content: "";
+      background: #d4d4d4;
+      display: inline-block;
+      height: 3px;
+      margin: 0 8px;
+      width: 3px;
+      vertical-align: middle;
+      border-radius: 50%; }
+  .post-tag {
+    margin: 0; }
+    .post-tag > li {
+      display: inline-block;
+      padding: 0; }
+      .post-tag > li a {
+        background: #f1f1f1;
+        border-radius: 2px;
+        color: #6c7175;
+        font-size: 0.77248rem;
+        display: inline-block;
+        margin: 0 0.26667rem 0.26667rem 0;
+        padding: 0.26667rem 0.53333rem; }
+        .post-tag > li a:hover {
+          background: #D40821;
+          color: #ffffff;
+          text-decoration: none; }
+  .post-share {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 1.6rem;
+    width: 100%; }
+    .post-share amp-social-share {
+      -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+      flex: 1 0 auto;
+      background-size: 24px; }
+  .post-scroll {
+    color: #ffffff;
+    background: #D40821;
+    bottom: 10px;
+    border-radius: 50%;
+    border: none;
+    -webkit-box-shadow: 0 1px 1.5px 0 rgba(38, 38, 38, 0.12), 0 1px 1px 0 rgba(38, 38, 38, 0.24);
+    box-shadow: 0 1px 1.5px 0 rgba(38, 38, 38, 0.12), 0 1px 1px 0 rgba(38, 38, 38, 0.24);
+    font-size: 1.13778rem;
+    height: 46px;
+    opacity: 0;
+    outline: none;
+    position: fixed;
+    padding: 0;
+    right: 4%;
+    visibility: hidden;
+    width: 46px;
+    z-index: 9999; }
+    .post-scroll-marker {
+      height: 0px;
+      position: absolute;
+      top: 100px;
+      width: 0px; }
+        .post-pagination {
+    background: #f1f1f1;
+    -webkit-box-shadow: inset 0 2px 3px rgba(38, 38, 38, 0.1);
+    box-shadow: inset 0 2px 3px rgba(38, 38, 38, 0.1);
+    border-top: 1px solid #d4d4d4;
+    padding: 1.06667rem 0; }
+    .post-pagination > div {
+      line-height: 1.2;
+      padding: 0.53333rem 1.06667rem;
+      text-align: center; }
+      .post-pagination > div span {
+        display: block;
+        color: #6c7175;
+        font-size: 0.7242rem;
+        font-weight: 500;
+        margin-bottom: 0.26667rem;
+        text-transform: uppercase; }
+    .post-pagination-prev a:before {
+      content: "\2190";
+      margin-right: 0.26667rem; }
+    .post-pagination-next a:after {
+      content: "\2192";
+      margin-left: 0.26667rem; }
+
+aside {
+  margin: 1.6rem 0 0; }
+
+.align-left {
+  text-align: left; }
+
+.align-right {
+  text-align: right; }
+
+.align-center {
+  text-align: center; }
+
+.align-justify {
+  text-align: justify; }
+
+.msg {
+  border-left: 2px solid transparent;
+  padding: 1.06667rem 1.06667rem; }
+  .msg--highlight {
+    background-color: #fff8e6;
+    border-color: #e2ac4f; }
+  .msg--info {
+    background: rgba(45, 97, 201, 0.03);
+    border-color: #D40821; }
+  .msg--success {
+    background: #f7fbf6;
+    border-color: #5ab44b; }
+  .msg--warning {
+    background: #fff3f3;
+    border-color: #c06367;
+    color: #a94442; }
+
+.dropcap:first-letter {
+  float: left;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 2.16943rem;
+  line-height: 0.7;
+  margin-right: 0.53333rem;
+  padding: 0.53333rem 0.53333rem 0.53333rem 0; }
+
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0.8rem 0; }
+  .pagination > a {
+    padding-left: 0;
+    padding-right: 0;
+    width: 49%; }
+  .pagination-right {
+    margin-left: auto; }
+
+.bottom {
+  background: #D40821;
+  color: #ffffff;
+  padding: 1.06667rem 4%;
+  text-align: center; }</style><style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript><script async src="https://cdn.ampproject.org/v0.js"></script><script custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js" async></script><script custom-element="amp-position-observer" src="https://cdn.ampproject.org/v0/amp-position-observer-0.1.js" async></script></head><body class="bg-white"><nav class="navbar wrap-inner" id="top"><div><a on="tap:navbar-sidebar.toggle" class="navbar-sidebar-toggle" title="Menu">Menu</a> <a class="logo" href="https://blog.fachrul.id/amp">Celoteh FachrulCH</a></div></nav><main class="wrap-page"><article class="post"><figure class="post-featured-image"><amp-img src="https://blog.fachrul.id/media/posts/5/board-broccoli-carrots-952478.jpg" alt="" srcset="https://blog.fachrul.id/media/posts/5/responsive/board-broccoli-carrots-952478-xs.jpg 300w ,https://blog.fachrul.id/media/posts/5/responsive/board-broccoli-carrots-952478-sm.jpg 480w ,https://blog.fachrul.id/media/posts/5/responsive/board-broccoli-carrots-952478-md.jpg 768w" sizes="(max-width: 768px) 100vw, 768px" height="3264" layout="responsive" width="4928"></amp-img><figcaption>Photo by Lukas from Pexels</figcaption></figure><div class="wrap-inner"><header class="post-header"><h1>Jangan Minder Kalau Kamu adalah Manual Tester yang Tidak Bisa Koding</h1><p class="post-meta">By <a href="https://blog.fachrul.id/amp/authors/fachrulch/" rel="nofollow" title="@FachrulCH">@FachrulCH</a> <time datetime="2019-02-09T22:30">9 Feb 2019</time></p></header><p>Saya pernah dengar istilah <strong>"Asahlah pisau pada sisinya yang tajam"</strong>, artinya kita seharusnya fokus pada apa yang menjadi kelebihan yang dimiliki untuk menjadi <strong>lebih mahir</strong> lagi dalam hal tersebut. Untuk kamu yang pernah menonton <em>Jiro: Dream of Sushi</em> mungkin ada sedikit gambaran mengenai apa yang dinamakan spesialis, dunia sebenarnya membutuhkan lebih banyak orang yang sangat mahir pada suatu bidang daripada orang yang bisa banyak hal.</p><figure class="post__video"><amp-iframe layout="responsive" width="560" height="314" src="https://www.youtube.com/embed/I1UDS2kgqY8" allowfullscreen="allowfullscreen" data-mce-fragment="1"></amp-iframe></figure><p>Spesialis disini bukan berarti menyalahi konsep T shape loh ya, justru selaras dengan itu. kita bahas lebih jauh mengenai analogi film Jiro tadi, untuk menjadi pengusaha restoran Jepang yang sukses, Jiro tidak perlu menjual sushi enak dan ramen nikmat (keahlian horizontal), tetapi cukup menyajikan sushi paling spesial saja, nah konsep T shape disini adalah dalam konteks spesialis sushi, bukan makanan Jepang secara umum, selain Jiro piwai dalam meracik sushi dia menguasai proses pemilihan bahan baku sushi yang paling prima, dari beras, tuna, ataupun sayurannya dia memiliki standard yang tinggi, dia pun menguasai cara penyajian sushi yang baik dan indah, bahkan saya dengar dia menciptakan teknik khusus untuk bisa menjaga kesegaran telur ikan yang musiman, sepanjang tahun!</p><p>Pun begitu dengan dunia per-testing-an sedang gandrung dengan <em>automation engineer</em> yang mampu meracik kode untuk yang bisa menggerakkan komputer yang bisa melakukan pengecekan aplikasi menjadi otomatis, tanpa perlu dilakukan oleh manusia. Banyak sekali kolega saya yang dulunya manual tester kini berlomba-lomba mempelajari bahasa pemrograman agar bisa  mengendalikan komputer untuk menjadi mesin penguji otomatis, mulai dari lini automation test website, automation mobile app hingga ke pembuatan server CI/CD yang menjadikannya terintegrasi satu sama lain. </p><p>Lalu timbul lah stigma kalau manual tester sudah ketinggalan jaman, hari gini ga bisa koding tuh serasa terbelakang sekali saat disandingkan dengan automation engineers (test engineer / TE). padahal faktanya gak gitu juga keles :D . Quality Assurance (manual, yang tidak bisa koding) lalu menjadi Test engineer bukanlah bentuk dari "Evolusi" seorang tester, dua pekerjaan itu memiliki <strong>disiplin ilmu yang berbeda</strong>, ga semua orang suka ngoding, menatap text editor berwarna hitam bisa saja membuat orang mual-mual, seorang QA manual yang tidak bisa koding pun bisa saja memberikan dampak yang luarbiasa bernilai dalam menjaga kualitas aplikasi kita tetap prima.</p><p>Jadi jika kamu merasa kurang tertarik belajar koding, jangan dulu gusar, karena ada beberapa hal yang bisa menjadi senjata pamungkas manual tester, percayalah manusia lebih piawai dalam menguji, karena kita telah dianugerahi logika berfikir, perasaan akan estetika dan memiliki ide kreatif yang unlimited dalam menguji aplikasi yang di test, ada beberapa hal berikut ini yang menurut saya bisa menjadi point-point andalan yang bisa kamu latih sebagai software quality assurance / analyst untuk tetap berperan aktif dalam meningkatkan kualitas produk kita, diantaranya:</p><hr><h2><figure class="post__image"><amp-img src="https://blog.fachrul.id/media/posts/5/action-plan-brainstorming-complex-212286.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://blog.fachrul.id/media/posts/5/responsive/action-plan-brainstorming-complex-212286-xs.jpg 300w ,https://blog.fachrul.id/media/posts/5/responsive/action-plan-brainstorming-complex-212286-sm.jpg 480w ,https://blog.fachrul.id/media/posts/5/responsive/action-plan-brainstorming-complex-212286-md.jpg 768w" alt="Photo by Startup Stock Photos from Pexels" width="5472" height="3648" layout="responsive"></amp-img></figure></h2><h2>Bug Buster</h2><h4>Menemukan lebih banyak bugs</h4><p>ini adalah tugas pokok dari seorang tester, biasanya manual tester lebih agresif dan usil dalam ngotak-ngatik aplikasinya, tidak seperti automation script yang sudah di buat alur pengujian nya sehingga komputer bisa meniru skenario yang mungkin dilakukan pengguna. Ketika komputer hanya bisa menguji hal sama yang sudah diprogram jangan terlalu berharap banyak kita menamukan bug baru yang berbeda, sesungguhnya manusia jauh lebih baik dalam menemukan bugs daripada mesin yang menguji hal yang sama berulang-ulang.</p><h4>Lebih cepat memberikan timbal balik</h4><p>Semua orang maunya dapat jawaban lebih cepat, saat ada build baru, programmer mau tau gimana fiturnya udah OK belum. Saat ngetest aplikasi/fitur baru tentu lebih baik diserahkan oleh manusia yang punya daya nalar dan karsa yang luar biasa, sehingga bisa mencari hal-hal apa saja yang diluar batas kewajaran. Sebenarnya komputer akan lebih baik jika melakukan test fitur yang dulu-dulu (regression test). Karena dalam kasus ini, aplikasi/fitur baru biasanya belum begitu stabil dan banyak perubahan tentu manual tester akan lebih cocok, sembari TE sedang menulis code baru untuk implementasi automationnya.</p><h4> </h4><hr><h2>Domain Knowledge</h2><p>Memahami bisnis proses adalah hal yang sangat berharga, mengetahui jawaban kenapa fitur ini ada? apakah memang ini yang user inginkan? relasi antar fitur, sangat membantu tim menemukan celah masalah yang mungkin timbul di kemudian hari, sehingga bisa menjaga tim untuk tetap men-deliver value berkualitas bagi user </p><h4>Pahami kebutuhan user</h4><p>Lihatlah cara user menggunakan aplikasi kamu, pelajari apa saja yang menjadi perhatian mereka, berempati terhadap pengguna aplikasi kita, bisa jadi pengguna kita adalah kakek-kakek yang gagap teknologi loh.</p><h4>Gimana kalau...</h4><p>Sebelum menghadiri design meeting ataupun sprint planing, kita bisa melakukan analisa lebih lanjut tentang requirement yang akan dikerjakan tim dair PO, apakah memang fitur ini dibutuhkan user? bagaimana dengan fitur A yang kemungkinan nyenggol nantinya? gimana kalo HP nya tiba-tiba mati/hilang sinyal/server down? gimana kalau gini,, gitu? jangan takut bertanya terkait fitur tersebut, bombardir tim dengan pertanyaan "gimana kalo", karena semakin banyak kita mendapatkan skenario perilaku user di kondisi tertentu maka akan sangat mengurangi ambuitas fitur tersebut</p><hr><h2>Technical Knowledge</h2><p>Pemahaman teknis itu penting sekali dalam konteks menginvestigasi masalah yang timbul, ngusilin aplikasi, troubleshooting, pelajari bagaimana sistem bekerja dalam rangka mencari kelemahan sistem secara lebih efektif, tidak perlu terlalu dalam.</p><p>Tetapi jangan sampai terjerat dengan sudut pandang teknis dari developer, karena terkadang seringkali ketika kita memahami kendala teknis yang timbul menjadikan tester malah kompromi dengan masalah yang timbul.</p><h4>Pelajari lebih jauh</h4><p>Baca buku/blog terkait testing, datangi meetup atau confrence, tonton rekaman webminar di youtube, temukanlah inspirasi untuk meningkatkan proses testing kamu, lakukan perubahan, jangan mau terjebak di rutinitas</p><hr><h2>Communication</h2><p>Kemampuan berkomunikasi adalah hal kritikal bagi tester, kita harus cakap dalam menyampaikan gagasan, dan mengajukan pertanyaan. Pahami apa yang bisnis mau dengan bertanya pada Product Owner, stakeholder, developer ataupun user sebenarnya, komunikasi disini tidak melulu soal bagaimana cara kita berbicara kepada orang lain, tetapi ahli juga dalam mendengarkan untuk mendapatkan pemahaman, sudut pandang lain secara menyeluruh.</p><p>Sampaikanlah hal-hal yang menjadi perhatian kamu untuk dibuatkan test automatis kepada automation engineer, atau bahkan tanyakan hal apa saja yang sulit di otomatisasi komputer sehingga kita bisa tutupi di pengujian manual, lalu Developers sebenarnya sangat senang ketika bertanya, seperti pertanyaan soal bagaimana implementasi fitur itu dibuat, dan titik lemah dari implementasi itu sehingga perlu di test secara detail dan teliti. dan tanyakan bagaimana mereka mengujinya.</p><h4>Lebih informatif</h4><p>Pahami bagaimana cara melaporkan permasalahan, jangan sampai ketika orang lain baca tiket issue/bug kita mereka mengernyitkan dahi dan bertanya langsung ke kamu, ketika developer bertanya berkali-kali ke kamu soal laporan bug, artinya ada waktu yang terbuang, waktu kamu untuk mejelaskan langsung, dan waktu dev untuk memahami maksud kamu. maka dari itu, sangat penting sekali untuk menuliskan detail permasalah saat menemukan bug. cantumkanlah hal-hal informatif seperti: software version, environment, deskripsi permasalahan dari sisi user, cara reproduce masalah itu, dan tester yang baik akan memberikan informasi dengan jelas bagaimana seharusnya itu tidak terjadi dan harapannya.</p><p>idealnya kamu bisa melakukan investigasi ala Sherlock Holmes dari hulu-hilir untuk menemukan tersangka penyebabnya</p><hr><h2>Organization</h2><p>Mengatur prioritas, membuat rencana dan keahlian multitasking sangat erat dengan pekerjaan sehari-hari tester, sehingga seringkali dianggap remeh oleh orang lain sampai mengira testing selalu memerlukan waktu lama sampai selesai.</p><h4>Bantu test engineer</h4><p>Kamu bukanlah orang yang mahir koding, jadi jangan terlalu memaksakan mempelajari automation framework, lebih baik kolaborasi dengan test engineer untuk bisa merancang pola otomatisasi pengecekan yang baik dan efisien, sampaikan skenario mana yang sering dijalankan, dan membosankan untuk di test manual, oh ya, jangan lupa juga berikan pula pemahaman sudut pandang dari segi bisnis ke tim engineer (developer juga termasuk)</p><hr><h2>Emotions</h2><p>Sebagai tester sudah tentu kita akan terlibat dengan banyak orang, dari mulai PO, Dev, Stakeholder, bahkan user. kita harus pintar membaca karakter orang lain, sedasng dalam keadaan mood seperti apa, sehingga bisa menggunakan gaya komunikasi yang cocok</p><hr><h2>Critical Thinking</h2><p>Berfikir kritis diperlukan untuk mencari celah masalah aplikasi. Memperhatikan detail yang timbul, mungkin tidak tampak dari luar, sehingga perlu dibongkar lebih dalam, menyambungkan titik-titik sambungan antar fitur sehingga melahirkan kombinasi baru yang belum dijaga by sistem.</p><h4>Latihan berfikir kritis</h4><p>Kita banyak insatal aplikasi di device kita, pernahkan kita berfikir "kok gini sih fiturnya" atau bahkan kita sering menemukan bugs saat penggunaan nya? latih terus daya kreatif kita dalam menggunakan aplikasi orang lain, dan bagaimana seharusnya fitur itu menjadi lebih baik, tester yang bagus biasanya tidak cepat puas</p><hr><p>Jadi pada intinya tidak ada yang saling menggantikan, robot belum bisa menggantikan manusia dalam test, kuncinya adalah saling bersinergi antara manual dan automation tester, karena saling memiliki sisi tajam nya masing-masing, dan tujuan akhirnya adalah "Don't find bugs, prevent bugs!"</p><h4> </h4><h4> </h4><h4> </h4><aside><ul class="post-tag"><li><a href="https://blog.fachrul.id/amp/celoteh/software-testing/">software-testing</a></li></ul><div class="post-share"><amp-social-share type="system" width="40" height="40" data-param-text="Jangan Minder Kalau Kamu adalah Manual Tester yang Tidak Bisa Koding"></amp-social-share><amp-social-share type="facebook" width="40" height="40" data-param-app_id="" data-param-text="Jangan Minder Kalau Kamu adalah Manual Tester yang Tidak Bisa Koding" data-param-href="https://blog.fachrul.id/amp/jangan-minder-kalau-kamu-adalah-manual-tester-yang-tidak-bisa-koding/"></amp-social-share><amp-social-share type="twitter" width="40" height="40" data-param-text="Jangan Minder Kalau Kamu adalah Manual Tester yang Tidak Bisa Koding" data-param-url="https://blog.fachrul.id/amp/jangan-minder-kalau-kamu-adalah-manual-tester-yang-tidak-bisa-koding/"></amp-social-share><amp-social-share type="whatsapp" width="40" height="40" data-param-text="Jangan Minder Kalau Kamu adalah Manual Tester yang Tidak Bisa Koding"></amp-social-share></div></aside></div></article><nav class="post-pagination wrap-inner"><div class="post-pagination-prev"><span>Previous Post</span> <a href="https://blog.fachrul.id/amp/saya-software-quality-tester-baru-bagaimana-cara-saya-memulai/">Saya Software Quality Tester baru, bagaimana cara saya memulai?</a></div></nav></main><amp-animation id="showAnim" layout="nodisplay"><script type="application/json">{
+                    "duration": "200ms",
+                    "fill": "both",
+                    "iterations": "1",
+                    "direction": "alternate",
+                    "animations": [{
+                        "selector": ".post-scroll",
+                        "keyframes": [{
+                            "opacity": "1",
+                            "visibility": "visible",
+                            "transform": "scale(1)"
+                        }]
+                    }]
+                }</script></amp-animation><amp-animation id="hideAnim" layout="nodisplay"><script type="application/json">{
+                    "duration": "200ms",
+                    "fill": "both",
+                    "iterations": "1",
+                    "direction": "alternate",
+                    "animations": [{
+                        "selector": ".post-scroll",
+                        "keyframes": [{
+                            "opacity": "0",
+                            "visibility": "hidden",
+                            "transform": "scale(0.1)"
+                        }]
+                    }]
+                }</script></amp-animation><div class="post-scroll-marker"><amp-position-observer on="enter:hideAnim.start; exit:showAnim.start" layout="nodisplay"></amp-position-observer></div><button class="post-scroll" on="tap:top.scrollTo(duration=200)">&#8593;</button><footer class="bottom">"Ikatlah ilmu dengan menulisnya"</footer><amp-sidebar id="navbar-sidebar" layout="nodisplay"><ul><li><a href="https://blog.fachrul.id/amp/celoteh/software-testing/">Software Testing</a></li><li><a href="https://blog.fachrul.id/amp/saya-software-quality-tester-baru-bagaimana-cara-saya-memulai/">Belajar Testing</a></li><li><a href="https://blog.fachrul.id/amp/celoteh/tutorials/">Tutorials</a></li><li><a href="https://about.me/fachrul">About Me</a></li></ul></amp-sidebar><amp-analytics type="googleanalytics" id="analytics1"><script type="application/json">{
+            "vars": {
+                "account": "UA-133827625-1"
+            },
+            "triggers": {
+                "trackPageview": {
+                    "on": "visible",
+                    "request": "pageview"
+                }
+            }
+        }</script></amp-analytics></body></html>
