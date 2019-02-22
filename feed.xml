@@ -3,7 +3,7 @@
     <title>Celoteh FachrulCH</title>
     <link href="https://blog.fachrul.id/feed.xml" rel="self" />
     <link href="https://blog.fachrul.id" />
-    <updated>2019-02-22T07:51:33+07:00</updated>
+    <updated>2019-02-22T07:54:16+07:00</updated>
     <author>
         <name>Fachrul Choliluddin</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://blog.fachrul.id/kiat-sukses-dalam-membuat-automation-test-solution/"/>
         <id>https://blog.fachrul.id/kiat-sukses-dalam-membuat-automation-test-solution/</id>
 
-        <updated>2019-02-22T07:51:28+07:00</updated>
+        <updated>2019-02-22T07:54:10+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.fachrul.id/media/posts/8/pexels-photo-1020325.jpeg" alt="membuat otomasi test" />
@@ -27,11 +27,13 @@
         <content type="html">
             <![CDATA[
                     <img src="https://blog.fachrul.id/media/posts/8/pexels-photo-1020325.jpeg" alt="membuat otomasi test" />
-                <p>Tidak sulit membayangkan manfaat dari memiliki test yang sudah di-otomatisasi (<em>automated</em>) yang membantu proses pengujian aplikasi karena dengan adanya pengujian otomatisasi akan membuat <em>feedback</em> menjadi jauh lebih cepat, meningkatkan <em>test coverage</em>, dan eksekusi test yang sering dan berulang, itu adalah sedikit-banyak manfaat dari <em>automated testing</em>. Seiring waktu, fitur yang ada pada sistem akan terus bertambah, QA akan melakukan pengujian mulai dari sistem/fitur yang sudah ada ditambah dengan sistem baru yang sedang dikembangkan.</p>
+                <p class="dropcap">Tidak sulit membayangkan manfaat dari memiliki test yang sudah di-otomatisasi (<em>automated</em>) yang membantu proses pengujian aplikasi karena dengan adanya pengujian otomatisasi akan membuat <em>feedback</em> menjadi jauh lebih cepat, meningkatkan <em>test coverage</em>, dan eksekusi test yang sering dan berulang, itu adalah sedikit-banyak manfaat dari <em>automated testing</em>. Seiring waktu, fitur yang ada pada sistem akan terus bertambah, QA akan melakukan pengujian mulai dari sistem/fitur yang sudah ada ditambah dengan sistem baru yang sedang dikembangkan.</p>
 <p>Dengan adanya otomasi test (<em>test automation</em>), diharapkan baban QA menjadi ringan dalam menjalankan <em>regression test</em> yang sama berulang kali, tentu ini akan menghemat waktu QA sehingga bisa fokus ke lain hal yang memiliki <em>impact</em> yang besar dalam menjaga kualitas <em>software</em> yang baik</p>
 <hr>
 <p>Jika pengujian otomatis sudah dibuat dengan benar, seharusnya ia akan sangat menguntungkan bagi tim <em>development</em> secara keseluruhan, saya akan coba membagikan kiat dalam membuat otomasi test yang baik dan berguna, kemudian hal-hal apa saja yang harus dihindari saat membuat rangkaian pengujian otomatis ini, karena kita harus realistis, tidak semua bisa di otomatisasi komputer, ada batasan-batasan yang harus tetap di perhatikan</p>
-<p><img class="post__image--center" src="https://blog.fachrul.id/media/posts/8/pexels-photo-1020325.jpeg" alt="" width="401" height="305"> </p>
+<figure class="post__image post__image--center" ><img src="https://blog.fachrul.id/media/posts/8/pexels-photo-1020325.jpeg" width="401" height="305">
+<figcaption >Membuat Robot</figcaption>
+</figure>
 <h2 id="mcetoc_1d4995dar0">Manual vs Automated atau Testing vs Checking</h2>
 <p>Harap dihindari membanding-bandingkan dua hal ini, antara manual dengan <em>automated testing</em>, karena keduanya memiliki fungsi yang berbeda dan saling membutuhkan. Ada yang bilang <span style="text-decoration: underline;"><em>Testing = Checking + Thinking,</em></span> sehingga selayaknya disebut <strong><em>automated checking</em></strong> bukan disebut<em><strong> automated test / test automation</strong></em>, karena ia adalah pengujian berdasarkan fakta, tapi buat saya sih lebih lumrah orang lain bilang "<strong>testing</strong>" sih ya ahaha.</p>
 <p>Selama <em>manual testing</em>, sisi perasaan dan nalar dari seorang <em>tester</em> akan sangat diperlukan dalam mencari titik lemah dan potensi masalah yang akan ditimbulkan dari sistem, dan seringkali proses ini tidak tidak tertulis di rencana pengujian (e<em>xploratory testing</em>) karena <em>tester</em> beradaptasi dengan hasil dari proses <em>testing</em> sehingga perlu improvisasi dalam "mengusili" aplikasi.</p>
@@ -85,12 +87,13 @@
 <p>Jika automated test ini sering kali flaky (intermittent error), lambat dan tidak transparan, bagaimana bisa  memberikan indikasi kualitas sistem sedangkan automated test nya saja tidak berkualitas baik dan stabil.</p>
 <p> </p>
 <hr>
-<h2 id="mcetoc_1d49at98l0"><img class="post__image--center" src="https://blog.fachrul.id/media/posts/8/pexels-photo-1068523-1.jpeg" alt="" width="498" height="326"></h2>
-<h2 id="mcetoc_1d49a1d6qa">Penutup</h2>
+<figure class="post__image post__image--center" ><img src="https://blog.fachrul.id/media/posts/8/pexels-photo-1068523-1.jpeg" width="498" height="326">
+<figcaption >we are a team</figcaption>
+</figure>
 <p>Rangkaian pengujian otomatis ini perlu dirawat layaknya mahluk hidup, ia terus berkembang dari waktu ke waktu, ada kalanya test tertentu sudah tidak relevan, jangan takut untuk mencopot test yang seringkali fail atau tidak memberikan hasil yang konsisten demi menjaga kredibilitas dari test automation solution kita sebagai indikator dari kualitas aplikasi/sistem.</p>
 <p>Dengan mengerti batasan diatas, menurut saya peran manusia tetap berperan penting dalam proses pengujian belum bisa digantikan sepenuhnya oleh otomasi komputer, lebih ke kolaborasi dengan adanya bantuan komputer untuk menjalankan pengujian otomatis akan membantu QA untuk bisa lebih luang dan bisa lebih fokus untuk melakukan exploratory testing untuk lebih banyak mengali risiko, dan defects</p>
 <p> </p>
-<p><strong>Hmm sepertinya itu saja, ada tambahan kah dari teman-teman?</strong></p>
+<p class="msg msg--info"><strong>Hmm sepertinya itu saja, ada tambahan kah dari teman-teman?</strong></p>
             ]]>
         </content>
     </entry>
