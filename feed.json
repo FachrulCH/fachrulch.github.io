@@ -11,6 +11,20 @@
     },
     "items": [
         {
+            "id": "https://blog.fachrul.id/today-i-learn-april-2019/",
+            "url": "https://blog.fachrul.id/today-i-learn-april-2019/",
+            "title": "Today I learn: April 2019",
+            "summary": "22/04/2019: Bagaimana cara debug HTTP request?gimana cara kita tau ada yang salah di HTTP request kita sampe return error 400 Bad request. kalo bikin API request pake postman sih gampang, buat liat request yang dibuat udah bener apa ngak, tinggal buka developer console di postman&hellip;",
+            "content_html": "<h2 id=\"mcetoc_1d9chu9gg0\">22/04/2019: Bagaimana cara debug HTTP request?</h2>\n<p>gimana cara kita tau ada yang salah di HTTP request kita sampe return error 400 Bad request. kalo bikin API request pake postman sih gampang, buat liat request yang dibuat udah bener apa ngak, tinggal buka developer console di postman nya, kita bisa inspect request-response nya, tapi akan sangat sulit kalo kita bikin request ini programatically pake bahasa pemrograman, karena request nya sekejap aja langsung?</p>\n<p>Solusinya:</p>\n<p><code>ruby -rsocket -e \"trap('SIGINT') { exit }; Socket.tcp_server_loop(8080) { |s,_| puts s.readpartial(1024); puts; s.puts 'HTTP/1.1 200'; s.close }</code></p>\n<p>kode diatas akan buat program kecil via ruby yang akan listen port 8080, kita bisa hit http://localhost:8080 buat lihat apakah request kita sudah benar</p>\n<p><img class=\"post__image\" src=\"https://blog.fachrul.id/media/posts/12/Screen-Shot-2019-04-26-at-17.14.00.png\" alt=\"\" width=\"2010\" height=\"580\"></p>\n<p>sumber: <a href=\"https://www.rubyguides.com/2018/08/ruby-http-request/\">https://www.rubyguides.com/2018/08/ruby-http-request/</a></p>\n<hr>\n<h2 id=\"mcetoc_1d9ciakd00\"> 26/05/2018: Cara biar Cucumber Ruby ga langsung fail ketika assert / expect</h2>\n<p> klo pake expect biasanya tiap ga terpenuhi langsung error, nah padahal kan bisa jadi di halaman itu kita perlu banyak cek sekaligus, biar sekalian dibenerin gitu. gimana caranya?</p>\n<p><code>aggregate_failures \"testing response\" do<br>  expect(response.status).to eq(200)<br>  expect(response.headers[\"Content-Type\"]).to eq(\"application/json\")<br>  expect(response.body).to eq('{\"message\":\"Success\"}')<br> end</code></p>\n<p>sumber: <a href=\"https://www.rubydoc.info/github/rspec/rspec-expectations/RSpec%2FMatchers:aggregate_failures\">https://www.rubydoc.info/github/rspec/rspec-expectations/RSpec%2FMatchers:aggregate_failures</a> </p>",
+            "author": {
+                "name": "Fachrul Choliluddin"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-04-26T17:15:39+07:00",
+            "date_modified": "2019-04-26T17:20:04+07:00"
+        },
+        {
             "id": "https://blog.fachrul.id/sebuah-refleksi-diri-apakah-saya-sudah-berusaha-dengan-sungguh-menjadi-muslim-yang-baik/",
             "url": "https://blog.fachrul.id/sebuah-refleksi-diri-apakah-saya-sudah-berusaha-dengan-sungguh-menjadi-muslim-yang-baik/",
             "title": "Sebuah Refleksi Diri, Apakah Saya Sudah Berusaha dengan Sungguh Menjadi Muslim yang Baik?",
