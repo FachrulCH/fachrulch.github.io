@@ -3,7 +3,7 @@
     <title>Celoteh Quality Software Development Engineer in Test - Agile Testing, Selenium, Appium, Ruby</title>
     <link href="https://blog.fachrul.id/feed.xml" rel="self" />
     <link href="https://blog.fachrul.id" />
-    <updated>2019-05-17T23:27:06+07:00</updated>
+    <updated>2019-05-17T23:37:38+07:00</updated>
     <author>
         <name>Fachrul Choliluddin</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://blog.fachrul.id/kiat-memilih-bahasa-pemrograman-untuk-automation-test/"/>
         <id>https://blog.fachrul.id/kiat-memilih-bahasa-pemrograman-untuk-automation-test/</id>
 
-        <updated>2019-05-19T06:00:00+07:00</updated>
+        <updated>2019-05-17T23:37:32+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.fachrul.id/media/posts/15/artificial-intelligence-machine-machine-learning-185725.jpg" alt="" />
@@ -45,6 +45,15 @@
 <ul>
 <li>Pilih tools atau library yang mudah dipelajari, bisa dari dokumentasi resminya, komunitas, ataupun banyak bertebaran artikel ketika di gugling</li>
 <li>Lihat apakah tools tersebut ada rutin rilis feature, jangan gunakan tools yang sudah ditinggalkan dan tidak ada rilis lagi kedepannya, contohnya seperti calabash</li>
+<li>Hal-hal teknis yang perlu diperhatikan juga seperti:
+<ul>
+<li>Library sudah stabil dan aktif dikembangkan, bisa mengikuti rilis selenium misalkan</li>
+<li>Kemampuan unique test runner nya seperti junit, testNG, rspec</li>
+<li>Bagaimana scalable test nya nanti, bisa mudah di buat parallel</li>
+<li>Penulisan kode yang elegan</li>
+<li>Mudah dan fleksibel saat dijalankan lewat command line </li>
+</ul>
+</li>
 <li>Pelajari yang paling mudah dan pahami konsep automation nya, bisa mulai dari Katalon Studio (tapi untuk jangka panjang, saran saya jangan gunakan recordernya)</li>
 <li>Jika sudah paham katalon studio dengan kemudahan graphical user interface nya, dan paham bagaimana automation bekerja (selector, interaction, expectation/assertion) coba pelajari automation dengan code langsung</li>
 <li>Jika automation website saya akan memilih ruby dengan capybara nya (bisa pakai cucumber juga)</li>
