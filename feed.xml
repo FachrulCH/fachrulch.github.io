@@ -1,35 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Celoteh Quality Software Development Engineer in Test - Agile Testing, Selenium, Appium, Ruby</title>
-    <link href="https://blog.fachrul.id/feed.xml" rel="self" />
-    <link href="https://blog.fachrul.id" />
-    <updated>2019-05-17T23:37:38+07:00</updated>
+    <title>Celotehan Quality Software Development Engineer in Test - Agile Testing, Selenium, Appium, Ruby</title>
+    <link href="https://fachrul.id/feed.xml" rel="self" />
+    <link href="https://fachrul.id" />
+    <updated>2019-05-20T05:41:46+07:00</updated>
     <author>
         <name>Fachrul Choliluddin</name>
     </author>
-    <id>https://blog.fachrul.id</id>
+    <id>https://fachrul.id</id>
 
+    <entry>
+        <title>About Fachrul Choliluddin</title>
+        <author>
+            <name>Fachrul Choliluddin</name>
+        </author>
+        <link href="https://fachrul.id/about-fachrulch/"/>
+        <id>https://fachrul.id/about-fachrulch/</id>
+
+        <updated>2019-05-20T05:41:36+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://fachrul.id/media/posts/1/whois-fachrulch.png" alt="medali" />
+                     Hello Internet, I'm Fachrul Choliluddin, you can call me Alul, I'm an experience Information Technology Quality Assistance, help the team to produce high quality software, efficiently and preventing bugs before they are written. Strong professional in testing web desktop, web service API, mobile web,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://fachrul.id/media/posts/1/whois-fachrulch.png" alt="medali" />
+                <p><img class="post__image--center" src="https://fachrul.id/media/posts/1/whois-fachrulch.png" alt="" width="1406" height="770"></p>
+<p>Hello Internet, <br><br>I'm Fachrul Choliluddin, you can call me Alul, I'm an experience Information Technology Quality Assistance, help the team to produce high quality software, efficiently and preventing bugs before they are written.<br><br>Strong professional in testing web desktop, web service API, mobile web, mobile app using Cucumber ruby, java, postman / newman, restassured, and appium.<br><br>As a leader of Quality Assistance, I'm coaching development team for implemented a change inour quality process, moving away from the traditional ‘Quality Assurance’ model and insteadadopting a ‘Quality Assistance’ approach, ensuring that the software and features we ship toour customers is always to the highest quality levels we can reasonably achieve.<br><br>You can reach me anytime at:<br><br>Email: hai.fachrul[at]gmail[dot]com<br><br>LinkedIn: <a href="https://www.linkedin.com/in/fachrul/">https://www.linkedin.com/in/fachrul/</a> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Kiat memilih bahasa pemrograman untuk automation test</title>
         <author>
             <name>Fachrul Choliluddin</name>
         </author>
-        <link href="https://blog.fachrul.id/kiat-memilih-bahasa-pemrograman-untuk-automation-test/"/>
-        <id>https://blog.fachrul.id/kiat-memilih-bahasa-pemrograman-untuk-automation-test/</id>
+        <link href="https://fachrul.id/kiat-memilih-bahasa-pemrograman-untuk-automation-test/"/>
+        <id>https://fachrul.id/kiat-memilih-bahasa-pemrograman-untuk-automation-test/</id>
 
         <updated>2019-05-17T23:37:32+07:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://blog.fachrul.id/media/posts/15/artificial-intelligence-machine-machine-learning-185725.jpg" alt="" />
+                        <img src="https://fachrul.id/media/posts/15/artificial-intelligence-machine-machine-learning-185725.jpg" alt="" />
                     Saya mau belajar automation testing, tapi saya sedikit bingung pilih bahasa pemrograman mana yang paling bagus untuk dipelajari?Satu hal yang harus dipahami, tidak ada yang namanya bahasa pemrograman paling bagus, lebih baik mencari yang "cocok" berdasarkan situasi dan lingkungan kita dan tim. Pilihan bahasa pemrograman itu tergantung&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://blog.fachrul.id/media/posts/15/artificial-intelligence-machine-machine-learning-185725.jpg" alt="" />
+                    <img src="https://fachrul.id/media/posts/15/artificial-intelligence-machine-machine-learning-185725.jpg" alt="" />
                 <h2 id="mcetoc_1db37j3n90">Saya mau belajar automation testing, tapi saya sedikit bingung pilih bahasa pemrograman mana yang paling bagus untuk dipelajari?</h2>
 <p>Satu hal yang harus dipahami, tidak ada yang namanya bahasa pemrograman paling bagus, lebih baik mencari yang "cocok" berdasarkan situasi dan lingkungan kita dan tim. Pilihan bahasa pemrograman itu tergantung pada <strong>kebutuhan</strong> dan <strong>selera</strong> aja sih kalo kata saya mah.</p>
-<figure class="post__image post__image" ><img src="https://blog.fachrul.id/media/posts/15/advice-colleagues-communication-1161465.jpg" alt="" width="1280" height="853">
+<figure class="post__image post__image" ><img src="https://fachrul.id/media/posts/15/advice-colleagues-communication-1161465.jpg" alt="" width="1280" height="853">
 <figcaption >Photo by <strong><a href="https://www.pexels.com/@rawpixel?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels">rawpixel.com </a></strong>from <strong><a href="https://www.pexels.com/photo/advice-business-colleagues-communication-1161465/?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels">Pexels</a></strong></figcaption>
 </figure>
 <h3 id="mcetoc_1db37lt7r4">Lingkungan</h3>
@@ -40,7 +63,7 @@
 <hr>
 <p><br>Berdasarkan pengalaman saya mempelajari automation ini (dalam konteks selenium) adalah dengan mencoba beberapa bahasa pemrograman langsung, misalkan saya pernah mencoba ruby, java, PHP, dan javaScript untuk membuat kerangka automation suatu website yang sama, banyak loh framework mature dan banyak dukungan dari komunitasnya seperti <a href="#INTERNAL_LINK#/post/null" title="https://github.com/teamcapybara/capybara">capybara</a> di ruby, <a href="#INTERNAL_LINK#/post/null" title="https://www.thucydides.info/">serenity</a> di java, <a href="#INTERNAL_LINK#/post/null" title="https://codeception.com/">codeception</a> di PHP, <a href="#INTERNAL_LINK#/post/null" title="https://robotframework.org/">robotframework</a> di python dan makin banyak lagi pilihan di javascript, bahkan yang sering menjadi topik hangat di komunitas <a href="#INTERNAL_LINK#/post/null" title="https://www.meetup.com/Indonesia-Software-Quality-Assurance/">ISQA</a> adalah <a href="#INTERNAL_LINK#/post/null" title="https://www.katalon.com/">Katalon Studio</a> dengan bahasa groovy nya.</p>
 <p>Sehingga kita bisa mempelajari ekosistem darisemua bahasa pemrograman dan framework tadi, pada akhirnya akan membuat kita menjadi lebih paham kekurangan kelebihan masing-masing dan menjadikan generalist yang lebih baik lagi.</p>
-<p><img class="post__image" src="https://blog.fachrul.id/media/posts/15/athletes-black-and-white-black-and-white-34514.jpg" alt="" width="640" height="427"></p>
+<p><img class="post__image" src="https://fachrul.id/media/posts/15/athletes-black-and-white-black-and-white-34514.jpg" alt="" width="640" height="427"></p>
 <p>Jika ingin langsung terjun mempelajari automation, mungkin saran saya adalah:</p>
 <ul>
 <li>Pilih tools atau library yang mudah dipelajari, bisa dari dokumentasi resminya, komunitas, ataupun banyak bertebaran artikel ketika di gugling</li>
@@ -68,32 +91,32 @@
         <author>
             <name>Fachrul Choliluddin</name>
         </author>
-        <link href="https://blog.fachrul.id/memecahkan-masalah-yang-sebenarnya/"/>
-        <id>https://blog.fachrul.id/memecahkan-masalah-yang-sebenarnya/</id>
+        <link href="https://fachrul.id/memecahkan-masalah-yang-sebenarnya/"/>
+        <id>https://fachrul.id/memecahkan-masalah-yang-sebenarnya/</id>
 
         <updated>2019-05-16T19:41:03+07:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://blog.fachrul.id/media/posts/14/accident-action-asphalt-6078-1.jpg" alt="" />
+                        <img src="https://fachrul.id/media/posts/14/accident-action-asphalt-6078-1.jpg" alt="" />
                     Mengapa kita mencoba menyelesaikan masalah yang salah?Pada umumnya, bekerja di dunia software development lebih sering berkecimpung dalam maintenance dari aplikasi tua yang sudah dibuat dari dulu oleh developer sebelumnya dan kita tinggal melanjutkannya saja. Jarang sekali (walaupun ada) kesempatan untuk memulai projek dari awal sekali,&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://blog.fachrul.id/media/posts/14/accident-action-asphalt-6078-1.jpg" alt="" />
+                    <img src="https://fachrul.id/media/posts/14/accident-action-asphalt-6078-1.jpg" alt="" />
                 <h2 id="mcetoc_1db09cunf0">Mengapa kita mencoba menyelesaikan masalah yang salah?</h2>
 <p>Pada umumnya, bekerja di dunia software development lebih sering berkecimpung dalam maintenance dari aplikasi tua yang sudah dibuat dari dulu oleh developer sebelumnya dan kita tinggal melanjutkannya saja. Jarang sekali (walaupun ada) kesempatan untuk memulai projek dari awal sekali, lebih sering malah menangani sistem lama yang akan diakhiri (sunset) atau sistem yang sedang terseok-seok, kebakaran dan perlu diselamatkan dengan memberikan peningkatan (scalable) agar bisa memenuhi kebutuhan bisnis pada saat ini. </p>
 <p>Tak heran programmer pemula yang kelimpahan kerjaan seperti ini seringkali ngomel-ngomel, memaki dalam hati karena penulis aslinya dulu yang tidak mampu membuat aplikasi dengan pengalaman terbaik (best practice) atau bisa fleksibel disesuaikan dengan kebutuhan bisnis dimasa depan.</p>
 <p>Padahal sesungguhnya, semakin lama saya bekerja dilingkungan teknologi, semakin saya menyadari, bahwa seringkali kebutuhan bisnis mengalahkan desain arsitektur paripurna, dengan dalih tenggat waktu yang mendesak, beban sumber daya, dan situasi pasar yang bergejolak.</p>
 <p>Kebutuhan bisnis ini hanya mentoleri selama aplikasi bisa menyelesaikan menjawab kebutuhan pasar dengan segera, tidak lebih.</p>
-<figure class="post__image post__image" ><img src="https://blog.fachrul.id/media/posts/14/accident-adult-battle-942560.jpg" alt="Photo by Denniz Futalan from Pexels" width="639" height="426">
+<figure class="post__image post__image" ><img src="https://fachrul.id/media/posts/14/accident-adult-battle-942560.jpg" alt="Photo by Denniz Futalan from Pexels" width="639" height="426">
 <figcaption >Photo by <strong><a href="https://www.pexels.com/@denniz-futalan-339724?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels">Denniz Futalan </a></strong>from <strong><a href="https://www.pexels.com/photo/silhouette-of-fireman-holding-hose-942560/?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels">Pexels</a></strong></figcaption>
 </figure>
 <p>Saat kita mengais puing-puing kode usang tapi masih bisa berfungsi, seringkali kita dibuat garuk-garung kepala, lalu tersenyum simpul melihat penampakan kode aneh bin ajaib muncul, seolah kita masuk ke lorong waktu dan mengenal betul penulis aslinya, kita bisa tahu kapan masanya si empunya ini sedang gandrung metode MVC, lalu berlanjut dengan gaya functional yang mulai populer, dan perubahan gaya kode kekinian lain sebagainya. Kita harus bisa sekreatif mungkin menjaga kode warisan (legacy codebase) ini agar tetap bekerja sebagaimana bisnis harapkan dengan minim perubahan, toh ini lebih baik daripada menggerutu dan memaksa untuk merubahnya menjadi kode yang lebih keren dengan object orientation yang benar, inheritance dan interface yang mumpuni, karena sangat beresiko jika tidak bisa menjinakannya.<br><br>Sebagian besar yang bikin frustasi adalah ketika perancang kode atau bisnis tidak bisa mengkomunikasikan masalahnya dengan tepat, sehingga lebih sering penyelesaian masalah dengan program perangkat lunak menjadi melenceng, entah bisa menjadi solusi tepat guna atau tidak, sehingga ujung-ujungnya perlu bongkar pasang, malah buang-buang waktu.</p>
 <h2 id="mcetoc_1db0a0a1q3">Kenapa sisi bisnis memberikan solusi yang salah sih?</h2>
 <p>Sebuah hal yang sering terjadi dalam menyelesaikan masalah yang salah adalah ketika bisnis menjelaskan masalahnya dan solusi yang mereka pikirkan sendiri lalu kita menelannya mentah-mentah.</p>
 <p>Sebagai sebuah contoh, dengan analogi seseorang yang baru mahir mengendarai sepeda dan mulai memberanikan diri berkendara di jalan umum, lalu ia pergi ke bengkel sepeda dan menyampaikan maksud kedatangannya ke mekanik disana "Mas, saya ingin sepeda ini dipasangi lampu sign seperti sepeda motor, berapa saya harus bayar ya?" dan si mekanik ini dengan pengalaman yang dimiliki tentu perlu tahu kenapa dia inigin hal ini "Hmm jadi yang kamu perlu adalah cara supaya lebih terlihat oleh pengendara lain ketika main sepeda di malam hari? Saya bisa bantu kamu menemukan material yang akan membuatmu terlihat di malam hari dan yang pasti lebih murah daripada sign motor", lalu pemilik sepeda menjawab "Iya bener banget".</p>
-<figure class="post__image post__image" ><img src="https://blog.fachrul.id/media/posts/14/art-artsy-bulb-1938318.jpg" alt="solution" width="640" height="640">
+<figure class="post__image post__image" ><img src="https://fachrul.id/media/posts/14/art-artsy-bulb-1938318.jpg" alt="solution" width="640" height="640">
 <figcaption >Photo by <strong><a href="https://www.pexels.com/@jhonismartins?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels">Jhonis Martins </a></strong>from <strong><a href="https://www.pexels.com/photo/person-holding-white-light-bulb-beside-black-bulb-socket-1938318/?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels">Pexels</a></strong></figcaption>
 </figure>
 <h2 id="mcetoc_1db0a2ung4"><br>Bagaimana kita bisa mengelesaikan masalah yang sesungguhnya?</h2>
@@ -107,8 +130,8 @@
         <author>
             <name>Fachrul Choliluddin</name>
         </author>
-        <link href="https://blog.fachrul.id/today-i-learn-april-2019/"/>
-        <id>https://blog.fachrul.id/today-i-learn-april-2019/</id>
+        <link href="https://fachrul.id/today-i-learn-april-2019/"/>
+        <id>https://fachrul.id/today-i-learn-april-2019/</id>
 
         <updated>2019-04-26T17:20:04+07:00</updated>
             <summary>
@@ -123,7 +146,7 @@
 <p>Solusinya:</p>
 <p><code>ruby -rsocket -e "trap('SIGINT') { exit }; Socket.tcp_server_loop(8080) { |s,_| puts s.readpartial(1024); puts; s.puts 'HTTP/1.1 200'; s.close }</code></p>
 <p>kode diatas akan buat program kecil via ruby yang akan listen port 8080, kita bisa hit http://localhost:8080 buat lihat apakah request kita sudah benar</p>
-<p><img class="post__image" src="https://blog.fachrul.id/media/posts/12/Screen-Shot-2019-04-26-at-17.14.00.png" alt="" width="2010" height="580"></p>
+<p><img class="post__image" src="https://fachrul.id/media/posts/12/Screen-Shot-2019-04-26-at-17.14.00.png" alt="" width="2010" height="580"></p>
 <p>sumber: <a href="https://www.rubyguides.com/2018/08/ruby-http-request/">https://www.rubyguides.com/2018/08/ruby-http-request/</a></p>
 <hr>
 <h2 id="mcetoc_1d9ciakd00"> 26/05/2018: Cara biar Cucumber Ruby ga langsung fail ketika assert / expect</h2>
@@ -138,19 +161,19 @@
         <author>
             <name>Fachrul Choliluddin</name>
         </author>
-        <link href="https://blog.fachrul.id/sebuah-refleksi-diri-apakah-saya-sudah-berusaha-dengan-sungguh-menjadi-muslim-yang-baik/"/>
-        <id>https://blog.fachrul.id/sebuah-refleksi-diri-apakah-saya-sudah-berusaha-dengan-sungguh-menjadi-muslim-yang-baik/</id>
+        <link href="https://fachrul.id/sebuah-refleksi-diri-apakah-saya-sudah-berusaha-dengan-sungguh-menjadi-muslim-yang-baik/"/>
+        <id>https://fachrul.id/sebuah-refleksi-diri-apakah-saya-sudah-berusaha-dengan-sungguh-menjadi-muslim-yang-baik/</id>
 
         <updated>2019-02-23T23:37:41+07:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://blog.fachrul.id/media/posts/9/pexels-photo-1310102.jpeg" alt="Masjid Istiqlal Jakarta" />
+                        <img src="https://fachrul.id/media/posts/9/pexels-photo-1310102.jpeg" alt="Masjid Istiqlal Jakarta" />
                     Bismillah, Alhamdulillah kemarin ada kejadian yang membuat saya berfikir dan merenung sampai hari ini, hal sederhana sebenarnya, saya mengisi sebuah form assesment dari https://productivemuslim.com/ untuk mengukur (self-reflection, silahkan kunjungi tautan ini dan pilih "take the Assessment") apakah saya sudah menjadi "best version of yourself" dari sisi&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://blog.fachrul.id/media/posts/9/pexels-photo-1310102.jpeg" alt="Masjid Istiqlal Jakarta" />
+                    <img src="https://fachrul.id/media/posts/9/pexels-photo-1310102.jpeg" alt="Masjid Istiqlal Jakarta" />
                 <p class="dropcap">Bismillah, Alhamdulillah kemarin ada kejadian yang membuat saya berfikir dan merenung sampai hari ini, hal sederhana sebenarnya, saya mengisi sebuah form assesment dari <a href="https://productivemuslim.com/">https://productivemuslim.com/</a>   untuk mengukur (<em>self-reflection</em>, silahkan kunjungi tautan ini dan pilih <em>"take the Assessment"</em>) apakah saya sudah menjadi "<em>best version of yourself</em>" dari sisi spritual, fisik, dan sosial. Pertanyaannya sederhana, tetapi berat rasanya menjawab jujur, setiap pertanyaan memiliki renungan pribadi yang mendalam.</p>
 <p>Ada sekitar 30 pernyataan, kita diminta memilih pilihan yang paling sesuai dengan diri kita pribadi, ini yang harus dijawab sejujur mungkin sesuai dengan kondisi kita saat ini, seperti:</p>
 <ul>
@@ -161,7 +184,7 @@
 <li>E. <em>Never</em> (Tidak pernah)</li>
 </ul>
 <br>
-<figure class="post__image post__image--center" ><img src="https://blog.fachrul.id/media/posts/9/pexels-photo-1310102.jpeg" alt="Istiqlal" width="640" height="426">
+<figure class="post__image post__image--center" ><img src="https://fachrul.id/media/posts/9/pexels-photo-1310102.jpeg" alt="Istiqlal" width="640" height="426">
 <figcaption >Photo by <a href="https://www.pexels.com/@vijarindo?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels">vjapratama</a> from <a href="https://www.pexels.com/photo/people-sitting-inside-building-1310102/?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels">Pexels</a></figcaption>
 </figure>
 Pernyataannya adalah sebagai berikut (dan saya lengkapi tambahan informasi):<br>
@@ -263,7 +286,7 @@ Pernyataannya adalah sebagai berikut (dan saya lengkapi tambahan informasi):<br>
 </ul>
 </li>
 </ol>
-<figure class="post__image post__image--center" ><img src="https://blog.fachrul.id/media/posts/9/pexels-photo-87500.jpeg" width="640" height="427">
+<figure class="post__image post__image--center" ><img src="https://fachrul.id/media/posts/9/pexels-photo-87500.jpeg" width="640" height="427">
 <figcaption >Photo by <a href="https://www.pexels.com/@davidmceachan?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels">David McEachan</a> from <a href="https://www.pexels.com/photo/sky-sunset-clouds-silhouette-87500/?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels">Pexels</a> </figcaption>
 </figure>
 <h2 id="mcetoc_1d4dj5uja9">Sebuah perenungan</h2>
@@ -343,25 +366,25 @@ Pernyataannya adalah sebagai berikut (dan saya lengkapi tambahan informasi):<br>
         <author>
             <name>Fachrul Choliluddin</name>
         </author>
-        <link href="https://blog.fachrul.id/kiat-sukses-dalam-membuat-automation-test-solution/"/>
-        <id>https://blog.fachrul.id/kiat-sukses-dalam-membuat-automation-test-solution/</id>
+        <link href="https://fachrul.id/kiat-sukses-dalam-membuat-automation-test-solution/"/>
+        <id>https://fachrul.id/kiat-sukses-dalam-membuat-automation-test-solution/</id>
 
         <updated>2019-02-22T09:57:56+07:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://blog.fachrul.id/media/posts/8/pexels-photo-1020325.jpeg" alt="membuat otomasi test" />
+                        <img src="https://fachrul.id/media/posts/8/pexels-photo-1020325.jpeg" alt="membuat otomasi test" />
                     Tidak sulit membayangkan manfaat dari memiliki test yang sudah di-otomatisasi (automated) yang dapat membantu proses pengujian aplikasi karena dengan adanya ia akan membuat feedback proses development menjadi jauh lebih cepat, meningkatkan efektifitas, efisiensi dan coverage pengujian, dari eksekusi test yang sering dan berulang, itu adalah sedikit-banyak manfaat dari&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://blog.fachrul.id/media/posts/8/pexels-photo-1020325.jpeg" alt="membuat otomasi test" />
+                    <img src="https://fachrul.id/media/posts/8/pexels-photo-1020325.jpeg" alt="membuat otomasi test" />
                 <p class="dropcap">Tidak sulit membayangkan manfaat dari memiliki test yang sudah di-otomatisasi (<em>automated</em>) yang dapat membantu proses pengujian aplikasi karena dengan adanya ia akan membuat <em>feedback</em> proses development menjadi jauh lebih cepat, meningkatkan efektifitas, efisiensi dan coverage pengujian, dari eksekusi test yang sering dan berulang, itu adalah sedikit-banyak manfaat dari <em>automated testing</em>. Seiring waktu, fitur yang ada pada sistem akan terus bertambah, QA akan melakukan pengujian mulai dari sistem/fitur yang sudah ada ditambah dengan sistem baru yang sedang dikembangkan.</p>
 <p>Suatu otomatisasi test (<em>test automation</em>) mampu melakukan membuat komputer menjalankan rangkaian aktifitas yang telah dirancang untuk membandingkan hasil dari sistem apakah sesuai dengan standar yang diinginkan <em>(expected behaviour)</em> sehingga menghasilkan laporan pengujian sistem telah berhasil atau gagal</p>
 <p>Dengan adanya otomatisasi test ini diharapkan baban QA menjadi ringan dalam menjalankan <em>regression test</em> yang sama berulang kali, tentu ini akan menghemat waktu QA sehingga bisa fokus ke lain hal yang memiliki <em>impact</em> yang besar dalam menjaga kualitas <em>software</em> yang baik, karena itulah perannya dalam pengembangan perangkat lunak sangat penting dan bisa membantu mencapai kesuksesan dari project</p>
 <hr>
 <p>Jika pengujian otomatis sudah dibuat dengan benar, seharusnya ia akan sangat menguntungkan bagi tim <em>development</em> secara keseluruhan, saya akan coba membagikan kiat dalam membuat otomasi test yang baik dan berguna, kemudian hal-hal apa saja yang harus dihindari saat membuat rangkaian pengujian otomatis ini, karena kita harus realistis, tidak semua bisa di otomatisasi komputer, ada batasan-batasan yang harus tetap di perhatikan</p>
-<figure class="post__image post__image--center" ><img src="https://blog.fachrul.id/media/posts/8/pexels-photo-1020325.jpeg" width="401" height="305">
+<figure class="post__image post__image--center" ><img src="https://fachrul.id/media/posts/8/pexels-photo-1020325.jpeg" width="401" height="305">
 <figcaption >Membuat Robot</figcaption>
 </figure>
 <h2 id="mcetoc_1d4995dar0">Manual vs Automated atau Testing vs Checking</h2>
@@ -383,7 +406,7 @@ Pernyataannya adalah sebagai berikut (dan saya lengkapi tambahan informasi):<br>
 <p>Bayangkan ketika test nya pass kemudian di jalankan lagi jadi fail, tanpa ada perubahan pada aplikasi yang di test (SUT), kita tidak pernah yakin ketika ada fail ini disebabkan oleh kesalahan kode <em>automation</em> atau <em>error</em> pada sistemnya.</p>
 <p>Ketika ada <em>error</em>, kita harus periksa penyebab yang mengakibatkan <em>error</em> ini, kalau sudah banyak ditemukan inkonsistensi atau false positif akan membuat proses pengecekan error ini lama dan sulit. Jangan takut untuk menghapus test yang ga stabil seperti itu di rangkaian test kita, karena yang kita perlukan adalah hasil yang konsisten dan bisa dipercaya.</p>
 <p>Perlu diperhatikan, kualitas otomatisasi test sangat tergantung dari kualitas orang yang menulisnya, bisa jadi test nya berjalan baik, semua check pass, tetapi ada kemungkinan kesalahan bisa saja muncul, tetapi komputer tidak peduli (karena diluar set ekspektasi) sehingga bisa memberikan false quality impression.</p>
-<p><img class="post__image--center" src="https://blog.fachrul.id/media/posts/8/pexels-photo-955450.jpeg" alt="" width="406" height="303"></p>
+<p><img class="post__image--center" src="https://fachrul.id/media/posts/8/pexels-photo-955450.jpeg" alt="" width="406" height="303"></p>
 <hr>
 <h2 id="mcetoc_1d499or0u4">Jangan otomasi fitur yang belum stabil</h2>
 <p>Sebagaimana sebuah fitur baru yang sedang dikembangkan, banyak sekali hal yang tidak mulus, bahkan seringkali saking agile nya ternyata fitur tersebut tidak lagi relevan dan di batalkan karena bisnis telah berubah dari rencana awal, sehingga otomasi menjadi sia-sia</p>
@@ -417,7 +440,7 @@ Pernyataannya adalah sebagai berikut (dan saya lengkapi tambahan informasi):<br>
 <p>Jika automated test ini sering kali flaky (intermittent error), lambat dan tidak transparan, bagaimana bisa  memberikan indikasi kualitas sistem sedangkan automated test nya saja tidak berkualitas baik dan stabil.</p>
 <p> </p>
 <hr>
-<figure class="post__image post__image--center" ><img src="https://blog.fachrul.id/media/posts/8/pexels-photo-1068523-1.jpeg" width="498" height="326">
+<figure class="post__image post__image--center" ><img src="https://fachrul.id/media/posts/8/pexels-photo-1068523-1.jpeg" width="498" height="326">
 <figcaption >we are a team</figcaption>
 </figure>
 <p>Rangkaian pengujian otomatis ini perlu dirawat layaknya mahluk hidup, ia terus berkembang dari waktu ke waktu, ada kalanya test tertentu sudah tidak relevan, jangan takut untuk mencopot test yang seringkali fail atau tidak memberikan hasil yang konsisten demi menjaga kredibilitas dari test automation solution kita sebagai indikator dari kualitas aplikasi/sistem.</p>
@@ -433,19 +456,19 @@ Pernyataannya adalah sebagai berikut (dan saya lengkapi tambahan informasi):<br>
         <author>
             <name>Fachrul Choliluddin</name>
         </author>
-        <link href="https://blog.fachrul.id/jangan-minder-kalau-kamu-adalah-manual-tester-yang-tidak-bisa-koding/"/>
-        <id>https://blog.fachrul.id/jangan-minder-kalau-kamu-adalah-manual-tester-yang-tidak-bisa-koding/</id>
+        <link href="https://fachrul.id/jangan-minder-kalau-kamu-adalah-manual-tester-yang-tidak-bisa-koding/"/>
+        <id>https://fachrul.id/jangan-minder-kalau-kamu-adalah-manual-tester-yang-tidak-bisa-koding/</id>
 
         <updated>2019-02-09T22:30:38+07:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://blog.fachrul.id/media/posts/5/board-broccoli-carrots-952478.jpg" alt="" />
+                        <img src="https://fachrul.id/media/posts/5/board-broccoli-carrots-952478.jpg" alt="" />
                     Saya pernah dengar istilah "Asahlah pisau pada sisinya yang tajam", artinya kita seharusnya fokus pada apa yang menjadi kelebihan yang dimiliki untuk menjadi lebih mahir lagi dalam hal tersebut. Untuk kamu yang pernah menonton Jiro: Dream of Sushi mungkin ada sedikit gambaran mengenai apa yang dinamakan spesialis,&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://blog.fachrul.id/media/posts/5/board-broccoli-carrots-952478.jpg" alt="" />
+                    <img src="https://fachrul.id/media/posts/5/board-broccoli-carrots-952478.jpg" alt="" />
                 <p>Saya pernah dengar istilah <strong>"Asahlah pisau pada sisinya yang tajam"</strong>, artinya kita seharusnya fokus pada apa yang menjadi kelebihan yang dimiliki untuk menjadi <strong>lebih mahir</strong> lagi dalam hal tersebut. Untuk kamu yang pernah menonton <em>Jiro: Dream of Sushi</em> mungkin ada sedikit gambaran mengenai apa yang dinamakan spesialis, dunia sebenarnya membutuhkan lebih banyak orang yang sangat mahir pada suatu bidang daripada orang yang bisa banyak hal.</p>
 <figure class="post__video"><iframe width="560" height="314" src="https://www.youtube.com/embed/I1UDS2kgqY8" allowfullscreen="allowfullscreen" ></iframe></figure>
 <p>Spesialis disini bukan berarti menyalahi konsep T shape loh ya, justru selaras dengan itu. kita bahas lebih jauh mengenai analogi film Jiro tadi, untuk menjadi pengusaha restoran Jepang yang sukses, Jiro tidak perlu menjual sushi enak dan ramen nikmat (keahlian horizontal), tetapi cukup menyajikan sushi paling spesial saja, nah konsep T shape disini adalah dalam konteks spesialis sushi, bukan makanan Jepang secara umum, selain Jiro piwai dalam meracik sushi dia menguasai proses pemilihan bahan baku sushi yang paling prima, dari beras, tuna, ataupun sayurannya dia memiliki standard yang tinggi, dia pun menguasai cara penyajian sushi yang baik dan indah, bahkan saya dengar dia menciptakan teknik khusus untuk bisa menjaga kesegaran telur ikan yang musiman, sepanjang tahun!</p>
@@ -453,7 +476,7 @@ Pernyataannya adalah sebagai berikut (dan saya lengkapi tambahan informasi):<br>
 <p>Lalu timbul lah stigma kalau manual tester sudah ketinggalan jaman, hari gini ga bisa koding tuh serasa terbelakang sekali saat disandingkan dengan automation engineers (test engineer / TE). padahal faktanya gak gitu juga keles :D . Quality Assurance (manual, yang tidak bisa koding) lalu menjadi Test engineer bukanlah bentuk dari "Evolusi" seorang tester, dua pekerjaan itu memiliki <strong>disiplin ilmu yang berbeda</strong>, ga semua orang suka ngoding, menatap text editor berwarna hitam bisa saja membuat orang mual-mual, seorang QA manual yang tidak bisa koding pun bisa saja memberikan dampak yang luarbiasa bernilai dalam menjaga kualitas aplikasi kita tetap prima.</p>
 <p>Jadi jika kamu merasa kurang tertarik belajar koding, jangan dulu gusar, karena ada beberapa hal yang bisa menjadi senjata pamungkas manual tester, percayalah manusia lebih piawai dalam menguji, karena kita telah dianugerahi logika berfikir, perasaan akan estetika dan memiliki ide kreatif yang unlimited dalam menguji aplikasi yang di test, ada beberapa hal berikut ini yang menurut saya bisa menjadi point-point andalan yang bisa kamu latih sebagai software quality assurance / analyst untuk tetap berperan aktif dalam meningkatkan kualitas produk kita, diantaranya:</p>
 <hr>
-<h2 id="mcetoc_1d39du73n3"><img class="post__image" src="https://blog.fachrul.id/media/posts/5/action-plan-brainstorming-complex-212286.jpg" alt="Photo by Startup Stock Photos from Pexels" width="5472" height="3648"></h2>
+<h2 id="mcetoc_1d39du73n3"><img class="post__image" src="https://fachrul.id/media/posts/5/action-plan-brainstorming-complex-212286.jpg" alt="Photo by Startup Stock Photos from Pexels" width="5472" height="3648"></h2>
 <h2 id="mcetoc_1d381jfno0">Bug Buster</h2>
 <h4 id="mcetoc_1d349p3kb1">Menemukan lebih banyak bugs</h4>
 <p>ini adalah tugas pokok dari seorang tester, biasanya manual tester lebih agresif dan usil dalam ngotak-ngatik aplikasinya, tidak seperti automation script yang sudah di buat alur pengujian nya sehingga komputer bisa meniru skenario yang mungkin dilakukan pengguna. Ketika komputer hanya bisa menguji hal sama yang sudah diprogram jangan terlalu berharap banyak kita menamukan bug baru yang berbeda, sesungguhnya manusia jauh lebih baik dalam menemukan bugs daripada mesin yang menguji hal yang sama berulang-ulang.</p>
@@ -506,13 +529,13 @@ Pernyataannya adalah sebagai berikut (dan saya lengkapi tambahan informasi):<br>
         <author>
             <name>Fachrul Choliluddin</name>
         </author>
-        <link href="https://blog.fachrul.id/saya-software-quality-tester-baru-bagaimana-cara-saya-memulai/"/>
-        <id>https://blog.fachrul.id/saya-software-quality-tester-baru-bagaimana-cara-saya-memulai/</id>
+        <link href="https://fachrul.id/saya-software-quality-tester-baru-bagaimana-cara-saya-memulai/"/>
+        <id>https://fachrul.id/saya-software-quality-tester-baru-bagaimana-cara-saya-memulai/</id>
 
         <updated>2019-02-18T23:09:06+07:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://blog.fachrul.id/media/posts/4/angry-annoyed-cafe-52608.jpg" alt="pusing-belajar-qa" />
+                        <img src="https://fachrul.id/media/posts/4/angry-annoyed-cafe-52608.jpg" alt="pusing-belajar-qa" />
                     <h2 id="mcetoc_1d30ltv460">Salam kenal</h2>
 <p>Hai.. Senang sekali mendengarnya, selamat datang di dunia yang penuh tantangan, saya bisa merasakan aroma penasaran dari kamu :) memang betul mempelajari software testing akan sangat menarik dan penuh lika-liku, tapi tenang saja kamu berada di sumber yang (semoga saja) tepat. 😅</p>
 
@@ -520,14 +543,14 @@ Pernyataannya adalah sebagai berikut (dan saya lengkapi tambahan informasi):<br>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://blog.fachrul.id/media/posts/4/angry-annoyed-cafe-52608.jpg" alt="pusing-belajar-qa" />
+                    <img src="https://fachrul.id/media/posts/4/angry-annoyed-cafe-52608.jpg" alt="pusing-belajar-qa" />
                 <h2 id="mcetoc_1d30ltv460">Salam kenal</h2>
 <p>Hai.. Senang sekali mendengarnya, selamat datang di dunia yang penuh tantangan, saya bisa merasakan aroma penasaran dari kamu :) memang betul mempelajari software testing akan sangat menarik dan penuh lika-liku, tapi tenang saja kamu berada di sumber yang (semoga saja) tepat. 😅</p>
 <hr>
 <h2 id="mcetoc_1d30lufqm1">Overdosis informasi</h2>
 <p>Dengan adanya internet seharusnya semua akan lebih mudah belajar dan cepat menguasainya, tapi nyatanya banyak juga loh artikel sampah yang malah bikin kamu bingung, apalagi dalam tahap pemula, kamu akan dihadapi dengan banjirnya informasi yang akan bikin kamu merasa terlalu banyak yang harus dipelajari sekaligus. Tanamkan pemikiran "Ga semua yang di internet itu benar" kadang apa yang kita gugling belum tentu baik untuk diimplementasi ke kita juga. Jangan puas dari apa yang dituliskan disitu, tetaplah kritis bertanya.</p>
 <p>Hmmm.. Maka dari itu saya akan coba runut kan apa saja sebenernya yang bisa kamu pelajari di awal karir sebagai tester, kebanyakan materi yang saya bagikan nanti adalah buku ataupun online course (video), karena menurut saya ini adalah materi terbaik, dimana kamu belajar secara runut dan bertahap, tidak seperti dari posting blog ataupun stackoverflow result yang memiliki informasi tercecer dan langsung ke intinya.</p>
-<figure class="post__image post__image" ><img src="https://blog.fachrul.id/media/posts/4/adult-business-businessman-374820.jpg" alt="belajar yuk" width="5760" height="3840">
+<figure class="post__image post__image" ><img src="https://fachrul.id/media/posts/4/adult-business-businessman-374820.jpg" alt="belajar yuk" width="5760" height="3840">
 <figcaption >source: <a href="https://www.pexels.com/photo/man-using-ballpoint-pen-374820/">https://www.pexels.com/photo/man-using-ballpoint-pen-374820/</a></figcaption>
 </figure>
 <h3 id="mcetoc_1d30lvdhv2">Rekomendasi materi belajar Software Quality</h3>
@@ -684,19 +707,19 @@ Pernyataannya adalah sebagai berikut (dan saya lengkapi tambahan informasi):<br>
         <author>
             <name>Fachrul Choliluddin</name>
         </author>
-        <link href="https://blog.fachrul.id/karir-sebagai-software-quality-assurance-tester-itu-keren-banget/"/>
-        <id>https://blog.fachrul.id/karir-sebagai-software-quality-assurance-tester-itu-keren-banget/</id>
+        <link href="https://fachrul.id/karir-sebagai-software-quality-assurance-tester-itu-keren-banget/"/>
+        <id>https://fachrul.id/karir-sebagai-software-quality-assurance-tester-itu-keren-banget/</id>
 
         <updated>2019-02-18T23:09:31+07:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://blog.fachrul.id/media/posts/3/checking.jpeg" alt="checking app" />
+                        <img src="https://fachrul.id/media/posts/3/checking.jpeg" alt="checking app" />
                     Jika kamu adalah mahasiswa yang akan/baru lulus dan mulai mencari-cari lowongan kerja di bidang software development, mungkin bisa dipertimbangkan lowongan sebagai Software tester/QA sebagai pilihan karir yang bagus. Kenapa begitu? Oke mari saya tunjukan kenapa menjadi seorang software tester itu sangat menarik. Sebagai gambaran, saya&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://blog.fachrul.id/media/posts/3/checking.jpeg" alt="checking app" />
+                    <img src="https://fachrul.id/media/posts/3/checking.jpeg" alt="checking app" />
                 <p id="fdf7" class="graf graf--p graf-after--h3">Jika kamu adalah mahasiswa yang akan/baru lulus dan mulai mencari-cari lowongan kerja di bidang software development, mungkin bisa dipertimbangkan lowongan sebagai Software tester/QA sebagai pilihan karir yang bagus. Kenapa begitu? Oke mari saya tunjukan kenapa menjadi seorang software tester itu sangat menarik.</p>
 <p id="17be" class="graf graf--p graf-after--p graf--trailing">Sebagai gambaran, saya sendiri memulai karir di dunia tech sebagai software tester secara tidak sengaja, karena memang sedari kuliah tidak tahu ada roles software tester di industri pengembangan aplikasi komputer, tapi nyatanya sampai sekarang saya tidak menyesal mengambil pilihan software testing sebagai karir saya.</p>
 <hr>
