@@ -11,21 +11,6 @@
     },
     "items": [
         {
-            "id": "https://fachrul.id/about-fachrulch/",
-            "url": "https://fachrul.id/about-fachrulch/",
-            "title": "About Fachrul Choliluddin",
-            "summary": " Hello Internet, I'm Fachrul Choliluddin, you can call me Alul, I'm an experience Information Technology Quality Assistance, help the team to produce high quality software, efficiently and preventing bugs before they are written. Strong professional in testing web desktop, web service API, mobile web,&hellip;",
-            "content_html": "<p><img class=\"post__image--center\" src=\"https://fachrul.id/media/posts/1/whois-fachrulch.png\" alt=\"\" width=\"1406\" height=\"770\"></p>\n<p>Hello Internet, <br><br>I'm Fachrul Choliluddin, you can call me Alul, I'm an experience Information Technology Quality Assistance, help the team to produce high quality software, efficiently and preventing bugs before they are written.<br><br>Strong professional in testing web desktop, web service API, mobile web, mobile app using Cucumber ruby, java, postman / newman, restassured, and appium.<br><br>As a leader of Quality Assistance, I'm coaching development team for implemented a change inour quality process, moving away from the traditional ‘Quality Assurance’ model and insteadadopting a ‘Quality Assistance’ approach, ensuring that the software and features we ship toour customers is always to the highest quality levels we can reasonably achieve.<br><br>You can reach me anytime at:<br><br>Email: hai.fachrul[at]gmail[dot]com<br><br>LinkedIn: <a href=\"https://www.linkedin.com/in/fachrul/\">https://www.linkedin.com/in/fachrul/</a> </p>",
-            "image": "https://fachrul.id/media/posts/1/whois-fachrulch.png",
-            "author": {
-                "name": "Fachrul Choliluddin"
-            },
-            "tags": [
-            ],
-            "date_published": "2019-05-20T05:38:52+07:00",
-            "date_modified": "2019-05-20T05:41:36+07:00"
-        },
-        {
             "id": "https://fachrul.id/kiat-memilih-bahasa-pemrograman-untuk-automation-test/",
             "url": "https://fachrul.id/kiat-memilih-bahasa-pemrograman-untuk-automation-test/",
             "title": "Kiat memilih bahasa pemrograman untuk automation test",
@@ -128,6 +113,21 @@
             ],
             "date_published": "2019-02-06T13:27:42+07:00",
             "date_modified": "2019-02-18T23:09:06+07:00"
+        },
+        {
+            "id": "https://fachrul.id/about-fachrulch/",
+            "url": "https://fachrul.id/about-fachrulch/",
+            "title": "About Fachrul Choliluddin",
+            "summary": " Hello Internet, I'm Fachrul Choliluddin, you can call me Alul, I'm an experience Information Technology Quality Assistance, help the team to produce high quality software, efficiently and preventing bugs before they are written. Strong professional in testing web desktop, web service API, mobile web,&hellip;",
+            "content_html": "<p><img class=\"post__image--center\" src=\"https://fachrul.id/media/posts/1/whois-fachrulch.png\" alt=\"\" width=\"1406\" height=\"770\"></p>\n<p>Hello Internet, <br><br>I'm Fachrul Choliluddin, you can call me Alul, I'm an experience Information Technology Quality Assistance, help the team to produce high quality software, efficiently and preventing bugs before they are written.<br><br>Strong professional in testing web desktop, web service API, mobile web, mobile app using Cucumber ruby, java, postman / newman, restassured, and appium.<br><br>As a leader of Quality Assistance, I'm coaching development team for implemented a change inour quality process, moving away from the traditional ‘Quality Assurance’ model and insteadadopting a ‘Quality Assistance’ approach, ensuring that the software and features we ship toour customers is always to the highest quality levels we can reasonably achieve.<br><br>You can reach me anytime at:<br><br>Email: hai.fachrul[at]gmail[dot]com<br><br>LinkedIn: <a href=\"https://www.linkedin.com/in/fachrul/\">https://www.linkedin.com/in/fachrul/</a> </p>",
+            "image": "https://fachrul.id/media/posts/1/whois-fachrulch.png",
+            "author": {
+                "name": "Fachrul Choliluddin"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-01-01T00:01:00+07:00",
+            "date_modified": "2019-05-20T06:00:03+07:00"
         },
         {
             "id": "https://fachrul.id/karir-sebagai-software-quality-assurance-tester-itu-keren-banget/",

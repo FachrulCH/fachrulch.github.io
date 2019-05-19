@@ -3,35 +3,12 @@
     <title>Celotehan Quality Software Development Engineer in Test - Agile Testing, Selenium, Appium, Ruby</title>
     <link href="https://fachrul.id/feed.xml" rel="self" />
     <link href="https://fachrul.id" />
-    <updated>2019-05-20T05:41:46+07:00</updated>
+    <updated>2019-05-20T06:01:52+07:00</updated>
     <author>
         <name>Fachrul Choliluddin</name>
     </author>
     <id>https://fachrul.id</id>
 
-    <entry>
-        <title>About Fachrul Choliluddin</title>
-        <author>
-            <name>Fachrul Choliluddin</name>
-        </author>
-        <link href="https://fachrul.id/about-fachrulch/"/>
-        <id>https://fachrul.id/about-fachrulch/</id>
-
-        <updated>2019-05-20T05:41:36+07:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://fachrul.id/media/posts/1/whois-fachrulch.png" alt="medali" />
-                     Hello Internet, I'm Fachrul Choliluddin, you can call me Alul, I'm an experience Information Technology Quality Assistance, help the team to produce high quality software, efficiently and preventing bugs before they are written. Strong professional in testing web desktop, web service API, mobile web,&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://fachrul.id/media/posts/1/whois-fachrulch.png" alt="medali" />
-                <p><img class="post__image--center" src="https://fachrul.id/media/posts/1/whois-fachrulch.png" alt="" width="1406" height="770"></p>
-<p>Hello Internet, <br><br>I'm Fachrul Choliluddin, you can call me Alul, I'm an experience Information Technology Quality Assistance, help the team to produce high quality software, efficiently and preventing bugs before they are written.<br><br>Strong professional in testing web desktop, web service API, mobile web, mobile app using Cucumber ruby, java, postman / newman, restassured, and appium.<br><br>As a leader of Quality Assistance, I'm coaching development team for implemented a change inour quality process, moving away from the traditional ‘Quality Assurance’ model and insteadadopting a ‘Quality Assistance’ approach, ensuring that the software and features we ship toour customers is always to the highest quality levels we can reasonably achieve.<br><br>You can reach me anytime at:<br><br>Email: hai.fachrul[at]gmail[dot]com<br><br>LinkedIn: <a href="https://www.linkedin.com/in/fachrul/">https://www.linkedin.com/in/fachrul/</a> </p>
-            ]]>
-        </content>
-    </entry>
     <entry>
         <title>Kiat memilih bahasa pemrograman untuk automation test</title>
         <author>
@@ -699,6 +676,29 @@ Pernyataannya adalah sebagai berikut (dan saya lengkapi tambahan informasi):<br>
 <li><a href="https://www.safaribooksonline.com/library/view/optimizing-selenium-test/9781788476522/">Optimizing Selenium Test Performance</a> (📹,💵)</li>
 <li><a href="https://www.safaribooksonline.com/library/view/design-a-selenium/9781789131048/">Design a Selenium Test Framework from Scratch-Architect level</a> (💵)</li>
 </ul>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>About Fachrul Choliluddin</title>
+        <author>
+            <name>Fachrul Choliluddin</name>
+        </author>
+        <link href="https://fachrul.id/about-fachrulch/"/>
+        <id>https://fachrul.id/about-fachrulch/</id>
+
+        <updated>2019-05-20T06:00:03+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://fachrul.id/media/posts/1/whois-fachrulch.png" alt="fachrulch" />
+                     Hello Internet, I'm Fachrul Choliluddin, you can call me Alul, I'm an experience Information Technology Quality Assistance, help the team to produce high quality software, efficiently and preventing bugs before they are written. Strong professional in testing web desktop, web service API, mobile web,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://fachrul.id/media/posts/1/whois-fachrulch.png" alt="fachrulch" />
+                <p><img class="post__image--center" src="https://fachrul.id/media/posts/1/whois-fachrulch.png" alt="" width="1406" height="770"></p>
+<p>Hello Internet, <br><br>I'm Fachrul Choliluddin, you can call me Alul, I'm an experience Information Technology Quality Assistance, help the team to produce high quality software, efficiently and preventing bugs before they are written.<br><br>Strong professional in testing web desktop, web service API, mobile web, mobile app using Cucumber ruby, java, postman / newman, restassured, and appium.<br><br>As a leader of Quality Assistance, I'm coaching development team for implemented a change inour quality process, moving away from the traditional ‘Quality Assurance’ model and insteadadopting a ‘Quality Assistance’ approach, ensuring that the software and features we ship toour customers is always to the highest quality levels we can reasonably achieve.<br><br>You can reach me anytime at:<br><br>Email: hai.fachrul[at]gmail[dot]com<br><br>LinkedIn: <a href="https://www.linkedin.com/in/fachrul/">https://www.linkedin.com/in/fachrul/</a> </p>
             ]]>
         </content>
     </entry>
