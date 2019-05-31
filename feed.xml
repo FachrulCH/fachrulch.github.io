@@ -3,12 +3,127 @@
     <title>Celotehan Quality Software Development Engineer in Test - Agile Testing, Selenium, Appium, Ruby</title>
     <link href="https://fachrul.id/feed.xml" rel="self" />
     <link href="https://fachrul.id" />
-    <updated>2019-05-28T23:24:31+07:00</updated>
+    <updated>2019-05-31T23:52:02+07:00</updated>
     <author>
         <name>Fachrul Choliluddin</name>
     </author>
     <id>https://fachrul.id</id>
 
+    <entry>
+        <title>Apa itu Pengujian Program komputer (software testing)?</title>
+        <author>
+            <name>Fachrul Choliluddin</name>
+        </author>
+        <link href="https://fachrul.id/apa-itu-pengujian-program-komputer-software-testing/"/>
+        <id>https://fachrul.id/apa-itu-pengujian-program-komputer-software-testing/</id>
+
+        <updated>2019-06-01T03:33:00+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://fachrul.id/media/posts/19/background-blank-craft-301703.jpg" alt="" />
+                    Pada kesempatan kali ini kita akan bahas secara umum mengenai Software testing (pengujian program komputer). Kita akan kupas lebih dalam terkait dengan Apa, Kenapa, Siapa, Kapan, Bagaimana (5W1H) pengujian program komputer itu. Pengujian program komputer (software testing) adalah proses menilai kualitas sebuah sistem komputer, salah&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://fachrul.id/media/posts/19/background-blank-craft-301703.jpg" alt="" />
+                <p>Pada kesempatan kali ini kita akan bahas secara umum mengenai Software testing (pengujian program komputer). Kita akan kupas lebih dalam terkait dengan Apa, Kenapa, Siapa, Kapan, Bagaimana (5W1H) pengujian program komputer itu.</p>
+<hr>
+<h2 id="mcetoc_1dc7c7gdd0">Apa itu software testing?</h2>
+<p>Pengujian program komputer (software testing) adalah proses menilai kualitas sebuah sistem komputer, salah satu caranya adalah dengan mencari ketidak sesuaian program (bugs) dengan harapan pengguna dalam dokumen requirement.</p>
+<p>Pengujian seperti ini akan bisa mengukur kualitas program secara garis besar dari segi ketepatan (correctness), kelengkapan (completeness), kebergunaan (usability), kinerja (performance) dan juga segi fungsional ataupun non-fungsional lainya</p>
+<hr>
+<h2 id="mcetoc_1dc7c85sf1">Kenapa program perlu diuji?</h2>
+<p>Pengujian program akan dilakukan dalam fase pengembangan program komputer, karena:</p>
+<ul>
+<li>Mengetahui kualitas program sebelum digunakan penguna sesungguhnya, apakah sudah memenuhi standar kualitas yang diharapkan</li>
+<li>Menghindari kesalahan program, jangan sampai kesalahan ini menyusahkan pengguna, karena akan berimbas pada reputasi perusahaan</li>
+<li>Menghadirkan rasa aman, dan percaya diri untuk melepaskan fitur/program baru untuk dikonsumsi khalayak</li>
+<li>Menemukan kesalahan di fase awal tentu akan menghemat beban perbaikan daripada ketika ditemukannya kesalahan di fase production</li>
+<li>Tim penguji akan memberikan sudut pandang yang berbeda dalam pengunaan program komputer</li>
+</ul>
+<hr>
+<h2 id="mcetoc_1dc7c9n8b2">Siapa yang melakukan pengujian?</h2>
+<p>Setiap anggota tim pengembangan memiliki peran dalam meningkatkan dan menjaga mutu program yang baik, pengujian ini beraneka ragam sesuai dengan tingkatannya, kurang lebih:</p>
+<ul>
+<li>Product owner: menguji apakah ide fitur pada program sungguh-sungguh berguna bagi user, dan apakah sudah tepat guna</li>
+<li>Developer: mengerjakan unit testing dalam rangka memastikan setiap kode yang dituliskan bekerja sebagaimana mestinya, dan tahan akan perubahan kode dimasa depan</li>
+<li>Tester: memastikan program bekerja secara fungsional, kebergunaan, kinerja, dan keamanan program.</li>
+<li>Lead/Manager/Architecs: mengawal ataupun merencanakan strategi dan rencana pengujian</li>
+</ul>
+<hr>
+<h2 id="mcetoc_1dc7cb6rq5">Kapan harusnya pengujian dimulai?</h2>
+<p>Itu sebenarnya disesuaikan dengan proses SDLC (software development life cycle) model yang dijalankan oleh tim pengembangan, bisa jadi ada fase khusus untuk pengujian, ataupun bisa jadi fase pengujian membaur dengan fase impementasi kode oleh tim pengembang, yang menarik ada satu mitos (yang saya yakini) bahwa katanya pengujian hanya bisa dilakukan ketika implementasi oleh pengembang sudah selesai, tetapi ternyata pengujian itu bisa (harusnya) dimulai bahkan ketika kode belum ditulis.</p>
+<p>pengujian bisa berjalan beriringan (paralel) dengan fase implementasi fitur oleh tim pengembang, contohnya melalui V model.</p>
+<table>
+<tbody>
+<tr>
+<td><strong>Fase</strong></td>
+<td><strong>Aktifitas pengujian</strong></td>
+</tr>
+<tr>
+<td>Perancangan Requirement</td>
+<td>Membuat acceptance criteria</td>
+</tr>
+<tr>
+<td>Spesifikasi fungsional</td>
+<td>Membuat skenario fungsional</td>
+</tr>
+<tr>
+<td>Implementasi</td>
+<td>Membuat otomatisasi pengujian</td>
+</tr>
+<tr>
+<td>Kode selesai</td>
+<td>Menjalankan rencana pengujian</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="mcetoc_1dc7cerlr6">Bagaimana dikatakan pengujian telah selesai?</h2>
+<p>Pengujian bisa dijalankan secara manual ataupun (dan) secara otomatisasi. pengujian manual seperti verifikasi rancangan requirement, mengatur strategi dan rencana pengujian, persiapan data, regression test, dan eksekusi pengujian, sedangkan pengujian otomatisasi seperti membuat script untuk unit testing, integration test, UI test, performance test, bahkan security test dengan bantuan aplikasi dan program khusus sesuai kebutuhan.</p>
+<p> </p>
+<p>Referensi lanjutan:</p>
+<ul>
+<li><a href="https://www.guru99.com/software-testing-introduction-importance.html">https://www.guru99.com/software-testing-introduction-importance.html</a></li>
+<li><a href="https://testautomationu.applitools.com/the-whole-team-approach-to-continuous-testing/index.html">https://testautomationu.applitools.com/the-whole-team-approach-to-continuous-testing/index.html</a> </li>
+</ul>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Menjadi Penguji Program Komputer (software tester)</title>
+        <author>
+            <name>Fachrul Choliluddin</name>
+        </author>
+        <link href="https://fachrul.id/menjadi-penguji-program-komputer-software-tester/"/>
+        <id>https://fachrul.id/menjadi-penguji-program-komputer-software-tester/</id>
+
+        <updated>2019-05-31T23:51:13+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://fachrul.id/media/posts/18/artificial-intelligence-automation-bookcase-1329068.jpg" alt="" />
+                    Selamat datang teman-teman, Pada kesempatan kali ini kita akan belajar sama-sama tentang Software testing (pengujian program komputer) sedari tingkat pemula atau baru meniti karir di dunia per-testingan. Kita akan coba membahas mengenai konsep dan metode pengujian yang telah saya praktikan sehari-hari. Kita awali dari tema&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://fachrul.id/media/posts/18/artificial-intelligence-automation-bookcase-1329068.jpg" alt="" />
+                <p>Selamat datang teman-teman,</p>
+<p>Pada kesempatan kali ini kita akan belajar sama-sama tentang Software testing (pengujian program komputer) sedari tingkat pemula atau baru meniti karir di dunia per-testingan. Kita akan coba membahas mengenai konsep dan metode pengujian yang telah saya praktikan sehari-hari.</p>
+<p>Kita awali dari tema dasar pengujian program komputer hingga hal-hal yang lebih rumit lagi nantinya.</p>
+<blockquote>
+<p>Halaman ini berisi daftar isi dari artikel yang telah dituliskan, jadi akan selalu diperbaharui secara berkala ya, sering-sering berkunjung jadinya ya :) </p>
+</blockquote>
+<h2 id="mcetoc_1dc7bstvs1">Pengujian Manual untuk pemula</h2>
+<p>Pada bagian ini kita akan bahas mengenai beberpaa teori pengujian, diantaranya</p>
+<ul>
+<li><a href="#INTERNAL_LINK#/post/19" target="_blank" rel="noopener noreferrer">Apa itu Pengujian Program komputer (software testing)?</a></li>
+<li>Kenapa perlu adanya pengujian?</li>
+</ul>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Keberkahan Waktu</title>
         <author>
@@ -715,104 +830,6 @@ Pernyataannya adalah sebagai berikut (dan saya lengkapi tambahan informasi):<br>
 <li><a href="https://www.safaribooksonline.com/library/view/optimizing-selenium-test/9781788476522/">Optimizing Selenium Test Performance</a> (📹,💵)</li>
 <li><a href="https://www.safaribooksonline.com/library/view/design-a-selenium/9781789131048/">Design a Selenium Test Framework from Scratch-Architect level</a> (💵)</li>
 </ul>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>About Fachrul Choliluddin</title>
-        <author>
-            <name>Fachrul Choliluddin</name>
-        </author>
-        <link href="https://fachrul.id/about-fachrulch/"/>
-        <id>https://fachrul.id/about-fachrulch/</id>
-
-        <updated>2019-05-20T06:00:03+07:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://fachrul.id/media/posts/1/whois-fachrulch.png" alt="fachrulch" />
-                     Hello Internet, I'm Fachrul Choliluddin, you can call me Alul, I'm an experience Information Technology Quality Assistance, help the team to produce high quality software, efficiently and preventing bugs before they are written. Strong professional in testing web desktop, web service API, mobile web,&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://fachrul.id/media/posts/1/whois-fachrulch.png" alt="fachrulch" />
-                <p><img class="post__image--center" src="https://fachrul.id/media/posts/1/whois-fachrulch.png" alt="" width="1406" height="770"></p>
-<p>Hello Internet, <br><br>I'm Fachrul Choliluddin, you can call me Alul, I'm an experience Information Technology Quality Assistance, help the team to produce high quality software, efficiently and preventing bugs before they are written.<br><br>Strong professional in testing web desktop, web service API, mobile web, mobile app using Cucumber ruby, java, postman / newman, restassured, and appium.<br><br>As a leader of Quality Assistance, I'm coaching development team for implemented a change inour quality process, moving away from the traditional ‘Quality Assurance’ model and insteadadopting a ‘Quality Assistance’ approach, ensuring that the software and features we ship toour customers is always to the highest quality levels we can reasonably achieve.<br><br>You can reach me anytime at:<br><br>Email: hai.fachrul[at]gmail[dot]com<br><br>LinkedIn: <a href="https://www.linkedin.com/in/fachrul/">https://www.linkedin.com/in/fachrul/</a> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Karir sebagai software quality assurance / tester itu keren banget!</title>
-        <author>
-            <name>Fachrul Choliluddin</name>
-        </author>
-        <link href="https://fachrul.id/karir-sebagai-software-quality-assurance-tester-itu-keren-banget/"/>
-        <id>https://fachrul.id/karir-sebagai-software-quality-assurance-tester-itu-keren-banget/</id>
-
-        <updated>2019-02-18T23:09:31+07:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://fachrul.id/media/posts/3/checking.jpeg" alt="checking app" />
-                    Jika kamu adalah mahasiswa yang akan/baru lulus dan mulai mencari-cari lowongan kerja di bidang software development, mungkin bisa dipertimbangkan lowongan sebagai Software tester/QA sebagai pilihan karir yang bagus. Kenapa begitu? Oke mari saya tunjukan kenapa menjadi seorang software tester itu sangat menarik. Sebagai gambaran, saya&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://fachrul.id/media/posts/3/checking.jpeg" alt="checking app" />
-                <p id="fdf7" class="graf graf--p graf-after--h3">Jika kamu adalah mahasiswa yang akan/baru lulus dan mulai mencari-cari lowongan kerja di bidang software development, mungkin bisa dipertimbangkan lowongan sebagai Software tester/QA sebagai pilihan karir yang bagus. Kenapa begitu? Oke mari saya tunjukan kenapa menjadi seorang software tester itu sangat menarik.</p>
-<p id="17be" class="graf graf--p graf-after--p graf--trailing">Sebagai gambaran, saya sendiri memulai karir di dunia tech sebagai software tester secara tidak sengaja, karena memang sedari kuliah tidak tahu ada roles software tester di industri pengembangan aplikasi komputer, tapi nyatanya sampai sekarang saya tidak menyesal mengambil pilihan software testing sebagai karir saya.</p>
-<hr>
-<h3 id="c76d" class="graf graf--h3 graf--leading">Apa itu software tester/software quality assurance secara sederhana?</h3>
-<p id="6769" class="graf graf--p graf-after--h3">Sebagai pembuat aplikasi teknologi, kita tentu ingin mempersembahkan pengalaman terbaik bagi pengguna, nah tester disini akan mencoba aplikasi baru sebelum pengguna sesungguhnya, agar nantinya tim bisa mencapai standar mutu terbaik</p>
-<p id="1123" class="graf graf--p graf-after--p">Alasan-alasan nyata kenapa software tester/software QA adalah pilihan karir yang keren</p>
-<h3 id="e083" class="graf graf--h3 graf-after--figure">Semua berlomba menjadi digital</h3>
-<p id="cac7" class="graf graf--p graf-after--h3">Jaman now, semua kebutuhan kita sudah mulai tersedia dalam genggaman, dari mencari berita, beli makanan, transfer uang, kursus dan lain-lain sudah serba online, ini karena imbas dengan banyaknya perusahaan startup yang berdiri. Akan selalu ada pilihan untuk layanan online yang bisa kita gunakan, tetapi selalu yang terbaiklah yang akan bertahan. Nah bagaimana layanan itu mencapai yang terbaik? Jawabanya adalah dengan selalu memberikan layanan berkualitas bagi pengguna. Disinilah alasan kenapa lowongan sebagai tester/QA selau ada.</p>
-<figure id="004e" class="graf graf--figure graf-after--p">
-<div class="aspectRatioPlaceholder is-locked">
-<div class="aspectRatioPlaceholder-fill"> </div>
-<div class="progressiveMedia js-progressiveMedia graf-image is-canvasLoaded is-imageLoaded"    ><canvas class="progressiveMedia-canvas js-progressiveMedia-canvas" width="75" height="47"></canvas><img class="progressiveMedia-image js-progressiveMedia-image" src="https://cdn-images-1.medium.com/max/1600/0*D6hpkzWJNtPtajrp.png" ></div>
-</div>
-<figcaption class="imageCaption">sumber gambar: <a href="http://fintechnews.sg/4814/indonesia/new-fintech-report-highlights-indonesias-untapped-opportunity/"  class="markup--anchor markup--figure-anchor" rel="nofollow noopener noreferrer" target="_blank">http://fintechnews.sg/4814/indonesia/new-fintech-report-highlights-indonesias-untapped-opportunity/</a></figcaption>
-</figure>
-<h3 id="11af" class="graf graf--h3 graf-after--figure">Bayaran nya bagus</h3>
-<p id="677f" class="graf graf--p graf-after--h3">Banyak mitos yang beredar, kalo karir sebagai tester/QA itu bayarannya lebih sedikit daripada menjadi developer, tapi percayalah ini tidak benar. Sebagai fresh graduate/karir pertama, tentu profesi sebagai tester atau developer memiliki standar gaji yang sama, seiring berjalan waktu, semakin bertambah kemampuan kamu, maka pendapatan yang kamu terima pun semakin besar, karena perusahaan pun akan melihat kemampuan kamu sebagai aset masa depan. Apalagi kalau kamu menguasai automation test, kamu bisa jadi lebih cepat naik gajinya ahaha</p>
-<figure id="fb01" class="graf graf--figure graf-after--p">
-<div class="aspectRatioPlaceholder is-locked">
-<div class="aspectRatioPlaceholder-fill"> </div>
-<div class="progressiveMedia js-progressiveMedia graf-image is-canvasLoaded is-imageLoaded"      ><canvas class="progressiveMedia-canvas js-progressiveMedia-canvas" width="75" height="53"></canvas><img class="progressiveMedia-image js-progressiveMedia-image" src="https://cdn-images-1.medium.com/max/1600/1*K3zdDg0J2XlxqLpLMfB8Ug.png" ></div>
-</div>
-<figcaption class="imageCaption">techinasia job, diakses 7-des-2018 19.00</figcaption>
-</figure>
-<h3 id="bacb" class="graf graf--h3 graf-after--figure">Relatif lebih mudah bagi kamu untuk menjadi tester/SQA</h3>
-<p id="cfc6" class="graf graf--p graf-after--h3">Coba lihat deh lowongan yang banyak beredar, apakah kriteria menjadi seorang software tester/SQA? Biasanya bahkan bisa aja menerima dari jurusan TI loh, karena dari segi tester pun ada yang menjadi manual tester ataupun automation tester. Kalau manual tester umumnya kemampuan menganalisa masalah yang menjadi kebutuhan besar, kalau automation tester kamu harus senang dengan koding, tapi koding yang ada di tester ga terlalu komplex seperti developer sih menurut saya. Relatif :P</p>
-<h3 id="b253" class="graf graf--h3 graf-after--p">Perpindahan dari developer ke testing jauh lebih mudah</h3>
-<p id="4f5f" class="graf graf--p graf-after--h3">Pernah ngerasa bosen ngelihat kode terus? Pindah jadi tester juga seru loh! Karena kamu akan mulai berfikir lebih ekploratif, deduktif, sebab-akibat seperti layaknya detektif partikelir sedang menganalisa kasus hilang nya data transaksi akibat bug yang berkeliaran :D</p>
-<p id="bef1" class="graf graf--p graf-after--p">Apalagi jika dengan latar sebagai developer kamu akan memiliki keuntungan karena tahu betul bagaimana aplikasi dibuat, sehingga bisa memverifikasi aplikasi sudah dibangun dengan benar. Belum lagi kamu akan lebih mudah mempelajari automation tools macam selenium, karena sudah memahami cara kerja kode.</p>
-<h3 id="7c3b" class="graf graf--h3 graf-after--p">Ilmu yang mudah dipelajari</h3>
-<p id="4041" class="graf graf--p graf-after--h3">Alat untuk membantu testing banyak yang sudah memiliki tampilan bagus kok, seperti postman, katalon studio, apalagi dengan googling sedikit kita bisa mempelajari konsep testing dari dasar hingga mahir, dari ISTQB hingga BDD cucumber</p>
-<h3 id="0994" class="graf graf--h3 graf-after--p">Tidak pusing dengan tools</h3>
-<p id="51dc" class="graf graf--p graf-after--h3">Jika kamu developer tentu familiar dengan banyaknya library dan framework yang ada diluar sana, apalagi jika kamu adalah javascript developer, sepertinya setiap hari selalu saja ada library/framework yang lahir dan banyak dibicarakan komunitas. Tapi tren seperti itu relatif tidak terjadi di dunia testing. Konsep testing jarang berubah, tools/libarary pun didominasi oleh teknologi yang serupa, selenium mungkin library yang penting, tinggal selera saja pilih bahasa pemrograman apa untuk pilih library menjalankan selenium, dan selama 3 tahun terakhir pun tidak banyak berubah</p>
-<figure id="e7dc" class="graf graf--figure graf-after--p">
-<div class="aspectRatioPlaceholder is-locked">
-<div class="aspectRatioPlaceholder-fill"> </div>
-<div class="progressiveMedia js-progressiveMedia graf-image is-canvasLoaded is-imageLoaded"       ><canvas class="progressiveMedia-canvas js-progressiveMedia-canvas" width="75" height="50"></canvas><img class="progressiveMedia-image js-progressiveMedia-image" src="https://cdn-images-1.medium.com/max/1600/0*dXTFPRBC3mZm65Ko" ></div>
-</div>
-<figcaption class="imageCaption">Photo by <a href="https://unsplash.com/@markusspiske?utm_source=medium&amp;utm_medium=referral"  class="markup--anchor markup--figure-anchor" rel="photo-creator nofollow noopener noreferrer" target="_blank">Markus Spiske</a> on <a href="https://unsplash.com/?utm_source=medium&amp;utm_medium=referral"  class="markup--anchor markup--figure-anchor" rel="photo-source nofollow noopener noreferrer" target="_blank">Unsplash</a></figcaption>
-</figure>
-<h3 id="3a08" class="graf graf--h3 graf-after--figure">Mengembangkan sayap</h3>
-<p id="f8e3" class="graf graf--p graf-after--h3">Ketika kamu telah memiliki kemampuan yang mumpuni di dunia testing atau SQA, menurut saya sangat mudah ketika memutuskan untuk menjalani karir sebagai business analyst, product owner, scrum master bahkan devops. Karena secara umum kamu sudah :</p>
-<ul class="postList">
-<li id="f811" class="graf graf--li graf-after--p">Menguasai seluk beluk aplikasi, dari segi bisnis, koding, dan user</li>
-<li id="1961" class="graf graf--li graf-after--li">Kemeampuan komunikasi yang baik</li>
-<li id="bc31" class="graf graf--li graf-after--li">Lancar dalam menyampaikan gagasan yang mudah dimengerti oleh developer, product owner, dan stake holder</li>
-</ul>
-<figure id="f182" class="graf graf--figure graf-after--li graf--trailing">
-<div class="aspectRatioPlaceholder is-locked">
-<div class="aspectRatioPlaceholder-fill"> </div>
-<div class="progressiveMedia js-progressiveMedia graf-image is-canvasLoaded is-imageLoaded"      ><canvas class="progressiveMedia-canvas js-progressiveMedia-canvas" width="75" height="31"></canvas><img class="progressiveMedia-image js-progressiveMedia-image" src="https://cdn-images-1.medium.com/max/1600/1*jXJdjxgD1tFhIcgx2HkfXw.png" ></div>
-</div>
-<figcaption class="imageCaption">Jenjang karir (Tegar, sumber: <a href="http://www.isqa.club/?p=280"  class="markup--anchor markup--figure-anchor" rel="nofollow noopener noreferrer" target="_blank">http://www.isqa.club/?p=280</a>)</figcaption>
-</figure>
             ]]>
         </content>
     </entry>
