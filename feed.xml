@@ -3,7 +3,7 @@
     <title>Celotehan Quality Software Development Engineer in Test - Agile Testing, Selenium, Appium, Ruby</title>
     <link href="https://fachrul.id/feed.xml" rel="self" />
     <link href="https://fachrul.id" />
-    <updated>2019-06-03T23:18:45+07:00</updated>
+    <updated>2019-06-03T23:20:35+07:00</updated>
     <author>
         <name>Fachrul Choliluddin</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://fachrul.id/scrum-bagi-muslim/"/>
         <id>https://fachrul.id/scrum-bagi-muslim/</id>
 
-        <updated>2019-06-03T23:10:11+07:00</updated>
+        <updated>2019-06-03T23:20:31+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fachrul.id/media/posts/20/arches-architecture-building-460680.jpg" alt="" />
@@ -32,7 +32,7 @@
 <p>Diperjalanan pulang kantor, Jakarta-Bekasi saya terfikir dengan pemanfaatan Scrum tidak hanya dalam project life cycle tapi bisa pula sebagai kerangka kerja kehidupan sehari-hari sehingga bisa menghabiskan waktu dengan lebih efisien, khususnya bagi seorang muslim. Oia sebagai sangkalan (disclaimer), saya bukanlah seorang scrum master, atau seorang yang paham betul soal agama islam, saya hanya praktisi keduanya dan saya melihat beberapa kemiripan diantara keduanya.</p>
 <hr>
 <h2 id="mcetoc_1dceu3con0">Durasi Sprint</h2>
-<p>Sprint dalam scrum adalah batasan (durasi) waktu pengerjaan suatu fitur (proyek) sampai hasil pekerjaan itu dirasakan value sesungguhnya bagi pengguna, durasi waktu sprint ini umumnya pendek sekali untuk ukuran pengerjaan proyek, sekitar 2 minggu - 1 bulan tergantung dari seberapa besar komitmen yang diambil oleh tim pengembang, dan ini dilakukan secara berulang dengan berkesinambungan (iterasi).</p>
+<p>Sprint dalam scrum adalah batasan (durasi) waktu pengerjaan suatu fitur (proyek) sampai hasil pekerjaan itu dirasakan value sesungguhnya bagi pengguna, durasi waktu sprint ini umumnya pendek sekali untuk ukuran pengerjaan proyek, sekitar 2 minggu sampai dengan maksimal 30 hari kalender dan tidak ada batasan minimum tergantung dari seberapa besar komitmen yang diambil oleh tim pengembang, dan ini dilakukan secara berulang dengan berkesinambungan (iterasi).</p>
 <p>Dalam kehidupan muslim, iterasi ini bisa jadi lebih pendek lagi, yaitu satu hari saja (24 jam), mengingat salah satu ucapan baginda Nabi Muhammad SAW bahwa kita harus meningkatkan diri dari hari ke hari, yang sesuai dengan output sprint untuk meningkatkan value setiap iterasi:</p>
 <blockquote>
 <p>Barangsiapa yang dua harinya (hari ini dan kemarin) sama maka ia telah merugi, barangsiapa yang harinya lebih jelek dari hari sebelumnya, maka ia tergolong orang-orang yang terlaknat.</p>
