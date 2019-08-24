@@ -3,12 +3,86 @@
     <title>Celotehan seorang Software Quality Development Engineer in Test - Agile Testing, Selenium, Appium, Ruby</title>
     <link href="https://fachrul.id/feed.xml" rel="self" />
     <link href="https://fachrul.id" />
-    <updated>2019-08-12T23:20:14+07:00</updated>
+    <updated>2019-08-24T22:32:21+07:00</updated>
     <author>
         <name>Fachrul Choliluddin</name>
     </author>
     <id>https://fachrul.id</id>
 
+    <entry>
+        <title>Retrospective 1 Agustus - 24 Agustus 2019</title>
+        <author>
+            <name>Fachrul Choliluddin</name>
+        </author>
+        <link href="https://fachrul.id/retrospective-1-agustus-24-agustus-2019/"/>
+        <id>https://fachrul.id/retrospective-1-agustus-24-agustus-2019/</id>
+
+        <updated>2019-08-24T22:32:13+07:00</updated>
+            <summary>
+                <![CDATA[
+                    Hi, ini adalah catatan retrospective diri sendiri selama periode 1-24 agustus 2019, rencananya akan rutin per-pekan menuliskan apa yang terjadi selama minggu itu sebagai refleksi, karena ini adalah post pertama, makanya langsung aja dimulai dari peride selama awal bulan :D 19 Agustus 2019 - Hari&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Hi, ini adalah catatan retrospective diri sendiri selama periode 1-24 agustus 2019, rencananya akan rutin per-pekan menuliskan apa yang terjadi selama minggu itu sebagai refleksi, karena ini adalah post pertama, makanya langsung aja dimulai dari peride selama awal bulan :D</p>
+<h2 id="mcetoc_1dj22ha0g0">Apa yang terjadi?</h2>
+<p><strong>19 Agustus 2019</strong> - Hari tampil sebagai pembicara publik pertama di <a href="https://scrumdaybandung.com/">Scrumday Bandung 2019</a>, lumayan deg-degan sampai-sampai latihan presentasinya berminggu-minggu bareng Agus Verdy</p>
+<p> </p>
+<blockquote class="instagram-media" style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width: 540px; min-width: 326px; padding: 0; width: calc(100% - 2px);"   >
+<div style="padding: 16px;">
+<div style="display: flex; flex-direction: row; align-items: center;"> </div>
+<div style="padding: 19% 0;"> </div>
+<div style="display: block; height: 50px; margin: 0 auto 12px; width: 50px;"> </div>
+<div style="padding-top: 8px;">
+<div style="color: #3897f0; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: 550; line-height: 18px;">View this post on Instagram</div>
+</div>
+<p style="margin: 8px 0 0 0; padding: 0 4px;"><a href="https://www.instagram.com/p/B1VOPBpHwbw/" style="color: #000; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none; word-wrap: break-word;" target="_blank" rel="noopener noreferrer">Alhamdulillah dapet kesempatan pertama untuk tampil di #scrumdaybdg2019 ternyata paling seru, Peserta masih fresh, walau banyak yg laper 😝 Tapi beban benchmarks menjadi speaker pertama itu langsung ilang ketika udah diatas panggung All out.. mendeliver materi yang udah kita siapin jauh hari biar menjadi value bagi pemirsa Thank you @mekaricom udah menjadi tempat kita belajar dan @scrumdaybandung atas kesempatan ini</a></p>
+<h2 id="mcetoc_1dj22p76f1" style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;">A post shared by <a href="https://www.instagram.com/fachrulch/" style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px;" target="_blank" rel="noopener noreferrer"> Fachrul Abbana Alif</a> (@fachrulch) on <time style="font-family: Arial,sans-serif; font-size: 14px; line-height: 17px;" datetime="2019-08-19T04:08:34+00:00">Aug 18, 2019 at 9:08pm PDT</time></h2>
+</div>
+</blockquote>
+<h2 id="mcetoc_1dj22p76f2">
+<script async="" src="//www.instagram.com/embed.js"></script>
+</h2>
+<p id="mcetoc_1dj23grro8">Cerita selengkapnya bisa di denger podcast penguji.id di bawah ini di episode 2 ya</p>
+<p>Oia untuk slidenya bisa di akses di <a href="https://speakerdeck.com/fachrulch">https://speakerdeck.com/fachrulch</a> (ini juga baru bikin ahaha)</p>
+<h2 id="mcetoc_1dj22p8r24">Podcast</h2>
+<p>Mulai dari 30 Juli kemaren mulai bikin podcast :D coba cari aja di Spotify "Celoteh Penguji aplikasi digital", ini episode terkini nya:</p>
+<p><iframe width="100%" height="232" src="https://open.spotify.com/embed-podcast/episode/3M6hBg976nmS2pVs0Ys4Y3" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></p>
+<h3 id="mcetoc_1dj23cjuh7">Podcast of the week</h3>
+<p><iframe width="100%" height="232" src="https://open.spotify.com/embed-podcast/episode/2ETpU1nf50A7vvPuIXfv7R" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> </p>
+<p>Disini podcast Makna Talk, 30 days of lunch cerita soal perjalanan mereka membuat podcast dan idealisme berkarya, sangat menginspirasi dan memacu untuk bisa berkarya di brand sendiri, <a href="https://penguji.id">Penguji.id</a></p>
+<h2 id="mcetoc_1dj22pjsc5">YouTube</h2>
+<p>Lagi seneng belajar ngerekam video kece pake hape, makanya mulai follow channel tentang videography seperti:</p>
+<ul>
+<li>Iphoneographers: <a href="https://www.youtube.com/user/iphoneographers/">https://www.youtube.com/user/iphoneographers</a></li>
+<li><a href="https://www.youtube.com/channel/UC3DkFux8Iv-aYnTRWzwaiBA">Peter McKinnon</a></li>
+<li><a href="https://www.youtube.com/channel/UCtM-xct7QQx0dL-swaMzYbg/">Peter Lindgren</a></li>
+<li><a href="https://www.youtube.com/channel/UC3stPIuUoCDHG7COfwr0tEA">Brandon Li</a></li>
+<li><a href="https://www.youtube.com/channel/UCw9zJ3qnebPPGsutiEAvu5Q">Parker Walbeck</a></li>
+</ul>
+<h3 id="mcetoc_1dj239hm26">Video of the week</h3>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/VL-_pnICmGY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe> </p>
+<p>Disini Angie Jones cerita tentang cara dia mengatur matrix menentukan use case mana aja yang perlu dan harus di automate, mungkin ini juga bisa jadi ide buat bikin topik di podcast nantinya</p>
+<h2 id="mcetoc_1dj22p76f3">Reading list</h2>
+<p>Banyak baca soal Quality Assistance yang akan di bawain di scrum day bandung dari:</p>
+<ul>
+<li><a href="https://www.atlassian.com/inside-atlassian/quality-assurance-vs-quality-assistance">https://www.atlassian.com/inside-atlassian/quality-assurance-vs-quality-assistance</a></li>
+<li><a href="https://amaysim.engineering/from-quality-assurance-to-quality-assistance-32ffc990d27b">https://amaysim.engineering/from-quality-assurance-to-quality-assistance-32ffc990d27b</a></li>
+<li><a href="https://www.thinksys.com/qa-testing/from-quality-assurance-to-quality-assistance/">https://www.thinksys.com/qa-testing/from-quality-assurance-to-quality-assistance/</a></li>
+</ul>
+<p>Kalo mau lebih lanjut belajar soal quality assistance, ada juga videonya sih</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/yRP29wFqu20" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/w5MN1JWRM1I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/oHFBp5SOEfI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Ix61aEREKNU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p>
+<p> </p>
+<h2 id="mcetoc_1dj2406o1a">Apa yang akan dilakukan minggu depan?</h2>
+<p>Belajar Android! yup, pengen belajar bikin apps android, susah banget nyisihin waktu buat ngulik lagi, klo malem rasanya ngantuk, mau belajar subuh, malah kesiangan :D</p>
+<p>pokoknya minggu depan mau belajar lebih serius lagi ahaha :D</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Membangun Cross-Functional Team</title>
         <author>
@@ -698,96 +772,6 @@ Pernyataannya adalah sebagai berikut (dan saya lengkapi tambahan informasi):<br>
 <p>Aplikasi ringan dan sederhana juga gratis ini akan membantu kita untuk mencatat tren disiplin, disertai dengan pengingat yang bisa di setel juga sangat berguna menurut saya</p>
 <hr>
 <p><br>Semoga tulisan ini bisa bermanfaat bagi yang membaca dan saya berlindung pada Alloh SWT dari kesombongan, insyaalloh menjaga keikhlasan saya. Mohon dibukakan pintu maaf sebesar-besarnya, semoga kita semua senantiasa hidup dalam kesabaran dan kebersyukuran. Semoga Alloh pertemukan dan kita bisa saling bersapa di Jannah-Nya. Amiin<br> <br><br></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Kiat Sukses dalam Membuat Automation Test Solution</title>
-        <author>
-            <name>Fachrul Choliluddin</name>
-        </author>
-        <link href="https://fachrul.id/kiat-sukses-dalam-membuat-automation-test-solution/"/>
-        <id>https://fachrul.id/kiat-sukses-dalam-membuat-automation-test-solution/</id>
-
-        <updated>2019-02-22T09:57:56+07:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://fachrul.id/media/posts/8/pexels-photo-1020325.jpeg" alt="membuat otomasi test" />
-                    Tidak sulit membayangkan manfaat dari memiliki test yang sudah di-otomatisasi (automated) yang dapat membantu proses pengujian aplikasi karena dengan adanya ia akan membuat feedback proses development menjadi jauh lebih cepat, meningkatkan efektifitas, efisiensi dan coverage pengujian, dari eksekusi test yang sering dan berulang, itu adalah sedikit-banyak manfaat dari&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://fachrul.id/media/posts/8/pexels-photo-1020325.jpeg" alt="membuat otomasi test" />
-                <p class="dropcap">Tidak sulit membayangkan manfaat dari memiliki test yang sudah di-otomatisasi (<em>automated</em>) yang dapat membantu proses pengujian aplikasi karena dengan adanya ia akan membuat <em>feedback</em> proses development menjadi jauh lebih cepat, meningkatkan efektifitas, efisiensi dan coverage pengujian, dari eksekusi test yang sering dan berulang, itu adalah sedikit-banyak manfaat dari <em>automated testing</em>. Seiring waktu, fitur yang ada pada sistem akan terus bertambah, QA akan melakukan pengujian mulai dari sistem/fitur yang sudah ada ditambah dengan sistem baru yang sedang dikembangkan.</p>
-<p>Suatu otomatisasi test (<em>test automation</em>) mampu melakukan membuat komputer menjalankan rangkaian aktifitas yang telah dirancang untuk membandingkan hasil dari sistem apakah sesuai dengan standar yang diinginkan <em>(expected behaviour)</em> sehingga menghasilkan laporan pengujian sistem telah berhasil atau gagal</p>
-<p>Dengan adanya otomatisasi test ini diharapkan baban QA menjadi ringan dalam menjalankan <em>regression test</em> yang sama berulang kali, tentu ini akan menghemat waktu QA sehingga bisa fokus ke lain hal yang memiliki <em>impact</em> yang besar dalam menjaga kualitas <em>software</em> yang baik, karena itulah perannya dalam pengembangan perangkat lunak sangat penting dan bisa membantu mencapai kesuksesan dari project</p>
-<hr>
-<p>Jika pengujian otomatis sudah dibuat dengan benar, seharusnya ia akan sangat menguntungkan bagi tim <em>development</em> secara keseluruhan, saya akan coba membagikan kiat dalam membuat otomasi test yang baik dan berguna, kemudian hal-hal apa saja yang harus dihindari saat membuat rangkaian pengujian otomatis ini, karena kita harus realistis, tidak semua bisa di otomatisasi komputer, ada batasan-batasan yang harus tetap di perhatikan</p>
-<figure class="post__image post__image--center" ><img src="https://fachrul.id/media/posts/8/pexels-photo-1020325.jpeg" width="401" height="305">
-<figcaption >Membuat Robot</figcaption>
-</figure>
-<h2 id="mcetoc_1d4995dar0">Manual vs Automated atau Testing vs Checking</h2>
-<p>Harap dihindari membanding-bandingkan dua hal ini, antara manual dengan <em>automated testing</em>, karena keduanya memiliki fungsi yang berbeda dan saling membutuhkan. Ada yang bilang <span style="text-decoration: underline;"><em>Testing = Checking + Thinking,</em></span> sehingga selayaknya disebut <strong><em>automated checking</em></strong> bukan disebut<em><strong> automated test / test automation</strong></em>, karena ia adalah pengujian berdasarkan fakta, tapi buat saya sih lebih lumrah orang lain bilang "<strong>testing</strong>" sih ya ahaha.</p>
-<p>Selama <em>manual testing</em>, sisi perasaan dan nalar dari seorang <em>tester</em> akan sangat diperlukan dalam mencari titik lemah dan potensi masalah yang akan ditimbulkan dari sistem, dan seringkali proses ini tidak tidak tertulis di rencana pengujian (e<em>xploratory testing</em>) karena <em>tester</em> beradaptasi dengan hasil dari proses <em>testing</em> sehingga perlu improvisasi dalam "mengusili" aplikasi.</p>
-<p>Di sisi lain <em>automated test</em> adalah hasil karya manusia juga yang berisi instruksi agar komputer bisa melalukan suatu task (dalam hal ini melakukan pengujian dari suatu hasil), nah setiap kali automated test ini dijalankan, maka ia akan melalukan kegiatan yang sama persis seperti instruksi yang dituliskan dalam kode, dan ia hanya menge-cek hal-hal yang diminta untuk di cek. </p>
-<hr>
-<h2 id="mcetoc_1d499b1cs1">Mulailah dari <em>automated regression test</em></h2>
-<p>Tujuan utama kenapa otomasi test itu ada, adalah karena kita bosan menjalankan test yang sama berulang-ulang setiap rilis baru, <em>Regression test</em> perlu dijalankan seiringan dengan sistem yang terus berkembang, kita perlu memastikan bahwa setelah menambahkan fitur baru pada sistem tidak akan merusak fitur lainnya yang sudah ada.</p>
-<p>Rangkaian test ini sangat memakan waktu dan pekerjaan yang membosankan untuk QA jalankan secara manual setiap kali, ini lah tanda-tanda <em>automation</em> diperlukan untuk menjaga konsistensi hasil pengujian, jadi regression test sangan cocok untuk mulai di otomasi</p>
-<hr>
-<h2 id="mcetoc_1d499crt32">Desainlah testnya dulu sebelum mulai koding</h2>
-<p>Proses yang baik adalah membuat <em>user scenario,</em> <em>test cases, </em>apa yang perlu di <em>expect</em> sebelum mulai di otomasi, karena ini bisa sangat membantu dalam mencari risiko masalah pada sistem yang ditimbulkan, lalu diskusikan dengan tim juga</p>
-<p>Sangat tidak disarankan ketika langsung membuat otomasi kode untuk menguji skenario positif dan <em>happy flow</em> saja, dibandingkan dengan memilikirkan dan mengidentifikasi skenario mana saja yang mungkin terjadi dan bisa ditest. </p>
-<p>Jangan juga mengotomatisasi hal yang sebenarnya tidak terlalu penting untuk di kerjakan komputer, seperti misalnya kita akan menguji halaman login, definisi orang tersebut terlah berhasil login tidak perlu memastikan URL != "/login" tetapi lebih penting untuk memastikan, misalnya <em>username</em> di pojokan sudah sesuai dengan <em>login credential</em> tadi , maka dari itu perlu bantuan dari tim member lain untuk mereview desain test kita apakah sudah mencukupi dan sudah baik dalam <em>test scenario</em> dan verifikasinya (ekspektasinya)</p>
-<hr>
-<h2 id="mcetoc_1d499mre63">Hilangkan keraguan</h2>
-<p>Satu hal yang penjadi point utama dari otomasi adalah bisa menjaga hasil yang konsistens, sehingga kita bisa tahu ketika test fail artinya ada sesuatu yang salah dan muncul anomali sistem</p>
-<p>Bayangkan ketika test nya pass kemudian di jalankan lagi jadi fail, tanpa ada perubahan pada aplikasi yang di test (SUT), kita tidak pernah yakin ketika ada fail ini disebabkan oleh kesalahan kode <em>automation</em> atau <em>error</em> pada sistemnya.</p>
-<p>Ketika ada <em>error</em>, kita harus periksa penyebab yang mengakibatkan <em>error</em> ini, kalau sudah banyak ditemukan inkonsistensi atau false positif akan membuat proses pengecekan error ini lama dan sulit. Jangan takut untuk menghapus test yang ga stabil seperti itu di rangkaian test kita, karena yang kita perlukan adalah hasil yang konsisten dan bisa dipercaya.</p>
-<p>Perlu diperhatikan, kualitas otomatisasi test sangat tergantung dari kualitas orang yang menulisnya, bisa jadi test nya berjalan baik, semua check pass, tetapi ada kemungkinan kesalahan bisa saja muncul, tetapi komputer tidak peduli (karena diluar set ekspektasi) sehingga bisa memberikan false quality impression.</p>
-<p><img class="post__image--center" src="https://fachrul.id/media/posts/8/pexels-photo-955450.jpeg" alt="" width="406" height="303"></p>
-<hr>
-<h2 id="mcetoc_1d499or0u4">Jangan otomasi fitur yang belum stabil</h2>
-<p>Sebagaimana sebuah fitur baru yang sedang dikembangkan, banyak sekali hal yang tidak mulus, bahkan seringkali saking agile nya ternyata fitur tersebut tidak lagi relevan dan di batalkan karena bisnis telah berubah dari rencana awal, sehingga otomasi menjadi sia-sia</p>
-<p>Ketika proses otomasi test sudah dimulai berbarengan dengan fitur tersetbut dimulai, maka test akan sering sekali di ubah untuk bisa menyesuaikan implementasi fitur yang bergerak juga, dan ini sangat menghamburkan waktu, walaupun ada juga kok teman-teman ISQA dari <em>startup</em> lain yang sudah berhasil membuat otomasi test berbarengan dengan fitur dibuat.</p>
-<p>Bagaimanapun, saya lebih condong berpendapat implementasi <em>automation </em>(khususnya UI) itu akan lebih baik dibuat ketika fitur sudah stabil dan tidak banyak berubah </p>
-<hr>
-<h2 id="mcetoc_1d499qr775"><strong>Jangan harap keajaiban dari otomasi</strong></h2>
-<p>Jangan pernah berharap otomasi akan bisa menangkap banyak bugs, faktanya dengan manual testing jumlah bug yang ditemukan lebih banyak loh.</p>
-<p>Tujuan dibuatnya <em>test automation</em> adalah untuk membantu QA dalam proses testing sehingga waktu luang QA lebih banyak dan bisa digunakan untuk memikirkan improvement proses dan menjalankan test yang sulit dan edge cases segingga bisa memberikan kepercayaan diri bagi bahwa aplikasi masih berjalan mulus dengan adanya <em>deployement</em> fitur baru</p>
-<p>Rangkaian <em>regression test scenario</em> yang dijalankan secara otomatis tentu akan memberikan <em>feedback</em> lebih cepat dan bisa memberikan rasa aman bagi tim untuk <em>deploy</em> ke <em>production</em></p>
-<hr>
-<h2 id="mcetoc_1d499s95m6">Mengerti konteks nya</h2>
-<p>Test itu bisa ada di berbagai layer, dari <em>unit test, API, service,</em> dan UI, setiap layer memiliki perbedaan tersendiri.</p>
-<p>Unit test akan memastikan kode pada level class berjalan sebagaimana mestinya, sesuai dengan logic yang diharapkan, lebih mengutamakan verification ketimbang validation.</p>
-<p>API test atau i<em>ntegration test</em> akan memastikan satuan function dan class bisa berjalan sesuai harapan ketika digabungkan antar class</p>
-<p>UI atau<em> end to end test</em> adalah rangkaian dari interaksi perjalanan user, disini bisa dibilang UI level lebih ke validasi daripada verifikasi dalam menguji scenario user, test yang berjalan di layer ini cenderung lambat dan rawan <em>error</em>, bisa saja ada perbaikan secara  tampilan, tetapi secara usability masih sama dan tidak berubah sehingga bisa memberikan UI test dibilang error karena ternyata ada element yang berubah (css class ganti bikin element not found).</p>
-<p>Dengan mengerti konteks dari setiap layer test kita akan bisa mengatur strategi otomatisasi nya, bisa jadi untuk scenario A, B, C kita akan test melalui API test, lalu hanya scenario B yang dijalankan juga pada UI test agar lebih cepat dan stabil </p>
-<hr>
-<h2 id="mcetoc_1d499ucbo7">Jangan repot-repot cover 100% semuanya</h2>
-<p><em>Test coverage</em> 100% sangatlah sulit dicapai karena kombinasi kemungkinan yang timbul sangat beragam (<em>possible permutation</em>), ketika berbicara soal otomatisasi test semakin menambah test tidak selalu berarti manambah keyakinan akan test semakin baik. Semua itu tergantung dari sebagus apa otomatisasi pengujian di rancang.</p>
-<p>Untuk membuat <em>automated scrip</em>t memerlukan sumber daya dan waktu, ketika kita ingin mengotomasi semuanya, sudah pasti perlu sumber daya dan waktu yang sangat banyak, yang mana pada kasus umumnya tidak bisa dipenuhi, pun semakin banyak test otomasi akan semakin memerlukan pemeliharaan kode yang lebih intens</p>
-<p>Maka dari itu lebih baik kita buat berdasaran analisa risiko, agar bisa memilih test mana yang layak untuk di otomasi sehingga bisa sangat memberikan manfaat dalam proses testing dan dari segi skenario proses bisnis.</p>
-<p>Oh ya, harap diperhatikan ga semua test bisa di otomasi, sering ada kasus test tersebut aslinya sangat kompleks sering kali hasilnya tidak konsisten, sehingga kasus ini lebih baik kita uji secara manual oleh QA, karena lebih baik kita fokus ke fitur/funcionality yang paling penting dan krusial bagi bisnis untuk di otomatisasi ketimbang mengejar full coverage. </p>
-<hr>
-<h2 id="mcetoc_1d49a00378">Jangan berniat menggantikan manual tester</h2>
-<p>Ada saja orang yang berfikir memiliki automated test sudah cukup dan tidak perlu QA manual lagi, padahal sudah jelas untuk membuat otomatisasi, kita harus pahami dlu hasil seperti apa yang diinginkan, apa yang perlu dicek sehingga dikatakan v<em>alid outcome</em>. Proses testing itu perlu kemampuan multi disiplin seperti investigasi, detektif, psikologis sehingga kita bisa merencanakan ujicoba sekaligus meneksekusi langsung, seorang manual tester yang baik akan selalu memiliki kemampuan untuk berfikir kritis mencegah error terjadi lagi bagi pengguna </p>
-<hr>
-<h2 id="mcetoc_1d49a0gac9">Jangan sampai hilang kepercayaan</h2>
-<p>Ini yang paling penting, kita harus mengantisipasi efek samping dari <em>test automation</em>, ketika kita sudah mencurahkan waktu dan tenaga untuk membuat rangkaian pengujian otomatis yang sempurna dan keren, tetapi ternyata menjadi sia-sia karena tidak berguna dan membantu bagi tim.</p>
-<p>Bisa jadi tim tidak merasakan manfaatnya, atau bahkan tidak tahu, jadi perlu juga visibility dari rangkaian test automation solution yang kita buat, bagaimana cara mereka memakainya, lalu test apa saja yang ada di dalamnya agar tidak melakukan regression yang duplikat.</p>
-<p>Jika automated test ini sering kali flaky (intermittent error), lambat dan tidak transparan, bagaimana bisa  memberikan indikasi kualitas sistem sedangkan automated test nya saja tidak berkualitas baik dan stabil.</p>
-<p> </p>
-<hr>
-<figure class="post__image post__image--center" ><img src="https://fachrul.id/media/posts/8/pexels-photo-1068523-1.jpeg" width="498" height="326">
-<figcaption >we are a team</figcaption>
-</figure>
-<p>Rangkaian pengujian otomatis ini perlu dirawat layaknya mahluk hidup, ia terus berkembang dari waktu ke waktu, ada kalanya test tertentu sudah tidak relevan, jangan takut untuk mencopot test yang seringkali fail atau tidak memberikan hasil yang konsisten demi menjaga kredibilitas dari test automation solution kita sebagai indikator dari kualitas aplikasi/sistem.</p>
-<p>Dengan mengerti batasan diatas, menurut saya peran manusia tetap berperan penting dalam proses pengujian belum bisa digantikan sepenuhnya oleh otomasi komputer, lalu kenapa kita perlu membuat otomatisasi pengujian aplikasi? alasan singkatnya adalah "<span style="text-decoration: underline;"><strong>repeatability</strong></span>",  lebih ke kolaborasi dengan adanya bantuan komputer untuk menjalankan pengujian otomatis akan membantu QA untuk bisa lebih luang dan bisa lebih fokus untuk melakukan exploratory testing untuk lebih banyak mengali risiko, dan defects.</p>
-<p>Jadi, lain kali ketika kamu berencana membuat otomatisasi test, coba berfikir sejenak dan berfikir, seberapa sering test ini akan di jalankan? apakah cukup layak untuk dikerjakan manual? bagaimana sampai dikatakan test nya sukses?</p>
-<p> </p>
-<p class="msg msg--info"><strong>Hmm sepertinya itu saja, ada tambahan kah dari teman-teman?</strong></p>
             ]]>
         </content>
     </entry>
