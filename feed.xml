@@ -3,12 +3,52 @@
     <title>Celotehan seorang Software Quality Development Engineer in Test - Agile Testing, Selenium, Appium, Ruby</title>
     <link href="https://fachrul.id/feed.xml" rel="self" />
     <link href="https://fachrul.id" />
-    <updated>2019-09-07T11:36:16+07:00</updated>
+    <updated>2019-10-19T22:59:06+07:00</updated>
     <author>
         <name>Fachrul Choliluddin</name>
     </author>
     <id>https://fachrul.id</id>
 
+    <entry>
+        <title>Ulasan Pekan Ini - 18 Oktober 2019</title>
+        <author>
+            <name>Fachrul Choliluddin</name>
+        </author>
+        <link href="https://fachrul.id/ulasan-pekan-ini-18-oktober-2019/"/>
+        <id>https://fachrul.id/ulasan-pekan-ini-18-oktober-2019/</id>
+
+        <updated>2019-10-19T22:58:53+07:00</updated>
+            <summary>
+                <![CDATA[
+                    Hi, lama tak berjumpa! Mohon maaf baru menulis lagi, karena habis migrasi ke laptop baru 😅 #ciee Dengan dipersenjatai macbook pro yang lebih mumpuni harusnya makin semangat bikin konten nih!!! tapi kenyataannya akhir-akhir ini malah sibuk ngurusin kerjaan, hufft Oke dikesempatan kali ini tagar post #retrospective&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Hi, lama tak berjumpa!</p>
+<p>Mohon maaf baru menulis lagi, karena habis migrasi ke laptop baru 😅 #ciee</p>
+<p>Dengan dipersenjatai macbook pro yang lebih mumpuni harusnya makin semangat bikin konten nih!!! tapi kenyataannya akhir-akhir ini malah sibuk ngurusin kerjaan, hufft</p>
+<p>Oke dikesempatan kali ini tagar post #retrospective saya ubah menjadi judul "Ulasan Pekan ini" karena simple judulnya, klo ada kata retrospective keknya terlalu keren ahaha 🤣, tapi isinya sama kok, kalem aja!</p>
+<p>Oke kita mulai ulasan hal-hal menarik pekan ini:</p>
+<h2 id="mcetoc_1dniasf450">Perkakas</h2>
+<p>ada sumber alat bantu kerja yang baru nih, di <a href="https://file-examples.com/">https://file-examples.com/</a> kita bisa unduh file sampling berupa video, audio, document, gambar ataupun file jenis lainya untuk kebutuhan testing, khususnya upload file, jadi bisa nyari file yg ukurannya, resolusinya ataupun ekstensi nya sesuai dengan skenario test yang kita mau.</p>
+<h2 id="mcetoc_1dnib17731">Bacaan</h2>
+<p>Rekomendasi bacaan pekan ini:</p>
+<ul>
+<li>Bahasan penulisan automation test code yang baik ga perlu sesuai prinsip clean code banget. <strong>Good production code is well-factored; good test code is <em>obvious</em>.</strong> <a href="https://mtlynch.io/good-developers-bad-tests/">https://mtlynch.io/good-developers-bad-tests/</a></li>
+<li>Pandangan mengenai value testing yang baik pada tim <a href="https://www.techwell.com/techwell-insights/2018/11/cost-software-testing">https://www.techwell.com/techwell-insights/2018/11/cost-software-testing</a></li>
+<li>Perihal penulisan pytest code yg baik <a href="https://raphael.codes/blog/customizing-your-pytest-test-suite-part-1/">https://raphael.codes/blog/customizing-your-pytest-test-suite-part-1/</a> dan <a href="https://raphael.codes/blog/customizing-your-pytest-test-suite-part-2/">https://raphael.codes/blog/customizing-your-pytest-test-suite-part-2/</a></li>
+</ul>
+<h2 id="mcetoc_1dnib8ffc2">Tontonan</h2>
+<p>Mengulang lagi video bagus dari Angie Jones untuk menentukan skenario test mana yang layak untuk di automate</p>
+<h2 id="mcetoc_1dnibbbqh3"><iframe width="560" height="315" src="https://www.youtube.com/embed/VL-_pnICmGY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></h2>
+<h2 id="mcetoc_1dnibbbqh4">Siniar (podcast)</h2>
+<p>Imre bahas soal sudut pandang venture capital melihat profile founder startup dalam proses pendanaan</p>
+<iframe width="100%" height="232" src="https://open.spotify.com/embed-podcast/episode/2OrRTC0IVADVz3UpBaD6wM" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Bukan hanya bekerja, waktunya berkarya!</title>
         <author>
@@ -595,37 +635,6 @@
 <h2 id="mcetoc_1db0a2ung4"><br>Bagaimana kita bisa mengelesaikan masalah yang sesungguhnya?</h2>
 <p>Sebagai pengrajin kode yang profesional, kita harus menyadari bahwa klien kita seringkali tidak mengetahui solusi yang terbaik untuk masalah yang mereka hadapi, bantu mereka dengan pengalaman kita mencari solusi yang paling jitu.</p>
 <p>Santai dan dengarkan. Bicaralah dengan orang dari sisi bisnis, dan tanyakan hasil seperti apa yang dibutuhkan? Brainstorming dengan ide perbaikan, diskusi debatlah hingga menemukan formula yang tepat guna untuk menjadi solusi dari masalah yang dihadapi</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Today I learn: April 2019</title>
-        <author>
-            <name>Fachrul Choliluddin</name>
-        </author>
-        <link href="https://fachrul.id/today-i-learn-april-2019/"/>
-        <id>https://fachrul.id/today-i-learn-april-2019/</id>
-
-        <updated>2019-04-26T17:20:04+07:00</updated>
-            <summary>
-                <![CDATA[
-                    22/04/2019: Bagaimana cara debug HTTP request?gimana cara kita tau ada yang salah di HTTP request kita sampe return error 400 Bad request. kalo bikin API request pake postman sih gampang, buat liat request yang dibuat udah bener apa ngak, tinggal buka developer console di postman&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <h2 id="mcetoc_1d9chu9gg0">22/04/2019: Bagaimana cara debug HTTP request?</h2>
-<p>gimana cara kita tau ada yang salah di HTTP request kita sampe return error 400 Bad request. kalo bikin API request pake postman sih gampang, buat liat request yang dibuat udah bener apa ngak, tinggal buka developer console di postman nya, kita bisa inspect request-response nya, tapi akan sangat sulit kalo kita bikin request ini programatically pake bahasa pemrograman, karena request nya sekejap aja langsung?</p>
-<p>Solusinya:</p>
-<p><code>ruby -rsocket -e "trap('SIGINT') { exit }; Socket.tcp_server_loop(8080) { |s,_| puts s.readpartial(1024); puts; s.puts 'HTTP/1.1 200'; s.close }</code></p>
-<p>kode diatas akan buat program kecil via ruby yang akan listen port 8080, kita bisa hit http://localhost:8080 buat lihat apakah request kita sudah benar</p>
-<p><img class="post__image" src="https://fachrul.id/media/posts/12/Screen-Shot-2019-04-26-at-17.14.00.png" alt="" width="2010" height="580"></p>
-<p>sumber: <a href="https://www.rubyguides.com/2018/08/ruby-http-request/">https://www.rubyguides.com/2018/08/ruby-http-request/</a></p>
-<hr>
-<h2 id="mcetoc_1d9ciakd00"> 26/05/2018: Cara biar Cucumber Ruby ga langsung fail ketika assert / expect</h2>
-<p> klo pake expect biasanya tiap ga terpenuhi langsung error, nah padahal kan bisa jadi di halaman itu kita perlu banyak cek sekaligus, biar sekalian dibenerin gitu. gimana caranya?</p>
-<p><code>aggregate_failures "testing response" do<br>  expect(response.status).to eq(200)<br>  expect(response.headers["Content-Type"]).to eq("application/json")<br>  expect(response.body).to eq('{"message":"Success"}')<br> end</code></p>
-<p>sumber: <a href="https://www.rubydoc.info/github/rspec/rspec-expectations/RSpec%2FMatchers:aggregate_failures">https://www.rubydoc.info/github/rspec/rspec-expectations/RSpec%2FMatchers:aggregate_failures</a> </p>
             ]]>
         </content>
     </entry>
