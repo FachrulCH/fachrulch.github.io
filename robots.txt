@@ -2,4 +2,4 @@ User-Agent: *
 Disallow: /assets
 Allow: /
 
-Sitemap: https://blog.fachrul.id/sitemap.xml
+Sitemap: https://fachrul.id/sitemap.xml
