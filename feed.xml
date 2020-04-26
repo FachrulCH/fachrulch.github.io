@@ -3,12 +3,70 @@
     <title>Celotehan seorang Software Quality Development Engineer in Test - Agile Testing, Selenium, Appium, Ruby</title>
     <link href="https://fachrul.id/feed.xml" rel="self" />
     <link href="https://fachrul.id" />
-    <updated>2020-03-24T14:40:37+07:00</updated>
+    <updated>2020-04-26T14:44:20+07:00</updated>
     <author>
         <name>Fachrul Choliluddin</name>
     </author>
     <id>https://fachrul.id</id>
 
+    <entry>
+        <title>Perintah Git yang berguna tapi jarang yang tahu</title>
+        <author>
+            <name>Fachrul Choliluddin</name>
+        </author>
+        <link href="https://fachrul.id/perintah-git-yang-berguna-tapi-jarang-yang-tahu/"/>
+        <id>https://fachrul.id/perintah-git-yang-berguna-tapi-jarang-yang-tahu/</id>
+
+        <updated>2020-04-26T14:44:10+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://fachrul.id/media/posts/29/coding-computer-data-depth-of-field-577585.jpg" alt="" />
+                    GIT? tools andalan dalam kolaborasi pengembangan perangkat lunak yang banyak dari kita sudah familiar dan bahkan menggunakan nya sehari-hari. Tapi buat saya pribadi seringkali cuma pake git commit, git push, git merge doank ahaha, ada beberapa command yg penting dan berguna sebenernya yang bisa sangat&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://fachrul.id/media/posts/29/coding-computer-data-depth-of-field-577585.jpg" alt="" />
+                <p>GIT? tools andalan dalam kolaborasi pengembangan perangkat lunak yang banyak dari kita sudah familiar dan bahkan menggunakan nya sehari-hari. Tapi buat saya pribadi seringkali cuma pake git commit, git push, git merge doank ahaha, ada beberapa command yg penting dan berguna sebenernya yang bisa sangat memudahkan kita dan ternyata banyak orang yang tahu juga</p>
+<h2 id="mcetoc_1e6qmq1h30">Mengurutkan Branch berdasarkan tanggal</h2>
+<pre class="  language-bash"><code class="  language-bash"><span class="token function">git</span> branch --sort<span class="token operator">=</span>-committerdate</code> </pre>
+<h2 id="mcetoc_1e6qmqu5j1">Pindah ke Branch sebelumnya</h2>
+<pre class="  language-bash"><code class="  language-bash"><span class="token function">git</span> checkout -</code></pre>
+<h2 id="mcetoc_1e6qmr2ge2">Menampilkan informasi komit terakhir dari semua branch</h2>
+<pre class="  language-bash"><code class="  language-bash"><span class="token function">git branch -v<br>git</span> branch -vv  # kalo mau sama informasi upstream remote branch nya sekalian</code></pre>
+<h2 id="mcetoc_1e6qmr6vg3">Ambil perubahan suatu file di branch lain</h2>
+<pre class="  language-bash"><code class="  language-bash"><span class="token function">git</span> checkout feature/branch-lain -- fileyangkitamau.txt</code></pre>
+<h2 id="mcetoc_1e6qmrb614">Melihat status Git dengan lebih ringkas</h2>
+<p>kadang kita cuma menjalankan command `git status` untuk melihat file apa aja yang mengalami perubahan atau penambahan files. sebagai alternatif untuk informasi perubahan files dengan lebih ringkas kita bisa menjalankan:</p>
+<pre class="  language-bash"><code class="  language-bash"><span class="token function">git</span> status -sb</code></pre>
+<h2 id="mcetoc_1e6qmrjff5">Menelusuri file yang hilang</h2>
+<pre class="  language-bash"><code class="  language-bash"><span class="token function">git</span> log -- missing_file.txt</code></pre>
+<h2 id="mcetoc_1e6qmrnc76">Siapa Commiter paling <span style="text-decoration: line-through;">rajin</span> banyak</h2>
+<p>Buat lucu-lucuan aja di urutin siapa commiter paling banyak</p>
+<pre class="highlight"><code>git shortlog -sn --all --no-merges</code></pre>
+<p>atau klo mau lebih spesifik lagi bisa ditambahin tempo nya</p>
+<pre class="highlight"><code>git shortlog -sn --since='10 weeks' --until='2 weeks'</code></pre>
+<h2 id="mcetoc_1e6qmsm137">Siapa nih yg ubah file dan line tertentu</h2>
+<pre class="highlight"><code>git blame -L5,10 .gitlab-ci.yml</code></pre>
+<h2 id="mcetoc_1e6qmsr888">Daripada nunjukin line yang berubah mending minta tunjukin kata yang berubah</h2>
+<pre class="highlight"><code>git diff --word-diff</code></pre>
+<h2 id="mcetoc_1e6qmsvj59">Melihat branch mana saja yang akhir-akhir ini kita kerjakan</h2>
+<p>Kadang terlalu banyak lompat branch jadi suka tersesat sendiri dan bingung mau mulai darimana</p>
+<pre class="highlight"><code>git for-each-ref --count=10 --sort=-committerdate refs/heads/ --format="%(refname:short)"</code></pre>
+<p>kalo terlalu ribet hapal nya tinggal bikin alias jadi `git recent` sih</p>
+<h2 id="mcetoc_1e6qmt3oia">Lagi pada ngerjain apaan sih?</h2>
+<p>buat tim leader biasanya penting untuk ngecek sesekali dari apa yang dikerjain tim kita di repo, sebenernya bisa aja liat di git commit di gitlab/github nya sih, tapi klo lagi di terminal bisa langsung di eksekusi aja command ini</p>
+<pre class="highlight"><code>git log --all --oneline --no-merges</code></pre>
+<p>atau klo mau ada pembatas waktu bisa ditambahin argument since: days/weeks</p>
+<pre class="highlight"><code>git log --all --since='3 days' --oneline --no-merges</code></pre>
+<p>Trus klo mau cek orang tertentu bisa pake gini</p>
+<pre class="highlight"><code>git log --all --oneline --no-merges --author=&lt;email address&gt;<br></code></pre>
+<pre class="highlight"><code>git log --since=00:00:00 --all --no-merges --oneline --author=&lt;email address&gt;</code></pre>
+<h2 id="mcetoc_1e6qmtcp3b">Melihat logs yang kompleks dengan grafis </h2>
+<pre class="highlight"><code>git log --graph --all --decorate --stat --date=iso</code></pre>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Ulasan Pekan Ini - 18 Oktober 2019</title>
         <author>
@@ -652,45 +710,6 @@
 <li>Jika automation mobile apps saya akan memilih java-appium karena tutorialnya banyak dan bisa multiplatform (tapi lebih cepat espresso dan xcuitest sih)</li>
 <li>Jika autoamtion API saya akan memilih postman/newman dengan javascript nya</li>
 </ul>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Memecahkan masalah yang sebenarnya</title>
-        <author>
-            <name>Fachrul Choliluddin</name>
-        </author>
-        <link href="https://fachrul.id/memecahkan-masalah-yang-sebenarnya/"/>
-        <id>https://fachrul.id/memecahkan-masalah-yang-sebenarnya/</id>
-
-        <updated>2019-05-16T19:41:03+07:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://fachrul.id/media/posts/14/accident-action-asphalt-6078-1.jpg" alt="" />
-                    Mengapa kita mencoba menyelesaikan masalah yang salah?Pada umumnya, bekerja di dunia software development lebih sering berkecimpung dalam maintenance dari aplikasi tua yang sudah dibuat dari dulu oleh developer sebelumnya dan kita tinggal melanjutkannya saja. Jarang sekali (walaupun ada) kesempatan untuk memulai projek dari awal sekali,&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://fachrul.id/media/posts/14/accident-action-asphalt-6078-1.jpg" alt="" />
-                <h2 id="mcetoc_1db09cunf0">Mengapa kita mencoba menyelesaikan masalah yang salah?</h2>
-<p>Pada umumnya, bekerja di dunia software development lebih sering berkecimpung dalam maintenance dari aplikasi tua yang sudah dibuat dari dulu oleh developer sebelumnya dan kita tinggal melanjutkannya saja. Jarang sekali (walaupun ada) kesempatan untuk memulai projek dari awal sekali, lebih sering malah menangani sistem lama yang akan diakhiri (sunset) atau sistem yang sedang terseok-seok, kebakaran dan perlu diselamatkan dengan memberikan peningkatan (scalable) agar bisa memenuhi kebutuhan bisnis pada saat ini. </p>
-<p>Tak heran programmer pemula yang kelimpahan kerjaan seperti ini seringkali ngomel-ngomel, memaki dalam hati karena penulis aslinya dulu yang tidak mampu membuat aplikasi dengan pengalaman terbaik (best practice) atau bisa fleksibel disesuaikan dengan kebutuhan bisnis dimasa depan.</p>
-<p>Padahal sesungguhnya, semakin lama saya bekerja dilingkungan teknologi, semakin saya menyadari, bahwa seringkali kebutuhan bisnis mengalahkan desain arsitektur paripurna, dengan dalih tenggat waktu yang mendesak, beban sumber daya, dan situasi pasar yang bergejolak.</p>
-<p>Kebutuhan bisnis ini hanya mentoleri selama aplikasi bisa menyelesaikan menjawab kebutuhan pasar dengan segera, tidak lebih.</p>
-<figure class="post__image post__image" ><img src="https://fachrul.id/media/posts/14/accident-adult-battle-942560.jpg" alt="Photo by Denniz Futalan from Pexels" width="639" height="426">
-<figcaption >Photo by <strong><a href="https://www.pexels.com/@denniz-futalan-339724?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels">Denniz Futalan </a></strong>from <strong><a href="https://www.pexels.com/photo/silhouette-of-fireman-holding-hose-942560/?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels">Pexels</a></strong></figcaption>
-</figure>
-<p>Saat kita mengais puing-puing kode usang tapi masih bisa berfungsi, seringkali kita dibuat garuk-garung kepala, lalu tersenyum simpul melihat penampakan kode aneh bin ajaib muncul, seolah kita masuk ke lorong waktu dan mengenal betul penulis aslinya, kita bisa tahu kapan masanya si empunya ini sedang gandrung metode MVC, lalu berlanjut dengan gaya functional yang mulai populer, dan perubahan gaya kode kekinian lain sebagainya. Kita harus bisa sekreatif mungkin menjaga kode warisan (legacy codebase) ini agar tetap bekerja sebagaimana bisnis harapkan dengan minim perubahan, toh ini lebih baik daripada menggerutu dan memaksa untuk merubahnya menjadi kode yang lebih keren dengan object orientation yang benar, inheritance dan interface yang mumpuni, karena sangat beresiko jika tidak bisa menjinakannya.<br><br>Sebagian besar yang bikin frustasi adalah ketika perancang kode atau bisnis tidak bisa mengkomunikasikan masalahnya dengan tepat, sehingga lebih sering penyelesaian masalah dengan program perangkat lunak menjadi melenceng, entah bisa menjadi solusi tepat guna atau tidak, sehingga ujung-ujungnya perlu bongkar pasang, malah buang-buang waktu.</p>
-<h2 id="mcetoc_1db0a0a1q3">Kenapa sisi bisnis memberikan solusi yang salah sih?</h2>
-<p>Sebuah hal yang sering terjadi dalam menyelesaikan masalah yang salah adalah ketika bisnis menjelaskan masalahnya dan solusi yang mereka pikirkan sendiri lalu kita menelannya mentah-mentah.</p>
-<p>Sebagai sebuah contoh, dengan analogi seseorang yang baru mahir mengendarai sepeda dan mulai memberanikan diri berkendara di jalan umum, lalu ia pergi ke bengkel sepeda dan menyampaikan maksud kedatangannya ke mekanik disana "Mas, saya ingin sepeda ini dipasangi lampu sign seperti sepeda motor, berapa saya harus bayar ya?" dan si mekanik ini dengan pengalaman yang dimiliki tentu perlu tahu kenapa dia inigin hal ini "Hmm jadi yang kamu perlu adalah cara supaya lebih terlihat oleh pengendara lain ketika main sepeda di malam hari? Saya bisa bantu kamu menemukan material yang akan membuatmu terlihat di malam hari dan yang pasti lebih murah daripada sign motor", lalu pemilik sepeda menjawab "Iya bener banget".</p>
-<figure class="post__image post__image" ><img src="https://fachrul.id/media/posts/14/art-artsy-bulb-1938318.jpg" alt="solution" width="640" height="640">
-<figcaption >Photo by <strong><a href="https://www.pexels.com/@jhonismartins?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels">Jhonis Martins </a></strong>from <strong><a href="https://www.pexels.com/photo/person-holding-white-light-bulb-beside-black-bulb-socket-1938318/?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels">Pexels</a></strong></figcaption>
-</figure>
-<h2 id="mcetoc_1db0a2ung4"><br>Bagaimana kita bisa mengelesaikan masalah yang sesungguhnya?</h2>
-<p>Sebagai pengrajin kode yang profesional, kita harus menyadari bahwa klien kita seringkali tidak mengetahui solusi yang terbaik untuk masalah yang mereka hadapi, bantu mereka dengan pengalaman kita mencari solusi yang paling jitu.</p>
-<p>Santai dan dengarkan. Bicaralah dengan orang dari sisi bisnis, dan tanyakan hasil seperti apa yang dibutuhkan? Brainstorming dengan ide perbaikan, diskusi debatlah hingga menemukan formula yang tepat guna untuk menjadi solusi dari masalah yang dihadapi</p>
             ]]>
         </content>
     </entry>
