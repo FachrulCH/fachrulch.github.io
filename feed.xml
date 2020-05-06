@@ -3,7 +3,7 @@
     <title>Celotehan seorang Software Quality Development Engineer in Test - Agile Testing, Selenium, Appium, Ruby</title>
     <link href="https://fachrul.id/feed.xml" rel="self" />
     <link href="https://fachrul.id" />
-    <updated>2020-04-26T15:25:02+07:00</updated>
+    <updated>2020-05-06T15:44:37+07:00</updated>
     <author>
         <name>Fachrul Choliluddin</name>
     </author>
@@ -96,7 +96,7 @@
         <link href="https://fachrul.id/perintah-git-yang-berguna-tapi-jarang-yang-tahu/"/>
         <id>https://fachrul.id/perintah-git-yang-berguna-tapi-jarang-yang-tahu/</id>
 
-        <updated>2020-04-26T15:24:39+07:00</updated>
+        <updated>2020-05-06T15:44:32+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fachrul.id/media/posts/29/coding-computer-data-depth-of-field-577585.jpg" alt="" />
@@ -112,7 +112,7 @@
 <h2 id="mcetoc_1e6qmqu5j1">Pindah ke Branch sebelumnya</h2>
 <pre class="  language-bash"><code class="  language-bash"><span class="token function">git</span> checkout -</code></pre>
 <h2 id="mcetoc_1e6qmr2ge2">Menampilkan informasi komit terakhir dari semua branch</h2>
-<pre class="  language-bash"><code class="  language-bash"><span class="token function">git branch -v<br>git</span> branch -vv  # kalo mau sama informasi upstream remote branch nya sekalian</code></pre>
+<pre class="  language-bash"><code class="  language-bash language-shell-session"><span class="token function">git branch -v<br>git</span> branch -vv  # kalo mau sama informasi upstream remote branch nya sekalian</code></pre>
 <h2 id="mcetoc_1e6qmr6vg3">Ambil perubahan suatu file di branch lain</h2>
 <pre class="  language-bash"><code class="  language-bash"><span class="token function">git</span> checkout feature/branch-lain -- fileyangkitamau.txt</code></pre>
 <h2 id="mcetoc_1e6qmrb614">Melihat status Git dengan lebih ringkas</h2>
@@ -122,27 +122,27 @@
 <pre class="  language-bash"><code class="  language-bash"><span class="token function">git</span> log -- missing_file.txt</code></pre>
 <h2 id="mcetoc_1e6qmrnc76">Siapa Commiter paling <span style="text-decoration: line-through;">rajin</span> banyak</h2>
 <p>Buat lucu-lucuan aja di urutin siapa commiter paling banyak</p>
-<pre class="highlight"><code>git shortlog -sn --all --no-merges</code></pre>
+<pre class="highlight"><code class="language-bash">git shortlog -sn --all --no-merges</code></pre>
 <p>atau klo mau lebih spesifik lagi bisa ditambahin tempo nya</p>
-<pre class="highlight"><code>git shortlog -sn --since='10 weeks' --until='2 weeks'</code></pre>
+<pre class="highlight"><code class="language-bash">git shortlog -sn --since='10 weeks' --until='2 weeks'</code></pre>
 <h2 id="mcetoc_1e6qmsm137">Siapa nih yg ubah file dan line tertentu</h2>
-<pre class="highlight"><code>git blame -L5,10 .gitlab-ci.yml</code></pre>
+<pre class="highlight"><code class="language-bash">git blame -L5,10 .gitlab-ci.yml</code></pre>
 <h2 id="mcetoc_1e6qmsr888">Daripada nunjukin line yang berubah mending minta tunjukin kata yang berubah</h2>
-<pre class="highlight"><code>git diff --word-diff</code></pre>
+<pre class="highlight"><code class="language-bash">git diff --word-diff</code></pre>
 <h2 id="mcetoc_1e6qmsvj59">Melihat branch mana saja yang akhir-akhir ini kita kerjakan</h2>
 <p>Kadang terlalu banyak lompat branch jadi suka tersesat sendiri dan bingung mau mulai darimana</p>
-<pre class="highlight"><code>git for-each-ref --count=10 --sort=-committerdate refs/heads/ --format="%(refname:short)"</code></pre>
+<pre class="highlight"><code class="language-bash">git for-each-ref --count=10 --sort=-committerdate refs/heads/ --format="%(refname:short)"</code></pre>
 <p>kalo terlalu ribet hapal nya tinggal bikin alias jadi `git recent` sih</p>
 <h2 id="mcetoc_1e6qmt3oia">Lagi pada ngerjain apaan sih?</h2>
 <p>buat tim leader biasanya penting untuk ngecek sesekali dari apa yang dikerjain tim kita di repo, sebenernya bisa aja liat di git commit di gitlab/github nya sih, tapi klo lagi di terminal bisa langsung di eksekusi aja command ini</p>
-<pre class="highlight"><code>git log --all --oneline --no-merges</code></pre>
+<pre class="highlight"><code class="language-bash">git log --all --oneline --no-merges</code></pre>
 <p>atau klo mau ada pembatas waktu bisa ditambahin argument since: days/weeks</p>
-<pre class="highlight"><code>git log --all --since='3 days' --oneline --no-merges</code></pre>
+<pre class="highlight"><code class="language-bash">git log --all --since='3 days' --oneline --no-merges</code></pre>
 <p>Trus klo mau cek orang tertentu bisa pake gini</p>
-<pre class="highlight"><code>git log --all --oneline --no-merges --author=&lt;email address&gt;<br></code></pre>
-<pre class="highlight"><code>git log --since=00:00:00 --all --no-merges --oneline --author=&lt;email address&gt;</code></pre>
+<pre class="highlight"><code class="language-bash">git log --all --oneline --no-merges --author=&lt;email address&gt;<br></code></pre>
+<pre class="highlight"><code class="language-bash">git log --since=00:00:00 --all --no-merges --oneline --author=&lt;email address&gt;</code></pre>
 <h2 id="mcetoc_1e6qmtcp3b">Melihat logs yang kompleks dengan grafis </h2>
-<pre class="highlight"><code>git log --graph --all --decorate --stat --date=iso</code></pre>
+<pre class="highlight"><code class="language-bash">git log --graph --all --decorate --stat --date=iso</code></pre>
             ]]>
         </content>
     </entry>
