@@ -3,12 +3,83 @@
     <title>Celotehan seorang Software Quality Development Engineer in Test - Agile Testing, Selenium, Appium, Ruby</title>
     <link href="https://fachrul.id/feed.xml" rel="self" />
     <link href="https://fachrul.id" />
-    <updated>2020-05-06T16:05:43+07:00</updated>
+    <updated>2020-05-08T00:07:26+07:00</updated>
     <author>
         <name>Fachrul Choliluddin</name>
     </author>
     <id>https://fachrul.id</id>
 
+    <entry>
+        <title>Mau Belajar Automation Test dengan Python, Mulai Dari Mana?</title>
+        <author>
+            <name>Fachrul Choliluddin</name>
+        </author>
+        <link href="https://fachrul.id/mau-belajar-automation-test-dengan-python-mulai-dari-mana/"/>
+        <id>https://fachrul.id/mau-belajar-automation-test-dengan-python-mulai-dari-mana/</id>
+
+        <updated>2020-05-08T00:07:20+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://fachrul.id/media/posts/31/belajar-python.jpg" alt="Belajar python untuk automation test" />
+                    Halo Kawan! Dikesempatan kali ini saya akan bahas hal teknis yang berhubungan dengan pekerjaan sebagai Software Quality Assurance / Test Engineer yaitu membuat sebuah Test Automation Suite, saya akan membagikan pengetahuan dan pengalaman saya dalam merancang Automation test framework dengan python. Saya akan buat tulisan berseri&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://fachrul.id/media/posts/31/belajar-python.jpg" alt="Belajar python untuk automation test" />
+                <p>Halo Kawan!</p>
+<p>Dikesempatan kali ini saya akan bahas hal teknis yang berhubungan dengan pekerjaan sebagai <em>Software Quality Assurance</em> / <em>Test Engineer</em> yaitu membuat sebuah <em>Test Automation Suite</em>, saya akan membagikan pengetahuan dan pengalaman saya dalam merancang Automation test framework dengan python.</p>
+<p>Saya akan buat tulisan berseri terkait pemrograman <em>automation test</em> dengan python, nah sebagai permulaan, pada tulisan ini saya akan share sumber belajar python dari dasar yang dulu saya pelajari, semoga bisa berguna buat yang baru berkenalan dengan bahasa python ya.</p>
+<p>Nanti setelah dasar pemrograman python dikuasai, barulah kita akan langsung koding automation nya ya</p>
+<h2 id="mcetoc_1e7nsdtta3">Kenapa Python?</h2>
+<p>Karena menulis automation code dengan python menurut saya sangat mudah sekali, dan secara bahasa pemrograman, python itu termasuk mudah untuk dipelajari dan code yang dihasilkan sangat enak untuk dibaca, jadi sebagai entry barrier nya rendah bagi seorang QA manual untuk mulai terjun di koding automation (walaupun tools lain yang ga perlu koding juga ada sih 🤣)</p>
+<h2 id="mcetoc_1e7nsonlk4">Yuk kita Mulai Belajar Pemrograman Python</h2>
+<p>Walaupun ingin, sepertinya saya kurang mahir dalam menjelaskan pemrograman python dengan baik, karena saya sendiri pun tidak terlalu mahir, hehe tapi santai saja, keahlian koding yang dibutuhkan untuk menulis automation test itu tidak terlalu kompleks kok, jadi bisa langsung sambil di praktekan ya.</p>
+<p>Ok, berikut ini adalah sumber pembelajaran python yang sudah saya coba dan menjadi rekomendasi utama, terutama karena gratis dan mudah dipahami, saya bagi kedalam beberapa kategori ya sesuai dengan gaya belajar kita yang berbeda, ada yang sukanya audio visual, ada yang lebih suka belajar dengan membaca, atau ada yang paling seneng kalo langsung praktek.</p>
+<h2 id="mcetoc_1e7ns8n9b0">Belajar Python Melalui Video</h2>
+<p>Hari gini banyak video tutorial gratis di youtube, saking banyaknya mungkin kalian akan menemukan video tutorial yang jumlahnya sangat banyak, berikut ini adalah beberapa video yang sudah saya tonton dan isinya sangat bermutu, jadi akan menghemat waktu kalian memilih video mana yang akan ditonton ya</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/zpeWE1utrWM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p>
+<p>dengan playlist lengkap dari sekolah koding di:</p>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLCZlgfAG0GXDc9Wcsi2fUn0pAr41GDL6m" target="_blank" rel="noopener noreferrer">Tutorial Python Bahasa Indonesia</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLCZlgfAG0GXC-N-MlNJoG3Jh8nhXHTT6s" target="_blank" rel="noopener noreferrer">Belajar OOP (object oriented programming) dengan Python</a></li>
+</ul>
+<p>Disini juga lumayan lengkap dari pengenalan pemrograman bahkan</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/fBkeaYZ99iY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe> </p>
+<p>Dan aplikasi pembelajaran koding ini juga bagus loh</p>
+<figure class="post__image post__image" ><img src="https://fachrul.id/media/posts/31/belajar-koding-python-di-kode-id.png" alt="" width="800" height="863">
+<figcaption >Kelas pemrograman gratis dari Kode.id</figcaption>
+</figure>
+<p>Dengan link nya sebagai berikut <a href="https://kode.id/kelas/pengenalan-bahasa-pemrograman-python/" target="_blank" rel="noopener noreferrer">https://kode.id/kelas/pengenalan-bahasa-pemrograman-python/</a> , bisa diakses melalui browser komputer ataupun aplikasi mobile nya juga loh </p>
+<h2 id="mcetoc_1e7ns9skn1">Belajar Python Melalui Buku</h2>
+<p>Berikut ini adalah sumber belajar bacaan (buku ataupun web, ya kan dibaca juga 😅)</p>
+<h3 id="mcetoc_1e7nv1kr75">BelajarPython.com</h3>
+<p>Kamu bisa akses di halaman <a href="https://belajarpython.com/tutorial/apa-itu-python" target="_blank" rel="noopener noreferrer">https://belajarpython.com</a> disana kamu bisa menemukan tutorial python dengan pembahasan yang mudah dimengerti</p>
+<p><img class="post__image--center" src="https://fachrul.id/media/posts/31/Screen-Shot-2020-05-07-at-23.20.31.png" alt="" width="750" height="974"></p>
+<h3 id="mcetoc_1e7nv646u7">Workshop Python 101</h3>
+<p>Modul untuk workshop python, bisa kamu akses di <a href="https://sakti.github.io/python101/index.html">https://sakti.github.io/python101/index.html</a> kamu ikutin sendiri kok, tapi bahasannya menggunakan python versi 2.7 dimana sekarang ini sudah ketinggalan (walau masih bisa) dan direkomendasikan untuk menggunakan python versi 3 </p>
+<h3 id="mcetoc_1e7nv4kpe6">GoalKicker</h3>
+<p>Buku ini salah satu rekomendasi saya untuk belajar python dengan cepat, karena disana ga terlalu banyak basa-basi dan langsung ditunjukan contoh kode nya, bisa diunduh di link <a href="https://goalkicker.com/PythonBook/" target="_blank" rel="noopener noreferrer">https://goalkicker.com/PythonBook/</a></p>
+<p><a href="https://goalkicker.com/PythonBook/"><img class="post__image--center" src="https://fachrul.id/media/posts/31/Screen-Shot-2020-05-07-at-23.14.57.png" width="340" height="490"></a></p>
+<p>Buku python lainnya bisa diakses di: <a href="https://pythonbooks.revolunet.com/">https://pythonbooks.revolunet.com/</a></p>
+<h2 id="mcetoc_1e7nvl66aa"> </h2>
+<h2 id="mcetoc_1e7ns9uql2">Belajar Python Dengan Praktek</h2>
+<p>Nah bagi kalian yang pengennya langsung praktek ngerjain kode bisa dicoba cara berikut ini</p>
+<h3 id="mcetoc_1e7nvdpod8">Python Koans</h3>
+<p>Nah Koans adalah metode pembelajaran interaktif dengan langsung menjalankan kodenya, jadi kamu tinggal clone repository  <a href="https://github.com/gregmalcolm/python_koans">https://github.com/gregmalcolm/python_koans</a> lalu jalankan kodenya, dan perbaiki yang salah, bisa di baca juga struktur kodenya langsung</p>
+<h3 id="mcetoc_1e7nviakg9">SoloLearn</h3>
+<p>Enaknya belajar di soloLearn adalah bisa dimana aja, web bisa mobile phone juga bisa, bentuknya seperti kuis interaktif <a href="https://www.sololearn.com/Course/Python/">https://www.sololearn.com/Course/Python/</a></p>
+<h4 id="mcetoc_1e7o0jj190"> PyCharm Edu</h4>
+<p>Ini favorit saya, karena embeded di IDE nya python yaitu PyCharm, kita tinggal mengaktifkannya dari <a href="https://www.jetbrains.com/education/download/" target="_blank" rel="noopener noreferrer">Pycharm Edu</a> (ini IDE python gratis loh, dan sangat mumpuni) silahkan unduh Pycharm Edu gratis disini <a href="https://www.jetbrains.com/education/download/" target="_blank" rel="noopener noreferrer">https://www.jetbrains.com/education/download/</a> lalu install "EduTools Plugin" nya juga ya untuk mengaktifkan menu Academy seperti berikut</p>
+<p><img class="post__image--center" src="https://fachrul.id/media/posts/31/Screen-Shot-2020-05-07-at-23.47.10.png" width="600" height="996"></p>
+<p>Info lebih lanjut bisa cekidot ini ya <a href="https://hyperskill.org/onboarding?track=python" target="_blank" rel="noopener noreferrer">https://hyperskill.org/onboarding?track=python</a></p>
+<p> </p>
+<h2 id="mcetoc_1e7o0rrqg1">Penutup</h2>
+<p>Ternyata lumayan banyak juga ya sumber belajar python nya, semoga kalian bisa mengikuti salah satunya dengan tuntas ya 🤣</p>
+<p>Oke di kesempatan berikutnya kita akan langsung mulai belajar automation test dengan python nya ya, untuk sementara ini mulailah dengan memahami bahasa pemrograman Python.. Sekian</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Catat ini! berbagai command ADB yang berguna untuk automation tester</title>
         <author>
@@ -691,45 +762,6 @@ adb shell am force-stop com.google.android.gm</code></pre>
 <li><a href="https://fachrul.id/apa-itu-pengujian-program-komputer-software-testing/" target="_blank" rel="noopener noreferrer">Apa itu Pengujian Program komputer (software testing)?</a></li>
 <li>Kenapa perlu adanya pengujian?</li>
 </ul>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Keberkahan Waktu</title>
-        <author>
-            <name>Fachrul Choliluddin</name>
-        </author>
-        <link href="https://fachrul.id/keberkahan-waktu/"/>
-        <id>https://fachrul.id/keberkahan-waktu/</id>
-
-        <updated>2019-05-26T22:44:07+07:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://fachrul.id/media/posts/16/background-blurred-background-books-1178683.jpg" alt="" />
-                    Saya heran melihat orang yang sangat cemerlang dalam karir, dan sukses di akhir pekan sebagai pengusaha, ditambah bisa menjadi ayah yang baik dalam keluarga, dan rutin menjalankan amal ibadah mendalami ilmu agama. Kok bisa dia menjalani berbagai peran sekaligus? salah satu jawabannya adalah "Keberkahan waktu" Allah 'Azza wa Jalla berfirman: “Demi&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://fachrul.id/media/posts/16/background-blurred-background-books-1178683.jpg" alt="" />
-                <p>Saya heran melihat orang yang sangat cemerlang dalam karir, dan sukses di akhir pekan sebagai pengusaha, ditambah bisa menjadi ayah yang baik dalam keluarga, dan rutin menjalankan amal ibadah mendalami ilmu agama. Kok bisa dia menjalani berbagai peran sekaligus? salah satu jawabannya adalah "Keberkahan waktu"</p>
-<p>Allah 'Azza wa Jalla berfirman:</p>
-<blockquote>
-<p>“Demi masa, Sesungguhnya manusia itu benar-benar dalam kerugian, Kecuali orang-orang yang beriman dan mengerjakan amal shalih dan nasihat menasihati supaya mentaati kebenaran dan nasehat menasehati dalam kesabaran.” (QS. Al-`Ashr: 1-3)</p>
-</blockquote>
-<p>Allah Ta’ala beberapa kali bersumpah dalam Al-Quran dengan menggunakan keterangan waktu. Misalnya “wal-ashri” (demi masa), “wad-dhuha” (demi waktu dhuha), “wal-lail” (demi waktu malam) dan lain-lainnya. Hal ini menunjukkan bahwa waktu ini sangatlah penting, bagaikan nafas yang tak mungkin kembali, dan kita harus menyadari betul hal ini, sedangkan manusia secara umum lalai akan hal ini.</p>
-<p>Akhir-akhir ini saya sangat tertarik mendalami ilmu tentang waktu, karena faktanya semua orang mendapatkan jatah waktu yang sama 24 jam sehari, dan 7 hari seminggu, tetapi kok bisa aja ada orang yang super produktif? karena waktu adalah modal yang sangat berharga, ia dimiliki oleh semua orang yang hidup, kita tidak bisa merebut waktu orang lain untuk ditambahkan ketika kita merasa waktu 24 jam sehari kurang, modal waktu ini seringkali kita hamburkan untuk hal-hal yang tidak (kurang) ada manfaatnya, baik manfaat untuk kehidupan dunia ataupun kehidupan kelak di akhirat.</p>
-<figure class="post__image post__image" ><img src="https://fachrul.id/media/posts/16/antique-classic-countdown-1095601.jpg" alt="" width="1280" height="853">
-<figcaption >Photo by <strong><a href="https://www.pexels.com/@bentonphotocinema?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels">Jordan Benton </a></strong>from <strong><a href="https://www.pexels.com/photo/shallow-focus-of-clear-hourglass-1095601/?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels">Pexels</a></strong></figcaption>
-</figure>
-<p>Kita seringkali menggerutu karena kurang nya waktu untuk mengerjakan sesuatu, padahal sebelumnya tak terasa kita menghabiskan waktu untuk main game, menonton video di youtube, serial di netflix, bercanda dengan kawan lama di facebook, atau ngobrol ngalor-ngidul di group whatsapp yang berderet, waktu 24 jam sehari terkadang kurang, bahkan hanya untuk sekedar beristirahat dengan cukup barang sejenak.   </p>
-<p>Pada contoh yang saya paparkan di awal, adalah contoh orang yang berhasil memanfaatkan waktu yang dimilikinya seoptimal mungkin sehingga bisa memberikan dampak maksimal bagi kehidupannya. Kuncinya adalah <strong>prioritas:</strong> kebijaksanaan kita mengalokasikan waktu, hal-hal apa saja yang layak untuk kita mencurahkan waktu.</p>
-<p>Oleh karena itu, manfaatkanlah modal waktu kita untuk hal-hal yang bermanfaat, dan selalu kita memohon kepada Allah 'Azza wa Jalla untuk memberikan kita keberkahan dalam memanfaatkan karunia waktu yang diberikan, dan menjauhkan kita dari perbuatan yang sia-sia.</p>
-<p>Nabi shallallahu ‘alaihi wa sallam bersabda</p>
-<blockquote>
-<p><br>نِعْمَتَانِ مَغْبُونٌ فِيهِمَا كَثِيرٌ مِنَ النَّاسِ ، الصِّحَّةُ وَالْفَرَاغُ<br><br>“Ada dua kenikmatan yang banyak manusia tertipu, yaitu nikmat sehat dan waktu senggang” (HR. Bukhari no. 6412)<br><br></p>
-</blockquote>
-<p>Hendaknya kita mengisi waktu kita dengan hal-hal yang positif dan bermanfaat, tugas kita sangat banyak sedangkan waktu ini sangat sedikit, tidak layak bagi seorang muslim menghabiskan waktu yang sangat berharga dengan bermain hal sia-sia yang tidak bermanfaat.</p>
             ]]>
         </content>
     </entry>
