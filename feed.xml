@@ -3,7 +3,7 @@
     <title>Celotehan seorang Software Quality Development Engineer in Test - Agile Testing, Selenium, Appium, Ruby</title>
     <link href="https://fachrul.id/feed.xml" rel="self" />
     <link href="https://fachrul.id" />
-    <updated>2020-05-12T22:03:30+07:00</updated>
+    <updated>2020-05-12T23:48:17+07:00</updated>
     <author>
         <name>Fachrul Choliluddin</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://fachrul.id/memulai-automation-test-selenium-python-bagian-1/"/>
         <id>https://fachrul.id/memulai-automation-test-selenium-python-bagian-1/</id>
 
-        <updated>2020-05-12T22:03:25+07:00</updated>
+        <updated>2020-05-12T23:48:12+07:00</updated>
             <summary>
                 <![CDATA[
                     Hi Kawan, Sesuai dengan post sebelumnya, pada kesempatan kali ini saya akan berbagi resep tentang membuat automation test framework dengan menggunakan bahasa pemrograman python + selenium, jadi di akhir sesi kamu pasti bisa membuat otomatisasi pengujian pada browser Google Chrome ya (kalau setup nya benar)&hellip;
@@ -31,7 +31,7 @@
 <p>Tujuannya saya buat tutorial kali ini adalah untuk memperkaya khasanah tutorial bahasa Indonesia pada automation test menggunakan bahasa pemrograman python, dimana mayoritas hasil penelusuran yang ada di gugle menggunakan bahasa pemrograman java ataupun javascript.</p>
 <h2 id="mcetoc_1e7ukf4el1">Yuk kita mulai!!!</h2>
 <p>Sebentar.. sebentar.. bentuk tutorial yang akan saya share adalah perpaduan dari video tutorial dan blog post, jadi kedua medium pembelajaran ini akan saling melengkapi, untuk video bisa diakses disini:</p>
-<p>(place holder video)</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/dApgg02293I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p>
 <p>Lalu catatan pada video akan merujuk pada postingan disini</p>
 <h2 id="mcetoc_1e7uki6ad2">Tools yang digunakan</h2>
 <p>Hal pertama yang kita perlukan adalah interpreter kode python sudah terinstall di laptop/komputer kamu, terlepas dari sistem operasi apapun (windows/macOS/linux) saya asumsikan command `python atau python3` bisa dijalankan di terminal/command line kamu ya, jika belum, silahkan merujuk ke post <a href="https://fachrul.id/mau-belajar-automation-test-dengan-python-mulai-dari-mana/" target="_blank" rel="noopener noreferrer">pendahuluan python saya sebelumnya disini</a></p>
