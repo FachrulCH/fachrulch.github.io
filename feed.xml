@@ -3,12 +3,226 @@
     <title>Celotehan seorang Software Quality Development Engineer in Test - Agile Testing, Selenium, Appium, Ruby</title>
     <link href="https://fachrul.id/feed.xml" rel="self" />
     <link href="https://fachrul.id" />
-    <updated>2020-05-10T15:20:38+07:00</updated>
+    <updated>2020-05-12T22:03:30+07:00</updated>
     <author>
         <name>Fachrul Choliluddin</name>
     </author>
     <id>https://fachrul.id</id>
 
+    <entry>
+        <title>Memulai Automation Test Selenium + Python (bagian 1)</title>
+        <author>
+            <name>Fachrul Choliluddin</name>
+        </author>
+        <link href="https://fachrul.id/memulai-automation-test-selenium-python-bagian-1/"/>
+        <id>https://fachrul.id/memulai-automation-test-selenium-python-bagian-1/</id>
+
+        <updated>2020-05-12T22:03:25+07:00</updated>
+            <summary>
+                <![CDATA[
+                    Hi Kawan, Sesuai dengan post sebelumnya, pada kesempatan kali ini saya akan berbagi resep tentang membuat automation test framework dengan menggunakan bahasa pemrograman python + selenium, jadi di akhir sesi kamu pasti bisa membuat otomatisasi pengujian pada browser Google Chrome ya (kalau setup nya benar)&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Hi Kawan,</p>
+<p>Sesuai dengan post sebelumnya, pada kesempatan kali ini saya akan berbagi resep tentang membuat automation test framework dengan menggunakan bahasa pemrograman python + selenium, jadi di akhir sesi kamu pasti bisa membuat otomatisasi pengujian pada browser Google Chrome ya (kalau setup nya benar) 😅</p>
+<h3 id="mcetoc_1e7uke56u0">Kenapa membuat tutorial automation test dengan python?</h3>
+<p>Tujuannya saya buat tutorial kali ini adalah untuk memperkaya khasanah tutorial bahasa Indonesia pada automation test menggunakan bahasa pemrograman python, dimana mayoritas hasil penelusuran yang ada di gugle menggunakan bahasa pemrograman java ataupun javascript.</p>
+<h2 id="mcetoc_1e7ukf4el1">Yuk kita mulai!!!</h2>
+<p>Sebentar.. sebentar.. bentuk tutorial yang akan saya share adalah perpaduan dari video tutorial dan blog post, jadi kedua medium pembelajaran ini akan saling melengkapi, untuk video bisa diakses disini:</p>
+<p>(place holder video)</p>
+<p>Lalu catatan pada video akan merujuk pada postingan disini</p>
+<h2 id="mcetoc_1e7uki6ad2">Tools yang digunakan</h2>
+<p>Hal pertama yang kita perlukan adalah interpreter kode python sudah terinstall di laptop/komputer kamu, terlepas dari sistem operasi apapun (windows/macOS/linux) saya asumsikan command `python atau python3` bisa dijalankan di terminal/command line kamu ya, jika belum, silahkan merujuk ke post <a href="https://fachrul.id/mau-belajar-automation-test-dengan-python-mulai-dari-mana/" target="_blank" rel="noopener noreferrer">pendahuluan python saya sebelumnya disini</a></p>
+<h3 id="mcetoc_1e7ukpuf33">Kode Editor</h3>
+<p>Editor python ada banyak, dimulai dari yang ada di terminal seperti vim, kode editor ringan dan lengkap seperti:</p>
+<ol>
+<li><a href="https://www.sublimetext.com" target="_blank" rel="noopener noreferrer">sublime</a></li>
+<li><a href="https://code.visualstudio.com" target="_blank" rel="noopener noreferrer">visual code</a></li>
+<li><a href="https://atom.io" target="_blank" rel="noopener noreferrer">atom</a></li>
+<li>ataupun IDE yang kumplit seperti <a href="https://www.jetbrains.com/education/download/" target="_blank" rel="noopener noreferrer">PyCharm Edu</a>.</li>
+</ol>
+<p>Sebagai pendamping dalam menulis kode python saya biasanya akan menginstal pula <a href="http://kite.com" target="_blank" rel="noopener noreferrer">Kite</a> sebagai tambahan autocomplete dan documentation di local tapi ini opsional sih, ga di install juga gapapa (ukuran file nya gede sih ahaha)</p>
+<h3 id="mcetoc_1e7ul4jfl4">Chromedriver</h3>
+<p>Bisa diunduh di : <a href="https://chromedriver.chromium.org/downloads">https://chromedriver.chromium.org/downloads</a> </p>
+<p>Lalu tambahkan directory binary chromedriver ke sistem path kamu, (windows bisa taruh chromedriver.exe di folder c:\windows\System32 klo linux bisa tambahkan di path via ~/.bash_profile atau ~/.zshrc kamu. Atau klo macOS bisa lebih mudah tinggal jalankan perintah berikut di terminal <code class="language-shell">brew cask install chromedriver</code></p>
+<h3 id="mcetoc_1e7ule8i35"> Python Packaging Tools</h3>
+<p>Salah satu best practice pemrograman python adalah memiliki packaging tools yang menjadi depedency management library python agar tidak saling bertabrakan, jadi diperlukan virtual environment, kita akan menggunakan `pipenv` untuk itu, jalankan perintah berikut di terminal</p>
+<pre><code class="language-shell-session"><span class="gp">$ pip install pipenv<br></span></code></pre>
+<p>atau klo gagal karena km menggunakan python3 bisa menggunakan command `pip3 install pipenv` </p>
+<p>Nah yuk kita mulai kodingnya.. Silahkan liat videonya ya</p>
+<p>Skenario test yang dijalankan</p>
+<pre><code class="language-gherkin">Scenario: Search Profile in Google</code><br><code class="language-gherkin">Given I am in google home page</code><br><code class="language-gherkin">When I search for "Fachrul Choliluddin"</code><br><code class="language-gherkin">Then I should see search result of "Fachrul Choliluddin"</code></pre>
+<h2 id="mcetoc_1e84lvea30">Apa itu Selector?</h2>
+<p><em>Selector</em> adalah sebuah format yang digunakan oleh library seperti <em>Selenium</em> dan <em>Capybara</em> untuk menemukan elemen pada web seperti gambar, tulisan, tombol, dan sebagainya. Untuk bisa menggunakan <em>Selector</em> akan lebih baik jika anda mengenal HTML terlebih dahulu. Kamu bisa lihat materinya <a href="https://www.w3schools.com/html/" rel="nofollow">disini</a>.</p>
+<h2 id="mcetoc_1e84lvv7e1">Apa itu CSS Selector?</h2>
+<p><em>CSS</em> adalah sebuah notasi (<em>selector</em>) yang digunakan untuk menemukan elemen tertentu pada halaman web. CSS sendiri digunakan oleh web developer untuk memberikan <em>style</em> pada halaman web seperti warna, besar dan lebar gambar, bentuk tombol, dan berbagai fungsi lainnya. Properti-properti pada CSS ini bisa kita manfaatkan untuk mendeteksi sebuah elemen pada web.</p>
+<h2 id="mcetoc_1e84lvv7e2">Cara Menggunakan CSS selector</h2>
+<p>Sebenarnya kita sudah menggunakan syntax CSS pada lesson sebelumnya. Yaitu <code>#login_link</code>. Dimana kita memanfaatkan elemen <code>id</code> pada tombol login untuk mendeteksi keberadaan tombol login.</p>
+<p>Materi mengenai CSS sendiri sangat luas, sehingga kamu bisa baca mengenai CSS lebih lanjut <a href="https://www.w3schools.com/css/" rel="nofollow">disini</a>.</p>
+<h2 id="mcetoc_1e84m19cn7">Apa itu XPath?</h2>
+<p><em>XPath</em> adalah sebuah notasi (<em>selector</em>) yang digunakan untuk menemukan elemen tertentu pada halaman web. <em>Xpath</em> memiliki bentuk syntax yang lebih fleksibel jika dibandingkan dengan CSS. Sehingga lebih umum digunakan untuk mencari elemen web yang tidak bisa dicari oleh <em>selector</em> CSS.</p>
+<h2 id="mcetoc_1e84m1dkp8">Mengapa Memakai XPath?</h2>
+<p>Misalkan saya punya halaman web dengan format HTML seperti ini ...</p>
+<div class="highlight highlight-text-html-basic">
+<pre>&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>parent<span class="pl-pds">"</span></span>&gt;
+    &lt;<span class="pl-ent">h2</span>&gt;Ayam&lt;/<span class="pl-ent">h2</span>&gt;
+    &lt;<span class="pl-ent">p</span>&gt;Ayam adalah salah satu unggas yang bisa dimakan&lt;/<span class="pl-ent">p</span>&gt;
+    &lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>child<span class="pl-pds">"</span></span>&gt;
+        &lt;<span class="pl-ent">h3</span>&gt;Gambar Ayam&lt;/<span class="pl-ent">h3</span>&gt;
+        &lt;<span class="pl-ent">img</span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>ayam_image<span class="pl-pds">"</span></span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>ayam.jpg<span class="pl-pds">"</span></span> <span class="pl-e">alt</span>=<span class="pl-s"><span class="pl-pds">"</span>Smiley face<span class="pl-pds">"</span></span> <span class="pl-e">height</span>=<span class="pl-s"><span class="pl-pds">"</span>42<span class="pl-pds">"</span></span> <span class="pl-e">width</span>=<span class="pl-s"><span class="pl-pds">"</span>42<span class="pl-pds">"</span></span>&gt;
+        &lt;<span class="pl-ent">p</span>&gt;Ini adalah gambar ayam&lt;/<span class="pl-ent">p</span>&gt;
+    &lt;/<span class="pl-ent">div</span>&gt;
+&lt;/<span class="pl-ent">div</span>&gt;</pre>
+</div>
+<p>Anda bisa menggunakan <em>selector</em> CSS untuk mengambil elemen image dengan cara seperti ini.</p>
+<div class="highlight highlight-source-ruby">
+<pre>driver.find_element_by_css_selector(<span class="pl-s"><span class="pl-pds">'</span>#ayam_image<span class="pl-pds">'</span></span>)</pre>
+</div>
+<p>Atau menggunakan XPath dengan cara berikut</p>
+<div class="highlight highlight-source-ruby">
+<pre>driver.find_element_xpath(<span class="pl-pds">'</span>//img<span class="pl-pds">'</span>)</pre>
+</div>
+<p>Atau</p>
+<div class="highlight highlight-source-ruby">
+<pre>driver.find_element(by=By.XPATH, value=<span class="pl-pds">'</span>//*[@id="ayam_image"]<span class="pl-pds">'</span>)</pre>
+</div>
+<p> </p>
+<div class="highlight highlight-source-ruby"> </div>
+<p>Dan sebagainya ...</p>
+<p>Intinya, <em>XPath</em> menawarkan banyak metode alternatif untuk mencari suatu elemen pada halaman web.</p>
+<p>Materi mengenai <em>XPath</em> sendiri sangat luas, sehingga kamu bisa baca mengenai CSS lebih lanjut <a href="https://www.w3schools.com/xml/xpath_intro.asp" rel="nofollow">disini</a>.</p>
+<h2 id="mcetoc_1e84lvv7e5">Perbandingan CSS vs xPath</h2>
+<table>
+<thead>
+<tr>
+<th>XPath</th>
+<th>Css</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>//div/a</td>
+<td>div &gt; a</td>
+</tr>
+<tr>
+<td>//div//a</td>
+<td>div a</td>
+</tr>
+<tr>
+<td>//div[@id='example']</td>
+<td>#example</td>
+</tr>
+<tr>
+<td>//div[@class='example']</td>
+<td>.example</td>
+</tr>
+<tr>
+<td>//input[@id='username']/following-sibling::input[1]</td>
+<td>#username + input</td>
+</tr>
+<tr>
+<td>//input[@name='username']</td>
+<td>input[name='username']</td>
+</tr>
+<tr>
+<td>//input[@name='login'and @type='submit']</td>
+<td>input[name='login'][type='submit']</td>
+</tr>
+<tr>
+<td>a[contains(text(), 'Log out')]</td>
+<td>a:contains('Log Out')</td>
+</tr>
+<tr>
+<td> </td>
+<td>#recordlist li:nth-of-type(4)</td>
+</tr>
+<tr>
+<td> </td>
+<td> a[id^='id_prefix_']</td>
+</tr>
+<tr>
+<td> </td>
+<td> a[id$='_id_sufix']</td>
+</tr>
+<tr>
+<td> </td>
+<td> a[id*='id_pattern']</td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p>Command yang dijalankan:<br><br></p>
+<table style="width: 681px;">
+<tbody>
+<tr>
+<td style="width: 280.984px;">➜ pipenv --three</td>
+<td style="width: 399.016px;">Inisiasi directory sebagai virtual environment yang baru dengan python3</td>
+</tr>
+<tr>
+<td style="width: 280.984px;">➜ pipenv shell</td>
+<td style="width: 399.016px;">mengaktivasi virtual environment</td>
+</tr>
+<tr>
+<td style="width: 280.984px;">➜ pip freeze</td>
+<td style="width: 399.016px;">melihat daftar isi library yang sudah di terpasang di virtual environment </td>
+</tr>
+<tr>
+<td style="width: 280.984px;">➜ pipenv install selenium</td>
+<td style="width: 399.016px;">memasang library selenium</td>
+</tr>
+<tr>
+<td style="width: 280.984px;">➜ pipenv install pytest</td>
+<td style="width: 399.016px;">memasang library pytest</td>
+</tr>
+<tr>
+<td style="width: 280.984px;">➜ chromedriver -v</td>
+<td style="width: 399.016px;">cek versi chromedriver</td>
+</tr>
+<tr>
+<td style="width: 280.984px;">➜ python test_googling.py</td>
+<td style="width: 399.016px;">menjalankan kode python</td>
+</tr>
+<tr>
+<td style="width: 280.984px;">➜ pytest</td>
+<td style="width: 399.016px;">menjalankan module pytest di directory aktif</td>
+</tr>
+<tr>
+<td style="width: 280.984px;">➜ pytest -s</td>
+<td style="width: 399.016px;">menjalankan pytest disertai stdout untuk print console</td>
+</tr>
+</tbody>
+</table>
+<p> Link terkait:</p>
+<table style="width: 681px;">
+<tbody>
+<tr>
+<td style="width: 339.984px;"><a href="https://selenium-python.readthedocs.io">https://selenium-python.readthedocs.io</a> </td>
+<td style="width: 340.016px;">Dokumentasi library selenium pada python</td>
+</tr>
+<tr>
+<td style="width: 339.984px;"><a href="https://docs.pytest.org/en/latest/">https://docs.pytest.org/en/latest/</a> </td>
+<td style="width: 340.016px;">Dokumentasi pytest </td>
+</tr>
+<tr>
+<td style="width: 339.984px;"> </td>
+<td style="width: 340.016px;"> </td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<br>
+<p> </p>
+<p> </p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Mau Belajar Automation Test dengan Python, Mulai Dari Mana?</title>
         <author>
@@ -729,39 +943,6 @@ adb shell am force-stop com.google.android.gm</code></pre>
 <p>Hal yang saya tulis diatas pun belum saya lakukan secara konsisten, pasang surut semangat kadang ada saja, mohon doa nya agar saya, anda dan seluruh muslim di dunia bisa memanfaatkan waktunya dengan baik, serta mendapatkan keberkahan waktu sehingga bisa menggunakannya untuk hal baik dan meningkatkan iman dan taqwa kita kepada Alloh yang maha pengasih lagi maha penyayang :)</p>
 <p>Oia, terkait dengan keberkahan waktu, ada satu video bagus dari Ustadz Muhammad Nuzul Dzikri untuk kita tonton dan kita bagikan:</p>
 <figure class="post__video"><iframe width="560" height="314" src="https://www.youtube.com/embed/wpnJ-S0dGig" allowfullscreen="allowfullscreen" ></iframe></figure>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Menjadi Penguji Program Komputer (software tester)</title>
-        <author>
-            <name>Fachrul Choliluddin</name>
-        </author>
-        <link href="https://fachrul.id/menjadi-penguji-program-komputer-software-tester/"/>
-        <id>https://fachrul.id/menjadi-penguji-program-komputer-software-tester/</id>
-
-        <updated>2019-06-03T21:51:34+07:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://fachrul.id/media/posts/18/artificial-intelligence-automation-bookcase-1329068.jpg" alt="" />
-                    Selamat datang teman-teman, Pada kesempatan kali ini kita akan belajar sama-sama tentang Software testing (pengujian program komputer) sedari tingkat pemula atau baru meniti karir di dunia per-testingan. Kita akan coba membahas mengenai konsep dan metode pengujian yang telah saya praktikan sehari-hari. Kita awali dari tema&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://fachrul.id/media/posts/18/artificial-intelligence-automation-bookcase-1329068.jpg" alt="" />
-                <p>Selamat datang teman-teman,</p>
-<p>Pada kesempatan kali ini kita akan belajar sama-sama tentang Software testing (pengujian program komputer) sedari tingkat pemula atau baru meniti karir di dunia per-testingan. Kita akan coba membahas mengenai konsep dan metode pengujian yang telah saya praktikan sehari-hari.</p>
-<p>Kita awali dari tema dasar pengujian program komputer hingga hal-hal yang lebih rumit lagi nantinya.</p>
-<blockquote>
-<p>Halaman ini berisi daftar isi dari artikel yang telah dituliskan, jadi akan selalu diperbaharui secara berkala ya, sering-sering berkunjung jadinya ya :) </p>
-</blockquote>
-<h2 id="mcetoc_1dc7bstvs1">Pengujian Manual untuk pemula</h2>
-<p>Pada bagian ini kita akan bahas mengenai beberpaa teori pengujian, diantaranya</p>
-<ul>
-<li><a href="https://fachrul.id/apa-itu-pengujian-program-komputer-software-testing/" target="_blank" rel="noopener noreferrer">Apa itu Pengujian Program komputer (software testing)?</a></li>
-<li>Kenapa perlu adanya pengujian?</li>
-</ul>
             ]]>
         </content>
     </entry>
