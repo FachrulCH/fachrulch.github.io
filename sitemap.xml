@@ -162,7 +162,7 @@
 </url>
 <url>
 <loc>https://fachrul.id/mau-belajar-automation-test-dengan-python-mulai-dari-mana/</loc>
-<lastmod>2020-05-08T00:07:20+07:00</lastmod>
+<lastmod>2020-05-14T08:25:53+07:00</lastmod>
 <image:image>
 <image:loc>https://fachrul.id/media/posts/31/belajar-python.jpg</image:loc>
 <image:title><![CDATA[Belajar python untuk automation test]]></image:title>
@@ -235,6 +235,9 @@
 <loc>https://fachrul.id/page/3/</loc>
 </url>
 <url>
+<loc>https://fachrul.id/page/4/</loc>
+</url>
+<url>
 <loc>https://fachrul.id/perintah-git-yang-berguna-tapi-jarang-yang-tahu/</loc>
 <lastmod>2020-05-06T15:44:32+07:00</lastmod>
 <image:image>
@@ -283,6 +286,30 @@
 </image:image>
 <image:image>
 <image:loc>https://fachrul.id/media/posts/9/pexels-photo-87500.jpeg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://fachrul.id/selector-locator-strategy-yang-baik/</loc>
+<lastmod>2020-05-14T08:25:31+07:00</lastmod>
+<image:image>
+<image:loc>https://fachrul.id/media/posts/33/gugel-selector.png</image:loc>
+<image:title><![CDATA[selector strategy yang baik]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://fachrul.id/media/posts/33/gugel.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://fachrul.id/media/posts/33/hasil-pencarian-google-belajar-automation.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://fachrul.id/media/posts/33/contoh-tokopedia-element-data.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://fachrul.id/media/posts/33/contoh-element-qa-class-bukalapak.jpg</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
