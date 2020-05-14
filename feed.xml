@@ -3,7 +3,7 @@
     <title>Celotehan seorang Software Quality Development Engineer in Test - Agile Testing, Selenium, Appium, Ruby</title>
     <link href="https://fachrul.id/feed.xml" rel="self" />
     <link href="https://fachrul.id" />
-    <updated>2020-05-14T08:32:57+07:00</updated>
+    <updated>2020-05-14T10:01:42+07:00</updated>
     <author>
         <name>Fachrul Choliluddin</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://fachrul.id/selector-locator-strategy-yang-baik/"/>
         <id>https://fachrul.id/selector-locator-strategy-yang-baik/</id>
 
-        <updated>2020-05-14T08:25:31+07:00</updated>
+        <updated>2020-05-14T10:01:24+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fachrul.id/media/posts/33/gugel-selector.png" alt="selector strategy yang baik" />
@@ -113,7 +113,10 @@ assert len(results_title) &gt; 0
 <h2 id="mcetoc_1e88bf1rna"> Rujukan lebih lanjut</h2>
 <ul>
 <li><a href="https://blog.mozilla.org/fxtesteng/2013/09/26/writing-reliable-locators-for-selenium-and-webdriver-tests/">https://blog.mozilla.org/fxtesteng/2013/09/26/writing-reliable-locators-for-selenium-and-webdriver-tests/</a> </li>
-<li><a href="https://gs.statcounter.com/browser-market-share">https://gs.statcounter.com/browser-market-share</a> Ternyata browser chrome masih paling banyak dipakai oleh orang seluruh dunia </li>
+<li><a href="https://www.guru99.com/locators-in-selenium-ide.html">https://www.guru99.com/locators-in-selenium-ide.html</a> </li>
+<li><a href="https://www.guru99.com/xpath-selenium.html">https://www.guru99.com/xpath-selenium.html</a></li>
+<li><a href="https://selenium-python.readthedocs.io/locating-elements.html">https://selenium-python.readthedocs.io/locating-elements.html</a></li>
+<li><a href="https://gs.statcounter.com/browser-market-share">https://gs.statcounter.com/browser-market-share</a> Ternyata browser chrome masih paling banyak dipakai oleh orang seluruh dunia</li>
 </ul>
 <p> </p>
 </div>
