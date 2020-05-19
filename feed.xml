@@ -3,12 +3,201 @@
     <title>Celotehan seorang Software Quality Development Engineer in Test - Agile Testing, Selenium, Appium, Ruby</title>
     <link href="https://fachrul.id/feed.xml" rel="self" />
     <link href="https://fachrul.id" />
-    <updated>2020-05-14T10:01:42+07:00</updated>
+    <updated>2020-05-20T00:10:25+07:00</updated>
     <author>
         <name>Fachrul Choliluddin</name>
     </author>
     <id>https://fachrul.id</id>
 
+    <entry>
+        <title>Pytest: Memahami Cara Kerja Testing Framework (bagian 1)</title>
+        <author>
+            <name>Fachrul Choliluddin</name>
+        </author>
+        <link href="https://fachrul.id/belajar-pytest-framework-1/"/>
+        <id>https://fachrul.id/belajar-pytest-framework-1/</id>
+
+        <updated>2020-05-20T00:06:39+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://fachrul.id/media/posts/34/Screen-Shot-2020-05-20-at-00.05.17.png" alt="" />
+                    Apa itu pytest?icon PytestAdalah kerangka kerja dari pengujian pada kode python, bisa dibilang semua test framework (junit, testng, rspec, dkk) adalah jantung nya dari segala test automation framework, pytest bisa digunakan pada berbagai tipe dan level dari software testing, sebenarnya ada berbagai alternatif testing tools&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://fachrul.id/media/posts/34/Screen-Shot-2020-05-20-at-00.05.17.png" alt="" />
+                <h2 id="mcetoc_1e8ifufs10">Apa itu pytest?</h2>
+<figure class="post__image post__image--left" ><img src="https://fachrul.id/media/posts/34/pytest1.png" alt="" width="150" height="143">
+<figcaption >icon Pytest</figcaption>
+</figure>
+<p>Adalah kerangka kerja dari pengujian pada kode python, bisa dibilang semua test framework (<em><strong>junit, testng, rspec</strong></em>, dkk) adalah jantung nya dari segala test automation framework, pytest bisa digunakan pada berbagai tipe dan level dari software testing, sebenarnya ada berbagai alternatif testing tools pada python yang lainya seperti uniitest ataupun nose, tapi banyak open source project yang mulai "hijrah" mengadopsi pytest karena fitur yang ada pada <a href="https://docs.pytest.org/en/latest/">pytest</a> yang menarik diantara yang lainya yaitu:</p>
+<ul>
+<li>Mudah membuat kode test dari pengujian sederhana hingga pengujian kompeks tetap mudah menuliskan kode pengujiannya dengan pytest</li>
+<li>Mudah dibaca</li>
+<li>Mudah dipelajari</li>
+<li>Kode yang Pythonic banget</li>
+<li>Bahkan pytest bisa menjalankan kode pengujian yang ditulis dengan format unittest ataupun nose</li>
+<li>Komunitas yang sangat aktif dan pengembangan yang terjaga</li>
+</ul>
+<p> </p>
+<hr>
+<p>Post ini merupakan rangkaian post mengenai membuat automationt test dengan python</p>
+<h4 id="mcetoc_1e8mtsf4p6">Daftar isinya:</h4>
+<ol>
+<li><a href="https://fachrul.id/mau-belajar-automation-test-dengan-python-mulai-dari-mana/" target="_blank" rel="noopener noreferrer">Belajar Python dari dasar</a></li>
+<li><a href="https://fachrul.id/belajar-pytest-framework-1/" target="_blank" rel="noopener noreferrer">Memahami cara kerja Pytest (bagian 1)</a> &lt;== Sekarang disini</li>
+<li><a href="https://fachrul.id/memulai-automation-test-selenium-python-bagian-1/" target="_blank" rel="noopener noreferrer">Mulai membuat automation test dengan Selenium</a></li>
+<li><a href="https://fachrul.id/selector-locator-strategy-yang-baik/" target="_blank" rel="noopener noreferrer">Menemukan Element dengan locator strategi yang baik</a></li>
+</ol>
+<hr>
+<p> </p>
+<p>Berikutnya akan kita belajar tentang penggunaan pytest dalam mengembangkan kerangka kerja (framework) pengujian otomatis (automated test) dalam bahasa pemrograman python, dengan menguasai kerangka kerja pengujian di python maka kamu akan dengan mudah mengkombinasikan automated test pada REST API, browser dengan selenium nya ataupun mobile apps dengan appium karena sesungguhnya mereka itu adalah library yang menjadi pelengkap pytest ini 😅 </p>
+<h2 id="mcetoc_1e8igll785">Persiapan Pytest</h2>
+<p>Saya asumsikan python sudah terinstal di komputer kamu, dan tak diperlukan untuk tahu banyak tentang python itu sendiri, karena contoh yang akan saya tunjukan cuma kode sederhana bahkan bisa dibilang terlalu sederhana :D</p>
+<p>Cara installnya cukup menjalankan command berikut pada terminal ataupun command line kamu</p>
+<p><code>pip install pytest</code></p>
+<p>lalu setelah installasi berhasil coba jalankan perintah:</p>
+<p><code>pytest --help</code></p>
+<p>jika installasi benar maka akan memunculkan informasi lengkap tentang cara penggunaan pytest pada command line</p>
+<p>dokumentasi lebih lanjut bisa dilihat di <a href="https://docs.pytest.org/en/latest/">https://docs.pytest.org/en/latest/</a> </p>
+<h2 id="mcetoc_1e8ifuj801">Menjalankan Pytest</h2>
+<p id="mcetoc_1e8mm5g730">Secara aturan (convention) di berbagai macam project pengujian, kode test harus ditaruh didalam directory (folder) /tests/, dan secara otomatis pytest akan menemukan dan mengeksekusi test yang ditemukan dalam proses test discovery seperti berikut:</p>
+<ul>
+<li>Nama file mengandung nama "<em><strong>test_&lt;sesuatu&gt;.py</strong></em>" ataupun "<em><strong>&lt;sesuatu&gt;_test.py</strong></em>"</li>
+<li>Test class yang dinamai "<strong><em>Test&lt;Sesuatu&gt;</em></strong>"</li>
+<li>Test method/function yang diawali "<strong><em>test_&lt;sesuatu&gt;</em></strong>", dan menariknya, pytest tidak memerlukan sebuah file <strong><em>__init__.py</em></strong> disemua test directory seperti pada aplikasi python pada umumnya</li>
+</ul>
+<p>cara menjalankan kode test:</p>
+<table>
+<tbody>
+<tr>
+<td><code>$ ​​pytest​​ tests/</code></td>
+<td>menjalankan seluruh test pada directory /tests/</td>
+</tr>
+<tr>
+<td><code>$ ​​pytest​​ tests/nama_file.py</code></td>
+<td>menjalankan test hanya pada module "nama_file.py"</td>
+</tr>
+<tr>
+<td><code>$ ​​pytest​​ tests/nama_file.py::TestClass</code></td>
+<td>menjalankan test hanya pada class TestClass di module "nama_file.py"</td>
+</tr>
+<tr>
+<td>
+<p><code>$ ​​pytest​​ tests/nama_file::TestClass::test_method</code></p>
+<p>atau jika bentuk test bukan dalam Class</p>
+<p><code>$ ​​pytest​​ tests/nama_file::test_method</code></p>
+</td>
+<td>menjalankan test hanya di method tertentu saja, tidak menjalankan method lainnya</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2 id="mcetoc_1e8mst3vq1">Marker</h2>
+<p>Penggunaan decorator <em><strong>@pytest.mark.&lt;sesuatu&gt;</strong></em> sangat memudahkan kita dalam mengelompokan test, ibarat tagging dari test, satu test bisa memiliki lebih dari satu mark, dan kitapun bisa mengeksekusi test berdasarkan mark tertentu, seperti berikut</p>
+<p><code>$ ​​pytest​​ -m smoke</code></p>
+<p>maka pytest akan mencari test mana saja yang memiliki tag @pytest.mark.smoke untuk dijalankan</p>
+<p>Informasi lebih lanjut, kamu bisa akses dokumentasinya langsung di terminal dengan perintah</p>
+<p><code>$ ​​pytest​​ --help</code></p>
+<h2 id="mcetoc_1e8ifum052">Menulis Test</h2>
+<p>Kurang lebih contoh kerangka kerja test pada pytest sebagai berikut:</p>
+<figure class="post__image post__image--center" ><img src="https://fachrul.id/media/posts/34/Screen-Shot-2020-05-19-at-22.56.59.png" alt="" width="450" height="450">
+<figcaption >struktur kode pytest pada umumnya</figcaption>
+</figure>
+<p> </p>
+<p>File test berada dibawah directory tests, dan pytest.ini adalah file optional, biasanya terkait dengan configurasi default cara menjalankan pytest, lalu pytest.py ini juga optional, bisa dianggap file ini berisikan dari "local plugin" karena semua kode yang ada disini bisa diakses oleh seluruh file test yang dijalankan, sehingga sangat cocok untuk menaruh kode yang bisa di reuse antar test</p>
+<p>Pada kesempatan kali ini sebagai contoh sederhana dalam mencoba pytest, buatlah sebuah file /tests/test_math.py yang di dalamnya isinya sebagai berikut:</p>
+<pre><code class="language-python">def test_pertambahan():
+    assert 1 + 11 == 12
+    
+    
+class TestHimpunan:
+    def test_persamaan(self):
+        assert (1,2,3) == (1,2,3)
+</code></pre>
+<p id="mcetoc_1e8mn0coi1">lalu cara menjalankan nya pada terminal dengan perintah sebagai berikut:</p>
+<p><code>pytest tests/test_math.py</code></p>
+<p>Output yang dihasilkan kurang lebih seperti berikut:</p>
+<figure class="post__image post__image--center" ><img src="https://fachrul.id/media/posts/34/Screen-Shot-2020-05-19-at-22.21.54.png" alt="" width="1024" height="538">
+<figcaption >output test berhasil</figcaption>
+</figure>
+<p>Ok kita bahas ya, pada contoh diatas saya menjalankan 2 test pada file <em><strong>test_math.py</strong></em> yaitu <em><strong>def test_pertambahan</strong></em> dan <strong><em>def test_persamaan</em></strong>, disini saya menunjukan bahwa pytest support bentuk kode pengujian yang dituliskan sebagai function mandiri atau method pada class, tidak ada perbedaan signifikan, hanya pengelompokan test saja menurut saya.</p>
+<p>Dan jika ditilik lagi, jika test berjalan baik dan passed akan ditandai dengan simbol titik warna hijau (di windows gada warnanya) pada output console dan jika failed ditandai dengan huruf F warna merah, disertai dengan informasi pelengkapnya.</p>
+<p>agar lebih jelas lagi mari kita coba membuat test gagal dengan mengubah nilai pada assertnya, dan agar tampilan output console lebih informatif, jalankan perintah <code>pytest -v tests/test_math.py</code> lalu perhatikan error message yang ditampilkan sebagai berikut</p>
+<figure class="post__image post__image--center" ><img src="https://fachrul.id/media/posts/34/Screen-Shot-2020-05-19-at-22.26.15.png" alt="" width="1024" height="1352">
+<figcaption >hasil menjalankan kode test yang ternyata failed :P</figcaption>
+</figure>
+<p>Ada berbagai macam jenis outcome dari sebuah test yang akan dihasilkan oleh pytest sebagai berikut:</p>
+<ul>
+<li><strong>PASSED</strong> (.) adalah test yang berjalan sebagaimana mestinya</li>
+<li><strong>FAILED</strong> (F) adalah test yang tidak berjalan seperti yang diharapkan</li>
+<li><strong>SKIPPED</strong> (s) adalah test yang tidak dijalankan (dilompati), kita bisa mengkonfigurasi test yang harus di lompati dengan menggunakan decorator <em><strong>@pytest.mark.skip()</strong> </em>atau secara programatically</li>
+<li><strong>xfail</strong> (x): adalah test yang tidak seharusnya untuk pass, jadi secara eksplisit kita mengharapkan suatu test untuk failed, ditandai dengan decorator <em><strong>@pytest.mark.xfail()</strong></em></li>
+<li><strong>XPASS</strong> (X): kurang lebih mirip xfail</li>
+<li><strong>ERROR</strong> (E) adalah exception yang terjadi diluar test function tersebut, bisa gara-gara fixture, di hook atau dari mis-configurasi</li>
+</ul>
+<h2 id="mcetoc_1e8ifuoob3">Ekspektasi</h2>
+<p>Pytest akan menggak exception yang tidak dihandle sebagai sebuah failure, pada saat statement assert dihadapkan kepada nilai False maka ia akan melempar exception dan langsung memberhentikan eksekusi program, jadi tidak akan dilanjutkan ke statement setelah assert yang failed tersebut</p>
+<pre><code class="language-python">class TestHimpunan:
+    def test_persamaan(self):
+        assert (1,3,5) == (1,4,5)
+        print('Bagian ini tidak akan dijalankan')</code></pre>
+<p id="mcetoc_1e8mp1cg62">Tapi jika memang justru exception yang diharpkan maka bisa menggunakan <span class="pln">pytest</span><span class="pun">.</span><span class="pln">raises</span></p>
+<p> </p>
+<h2 id="mcetoc_1e8mr42ou1">Contoh studi kasus JSON api kode post Indonesia</h2>
+<p>Contoh API test sederhana menggunakan pytest untuk menguji json api dari repo ini <a href="https://github.com/bachors/Kode-Pos-API">https://github.com/bachors/Kode-Pos-API</a> yang memiliki aplikasi live di firebaseio</p>
+<p>Kita buat file di tests/feature_kodepost/test_kodepos_indonesia.py, isinya</p>
+<pre><code class="language-python">iimport requests 
+
+def test_provinsi():
+    list_provinsi = requests.get('https://kodepos-2d475.firebaseio.com/list_propinsi.json?print=pretty')
+    data_prov = list_provinsi.json()
+    assert len(data_prov) == 34
+    assert data_prov.get('p9') == 'Jawa Barat'
+    
+def test_kotakab_jabar():
+    list_kotakab = requests.get('https://kodepos-2d475.firebaseio.com/list_kotakab/p9.json?print=pretty')
+    data_kotakab = list_kotakab.json()
+    assert list_kotakab.status_code == 200
+    assert data_kotakab.get('k60') == 'Tasikmalaya_typo'
+    assert len(data_kotakab) == 21
+    
+def test_kodepos_tasik():
+    list_keckel = requests.get('https://kodepos-2d475.firebaseio.com/kota_kab/k60.json?print=pretty')
+    data_kodepos = list_keckel.json()
+    assert list_keckel.status_code == 200
+    assert len(data_kodepos) == 420
+ </code></pre>
+<p>lalu cara menjalankannya dengan  command</p>
+<p><code>➜ pytest -v tests/feature_kodepos</code></p>
+<p>maka akan muncul output sebagai berikut</p>
+<figure class="post__image post__image--center" ><img src="https://fachrul.id/media/posts/34/Screen-Shot-2020-05-19-at-23.21.32.png" alt="" width="1024" height="1020">
+<figcaption >output menjalankan test kdoepos</figcaption>
+</figure>
+<p>Test nya sengaja saya buat failed, karena untuk melihat betapa cantiknya error log dari pytest jika terjadi masalah, apa yang menarik disini:</p>
+<ul>
+<li>Informasi kesalahan yang jelas, contoh diatas ada typo pada string yang dibandingkan (assert) maka ditunjukan kelebihan character dengan tanda plus</li>
+<li>test dijalankan sesuai dengan urutan penulisan test pada file, jadi dieksekusi dari atas kebawah</li>
+<li>walaupun test ke-2 failed, tetap melanjutkan ekseskusi test ke-3, (stop ekseskusi karena throw exception hanya pada scope test function, jadi dari failed tersebut tidak akan melanjutkan ekseskusi baris statement berikutnya tapi langsung pindah ke test berikutnya)</li>
+</ul>
+<p>Yuk kita bermain dengan kode test diatas, berikutnya kita ubah kode test sebagai berikut</p>
+<p>Kita tambahkan decorator xfail di method yg gagal menjadi seperti ini</p>
+<div>
+<pre><code class="language-python">@pytest.mark.xfail
+def test_kotakab_jabar():<br>   ...</code></pre>
+<p>Lalu jalankan kembali testnya dan outputnya sekarang berbeda</p>
+<figure class="post__image post__image--center" ><img src="https://fachrul.id/media/posts/34/Screen-Shot-2020-05-19-at-23.34.05.png" alt="" width="1024" height="580">
+<figcaption >semua hasil passed dengan catatan 1 xfail</figcaption>
+</figure>
+<p>Nah terlihat bahwa sekarang semua test hijau (passed) dengan catatan ada 1 test yang memang expected failed (xfailed)</p>
+<h2 id="mcetoc_1e8msnr5s0">Pytest Fixtures</h2>
+<p>Nah bagian ini sebenarnya yang menurut saya paling keren dari pytest, tapi berhubung postingan kali ini sudah cukup panjang, maka informasi lebih lanjut terkait fixture akan disambung di post selanjutnya ya, dengan contoh framework pada web ui testing</p>
+<p>Bersambung ...</p>
+</div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Selector (Locator) Strategy adalah koentji dari Test Automation</title>
         <author>
@@ -17,7 +206,7 @@
         <link href="https://fachrul.id/selector-locator-strategy-yang-baik/"/>
         <id>https://fachrul.id/selector-locator-strategy-yang-baik/</id>
 
-        <updated>2020-05-14T10:01:24+07:00</updated>
+        <updated>2020-05-19T23:58:24+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fachrul.id/media/posts/33/gugel-selector.png" alt="selector strategy yang baik" />
@@ -30,6 +219,17 @@
                 <p>Hi kawan,</p>
 <p>Jika kamu berkecimpung di pemrograman automation test menggunakan selenium / appium tentunya kamu sudah paham banget kalau sampe salah selector (locator) maka kamu telah membuang banyak waktu karena selector yang kamu telah tuliskan tidak ditemukan dan harus re-run lagi 😭</p>
 <p>Menemukan element pada tampilan aplikasi seperti buttons, inputs, divs, checkboxes ataupun anchor tag terkadang cukup "menantang", terutama ketika tidak adanya ke-unikan ataupun identitas yang jelas pada element tersebut, bahakan pernah saya menguji aplikasi yang ID nya selalu berubah karena digenerate otomatis oleh library front end nya. Alamakjang 😵</p>
+<hr>
+<p>Post ini merupakan rangkaian post mengenai membuat automationt test dengan python</p>
+<h4 id="mcetoc_1e8mtsf4p6">Daftar isinya:</h4>
+<ol>
+<li><a href="https://fachrul.id/mau-belajar-automation-test-dengan-python-mulai-dari-mana/" target="_blank" rel="noopener noreferrer">Belajar Python dari dasar</a></li>
+<li><a href="https://fachrul.id/belajar-pytest-framework-1/" target="_blank" rel="noopener noreferrer">Memahami cara kerja Pytest (bagian 1)</a> </li>
+<li><a href="https://fachrul.id/memulai-automation-test-selenium-python-bagian-1/" target="_blank" rel="noopener noreferrer">Mulai membuat automation test dengan Selenium</a></li>
+<li><a href="https://fachrul.id/selector-locator-strategy-yang-baik/" target="_blank" rel="noopener noreferrer">Menemukan Element dengan locator strategi yang baik</a> &lt;== Sekarang disini</li>
+</ol>
+<hr>
+<p> </p>
 <h2 id="mcetoc_1e88anigp0">Apa sih web/mobile elements itu?</h2>
 <p>Terjemahan ala saya sih ia adalah sebuah element adalah entitas pada aplikasi yang di render menjadi halaman web ataupun user interface pada mobile app. Jadi apapun yang dilihat oleh pengguna (termasuk yang ga keliatan sih) adalah element, seperti buttons submit, foto profile, navigasi halaman.</p>
 <p>Biasanya bentuknya berupa HTML pada web ataupun XML pada mobile apps, jadi bisa dikatakan memiliki struktur seperti tag name, attributes dan contents, termasuk kedalam hierarki posisinya.</p>
@@ -131,7 +331,7 @@ assert len(results_title) &gt; 0
         <link href="https://fachrul.id/memulai-automation-test-selenium-python-bagian-1/"/>
         <id>https://fachrul.id/memulai-automation-test-selenium-python-bagian-1/</id>
 
-        <updated>2020-05-12T23:48:12+07:00</updated>
+        <updated>2020-05-19T23:59:00+07:00</updated>
             <summary>
                 <![CDATA[
                     Hi Kawan, Sesuai dengan post sebelumnya, pada kesempatan kali ini saya akan berbagi resep tentang membuat automation test framework dengan menggunakan bahasa pemrograman python + selenium, jadi di akhir sesi kamu pasti bisa membuat otomatisasi pengujian pada browser Google Chrome ya (kalau setup nya benar)&hellip;
@@ -143,6 +343,17 @@ assert len(results_title) &gt; 0
 <p>Sesuai dengan post sebelumnya, pada kesempatan kali ini saya akan berbagi resep tentang membuat automation test framework dengan menggunakan bahasa pemrograman python + selenium, jadi di akhir sesi kamu pasti bisa membuat otomatisasi pengujian pada browser Google Chrome ya (kalau setup nya benar) 😅</p>
 <h3 id="mcetoc_1e7uke56u0">Kenapa membuat tutorial automation test dengan python?</h3>
 <p>Tujuannya saya buat tutorial kali ini adalah untuk memperkaya khasanah tutorial bahasa Indonesia pada automation test menggunakan bahasa pemrograman python, dimana mayoritas hasil penelusuran yang ada di gugle menggunakan bahasa pemrograman java ataupun javascript.</p>
+<hr>
+<p>Post ini merupakan rangkaian post mengenai membuat automationt test dengan python</p>
+<h4 id="mcetoc_1e8mtsf4p6">Daftar isinya:</h4>
+<ol>
+<li><a href="https://fachrul.id/mau-belajar-automation-test-dengan-python-mulai-dari-mana/" target="_blank" rel="noopener noreferrer">Belajar Python dari dasar</a></li>
+<li><a href="https://fachrul.id/belajar-pytest-framework-1/" target="_blank" rel="noopener noreferrer">Memahami cara kerja Pytest (bagian 1)</a> </li>
+<li><a href="https://fachrul.id/memulai-automation-test-selenium-python-bagian-1/" target="_blank" rel="noopener noreferrer">Mulai membuat automation test dengan Selenium</a>  &lt;== Sekarang disini</li>
+<li><a href="https://fachrul.id/selector-locator-strategy-yang-baik/" target="_blank" rel="noopener noreferrer">Menemukan Element dengan locator strategi yang baik</a> </li>
+</ol>
+<hr>
+<p> </p>
 <h2 id="mcetoc_1e7ukf4el1">Yuk kita mulai!!!</h2>
 <p>Sebentar.. sebentar.. bentuk tutorial yang akan saya share adalah perpaduan dari video tutorial dan blog post, jadi kedua medium pembelajaran ini akan saling melengkapi, untuk video bisa diakses disini:</p>
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/dApgg02293I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p>
@@ -345,7 +556,7 @@ assert len(results_title) &gt; 0
         <link href="https://fachrul.id/mau-belajar-automation-test-dengan-python-mulai-dari-mana/"/>
         <id>https://fachrul.id/mau-belajar-automation-test-dengan-python-mulai-dari-mana/</id>
 
-        <updated>2020-05-14T08:25:53+07:00</updated>
+        <updated>2020-05-19T23:59:51+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fachrul.id/media/posts/31/belajar-python.jpg" alt="Belajar python untuk automation test" />
@@ -405,6 +616,17 @@ assert len(results_title) &gt; 0
 <h2 id="mcetoc_1e7o0rrqg1">Penutup</h2>
 <p>Ternyata lumayan banyak juga ya sumber belajar python nya, semoga kalian bisa mengikuti salah satunya dengan tuntas ya 🤣</p>
 <p>Oke di kesempatan berikutnya kita akan langsung mulai belajar automation test dengan python nya ya, untuk sementara ini mulailah dengan memahami bahasa pemrograman Python.. Sekian</p>
+<hr>
+<p>Post ini merupakan rangkaian post mengenai membuat automationt test dengan python</p>
+<h4 id="mcetoc_1e8mtsf4p6">Daftar isinya:</h4>
+<ol>
+<li><a href="https://fachrul.id/mau-belajar-automation-test-dengan-python-mulai-dari-mana/" target="_blank" rel="noopener noreferrer">Belajar Python dari dasar</a> &lt;== Sekarang disini</li>
+<li><a href="https://fachrul.id/belajar-pytest-framework-1/" target="_blank" rel="noopener noreferrer">Memahami cara kerja Pytest (bagian 1)</a> </li>
+<li><a href="https://fachrul.id/memulai-automation-test-selenium-python-bagian-1/" target="_blank" rel="noopener noreferrer">Mulai membuat automation test dengan Selenium</a>  </li>
+<li><a href="https://fachrul.id/selector-locator-strategy-yang-baik/" target="_blank" rel="noopener noreferrer">Menemukan Element dengan locator strategi yang baik</a> </li>
+</ol>
+<hr>
+<p> </p>
             ]]>
         </content>
     </entry>
@@ -764,217 +986,6 @@ adb shell am force-stop com.google.android.gm</code></pre>
 <p>Sepertihalnya sepakbola, akan sangat membantu ketika memiliki seorang swiper defender yang tidak hanya bisa tackling dan menghentikan lawan, tetapi bisa juga mengalirkan bola dengan tenang dan membantu serangan saat service bola mati seperti Virgl Van Dijk, atau kiper yang bisa menciptakan gol semacam Luis Chilavert.</p>
 <p>Jika begitu apakah sudah pantas dibilang tim sepakbola agile?</p>
 <figure class="post__video"><iframe width="560" height="314" src="https://www.youtube.com/embed/oe7zyD5QRz8" allowfullscreen="allowfullscreen" ></iframe></figure>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Bagaimana agar sesi one-on-one berjalan baik, efektif dan menyenangkan</title>
-        <author>
-            <name>Fachrul Choliluddin</name>
-        </author>
-        <link href="https://fachrul.id/bagaimana-agar-sesi-one-on-one-berjalan-baik-efektif-dan-menyenangkan/"/>
-        <id>https://fachrul.id/bagaimana-agar-sesi-one-on-one-berjalan-baik-efektif-dan-menyenangkan/</id>
-
-        <updated>2020-02-04T06:08:00+07:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://fachrul.id/media/posts/23/adult-casual-chairs-935949.jpg" alt="" />
-                    One-on-one (1on1) meeting sepertinya sudah menjadi agenda rutin yang dilakukan oleh startup, karena dengan adanya meeting ini kita bisa menjalin komunikasi personal antara manager dan staf sehingga terjalin rasa aman untuk mendiskusikan masalah dan perkembangan tim. Di kantor saya ini dilaksanakan setiap semester secara formal, diawali&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://fachrul.id/media/posts/23/adult-casual-chairs-935949.jpg" alt="" />
-                <p class="dropcap">One-on-one (1on1) meeting sepertinya sudah menjadi agenda rutin yang dilakukan oleh startup, karena dengan adanya meeting ini kita bisa menjalin komunikasi personal antara manager dan staf sehingga terjalin rasa aman untuk mendiskusikan masalah dan perkembangan tim.</p>
-<p>Di kantor saya ini dilaksanakan setiap semester secara formal, diawali dengan penilaian 360 dari rekan kerja yang lain, di tahun ini saya akan melakukan 1on1 dengan staf yang menjadi bawahan saya, ini adalah pengalaman pertama saya di posisi manager dalam 1on1 ini, sehingga merasa sedikit canggung juga ketika harus berperan mewakili perusahaan dengan rekan sejawat.</p>
-<figure class="post__image post__image" ><img src="https://fachrul.id/media/posts/23/adult-conversation-discussing-1181712.jpg" alt="" width="640" height="426">
-<figcaption >https://www.pexels.com/@divinetechygirl</figcaption>
-</figure>
-<h2 id="mcetoc_1dfc1d6cc0">Apa tujuan adanya one-on-one meeting sih?</h2>
-<p id="mcetoc_1dfc1dque1">berdasarkan pengalaman saya menjalani 1-on-1 meetting, manfaat yang dirasakan adalah seperti memiliki suatu checkpoint, waktunya kita berhenti sejenak, dan mengamati apakah yang kita kerjakan di periode ini (6 bulan) sudah sesuai harapan atasan apa belum, kadang menjadi ajang curhat, menyelesaikan konflik antar rekan kerja, lalu memberikan jaminan jika masukan karyawan akan didengar dan dihargai.</p>
-<p>Sesi yang efektif akan membuat kita tahu hal-hal berikut ini:</p>
-<ul>
-<li>memantau perkembangan staf, bagiamana perkembangan keahlian yang dia miliki</li>
-<li>jadi tahu emotional state nya dia, bisa dari stres level atau sisi moral</li>
-<li>memperhatikan apakah ada kendala yang dia hadapi</li>
-<li>membahas terkait hal khusus</li>
-<li>mendapatkan masukan yang jujur dari staf</li>
-<li>menentukan apakah staf tersebut perlu pelatihan</li>
-<li>memberikan informasi resmi perkembangan perusahaan secara keseluruhan</li>
-</ul>
-<h2 id="mcetoc_1dfc1mnu82">Apa yang harus disiapkan sebelum one-on-one meeting?</h2>
-<p>kalo langsung lompat ke meeting dengan staff sih sepertinya bukan langkah yang efektif, setidaknya perlu ada persiapan, ada beberapa hal yang saya amati dari bagaimana saya melakukan one-on-one dengan atasan saya sebelumnya, dan saran dari beberapa pihak, kurang lebih seperti ini:</p>
-<h3 id="mcetoc_1dfc21ujn4">Persiapkan catatan untuknya</h3>
-<p>kesempatan 1-1 ini adalah waktu yang tepat buat kita sebagai manager untuk memberikan ulasan dan masukan kepada staff, kita harus membuat rangkuman hal-hal apa saja yang kita ketahui soal kinerja dia, apa yang sudah dia capai selama periode berjalan, ini akan membuat staff merasa dihargai dan diperhatikan sehingga membuat dia kembali bersemangat dan produktif. dan persiapkan juga point-point yang akan menjadi agenda pembahasan dengan dia nantinya. bahakan goal dia mendatang.</p>
-<p>Mengawali sesi ini dengan feedback positif akan membuat jembatan yang baik untuk komunikasi selanjutnya, tidak mesti harus soal kerjaan, bisa saja diawali dengan ngobrol singkat tentang kehidupan personal, posting instagram terakhirnya.</p>
-<h3 id="mcetoc_1dfc2nv3n6">Minta agenda yang akan dibahas</h3>
-<p>Ini akan membuat diskusi menjadi lebih cepat dan terarah, saya seringkali diminta oleh atasan saya sebelumnya perihal apa yang akan kita bahas bersama nantinya di sesi 1-1, jadi orbrolannya bisa lebih terarah dan sama-sama menguntungkan. bisa jadi point-point seperti:</p>
-<ul>
-<li>retrospective dari sesi sebelumnya</li>
-<li>apa yang akan dikerjakan setelah ini</li>
-<li>apa yang bisa dilakukan untuk membantu menyelesaikan kendala yang dihadapi</li>
-</ul>
-<p>kurang lebih agendanya 1-1 nantinya 10 menit obrolan basa-basi, 20 menit bahas concern dari staff, lalu 20 menit kemudian bahas catatan dari manager, 360 feedback, dan 10 menit lagi dipakai untuk membuat action item yang bisa dijalankan bersama</p>
-<h3 id="mcetoc_1dfc1q3oo3"> </h3>
-<hr>
-<h3 id="mcetoc_1dfc2nv3n6"> </h3>
-<figure class="post__image post__image" ><img src="https://fachrul.id/media/posts/23/adult-blond-businesspeople-1282269.jpg" alt="" width="640" height="570">
-<figcaption >Photo by <strong><a href="https://www.pexels.com/@rawpixel?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels">rawpixel.com </a></strong>from <strong><a href="https://www.pexels.com/photo/woman-pointing-on-sticky-note-on-a-wall-1282269/?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels">Pexels</a></strong></figcaption>
-</figure>
-<h3 id="mcetoc_1dfc1q3oo3">Mulai dari hasil sebelumnya</h3>
-<p>biasanya diawal kita akan bahas perkembangan dari sesi one-on-one sebelumnya, apa yang sudah selesai dilakukan, mana yang masih berlangsung dan mana yang gagal dilaksanakan, sangat baik dan dianjurkan setiap selesai 1-1 kita membuat catatan kecil apa hasil diskusinya, sehingga catatan ini bisa kita bahas di pertemuan selanjutnya.</p>
-<p>Contoh pertanyaan:</p>
-<ul>
-<li>Di sesi 1-1 sebelumnya kamu bilang ada masalah di X dan pengen nyoba Y sebagai solusinya, gimana tuh hasilnya? </li>
-</ul>
-<h3 id="mcetoc_1dfc335de7">Basa-basi</h3>
-<p>Seperti disebutkan sebelumnya, mengawali sesi 1-1 dengan percakapan ringan, hal-hal positif akan membuat awal yang baik, kepedulian bahkan memberikan rasa rileks, santai, sehingga mereka cukup merasa aman dalam bercerita hal-hal sensitif. ya boleh lah bahas seputar kehidupan luar kantor, hobi dan keluarga.</p>
-<p>Contoh pertanyaan basa-basi untuk membangun rasa kepercayaan:</p>
-<ul>
-<li>Gimana kabarnya? gimana aktivitas kamu diluar kantor?</li>
-<li>Apakah kamu merasa work/life balance sekarang ini sudah tepat?</li>
-<li>Apa hal yang bisa kita ubah terkait pekerjaan yang bisa meningkatkan kehidupan pribadi kamu?</li>
-<li>(kalau dia punya anak); Gimana kabar anakmu, si (nama anak)? (pertanyaan terkait umurnya, seperti keahlian yg baru dikuasainya, aktifitas, ketertarikan, atau sekolah)</li>
-<li>Kalau ada waktu luang, biasanya kamu pakai untuk apa? hobi kamu apa?</li>
-</ul>
-<br>
-<h3 id="mcetoc_1dfc38f1n8">Sudut pandang staf</h3>
-<p>di sesi ini lebih banyak kita mendengar, biarkan staf menyampaikan keluh kesahnya, jangan terlalu banyak memotong pembicaraannya, pancing ia agar bisa cerita jujur dan mendalam, sedikit tips, coba berikan jeda 3-4 deitik sebelum kita memberikan tanggapan apa yang baru saja mereka sampaikan, karena bisa jadi cerita mereka belum selesai, atau bahkan memicu mereka mengupas lebih dalam lagi masalah tersebut.</p>
-<h3 id="mcetoc_1dfc3d14o9">Sudut pandang manager</h3>
-<p>walaupun ini adalah bagian dimana manager lebih mengambil kendali, tapi kembali ingat lagi deh, tujuan 1on1 ini sebenarnya lebih penting untuk digunakan untuk mengenal dan memahami staf tersebut, setelah kita siapkan catatan kita sebelumnya, kita bisa sampaikan dikesempatan ini, cara penyampaiannya harus dibuat personal tiap orang, karena ada karakter yang bisa menerima kritik dengan tegas, ada yang perlu dibungkus sindiran, atau bahkan ada yang perlu dipicu pertanyaan sehingga mereka sadar sendiri</p>
-<h3 id="mcetoc_1dfogqdg10">Buat catatan</h3>
-<p>memang menjadi pendengar yang baik dengan menjaga fokus ke staf sangat penting, mencatat point yang dibahas juga tak kalah penting loh, kadang kita mudah sekali untuk lupa apa yang baru saja dibahas, catatan ini akan menghindari kesalahpahaman nantinya, bisa jadi di pertemuan 1on1 nantinya ada silang sengketa dari apa yang menjadi target yang harus diselesaikan. oh iya, harap menggunakan kertas dan pinsil/ballpoint, penggunaan device/gadget lebih baik dihindari untuk menjaga komunikasi tetap fokus dan saling menghargai. </p>
-<h3 id="mcetoc_1dfc2cnvi5">Gimana kalau terjebak disituasi tidak menguntungkan</h3>
-<p>Yup, kadang kala kita menghadapi percakapan yang sulit dan negatif, </p>
-<p>Contoh pertanyaan:</p>
-<ul>
-<li>saya perhatikan sejak beberapa sesi 1-1 sebelumnya kita sering menemui titik buntu. sebenarnya saya perlu sekali masukan yang jujur dari kamu soal sesi 1-1 ini, apa yang bisa kita lakukan biar sesi ini berjalan dengan lebih baik?</li>
-<li>apa yang kamu ingin ubah dari diskusi ini biar lebih enak buat kamunya juga?</li>
-<li>saya mencoba membuat sesi 1-1 ini lebih baik, dan pendapat kamu sangat dihargai, menurutmu apa yang harus kita tingkatkan?</li>
-</ul>
-<h3 id="mcetoc_1dfc3h7uma">Minta masukan selama sesi</h3>
-<p>Sebagai pemimpin yang mengayomi, yang ingin terus mengembangkan diri, tentu sesi personal ini bisa kita manfaatkan untuk berbicara jujur soal gaya kepemimpinan kita, bagaimana kita bisa menjadi pemimpin lebih baik</p>
-<p>Contoh pertanyaan:</p>
-<ul>
-<li>saya ingin terus meningkatkan diri menjadi manager yang lebih baik, kalau berkenan saya ingin minta pendapat kamu soal gaya kepemimpinan saya, dan bagimana cara agar saya bisa menjadi lebih baik lagi buat kamu?</li>
-<li>apa yang bisa saya bantu agar perkerjaan kamu jadi lebih enak atau ada yang menghalangi jalan kamu mencapai tujuan?</li>
-<li>bagian mana yang bisa saya berikan pengarahan yang lebih atau bahkan kurangi?</li>
-</ul>
-<h3 id="mcetoc_1dfoh2l1q1"> </h3>
-<hr>
-<h2 id="mcetoc_1dfoibkj20">Cara komunikasi</h2>
-<p>Berikut ini adalah beberapa tips dan trik untuk menghadapi komunikasi yang baik pada lawan bicara kita:</p>
-<h3 id="mcetoc_1dfoieb841">Pertanyaan terbuka</h3>
-<p>jangan terlalu sering menanyakan dengan pertanyaan yang terlalu kumplit sehingga akan memerlukan jawaban singkat, ya-tidak. seperti pertanyaan "Apa kabar?" pasti akan dijawab oleh pertanyaan relatif sudah tau jawabannya kan, cobalah gunakan pertanyaan terbuka yang akan membuat orang bisa memikirkan jawaban dan terkadang memerlukan perenungan mendalam.</p>
-<h3 id="mcetoc_1dfoh2l1q1">Percakapan sulit</h3>
-<p>Ada kalanya (pastinya) sangat sulit menyampaikan kritik negatif kepada staf, salah kata bisa saja melukai perasaannya, mengubah obrolan menjadi defensif, atau bahkan menjadi sebel setelah sesi 1on1, ini memang ketakutan yang wajar.</p>
-<p>Seperti halnya obat, kadang kita perlu menelannya walau pahit, demi kebaikan pasien, pun demikian dengan kritik yang bisa terasa sangat pahit, lalu bagaimana cara kita menyampaikannya dengan baik?</p>
-<ul>
-<li><strong>Kritiklah perilakunya bukan personalnya</strong>. sampaikan kritik atas prilakuknya yang tidak sesuai, sehingga dia bisa menyesuaikan diri menjadi lebih baik, karena sifat personal seseorang sangat sulit untuk diubah</li>
-<li><strong>Jelas</strong>. Soroti masalah yang menjadi kritik negatif, jangan terlalu dibahas secara garis besar (umum), berikan contoh perbuatannya seperti apa, jangan melabeli nya dengan sesuatu dahulu.</li>
-<li><strong>Hindari istilah negatif</strong>. pilih kata-kata yang konstruktif, karena setelah ia mendengar kabar pahit ini, kita harapkan dia bisa bangkit dan berkembang, namun harus tegas juga jangan sampai terdengar permisif</li>
-</ul>
-<h3 id="mcetoc_1dfc4i4vpc">Contoh pertanyaan dalam one-on-one</h3>
-<p>Pertanyaan yang baik mampu menyelesaikan masalah dengan benar, berikut ini adalah contoh pertanyaan yang umum dalam sesi 1-1:</p>
-<p>Work habit</p>
-<ul>
-<li>Kapan waktu kamu merasa lebih produktif?</li>
-<li>Kapan waktu kamu merasa kurang produktif? gimana cara kita bantu kamu supaya lebih produktif?</li>
-<li>Perubahan seperti apa yang bisa kita lakukan agar kamu bisa semangat dalam bekerja?</li>
-</ul>
-<p>Teamwork:</p>
-<ul>
-<li>siapa yang menginspirasi kamu dalam bekerja?</li>
-<li>siapa yang biasa kamu mintain tolong?</li>
-<li>ada kendala dalam bekerja sama dengan tim?</li>
-<li>ada masukan agar tim bisa bekerja sama dengan lebih baik?</li>
-<li>apakah kamu merasa cukup mendapatkan masukan (feedback)? kenapa gitu/kenapa nggak?</li>
-<li>gimana cara kita mengubah team meeting menjadi lebih efektif?</li>
-<li>menurut kamu kenapa si (nama orang yang baru resign) memutuskan untuk resign? adakah dia cerita ke kamu?</li>
-<li>akhir-akhir ini apakah kamu merasa kelelahan bekerja, kurang kerjaan atau cukup kerja?</li>
-<li>apakah kamu merasa tim sudah memiliki pemahaman yang sama akan target pencapaian?</li>
-<li>sering ga sih kamu merasa ikut dalam meeting yang salah dan ga penting untuk kamu ikuti? contoh meetingnya?</li>
-<li>kamu ingin bisa lebih banyak bekerja sama dengan siapa? kenapa?</li>
-<li>apa kamu merasa mendapatkan bantuan dari rekan kerja? apakah kamu cukup membantu rekan kerja?</li>
-</ul>
-<p>Kebahagiaan:</p>
-<ul>
-<li>apakah kamu merasa bahagia bekerja disini? kenapa atau kenapa tidak?</li>
-<li>apa yang membuat kamu semangat dalam menjalani pekerjaan sehari-hari?</li>
-<li>apa yang bisa saya perbuat agar kamu bisa lebih semangat?</li>
-<li>apa hal/proyek yang bisa bikin kamu senang dalam bekerja?</li>
-<li>seperti apa penghargaan terbaik yang pernah kamu terima selama bekerja disini? apakah kamu merasa cukup dihargai?</li>
-<li>seperti apa yang bikin kamu cemas dan hawatir?</li>
-<li>pernah merasa diremehkan? kenapa?</li>
-<li>kapan kamu merasa enjoy/senang bekerja disini?</li>
-<li>siapa teman dekat kamu di kantor? (ciri dia bahagia dgn rekan kerja)</li>
-<li>ada ga yang kamu sebel dari bekerja disini?</li>
-<li>apa sih yang bisa bikin kamu khawatir?</li>
-<li>kira-kira apa yang bisa menjadi alasan kamu meninggalkan perusahaan ini?</li>
-</ul>
-<p>Tujuan jangka pendek:</p>
-<ul>
-<li>lagi ngerjain projek apa?</li>
-<li>apa bottleneck yang terjadi disitu? ada yang bisa saya bantu?</li>
-<li>proyek seperti apa yang akan kamu kerjaan berikutnya?</li>
-<li>apa proses di kantor yang mau kamu dalami lebih jauh?</li>
-<li>kira-kira apakah kamu membuat kemajuan dalam meraih tujuan karir kamu? kok bisa/kenapa tidak?</li>
-<li>apa ada pelatihan atau seminar yang ingin kamu ikuti untuk meningkatkan perkembangan keahlian kamu?</li>
-<li>siapa yang bisa menjadi mentor kamu dikantor? apa yang ingin kamu pelajari dari dia?</li>
-</ul>
-<p>Tujuan jangka panjang</p>
-<ul>
-<li>apakah kamu punya tujuan jangka panjang dalam karir kamu? pernah kepikiran hal itu kah?</li>
-<li>apa yang ingin kamu capai dalam 3 tahun kedepan?</li>
-<li>bagaimana kamu mengejarnya? apa yang bisa kita bantu?</li>
-<li>proyek seperti apa yang menurutmu bisa mendekatkan kamu ke goal itu?</li>
-<li>coba kamu jujur pada diri sendiri, menurut kamu apakah kamu sudah melangkah lebih dekat dalam mencapai tujuan karir kamu? apa yang bisa kamu lakukan untuk mencapainya?</li>
-</ul>
-<p>Perkembangan diri</p>
-<ul>
-<li>apakah kamu merasa seperti belajar di kantor?</li>
-<li>lagi ngulik soal apa akhir-akhir ini?</li>
-<li>bagian mana yang kamu mau pelajari dan kembangkan?</li>
-<li>kamu merasa tertantang ga sih dengan pekerjaan yang ada sekarang? apa kamu belajar hal baru?</li>
-<li>bagian pekerjaan mana yang kamu merasa paling mahir dan bisa mengajarkan ke orang lain?</li>
-<li>apakah yang kamu lakukan disini sudah sejalan dengan tujuan karir kamu?</li>
-<li>siapa orang yang kamu kagumi? kenapa? (menggali ingin menjadi seperti apa dia)</li>
-<li>jika kamu memiliki sebuah kekuatan super, kira-kira kekuatan apakah yang kamu miliki? apakah kita bisa melatih itu menjadi nyata?</li>
-<li>apa aspek pekerjaan yang kamu rasa masih perlu dibimbing lebih jauh?</li>
-</ul>
-<p>manager improvement</p>
-<ul>
-<li>apa yang bisa saya lakukan biar kerjaan kamu lebih enak dan lebih mudak?</li>
-<li>apakah kamu suka dengan gaya kepemimpinan saya? apa dan kenapa nggak?</li>
-<li>sisi mana yang menurut kamu tidak perlu atau bahkan perlu saya terlibat di pekerjaan sehari-hari kamu</li>
-<li>gimana gaya kepemimpinan saya? apa yang kamu suka/tidak?</li>
-<li>adakah satu hal yang menurut kamu saya bisa melakukannya lebih baik?</li>
-<li>apa aspek kerja yang kamu fikir kamu bisa diandalkan dan saya ga usah terlalu mengarahkan?</li>
-<li>apa yang ingin kamu ketahui soal saya pribadi?</li>
-<li>apa hal favorit kamu dari saya yang harus tetap saya lakukan?</li>
-</ul>
-<p>pertanyaan spesial untuk karyawan remote/bekerja diluar kantor</p>
-<ul>
-<li>apa yang menjadi keunggulan kerja remote buat kamu? (memahami motivasi dia)</li>
-<li>sudah berapa lama kamu bekerja remote? Apa tantangan yang biasa dihadapi?</li>
-<li>gimana cara kamu untuk tetap terhubung dengan rekan kerja?</li>
-<li>bagaimana kamu mengantisipasi kesepian dalam bekerja?</li>
-<li>jam berapa biasanya kamu merasa produktif?</li>
-<li>apa saja tantangan/cobaan buat kamu dalam menjalankan rutinitas kerja remote?</li>
-<li>gimana cara kamu mengendalikan distraksi selama bekerja?</li>
-<li>seperti apa ruang kerja kamu disana?</li>
-<li>apakah perusahaan sudah cukup dalam mendukung karyawan remote dengan baik? ada yang bisa kita tingkatkan lagi?</li>
-<li>menurut kamu cara komunikasi dengan tim saat ini seperti apa? sudah cukup baik?</li>
-<li>apa kamu merasa cukup dekat dengan rekan keja?</li>
-<li>apa kamu merasa dilibatkan dalam pengambilan keputusan selama ini?</li>
-</ul>
-<h3 id="mcetoc_1dfc3t40nb">Rencana selanjutnya</h3>
-<p>Di 10 menit terakhir sesi, biasakan membuat action plan berdasarkan diskusi agar bisa di pantau perkembangannya di bulan depan, buat 1-3 goal yang benar-benar dibutuhkannya dan mungkin dikerjakan selama periode waktu tertentu</p>
-<ul>
-<li>apa saja poin yang bisa <strong>kamu</strong> kerjakan dari hasil pembicaraan kita hari ini?</li>
-<li>apa saja poin yang bisa <strong>saya</strong> kerjakan dari pembicaraan kita hari ini?</li>
-<li>apa yang menjadi target <strong>kita</strong> sampai pertemuan 1 on 1 berikutnya?</li>
-</ul>
             ]]>
         </content>
     </entry>
