@@ -3,7 +3,7 @@
     <title>Celotehan seorang Software Quality Development Engineer in Test - Agile Testing, Selenium, Appium, Ruby</title>
     <link href="https://fachrul.id/feed.xml" rel="self" />
     <link href="https://fachrul.id" />
-    <updated>2020-05-20T00:10:25+07:00</updated>
+    <updated>2020-06-12T14:51:28+07:00</updated>
     <author>
         <name>Fachrul Choliluddin</name>
     </author>
@@ -638,7 +638,7 @@ assert len(results_title) &gt; 0
         <link href="https://fachrul.id/catat-ini-berbagai-command-adb-yang-berguna-untuk-automation-tester/"/>
         <id>https://fachrul.id/catat-ini-berbagai-command-adb-yang-berguna-untuk-automation-tester/</id>
 
-        <updated>2020-05-06T16:05:37+07:00</updated>
+        <updated>2020-06-12T14:51:23+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fachrul.id/media/posts/30/ADB.png" alt="" />
@@ -673,7 +673,7 @@ adb shell am force-stop com.google.android.gm</code></pre>
 <p>bisa ditambahin argument</p>
 <pre><code class="language-shell">adb -d = untuk device, <br>adb -e = utk emulator, <br>adb -s = untuk ke serial number tertentu<br></code></pre>
 <p>atau klo mau sekaligus install apk di banyak devices </p>
-<pre><code class="language-shell">alias apkinstall="adb devices | tail -n +2 | cut -sf 1 | xargs -I X adb -s X install -r $1"</code><br><br><code class="language-shell"># Penggunaannya Install an apk on all devices</code><br><code class="language-shell">apkinstall ~/Downloads/MyAppRelease.apk  </code></pre>
+<pre><code class="language-shell">alias apkinstall="adb devices | tail -n +2 | cut -sf 1 | xargs -I X adb -s X install -r $1"</code><br><br><code class="language-shell"># Penggunaannya Install an apk on all devices</code><br><code class="language-shell">apkinstall ~/Downloads/MyAppRelease.apk  <br><br># atau klo cuma mau copy files apk nya doank<br>adb push &lt;lokasi file path&gt; /sdcard/<br></code></pre>
 <h2 id="mcetoc_1e6qon7gl5">Hapus aplikasi</h2>
 <pre><code class="language-shell-session">adb shell pm uninstall com.example.MyApp     <br>adb shell pm clear id.fachrul.package // Deletes all data associated with a package.</code></pre>
 <p> </p>
@@ -689,7 +689,10 @@ adb shell am force-stop com.google.android.gm</code></pre>
 <h2 id="mcetoc_1e6qonotm9">Hapus log device</h2>
 <pre><code class="language-shell">adb logcat -c</code></pre>
 <h2 id="mcetoc_1e6qonu54a">Ambil bug report berupa informasi dari device, dumpstate, dumpsys dan logcat output</h2>
-<pre><code class="language-css language-javascript language-shell">adb bugreport &gt; path_file_nya</code></pre>
+<pre><code class="language-css language-javascript language-shell">adb bugreport &gt; path_file_nya<br>adb logcat -b crash <br></code></pre>
+<h2 id="mcetoc_1eajnp4n81">Ambil screenshoot</h2>
+<pre class="wp-block-code">adb exec-out screencap -p &gt; &lt;nama_sshot&gt;.png</pre>
+<h2 id="mcetoc_1eajnp4s92"> </h2>
 <h2 id="mcetoc_1e6qoo9omc">Open deeplink</h2>
 <p><code class="language-shell">adb shell am start -a android.intent.action.VIEW -d "schema://link"</code></p>
 <h2 id="mcetoc_1e6qood6ad">Reset permissions</h2>
@@ -700,7 +703,11 @@ adb shell am force-stop com.google.android.gm</code></pre>
 <pre><code class="language-shell-session">adb shell input keyevent 3 // Home btn<br>adb shell input keyevent 4 // Back btn<br><br>adb shell input keyevent 5 // Call<br><br>adb shell input keyevent 6 // End call<br><br>adb shell input keyevent 26  // Turn Android device ON and OFF. It will toggle device to on/off status.<br><br>adb shell input keyevent 27 // Camera<br><br>adb shell input keyevent 64 // Open browser<br><br>adb shell input keyevent 66 // Enter<br><br>adb shell input keyevent 67 // Delete (backspace)<br><br>adb shell input keyevent 207 // Contacts<br><br>adb shell input keyevent 220 / 221 // Brightness down/up<br><br>adb shell input keyevent 277 / 278 /279 // Cut/Copy/Paste<br><br>// https://developer.android.com/reference/android/view/KeyEvent.html<br><br><br></code></pre>
 <p><code></code>Ambil serial dari connected device</p>
 <pre><code class="language-shell-session">adb devices | tail -n +2</code> </pre>
-<p> </p>
+<h2 id="mcetoc_1eajnnqvv0">Emulator</h2>
+<pre class="wp-block-code">emulator -avd &lt;nama emulatornya&gt; -netdelay none -netspeed full </pre>
+<h2 id="mcetoc_1eajnrqt03"> Cara menampilkan screen android di Windows/mac/linux (cocok buat presentasi)</h2>
+<p>Bisa menggunakan aplikasi <a href="https://github.com/Genymobile/scrcpy" target="_blank" rel="noopener noreferrer">Scrcpy</a> aplikasi ini open source jadi bisa menjadi alternatif kamu yang biasa menggunakan Vysor, klo pake mac bisa langsung instal via `brew install scrcpy` trus jalanin nya tinggal jalanin command `scrcpy` atau klo mau lihat dia bisa ngapain aja bisa cekidot `scrcpy --help`</p>
+<pre>scrcpy --help<br># mulai mirroring android, tapi tampilin juga lokasi sentuhan<br>scrcpy -t<br># mirroring android sambil direkam<br>scrcpy -r coba_health.mp4<br># klo ada lebih dari satu, bisa konek sesuai dengan serial device nya<br>scrcpy -s serial_1234<br><br></pre>
             ]]>
         </content>
     </entry>
