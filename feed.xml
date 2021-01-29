@@ -3,7 +3,7 @@
     <title>Celotehan si FachrulCH</title>
     <link href="https://fachrul.id/feed.xml" rel="self" />
     <link href="https://fachrul.id" />
-    <updated>2021-01-29T17:23:26+07:00</updated>
+    <updated>2021-01-29T20:10:28+07:00</updated>
     <author>
         <name>Fachrul Choliluddin</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://fachrul.id/api-test-framework-python-struktur-framework-dan-fluent-assertion-bagian-3/"/>
         <id>https://fachrul.id/api-test-framework-python-struktur-framework-dan-fluent-assertion-bagian-3/</id>
 
-        <updated>2021-01-29T17:11:57+07:00</updated>
+        <updated>2021-01-29T20:09:57+07:00</updated>
             <summary>
                 <![CDATA[
                      Hi Kawan 👋, Gimana mudah kan belajar bikin API automation dengan python? tentunya,, di kesempatan ini kita akan belajar lebih lanjut dengan pytest dan menggunakan library tambahan (lagi) agar test kita lebih mudah dibaca dan dipahami dengan bantuan fluent assertion Artikel ini adalah salah&hellip;
@@ -44,7 +44,21 @@
 <p>Install library ini dengan command `pip install assertpy`</p>
 <h2 id="mcetoc_1et6oq45a2">Mengakses API method POST</h2>
 <p>Oke kali ini kita ga akan pake GET airports lagi sebagai contoh, tapi kita akan menggunakan contoh API POST untuk menghitung jarak antar airports ya, kurang lebih kode nya akan seperti ini</p>
-<pre>import requests<br>from assertpy import assert_that<br><br><br>def test_calculate_distance():<br>    payload = {<br>        "from": "LAE",<br>        "to": "NRT"<br>    }<br>    response = requests.post("https://airportgap.dev-tester.com/api/airports/distance", data=payload)<br>    data = response.json().get("data")<br>    assert_that(data["type"]).is_equal_to("airport_distance")<br>    assert_that(data["attributes"]).is_not_empty()<br>    assert_that(data).has_id("LAE-NRT")<br>    assert_that(data["attributes"]["kilometers"]).is_equal_to(4753.834755437252)</pre>
+<pre><code class="language-python line-numbers">import requests
+from assertpy import assert_that
+
+
+def test_calculate_distance():
+    payload = {
+        "from": "LAE",
+        "to": "NRT"
+    }
+    response = requests.post("https://airportgap.dev-tester.com/api/airports/distance", data=payload)
+    data = response.json().get("data")
+    assert_that(data["type"]).is_equal_to("airport_distance")
+    assert_that(data["attributes"]).is_not_empty()
+    assert_that(data).has_id("LAE-NRT")
+    assert_that(data["attributes"]["kilometers"]).is_equal_to(4753.834755437252)</code></pre>
 <p> Penjelasan kode, yang beda aja dari artikel sebelumnya ya hehe:</p>
 <ul>
 <li>from assertpy import assert_that ==&gt; melakukan import function assert_that yang berada pada module library assertpy</li>
@@ -59,9 +73,179 @@
 <p>Oia, sebagai convention pun kita perlu menamakan file kita dengan _test.py agar pytest bisa menemukan file mana saja yang akan dieksekusi sebagai test</p>
 <p>Kita membagi dua file utnuk pengujian api yang berkaitan dengan airport dan favorite ke dalam file yang terpisah agar mudah dipahami, jadi semua test yang berkaitan dengan module favorite pasti terletak di favorite_test.py jadi test kita pun bisa menjadi sebuah dokumentasi yang baik</p>
 <p>Kurang lebih contoh akhir dari file airport_test.py adalah seperti ini</p>
-<pre>import requests<br>from assertpy import assert_that<br><br>BASE_URL = "https://airportgap.dev-tester.com/api"<br><br><br>def test_get_all_airports():<br>    response = requests.get(f'{BASE_URL}/airports')<br>    data = response.json().get('data')<br><br>    assert_that(response.status_code).is_equal_to(200)<br>    assert_that(data).is_greater_than_or_equal_to(5)<br><br><br>def test_get_airports_by_id():<br>    # arrange/GIVEN<br>    airport_id = "LAE"<br>    # action/WHEN<br>    response = requests.get(f'{BASE_URL}/airports/{airport_id}')<br>    data = response.json().get('data')<br>    data_airport = data["attributes"]<br>    # assertion/THEN<br>    assert_that(response.status_code).is_equal_to(200)<br>    assert_that(data_airport["name"]).is_equal_to("Nadzab Airport")<br><br><br>def test_get_not_found_airport():<br>    airport_id = "NOTFOUND"<br>    response = requests.get(f'{BASE_URL}/airports/{airport_id}')<br>    assert_that(response.status_code).is_equal_to(404)<br>    assert_that(response.json()).contains_key("errors")<br>    assert_that(response.text).contains("The page you requested could not be found")<br><br><br>def test_calculate_distance():<br>    payload = {<br>        "from": "LAE",<br>        "to": "NRT"<br>    }<br>    response = requests.post("https://airportgap.dev-tester.com/api/airports/distance", data=payload)<br>    data = response.json().get("data")<br>    assert_that(data["type"]).is_equal_to("airport_distance")<br>    assert_that(data["attributes"]).is_not_empty()<br>    assert_that(data).has_id("LAE-NRT")<br>    assert_that(data["attributes"]["kilometers"]).is_equal_to(4753.834755437252)</pre>
+<pre><code class="language-python line-numbers">import requests
+from assertpy import assert_that
+
+BASE_URL = "https://airportgap.dev-tester.com/api"
+
+
+def test_get_all_airports():
+    response = requests.get(f'{BASE_URL}/airports')
+    data = response.json().get('data')
+
+    assert_that(response.status_code).is_equal_to(200)
+    assert_that(data).is_greater_than_or_equal_to(5)
+
+
+def test_get_airports_by_id():
+    # arrange/GIVEN
+    airport_id = "LAE"
+    # action/WHEN
+    response = requests.get(f'{BASE_URL}/airports/{airport_id}')
+    data = response.json().get('data')
+    data_airport = data["attributes"]
+    # assertion/THEN
+    assert_that(response.status_code).is_equal_to(200)
+    assert_that(data_airport["name"]).is_equal_to("Nadzab Airport")
+
+
+def test_get_not_found_airport():
+    airport_id = "NOTFOUND"
+    response = requests.get(f'{BASE_URL}/airports/{airport_id}')
+    assert_that(response.status_code).is_equal_to(404)
+    assert_that(response.json()).contains_key("errors")
+    assert_that(response.text).contains("The page you requested could not be found")
+
+
+def test_calculate_distance():
+    payload = {
+        "from": "LAE",
+        "to": "NRT"
+    }
+    response = requests.post("https://airportgap.dev-tester.com/api/airports/distance", data=payload)
+    data = response.json().get("data")
+    assert_that(data["type"]).is_equal_to("airport_distance")
+    assert_that(data["attributes"]).is_not_empty()
+    assert_that(data).has_id("LAE-NRT")
+    assert_that(data["attributes"]["kilometers"]).is_equal_to(4753.834755437252)
+</code></pre>
 <p>dan favorite_test.py</p>
-<pre>from datetime import datetime<br><br>import requests<br>from assertpy import assert_that<br><br>BASE_URL = "https://airportgap.dev-tester.com/api"<br><br><br>def get_token(email, password):<br>    return requests.post(BASE_URL + "/tokens", data={<br>        "email": email,<br>        "password": password<br>    })<br><br><br>def get_my_favorite_airport(token):<br>    header = {<br>        "Authorization": f"Token {token}"<br>    }<br>    return requests.get(BASE_URL + "/favorites", headers=header)<br><br><br>def test_token():<br>    token = get_token(email="naruto@mailinator.com", password="shuriken")<br>    assert_that(token.status_code).is_equal_to(200)<br>    assert_that(token.json()).contains_key("token")<br>    assert_that(token.json().get("token")).is_not_empty()<br><br><br>def test_get_favorite():<br>    give_me_token = get_token(email="naruto@mailinator.com", password="shuriken")<br>    token = give_me_token.json().get("token")<br>    header = {<br>        "Authorization": f"Token {token}"<br>    }<br>    response = requests.get(BASE_URL + "/favorites", headers=header)<br>    data = response.json().get("data")<br>    assert_that(response.status_code).is_equal_to(200)<br>    assert_that(data).is_greater_than_or_equal_to(1)<br><br><br>def test_add_new_favorite():<br>    """<br>    Since the data is hardcoded, then it was not idempotent/repeatable<br>    This test will failed, if NRT already in my favorite list<br>    Need to remove after test teardown<br>    """<br>    give_me_token = get_token(email="naruto@mailinator.com", password="shuriken")<br>    token = give_me_token.json().get("token")<br><br>    before_add = get_my_favorite_airport(token)<br>    data_before = before_add.json().get("data")<br>    assert_that(before_add.text).does_not_contain("NRT")<br><br>    new_airport = {<br>        "airport_id": "NRT",<br>        "note": "I like Narita"<br>    }<br><br>    header = {<br>        "Authorization": f"Token {token}"<br>    }<br><br>    response = requests.post(BASE_URL + "/favorites", headers=header, data=new_airport)<br>    assert_that(response.status_code).is_equal_to(201)<br>    response_data = response.json().get("data")<br>    assert_that(response_data["attributes"]["airport"]["iata"]).is_equal_to(new_airport["airport_id"])<br>    assert_that(response_data["attributes"]["note"]).is_equal_to(new_airport["note"])<br><br>    after_add = get_my_favorite_airport(token)<br>    data_after = after_add.json().get("data")<br>    assert_that(len(data_after)).is_greater_than(len(data_before))<br>    assert_that(after_add.text).contains(new_airport["note"])<br><br><br>def test_update_favorite_note():<br>    give_me_token = get_token(email="naruto@mailinator.com", password="shuriken")<br>    token = give_me_token.json().get("token")<br><br>    before_add = get_my_favorite_airport(token)<br>    data_before = before_add.json().get("data")<br><br>    assert_that(len(data_before)).is_greater_than(0)<br>    id_airport_to_modify = data_before[0]["id"]<br><br>    header = {<br>        "Authorization": f"Token {token}"<br>    }<br><br>    # Add dynamic unique string with a timestamp<br>    new_note = {<br>        "note": f"The note for ID:{id_airport_to_modify} is changed at time: {datetime.now()} "<br>    }<br><br>    response = requests.patch(f"{BASE_URL}/favorites/{id_airport_to_modify}", headers=header, data=new_note)<br>    assert_that(response.status_code).is_equal_to(200)<br>    assert_that(response.text).contains(new_note["note"])<br><br>    after_add = get_my_favorite_airport(token)<br>    data_after = after_add.json().get("data")<br>    for airport_data in data_after:<br>        if airport_data["id"] == id_airport_to_modify:<br>            print(f"Found the modified airport {id_airport_to_modify}")<br>            print("\nHere is the check for specific airport in an array data")<br>            assert_that(airport_data["attributes"]["note"]).is_equal_to(new_note["note"])<br><br><br>def test_delete_favorite():<br>    give_me_token = get_token(email="naruto@mailinator.com", password="shuriken")<br>    token = give_me_token.json().get("token")<br><br>    before_add = get_my_favorite_airport(token)<br>    data_before = before_add.json().get("data")<br><br>    assert_that(len(data_before)).is_greater_than(0)<br>    id_airport_to_delete = data_before[0]["id"]<br><br>    header = {<br>        "Authorization": f"Token {token}"<br>    }<br><br>    response = requests.delete(f"{BASE_URL}/favorites/{id_airport_to_delete}", headers=header)<br>    assert_that(response.status_code).is_equal_to(204)<br>    after_delete = get_my_favorite_airport(token)<br>    data_after = after_delete.json().get("data")<br>    assert_that(len(data_after)).is_less_than(len(data_before))</pre>
+<pre><code class="language-python line-numbers">from datetime import datetime
+
+import requests
+from assertpy import assert_that
+
+BASE_URL = "https://airportgap.dev-tester.com/api"
+
+
+def get_token(email, password):
+    return requests.post(BASE_URL + "/tokens", data={
+        "email": email,
+        "password": password
+    })
+
+
+def get_my_favorite_airport(token):
+    header = {
+        "Authorization": f"Token {token}"
+    }
+    return requests.get(BASE_URL + "/favorites", headers=header)
+
+
+def test_token():
+    token = get_token(email="naruto@mailinator.com", password="shuriken")
+    assert_that(token.status_code).is_equal_to(200)
+    assert_that(token.json()).contains_key("token")
+    assert_that(token.json().get("token")).is_not_empty()
+
+
+def test_get_favorite():
+    give_me_token = get_token(email="naruto@mailinator.com", password="shuriken")
+    token = give_me_token.json().get("token")
+    header = {
+        "Authorization": f"Token {token}"
+    }
+    response = requests.get(BASE_URL + "/favorites", headers=header)
+    data = response.json().get("data")
+    assert_that(response.status_code).is_equal_to(200)
+    assert_that(data).is_greater_than_or_equal_to(1)
+
+
+def test_add_new_favorite():
+    """
+    Since the data is hardcoded, then it was not idempotent/repeatable
+    This test will failed, if NRT already in my favorite list
+    Need to remove after test teardown
+    """
+    give_me_token = get_token(email="naruto@mailinator.com", password="shuriken")
+    token = give_me_token.json().get("token")
+
+    before_add = get_my_favorite_airport(token)
+    data_before = before_add.json().get("data")
+    assert_that(before_add.text).does_not_contain("NRT")
+
+    new_airport = {
+        "airport_id": "NRT",
+        "note": "I like Narita"
+    }
+
+    header = {
+        "Authorization": f"Token {token}"
+    }
+
+    response = requests.post(BASE_URL + "/favorites", headers=header, data=new_airport)
+    assert_that(response.status_code).is_equal_to(201)
+    response_data = response.json().get("data")
+    assert_that(response_data["attributes"]["airport"]["iata"]).is_equal_to(new_airport["airport_id"])
+    assert_that(response_data["attributes"]["note"]).is_equal_to(new_airport["note"])
+
+    after_add = get_my_favorite_airport(token)
+    data_after = after_add.json().get("data")
+    assert_that(len(data_after)).is_greater_than(len(data_before))
+    assert_that(after_add.text).contains(new_airport["note"])
+
+
+def test_update_favorite_note():
+    give_me_token = get_token(email="naruto@mailinator.com", password="shuriken")
+    token = give_me_token.json().get("token")
+
+    before_add = get_my_favorite_airport(token)
+    data_before = before_add.json().get("data")
+
+    assert_that(len(data_before)).is_greater_than(0)
+    id_airport_to_modify = data_before[0]["id"]
+
+    header = {
+        "Authorization": f"Token {token}"
+    }
+
+    # Add dynamic unique string with a timestamp
+    new_note = {
+        "note": f"The note for ID:{id_airport_to_modify} is changed at time: {datetime.now()} "
+    }
+
+    response = requests.patch(f"{BASE_URL}/favorites/{id_airport_to_modify}", headers=header, data=new_note)
+    assert_that(response.status_code).is_equal_to(200)
+    assert_that(response.text).contains(new_note["note"])
+
+    after_add = get_my_favorite_airport(token)
+    data_after = after_add.json().get("data")
+    for airport_data in data_after:
+        if airport_data["id"] == id_airport_to_modify:
+            print(f"Found the modified airport {id_airport_to_modify}")
+            print("\nHere is the check for specific airport in an array data")
+            assert_that(airport_data["attributes"]["note"]).is_equal_to(new_note["note"])
+
+
+def test_delete_favorite():
+    give_me_token = get_token(email="naruto@mailinator.com", password="shuriken")
+    token = give_me_token.json().get("token")
+
+    before_add = get_my_favorite_airport(token)
+    data_before = before_add.json().get("data")
+
+    assert_that(len(data_before)).is_greater_than(0)
+    id_airport_to_delete = data_before[0]["id"]
+
+    header = {
+        "Authorization": f"Token {token}"
+    }
+
+    response = requests.delete(f"{BASE_URL}/favorites/{id_airport_to_delete}", headers=header)
+    assert_that(response.status_code).is_equal_to(204)
+    after_delete = get_my_favorite_airport(token)
+    data_after = after_delete.json().get("data")
+    assert_that(len(data_after)).is_less_than(len(data_before))</code></pre>
 <p>Penjelasan kode? hmm sepertinya akan sangat panjang, nanti akan saya jelaskan pada video sepertinya agar lebih runut ehehe, klo nulis keknya panjang ehehe</p>
 <h2 id="mcetoc_1et6pnu1t4">Bagaimana cara menjalankan kode dengan pytest?</h2>
 <p>Klo mau menjalankan satu satu sih bisa seperti cara sebelumnya ` pytest test/airport_test.py`</p>
@@ -152,7 +336,7 @@
         <link href="https://fachrul.id/yuk-belajar-cara-membuat-api-test-automation-framework-python-bagian-1/"/>
         <id>https://fachrul.id/yuk-belajar-cara-membuat-api-test-automation-framework-python-bagian-1/</id>
 
-        <updated>2021-01-29T17:23:04+07:00</updated>
+        <updated>2021-01-29T20:06:37+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fachrul.id/media/posts/41/pexels-zachary-debottis-1888883.jpg" alt="" />
@@ -174,11 +358,9 @@
 <li><a href="https://fachrul.id/reporting-api-test-framework-python-bagian-5/" target="_blank" rel="noopener noreferrer" style="font-family: -apple-system, BlinkMacSystemFont, Arial, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: inherit;">Pelajaran 5: Reporting</a></li>
 <li><a href="https://fachrul.id/json-schema-validation-api-test-framework-python-extra-bonus/" target="_blank" rel="noopener noreferrer">Extra: Penambahan schema validation dan running test in parallel</a></li>
 </ul>
-<p>Kamu bisa berkomentar atau bertanya di pada bagian komentar post tersebut, insya alloh nanti akan saya jawab sebisanya ehehe, atau bisa juga DM dan follow @fachrulch untuk kritik dan saran nya dalam pembahasan ini</p>
-<p> </p>
+<p>Kamu bisa berkomentar atau bertanya di pada bagian komentar post tersebut, insya alloh nanti akan saya jawab sebisanya ehehe, atau bisa juga DM dan follow @fachrulch untuk kritik dan saran nya dalam pembahasan ini </p>
 <hr>
-<h2 id="mcetoc_1et6qe1m90"> </h2>
-<h2 id="mcetoc_1et6f3hnh0">Apa itu API sih?</h2>
+<h2 id="mcetoc_1et6qe1m90"> Apa itu API sih?</h2>
 <p id="mcetoc_1et6f6a0c2">Sebenernya saya ga yakin bisa menjelaskannya dengan benar, mungkin bisa kamu googling aja nanti ya klo masih belum jelas dari penjelasan saya ehehe, jadi kurang lebih gini:</p>
 <p><img class="post__image--left" src="https://fachrul.id/media/posts/41/api-1.png" alt="" width="800" height="454">API (Application Programming Interface) atau juga seringkali dikenal dengan webservice adalah bentuk komunikasi antar sistem, sederhananya, API menyediakan serangkaian cara/kontrak bagaimana sebuah informasi bisa ditransfer/diakses.</p>
 <p>API ada dua kategori, yaitu SOAP dan REST, SOAPmenggunakan format XML yang membungkus informasi data nya, sejauh yg saya tau soap masih umum dipergunakan oleh perbankan sampai saat ini, sedangkan REST sudah umum dipakai oleh khalayak ramai, karena lebih ringan dalam hal ukuran data yang disimpan dalam format JSON, dan umumnya permintaan dan penerimaan data menggunakan protokol HTTP, biasanya menggunakan verbs GET, POST, PUT dan DELETE dalam berinteraksi.</p>
@@ -197,6 +379,7 @@
 <li>Install code editor, saran saya sih menggunakan PyCharm, tapi klo mau yg lebih ringan boleh pake Visual Code ataupun Notepad++ juga bisa harusnya</li>
 </ol>
 <hr>
+<h2 id="mcetoc_1et73n59h0"><img class="post__image--center" src="https://fachrul.id/media/posts/41/airportgap.png" alt="" width="500" height="592"></h2>
 <h2 id="mcetoc_1et6gh63a6">Studi Kasus</h2>
 <p>Oke, sepertinya kita akan bahas dulu aplikasi apa yang akan menjadi target kita dalam pengembangan API test framework, sebagai contoh kita akan mengautomasi pengujian pada <a href="https://airportgap.dev-tester.com">https://airportgap.dev-tester.com</a> sebuah dummy app yang dikhususkan bagi teman-teman yang berlatih dalam mengasah automation skill pada API</p>
 <p>Kenapa saya pilih ini? karena koleksi API disini kurang lebih akan mirip dengan apa yang kamu punya di kantor, ada API yang bisa diakses dengan GET, POST, DELETE dan PUT/PATCH, jadi bisa dikatakan mini project API, apalagi dokumentasinya API juga sudah cukup jelas ya, bisa diakses disini <a href="https://airportgap.dev-tester.com/docs">https://airportgap.dev-tester.com/docs</a></p>
@@ -207,9 +390,15 @@
 <p>Dokumentasi requests menurut saya sangat jelas dan keren, coba saja lihat <a href="https://requests.readthedocs.io/en/master/">https://requests.readthedocs.io/en/master/</a> , kita bisa pelajari lebih lanjut fitur dan kemampuan requests disana ya, tapi secara natural sangat mudah diingat kok method dan fungsi nya</p>
 <p>Lanjut,, kita akan mengakses informasi daftar airports yand bisa diakses dengan melakukan request GET pada endpoint `/api/airports` dan melihat apa saja informasi yang terkandung di dalamnya</p>
 <p>Untuk itu kita harus membuat file python baru di folder/direktori yang sudah kamu pilih ya</p>
-<p>Di baris awal kita perlu melakukan import library request dahulu dengan menambahkan kode `import requests` lalu di baris berikutnya kita akan menggunakan library requests dalam mengakses API dengan kode </p>
-<pre>import requests<br><br>response = requests.get('https://airportgap.dev-tester.com/api/airports')<br>print(response.status_code)<br>print(response.text) </pre>
-<p> Penjelasan kode:</p>
+<p>Di baris awal kita perlu melakukan import library request dahulu dengan menambahkan kode `import requests` lalu di baris berikutnya kita akan menggunakan library requests dalam mengakses API dengan kode</p>
+<pre><code class="language-python line-numbers">import requests
+
+response = requests.get('https://airportgap.dev-tester.com/api/airports')
+print(response.status_code)
+print(response.text) 
+    </code></pre>
+<p> </p>
+<p>Penjelasan kode:</p>
 <ul>
 <li>import requests =&gt; melakukan import library `requests` sebelum penggunaan di baris selanjutnya</li>
 <li>response = requests.get(&lt;url&gt;) =&gt; kita melakukan permintaan GET pada sebuah url yang kemudian di tampung kedalam variable `response`</li>
