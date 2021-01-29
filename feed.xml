@@ -3,7 +3,7 @@
     <title>Celotehan si FachrulCH</title>
     <link href="https://fachrul.id/feed.xml" rel="self" />
     <link href="https://fachrul.id" />
-    <updated>2021-01-29T20:10:28+07:00</updated>
+    <updated>2021-01-30T04:06:57+07:00</updated>
     <author>
         <name>Fachrul Choliluddin</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://fachrul.id/api-test-framework-python-struktur-framework-dan-fluent-assertion-bagian-3/"/>
         <id>https://fachrul.id/api-test-framework-python-struktur-framework-dan-fluent-assertion-bagian-3/</id>
 
-        <updated>2021-01-29T20:09:57+07:00</updated>
+        <updated>2021-01-30T04:06:24+07:00</updated>
             <summary>
                 <![CDATA[
                      Hi Kawan 👋, Gimana mudah kan belajar bikin API automation dengan python? tentunya,, di kesempatan ini kita akan belajar lebih lanjut dengan pytest dan menggunakan library tambahan (lagi) agar test kita lebih mudah dibaca dan dipahami dengan bantuan fluent assertion Artikel ini adalah salah&hellip;
@@ -254,6 +254,8 @@ def test_delete_favorite():
 <p>Cukup sekian tutorial kali ini, silakan teman-teman pelajari approach saya dalam menulis kode di atas, apakah sudah test nya seperti itu? atau kamu mungkin punya assertion yang bisa jadi ditambahkan juga, silakan tulis di kolom komentar di bawah ya!</p>
 <p> Berikutnya kita akan bahas, bagaimana kode ini bisa kita refactor dengan menggunakan class Base API ya</p>
 <p>Salam!</p>
+<p>Selengkapnya ada pula di video live coding berikut ini:</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/1KIQ3ixhnBw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p>
             ]]>
         </content>
     </entry>
@@ -265,7 +267,7 @@ def test_delete_favorite():
         <link href="https://fachrul.id/api-test-automation-framework-python-bagian-2/"/>
         <id>https://fachrul.id/api-test-automation-framework-python-bagian-2/</id>
 
-        <updated>2021-01-29T16:44:33+07:00</updated>
+        <updated>2021-01-30T04:05:01+07:00</updated>
             <summary>
                 <![CDATA[
                     Hi Kawan 👋, Di artikel sebelumnya kita telah belajar mengenai instalasi python , library requests dan melakukan HTTP call dengan method GET secara programatis melalui kode python, walaupun belum ada test disana, karena memang artikelnya cukup panjang hehehe, jadi kita lanjut disini saja ya. Oh&hellip;
@@ -325,6 +327,8 @@ def test_delete_favorite():
 <p>Jika kode tidak berjalan dengan pytest yang perlu diperhatikan adalah penamaan method (def) harus diawali dengan test_xxx yaa!</p>
 <p> </p>
 <p>Salam!</p>
+<p>Selengkapnya ada pada video live coding ini:</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/XkrOAdGQ8Zk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p>
             ]]>
         </content>
     </entry>
@@ -336,7 +340,7 @@ def test_delete_favorite():
         <link href="https://fachrul.id/yuk-belajar-cara-membuat-api-test-automation-framework-python-bagian-1/"/>
         <id>https://fachrul.id/yuk-belajar-cara-membuat-api-test-automation-framework-python-bagian-1/</id>
 
-        <updated>2021-01-29T20:06:37+07:00</updated>
+        <updated>2021-01-30T04:02:25+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fachrul.id/media/posts/41/pexels-zachary-debottis-1888883.jpg" alt="" />
@@ -411,6 +415,8 @@ print(response.text)
 <p>Karena materi disini sudah cukup panjang ehehe, PR dari saya di tahap 1 ini adalah untuk mempelajari <a href="https://requests.readthedocs.io/en/master/" target="_blank" rel="noopener noreferrer">dokumentasi requests</a> ya, kita lihat betapa mudahnya mengkases webservice dengan library ini, baik itu dengan method GET, POST, PUT, PATCH ya</p>
 <p>Dimateri berikutnya kita akan menggunakan test dengan assertion jadi sudah mulai masuk ke automation test</p>
 <p>Salam!</p>
+<p>Selengkapnya ada di Video live coding berikut ini</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/nsdHPitMSSI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p>
             ]]>
         </content>
     </entry>
