@@ -3,7 +3,7 @@
     <title>Celotehan si FachrulCH</title>
     <link href="https://fachrul.id/feed.xml" rel="self" />
     <link href="https://fachrul.id" />
-    <updated>2021-01-30T04:06:57+07:00</updated>
+    <updated>2021-02-24T18:08:51+07:00</updated>
     <author>
         <name>Fachrul Choliluddin</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://fachrul.id/api-test-framework-python-struktur-framework-dan-fluent-assertion-bagian-3/"/>
         <id>https://fachrul.id/api-test-framework-python-struktur-framework-dan-fluent-assertion-bagian-3/</id>
 
-        <updated>2021-01-30T04:06:24+07:00</updated>
+        <updated>2021-02-24T18:08:43+07:00</updated>
             <summary>
                 <![CDATA[
                      Hi Kawan 👋, Gimana mudah kan belajar bikin API automation dengan python? tentunya,, di kesempatan ini kita akan belajar lebih lanjut dengan pytest dan menggunakan library tambahan (lagi) agar test kita lebih mudah dibaca dan dipahami dengan bantuan fluent assertion Artikel ini adalah salah&hellip;
@@ -255,7 +255,7 @@ def test_delete_favorite():
 <p> Berikutnya kita akan bahas, bagaimana kode ini bisa kita refactor dengan menggunakan class Base API ya</p>
 <p>Salam!</p>
 <p>Selengkapnya ada pula di video live coding berikut ini:</p>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/1KIQ3ixhnBw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/8XcDzl5vVBU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p>
             ]]>
         </content>
     </entry>
