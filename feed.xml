@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Celotehan si FachrulCH</title>
+    <title>Catatan celoteh @FachrulCH</title>
     <link href="https://fachrul.id/feed.xml" rel="self" />
     <link href="https://fachrul.id" />
-    <updated>2021-02-24T18:08:51+07:00</updated>
+    <updated>2021-08-08T16:41:28+07:00</updated>
     <author>
         <name>Fachrul Choliluddin</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://fachrul.id/api-test-framework-python-struktur-framework-dan-fluent-assertion-bagian-3/"/>
         <id>https://fachrul.id/api-test-framework-python-struktur-framework-dan-fluent-assertion-bagian-3/</id>
 
-        <updated>2021-02-24T18:08:43+07:00</updated>
+        <updated>2021-08-08T16:36:28+07:00</updated>
             <summary>
                 <![CDATA[
                      Hi Kawan 👋, Gimana mudah kan belajar bikin API automation dengan python? tentunya,, di kesempatan ini kita akan belajar lebih lanjut dengan pytest dan menggunakan library tambahan (lagi) agar test kita lebih mudah dibaca dan dipahami dengan bantuan fluent assertion Artikel ini adalah salah&hellip;
@@ -267,7 +267,7 @@ def test_delete_favorite():
         <link href="https://fachrul.id/api-test-automation-framework-python-bagian-2/"/>
         <id>https://fachrul.id/api-test-automation-framework-python-bagian-2/</id>
 
-        <updated>2021-01-30T04:05:01+07:00</updated>
+        <updated>2021-08-08T16:36:48+07:00</updated>
             <summary>
                 <![CDATA[
                     Hi Kawan 👋, Di artikel sebelumnya kita telah belajar mengenai instalasi python , library requests dan melakukan HTTP call dengan method GET secara programatis melalui kode python, walaupun belum ada test disana, karena memang artikelnya cukup panjang hehehe, jadi kita lanjut disini saja ya. Oh&hellip;
@@ -340,7 +340,7 @@ def test_delete_favorite():
         <link href="https://fachrul.id/yuk-belajar-cara-membuat-api-test-automation-framework-python-bagian-1/"/>
         <id>https://fachrul.id/yuk-belajar-cara-membuat-api-test-automation-framework-python-bagian-1/</id>
 
-        <updated>2021-01-30T04:02:25+07:00</updated>
+        <updated>2021-08-08T16:37:52+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fachrul.id/media/posts/41/pexels-zachary-debottis-1888883.jpg" alt="" />

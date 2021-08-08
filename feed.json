@@ -1,6 +1,6 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Celotehan si FachrulCH",
+    "title": "Catatan celoteh @FachrulCH",
     "description": "",
     "home_page_url": "https://fachrul.id",
     "feed_url": "https://fachrul.id/feed.json",
@@ -22,7 +22,7 @@
             "tags": [
             ],
             "date_published": "2021-01-29T16:00:31+07:00",
-            "date_modified": "2021-02-24T18:08:43+07:00"
+            "date_modified": "2021-08-08T16:36:28+07:00"
         },
         {
             "id": "https://fachrul.id/api-test-automation-framework-python-bagian-2/",
@@ -36,7 +36,7 @@
             "tags": [
             ],
             "date_published": "2021-01-29T15:58:54+07:00",
-            "date_modified": "2021-01-30T04:05:01+07:00"
+            "date_modified": "2021-08-08T16:36:48+07:00"
         },
         {
             "id": "https://fachrul.id/yuk-belajar-cara-membuat-api-test-automation-framework-python-bagian-1/",
@@ -51,7 +51,7 @@
             "tags": [
             ],
             "date_published": "2021-01-29T14:00:27+07:00",
-            "date_modified": "2021-01-30T04:02:25+07:00"
+            "date_modified": "2021-08-08T16:37:52+07:00"
         },
         {
             "id": "https://fachrul.id/belajar-pytest-framework-1/",
