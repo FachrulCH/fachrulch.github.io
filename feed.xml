@@ -3,7 +3,7 @@
     <title>Catatan celoteh @FachrulCH</title>
     <link href="https://fachrul.id/feed.xml" rel="self" />
     <link href="https://fachrul.id" />
-    <updated>2021-12-31T09:48:38+07:00</updated>
+    <updated>2021-12-31T09:55:49+07:00</updated>
     <author>
         <name>Fachrul Choliluddin</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://fachrul.id/oh-ternyata-saya-condong-ke-auditory-learning/"/>
         <id>https://fachrul.id/oh-ternyata-saya-condong-ke-auditory-learning/</id>
 
-        <updated>2021-12-31T09:48:28+07:00</updated>
+        <updated>2021-12-31T09:55:30+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fachrul.id/media/posts/50/pexels-andrea-piacquadio-3965238-1.jpg" alt="auditory" />
@@ -125,7 +125,7 @@ Awal mulanya saya percaya saya adalah seorang tipe <em>visual learning</em>, dim
 <p>Ada beberapa interaksi dengan tim Inspigo via Instagram, dan mereka sangat mendengar aspirasi dari pengguna loh,</p>
 <p>Beberapa feedback dari 2018 dulu:</p>
 <p> </p>
-<p><img class="post__image--left" src="https://fachrul.id/media/posts/50/Screen-Shot-2021-12-31-at-08.55.09.png" alt="" width="290" height="545"><br><img class="post__image--right" src="https://fachrul.id/media/posts/50/Screen-Shot-2021-12-31-at-08.54.37.png" alt="" width="287" height="540"></p>
+<p><img class="post__image post__image--center" src="https://fachrul.id/media/posts/50/Screen-Shot-2021-12-31-at-08.55.09.png" alt="" width="290" height="545"><br><img class="post__image post__image--center" src="https://fachrul.id/media/posts/50/Screen-Shot-2021-12-31-at-08.54.37.png" alt="" width="287" height="540"></p>
 <p> </p>
             ]]>
         </content>
@@ -515,7 +515,7 @@ def test_delete_favorite():
         <link href="https://fachrul.id/yuk-belajar-cara-membuat-api-test-automation-framework-python-bagian-1/"/>
         <id>https://fachrul.id/yuk-belajar-cara-membuat-api-test-automation-framework-python-bagian-1/</id>
 
-        <updated>2021-08-08T16:37:52+07:00</updated>
+        <updated>2021-12-31T09:55:43+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fachrul.id/media/posts/41/pexels-zachary-debottis-1888883.jpg" alt="" />
