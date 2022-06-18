@@ -1,4 +1,4 @@
-<!doctype html><html amp lang="id-ID"><head><meta charset="utf-8"><title>Struktur Framework dan Fluent Assertion - API Test Framework Python (Bagian 3) - Fachrul Choliluddin</title><meta name="description" content=" Hi Kawan 👋, Gimana mudah kan belajar bikin API automation dengan python? tentunya,, di kesempatan ini kita akan belajar lebih lanjut dengan pytest dan menggunakan library tambahan (lagi) agar test kita lebih mudah dibaca dan dipahami dengan bantuan fluent assertion Artikel ini adalah salah&hellip;"><link rel="canonical" href="https://fachrul.id/api-test-framework-python-struktur-framework-dan-fluent-assertion-bagian-3/"><meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"><link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css"><script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script><script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script><script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script><script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script><script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://fachrul.id/amp/api-test-framework-python-struktur-framework-dan-fluent-assertion-bagian-3/"},"headline":"Struktur Framework dan Fluent Assertion - API Test Framework Python (Bagian 3)","datePublished":"2021-01-29T16:00","dateModified":"2021-08-08T16:36","image":{"@type":"ImageObject","url":"https://fachrul.id/media/website/profile_fachrul_paperprint_300.jpg","height":300,"width":300},"description":" Hi Kawan 👋, Gimana mudah kan belajar bikin API automation dengan python? tentunya,, di kesempatan ini kita akan belajar lebih lanjut dengan pytest dan menggunakan library tambahan (lagi) agar test kita lebih mudah dibaca dan dipahami dengan bantuan fluent assertion Artikel ini adalah salah&hellip;","author":{"@type":"Person","name":"Fachrul Choliluddin"},"publisher":{"@type":"Organization","name":"Fachrul Choliluddin","logo":{"@type":"ImageObject","url":"https://fachrul.id/media/website/profile_fachrul_paperprint_300.jpg","height":300,"width":300}}}</script><style amp-custom>article,
+<!doctype html><html amp lang="id-ID"><head><meta charset="utf-8"><title>Struktur Framework dan Fluent Assertion - API Test Framework Python (Bagian 3) - Fachrul Choliluddin</title><meta name="description" content="Hi Kawan 👋, Gimana mudah kan belajar bikin API automation dengan python? tentunya,, di kesempatan ini kita akan belajar lebih lanjut dengan pytest dan menggunakan library tambahan (lagi) agar test kita lebih mudah dibaca dan dipahami dengan bantuan fluent assertion Artikel ini adalah salah satu&hellip;"><link rel="canonical" href="https://fachrul.id/api-test-framework-python-struktur-framework-dan-fluent-assertion-bagian-3/"><meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"><link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" type="text/css"><script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script><script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script><script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script><script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script><script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://fachrul.id/amp/api-test-framework-python-struktur-framework-dan-fluent-assertion-bagian-3/"},"headline":"Struktur Framework dan Fluent Assertion - API Test Framework Python (Bagian 3)","datePublished":"2021-01-29T16:00","dateModified":"2021-08-08T16:36","image":{"@type":"ImageObject","url":"https://fachrul.id/media/website/fachrulch-icon.png","height":1000,"width":1000},"description":"Hi Kawan 👋, Gimana mudah kan belajar bikin API automation dengan python? tentunya,, di kesempatan ini kita akan belajar lebih lanjut dengan pytest dan menggunakan library tambahan (lagi) agar test kita lebih mudah dibaca dan dipahami dengan bantuan fluent assertion Artikel ini adalah salah satu&hellip;","author":{"@type":"Person","name":"Fachrul Choliluddin","url":"https://fachrul.id/amp/authors/fachrulch/"},"publisher":{"@type":"Organization","name":"Fachrul Choliluddin","logo":{"@type":"ImageObject","url":"https://fachrul.id/media/website/fachrulch-icon.png","height":1000,"width":1000}}}</script><style amp-custom>article,
 aside,
 footer,
 header,
@@ -38,7 +38,7 @@ body {
   line-height: 1.6; }
 
 a {
-  color:  #9C563A;
+  color:  #3A9C7D;
   text-decoration: none;
   -webkit-transition: all 0.12s linear 0s;
   -o-transition: all 0.12s linear 0s;
@@ -54,7 +54,7 @@ a:active {
   color: #262626; }
 
 a:focus {
-  outline: 2px dotted #9C563A; }
+  outline: 2px dotted #3A9C7D; }
 
 figure,
 blockquote,
@@ -197,7 +197,7 @@ hr {
 .btn, [type=button],
 [type=submit],
 button {
-  background: #9C563A;
+  background: #3A9C7D;
   border: none;
   border-radius: 2px;
   color: #ffffff;
@@ -236,7 +236,7 @@ button {
   -moz-appearance: none; }
 
 .navbar {
-  background: #9C563A;
+  background: #3A9C7D;
   -webkit-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
   line-height: 3;
@@ -277,7 +277,7 @@ button {
 
 
 .logo {
-                    background-image: url('https://fachrul.id/media/website/profile_fachrul_paperprint_300.jpg');
+                    background-image: url('https://fachrul.id/media/website/fachrulch-icon.png');
                     background-size: auto 2rem;
                     background-repeat: no-repeat;
                     background-position: center center;
@@ -430,7 +430,7 @@ amp-sidebar {
         margin: 0 0.26667rem 0.26667rem 0;
         padding: 0.26667rem 0.53333rem; }
         .post-tag > li a:hover {
-          background: #9C563A;
+          background: #3A9C7D;
           color: #ffffff;
           text-decoration: none; }
   .post-share {
@@ -453,7 +453,7 @@ amp-sidebar {
       background-size: 24px; }
   .post-scroll {
     color: #ffffff;
-    background: #9C563A;
+    background: #3A9C7D;
     bottom: 10px;
     border-radius: 50%;
     border: none;
@@ -521,7 +521,7 @@ aside {
     border-color: #e2ac4f; }
   .msg--info {
     background: rgba(45, 97, 201, 0.03);
-    border-color: #9C563A; }
+    border-color: #3A9C7D; }
   .msg--success {
     background: #f7fbf6;
     border-color: #5ab44b; }
@@ -554,7 +554,7 @@ aside {
     margin-left: auto; }
 
 .bottom {
-  background: #9C563A;
+  background: #3A9C7D;
   color: #ffffff;
   padding: 1.06667rem 4%;
   text-align: center; }</style><style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript><script async src="https://cdn.ampproject.org/v0.js"></script><script custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js" async></script><script custom-element="amp-position-observer" src="https://cdn.ampproject.org/v0/amp-position-observer-0.1.js" async></script></head><body class="bg-white"><nav class="navbar wrap-inner" id="top"><div><a on="tap:navbar-sidebar.toggle" class="navbar-sidebar-toggle" title="Menu">Menu</a> <a class="logo" href="https://fachrul.id/amp/">Catatan celoteh @FachrulCH</a></div></nav><main class="wrap-page"><article class="post"><div class="wrap-inner"><header class="post-header"><h1>Struktur Framework dan Fluent Assertion - API Test Framework Python (Bagian 3)</h1><p class="post-meta">By <a href="https://fachrul.id/amp/authors/fachrulch/" rel="nofollow" title="Fachrul Choliluddin">Fachrul Choliluddin</a> <time datetime="2021-01-29T16:00">29 Jan 2021</time></p></header><p> </p><p>Hi Kawan 👋,</p><p>Gimana mudah kan belajar bikin API automation dengan python? tentunya,, di kesempatan ini kita akan belajar lebih lanjut dengan pytest dan menggunakan library tambahan (lagi) agar test kita lebih mudah dibaca dan dipahami dengan bantuan fluent assertion </p><p>Artikel ini adalah salah satu dari rangkaian tutorial cara membuat RestfulAPI Test Framework dengan bahasa pemrograman Python, artikel lainnya bisa kamu cekidot disini ya:</p><ul><li><a href="https://fachrul.id/amp/yuk-belajar-cara-membuat-api-test-automation-framework-python-bagian-1/" target="_blank" rel="noopener noreferrer">Pelajaran 1:  Setup dan pengenalan HTTP requests</a></li><li><a href="https://fachrul.id/amp/api-test-automation-framework-python-bagian-2/" target="_blank" rel="noopener noreferrer">Pelajaran 2: Pengujian dengan assert dan pytest</a></li><li><a href="https://fachrul.id/amp/api-test-framework-python-struktur-framework-dan-fluent-assertion-bagian-3/" target="_blank" rel="noopener noreferrer">Pelajaran 3: Struktur awal test framework dan library fluent assertion</a></li><li><a href="https://fachrul.id/amp/refactoring-dan-base-api-api-test-framework-python-bagian-4/" target="_blank" rel="noopener noreferrer">Pelajaran 4: Refaktoring dan base helper</a></li><li><a href="https://fachrul.id/amp/reporting-api-test-framework-python-bagian-5/" target="_blank" rel="noopener noreferrer">Pelajaran 5: Reporting</a></li><li><a href="https://fachrul.id/amp/json-schema-validation-api-test-framework-python-extra-bonus/" target="_blank" rel="noopener noreferrer">Extra: Penambahan schema validation dan running test in parallel</a></li></ul><hr><h2>Kenapa kita perlu fluent assertion?</h2><p>Karena assert terlalu sederhana, dia hanya bisa mengevaluasi value True/False saja,, (eh tapi pada dasarnya semua juga sama sih mau pake library ini pun gitu, hahaha)</p><p>Maksudnya ada banyak fitur tambahan dari library ini, bisa dilihat dokumentasinya di web resminya <a href="https://github.com/assertpy/assertpy">https://github.com/assertpy/assertpy</a> dan secara kode pun akan mudah dibaca dan dipahami kok</p><p>Install library ini dengan command `pip install assertpy`</p><h2>Mengakses API method POST</h2><p>Oke kali ini kita ga akan pake GET airports lagi sebagai contoh, tapi kita akan menggunakan contoh API POST untuk menghitung jarak antar airports ya, kurang lebih kode nya akan seperti ini</p><pre><code class="language-python line-numbers">import requests
@@ -741,7 +741,7 @@ def test_delete_favorite():
     assert_that(response.status_code).is_equal_to(204)
     after_delete = get_my_favorite_airport(token)
     data_after = after_delete.json().get("data")
-    assert_that(len(data_after)).is_less_than(len(data_before))</code></pre><p>Penjelasan kode? hmm sepertinya akan sangat panjang, nanti akan saya jelaskan pada video sepertinya agar lebih runut ehehe, klo nulis keknya panjang ehehe</p><h2>Bagaimana cara menjalankan kode dengan pytest?</h2><p>Klo mau menjalankan satu satu sih bisa seperti cara sebelumnya ` pytest test/airport_test.py`</p><p>Tapi klo mau menjalankan seluruh test, karena sudah sesuai convention (dalam folder test, file sudah bearakhiran xxx_test.py dan method berawalan test_xxx) sebenarnya cukup menggunakan `pytest` saja tanpa embel embel loh</p><hr><p>Cukup sekian tutorial kali ini, silakan teman-teman pelajari approach saya dalam menulis kode di atas, apakah sudah test nya seperti itu? atau kamu mungkin punya assertion yang bisa jadi ditambahkan juga, silakan tulis di kolom komentar di bawah ya!</p><p> Berikutnya kita akan bahas, bagaimana kode ini bisa kita refactor dengan menggunakan class Base API ya</p><p>Salam!</p><p>Selengkapnya ada pula di video live coding berikut ini:</p><p></p><div class="post__iframe"><amp-iframe sandbox="allow-scripts allow-same-origin" layout="responsive" width="560" height="315" src="https://www.youtube.com/embed/8XcDzl5vVBU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></amp-iframe></div><p></p><aside><ul class="post-tag"><li><a href="https://fachrul.id/amp/celoteh/automation-python/">automation-python</a></li><li><a href="https://fachrul.id/amp/celoteh/tutorials/">tutorials</a></li></ul><div class="post-share"><amp-social-share type="system" width="40" height="40" data-param-text="Struktur Framework dan Fluent Assertion - API Test Framework Python (Bagian 3)"></amp-social-share><amp-social-share type="facebook" width="40" height="40" data-param-app_id="" data-param-text="Struktur Framework dan Fluent Assertion - API Test Framework Python (Bagian 3)" data-param-href="https://fachrul.id/amp/api-test-framework-python-struktur-framework-dan-fluent-assertion-bagian-3/"></amp-social-share><amp-social-share type="twitter" width="40" height="40" data-param-text="Struktur Framework dan Fluent Assertion - API Test Framework Python (Bagian 3)" data-param-url="https://fachrul.id/amp/api-test-framework-python-struktur-framework-dan-fluent-assertion-bagian-3/"></amp-social-share><amp-social-share type="whatsapp" width="40" height="40" data-param-text="Struktur Framework dan Fluent Assertion - API Test Framework Python (Bagian 3)"></amp-social-share></div></aside></div></article><nav class="post-pagination wrap-inner"><div class="post-pagination-prev"><span>Previous Post</span> <a href="https://fachrul.id/amp/api-test-automation-framework-python-bagian-2/">Assert dan Pytest - API Test Framework Python (Bagian 2)</a></div><div class="post-pagination-next"><span>Next Post</span> <a href="https://fachrul.id/amp/membentuk-pola-pikir-entrepreneurship-dalam-bekerja-sebagai-karyawan/">Membentuk Pola Pikir Entrepreneurship dalam Bekerja Sebagai Karyawan</a></div></nav></main><amp-animation id="showAnim" layout="nodisplay"><script type="application/json">{
+    assert_that(len(data_after)).is_less_than(len(data_before))</code></pre><p>Penjelasan kode? hmm sepertinya akan sangat panjang, nanti akan saya jelaskan pada video sepertinya agar lebih runut ehehe, klo nulis keknya panjang ehehe</p><h2>Bagaimana cara menjalankan kode dengan pytest?</h2><p>Klo mau menjalankan satu satu sih bisa seperti cara sebelumnya ` pytest test/airport_test.py`</p><p>Tapi klo mau menjalankan seluruh test, karena sudah sesuai convention (dalam folder test, file sudah bearakhiran xxx_test.py dan method berawalan test_xxx) sebenarnya cukup menggunakan `pytest` saja tanpa embel embel loh</p><hr><p>Cukup sekian tutorial kali ini, silakan teman-teman pelajari approach saya dalam menulis kode di atas, apakah sudah test nya seperti itu? atau kamu mungkin punya assertion yang bisa jadi ditambahkan juga, silakan tulis di kolom komentar di bawah ya!</p><p> Berikutnya kita akan bahas, bagaimana kode ini bisa kita refactor dengan menggunakan class Base API ya</p><p>Salam!</p><p>Selengkapnya ada pula di video live coding berikut ini:</p><div class="post__iframe"><amp-iframe sandbox="allow-scripts allow-same-origin" layout="responsive" width="560" height="315" src="https://www.youtube.com/embed/8XcDzl5vVBU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></amp-iframe></div><aside><ul class="post-tag"><li><a href="https://fachrul.id/amp/celoteh/automation-python/">automation-python</a></li><li><a href="https://fachrul.id/amp/celoteh/tutorials/">tutorials</a></li></ul><div class="post-share"><amp-social-share type="system" width="40" height="40" data-param-text="Struktur Framework dan Fluent Assertion - API Test Framework Python (Bagian 3)"></amp-social-share><amp-social-share type="facebook" width="40" height="40" data-param-app_id="" data-param-text="Struktur Framework dan Fluent Assertion - API Test Framework Python (Bagian 3)" data-param-href="https://fachrul.id/amp/api-test-framework-python-struktur-framework-dan-fluent-assertion-bagian-3/"></amp-social-share><amp-social-share type="twitter" width="40" height="40" data-param-text="Struktur Framework dan Fluent Assertion - API Test Framework Python (Bagian 3)" data-param-url="https://fachrul.id/amp/api-test-framework-python-struktur-framework-dan-fluent-assertion-bagian-3/"></amp-social-share><amp-social-share type="whatsapp" width="40" height="40" data-param-text="Struktur Framework dan Fluent Assertion - API Test Framework Python (Bagian 3)" data-param-url="https://fachrul.id/amp/api-test-framework-python-struktur-framework-dan-fluent-assertion-bagian-3/"></amp-social-share></div></aside></div></article><nav class="post-pagination wrap-inner"><div class="post-pagination-prev"><span>Previous</span> <a href="https://fachrul.id/amp/api-test-automation-framework-python-bagian-2/">Assert dan Pytest - API Test Framework Python (Bagian 2)</a></div><div class="post-pagination-next"><span>Next</span> <a href="https://fachrul.id/amp/membentuk-pola-pikir-entrepreneurship-dalam-bekerja-sebagai-karyawan/">Membentuk Pola Pikir Entrepreneurship dalam Bekerja Sebagai Karyawan</a></div></nav></main><amp-animation id="showAnim" layout="nodisplay"><script type="application/json">{
                     "duration": "200ms",
                     "fill": "both",
                     "iterations": "1",
