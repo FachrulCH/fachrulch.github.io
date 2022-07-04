@@ -3,7 +3,7 @@
     <title>Catatan celoteh @FachrulCH</title>
     <link href="https://fachrul.id/feed.xml" rel="self" />
     <link href="https://fachrul.id" />
-    <updated>2022-07-03T13:19:03+07:00</updated>
+    <updated>2022-07-04T21:17:05+07:00</updated>
     <author>
         <name>Fachrul Choliluddin</name>
     </author>
@@ -18,7 +18,7 @@
         <id>https://fachrul.id/portofolio-software-quality-assurance/</id>
             <category term="tutorials"/>
 
-        <updated>2022-07-03T13:19:03+07:00</updated>
+        <updated>2022-07-04T21:17:05+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fachrul.id/media/posts/51/maranda-vandergriff-7aakZdIl4vg-unsplash.jpg" alt="" />
@@ -41,7 +41,8 @@
 <p>Jawabannya adalah dengan melampirkan pengalaman/portofolio yang relevan dengan keahlian QA sehingga membuat kamu menjadi jauh lebih menonjol dibandingkan kandidat lain, berikut ini adalah kiat mempersiapkan portofolio bagi seorang <em>Software Quality Assurance</em> menurut pengalaman saya pribadi</p>
 <hr>
 <h1>1. Test Automation Framework</h1>
-<p>Bisa membuat <em>test automation</em> sendiri sudah barang tentu akan membuat kamu lebih berkilau, ini menunjukan kamu memiliki keahlian koding dan cocok menjadi kandidat <em>test engineer</em> yang tentu dibutuhkan di perusahaan. Apalagi jiga kode test automation tersebut kamu buat sendiri menjadi sebuah framework lengkap tapi jangan berkecil hati jika kamu baru berada pada level sebagai penguna framework yang ada saja seperti menggunakan Serenity BDD (java), Robot Framework (python) ataupun Codeception (PHP/Javascript) untuk project automation kamu, itu sudah keren loh!</p>
+<p>Bisa membuat <em>test automation</em> sendiri sudah barang tentu akan membuat kamu lebih berkilau, ini menunjukan kamu memiliki keahlian koding dan cocok menjadi kandidat <em>test engineer</em> yang tentu dibutuhkan di perusahaan, karena di beberapa startup (khususnya unicorn) sudah mencantumkan keahlian <em>automation</em> sebagai <em>skill</em> wajib di beberapa lowongan QA/SDET.</p>
+<p>Namun, sulit menilai seberapa baik keahlian koding automation kandidat hanya dari percakapan interview, meluangkan waktu untuk belajar dan membuat <em>test automation framework </em>sendiri merupakan persiapan yang layak, tapi jangan berkecil hati jika kamu baru berada pada level sebagai penguna framework yang sudah ada seperti menggunakan Serenity BDD (java), Robot Framework (python) ataupun Codeception (PHP/Javascript) untuk project automation kamu, itu sudah keren loh!</p>
 <p>Pada <em>Test Automation Framework</em> ini, kamu bisa membuat pengujian <em>backend</em> API, web browser automation, mobile automation atau bahkan gabungan semua automation tadi, pasti keren banget!</p>
 <p>Berangkat dari pengalaman sebagai penguji kandidat SDET (software development engineer in test), saya akan bocorkan beberapa poin penting yang akan dilihat oleh interviewer yaitu:</p>
 <ul>
@@ -148,9 +149,15 @@
 <figcaption >Github FachrulCH</figcaption>
 </figure>
 <h2>Github</h2>
-<p>Kode <em>automation</em> yang sudah kita buat alangkah baiknya kita simpan di akun github, walaupun bisa juga gitlab/bitbucket tapi agak kurang populer.</p>
-<p>Namun perlu diingat untuk tidak menyimpan akun kredensial di repositori ya, github ini merupakan etalase untuk pamer keahlian koding kita, kelebihan lain bagi seorang reviewer di perusahaan dimana kita melamar kerja untuk bisa mengintip cara kita melakukan git commit message, kadang kedewasaan koding bisa tercermin dari cara kita menuliskan commit message 😛</p>
-<h2><br>Website</h2>
+<p>Kode <em>automation</em> yang sudah kita buat alangkah baiknya kita simpan di akun github, walaupun bisa juga gitlab/bitbucket tapi agak kurang populer, oia perlu diingat untuk tidak menyimpan akun kredensial di repositori ya (atau membuat repository menjadi privat)</p>
+<p>Github ini merupakan etalase untuk pamer keahlian koding kita, namun perlu diperhatikan juga apa <strong>tujuan</strong> kamu membuat repository baru:</p>
+<ul>
+<li>Untuk membuat <em>Proof of Concept</em> dari tools baru</li>
+<li>Membandingkan pilihan <em>library / concept</em> secara <em>head to head</em></li>
+<li>Mempraktikan tutorial yang sedang dipelajari</li>
+</ul>
+<p>Agar akun profil kamu tidak terlalu ramai repository yang dangkal dan menambah kebingungan bagi pengunjung profil kamu.</p>
+<h2>Website</h2>
 <p>Memiliki <em>website pribadi</em> ibarat sebuah KTP, karena <em>website</em> adalah <em>online presence</em> kita, sebuah tempat dimana kita menunjukan pribadi seperti apakah kita, tempat kita bisa memamerkan pengalaman kita, opini serta keunikan kita.</p>
 <p>Tentu saja, ini adalah sebuah keputusan yang sangat baik. Saya berasumsi ini akan terlihat lebih profesional, bahkan saya rasa faktor ini menentukan saya diterima kerja sebagai Software Engineer di Gojek tempo hari, karena aspirasi saya terhadap QA tertuang di website ini <a href="https://fachrul.id/">fachrul.id</a></p>
 <p>Saya rasa ini bukanlah hal sulit kan? Web saya ini pun saya hosting di github hanya dengan static html tanpa koneksi database, bermodal sebuah domain saja, justru yang sulit adalah mengisi konten nya, ahaha</p>
