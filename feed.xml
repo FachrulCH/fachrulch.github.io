@@ -1,14 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
     <title>Catatan celoteh @FachrulCH</title>
     <link href="https://fachrul.id/feed.xml" rel="self" />
     <link href="https://fachrul.id" />
-    <updated>2022-09-17T06:36:15+07:00</updated>
+    <updated>2023-03-12T15:18:41+04:00</updated>
     <author>
         <name>Fachrul Choliluddin</name>
     </author>
     <id>https://fachrul.id</id>
 
+    <entry>
+        <title>Belajar Critical Thinking Software Tester dari Anekdot Kode di Mug</title>
+        <author>
+            <name>Fachrul Choliluddin</name>
+        </author>
+        <link href="https://fachrul.id/critical-thinking-software-tester-dari-kejadian-sehari-hari/"/>
+        <id>https://fachrul.id/critical-thinking-software-tester-dari-kejadian-sehari-hari/</id>
+
+        <updated>2023-03-12T15:18:41+04:00</updated>
+            <summary>
+                <![CDATA[
+                    Disuatu pagi, saya tak sengaja melihat sebuah "sentilan" dari posting James Bach di linkedin, kok bisa ya dia berfikir sekritis itu, kanapa saya ga bisa mendekati cara berfikir dia 🤦‍♂️ Jadi ceritanya ada sebuah unggahan di linkedin mengenai tech meme 9gag.com yang isinya ala-ala script&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Disuatu pagi, saya tak sengaja melihat sebuah "sentilan" dari <a href="https://www.linkedin.com/feed/update/urn:li:activity:6986989686342713346?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A6986989686342713346%2C6987066017705332736%29" target="_blank" rel="noopener noreferrer">posting James Bach</a> di linkedin, kok bisa ya dia berfikir sekritis itu, kanapa saya ga bisa mendekati cara berfikir dia 🤦‍♂️</p>
+<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/53//Screen-Shot-2022-10-17-at-08.48.10.png" alt="" width="720" height="950" sizes="100vw" srcset="https://fachrul.id/media/posts/53//responsive/Screen-Shot-2022-10-17-at-08.48.10-xs.png 300w ,https://fachrul.id/media/posts/53//responsive/Screen-Shot-2022-10-17-at-08.48.10-sm.png 480w ,https://fachrul.id/media/posts/53//responsive/Screen-Shot-2022-10-17-at-08.48.10-md.png 768w ,https://fachrul.id/media/posts/53//responsive/Screen-Shot-2022-10-17-at-08.48.10-lg.png 1024w ,https://fachrul.id/media/posts/53//responsive/Screen-Shot-2022-10-17-at-08.48.10-xl.png 1360w ,https://fachrul.id/media/posts/53//responsive/Screen-Shot-2022-10-17-at-08.48.10-2xl.png 1600w"></figure>
+<figcaption >posting thread author</figcaption>
+</figure>
+<p>Jadi ceritanya ada sebuah unggahan di linkedin mengenai tech meme <a href="https://9gag.com/" target="_blank" rel="noopener noreferrer">9gag.com</a> yang isinya ala-ala script untuk mengisi kopi.</p>
+<p>Awal melihat saya berfikir ini tak nampak ada yang salah, saya hanya memikirkan bahasa pemrograman apa kira-kira ini, dan ada improvement yang bisa dibuat di inisial constructor objectnya</p>
+<p>Namun komentar dari James Bach, yang menemukan metode "Rapid Software Testing" sangat menarik untuk disimak dan ditelaah kembali, dia berkomentar untuk menguji kode tadi, hal-hal remeh yang bisa beresiko dari spesifikasi sebuah mug untuk menampung kopi</p>
+<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/53/Screen-Shot-2022-10-17-at-10.12.52.png" alt="" width="1062" height="1172" sizes="100vw" srcset="https://fachrul.id/media/posts/53/responsive/Screen-Shot-2022-10-17-at-10.12.52-xs.png 300w ,https://fachrul.id/media/posts/53/responsive/Screen-Shot-2022-10-17-at-10.12.52-sm.png 480w ,https://fachrul.id/media/posts/53/responsive/Screen-Shot-2022-10-17-at-10.12.52-md.png 768w ,https://fachrul.id/media/posts/53/responsive/Screen-Shot-2022-10-17-at-10.12.52-lg.png 1024w ,https://fachrul.id/media/posts/53/responsive/Screen-Shot-2022-10-17-at-10.12.52-xl.png 1360w ,https://fachrul.id/media/posts/53/responsive/Screen-Shot-2022-10-17-at-10.12.52-2xl.png 1600w"></figure>
+<figcaption >Komentar yang insightful</figcaption>
+</figure>
+<p>Yang menarik dari posting dia adalah penggunaan common sense dalam pengujian dia menghasilkan banyak asumsi yang tidak jelas dan perlu klarifikasi kembali agar tidak ada kesalah pahaman, dan bagaimana cara dia menguji dengan bertanya (push back) juga menurut saya keren, karena dia tidak membuat asumsi ulang dengan ekspektasi yang seharusnya terjadi, tapi bertanya untuk membuka peluang diskusi mencari solusi terbaik.</p>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 49.9288%;"><strong><span style="color: #f1c40f;">Komentar dia</span></strong></td>
+<td style="width: 49.9288%;"><strong><span style="color: #f1c40f;">Pikiran saya</span></strong></td>
+</tr>
+<tr>
+<td style="width: 49.9288%;">gimana klo kopinya dingin? bukankah itu memici dia mengisi ulang mug?</td>
+<td style="width: 49.9288%;">Ah iya juga ya, jadi triggernya ga cuma mug kosong untuk mengisi kopi</td>
+</tr>
+<tr>
+<td style="width: 49.9288%;">bisa ga coffee.refill() buat isi ulang kopi yang dingin</td>
+<td style="width: 49.9288%;">klo bukan kopi saset sih bisa nambah refil terus kan ya</td>
+</tr>
+<tr>
+<td style="width: 49.9288%;">bisa ga coffee.refill pake tambahan cream atau gula, dimana tambahan ini disimpan? Saat objek kopi dibikin apakah constructor bisa terima arguments?</td>
+<td style="width: 49.9288%;">wah iya ya bener juga, cara bikin kopi itu luas dengan kombinasi preferensi, apakah program terlalu menyepelekan pilihan rasa</td>
+</tr>
+<tr>
+<td style="width: 49.9288%;">bukankah seharusnya pengecekan kondisi ada dalam pengulangan terus menerus dan mengawasi apakah "mau kopi?" klo ga ya ga akan pernah ke eksekusi itu statement isi ulang kopi sampe kopinya abis, justru malah di kasus ini namanya isi kopi bukan isi ulang kopi</td>
+<td style="width: 49.9288%;">wah benar sekali, kondisi nyata juga sepert ini, justru klo mau nambah user ga akan nunggu sampai habis dulu</td>
+</tr>
+<tr>
+<td style="width: 49.9288%;">klo mug nya kebalik, akankah coffee.refill() masuk ke kondisi pengulangan tak terhingga</td>
+<td style="width: 49.9288%;">situasi yang memungkinkan terjadi, tapi jika penanganan salah, ternyata bisa jadi pengulangan yang tak terhingga gini ya</td>
+</tr>
+<tr>
+<td style="width: 49.9288%;">bisa ga sih sensor "kosong" ini berkabut dan bahkan ketutupan?</td>
+<td style="width: 49.9288%;">lagi-lagi situasi yang mungkin terjadi, input nya aja bisa jadi ga reliable</td>
+</tr>
+<tr>
+<td style="width: 49.9288%;">apakah benda ini aman di mesin pencuci piring?</td>
+<td style="width: 49.9288%;">kondisi paska proses</td>
+</tr>
+<tr>
+<td style="width: 49.9288%;">ini sendok guna ga sih? apakah memang perlu untuk rilis ini? terus kode yang manggil sendok ini mana?</td>
+<td style="width: 49.9288%;">lah iya juga ya ini ada sendok! yang ditaronya ora umum gitu</td>
+</tr>
+</tbody>
+</table>
+<p>Sugguh situasi pagi yang mind blowing buat saya hari ini.</p>
+<p>Tak hanya dari posting beliau, ternyata sangat menarik membaca posting pengguna yang lain pula, karena mereka membagikan sudut pandang yang menarik, diluar nalar saya!</p>
+<p>Ya gitu deh, terkadang memang kita perlu latihan berfikir kritis dan mengasah <em>common sense</em></p>
+<p> </p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Betapa pentingnya keahlian bercerita naratif bagi kepemimpinan sukses jaman now</title>
         <author>
@@ -17,7 +92,7 @@
         <link href="https://fachrul.id/betapa-pentingnya-keahlian-bercerita-bagi-kepemimpinan-sukses-jaman-now/"/>
         <id>https://fachrul.id/betapa-pentingnya-keahlian-bercerita-bagi-kepemimpinan-sukses-jaman-now/</id>
 
-        <updated>2022-09-17T06:36:15+07:00</updated>
+        <updated>2022-09-17T03:36:15+04:00</updated>
             <summary>
                 <![CDATA[
                     Berawal dari sebuah twit-nya mas Gibran Huzaifah, tentang keahlian menulis yang membuat kerja remote bisa optimal, khususnya dengan gaya penulisan naratif, Komunikasi yg baik adalah ciri utama dari pemimpin yg baik Satu resep dasar WFA bisa cukup efektif berjalan di @efishery_ai adalah proses dan kultur&hellip;
@@ -33,7 +108,7 @@
 <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </p>
 <p>Jujur saja, setelah membaca thread tersebut, seolah menyadarkan saya betapa pentingnya keahlian menulis dengan baik, saya sangat suka dengan analogi komunikatanya, sangat tepat! (bagi generasi baru, mungkin sedikit asing dengan komunikata ya, yaitu permainan tebak kata secara berantai, seperti contohnya pada <a href="https://youtu.be/2CT6MQpBeGU?t=506">youtube disini</a>)</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/52/twit-komunikata.jpg" sizes="100vw" srcset="https://fachrul.id/media/posts/52/responsive/twit-komunikata-xs.jpg 300w ,https://fachrul.id/media/posts/52/responsive/twit-komunikata-sm.jpg 480w ,https://fachrul.id/media/posts/52/responsive/twit-komunikata-md.jpg 768w ,https://fachrul.id/media/posts/52/responsive/twit-komunikata-lg.jpg 1024w ,https://fachrul.id/media/posts/52/responsive/twit-komunikata-xl.jpg 1360w ,https://fachrul.id/media/posts/52/responsive/twit-komunikata-2xl.jpg 1600w"  alt="" width="1024" height="496"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/52/twit-komunikata.jpg" alt="" width="1024" height="496" sizes="100vw" srcset="https://fachrul.id/media/posts/52/responsive/twit-komunikata-xs.jpg 300w ,https://fachrul.id/media/posts/52/responsive/twit-komunikata-sm.jpg 480w ,https://fachrul.id/media/posts/52/responsive/twit-komunikata-md.jpg 768w ,https://fachrul.id/media/posts/52/responsive/twit-komunikata-lg.jpg 1024w ,https://fachrul.id/media/posts/52/responsive/twit-komunikata-xl.jpg 1360w ,https://fachrul.id/media/posts/52/responsive/twit-komunikata-2xl.jpg 1600w"></figure>
 <p>Saya setuju dengan poin-poin di dalam utas twitter tadi, bahwa menulis naratif merupakan keahlian penting di tengah situasi kerja di rumah (WFH) atau remote, saya menggaris bawahi poin penting pada utas twitter tadi adalah <strong>menulis naratif</strong> dan <strong>asynchronus communication.</strong></p>
 <h2><br>Terus naratif itu apa?</h2>
 <p><em>na.ra.tif</em> : bersifat menguraikan/menjelaskan arti khusus disini adalah pengisahan suatu gagasan dengan sifat menguraikan, pada twit tadi mas Gibran memberikan contoh yang berharga berupa <em>Operating Plan </em>pada lampiran gambarnya. Saya tertarik membacanya sampai habis, seperti sedang membaca cerita pada novel, saya terbawa suasana dan membayangkan perjuangan eFishery sesulit apa, respect!</p>
@@ -67,7 +142,7 @@
 <h3>3. Evaluasi</h3>
 <p>Lihat/minta feedback dari si penerima pesan kita, apakah informasi/gagasan bisa ditangkap dengan benar oleh dia/mereka, bagaimana reaksi mereka. Lapang dada mana kala terdapat kekurangan, justru kita bisa mulai perbaiki dari kesalahan itu di proses selanjutnya.</p>
 <p>Sangat membanggakan ketika menerima feedback positf, kumpulkan dan arsipkan di dokumen pribadi, karena ini akan menambah semangat kita di masa depan, harus lebih baik dari ini lagi.</p>
-<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/52/feedback.jpg" sizes="100vw" srcset="https://fachrul.id/media/posts/52/responsive/feedback-xs.jpg 300w ,https://fachrul.id/media/posts/52/responsive/feedback-sm.jpg 480w ,https://fachrul.id/media/posts/52/responsive/feedback-md.jpg 768w ,https://fachrul.id/media/posts/52/responsive/feedback-lg.jpg 1024w ,https://fachrul.id/media/posts/52/responsive/feedback-xl.jpg 1360w ,https://fachrul.id/media/posts/52/responsive/feedback-2xl.jpg 1600w"  alt="feedback" width="900" height="166"></figure>
+<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/52/feedback.jpg" alt="feedback" width="900" height="166" sizes="100vw" srcset="https://fachrul.id/media/posts/52/responsive/feedback-xs.jpg 300w ,https://fachrul.id/media/posts/52/responsive/feedback-sm.jpg 480w ,https://fachrul.id/media/posts/52/responsive/feedback-md.jpg 768w ,https://fachrul.id/media/posts/52/responsive/feedback-lg.jpg 1024w ,https://fachrul.id/media/posts/52/responsive/feedback-xl.jpg 1360w ,https://fachrul.id/media/posts/52/responsive/feedback-2xl.jpg 1600w"></figure>
 <figcaption >Komentar postif dari rekan kerja</figcaption>
 </figure>
 <p> </p>
@@ -82,9 +157,10 @@
         </author>
         <link href="https://fachrul.id/portofolio-software-quality-assurance/"/>
         <id>https://fachrul.id/portofolio-software-quality-assurance/</id>
+        <media:content url="https://fachrul.id/media/posts/51/maranda-vandergriff-7aakZdIl4vg-unsplash.jpg" medium="image" />
             <category term="tutorials"/>
 
-        <updated>2022-07-04T21:17:05+07:00</updated>
+        <updated>2022-07-04T18:17:05+04:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fachrul.id/media/posts/51/maranda-vandergriff-7aakZdIl4vg-unsplash.jpg" alt="" />
@@ -96,12 +172,12 @@
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://fachrul.id/media/posts/51/maranda-vandergriff-7aakZdIl4vg-unsplash.jpg" alt="" />
+                    <p><img src="https://fachrul.id/media/posts/51/maranda-vandergriff-7aakZdIl4vg-unsplash.jpg" class="type:primaryImage" alt="" /></p>
                 <p class="dropcap">Salam, Beberapa waktu lalu, saya mendapatkan sebuah pertanyaan melalui Instagram, mengenai hal apa yang perlu disusun ketika melamar kerja untuk posisi QA (quality assurance) atau SDET / Test engineer.</p>
 <p>Tentu saja ini bisa jadi sangat membingungkan terutama bagi pemula dikarenakan minimnya pengalaman, namun tak jarang pula saya termui kandidat senior yang terkesan hanya "bawa diri" saja, tanpa mempersiapkan portofolio pada proses melamar pekerjaan baru juga loh!</p>
 <p>Lalu bagaimana cara agar kamu bisa meyakinkan perusahaan bahwa kamu sudah memiliki keahlian yang dibutuhkan dan layak untuk mendapatkan kesempatan bekerja di perusahaan itu?</p>
 
-<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/51//instagram-dm-3.png" sizes="100vw" srcset="https://fachrul.id/media/posts/51//responsive/instagram-dm-3-xs.png 300w ,https://fachrul.id/media/posts/51//responsive/instagram-dm-3-sm.png 480w ,https://fachrul.id/media/posts/51//responsive/instagram-dm-3-md.png 768w ,https://fachrul.id/media/posts/51//responsive/instagram-dm-3-lg.png 1024w ,https://fachrul.id/media/posts/51//responsive/instagram-dm-3-xl.png 1360w ,https://fachrul.id/media/posts/51//responsive/instagram-dm-3-2xl.png 1600w"  alt="DM instagram" width="323" height="700"></figure>
+<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/51//instagram-dm-3.png" alt="DM instagram" width="323" height="700" sizes="100vw" srcset="https://fachrul.id/media/posts/51//responsive/instagram-dm-3-xs.png 300w ,https://fachrul.id/media/posts/51//responsive/instagram-dm-3-sm.png 480w ,https://fachrul.id/media/posts/51//responsive/instagram-dm-3-md.png 768w ,https://fachrul.id/media/posts/51//responsive/instagram-dm-3-lg.png 1024w ,https://fachrul.id/media/posts/51//responsive/instagram-dm-3-xl.png 1360w ,https://fachrul.id/media/posts/51//responsive/instagram-dm-3-2xl.png 1600w"></figure>
 <figcaption >Pertanyaan Melalui DM instagram</figcaption>
 </figure>
 <p>Jawabannya adalah dengan melampirkan pengalaman/portofolio yang relevan dengan keahlian QA sehingga membuat kamu menjadi jauh lebih menonjol dibandingkan kandidat lain, berikut ini adalah kiat mempersiapkan portofolio bagi seorang <em>Software Quality Assurance</em> menurut pengalaman saya pribadi</p>
@@ -165,7 +241,7 @@
 <tr>
 <td style="width: 25.535%;">Screenshot</td>
 <td style="width: 74.465%;">
-<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/51/bug-report-todolist-counter.jpg" sizes="100vw" srcset="https://fachrul.id/media/posts/51/responsive/bug-report-todolist-counter-xs.jpg 300w ,https://fachrul.id/media/posts/51/responsive/bug-report-todolist-counter-sm.jpg 480w ,https://fachrul.id/media/posts/51/responsive/bug-report-todolist-counter-md.jpg 768w ,https://fachrul.id/media/posts/51/responsive/bug-report-todolist-counter-lg.jpg 1024w ,https://fachrul.id/media/posts/51/responsive/bug-report-todolist-counter-xl.jpg 1360w ,https://fachrul.id/media/posts/51/responsive/bug-report-todolist-counter-2xl.jpg 1600w"  alt="temuan bugs pada todo list" width="1024" height="776"></figure>
+<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/51/bug-report-todolist-counter.jpg" alt="temuan bugs pada todo list" width="1024" height="776" sizes="100vw" srcset="https://fachrul.id/media/posts/51/responsive/bug-report-todolist-counter-xs.jpg 300w ,https://fachrul.id/media/posts/51/responsive/bug-report-todolist-counter-sm.jpg 480w ,https://fachrul.id/media/posts/51/responsive/bug-report-todolist-counter-md.jpg 768w ,https://fachrul.id/media/posts/51/responsive/bug-report-todolist-counter-lg.jpg 1024w ,https://fachrul.id/media/posts/51/responsive/bug-report-todolist-counter-xl.jpg 1360w ,https://fachrul.id/media/posts/51/responsive/bug-report-todolist-counter-2xl.jpg 1600w"></figure>
 <figcaption >Masalah pada counter todo list</figcaption>
 </figure>
 </td>
@@ -192,10 +268,10 @@
 <h1>4. Kontribusi</h1>
 <p>Kontribusi seorang QA sering kali tidak terdokumentasikan, baik itu kontribusi teknis ataupun non teknis, mungkin karena kita menganggap itu terlalu  biasa saja atau malas menuliskannya.</p>
 <p>Saya akan membagikan contoh kasus non teknis berdasarkan pengalaman saya, jadi pada tahun 2020 dulu di Golife (waktu masih ada), dimana saya melakukan perubahan bagaimana QA status update menjadi lebih menarik dan interaktif.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/51/status-update-golife.jpg" sizes="100vw" srcset="https://fachrul.id/media/posts/51/responsive/status-update-golife-xs.jpg 300w ,https://fachrul.id/media/posts/51/responsive/status-update-golife-sm.jpg 480w ,https://fachrul.id/media/posts/51/responsive/status-update-golife-md.jpg 768w ,https://fachrul.id/media/posts/51/responsive/status-update-golife-lg.jpg 1024w ,https://fachrul.id/media/posts/51/responsive/status-update-golife-xl.jpg 1360w ,https://fachrul.id/media/posts/51/responsive/status-update-golife-2xl.jpg 1600w"  alt="story telling pada status update" width="521" height="569"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/51/status-update-golife.jpg" alt="story telling pada status update" width="521" height="569" sizes="100vw" srcset="https://fachrul.id/media/posts/51/responsive/status-update-golife-xs.jpg 300w ,https://fachrul.id/media/posts/51/responsive/status-update-golife-sm.jpg 480w ,https://fachrul.id/media/posts/51/responsive/status-update-golife-md.jpg 768w ,https://fachrul.id/media/posts/51/responsive/status-update-golife-lg.jpg 1024w ,https://fachrul.id/media/posts/51/responsive/status-update-golife-xl.jpg 1360w ,https://fachrul.id/media/posts/51/responsive/status-update-golife-2xl.jpg 1600w"></figure>
 <p>Pada awalnya QA update pada periode testing berupa informasi grafik test run progress dari testrail, hanya berupa angka persentase dari jumlah total test cases berbanding dengan jumlah test case yang sudah diuji, lalu saya ubah ini menjadi status update yang berupa story telling dan ini berdampak positif, dari engagement tim yang tinggi, dengan begitu kita bisa mengetahui bahwa tim membaca dan memperhatikan progress testing yang ada.</p>
 <p>Untuk contoh kontribusi teknis, saya akan membagikan kisah saya membuat semacam "Cheat engine" agar proses testing manual menjadi jauh lebih cepat 95% hingga mendapatkan spotlight untuk showcase di Gojek Townhall November 2021</p>
-<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/51/fachrul-dan-pertamax.jpg" sizes="100vw" srcset="https://fachrul.id/media/posts/51/responsive/fachrul-dan-pertamax-xs.jpg 300w ,https://fachrul.id/media/posts/51/responsive/fachrul-dan-pertamax-sm.jpg 480w ,https://fachrul.id/media/posts/51/responsive/fachrul-dan-pertamax-md.jpg 768w ,https://fachrul.id/media/posts/51/responsive/fachrul-dan-pertamax-lg.jpg 1024w ,https://fachrul.id/media/posts/51/responsive/fachrul-dan-pertamax-xl.jpg 1360w ,https://fachrul.id/media/posts/51/responsive/fachrul-dan-pertamax-2xl.jpg 1600w"  alt="" width="1080" height="675"></figure>
+<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/51/fachrul-dan-pertamax.jpg" alt="" width="1080" height="675" sizes="100vw" srcset="https://fachrul.id/media/posts/51/responsive/fachrul-dan-pertamax-xs.jpg 300w ,https://fachrul.id/media/posts/51/responsive/fachrul-dan-pertamax-sm.jpg 480w ,https://fachrul.id/media/posts/51/responsive/fachrul-dan-pertamax-md.jpg 768w ,https://fachrul.id/media/posts/51/responsive/fachrul-dan-pertamax-lg.jpg 1024w ,https://fachrul.id/media/posts/51/responsive/fachrul-dan-pertamax-xl.jpg 1360w ,https://fachrul.id/media/posts/51/responsive/fachrul-dan-pertamax-2xl.jpg 1600w"></figure>
 <figcaption >Berada pada Townhall bersama CEO</figcaption>
 </figure>
 <p>Atau pun bisa kita tuliskan bagaimana test automation yang sudah terimplementasi CI/CD bisa membantu proses relese lebih cepat dengan menjaga kualitas aplikasi tetap tinggi disetiap build barunya, cerita bagaimana kami bisa mengurangi waktu full cycle testing, awalnya 3 hari menjadi 1,5 hari kerja.</p>
@@ -203,7 +279,7 @@
 <h1>5. Pitch deck</h1>
 <p>Saya masih ingat ketika saya membuat <em>pitch deck</em> saat apply sebagai QA Leader di GoMart, saat itu head of engineering langsung kepincut dengan apa yang saya lakukan, karena saya sungguh-sungguh membuat slide berisi pengalaman, cara kerja saya, visi saya tentang <em>Quality Assurance</em>, serta misi saya dalam membangun tim, tujuan pitch deck ini adalah memudahkan saya "menjual (keahlian) diri" dalam proses interview, saya lebih nyaman menggunakan presentasi daripada hanya bercerita secara verbal, mungkin ini ide saya mengakali interviewer saat itu yang orang India, jadi mengurangi grogi saya karena menggunakan bahasa Inggris, jadi menghindari saya melupakan topik yang harus saya bahas karena sudah direncanakan di slides.</p>
 <p>Karena intinya interview adalah seperti mencari jodoh, bisa jadi yang dicari perusahaan sejalan dengan visi &amp; misi pribadi kita.<br><br></p>
-<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/51/pitchdeck-fachrulch-2020-small.jpg" sizes="100vw" srcset="https://fachrul.id/media/posts/51/responsive/pitchdeck-fachrulch-2020-small-xs.jpg 300w ,https://fachrul.id/media/posts/51/responsive/pitchdeck-fachrulch-2020-small-sm.jpg 480w ,https://fachrul.id/media/posts/51/responsive/pitchdeck-fachrulch-2020-small-md.jpg 768w ,https://fachrul.id/media/posts/51/responsive/pitchdeck-fachrulch-2020-small-lg.jpg 1024w ,https://fachrul.id/media/posts/51/responsive/pitchdeck-fachrulch-2020-small-xl.jpg 1360w ,https://fachrul.id/media/posts/51/responsive/pitchdeck-fachrulch-2020-small-2xl.jpg 1600w"  alt="" width="1280" height="999"></figure>
+<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/51/pitchdeck-fachrulch-2020-small.jpg" alt="" width="1280" height="999" sizes="100vw" srcset="https://fachrul.id/media/posts/51/responsive/pitchdeck-fachrulch-2020-small-xs.jpg 300w ,https://fachrul.id/media/posts/51/responsive/pitchdeck-fachrulch-2020-small-sm.jpg 480w ,https://fachrul.id/media/posts/51/responsive/pitchdeck-fachrulch-2020-small-md.jpg 768w ,https://fachrul.id/media/posts/51/responsive/pitchdeck-fachrulch-2020-small-lg.jpg 1024w ,https://fachrul.id/media/posts/51/responsive/pitchdeck-fachrulch-2020-small-xl.jpg 1360w ,https://fachrul.id/media/posts/51/responsive/pitchdeck-fachrulch-2020-small-2xl.jpg 1600w"></figure>
 <figcaption >Pitchdeck profil saya pada tahun 2020</figcaption>
 </figure>
 <hr>
@@ -211,7 +287,7 @@
 <h2>Google Slides/Documents</h2>
 <p>Di poin terakhir saya sudah singgung sedikit mengenai slides <em>(pitch deck)</em> saya, saya akan membagikan link google slides kepada interviewer sebelum proses interview (bisa sehari sebelum) agar mereka bisa melihat dahulu lalu didiskusikan/ditanyakan saat interview, kenapa menggunakan <em>google slides</em>? Karena itu memungkinkan saya untuk bisa memperbarui konten, hal yang tidak bisa terjadi jika saya mengirimkan lampiran file .ppt, tentu jika ada perubahan harus mengirimkan file susulan.</p>
 <p>Bisa juga ketika kita ingin menjabarkan informasi lebih banyak untuk membuatnya berupa google documents (word) berformat seperti esai, cocok untuk konten bugs reporting yang kita temukan, ataupun cerita soal analisa bugs seperti pembahasan sebelumnya</p>
-<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/51/github-fachrulch.jpg" sizes="100vw" srcset="https://fachrul.id/media/posts/51/responsive/github-fachrulch-xs.jpg 300w ,https://fachrul.id/media/posts/51/responsive/github-fachrulch-sm.jpg 480w ,https://fachrul.id/media/posts/51/responsive/github-fachrulch-md.jpg 768w ,https://fachrul.id/media/posts/51/responsive/github-fachrulch-lg.jpg 1024w ,https://fachrul.id/media/posts/51/responsive/github-fachrulch-xl.jpg 1360w ,https://fachrul.id/media/posts/51/responsive/github-fachrulch-2xl.jpg 1600w"  alt="Github FachrulCH" width="1024" height="687"></figure>
+<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/51/github-fachrulch.jpg" alt="Github FachrulCH" width="1024" height="687" sizes="100vw" srcset="https://fachrul.id/media/posts/51/responsive/github-fachrulch-xs.jpg 300w ,https://fachrul.id/media/posts/51/responsive/github-fachrulch-sm.jpg 480w ,https://fachrul.id/media/posts/51/responsive/github-fachrulch-md.jpg 768w ,https://fachrul.id/media/posts/51/responsive/github-fachrulch-lg.jpg 1024w ,https://fachrul.id/media/posts/51/responsive/github-fachrulch-xl.jpg 1360w ,https://fachrul.id/media/posts/51/responsive/github-fachrulch-2xl.jpg 1600w"></figure>
 <figcaption >Github FachrulCH</figcaption>
 </figure>
 <h2>Github</h2>
@@ -240,9 +316,10 @@
         </author>
         <link href="https://fachrul.id/oh-ternyata-saya-condong-ke-auditory-learning/"/>
         <id>https://fachrul.id/oh-ternyata-saya-condong-ke-auditory-learning/</id>
+        <media:content url="https://fachrul.id/media/posts/50/pexels-andrea-piacquadio-3965238-1.jpg" medium="image" />
             <category term="ulasan"/>
 
-        <updated>2022-07-07T05:41:34+07:00</updated>
+        <updated>2022-07-07T02:41:34+04:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fachrul.id/media/posts/50/pexels-andrea-piacquadio-3965238-1.jpg" alt="auditory" />
@@ -251,8 +328,8 @@
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://fachrul.id/media/posts/50/pexels-andrea-piacquadio-3965238-1.jpg" alt="auditory" />
-                <figure class="post__image post__image--left" ><img loading="lazy" src="https://fachrul.id/media/posts/50/pexels-armin-rimoldi-5553630.jpg" sizes="100vw" srcset="https://fachrul.id/media/posts/50/responsive/pexels-armin-rimoldi-5553630-xs.jpg 300w ,https://fachrul.id/media/posts/50/responsive/pexels-armin-rimoldi-5553630-sm.jpg 480w ,https://fachrul.id/media/posts/50/responsive/pexels-armin-rimoldi-5553630-md.jpg 768w ,https://fachrul.id/media/posts/50/responsive/pexels-armin-rimoldi-5553630-lg.jpg 1024w ,https://fachrul.id/media/posts/50/responsive/pexels-armin-rimoldi-5553630-xl.jpg 1360w ,https://fachrul.id/media/posts/50/responsive/pexels-armin-rimoldi-5553630-2xl.jpg 1600w"  alt="Foto oleh Armin Rimoldi dari Pexels" width="300">
+                    <p><img src="https://fachrul.id/media/posts/50/pexels-andrea-piacquadio-3965238-1.jpg" class="type:primaryImage" alt="auditory" /></p>
+                <figure class="post__image post__image--left" ><img loading="lazy" src="https://fachrul.id/media/posts/50/pexels-armin-rimoldi-5553630.jpg" alt="Foto oleh Armin Rimoldi dari Pexels" width="300" sizes="100vw" srcset="https://fachrul.id/media/posts/50/responsive/pexels-armin-rimoldi-5553630-xs.jpg 300w ,https://fachrul.id/media/posts/50/responsive/pexels-armin-rimoldi-5553630-sm.jpg 480w ,https://fachrul.id/media/posts/50/responsive/pexels-armin-rimoldi-5553630-md.jpg 768w ,https://fachrul.id/media/posts/50/responsive/pexels-armin-rimoldi-5553630-lg.jpg 1024w ,https://fachrul.id/media/posts/50/responsive/pexels-armin-rimoldi-5553630-xl.jpg 1360w ,https://fachrul.id/media/posts/50/responsive/pexels-armin-rimoldi-5553630-2xl.jpg 1600w">
 <figcaption >Foto oleh <strong><a href="https://www.pexels.com/id-id/@armin-rimoldi?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels">Armin Rimoldi</a></strong> dari <strong><a href="https://www.pexels.com/id-id/foto/pria-pena-meja-musik-5553630/?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels">Pexels</a></strong></figcaption>
 </figure>
 <p>Awal mulanya saya percaya saya adalah seorang tipe <em>visual learning</em>, dimana saya akan cepat paham ketika memproses informasi secara visual melalui gambar, charts, diagram, peta, bahkan saya rutin menuangkan ide dalam bentuk <em>mind mapping</em>, namun akhir-akhir ini saya menyadari adanya proses pergeseran tipe membelajar menjadi <em>auditory learning</em>, dimana saya lebih senang dan cepat paham ketika mencerna informasi melalui media audio/suara.</p>
@@ -341,7 +418,7 @@
 <figcaption >cara redeem voucher inspigo</figcaption>
 </figure>
 <p>bahkan mau gratisan jadi premium member juga bisa loh, ada challenge yang bisa kita ikut partisipasi untuk mendapatkan imbalan akses premium, atau share id referal ke orang lain, seperti ini:</p>
-<figure class="post__image post__image" ><img loading="lazy" src="https://fachrul.id/media/posts/50/Screen-Shot-2021-12-31-at-09.08.18.png" sizes="100vw" srcset="https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-09.08.18-xs.png 300w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-09.08.18-sm.png 480w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-09.08.18-md.png 768w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-09.08.18-lg.png 1024w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-09.08.18-xl.png 1360w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-09.08.18-2xl.png 1600w"  alt="kode referensi inspigo " width="1038" height="1952">
+<figure class="post__image post__image" ><img loading="lazy" src="https://fachrul.id/media/posts/50/Screen-Shot-2021-12-31-at-09.08.18.png" alt="kode referensi inspigo " width="1038" height="1952" sizes="100vw" srcset="https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-09.08.18-xs.png 300w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-09.08.18-sm.png 480w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-09.08.18-md.png 768w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-09.08.18-lg.png 1024w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-09.08.18-xl.png 1360w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-09.08.18-2xl.png 1600w">
 <figcaption >kode referensi inspigo </figcaption>
 </figure>
 <p><br>Jadi, jika kalian belum mendaftar Inspigo bisa menggunakan <strong>id referal Inspigo: hnd4y</strong> saya ini ya, saya sangat berterima kasih karena dengan anda mendaftar dengan ID referal ini, saya akan mendapatkan 2 minggu extra langganan premium member.</p>
@@ -351,7 +428,7 @@
 <p>Ada beberapa interaksi dengan tim Inspigo via Instagram, dan mereka sangat mendengar aspirasi dari pengguna loh,</p>
 <p>Beberapa feedback dari 2018 dulu:</p>
 <p> </p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/50/Screen-Shot-2021-12-31-at-08.55.09.png" sizes="100vw" srcset="https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.55.09-xs.png 300w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.55.09-sm.png 480w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.55.09-md.png 768w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.55.09-lg.png 1024w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.55.09-xl.png 1360w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.55.09-2xl.png 1600w"  alt="" width="290" height="545"></figure><br><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/50/Screen-Shot-2021-12-31-at-08.54.37.png" sizes="100vw" srcset="https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.54.37-xs.png 300w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.54.37-sm.png 480w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.54.37-md.png 768w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.54.37-lg.png 1024w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.54.37-xl.png 1360w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.54.37-2xl.png 1600w"  alt="" width="287" height="540"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/50/Screen-Shot-2021-12-31-at-08.55.09.png" alt="" width="290" height="545" sizes="100vw" srcset="https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.55.09-xs.png 300w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.55.09-sm.png 480w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.55.09-md.png 768w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.55.09-lg.png 1024w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.55.09-xl.png 1360w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.55.09-2xl.png 1600w"></figure><br><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/50/Screen-Shot-2021-12-31-at-08.54.37.png" alt="" width="287" height="540" sizes="100vw" srcset="https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.54.37-xs.png 300w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.54.37-sm.png 480w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.54.37-md.png 768w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.54.37-lg.png 1024w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.54.37-xl.png 1360w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.54.37-2xl.png 1600w"></figure>
 <p> </p>
             ]]>
         </content>
@@ -363,12 +440,13 @@
         </author>
         <link href="https://fachrul.id/membentuk-pola-pikir-entrepreneurship-dalam-bekerja-sebagai-karyawan/"/>
         <id>https://fachrul.id/membentuk-pola-pikir-entrepreneurship-dalam-bekerja-sebagai-karyawan/</id>
+        <media:content url="https://fachrul.id/media/posts/48/pexels-rodnae-productions-7414050.jpg" medium="image" />
             <category term="today-i-learned"/>
             <category term="teamwork"/>
             <category term="opinion"/>
             <category term="leadership"/>
 
-        <updated>2021-11-07T22:17:42+07:00</updated>
+        <updated>2021-11-07T19:17:42+04:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fachrul.id/media/posts/48/pexels-rodnae-productions-7414050.jpg" alt="" />
@@ -377,9 +455,9 @@
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://fachrul.id/media/posts/48/pexels-rodnae-productions-7414050.jpg" alt="" />
+                    <p><img src="https://fachrul.id/media/posts/48/pexels-rodnae-productions-7414050.jpg" class="type:primaryImage" alt="" /></p>
                 <p><em><strong>"Your job is NOT your carrer" </strong></em>adalah sebuah kalimat intisari dari diskusi perpisahan dengan manager saya di akhir bulan Oktober lalu, dan kalimat ini masih saja bergema di fikiran saya hingga sekarang dan memicu beberapa perenungan yang akan saya tuliskan disini untuk melepas unek-unek mengganjal ini.</p>
-<figure class="post__image post__image--center" ><img loading="lazy" src="https://fachrul.id/media/posts/48/pexels-rodnae-productions-7413915.jpg" sizes="100vw" srcset="https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7413915-xs.jpg 300w ,https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7413915-sm.jpg 480w ,https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7413915-md.jpg 768w ,https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7413915-lg.jpg 1024w ,https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7413915-xl.jpg 1360w ,https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7413915-2xl.jpg 1600w"  alt="Foto oleh RODNAE Productions dari Pexels" width="640" height="426">
+<figure class="post__image post__image--center" ><img loading="lazy" src="https://fachrul.id/media/posts/48/pexels-rodnae-productions-7413915.jpg" alt="Foto oleh RODNAE Productions dari Pexels" width="640" height="426" sizes="100vw" srcset="https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7413915-xs.jpg 300w ,https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7413915-sm.jpg 480w ,https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7413915-md.jpg 768w ,https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7413915-lg.jpg 1024w ,https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7413915-xl.jpg 1360w ,https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7413915-2xl.jpg 1600w">
 <figcaption >Foto oleh <strong><a href="https://www.pexels.com/id-id/@rodnae-prod?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels">RODNAE Productions</a></strong> dari <strong><a href="https://www.pexels.com/id-id/foto/pemasaran-exit-teknologi-bisnis-7413915/?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels">Pexels</a></strong></figcaption>
 </figure>
 <p> </p>
@@ -399,7 +477,7 @@
 <h2>Bekerja melebihi harapan pelanggan</h2>
 <p>Adalah kunci untuk menjadi yang terdepan, pelanggan kita tidak melulu hanya si perusahaan tempat kita bekerja, rekan kerja kita sebenarnya adalah pelanggan kita, merekalah yang mendapatkan value yang kita berikan.</p>
 <p>Angaplah hubungan di kantor IT adalah hubungan transaksional. Seorang Developer pelanggan nya adalah QA, PM bahkan IT ops. Bagaimana si Developer ini bisa melebihi harapan pelanggan nya? adalah dengan mengetahui keinginan si pelanggan, misal Dev-QA, si developer tentu harus membuat aplikasi dengan kualitas yang baik, dia sendiri pun harus menguji aplikasi yang dia buat dengan teliti, agar dia bisa segera menemukan error dan memperbaiki dengan cepat, sehingga ketika aplikasi di uji oleh seorang QA, maka error sepele tidak lagi ada, dan meringankan kerja QA, atau contoh lain bagi seorang developer adalah membuat code yang baik atau bahkan membuat dokumentasi dari kode yang ia tulis agar di masa depan developer lain yang melanjutkan tidak akan kebingungan atau mengutuk dia dan malah merewrite aplikasi ke kode baru :D</p>
-<figure class="post__image post__image--wide" ><img loading="lazy" src="https://fachrul.id/media/posts/48/pexels-rodnae-productions-7414050.jpg" sizes="100vw" srcset="https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7414050-xs.jpg 300w ,https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7414050-sm.jpg 480w ,https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7414050-md.jpg 768w ,https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7414050-lg.jpg 1024w ,https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7414050-xl.jpg 1360w ,https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7414050-2xl.jpg 1600w"  alt="Foto oleh RODNAE Productions dari Pexels" width="1280" height="853">
+<figure class="post__image post__image--wide" ><img loading="lazy" src="https://fachrul.id/media/posts/48/pexels-rodnae-productions-7414050.jpg" alt="Foto oleh RODNAE Productions dari Pexels" width="1280" height="853" sizes="100vw" srcset="https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7414050-xs.jpg 300w ,https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7414050-sm.jpg 480w ,https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7414050-md.jpg 768w ,https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7414050-lg.jpg 1024w ,https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7414050-xl.jpg 1360w ,https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7414050-2xl.jpg 1600w">
 <figcaption >Foto oleh <strong><a href="https://www.pexels.com/id-id/@rodnae-prod?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels">RODNAE Productions</a></strong> dari <strong><a href="https://www.pexels.com/id-id/foto/pemasaran-exit-teknologi-bisnis-7413915/?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels">Pexels</a></strong></figcaption>
 </figure>
 <h2>Selanjutnya</h2>
@@ -424,7 +502,7 @@
             <category term="tutorials"/>
             <category term="automation-python"/>
 
-        <updated>2021-08-08T16:36:28+07:00</updated>
+        <updated>2021-08-08T13:36:28+04:00</updated>
             <summary>
                 <![CDATA[
                     Hi Kawan 👋, Gimana mudah kan belajar bikin API automation dengan python? tentunya,, di kesempatan ini kita akan belajar lebih lanjut dengan pytest dan menggunakan library tambahan (lagi) agar test kita lebih mudah dibaca dan dipahami dengan bantuan fluent assertion Artikel ini adalah salah satu&hellip;
@@ -676,7 +754,7 @@ def test_delete_favorite():
             <category term="tutorials"/>
             <category term="automation-python"/>
 
-        <updated>2021-08-08T16:36:48+07:00</updated>
+        <updated>2021-08-08T13:36:48+04:00</updated>
             <summary>
                 <![CDATA[
                     Hi Kawan 👋, Di artikel sebelumnya kita telah belajar mengenai instalasi python , library requests dan melakukan HTTP call dengan method GET secara programatis melalui kode python, walaupun belum ada test disana, karena memang artikelnya cukup panjang hehehe, jadi kita lanjut disini saja ya. Oh&hellip;
@@ -748,10 +826,11 @@ def test_delete_favorite():
         </author>
         <link href="https://fachrul.id/yuk-belajar-cara-membuat-api-test-automation-framework-python-bagian-1/"/>
         <id>https://fachrul.id/yuk-belajar-cara-membuat-api-test-automation-framework-python-bagian-1/</id>
+        <media:content url="https://fachrul.id/media/posts/41/pexels-zachary-debottis-1888883.jpg" medium="image" />
             <category term="tutorials"/>
             <category term="automation-python"/>
 
-        <updated>2021-12-31T09:55:43+07:00</updated>
+        <updated>2021-12-31T06:55:43+04:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fachrul.id/media/posts/41/pexels-zachary-debottis-1888883.jpg" alt="" />
@@ -760,7 +839,7 @@ def test_delete_favorite():
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://fachrul.id/media/posts/41/pexels-zachary-debottis-1888883.jpg" alt="" />
+                    <p><img src="https://fachrul.id/media/posts/41/pexels-zachary-debottis-1888883.jpg" class="type:primaryImage" alt="" /></p>
                 <p>Hi Kawan 👋,</p>
 <p>Di kesempatan kali ini saya akan membuat rangkaian post yang berisi tutorial cara membuat API Test Framework dengan Python dari dasar sampai jadi sebuah framework testing yang siap di integrasikan dengan pipeline CI/CD 😎🤘</p>
 <p>Oke setiap post akan berisi sebuah topik tahapan pelajaran dari dasar disetiap aspeknya, semoga saja ini bisa bermanfaat bagi teman-teman yang mulai belajar menekuni dunia software quality assurance / Test engineering ya, harapan saya, tutorial ini bisa membantu teman-teman untuk memahami approach API testing, dan bisa mempermudah implementasi API test framework dengan python di tempat kerja kalian </p>
@@ -777,10 +856,10 @@ def test_delete_favorite():
 <hr>
 <h2> Apa itu API sih?</h2>
 <p>Sebenernya saya ga yakin bisa menjelaskannya dengan benar, mungkin bisa kamu googling aja nanti ya klo masih belum jelas dari penjelasan saya ehehe, jadi kurang lebih gini:</p>
-<figure class="post__image--left"><img loading="lazy"  src="https://fachrul.id/media/posts/41/api-1.png" sizes="100vw" srcset="https://fachrul.id/media/posts/41/responsive/api-1-xs.png 300w ,https://fachrul.id/media/posts/41/responsive/api-1-sm.png 480w ,https://fachrul.id/media/posts/41/responsive/api-1-md.png 768w ,https://fachrul.id/media/posts/41/responsive/api-1-lg.png 1024w ,https://fachrul.id/media/posts/41/responsive/api-1-xl.png 1360w ,https://fachrul.id/media/posts/41/responsive/api-1-2xl.png 1600w"  alt="" width="800" height="454"></figure>API (Application Programming Interface) atau juga seringkali dikenal dengan webservice adalah bentuk komunikasi antar sistem, sederhananya, API menyediakan serangkaian cara/kontrak bagaimana sebuah informasi bisa ditransfer/diakses.</p>
+<figure class="post__image--left"><img loading="lazy"  src="https://fachrul.id/media/posts/41/api-1.png" alt="" width="800" height="454" sizes="100vw" srcset="https://fachrul.id/media/posts/41/responsive/api-1-xs.png 300w ,https://fachrul.id/media/posts/41/responsive/api-1-sm.png 480w ,https://fachrul.id/media/posts/41/responsive/api-1-md.png 768w ,https://fachrul.id/media/posts/41/responsive/api-1-lg.png 1024w ,https://fachrul.id/media/posts/41/responsive/api-1-xl.png 1360w ,https://fachrul.id/media/posts/41/responsive/api-1-2xl.png 1600w"></figure>API (Application Programming Interface) atau juga seringkali dikenal dengan webservice adalah bentuk komunikasi antar sistem, sederhananya, API menyediakan serangkaian cara/kontrak bagaimana sebuah informasi bisa ditransfer/diakses.</p>
 <p>API ada dua kategori, yaitu SOAP dan REST, SOAPmenggunakan format XML yang membungkus informasi data nya, sejauh yg saya tau soap masih umum dipergunakan oleh perbankan sampai saat ini, sedangkan REST sudah umum dipakai oleh khalayak ramai, karena lebih ringan dalam hal ukuran data yang disimpan dalam format JSON, dan umumnya permintaan dan penerimaan data menggunakan protokol HTTP, biasanya menggunakan verbs GET, POST, PUT dan DELETE dalam berinteraksi.</p>
 <p>Di kesempatan ini kita akan fokus dalam pembuatan API test framework untuk RESTful API ya, tools yang sering dipergunakan dalam berinteraksi dengan API adalah Postman</p>
-<figure class="post__image post__image--full" ><img loading="lazy" src="https://fachrul.id/media/posts/41/rest-api-contoh-sederhana.png" sizes="100vw" srcset="https://fachrul.id/media/posts/41/responsive/rest-api-contoh-sederhana-xs.png 300w ,https://fachrul.id/media/posts/41/responsive/rest-api-contoh-sederhana-sm.png 480w ,https://fachrul.id/media/posts/41/responsive/rest-api-contoh-sederhana-md.png 768w ,https://fachrul.id/media/posts/41/responsive/rest-api-contoh-sederhana-lg.png 1024w ,https://fachrul.id/media/posts/41/responsive/rest-api-contoh-sederhana-xl.png 1360w ,https://fachrul.id/media/posts/41/responsive/rest-api-contoh-sederhana-2xl.png 1600w"  alt="" width="1280" height="757">
+<figure class="post__image post__image--full" ><img loading="lazy" src="https://fachrul.id/media/posts/41/rest-api-contoh-sederhana.png" alt="" width="1280" height="757" sizes="100vw" srcset="https://fachrul.id/media/posts/41/responsive/rest-api-contoh-sederhana-xs.png 300w ,https://fachrul.id/media/posts/41/responsive/rest-api-contoh-sederhana-sm.png 480w ,https://fachrul.id/media/posts/41/responsive/rest-api-contoh-sederhana-md.png 768w ,https://fachrul.id/media/posts/41/responsive/rest-api-contoh-sederhana-lg.png 1024w ,https://fachrul.id/media/posts/41/responsive/rest-api-contoh-sederhana-xl.png 1360w ,https://fachrul.id/media/posts/41/responsive/rest-api-contoh-sederhana-2xl.png 1600w">
 <figcaption >RestAPI secara sederhana</figcaption>
 </figure>
 <p> </p>
@@ -794,11 +873,11 @@ def test_delete_favorite():
 <li>Install code editor, saran saya sih menggunakan PyCharm, tapi klo mau yg lebih ringan boleh pake Visual Code ataupun Notepad++ juga bisa harusnya</li>
 </ol>
 <hr>
-<h2><figure class="post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/41/airportgap.png" sizes="100vw" srcset="https://fachrul.id/media/posts/41/responsive/airportgap-xs.png 300w ,https://fachrul.id/media/posts/41/responsive/airportgap-sm.png 480w ,https://fachrul.id/media/posts/41/responsive/airportgap-md.png 768w ,https://fachrul.id/media/posts/41/responsive/airportgap-lg.png 1024w ,https://fachrul.id/media/posts/41/responsive/airportgap-xl.png 1360w ,https://fachrul.id/media/posts/41/responsive/airportgap-2xl.png 1600w"  alt="" width="500" height="592"></figure></h2>
+<h2><figure class="post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/41/airportgap.png" alt="" width="500" height="592" sizes="100vw" srcset="https://fachrul.id/media/posts/41/responsive/airportgap-xs.png 300w ,https://fachrul.id/media/posts/41/responsive/airportgap-sm.png 480w ,https://fachrul.id/media/posts/41/responsive/airportgap-md.png 768w ,https://fachrul.id/media/posts/41/responsive/airportgap-lg.png 1024w ,https://fachrul.id/media/posts/41/responsive/airportgap-xl.png 1360w ,https://fachrul.id/media/posts/41/responsive/airportgap-2xl.png 1600w"></figure></h2>
 <h2>Studi Kasus</h2>
 <p>Oke, sepertinya kita akan bahas dulu aplikasi apa yang akan menjadi target kita dalam pengembangan API test framework, sebagai contoh kita akan mengautomasi pengujian pada <a href="https://airportgap.dev-tester.com">https://airportgap.dev-tester.com</a> sebuah dummy app yang dikhususkan bagi teman-teman yang berlatih dalam mengasah automation skill pada API</p>
 <p>Kenapa saya pilih ini? karena koleksi API disini kurang lebih akan mirip dengan apa yang kamu punya di kantor, ada API yang bisa diakses dengan GET, POST, DELETE dan PUT/PATCH, jadi bisa dikatakan mini project API, apalagi dokumentasinya API juga sudah cukup jelas ya, bisa diakses disini <a href="https://airportgap.dev-tester.com/docs">https://airportgap.dev-tester.com/docs</a></p>
-<figure class="post__image--left"><img loading="lazy"  src="https://fachrul.id/media/posts/41/374px-Requests_Python_Logo.png" sizes="100vw" srcset="https://fachrul.id/media/posts/41/responsive/374px-Requests_Python_Logo-xs.png 300w ,https://fachrul.id/media/posts/41/responsive/374px-Requests_Python_Logo-sm.png 480w ,https://fachrul.id/media/posts/41/responsive/374px-Requests_Python_Logo-md.png 768w ,https://fachrul.id/media/posts/41/responsive/374px-Requests_Python_Logo-lg.png 1024w ,https://fachrul.id/media/posts/41/responsive/374px-Requests_Python_Logo-xl.png 1360w ,https://fachrul.id/media/posts/41/responsive/374px-Requests_Python_Logo-2xl.png 1600w"  alt="" width="374" height="480"></figure>
+<figure class="post__image--left"><img loading="lazy"  src="https://fachrul.id/media/posts/41/374px-Requests_Python_Logo.png" alt="" width="374" height="480" sizes="100vw" srcset="https://fachrul.id/media/posts/41/responsive/374px-Requests_Python_Logo-xs.png 300w ,https://fachrul.id/media/posts/41/responsive/374px-Requests_Python_Logo-sm.png 480w ,https://fachrul.id/media/posts/41/responsive/374px-Requests_Python_Logo-md.png 768w ,https://fachrul.id/media/posts/41/responsive/374px-Requests_Python_Logo-lg.png 1024w ,https://fachrul.id/media/posts/41/responsive/374px-Requests_Python_Logo-xl.png 1360w ,https://fachrul.id/media/posts/41/responsive/374px-Requests_Python_Logo-2xl.png 1600w"></figure>
 <h2>Pelajaran 1 - pengenalan HTTP requests</h2>
 <p>Siap kita mulai ya, untuk mengakses API/webservice kita perlu sebuah library yang akan memudahkan kita dalam berinteraksi dengan API, yaitu menggunakan library requests, cara menginstall library ini adalah dengan command</p>
 <pre>pip install requests</pre>
@@ -838,10 +917,11 @@ print(response.text)
         </author>
         <link href="https://fachrul.id/belajar-pytest-framework-1/"/>
         <id>https://fachrul.id/belajar-pytest-framework-1/</id>
+        <media:content url="https://fachrul.id/media/posts/34/Screen-Shot-2020-05-20-at-00.05.17.png" medium="image" />
             <category term="tutorials"/>
             <category term="automation-python"/>
 
-        <updated>2020-05-20T00:06:39+07:00</updated>
+        <updated>2020-05-19T21:06:39+04:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fachrul.id/media/posts/34/Screen-Shot-2020-05-20-at-00.05.17.png" alt="" />
@@ -850,9 +930,9 @@ print(response.text)
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://fachrul.id/media/posts/34/Screen-Shot-2020-05-20-at-00.05.17.png" alt="" />
+                    <p><img src="https://fachrul.id/media/posts/34/Screen-Shot-2020-05-20-at-00.05.17.png" class="type:primaryImage" alt="" /></p>
                 <h2>Apa itu pytest?</h2>
-<figure class="post__image post__image--left" ><img loading="lazy" src="https://fachrul.id/media/posts/34/pytest1.png" sizes="100vw" srcset="https://fachrul.id/media/posts/34/responsive/pytest1-xs.png 300w ,https://fachrul.id/media/posts/34/responsive/pytest1-sm.png 480w ,https://fachrul.id/media/posts/34/responsive/pytest1-md.png 768w ,https://fachrul.id/media/posts/34/responsive/pytest1-lg.png 1024w ,https://fachrul.id/media/posts/34/responsive/pytest1-xl.png 1360w ,https://fachrul.id/media/posts/34/responsive/pytest1-2xl.png 1600w"  alt="" width="150" height="143">
+<figure class="post__image post__image--left" ><img loading="lazy" src="https://fachrul.id/media/posts/34/pytest1.png" alt="" width="150" height="143" sizes="100vw" srcset="https://fachrul.id/media/posts/34/responsive/pytest1-xs.png 300w ,https://fachrul.id/media/posts/34/responsive/pytest1-sm.png 480w ,https://fachrul.id/media/posts/34/responsive/pytest1-md.png 768w ,https://fachrul.id/media/posts/34/responsive/pytest1-lg.png 1024w ,https://fachrul.id/media/posts/34/responsive/pytest1-xl.png 1360w ,https://fachrul.id/media/posts/34/responsive/pytest1-2xl.png 1600w">
 <figcaption >icon Pytest</figcaption>
 </figure>
 <p>Adalah kerangka kerja dari pengujian pada kode python, bisa dibilang semua test framework (<em><strong>junit, testng, rspec</strong></em>, dkk) adalah jantung nya dari segala test automation framework, pytest bisa digunakan pada berbagai tipe dan level dari software testing, sebenarnya ada berbagai alternatif testing tools pada python yang lainya seperti uniitest ataupun nose, tapi banyak open source project yang mulai "hijrah" mengadopsi pytest karena fitur yang ada pada <a href="https://docs.pytest.org/en/latest/">pytest</a> yang menarik diantara yang lainya yaitu:</p>
@@ -926,7 +1006,7 @@ print(response.text)
 <p><code>$ ​​pytest​​ --help</code></p>
 <h2>Menulis Test</h2>
 <p>Kurang lebih contoh kerangka kerja test pada pytest sebagai berikut:</p>
-<figure class="post__image post__image--center" ><img loading="lazy" src="https://fachrul.id/media/posts/34/Screen-Shot-2020-05-19-at-22.56.59.png" sizes="100vw" srcset="https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.56.59-xs.png 300w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.56.59-sm.png 480w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.56.59-md.png 768w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.56.59-lg.png 1024w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.56.59-xl.png 1360w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.56.59-2xl.png 1600w"  alt="" width="450" height="450">
+<figure class="post__image post__image--center" ><img loading="lazy" src="https://fachrul.id/media/posts/34/Screen-Shot-2020-05-19-at-22.56.59.png" alt="" width="450" height="450" sizes="100vw" srcset="https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.56.59-xs.png 300w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.56.59-sm.png 480w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.56.59-md.png 768w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.56.59-lg.png 1024w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.56.59-xl.png 1360w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.56.59-2xl.png 1600w">
 <figcaption >struktur kode pytest pada umumnya</figcaption>
 </figure>
 <p> </p>
@@ -943,13 +1023,13 @@ class TestHimpunan:
 <p>lalu cara menjalankan nya pada terminal dengan perintah sebagai berikut:</p>
 <p><code>pytest tests/test_math.py</code></p>
 <p>Output yang dihasilkan kurang lebih seperti berikut:</p>
-<figure class="post__image post__image--center" ><img loading="lazy" src="https://fachrul.id/media/posts/34/Screen-Shot-2020-05-19-at-22.21.54.png" sizes="100vw" srcset="https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.21.54-xs.png 300w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.21.54-sm.png 480w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.21.54-md.png 768w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.21.54-lg.png 1024w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.21.54-xl.png 1360w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.21.54-2xl.png 1600w"  alt="" width="1024" height="538">
+<figure class="post__image post__image--center" ><img loading="lazy" src="https://fachrul.id/media/posts/34/Screen-Shot-2020-05-19-at-22.21.54.png" alt="" width="1024" height="538" sizes="100vw" srcset="https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.21.54-xs.png 300w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.21.54-sm.png 480w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.21.54-md.png 768w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.21.54-lg.png 1024w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.21.54-xl.png 1360w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.21.54-2xl.png 1600w">
 <figcaption >output test berhasil</figcaption>
 </figure>
 <p>Ok kita bahas ya, pada contoh diatas saya menjalankan 2 test pada file <em><strong>test_math.py</strong></em> yaitu <em><strong>def test_pertambahan</strong></em> dan <strong><em>def test_persamaan</em></strong>, disini saya menunjukan bahwa pytest support bentuk kode pengujian yang dituliskan sebagai function mandiri atau method pada class, tidak ada perbedaan signifikan, hanya pengelompokan test saja menurut saya.</p>
 <p>Dan jika ditilik lagi, jika test berjalan baik dan passed akan ditandai dengan simbol titik warna hijau (di windows gada warnanya) pada output console dan jika failed ditandai dengan huruf F warna merah, disertai dengan informasi pelengkapnya.</p>
 <p>agar lebih jelas lagi mari kita coba membuat test gagal dengan mengubah nilai pada assertnya, dan agar tampilan output console lebih informatif, jalankan perintah <code>pytest -v tests/test_math.py</code> lalu perhatikan error message yang ditampilkan sebagai berikut</p>
-<figure class="post__image post__image--center" ><img loading="lazy" src="https://fachrul.id/media/posts/34/Screen-Shot-2020-05-19-at-22.26.15.png" sizes="100vw" srcset="https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.26.15-xs.png 300w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.26.15-sm.png 480w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.26.15-md.png 768w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.26.15-lg.png 1024w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.26.15-xl.png 1360w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.26.15-2xl.png 1600w"  alt="" width="1024" height="1352">
+<figure class="post__image post__image--center" ><img loading="lazy" src="https://fachrul.id/media/posts/34/Screen-Shot-2020-05-19-at-22.26.15.png" alt="" width="1024" height="1352" sizes="100vw" srcset="https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.26.15-xs.png 300w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.26.15-sm.png 480w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.26.15-md.png 768w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.26.15-lg.png 1024w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.26.15-xl.png 1360w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-22.26.15-2xl.png 1600w">
 <figcaption >hasil menjalankan kode test yang ternyata failed :P</figcaption>
 </figure>
 <p>Ada berbagai macam jenis outcome dari sebuah test yang akan dihasilkan oleh pytest sebagai berikut:</p>
@@ -996,7 +1076,7 @@ def test_kodepos_tasik():
 <p>lalu cara menjalankannya dengan  command</p>
 <p><code>➜ pytest -v tests/feature_kodepos</code></p>
 <p>maka akan muncul output sebagai berikut</p>
-<figure class="post__image post__image--center" ><img loading="lazy" src="https://fachrul.id/media/posts/34/Screen-Shot-2020-05-19-at-23.21.32.png" sizes="100vw" srcset="https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-23.21.32-xs.png 300w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-23.21.32-sm.png 480w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-23.21.32-md.png 768w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-23.21.32-lg.png 1024w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-23.21.32-xl.png 1360w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-23.21.32-2xl.png 1600w"  alt="" width="1024" height="1020">
+<figure class="post__image post__image--center" ><img loading="lazy" src="https://fachrul.id/media/posts/34/Screen-Shot-2020-05-19-at-23.21.32.png" alt="" width="1024" height="1020" sizes="100vw" srcset="https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-23.21.32-xs.png 300w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-23.21.32-sm.png 480w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-23.21.32-md.png 768w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-23.21.32-lg.png 1024w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-23.21.32-xl.png 1360w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-23.21.32-2xl.png 1600w">
 <figcaption >output menjalankan test kdoepos</figcaption>
 </figure>
 <p>Test nya sengaja saya buat failed, karena untuk melihat betapa cantiknya error log dari pytest jika terjadi masalah, apa yang menarik disini:</p>
@@ -1011,7 +1091,7 @@ def test_kodepos_tasik():
 <pre><code class="language-python">@pytest.mark.xfail
 def test_kotakab_jabar():<br>   ...</code></pre>
 <p>Lalu jalankan kembali testnya dan outputnya sekarang berbeda</p>
-<figure class="post__image post__image--center" ><img loading="lazy" src="https://fachrul.id/media/posts/34/Screen-Shot-2020-05-19-at-23.34.05.png" sizes="100vw" srcset="https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-23.34.05-xs.png 300w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-23.34.05-sm.png 480w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-23.34.05-md.png 768w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-23.34.05-lg.png 1024w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-23.34.05-xl.png 1360w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-23.34.05-2xl.png 1600w"  alt="" width="1024" height="580">
+<figure class="post__image post__image--center" ><img loading="lazy" src="https://fachrul.id/media/posts/34/Screen-Shot-2020-05-19-at-23.34.05.png" alt="" width="1024" height="580" sizes="100vw" srcset="https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-23.34.05-xs.png 300w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-23.34.05-sm.png 480w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-23.34.05-md.png 768w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-23.34.05-lg.png 1024w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-23.34.05-xl.png 1360w ,https://fachrul.id/media/posts/34/responsive/Screen-Shot-2020-05-19-at-23.34.05-2xl.png 1600w">
 <figcaption >semua hasil passed dengan catatan 1 xfail</figcaption>
 </figure>
 <p>Nah terlihat bahwa sekarang semua test hijau (passed) dengan catatan ada 1 test yang memang expected failed (xfailed)</p>
@@ -1029,11 +1109,12 @@ def test_kotakab_jabar():<br>   ...</code></pre>
         </author>
         <link href="https://fachrul.id/selector-locator-strategy-yang-baik/"/>
         <id>https://fachrul.id/selector-locator-strategy-yang-baik/</id>
+        <media:content url="https://fachrul.id/media/posts/33/gugel-selector.png" medium="image" />
             <category term="tutorials"/>
             <category term="automation-python"/>
             <category term="Tester Gadungan"/>
 
-        <updated>2020-05-19T23:58:24+07:00</updated>
+        <updated>2020-05-19T20:58:24+04:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fachrul.id/media/posts/33/gugel-selector.png" alt="selector strategy yang baik" />
@@ -1042,7 +1123,7 @@ def test_kotakab_jabar():<br>   ...</code></pre>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://fachrul.id/media/posts/33/gugel-selector.png" alt="selector strategy yang baik" />
+                    <p><img src="https://fachrul.id/media/posts/33/gugel-selector.png" class="type:primaryImage" alt="selector strategy yang baik" /></p>
                 <p>Hi kawan,</p>
 <p>Jika kamu berkecimpung di pemrograman automation test menggunakan selenium / appium tentunya kamu sudah paham banget kalau sampe salah selector (locator) maka kamu telah membuang banyak waktu karena selector yang kamu telah tuliskan tidak ditemukan dan harus re-run lagi 😭</p>
 <p>Menemukan element pada tampilan aplikasi seperti buttons, inputs, divs, checkboxes ataupun anchor tag terkadang cukup "menantang", terutama ketika tidak adanya ke-unikan ataupun identitas yang jelas pada element tersebut, bahakan pernah saya menguji aplikasi yang ID nya selalu berubah karena digenerate otomatis oleh library front end nya. Alamakjang 😵</p>
@@ -1068,7 +1149,7 @@ def test_kotakab_jabar():<br>   ...</code></pre>
 <p>Jadi gini, sebagai manusia yang menggunakan aplikasi tentu kita tidak perlu selector untuk berinteraksi dengan aplikasi, kita bisa menggunakan indera penglihatan untuk menjalankan aksi seperti submit form, scrolling halaman, click sana sini di halaman web, tapi tidak begitu bagi test automation yang harus menerjemahkan interaksi manusia tadi ke istilah yang komputer bisa mengerti secara programatis. Jadi selenium/appium ga akan melihat aplikasi sebagaimana kita kita melihat tampilannya, tapi ia akan melihatnya secara source code struktural seperti html/xml (catatan: tapi jaman now, sedang gandrung library/tools yang mendukung visual testing juga loh seperti <a href="https://applitools.com" target="_blank" rel="noopener noreferrer">applitools</a>, <a href="https://www.mabl.com" target="_blank" rel="noopener noreferrer">mabl</a>, <a href="http://test.ai/" target="_blank" rel="noopener noreferrer">test.ai</a> dkk)</p>
 <h2>Hmm gitu ya.. Bentuk element itu seperti apa sih?</h2>
 <p>Sebagai contoh kita akan bedah element di google.co.id ya, coba pada browser chrome kamu (sama juga pada firefox ataupun safari) klik kanan pada kotak pencarian trus pilih opsi menu "Inspect" maka akan muncul jendela Developer tool, pada Tab aktif "Elements", seperti ini gambarannya: (kamu coba juga donk ah)</p>
-<figure class="post__image post__image--center" ><img loading="lazy" src="https://fachrul.id/media/posts/33/gugel.png" sizes="100vw" srcset="https://fachrul.id/media/posts/33/responsive/gugel-xs.png 300w ,https://fachrul.id/media/posts/33/responsive/gugel-sm.png 480w ,https://fachrul.id/media/posts/33/responsive/gugel-md.png 768w ,https://fachrul.id/media/posts/33/responsive/gugel-lg.png 1024w ,https://fachrul.id/media/posts/33/responsive/gugel-xl.png 1360w ,https://fachrul.id/media/posts/33/responsive/gugel-2xl.png 1600w"  alt="" width="1764" height="901">
+<figure class="post__image post__image--center" ><img loading="lazy" src="https://fachrul.id/media/posts/33/gugel.png" alt="" width="1764" height="901" sizes="100vw" srcset="https://fachrul.id/media/posts/33/responsive/gugel-xs.png 300w ,https://fachrul.id/media/posts/33/responsive/gugel-sm.png 480w ,https://fachrul.id/media/posts/33/responsive/gugel-md.png 768w ,https://fachrul.id/media/posts/33/responsive/gugel-lg.png 1024w ,https://fachrul.id/media/posts/33/responsive/gugel-xl.png 1360w ,https://fachrul.id/media/posts/33/responsive/gugel-2xl.png 1600w">
 <figcaption >tampilan inspect element pada google chrome</figcaption>
 </figure>
 <p>Pada gambar diatas saya memberikan keterangan nomer,  yang akan saya jelaskan sebagai berikut:</p>
@@ -1085,7 +1166,7 @@ search_box.send_keys('Belajar automation testing' + Keys.ENTER)</code></pre>
 </div>
 <p>di baris pertama saya akan membuat variable search_box yang isinya adalah element yang mengandung nama "q" seperti pada keterangan element search box yang saya tunjukan sebelumnya si kotak pencarian ini memiliki element &lt;input ... <span class="webkit-html-attribute-name">name</span>="<span class="webkit-html-attribute-value">q</span>" ... /&gt; nah disini selector yang kita ambil adalah attribut name sama dengan "q", di baris kedua adalah alternatif cara penulisan kode saja</p>
 <p>di baris berikutnya, adalah proses automation test code saya untuk berinteraksi dengan element tersebut yaitu mengirimkan perintah send keys alias ketikan kata Belajar automation testing pada kotak pencarian dilanjutkan dengan menekan tombol Enter</p>
-<figure class="post__image post__image--center" ><img loading="lazy" src="https://fachrul.id/media/posts/33/hasil-pencarian-google-belajar-automation.png" sizes="100vw" srcset="https://fachrul.id/media/posts/33/responsive/hasil-pencarian-google-belajar-automation-xs.png 300w ,https://fachrul.id/media/posts/33/responsive/hasil-pencarian-google-belajar-automation-sm.png 480w ,https://fachrul.id/media/posts/33/responsive/hasil-pencarian-google-belajar-automation-md.png 768w ,https://fachrul.id/media/posts/33/responsive/hasil-pencarian-google-belajar-automation-lg.png 1024w ,https://fachrul.id/media/posts/33/responsive/hasil-pencarian-google-belajar-automation-xl.png 1360w ,https://fachrul.id/media/posts/33/responsive/hasil-pencarian-google-belajar-automation-2xl.png 1600w"  alt="" width="1749" height="890">
+<figure class="post__image post__image--center" ><img loading="lazy" src="https://fachrul.id/media/posts/33/hasil-pencarian-google-belajar-automation.png" alt="" width="1749" height="890" sizes="100vw" srcset="https://fachrul.id/media/posts/33/responsive/hasil-pencarian-google-belajar-automation-xs.png 300w ,https://fachrul.id/media/posts/33/responsive/hasil-pencarian-google-belajar-automation-sm.png 480w ,https://fachrul.id/media/posts/33/responsive/hasil-pencarian-google-belajar-automation-md.png 768w ,https://fachrul.id/media/posts/33/responsive/hasil-pencarian-google-belajar-automation-lg.png 1024w ,https://fachrul.id/media/posts/33/responsive/hasil-pencarian-google-belajar-automation-xl.png 1360w ,https://fachrul.id/media/posts/33/responsive/hasil-pencarian-google-belajar-automation-2xl.png 1600w">
 <figcaption >hasil pencarian kata kunci 'belajar automation' pada google search</figcaption>
 </figure>
 <p>Selector pun adakalanya bersifat tidak unik, seperti pada halaman pencarian google diatas, search result pada umumnya berupa list yang identik secara rupa dan bentuk, karena memiliki stylesheet (CSS) yang sama, hanya isi yang beda, lantas bagaimana cara kita memilih element yang kita mau agar lebih akurat akan kita diskusikan nanti ya.</p>
@@ -1110,13 +1191,13 @@ assert len(results_title) &gt; 0
 </ol>
 <p>Di urutan 5 itu udah paling rawan banget deh, selector text emang bisa, tapi klo webnya support ganti bahasa bisa jadi ambyar itu loh. Lebih baik diobrolin lagi deh sama developer untuk mulai menuliskan identitas element yang kita mau jadi lebih unik lagi agar lebih testable.</p>
 <p>Sebagai perbandingan, kita coba lihat web tokopedia, mereka memiliki element khusus yang memudahkan QA membuat locator yang stabil</p>
-<figure class="post__image post__image--center" ><img loading="lazy" src="https://fachrul.id/media/posts/33/contoh-tokopedia-element-data.jpg" sizes="100vw" srcset="https://fachrul.id/media/posts/33/responsive/contoh-tokopedia-element-data-xs.jpg 300w ,https://fachrul.id/media/posts/33/responsive/contoh-tokopedia-element-data-sm.jpg 480w ,https://fachrul.id/media/posts/33/responsive/contoh-tokopedia-element-data-md.jpg 768w ,https://fachrul.id/media/posts/33/responsive/contoh-tokopedia-element-data-lg.jpg 1024w ,https://fachrul.id/media/posts/33/responsive/contoh-tokopedia-element-data-xl.jpg 1360w ,https://fachrul.id/media/posts/33/responsive/contoh-tokopedia-element-data-2xl.jpg 1600w"  alt="" width="1734" height="893">
+<figure class="post__image post__image--center" ><img loading="lazy" src="https://fachrul.id/media/posts/33/contoh-tokopedia-element-data.jpg" alt="" width="1734" height="893" sizes="100vw" srcset="https://fachrul.id/media/posts/33/responsive/contoh-tokopedia-element-data-xs.jpg 300w ,https://fachrul.id/media/posts/33/responsive/contoh-tokopedia-element-data-sm.jpg 480w ,https://fachrul.id/media/posts/33/responsive/contoh-tokopedia-element-data-md.jpg 768w ,https://fachrul.id/media/posts/33/responsive/contoh-tokopedia-element-data-lg.jpg 1024w ,https://fachrul.id/media/posts/33/responsive/contoh-tokopedia-element-data-xl.jpg 1360w ,https://fachrul.id/media/posts/33/responsive/contoh-tokopedia-element-data-2xl.jpg 1600w">
 <figcaption >Kode sumber Tokopedia menunjukan penggunaan data-testid sebagai penunjang selector strategy nya</figcaption>
 </figure>
 <p> </p>
 <p>Data-* adalah attribute baru di HTML5 dan termasuk atribut yang valid, enaknya punya atribut khusus macam ini tuh klo ada perubahan desain di UI yang biasanya akan pakai ID atau CLASS, test nya akan tetap sama dan stabil karena tidak terganggu</p>
 <p>Atau di bukalapak juga ada, bedanya disana pakai css class</p>
-<figure class="post__image post__image--center" ><img loading="lazy" src="https://fachrul.id/media/posts/33/contoh-element-qa-class-bukalapak.jpg" sizes="100vw" srcset="https://fachrul.id/media/posts/33/responsive/contoh-element-qa-class-bukalapak-xs.jpg 300w ,https://fachrul.id/media/posts/33/responsive/contoh-element-qa-class-bukalapak-sm.jpg 480w ,https://fachrul.id/media/posts/33/responsive/contoh-element-qa-class-bukalapak-md.jpg 768w ,https://fachrul.id/media/posts/33/responsive/contoh-element-qa-class-bukalapak-lg.jpg 1024w ,https://fachrul.id/media/posts/33/responsive/contoh-element-qa-class-bukalapak-xl.jpg 1360w ,https://fachrul.id/media/posts/33/responsive/contoh-element-qa-class-bukalapak-2xl.jpg 1600w"  alt="" width="1281" height="888">
+<figure class="post__image post__image--center" ><img loading="lazy" src="https://fachrul.id/media/posts/33/contoh-element-qa-class-bukalapak.jpg" alt="" width="1281" height="888" sizes="100vw" srcset="https://fachrul.id/media/posts/33/responsive/contoh-element-qa-class-bukalapak-xs.jpg 300w ,https://fachrul.id/media/posts/33/responsive/contoh-element-qa-class-bukalapak-sm.jpg 480w ,https://fachrul.id/media/posts/33/responsive/contoh-element-qa-class-bukalapak-md.jpg 768w ,https://fachrul.id/media/posts/33/responsive/contoh-element-qa-class-bukalapak-lg.jpg 1024w ,https://fachrul.id/media/posts/33/responsive/contoh-element-qa-class-bukalapak-xl.jpg 1360w ,https://fachrul.id/media/posts/33/responsive/contoh-element-qa-class-bukalapak-2xl.jpg 1600w">
 <figcaption >Kode sumber Bukalapak menunjukan penggunaan qa-* class sebagai penunjang selector strategy nya</figcaption>
 </figure>
 <h2>Jadi gimana sebenarnya selector / locator yang baik?</h2>
@@ -1147,233 +1228,6 @@ assert len(results_title) &gt; 0
 </ul>
 <p> </p>
 </div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Memulai Automation Test Selenium + Python (bagian 1)</title>
-        <author>
-            <name>Fachrul Choliluddin</name>
-        </author>
-        <link href="https://fachrul.id/memulai-automation-test-selenium-python-bagian-1/"/>
-        <id>https://fachrul.id/memulai-automation-test-selenium-python-bagian-1/</id>
-            <category term="tutorials"/>
-            <category term="automation-python"/>
-
-        <updated>2020-05-19T23:59:00+07:00</updated>
-            <summary>
-                <![CDATA[
-                    Hi Kawan, Sesuai dengan post sebelumnya, pada kesempatan kali ini saya akan berbagi resep tentang membuat automation test framework dengan menggunakan bahasa pemrograman python + selenium, jadi di akhir sesi kamu pasti bisa membuat otomatisasi pengujian pada browser Google Chrome ya (kalau setup nya benar)&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>Hi Kawan,</p>
-<p>Sesuai dengan post sebelumnya, pada kesempatan kali ini saya akan berbagi resep tentang membuat automation test framework dengan menggunakan bahasa pemrograman python + selenium, jadi di akhir sesi kamu pasti bisa membuat otomatisasi pengujian pada browser Google Chrome ya (kalau setup nya benar) 😅</p>
-<h3>Kenapa membuat tutorial automation test dengan python?</h3>
-<p>Tujuannya saya buat tutorial kali ini adalah untuk memperkaya khasanah tutorial bahasa Indonesia pada automation test menggunakan bahasa pemrograman python, dimana mayoritas hasil penelusuran yang ada di gugle menggunakan bahasa pemrograman java ataupun javascript.</p>
-<hr>
-<p>Post ini merupakan rangkaian post mengenai membuat automationt test dengan python</p>
-<h4>Daftar isinya:</h4>
-<ol>
-<li><a href="https://fachrul.id/mau-belajar-automation-test-dengan-python-mulai-dari-mana/" target="_blank" rel="noopener noreferrer">Belajar Python dari dasar</a></li>
-<li><a href="https://fachrul.id/belajar-pytest-framework-1/" target="_blank" rel="noopener noreferrer">Memahami cara kerja Pytest (bagian 1)</a> </li>
-<li><a href="https://fachrul.id/memulai-automation-test-selenium-python-bagian-1/" target="_blank" rel="noopener noreferrer">Mulai membuat automation test dengan Selenium</a>  &lt;== Sekarang disini</li>
-<li><a href="https://fachrul.id/selector-locator-strategy-yang-baik/" target="_blank" rel="noopener noreferrer">Menemukan Element dengan locator strategi yang baik</a> </li>
-</ol>
-<hr>
-<p> </p>
-<h2>Yuk kita mulai!!!</h2>
-<p>Sebentar.. sebentar.. bentuk tutorial yang akan saya share adalah perpaduan dari video tutorial dan blog post, jadi kedua medium pembelajaran ini akan saling melengkapi, untuk video bisa diakses disini:</p>
-<div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/dApgg02293I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
-<p>Lalu catatan pada video akan merujuk pada postingan disini</p>
-<h2>Tools yang digunakan</h2>
-<p>Hal pertama yang kita perlukan adalah interpreter kode python sudah terinstall di laptop/komputer kamu, terlepas dari sistem operasi apapun (windows/macOS/linux) saya asumsikan command `python atau python3` bisa dijalankan di terminal/command line kamu ya, jika belum, silahkan merujuk ke post <a href="https://fachrul.id/mau-belajar-automation-test-dengan-python-mulai-dari-mana/" target="_blank" rel="noopener noreferrer">pendahuluan python saya sebelumnya disini</a></p>
-<h3>Kode Editor</h3>
-<p>Editor python ada banyak, dimulai dari yang ada di terminal seperti vim, kode editor ringan dan lengkap seperti:</p>
-<ol>
-<li><a href="https://www.sublimetext.com" target="_blank" rel="noopener noreferrer">sublime</a></li>
-<li><a href="https://code.visualstudio.com" target="_blank" rel="noopener noreferrer">visual code</a></li>
-<li><a href="https://atom.io" target="_blank" rel="noopener noreferrer">atom</a></li>
-<li>ataupun IDE yang kumplit seperti <a href="https://www.jetbrains.com/education/download/" target="_blank" rel="noopener noreferrer">PyCharm Edu</a>.</li>
-</ol>
-<p>Sebagai pendamping dalam menulis kode python saya biasanya akan menginstal pula <a href="http://kite.com" target="_blank" rel="noopener noreferrer">Kite</a> sebagai tambahan autocomplete dan documentation di local tapi ini opsional sih, ga di install juga gapapa (ukuran file nya gede sih ahaha)</p>
-<h3>Chromedriver</h3>
-<p>Bisa diunduh di : <a href="https://chromedriver.chromium.org/downloads">https://chromedriver.chromium.org/downloads</a> </p>
-<p>Lalu tambahkan directory binary chromedriver ke sistem path kamu, (windows bisa taruh chromedriver.exe di folder c:\windows\System32 klo linux bisa tambahkan di path via ~/.bash_profile atau ~/.zshrc kamu. Atau klo macOS bisa lebih mudah tinggal jalankan perintah berikut di terminal <code class="language-shell">brew cask install chromedriver</code></p>
-<h3> Python Packaging Tools</h3>
-<p>Salah satu best practice pemrograman python adalah memiliki packaging tools yang menjadi depedency management library python agar tidak saling bertabrakan, jadi diperlukan virtual environment, kita akan menggunakan `pipenv` untuk itu, jalankan perintah berikut di terminal</p>
-<pre><code class="language-shell-session"><span class="gp">$ pip install pipenv<br></span></code></pre>
-<p>atau klo gagal karena km menggunakan python3 bisa menggunakan command `pip3 install pipenv` </p>
-<p>Nah yuk kita mulai kodingnya.. Silahkan liat videonya ya</p>
-<p>Skenario test yang dijalankan</p>
-<pre><code class="language-gherkin">Scenario: Search Profile in Google</code><br><code class="language-gherkin">Given I am in google home page</code><br><code class="language-gherkin">When I search for "Fachrul Choliluddin"</code><br><code class="language-gherkin">Then I should see search result of "Fachrul Choliluddin"</code></pre>
-<h2>Apa itu Selector?</h2>
-<p><em>Selector</em> adalah sebuah format yang digunakan oleh library seperti <em>Selenium</em> dan <em>Capybara</em> untuk menemukan elemen pada web seperti gambar, tulisan, tombol, dan sebagainya. Untuk bisa menggunakan <em>Selector</em> akan lebih baik jika anda mengenal HTML terlebih dahulu. Kamu bisa lihat materinya <a href="https://www.w3schools.com/html/" rel="nofollow">disini</a>.</p>
-<h2>Apa itu CSS Selector?</h2>
-<p><em>CSS</em> adalah sebuah notasi (<em>selector</em>) yang digunakan untuk menemukan elemen tertentu pada halaman web. CSS sendiri digunakan oleh web developer untuk memberikan <em>style</em> pada halaman web seperti warna, besar dan lebar gambar, bentuk tombol, dan berbagai fungsi lainnya. Properti-properti pada CSS ini bisa kita manfaatkan untuk mendeteksi sebuah elemen pada web.</p>
-<h2>Cara Menggunakan CSS selector</h2>
-<p>Sebenarnya kita sudah menggunakan syntax CSS pada lesson sebelumnya. Yaitu <code>#login_link</code>. Dimana kita memanfaatkan elemen <code>id</code> pada tombol login untuk mendeteksi keberadaan tombol login.</p>
-<p>Materi mengenai CSS sendiri sangat luas, sehingga kamu bisa baca mengenai CSS lebih lanjut <a href="https://www.w3schools.com/css/" rel="nofollow">disini</a>.</p>
-<h2>Apa itu XPath?</h2>
-<p><em>XPath</em> adalah sebuah notasi (<em>selector</em>) yang digunakan untuk menemukan elemen tertentu pada halaman web. <em>Xpath</em> memiliki bentuk syntax yang lebih fleksibel jika dibandingkan dengan CSS. Sehingga lebih umum digunakan untuk mencari elemen web yang tidak bisa dicari oleh <em>selector</em> CSS.</p>
-<h2>Mengapa Memakai XPath?</h2>
-<p>Misalkan saya punya halaman web dengan format HTML seperti ini ...</p>
-<div class="highlight highlight-text-html-basic">
-<pre>&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>parent<span class="pl-pds">"</span></span>&gt;
-    &lt;<span class="pl-ent">h2</span>&gt;Ayam&lt;/<span class="pl-ent">h2</span>&gt;
-    &lt;<span class="pl-ent">p</span>&gt;Ayam adalah salah satu unggas yang bisa dimakan&lt;/<span class="pl-ent">p</span>&gt;
-    &lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>child<span class="pl-pds">"</span></span>&gt;
-        &lt;<span class="pl-ent">h3</span>&gt;Gambar Ayam&lt;/<span class="pl-ent">h3</span>&gt;
-        &lt;<span class="pl-ent">img</span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>ayam_image<span class="pl-pds">"</span></span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>ayam.jpg<span class="pl-pds">"</span></span> <span class="pl-e">alt</span>=<span class="pl-s"><span class="pl-pds">"</span>Smiley face<span class="pl-pds">"</span></span> <span class="pl-e">height</span>=<span class="pl-s"><span class="pl-pds">"</span>42<span class="pl-pds">"</span></span> <span class="pl-e">width</span>=<span class="pl-s"><span class="pl-pds">"</span>42<span class="pl-pds">"</span></span>&gt;
-        &lt;<span class="pl-ent">p</span>&gt;Ini adalah gambar ayam&lt;/<span class="pl-ent">p</span>&gt;
-    &lt;/<span class="pl-ent">div</span>&gt;
-&lt;/<span class="pl-ent">div</span>&gt;</pre>
-</div>
-<p>Anda bisa menggunakan <em>selector</em> CSS untuk mengambil elemen image dengan cara seperti ini.</p>
-<div class="highlight highlight-source-ruby">
-<pre>driver.find_element_by_css_selector(<span class="pl-s"><span class="pl-pds">'</span>#ayam_image<span class="pl-pds">'</span></span>)</pre>
-</div>
-<p>Atau menggunakan XPath dengan cara berikut</p>
-<div class="highlight highlight-source-ruby">
-<pre>driver.find_element_xpath(<span class="pl-pds">'</span>//img<span class="pl-pds">'</span>)</pre>
-</div>
-<p>Atau</p>
-<div class="highlight highlight-source-ruby">
-<pre>driver.find_element(by=By.XPATH, value=<span class="pl-pds">'</span>//*[@id="ayam_image"]<span class="pl-pds">'</span>)</pre>
-</div>
-<p> </p>
-<div class="highlight highlight-source-ruby"> </div>
-<p>Dan sebagainya ...</p>
-<p>Intinya, <em>XPath</em> menawarkan banyak metode alternatif untuk mencari suatu elemen pada halaman web.</p>
-<p>Materi mengenai <em>XPath</em> sendiri sangat luas, sehingga kamu bisa baca mengenai CSS lebih lanjut <a href="https://www.w3schools.com/xml/xpath_intro.asp" rel="nofollow">disini</a>.</p>
-<h2>Perbandingan CSS vs xPath</h2>
-<table>
-<thead>
-<tr>
-<th>XPath</th>
-<th>Css</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>//div/a</td>
-<td>div &gt; a</td>
-</tr>
-<tr>
-<td>//div//a</td>
-<td>div a</td>
-</tr>
-<tr>
-<td>//div[@id='example']</td>
-<td>#example</td>
-</tr>
-<tr>
-<td>//div[@class='example']</td>
-<td>.example</td>
-</tr>
-<tr>
-<td>//input[@id='username']/following-sibling::input[1]</td>
-<td>#username + input</td>
-</tr>
-<tr>
-<td>//input[@name='username']</td>
-<td>input[name='username']</td>
-</tr>
-<tr>
-<td>//input[@name='login'and @type='submit']</td>
-<td>input[name='login'][type='submit']</td>
-</tr>
-<tr>
-<td>a[contains(text(), 'Log out')]</td>
-<td>a:contains('Log Out')</td>
-</tr>
-<tr>
-<td> </td>
-<td>#recordlist li:nth-of-type(4)</td>
-</tr>
-<tr>
-<td> </td>
-<td> a[id^='id_prefix_']</td>
-</tr>
-<tr>
-<td> </td>
-<td> a[id$='_id_sufix']</td>
-</tr>
-<tr>
-<td> </td>
-<td> a[id*='id_pattern']</td>
-</tr>
-<tr>
-<td> </td>
-<td> </td>
-</tr>
-</tbody>
-</table>
-<p> </p>
-<p>Command yang dijalankan:<br><br></p>
-<table style="width: 681px;">
-<tbody>
-<tr>
-<td style="width: 280.984px;">➜ pipenv --three</td>
-<td style="width: 399.016px;">Inisiasi directory sebagai virtual environment yang baru dengan python3</td>
-</tr>
-<tr>
-<td style="width: 280.984px;">➜ pipenv shell</td>
-<td style="width: 399.016px;">mengaktivasi virtual environment</td>
-</tr>
-<tr>
-<td style="width: 280.984px;">➜ pip freeze</td>
-<td style="width: 399.016px;">melihat daftar isi library yang sudah di terpasang di virtual environment </td>
-</tr>
-<tr>
-<td style="width: 280.984px;">➜ pipenv install selenium</td>
-<td style="width: 399.016px;">memasang library selenium</td>
-</tr>
-<tr>
-<td style="width: 280.984px;">➜ pipenv install pytest</td>
-<td style="width: 399.016px;">memasang library pytest</td>
-</tr>
-<tr>
-<td style="width: 280.984px;">➜ chromedriver -v</td>
-<td style="width: 399.016px;">cek versi chromedriver</td>
-</tr>
-<tr>
-<td style="width: 280.984px;">➜ python test_googling.py</td>
-<td style="width: 399.016px;">menjalankan kode python</td>
-</tr>
-<tr>
-<td style="width: 280.984px;">➜ pytest</td>
-<td style="width: 399.016px;">menjalankan module pytest di directory aktif</td>
-</tr>
-<tr>
-<td style="width: 280.984px;">➜ pytest -s</td>
-<td style="width: 399.016px;">menjalankan pytest disertai stdout untuk print console</td>
-</tr>
-</tbody>
-</table>
-<p> Link terkait:</p>
-<table style="width: 681px;">
-<tbody>
-<tr>
-<td style="width: 339.984px;"><a href="https://selenium-python.readthedocs.io">https://selenium-python.readthedocs.io</a> </td>
-<td style="width: 340.016px;">Dokumentasi library selenium pada python</td>
-</tr>
-<tr>
-<td style="width: 339.984px;"><a href="https://docs.pytest.org/en/latest/">https://docs.pytest.org/en/latest/</a> </td>
-<td style="width: 340.016px;">Dokumentasi pytest </td>
-</tr>
-<tr>
-<td style="width: 339.984px;"> </td>
-<td style="width: 340.016px;"> </td>
-</tr>
-</tbody>
-</table>
-<p> </p>
-<br>
-<p> </p>
-<p> </p>
-<p> </p>
             ]]>
         </content>
     </entry>
