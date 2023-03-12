@@ -3,12 +3,126 @@
     <title>Catatan celoteh @FachrulCH</title>
     <link href="https://fachrul.id/feed.xml" rel="self" />
     <link href="https://fachrul.id" />
-    <updated>2023-03-12T15:18:41+04:00</updated>
+    <updated>2023-03-12T16:31:57+04:00</updated>
     <author>
         <name>Fachrul Choliluddin</name>
     </author>
     <id>https://fachrul.id</id>
 
+    <entry>
+        <title>Apa yang Harus QA Update di Daily Scrum/Standup Meeting?</title>
+        <author>
+            <name>Fachrul Choliluddin</name>
+        </author>
+        <link href="https://fachrul.id/apa-yang-harus-qa-update-di-daily-scrumstandup-meeting/"/>
+        <id>https://fachrul.id/apa-yang-harus-qa-update-di-daily-scrumstandup-meeting/</id>
+        <media:content url="https://fachrul.id/media/posts/54/memikirqan-1.jpg" medium="image" />
+            <category term="tutorials"/>
+            <category term="teamwork"/>
+            <category term="agile"/>
+            <category term=" meeting"/>
+
+        <updated>2023-03-12T16:31:57+04:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://fachrul.id/media/posts/54/memikirqan-1.jpg" alt="" />
+                    Apakah kamu suka bingung mau update apa ya buat standup meeting? Masih ngerjain yang sama kayak hari kemarin? Akan semakin panjang kalau saya bahas disini, ada artikel medium yang menggambarkan persis seperti apa itu daily scrum/standup meeting disini: Umumnya saat daily scrum tim akan menjawab&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://fachrul.id/media/posts/54/memikirqan-1.jpg" class="type:primaryImage" alt="" /></p>
+                <p class="graf graf--p">Apakah kamu suka bingung mau update apa ya buat standup meeting? Masih ngerjain yang sama kayak hari kemarin?</p>
+<h3 class="graf graf--h3">Apaan tuh daily standup meeting?</h3>
+<p class="graf graf--p">Akan semakin panjang kalau saya bahas disini, ada artikel medium yang menggambarkan persis seperti apa itu daily scrum/standup meeting disini:</p>
+<div class="graf graf--mixtapeEmbed"><a href="https://medium.com/belajar-scrum/kenalan-dengan-daily-scrum-e7a35dae51ff" data-href="https://medium.com/belajar-scrum/kenalan-dengan-daily-scrum-e7a35dae51ff" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/belajar-scrum/kenalan-dengan-daily-scrum-e7a35dae51ff"><strong class="markup--strong markup--mixtapeEmbed-strong">Daily Scrum untuk Komunikasi Efektif dalam Tim</strong><br><em class="markup--em markup--mixtapeEmbed-em">Apa praktik dalam Scrum yang membuat komunikasi Development Team tetap terjaga dengan baik selama kerja pengembangan…</em>medium.com</a><a href="https://medium.com/belajar-scrum/kenalan-dengan-daily-scrum-e7a35dae51ff" class="js-mixtapeImage mixtapeImage u-ignoreBlock" data-media-id="1c917ec926be14867a7afdca90fe84c9" data-thumbnail-img-id="1*QD1Qrje-1PVybwXLs4mRcQ.png"></a></div>
+<p class="graf graf--p">Umumnya saat daily scrum tim akan menjawab pertanyaan template seperti:</p>
+<ul class="postList">
+<li class="graf graf--li">Apa yang dilakukan dari Daily Scrum sebelumnya sampai saat ini?</li>
+<li class="graf graf--li">Apa yang akan dilakukan hari ini sampai Daily Scrum berikutnya?</li>
+<li class="graf graf--li">Apakah ada kesulitan/hambatan untuk mencapai tujuan Sprint?</li>
+<li class="graf graf--li">(opsional) Siapa seseorang yang bisa diminta bantuannya?</li>
+</ul>
+<p class="graf graf--p">Tapi seringkali saya merasakan daily scrum ini seperti meeting basi dan buang waktu karena ada beberapa kesalahan yang umumnya terjadi pada tim</p>
+<hr>
+<p>Oia gw juga bikin versio videonya di youtube NgeTest bareng Fachrul ya:</p>
+<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/qBw0nfT2Iwc" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
+<h3 class="graf graf--h3">Apa yang harus QA update pada tim saat Daily Scrum</h3>
+<p class="graf graf--p">Ada banyak, bisa jadi tergantung dari timeline projectnya, tapi sebelum saya bahas lebih jauh, kita coba dulu bedah kesalahan umum yang sering terjadi pada tim scrum, dan QA bisa berperan untuk meningkatkan kualitas meeting daily scrum/daily standup meeting ini juga loh</p>
+<h3 class="graf graf--h3">Kesalahan yang sering terjadi pada Daily Scrum</h3>
+<p class="graf graf--p">Beberapa hal berikut ini bikin daily scrum menjadi membosankan dan tidak menarik, diantaranya karena masalah:</p>
+<ul class="postList">
+<li class="graf graf--li">jumlah peserta meeting terlalu banyak, jadi tiap orang dapet jatah yang singkat</li>
+<li class="graf graf--li">ga nyimak update dari teman lain, sibuk mikirin “duh gw mau update apa ya”</li>
+<li class="graf graf--li">justifikasi kesibukan, “gw tuh udah ngerjain banyak kemaren, hari ini banyak banget tugas, gada blocker, gw bisa ngerjain sendiri”</li>
+</ul>
+<p class="graf graf--p">Apakah diantara poin di atas tadi, ada yang kejadian juga di tim kamu?</p>
+<h3 class="graf graf--h3">Gimana Cara Update Daily Scrum yang Baik</h3>
+<p class="graf graf--p">Interaktif dan engagment tinggi adalah tanda utama kalau kamu udah menjalankan daily scrum yang baik, plis jangan sampe update cuma 10 detik di update ini, berasa hambar gimana gitu ya kan!</p>
+<p class="graf graf--p">Padahal tujuan adanya rapat singkat ini kan bagus banget, diantaranya kayak:</p>
+<ul class="postList">
+<li class="graf graf--li">Informasi perkembangan terkini fitur yang sedang dikerjakan</li>
+<li class="graf graf--li">Kesempatan untuk gotong royong menyelesaikan masalah</li>
+<li class="graf graf--li">Memperjuangkan sprint goal</li>
+<li class="graf graf--li">Transparansi</li>
+<li class="graf graf--li">Prioritas yang jelas</li>
+</ul>
+<hr>
+<p class="graf graf--p">Okey kita akan bahas dari sudut pandang “pendengar” dan “pembicara” di standup ini ya</p>
+<h3 class="graf graf--h3">Sebagai Pembicara</h3>
+<p class="graf graf--p">Sebagai QA kita bisa membicarakan banyak hal loh sebenernya, saya bagi lagi ke dalam beberapa bagian Timeline ya:</p>
+<h4 class="graf graf--p">Diawal Sprint</h4>
+<p class="graf graf--p">Biasanya diawal sprint belum ada story yang bisa di test, jadi disini kita bisa update seperti:</p>
+<ul class="postList">
+<li>insigt dari rilis sebelumnya
+<ul class="postList">
+<li>update persentase rollout sekarang udah di berapa persen</li>
+<li>bugs apa aja yang kejadian (crash)</li>
+<li>adopsi user udah berapa banyak update di versi baru</li>
+<li>apakah perlu direncanakan hotfix/patch dari issue baru</li>
+</ul>
+</li>
+<li class="graf graf--li">review requirement document/design</li>
+<li class="graf graf--li">bikin test scenario, ataupun bikin test plan buat fitur tsb</li>
+<li class="graf graf--li">hasil investigasi production bugs</li>
+<li class="graf graf--li">penambahan test case automation</li>
+<li class="graf graf--li">kolaborasi dengan tim lain </li>
+<li class="graf graf--li">belajar module lain yang ada kena dampak perubahan fitur baru nanti</li>
+<li class="graf graf--li">persiapan test data untuk fitur</li>
+</ul>
+<p class="graf graf--p">dan perlu diingat siasat yang satu ini agar lebih menarik:</p>
+<blockquote class="graf graf--blockquote">mention nama teman agar mendapatkan perhatiannya saat kita memberikan update</blockquote>
+<p class="graf graf--p">Contoh:</p>
+<ul class="postList">
+<li class="graf graf--li">Kayaknya gw perlu bantuan mas Ahmad deh buat copy data production biar nanti test fitur A lebih gampang</li>
+<li class="graf graf--li">Klo mas Kamil ga sibuk abis makan siang, gw mau ngajak pairing soal temuan production bugs, gw udah/belum bisa reproduce bugsnya</li>
+<li class="graf graf--li">Mas Bagus, Gw udah siapin test data buat nanti bagian fitur A, jadi klo ada yang perlu buat test implementasi koding, pake aja dulu silakan</li>
+<li class="graf graf--li">Ada yang bisa bantu gw ga nih, ada issue di test automation soal element nya tiba-tiba selectornya ganti sendiri</li>
+</ul>
+<h4 class="graf graf--p graf--empty">Pertengahan Sprint</h4>
+<p>Biasanya ada feature testing yang lagi dikerjain, kita bisa update progress pengerjaan tiket di board Jira/Scrum, issue yang ditemukan, edge case apa yang perlu di test, contoh:</p>
+<ul>
+<li>Kemarin ada test tiket JIRA-150 soal (contoh ya) pembayaran QRIS, happy flow nya udah, nah hari ini mau lanjut test negative cases dan edge cases, kayak lagi scan internet mati, saldonya kepotong service laen sebelum confirm, dst</li>
+<li>Kemarin test tiket JIRA-150, tapi ada bugs nya nih Mas Kunto, pas pembayaran QRIS di android 7.0, keknya libaray nya ga kompatible</li>
+<li>Automation test nya failed pagi ini, keknya karena ada changes yang baru di deploy, mo liat dlu ini failed karena valid new bugs, atau test nya perlu di adjust dengan accepatance criteria baru</li>
+<li>Hari ini mau prepare data testing buat tiket JIRA-150, keknya perlu beberapa persona user yang harus di test, ada BE dev yang bisa bantu buat replicate producetion data kah?</li>
+</ul>
+<h4>Diakhir Sprint</h4>
+<p>Bisa followup issue apa aja yang masih open, dan jadi prioritas sebelum rilis ke real user, trus juga dokumen apa aja yang perlu disiapin dan rencana rilisnya kapan dan persentase rollout</p>
+<hr>
+<h3 class="graf graf--h3">Sebagai Pendengar</h3>
+<p class="graf graf--p">Daily scrum tentu akan bahas mengenai deliverable task dalam satu sprint, biasanya diawal sprint sudah dijelaskan sprint goalsnya apa, story dalam sprint, nah pada saat standup ini kesempatan kita untuk mengecek (dalam bentuk pertanyaan) implementasi yang dilakukan oleh Dev, approach apa yang jadinya diambil.</p>
+<p class="graf graf--p">Jadi perlu disimak update dari tim Developer, pastikan mereka memberikan gambaran implementasi story tersebut, dengan asumsi kamu juga udah baca story tersebut, dan acceptance criteria sudah dibuat, tentu kamu akan memiliki gambaran fiturnya akan jadi seperti apa, jika kamu melihat peluang untuk bertanya silakan tanya, agar dev bisa update kepada yang lain juga untuk menghindari surprise diakhir, ataupun beberapa.</p>
+<p>Contoh:</p>
+<ul>
+<li>Mas Kunto, mau tanya soal implementasi scan QRIS baru itu jadinya lo mau pake library baru? apakah ada impact ke SDK lama? ada refactor ke modul lama?</li>
+<li>Mba Ani, acceptance criteria di tiket JIRA-150 keknya kurang cover case klo usernya suspend deh, itu di handle di frontend apa backend buat validasinya?</li>
+</ul>
+<h4>Tambahan</h4>
+<p>Catat poin penting tiap harinya, buat bekal nanti retrospective meeting mau bahas apa, misal bisa dicatet: Si A explore librarynya kelamaan sampe 4 hari, harusnya senior bisa bantuk biar lebih cepet 😅, dkk. biasanya klo dipikirin saat persis sebelum retrospective suka ga ke recall kejadian buruk sehari-hari itu</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Belajar Critical Thinking Software Tester dari Anekdot Kode di Mug</title>
         <author>
@@ -1098,135 +1212,6 @@ def test_kotakab_jabar():<br>   ...</code></pre>
 <h2>Pytest Fixtures</h2>
 <p>Nah bagian ini sebenarnya yang menurut saya paling keren dari pytest, tapi berhubung postingan kali ini sudah cukup panjang, maka informasi lebih lanjut terkait fixture akan disambung di post selanjutnya ya, dengan contoh framework pada web ui testing</p>
 <p>Bersambung ...</p>
-</div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Selector (Locator) Strategy adalah koentji dari Test Automation</title>
-        <author>
-            <name>Fachrul Choliluddin</name>
-        </author>
-        <link href="https://fachrul.id/selector-locator-strategy-yang-baik/"/>
-        <id>https://fachrul.id/selector-locator-strategy-yang-baik/</id>
-        <media:content url="https://fachrul.id/media/posts/33/gugel-selector.png" medium="image" />
-            <category term="tutorials"/>
-            <category term="automation-python"/>
-            <category term="Tester Gadungan"/>
-
-        <updated>2020-05-19T20:58:24+04:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://fachrul.id/media/posts/33/gugel-selector.png" alt="selector strategy yang baik" />
-                    Hi kawan, Jika kamu berkecimpung di pemrograman automation test menggunakan selenium / appium tentunya kamu sudah paham banget kalau sampe salah selector (locator) maka kamu telah membuang banyak waktu karena selector yang kamu telah tuliskan tidak ditemukan dan harus re-run lagi 😭 Menemukan element pada tampilan aplikasi&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://fachrul.id/media/posts/33/gugel-selector.png" class="type:primaryImage" alt="selector strategy yang baik" /></p>
-                <p>Hi kawan,</p>
-<p>Jika kamu berkecimpung di pemrograman automation test menggunakan selenium / appium tentunya kamu sudah paham banget kalau sampe salah selector (locator) maka kamu telah membuang banyak waktu karena selector yang kamu telah tuliskan tidak ditemukan dan harus re-run lagi 😭</p>
-<p>Menemukan element pada tampilan aplikasi seperti buttons, inputs, divs, checkboxes ataupun anchor tag terkadang cukup "menantang", terutama ketika tidak adanya ke-unikan ataupun identitas yang jelas pada element tersebut, bahakan pernah saya menguji aplikasi yang ID nya selalu berubah karena digenerate otomatis oleh library front end nya. Alamakjang 😵</p>
-<hr>
-<p>Post ini merupakan rangkaian post mengenai membuat automationt test dengan python</p>
-<h4>Daftar isinya:</h4>
-<ol>
-<li><a href="https://fachrul.id/mau-belajar-automation-test-dengan-python-mulai-dari-mana/" target="_blank" rel="noopener noreferrer">Belajar Python dari dasar</a></li>
-<li><a href="https://fachrul.id/belajar-pytest-framework-1/" target="_blank" rel="noopener noreferrer">Memahami cara kerja Pytest (bagian 1)</a> </li>
-<li><a href="https://fachrul.id/memulai-automation-test-selenium-python-bagian-1/" target="_blank" rel="noopener noreferrer">Mulai membuat automation test dengan Selenium</a></li>
-<li><a href="https://fachrul.id/selector-locator-strategy-yang-baik/" target="_blank" rel="noopener noreferrer">Menemukan Element dengan locator strategi yang baik</a> &lt;== Sekarang disini</li>
-</ol>
-<hr>
-<p> </p>
-<h2>Apa sih web/mobile elements itu?</h2>
-<p>Terjemahan ala saya sih ia adalah sebuah element adalah entitas pada aplikasi yang di render menjadi halaman web ataupun user interface pada mobile app. Jadi apapun yang dilihat oleh pengguna (termasuk yang ga keliatan sih) adalah element, seperti buttons submit, foto profile, navigasi halaman.</p>
-<p>Biasanya bentuknya berupa HTML pada web ataupun XML pada mobile apps, jadi bisa dikatakan memiliki struktur seperti tag name, attributes dan contents, termasuk kedalam hierarki posisinya.</p>
-<p>Untuk pembahasan ini saya cenderung membahas element pada web, untuk mobile apps akan dibahas lebih rinci di lain kesempatan karena perbedaan struktur source code tampilan lintas platformnya, tapi masih sangat relevan dengan mobile apps terutama mobile browser ya gaes.</p>
-<h2>Nah itu kan baru element, trus selector itu apa?</h2>
-<p>Jadi selector ataupun locator adalah sebuah bentuk query untuk mengakses element tertentu yang ada di halaman aplikasi, nah untuk website biasanya object hasil query locator ini disebut node yang terletak di Document Object Model (DOM)</p>
-<p>Perlunya selector element pada aplikasi adalah sebagai awal mula interaksi automation. Setelah selenium/appium menemukan element sesuai selector maka kamu bisa mengakses method di element itu seperti meng-click button, menginput text, ataupun mengambil text pada element tersebut.</p>
-<h2>Kenapa kok perlu banget selector?</h2>
-<p>Jadi gini, sebagai manusia yang menggunakan aplikasi tentu kita tidak perlu selector untuk berinteraksi dengan aplikasi, kita bisa menggunakan indera penglihatan untuk menjalankan aksi seperti submit form, scrolling halaman, click sana sini di halaman web, tapi tidak begitu bagi test automation yang harus menerjemahkan interaksi manusia tadi ke istilah yang komputer bisa mengerti secara programatis. Jadi selenium/appium ga akan melihat aplikasi sebagaimana kita kita melihat tampilannya, tapi ia akan melihatnya secara source code struktural seperti html/xml (catatan: tapi jaman now, sedang gandrung library/tools yang mendukung visual testing juga loh seperti <a href="https://applitools.com" target="_blank" rel="noopener noreferrer">applitools</a>, <a href="https://www.mabl.com" target="_blank" rel="noopener noreferrer">mabl</a>, <a href="http://test.ai/" target="_blank" rel="noopener noreferrer">test.ai</a> dkk)</p>
-<h2>Hmm gitu ya.. Bentuk element itu seperti apa sih?</h2>
-<p>Sebagai contoh kita akan bedah element di google.co.id ya, coba pada browser chrome kamu (sama juga pada firefox ataupun safari) klik kanan pada kotak pencarian trus pilih opsi menu "Inspect" maka akan muncul jendela Developer tool, pada Tab aktif "Elements", seperti ini gambarannya: (kamu coba juga donk ah)</p>
-<figure class="post__image post__image--center" ><img loading="lazy" src="https://fachrul.id/media/posts/33/gugel.png" alt="" width="1764" height="901" sizes="100vw" srcset="https://fachrul.id/media/posts/33/responsive/gugel-xs.png 300w ,https://fachrul.id/media/posts/33/responsive/gugel-sm.png 480w ,https://fachrul.id/media/posts/33/responsive/gugel-md.png 768w ,https://fachrul.id/media/posts/33/responsive/gugel-lg.png 1024w ,https://fachrul.id/media/posts/33/responsive/gugel-xl.png 1360w ,https://fachrul.id/media/posts/33/responsive/gugel-2xl.png 1600w">
-<figcaption >tampilan inspect element pada google chrome</figcaption>
-</figure>
-<p>Pada gambar diatas saya memberikan keterangan nomer,  yang akan saya jelaskan sebagai berikut:</p>
-<ol>
-<li>Pada gambar no.1 diatas, kotak pencarian adalah target element yang kita lihat, nampak ada highlight warna biru di element tersebut</li>
-<li>Ini adalah kode sumber HTML dari halaman google.co.id yang aktif pada bagian kotak pencarian yaitu tag &lt;input/&gt; beserta atribut yang melekat pada nya</li>
-<li>Apa yang disarankan oleh browser chrome jika kamu mencari element kotak pencarian ini, ada tag dengan classnya, accessibility yang ada pada element tersebut</li>
-</ol>
-<p>Nah jika kita terjemahkan pada kode automation dengan python (yang kurang lebih akan sama juga dengan selenium bindder di bahasa pemrograman lainya) nampak seperti berikut:</p>
-<div>
-<pre><code class="language-python line-numbers">search_box = driver.find_element_by_name('q')
-# driver.find_element(By.NAME, 'q')  &lt;= atau alternatif bisa juga seperti ini
-search_box.send_keys('Belajar automation testing' + Keys.ENTER)</code></pre>
-</div>
-<p>di baris pertama saya akan membuat variable search_box yang isinya adalah element yang mengandung nama "q" seperti pada keterangan element search box yang saya tunjukan sebelumnya si kotak pencarian ini memiliki element &lt;input ... <span class="webkit-html-attribute-name">name</span>="<span class="webkit-html-attribute-value">q</span>" ... /&gt; nah disini selector yang kita ambil adalah attribut name sama dengan "q", di baris kedua adalah alternatif cara penulisan kode saja</p>
-<p>di baris berikutnya, adalah proses automation test code saya untuk berinteraksi dengan element tersebut yaitu mengirimkan perintah send keys alias ketikan kata Belajar automation testing pada kotak pencarian dilanjutkan dengan menekan tombol Enter</p>
-<figure class="post__image post__image--center" ><img loading="lazy" src="https://fachrul.id/media/posts/33/hasil-pencarian-google-belajar-automation.png" alt="" width="1749" height="890" sizes="100vw" srcset="https://fachrul.id/media/posts/33/responsive/hasil-pencarian-google-belajar-automation-xs.png 300w ,https://fachrul.id/media/posts/33/responsive/hasil-pencarian-google-belajar-automation-sm.png 480w ,https://fachrul.id/media/posts/33/responsive/hasil-pencarian-google-belajar-automation-md.png 768w ,https://fachrul.id/media/posts/33/responsive/hasil-pencarian-google-belajar-automation-lg.png 1024w ,https://fachrul.id/media/posts/33/responsive/hasil-pencarian-google-belajar-automation-xl.png 1360w ,https://fachrul.id/media/posts/33/responsive/hasil-pencarian-google-belajar-automation-2xl.png 1600w">
-<figcaption >hasil pencarian kata kunci 'belajar automation' pada google search</figcaption>
-</figure>
-<p>Selector pun adakalanya bersifat tidak unik, seperti pada halaman pencarian google diatas, search result pada umumnya berupa list yang identik secara rupa dan bentuk, karena memiliki stylesheet (CSS) yang sama, hanya isi yang beda, lantas bagaimana cara kita memilih element yang kita mau agar lebih akurat akan kita diskusikan nanti ya.</p>
-<p>Bisa jadi kebutuhan test kita pun perlu mendapatkan element yang lebih dari satu juga, katakan lah contoh diatas mau kita jadikan test code seperti ini jadinya (masih di bahasa python):</p>
-<div>
-<pre><code class="language-python line-numbers">results_title = driver.find_elements_by_css_selector('h3')
-assert len(results_title) &gt; 0
-</code></pre>
-<p> Dimana kebutuhannya memang menghitung jumlah dari hasil pencarian yang didapatkan dengan asusi kata kunci tersebut akan menemukan data pada halaman hasil pencarian, makanya kita memerlukan selector pada element judul pencarian yaitu &lt;h3&gt;</p>
-<p>Pada test framework yang besar umumnya mengadopsi design pattern "<a href="https://www.guru99.com/page-object-model-pom-page-factory-in-selenium-ultimate-guide.html" target="_blank" rel="noopener noreferrer">Page Object Model</a>" untuk mengelola selector / locator dan interaksi di halaman tertentu, ada juga sih yang mengadopsi <a href="https://www.infoq.com/articles/Beyond-Page-Objects-Test-Automation-Serenity-Screenplay" target="_blank" rel="noopener noreferrer">Screenplay Pattern</a> dimana sedikit ada perbedaan lokasi dimana selector disimpan pada kode automation testnya</p>
-<h2>Hmm.. trus gimana cara saya menemukan selector?</h2>
-<p>Sebenernya, cara untuk menentukan selector itu ada banyak, bisa dari element tag, id, class, attributes, isi text, bahkan relatif terhadap element parent/child/sibling juga bisa, bahkan yang saya sebutkan tadi bisa dikombinasikan juga loh. Wadidaw, banyak banget sih selector strategi yang bisa diterapkan. Dalam waktu dekat saya pun akan membuat video tutorial terkait berbagai penggunaan selector strategi, karena medium video lebih enak untuk langsung terjun praktek penggunaan, jadi jangan lupa <a href="https://www.youtube.com/channel/UCZVY3VNPkFs_iINTXEBWWgw" target="_blank" rel="noopener noreferrer">subscibe disini</a> ya gaes ahaha</p>
-<p>Kita harus hati-hati juga, penulisan selector yang salah mengharuskan kita re-run automation test dan ini mubazir waktu loh. Kalau selectornya terlalu luas bisa salah dalam menentukan element yang harusnya kita dapat, kalau terlalu spesifik malah rawan breaking ketika ada yang berubah di struktur DOM nya, kalau terlalu panjang jadi sulit untuk di baca oleh yang lain. Jadi gimana donk?</p>
-<p>Prinsip yang bisa dipegang dalam membuat selector / locator strategy yang saya pegang adalah <strong>Buatlah selector yang paling sederhana dalam menemukan keunikan element yang menjadi target kita</strong></p>
-<p> Nah biasanya urutannya seperti ini:</p>
-<ol>
-<li>Element nya punya ID (yang unik) kah? =&gt; pake ID aja</li>
-<li>CSS class nya spesifik dan cuma ada di element itu (untuk format) =&gt; pake CSS klo selector kalo gitu</li>
-<li>Masih nyampur nih klo pake strategi 1 atau 2 =&gt; yaudah kombinasikan aja kedua nya, jadi "#id .class" atau ".class #id"</li>
-<li>Waduh masih ga bisa nih, saya maunya element yang ke-4 dari filter 1-3 tadi =&gt; Oke tambahin posisi "#id li:nth-of-type(4)"</li>
-<li>Tapi saya maunya element yang mengandung text tertentu =&gt; pake xpath klo gitu //button[text()[contains(.,'Sebut Saja Mawar')]]</li>
-</ol>
-<p>Di urutan 5 itu udah paling rawan banget deh, selector text emang bisa, tapi klo webnya support ganti bahasa bisa jadi ambyar itu loh. Lebih baik diobrolin lagi deh sama developer untuk mulai menuliskan identitas element yang kita mau jadi lebih unik lagi agar lebih testable.</p>
-<p>Sebagai perbandingan, kita coba lihat web tokopedia, mereka memiliki element khusus yang memudahkan QA membuat locator yang stabil</p>
-<figure class="post__image post__image--center" ><img loading="lazy" src="https://fachrul.id/media/posts/33/contoh-tokopedia-element-data.jpg" alt="" width="1734" height="893" sizes="100vw" srcset="https://fachrul.id/media/posts/33/responsive/contoh-tokopedia-element-data-xs.jpg 300w ,https://fachrul.id/media/posts/33/responsive/contoh-tokopedia-element-data-sm.jpg 480w ,https://fachrul.id/media/posts/33/responsive/contoh-tokopedia-element-data-md.jpg 768w ,https://fachrul.id/media/posts/33/responsive/contoh-tokopedia-element-data-lg.jpg 1024w ,https://fachrul.id/media/posts/33/responsive/contoh-tokopedia-element-data-xl.jpg 1360w ,https://fachrul.id/media/posts/33/responsive/contoh-tokopedia-element-data-2xl.jpg 1600w">
-<figcaption >Kode sumber Tokopedia menunjukan penggunaan data-testid sebagai penunjang selector strategy nya</figcaption>
-</figure>
-<p> </p>
-<p>Data-* adalah attribute baru di HTML5 dan termasuk atribut yang valid, enaknya punya atribut khusus macam ini tuh klo ada perubahan desain di UI yang biasanya akan pakai ID atau CLASS, test nya akan tetap sama dan stabil karena tidak terganggu</p>
-<p>Atau di bukalapak juga ada, bedanya disana pakai css class</p>
-<figure class="post__image post__image--center" ><img loading="lazy" src="https://fachrul.id/media/posts/33/contoh-element-qa-class-bukalapak.jpg" alt="" width="1281" height="888" sizes="100vw" srcset="https://fachrul.id/media/posts/33/responsive/contoh-element-qa-class-bukalapak-xs.jpg 300w ,https://fachrul.id/media/posts/33/responsive/contoh-element-qa-class-bukalapak-sm.jpg 480w ,https://fachrul.id/media/posts/33/responsive/contoh-element-qa-class-bukalapak-md.jpg 768w ,https://fachrul.id/media/posts/33/responsive/contoh-element-qa-class-bukalapak-lg.jpg 1024w ,https://fachrul.id/media/posts/33/responsive/contoh-element-qa-class-bukalapak-xl.jpg 1360w ,https://fachrul.id/media/posts/33/responsive/contoh-element-qa-class-bukalapak-2xl.jpg 1600w">
-<figcaption >Kode sumber Bukalapak menunjukan penggunaan qa-* class sebagai penunjang selector strategy nya</figcaption>
-</figure>
-<h2>Jadi gimana sebenarnya selector / locator yang baik?</h2>
-<p>Kalau menurut saya, automation test menjadi stabil, locator yang baik itu harus memenuhi kriteria seperti:</p>
-<h4>Sederhana</h4>
-</div>
-<div>Semakin pendek penulisan query selector semakin baik dan stabil, contoh nya "#first_name".  Jangan gunakan attribut atau class yang merujuk ke css formating seperti class="col-sm" atau id="83924csdj" yang tampak seperti di generate otomatis oleh JS lib</div>
-<div> </div>
-<h4>Mudah dibaca</h4>
-<div>Jangan menulis query selector yang panjang ataupun sulit dibaca seperti:</div>
-<ul>
-<li>html/body/div[1]/section/div[1]/div/div/div/div[1]/div/div/div/div/div[3]/div[1]/div/h4[1]/b</li>
-<li>//*[@id="wakwaw"]//child::label//following-sibling::input[1]</li>
-</ul>
-<div> </div>
-<h4>Semantic</h4>
-<div>Artinya query yang dipilih harus sesuai kan dengan maksud element tersebut artinya lebih baik menuliskan selector seperti ini "input#kampus" daripada hanya "#kampus" agar lebih jelas lagi saat membaca kode yang di maksud id="kampus" adalah sebuah element input bukan div ataupun button</div>
-<div> </div>
-<h2>Jadi Kesimpulannya</h2>
-<div>Selector strategy yang baik berperan besar terhadap stabilitas automation code kamu, jika aplikasi yang akan di test tidak memungkinkan membuat selector yang baik, artinya sudah waktunya mengangkat issue testablility aplikasi dengan developer ataupun stakeholder agar test menjadi lebih stabil maka diperlukan sedikit tunning lagi pada kode sumber aplikasinya<br>
-<h2> Rujukan lebih lanjut</h2>
-<ul>
-<li><a href="https://blog.mozilla.org/fxtesteng/2013/09/26/writing-reliable-locators-for-selenium-and-webdriver-tests/">https://blog.mozilla.org/fxtesteng/2013/09/26/writing-reliable-locators-for-selenium-and-webdriver-tests/</a> </li>
-<li><a href="https://www.guru99.com/locators-in-selenium-ide.html">https://www.guru99.com/locators-in-selenium-ide.html</a> </li>
-<li><a href="https://www.guru99.com/xpath-selenium.html">https://www.guru99.com/xpath-selenium.html</a></li>
-<li><a href="https://selenium-python.readthedocs.io/locating-elements.html">https://selenium-python.readthedocs.io/locating-elements.html</a></li>
-<li><a href="https://gs.statcounter.com/browser-market-share">https://gs.statcounter.com/browser-market-share</a> Ternyata browser chrome masih paling banyak dipakai oleh orang seluruh dunia</li>
-</ul>
-<p> </p>
 </div>
             ]]>
         </content>
