@@ -3,12 +3,76 @@
     <title>Catatan celoteh @FachrulCH</title>
     <link href="https://fachrul.id/feed.xml" rel="self" />
     <link href="https://fachrul.id" />
-    <updated>2023-03-14T00:43:19+04:00</updated>
+    <updated>2023-03-18T20:47:43+04:00</updated>
     <author>
         <name>Fachrul Choliluddin</name>
     </author>
     <id>https://fachrul.id</id>
 
+    <entry>
+        <title>Ulasan Buku Full Stack Testing karya Gayathri Mohan</title>
+        <author>
+            <name>Fachrul Choliluddin</name>
+        </author>
+        <link href="https://fachrul.id/ulasan-buku-full-stack-testing-karya-gayathri-mohan/"/>
+        <id>https://fachrul.id/ulasan-buku-full-stack-testing-karya-gayathri-mohan/</id>
+        <media:content url="https://fachrul.id/media/posts/56/full-stack-testing-2.png" medium="image" />
+            <category term="ulasan"/>
+            <category term="merdeQA"/>
+
+        <updated>2023-03-18T20:47:43+04:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://fachrul.id/media/posts/56/full-stack-testing-2.png" alt="" />
+                    Buku Full Stack Testing ini penting dan akan memandu kamu menjadi software tester serba bisa! Di jaman sekarang, banyak bisnis yang mulai melakukan transformasi digital, terbukti dari banyaknya perusahaan yang pengen punya apps sendiri, atau paling nggak kerjasama/integrasi dengan berbagai startup agar bisa tetap bersaing&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://fachrul.id/media/posts/56/full-stack-testing-2.png" class="type:primaryImage" alt="" /></p>
+                <section class="section section--body">
+<div class="section-divider align-left"><em style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">Buku Full Stack Testing ini penting dan akan memandu kamu menjadi software tester serba bisa!</em></div>
+<div class="section-content align-left">
+<div class="section-inner sectionLayout--insetColumn">
+<p class="dropcap">Di jaman sekarang, banyak bisnis yang mulai melakukan transformasi digital, terbukti dari banyaknya perusahaan yang pengen punya apps sendiri, atau paling nggak kerjasama/integrasi dengan berbagai startup agar bisa tetap bersaing di era informatika ini.</p>
+<p class="graf graf--p">Efek dari perusahaan yang memiliki aplikasi sendiri adalah konsumen sekarang punya lebih dari satu pilihan, lihat aja mau milih transportasi online, belanja online, sampe konsultasi kesehatan pun kita punya banyak pilihan aplikasi.</p>
+<p class="graf graf--p">Sekarang konsumen pun sudah jauh lebih pinter, dan netizen Indonesia sudah tersohor sangat vokal, maka dari itu kebutuhan bisnis untuk bikin aplikasi yang berkualitas baik udah ga bisa di tawar lagi!</p>
+<p class="graf graf--p">Kesalahan aplikasi sekecil apapun bisa jadi bahan roasting netizen Indonesia, tentu ga mau dong bisnis kehilangan pelanggan dan ditikung kompetitor karena hal ini.</p>
+</div>
+</div>
+</section>
+<section class="section section--body">
+<div class="section-divider align-left"><hr class="section-divider"></div>
+<div class="section-content">
+<div class="section-inner sectionLayout--insetColumn align-left">
+<p class="graf graf--p align-left">Nah di buku ini “Full stack testing” akan dibahas mengenai peran Software tester yang serba bisa dan membantu tim menjaga kualitas aplikasi tetap prima, tentu saja perlu peran seluruh stakeholder software development untuk bisa merilis aplikasi terbaik untuk penggunanya.</p>
+<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/56/full-stack-testing.png" alt="fullstack testing" width="778" height="1024" sizes="100vw" srcset="https://fachrul.id/media/posts/56/responsive/full-stack-testing-xs.png 300w ,https://fachrul.id/media/posts/56/responsive/full-stack-testing-sm.png 480w ,https://fachrul.id/media/posts/56/responsive/full-stack-testing-md.png 768w ,https://fachrul.id/media/posts/56/responsive/full-stack-testing-lg.png 1024w ,https://fachrul.id/media/posts/56/responsive/full-stack-testing-xl.png 1360w ,https://fachrul.id/media/posts/56/responsive/full-stack-testing-2xl.png 1600w"></figure>
+<figcaption >Cover buku Full Stack Testing karya Gayathri Mohan</figcaption>
+</figure>
+<p class="graf graf--p align-left">Buku “Fullstack Tester” ini akan memberikan panduan bagaimana seorang tester bisa mulai menempuh jalur ini.</p>
+<p class="graf graf--p align-left">Buku ini ditulis oleh Gayathri Mohan, seorang Principal Consultant di Thoughtworks yang sudah berpengalaman memimpin tim QA Global dengan berbagai klien perusahaan dunia, buku ini diterbitin sama Oreilly Media tahun 2022 lalu, tepatnya untuk edisi pertama rilis bulan Juni 2022</p>
+<h2 class="align-left">Gambaran Umum</h2>
+<p class="align-left">Walaupun istilah fullstack lebih lekat ke developer yang serba bisa, dari ngerjain backend, frontend (website/mobile), ternyata dalam dunia QA, berlaku juga istilah fullstack, bahkan ada 10 keahlian khusus yang dibahas di dalam buku ini. Hmm saya takut spoiler untuk menyebutkan semuanya, tapi kurang lebih sebagai QA serba bisa, kita harus paham proses bisnis dari aplikasi yang diuji, ngerti koding, bikin automation, bisa people skill dan berbagai teknik testing yang bisa bikin software jadi lebih baik</p>
+<h2 class="graf graf--p align-left">Fullstack</h2>
+<p class="graf graf--p align-left">Di buku ini dibahas yang dimaksud fullstack oleh penulis adalah keahlian yang bisa dikuasi seorang QA dari mulai functional test, performance test, contract testing, accesibility testing, bahkan sampe tren kekinian macam: blockchain, AI/ML, IoT, AR/VR juga ada dibahas tools apa aja yang bisa dipelajari disetiap sisi itu tadi.</p>
+<p class="align-left">Buku ini bikin kita paham soal gambaran jelas soal QA yang serba bisa, jadi kek pengenalan menyeluruh soal aspek pengujian yang bisa dijalankan sama QA, ga terlalu teknis karena banyak yang mesti dia bahas di buku ini, tapi gw bilang sih ini cukup dalem buat nganterin kita sampe gerbang 10 skill testing itu, sisanya kita sendiri yang ngarus menyelam lebih dalem lagi.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/56/10-qa-skills.png" alt="" width="640" height="583" sizes="100vw" srcset="https://fachrul.id/media/posts/56/responsive/10-qa-skills-xs.png 300w ,https://fachrul.id/media/posts/56/responsive/10-qa-skills-sm.png 480w ,https://fachrul.id/media/posts/56/responsive/10-qa-skills-md.png 768w ,https://fachrul.id/media/posts/56/responsive/10-qa-skills-lg.png 1024w ,https://fachrul.id/media/posts/56/responsive/10-qa-skills-xl.png 1360w ,https://fachrul.id/media/posts/56/responsive/10-qa-skills-2xl.png 1600w"></figure>
+<p class="align-left">Walaupun sempet mikir ga mau bocorin 10 skill, tapi keknya ini penting diintip, sebelum lo memutuskan untuk beli</p>
+<p class="align-left">Jadi, di setiap bab nya akan dibahas spesifik skillnya, dikupas tuntas tuh sama dia terkait keahlian testing tersebut, juga tools yang mendukung, bahkan juga ada sample kode yang bisa lo pake untuk praktek sendiri, tapi koding di buku ini ga terlalu banyak, cuma simple POC gitu</p>
+<h1 class="align-left">Kesan Setelah Membaca</h1>
+<p class="align-left">Misal yang di bab Manual Exploratory Testing deh ya, orang cenderung meremehkan keahlian manual testing, padahal bagian ini tuh krusial banget dari proses testing, perlu logical and analytical mindset mumpuni, perhatian mendetail, empati, bahkan mampu untuk membuat simulasi real user! Di bab tersebut dibahas juga berbagai metodologi/approach untuk manual exploratory test gitu.</p>
+<p class="graf graf--p align-left">Gw bisa bilang, pembahasan di buku ini udah cukup komprehensif, ga melulu soal automation test, atau bikin bahas continous testing doang, tapi gimana seorang QA harus bisa memberdayakan tools yang ada dengan optimal, dari mulai exploratory testing, cross functional testing, sampe test automation, apa yang bisa di automated harus diautomate</p>
+<hr>
+<p class="align-left">Banyak buku yang udah bahas suatu aspek mendalam soal testing jaman now, kayak agile testing, buku selenium gitu, tapi gw kurang suka buku teknis gitu, karena tools itu cepet berevolusi bahakan bisa cepet basi juga</p>
+<p class="graf graf--p align-left">Nah buku ini beda, gw rasa akan terus relevan dalam jangka waktu lama, jadi worthed untuk dibeli, bahkan ga cukup dibaca satu kali keknya!</p>
+<h2 class="align-left">Belinya dimana?</h2>
+<p class="align-left">Buku ini gw beli di google play book versi digital, tersedia juga di amazon kindle, ataupun oreally (langganan), sayang sekali sangat susah untuk memiliki buku ini secara fisik, karena tidak ada publisher resmi yang beroperasi di Indonesia.</p>
+</div>
+</div>
+</section>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Bagaimana Cara Memilih Bootcamp QA/Software Testing untuk Kamu</title>
         <author>
@@ -1021,97 +1085,6 @@ def test_delete_favorite():
 <p>Salam!</p>
 <p>Selengkapnya ada pada video live coding ini:</p>
 <div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/XkrOAdGQ8Zk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Yuk Belajar Cara Membuat API Test Automation Framework Python (Bagian 1)</title>
-        <author>
-            <name>Fachrul Choliluddin</name>
-        </author>
-        <link href="https://fachrul.id/yuk-belajar-cara-membuat-api-test-automation-framework-python-bagian-1/"/>
-        <id>https://fachrul.id/yuk-belajar-cara-membuat-api-test-automation-framework-python-bagian-1/</id>
-        <media:content url="https://fachrul.id/media/posts/41/pexels-zachary-debottis-1888883.jpg" medium="image" />
-            <category term="tutorials"/>
-            <category term="automation-python"/>
-
-        <updated>2021-12-31T06:55:43+04:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://fachrul.id/media/posts/41/pexels-zachary-debottis-1888883.jpg" alt="" />
-                    Hi Kawan 👋, Di kesempatan kali ini saya akan membuat rangkaian post yang berisi tutorial cara membuat API Test Framework dengan Python dari dasar sampai jadi sebuah framework testing yang siap di integrasikan dengan pipeline CI/CD 😎🤘 Oke setiap post akan berisi sebuah topik tahapan&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://fachrul.id/media/posts/41/pexels-zachary-debottis-1888883.jpg" class="type:primaryImage" alt="" /></p>
-                <p>Hi Kawan 👋,</p>
-<p>Di kesempatan kali ini saya akan membuat rangkaian post yang berisi tutorial cara membuat API Test Framework dengan Python dari dasar sampai jadi sebuah framework testing yang siap di integrasikan dengan pipeline CI/CD 😎🤘</p>
-<p>Oke setiap post akan berisi sebuah topik tahapan pelajaran dari dasar disetiap aspeknya, semoga saja ini bisa bermanfaat bagi teman-teman yang mulai belajar menekuni dunia software quality assurance / Test engineering ya, harapan saya, tutorial ini bisa membantu teman-teman untuk memahami approach API testing, dan bisa mempermudah implementasi API test framework dengan python di tempat kerja kalian </p>
-<p>Kurang lebih rangkaian posting akan seperti:</p>
-<ul>
-<li><a href="https://fachrul.id/yuk-belajar-cara-membuat-api-test-automation-framework-python-bagian-1/" target="_blank" rel="noopener noreferrer">Pelajaran 1:  Setup dan pengenalan HTTP requests</a></li>
-<li><a href="https://fachrul.id/api-test-automation-framework-python-bagian-2/" target="_blank" rel="noopener noreferrer">Pelajaran 2: Pengujian dengan assert dan pytest</a></li>
-<li><a href="https://fachrul.id/api-test-framework-python-struktur-framework-dan-fluent-assertion-bagian-3/" target="_blank" rel="noopener noreferrer">Pelajaran 3: Struktur awal test framework dan library fluent assertion</a></li>
-<li><a href="https://fachrul.id/refactoring-dan-base-api-api-test-framework-python-bagian-4/" target="_blank" rel="noopener noreferrer" style="font-family: -apple-system, BlinkMacSystemFont, Arial, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: inherit;">Pelajaran 4: Refaktoring dan base helper</a></li>
-<li><a href="https://fachrul.id/reporting-api-test-framework-python-bagian-5/" target="_blank" rel="noopener noreferrer" style="font-family: -apple-system, BlinkMacSystemFont, Arial, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: inherit;">Pelajaran 5: Reporting</a></li>
-<li><a href="https://fachrul.id/json-schema-validation-api-test-framework-python-extra-bonus/" target="_blank" rel="noopener noreferrer">Extra: Penambahan schema validation dan running test in parallel</a></li>
-</ul>
-<p>Kamu bisa berkomentar atau bertanya di pada bagian komentar post tersebut, insya alloh nanti akan saya jawab sebisanya ehehe, atau bisa juga DM dan follow @fachrulch untuk kritik dan saran nya dalam pembahasan ini </p>
-<hr>
-<h2> Apa itu API sih?</h2>
-<p>Sebenernya saya ga yakin bisa menjelaskannya dengan benar, mungkin bisa kamu googling aja nanti ya klo masih belum jelas dari penjelasan saya ehehe, jadi kurang lebih gini:</p>
-<figure class="post__image--left"><img loading="lazy"  src="https://fachrul.id/media/posts/41/api-1.png" alt="" width="800" height="454" sizes="100vw" srcset="https://fachrul.id/media/posts/41/responsive/api-1-xs.png 300w ,https://fachrul.id/media/posts/41/responsive/api-1-sm.png 480w ,https://fachrul.id/media/posts/41/responsive/api-1-md.png 768w ,https://fachrul.id/media/posts/41/responsive/api-1-lg.png 1024w ,https://fachrul.id/media/posts/41/responsive/api-1-xl.png 1360w ,https://fachrul.id/media/posts/41/responsive/api-1-2xl.png 1600w"></figure>API (Application Programming Interface) atau juga seringkali dikenal dengan webservice adalah bentuk komunikasi antar sistem, sederhananya, API menyediakan serangkaian cara/kontrak bagaimana sebuah informasi bisa ditransfer/diakses.</p>
-<p>API ada dua kategori, yaitu SOAP dan REST, SOAPmenggunakan format XML yang membungkus informasi data nya, sejauh yg saya tau soap masih umum dipergunakan oleh perbankan sampai saat ini, sedangkan REST sudah umum dipakai oleh khalayak ramai, karena lebih ringan dalam hal ukuran data yang disimpan dalam format JSON, dan umumnya permintaan dan penerimaan data menggunakan protokol HTTP, biasanya menggunakan verbs GET, POST, PUT dan DELETE dalam berinteraksi.</p>
-<p>Di kesempatan ini kita akan fokus dalam pembuatan API test framework untuk RESTful API ya, tools yang sering dipergunakan dalam berinteraksi dengan API adalah Postman</p>
-<figure class="post__image post__image--full" ><img loading="lazy" src="https://fachrul.id/media/posts/41/rest-api-contoh-sederhana.png" alt="" width="1280" height="757" sizes="100vw" srcset="https://fachrul.id/media/posts/41/responsive/rest-api-contoh-sederhana-xs.png 300w ,https://fachrul.id/media/posts/41/responsive/rest-api-contoh-sederhana-sm.png 480w ,https://fachrul.id/media/posts/41/responsive/rest-api-contoh-sederhana-md.png 768w ,https://fachrul.id/media/posts/41/responsive/rest-api-contoh-sederhana-lg.png 1024w ,https://fachrul.id/media/posts/41/responsive/rest-api-contoh-sederhana-xl.png 1360w ,https://fachrul.id/media/posts/41/responsive/rest-api-contoh-sederhana-2xl.png 1600w">
-<figcaption >RestAPI secara sederhana</figcaption>
-</figure>
-<p> </p>
-<h2>Kenapa Perlu Membuat API test automation?</h2>
-<p>Test functional dari API sebenarnya lewat postman juga bisa, entah manually atau automation test disana, memiliki functional API automation adalah langkah besar dalam pengujian yang cepat terhadap sistem, apalagi API cenderung lebih stabil daripada UI automation test. Dampak yang bisa kita harapkan dari memiliki automation test pada API/webservice adalah kita bisa menguji user flow, business logic dengan cepat dan stabil.</p>
-<p>Nah kita akan membuat API test automation dengan python, walaupun sebenarnya bisa juga dibuat dengan bahasa pemrograman lain seperti java, kotlin, javascript, dll. tetapi menurut saya python lebih sederhana dan mudah dipelajari oleh pemula, juga sangat powerful bagi tingkat mahir sekalipun, so i think it is good investment</p>
-<h2>OK, terus apa yang diperlukan dalam pengembangan API test framework dengan Python?</h2>
-<p>Udah siap? oke kita list dulu ya apa saja yang diperlukan dalam pengembangan API test framework dengan bahas python</p>
-<ol>
-<li>Komputer kamu sudah terinstal python (saran saya sudah versi 3.8 keatas ya)</li>
-<li>Install code editor, saran saya sih menggunakan PyCharm, tapi klo mau yg lebih ringan boleh pake Visual Code ataupun Notepad++ juga bisa harusnya</li>
-</ol>
-<hr>
-<h2><figure class="post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/41/airportgap.png" alt="" width="500" height="592" sizes="100vw" srcset="https://fachrul.id/media/posts/41/responsive/airportgap-xs.png 300w ,https://fachrul.id/media/posts/41/responsive/airportgap-sm.png 480w ,https://fachrul.id/media/posts/41/responsive/airportgap-md.png 768w ,https://fachrul.id/media/posts/41/responsive/airportgap-lg.png 1024w ,https://fachrul.id/media/posts/41/responsive/airportgap-xl.png 1360w ,https://fachrul.id/media/posts/41/responsive/airportgap-2xl.png 1600w"></figure></h2>
-<h2>Studi Kasus</h2>
-<p>Oke, sepertinya kita akan bahas dulu aplikasi apa yang akan menjadi target kita dalam pengembangan API test framework, sebagai contoh kita akan mengautomasi pengujian pada <a href="https://airportgap.dev-tester.com">https://airportgap.dev-tester.com</a> sebuah dummy app yang dikhususkan bagi teman-teman yang berlatih dalam mengasah automation skill pada API</p>
-<p>Kenapa saya pilih ini? karena koleksi API disini kurang lebih akan mirip dengan apa yang kamu punya di kantor, ada API yang bisa diakses dengan GET, POST, DELETE dan PUT/PATCH, jadi bisa dikatakan mini project API, apalagi dokumentasinya API juga sudah cukup jelas ya, bisa diakses disini <a href="https://airportgap.dev-tester.com/docs">https://airportgap.dev-tester.com/docs</a></p>
-<figure class="post__image--left"><img loading="lazy"  src="https://fachrul.id/media/posts/41/374px-Requests_Python_Logo.png" alt="" width="374" height="480" sizes="100vw" srcset="https://fachrul.id/media/posts/41/responsive/374px-Requests_Python_Logo-xs.png 300w ,https://fachrul.id/media/posts/41/responsive/374px-Requests_Python_Logo-sm.png 480w ,https://fachrul.id/media/posts/41/responsive/374px-Requests_Python_Logo-md.png 768w ,https://fachrul.id/media/posts/41/responsive/374px-Requests_Python_Logo-lg.png 1024w ,https://fachrul.id/media/posts/41/responsive/374px-Requests_Python_Logo-xl.png 1360w ,https://fachrul.id/media/posts/41/responsive/374px-Requests_Python_Logo-2xl.png 1600w"></figure>
-<h2>Pelajaran 1 - pengenalan HTTP requests</h2>
-<p>Siap kita mulai ya, untuk mengakses API/webservice kita perlu sebuah library yang akan memudahkan kita dalam berinteraksi dengan API, yaitu menggunakan library requests, cara menginstall library ini adalah dengan command</p>
-<pre>pip install requests</pre>
-<p>Dokumentasi requests menurut saya sangat jelas dan keren, coba saja lihat <a href="https://requests.readthedocs.io/en/master/">https://requests.readthedocs.io/en/master/</a> , kita bisa pelajari lebih lanjut fitur dan kemampuan requests disana ya, tapi secara natural sangat mudah diingat kok method dan fungsi nya</p>
-<p>Lanjut,, kita akan mengakses informasi daftar airports yand bisa diakses dengan melakukan request GET pada endpoint `/api/airports` dan melihat apa saja informasi yang terkandung di dalamnya</p>
-<p>Untuk itu kita harus membuat file python baru di folder/direktori yang sudah kamu pilih ya</p>
-<p>Di baris awal kita perlu melakukan import library request dahulu dengan menambahkan kode `import requests` lalu di baris berikutnya kita akan menggunakan library requests dalam mengakses API dengan kode</p>
-<pre><code class="language-python line-numbers">import requests
-
-response = requests.get('https://airportgap.dev-tester.com/api/airports')
-print(response.status_code)
-print(response.text) 
-    </code></pre>
-<p> </p>
-<p>Penjelasan kode:</p>
-<ul>
-<li>import requests =&gt; melakukan import library `requests` sebelum penggunaan di baris selanjutnya</li>
-<li>response = requests.get(&lt;url&gt;) =&gt; kita melakukan permintaan GET pada sebuah url yang kemudian di tampung kedalam variable `response`</li>
-<li>print(response.status_code) dan print(response.text) =&gt; kita mengeluarkan text response dan status code kepada python console dengan command print</li>
-</ul>
-<p>Bagaimana cara run file ini? yaitu dengan membuka terminal/cmd lalu masuk ke directory/folder dimana file python ini berada, kemudian kita tinggal menjalankan command `python namafile.py` maka kita bisa melihat hasil requests di dalam console terminal/cmd</p>
-<hr>
-<h2>Penutup</h2>
-<p>Namun,,, ini masih belum ada test nya ya, di pelajaran kali ini kita hanya bisa melihat hasil GET pada console, tanpa ada pengujian secara otomatis (pengujian masih visual oleh kita melalui console ehehe)</p>
-<p>Karena materi disini sudah cukup panjang ehehe, PR dari saya di tahap 1 ini adalah untuk mempelajari <a href="https://requests.readthedocs.io/en/master/" target="_blank" rel="noopener noreferrer">dokumentasi requests</a> ya, kita lihat betapa mudahnya mengkases webservice dengan library ini, baik itu dengan method GET, POST, PUT, PATCH ya</p>
-<p>Dimateri berikutnya kita akan menggunakan test dengan assertion jadi sudah mulai masuk ke automation test</p>
-<p>Salam!</p>
-<p>Selengkapnya ada di Video live coding berikut ini</p>
-<div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/nsdHPitMSSI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
             ]]>
         </content>
     </entry>
