@@ -3,12 +3,113 @@
     <title>Catatan celoteh @FachrulCH</title>
     <link href="https://fachrul.id/feed.xml" rel="self" />
     <link href="https://fachrul.id" />
-    <updated>2023-03-26T12:42:36+04:00</updated>
+    <updated>2023-03-26T15:04:01+04:00</updated>
     <author>
         <name>Fachrul Choliluddin</name>
     </author>
     <id>https://fachrul.id</id>
 
+    <entry>
+        <title>Time Management sebagai Software Tester</title>
+        <author>
+            <name>Fachrul Choliluddin</name>
+        </author>
+        <link href="https://fachrul.id/time-management-sebagai-software-tester/"/>
+        <id>https://fachrul.id/time-management-sebagai-software-tester/</id>
+        <media:content url="https://fachrul.id/media/posts/59/ilustrasi-fachrul.id-2.jpg" medium="image" />
+            <category term="merdeQA"/>
+            <category term="belajar-qa"/>
+
+        <updated>2023-03-26T15:04:01+04:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://fachrul.id/media/posts/59/ilustrasi-fachrul.id-2.jpg" alt="" />
+                    Sebagai software tester, apakah kamu sering merasakan hal seperti ini? Keteteran kerjaan Sering dapet tugas dadakan Ga tau bisa kelar hari ini apa nggak Sama, gw juga! ahaha, tapi jangan sedih dulu, gw akan share siasat gw dalam mengelola waktu biar lebih efisien dengan cara&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://fachrul.id/media/posts/59/ilustrasi-fachrul.id-2.jpg" class="type:primaryImage" alt="" /></p>
+                <p data-pm-slice="0 0 []">Sebagai software tester, apakah kamu sering merasakan hal seperti ini?</p>
+<ul>
+<li>
+<p>Keteteran kerjaan</p>
+</li>
+<li>
+<p>Sering dapet tugas dadakan</p>
+</li>
+<li>
+<p>Ga tau bisa kelar hari ini apa nggak</p>
+</li>
+</ul>
+<p>Sama, gw juga! ahaha, tapi jangan sedih dulu, gw akan share siasat gw dalam mengelola waktu biar lebih efisien dengan cara <strong>mengurangi</strong> waktu!!</p>
+<hr>
+<h2><figure class="post__image"><img loading="lazy"  src="https://fachrul.id/media/posts/59//coin.png" alt="" width="1008" height="192" sizes="100vw" srcset="https://fachrul.id/media/posts/59//responsive/coin-xs.png 300w ,https://fachrul.id/media/posts/59//responsive/coin-sm.png 480w ,https://fachrul.id/media/posts/59//responsive/coin-md.png 768w ,https://fachrul.id/media/posts/59//responsive/coin-lg.png 1024w ,https://fachrul.id/media/posts/59//responsive/coin-xl.png 1360w ,https://fachrul.id/media/posts/59//responsive/coin-2xl.png 1600w"></figure></h2>
+<h2>Mengelola waktu</h2>
+<p>Sepertinya, time management (manajemen waktu) sudah menjadi sebuah skill wajib bagi software testing, karena pekerja software itu dituntut result oriented, banyak variabel yang bisa bikin waktu tempuh pengujian jadi semakin lama. Misal, klo nemu bugs tapi intermitten atau bahkan klo testnya lancar ga nemu bugs baru (malah was-was ga sih).</p>
+<p>Karena waktu adalah <strong>sumber daya yang tidak bisa ditambah atau kurangin</strong>, bahkan ga bisa di transfer juga, jadinya keahlian mengelola waktu sangat kritikal bagi software tester, biar ga burnout saat bekerja, dan kualitas pengujian juga tetap semangat dan produktif.</p>
+<h2>Waktunya Ngaret</h2>
+<p>Sering kali perusahaan itu menempatkan software tester sebagai “Quality gate keeper”, alias si penentu rilis apa nggaknya sebuah fitur/version, akhirnya software tester (QA) menjadi bottleneck, berasa semua pada nungguin kerjaan QA kelar ga sih 😅</p>
+<p>Dengan kek gitu, sering kali QA jadi kambing hitam saat tim harus ambil delay rilis/waktu yang ga sesuai jadwal. Karena ujung-ujungnya klo delay itu nambah cost produksi software loh, kebayang ga sih klo ada hard deadline launching produk, tapi H-1 fiturnya masih kayak zombie! klo sampe mesti delay,, beeuuuh berasa duduk di kursi panas!</p>
+<h2>Waktu Efisien</h2>
+<p>Ga selalu loh istilah “Lebih cepat, Lebih baik” berlaku di software testing, karena bisa jadi ternyata cepat dan banyak yang kelewat! ahaha, ujung-ujungnya puter balik 😂</p>
+<p>Jadi harus cepat DAN baik, hasilnya adalah efisien, sungguh idaman setiap software tester ya untuk bisa terus efisien, nah karena kita ga bisa menambah waktu lebih dari 24 jam sehari, atau menambah waktu rilis dengan mudah, makanya gw mo share cara gw mengurangi waktu!</p>
+<h2><figure class="post__image"><img loading="lazy"  src="https://fachrul.id/media/posts/59//ilustrasi-jeda-nulis.png" alt="" width="1008" height="192" sizes="100vw" srcset="https://fachrul.id/media/posts/59//responsive/ilustrasi-jeda-nulis-xs.png 300w ,https://fachrul.id/media/posts/59//responsive/ilustrasi-jeda-nulis-sm.png 480w ,https://fachrul.id/media/posts/59//responsive/ilustrasi-jeda-nulis-md.png 768w ,https://fachrul.id/media/posts/59//responsive/ilustrasi-jeda-nulis-lg.png 1024w ,https://fachrul.id/media/posts/59//responsive/ilustrasi-jeda-nulis-xl.png 1360w ,https://fachrul.id/media/posts/59//responsive/ilustrasi-jeda-nulis-2xl.png 1600w"></figure></h2>
+<h2>Mengurangi Waktu Regression Test</h2>
+<p>Regression test adalah salah satu sumber pengeluaran waktu terbesar bagi seorang software tester, jalanin regression test suite itu bisa berhari-hari (beda-beda sih tiap tim/kantor), gw pun kadang mo muntah ngeliatin testrail runner ga kelar-kelar keknya!</p>
+<p>Nah gimana cara ngurangin waktu regression test yang biasa gw lakuin:</p>
+<h4>1. Rawatlah test suite si regression test</h4>
+<p>Lo tentu akan masukin fitur baru ke koleksi test suite, tapi apakah lo akan kurangin juga test fitur lama dari koleksi? Udah 10 rilis loh itu ga ada perubahan, aman-aman aja kan? masi tetep perlu di cek berkala? Tentu tergantung ya, klo bukan core features sih lebih baik dikurangin, atau bahkan outsource aja ke test automation</p>
+<h4>2. Test planning yang bener</h4>
+<p>Katakanlah di sprint planning udah ketahuan fitur baru apa aja yang akan di rilis, nah kita bisa rencanain tuh nanti ada dampaknya ga di regression test, klo bisa colong start, coba jalanin regression test dulu di fase feature test biar keliatan ada imbas ke regression test suite ga nya.</p>
+<p>Atau bahkan dengan fitur baru, kita perlu persiapan lebih lama buat production testing nantinya, misal kita perlu setup akun dengan kondisi tertentu biar bisa gampang di testnya.</p>
+<p>Dan terkait nomer 1 tadi, di planning juga prioritas test cases nya, mana yang masuk test run nanti, mana yang penting di cek duluan sebelum yang lain</p>
+<h4>3. Nyuruh Robot</h4>
+<p>Alias test automation, dengan adanya test automation, pengujian software tentu akan lebih mudah, mereka akan nurut terus disuruh ngetest kapanpun bisa, ga ada capeknya, ga bosen-bosen ngetest hal yang sama 100x sehari. Tentu, robot/automation ini ga akan menggantikan kualitas pengujian yang dijalankan oleh manusia, tapi bayangin deh kita kan klo ngetest ga bisa paralel sekaligus semuanya dikerjain barengan, nah contoh, saat kita lagi test module sign up dengan fitur baru, si test automation ini akan ngetest module login/reset password, nanti pas kita kelar test sign up tinggal liat hasilnya dulu dari yang dikerjain test automation, sebelum kita terjun lebih jauh di pengujian manual, karena kesel juga kan pas ditengah test gataunya ada error dan perbaikannya bisa bikin test kita yang udah kelar harus di-retest lagi.</p>
+<h4>4. Menggunakan jurus pengujian yang tepat</h4>
+<p>Pernah denger jurus “Kunyuk Melempar buah”? ahaha generasi 90an doang keknya yang inget!</p>
+<p>Oke maksudnya adalah menggunakan teknik pengujian yang tepat bisa meningkatkan kualitas pengujian lebih efektif dan confidence, contohnya gini, pada suatu fitur baru untuk tambah validasi pada suatu form input, kita punya 30 macem validasi, nah kita harus tau ini validasi dari Backend apa frontend, klo tau ini validasi datengnya dari BE, jadi si 30 macem validasi kita test di level API aja, 1x di FE, buat liat tampilan errornya aja, karena konten error message nya dateng dari BE toh, jadi ga perlu deh tuh kita habisin waktu lama-lama buat ngetest semua 30 validasi tadi (atau bahkan influence dev buat cover 30 test tadi di level unit testing)</p>
+<h2><figure class="post__image"><img loading="lazy"  src="https://fachrul.id/media/posts/59/ilustrasi-jeda-nulis-2.png" alt="" width="1008" height="192" sizes="100vw" srcset="https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-2-xs.png 300w ,https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-2-sm.png 480w ,https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-2-md.png 768w ,https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-2-lg.png 1024w ,https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-2-xl.png 1360w ,https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-2-2xl.png 1600w"></figure></h2>
+<h2>Mengurangi Waktu Debug</h2>
+<p>Gw sangat senang sama debugging, ibarat detektif yang lagi ngumpulin bukti kriminal, dan cari tau siapa dalangnya, dalam hati “ini tuh beneran error loh gaes, nih liat aja lognya, screenshot nya, video reproducenya”</p>
+<p>Tapi semua itu perlu waktu yang ga singkat, reproduce issue deh minimal lebih dari satu kali, kadang buat mastiin ini kejadiannya cuma di kondisi A aja apa juga di kondisi B, belom lagi klo kita mau mastiin ini kejadain nya sejak di versi baru aja atau kejadian juga di production! gimana ga lama tuh waktu debuging nya ahahaa</p>
+<p>Yang bisa kita kurangin di waktu debug adalah:</p>
+<h4>1. Error Logging sistem yang terintegrasi</h4>
+<p>Pastikan aplikasi kamu udah terkoneksi dengan logging system yang baik, minta developer manager buat pasang di aplikasi development (integration/alpha/beta) juga, ga cuma di production aja gitu, karena kan fitur baru pasti di testnya ga langsung di production donk!</p>
+<p>Jadi mana kala muncul bugs/crash/faliures, langkah pertama kita adalah ngecek log ini, yang barusan kejadian tuh stacktrace nya kek mana, seringkali informasi ini udah cukup jelas buat dev</p>
+<h4>2. Laporan bugs yang jelas</h4>
+<p>Red flag deh klo devnya selalu nanya QA di standup/DM buat jelasin temuan bugsnya, karena itu berarti laporan bugsnya ga jelas dimengerti oleh dev (atau Devnya masih baru, atau emang pengen ngobrol sama lo aja/PDKT 🤣 )</p>
+<p>Coba refleksi, apa yang ditanyakan dev itu, apakah step reproduce nya ga jelas? tambahin foto, klo kurang jelas juga tambahin video! apakah mungkin bugs report lo itu description nya ga jelas, ekspektasi yang ga make sense.</p>
+<p>Intinya, ini adalah feedback dari dev agar komunikasi lo jadi lebih baik, kalaupun ga ada komentar dari Dev, coba tanyain kira-kira ada yang bisa di improve ga dari bugs report nya yang biasa dia terima? kadang ada dev yang mau juga di tambahin info device/browser detail.</p>
+<p>Jadi devnya bisa sat-set langsun ngerjain bugsnya.</p>
+<h2><figure class="post__image"><img loading="lazy"  src="https://fachrul.id/media/posts/59/ilustrasi-jeda-nulis-1.png" alt="" width="1008" height="192" sizes="100vw" srcset="https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-1-xs.png 300w ,https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-1-sm.png 480w ,https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-1-md.png 768w ,https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-1-lg.png 1024w ,https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-1-xl.png 1360w ,https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-1-2xl.png 1600w"></figure></h2>
+<h2>Mengurangi Waktu Nunggu</h2>
+<p>Menunggu itu pemborosan waktu, apalagi klo sambil bengong gada kuota internet, beuh mati gaya dah tuh nunggu! ehehe tapi ini bukan soal nunggu bus transjakarta gaes, kita harus identifikasi titik mana aja yang biasanya kita habiskan buat menunggu</p>
+<h4>Menunggu feature yang Ready for Testing</h4>
+<p>Di awal sprint biasanya belum ada fitur baru yang ready for testing langsung kan, coba liat apa yang bisa QA kerjain di waktu kosong ini, misalkan cek crashlytic di production, di release sebelumnya banyak error ganya, bikin test automation, entah buat automate fitur lama atau fitur yang berjalan (API sih ada kontrak response yang bisa dipake buat automate), atau ngerjain apa kek biar nanti test nya langsung sat-set-sat-set, macam prepare test data gitu</p>
+<h4>Menunggu bugs yang Ready for Testing</h4>
+<p>Nah ini sering jadi bumerang, kita udah rise issue tapi ternyata ga kunjung dikerjain developer! Mana itu bugs severity critical, bisa masalah klo dilolosin sebelum rilis! nah makanya tetep pantau terus itu bugs report kita, tiap hari di standup kita harus sundul developernya:</p>
+<ul>
+<li>
+<p>bugs yang gw report udah di baca belom?</p>
+</li>
+<li>
+<p>ada yang perlu gw jelasin ga soal bugs itu?</p>
+</li>
+<li>
+<p>ke reproduce ga di tempat lo?</p>
+</li>
+<li>
+<p>apa perlu gw yang kerjain itu bugs? (ini klo bisa ya ahaha)</p>
+</li>
+<li>
+<p>gw bilangin bapak lo ya! (eskalasi)</p>
+</li>
+</ul>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Peribahasa Software Testing ala ChatGPT</title>
         <author>
@@ -20,7 +121,7 @@
             <category term="opinion"/>
             <category term="belajar-qa"/>
 
-        <updated>2023-03-26T12:42:36+04:00</updated>
+        <updated>2023-03-26T15:03:20+04:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fachrul.id/media/posts/58/1.jpg" alt="" />
@@ -39,7 +140,6 @@
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/58/1-2.jpg" alt="" width="1080" height="1080" sizes="100vw" srcset="https://fachrul.id/media/posts/58/responsive/1-2-xs.jpg 300w ,https://fachrul.id/media/posts/58/responsive/1-2-sm.jpg 480w ,https://fachrul.id/media/posts/58/responsive/1-2-md.jpg 768w ,https://fachrul.id/media/posts/58/responsive/1-2-lg.jpg 1024w ,https://fachrul.id/media/posts/58/responsive/1-2-xl.jpg 1360w ,https://fachrul.id/media/posts/58/responsive/1-2-2xl.jpg 1600w"></figure>
 <div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="3">
 <figure class="gallery__item"><a href="https://fachrul.id/media/posts/58/gallery/2.jpg" data-size="1080x1080"><img loading="lazy" src="https://fachrul.id/media/posts/58/gallery/2-thumbnail.jpg" alt="" width="720" height="720"></a></figure>
-<figure class="gallery__item"><a href="https://fachrul.id/media/posts/58/gallery/13.jpg" data-size="1080x1080"><img loading="lazy" src="https://fachrul.id/media/posts/58/gallery/13-thumbnail.jpg" alt="" width="720" height="720"></a></figure>
 <figure class="gallery__item"><a href="https://fachrul.id/media/posts/58/gallery/12.jpg" data-size="1080x1080"><img loading="lazy" src="https://fachrul.id/media/posts/58/gallery/12-thumbnail.jpg" alt="" width="720" height="720"></a></figure>
 <figure class="gallery__item"><a href="https://fachrul.id/media/posts/58/gallery/11.jpg" data-size="1080x1080"><img loading="lazy" src="https://fachrul.id/media/posts/58/gallery/11-thumbnail.jpg" alt="" width="720" height="720"></a></figure>
 <figure class="gallery__item"><a href="https://fachrul.id/media/posts/58/gallery/10.jpg" data-size="1080x1080"><img loading="lazy" src="https://fachrul.id/media/posts/58/gallery/10-thumbnail.jpg" alt="" width="720" height="720"></a></figure>
@@ -792,65 +892,6 @@
 <p> </p>
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/50/Screen-Shot-2021-12-31-at-08.55.09.png" alt="" width="290" height="545" sizes="100vw" srcset="https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.55.09-xs.png 300w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.55.09-sm.png 480w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.55.09-md.png 768w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.55.09-lg.png 1024w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.55.09-xl.png 1360w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.55.09-2xl.png 1600w"></figure><br><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/50/Screen-Shot-2021-12-31-at-08.54.37.png" alt="" width="287" height="540" sizes="100vw" srcset="https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.54.37-xs.png 300w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.54.37-sm.png 480w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.54.37-md.png 768w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.54.37-lg.png 1024w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.54.37-xl.png 1360w ,https://fachrul.id/media/posts/50/responsive/Screen-Shot-2021-12-31-at-08.54.37-2xl.png 1600w"></figure>
 <p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Membentuk Pola Pikir Entrepreneurship dalam Bekerja Sebagai Karyawan</title>
-        <author>
-            <name>Fachrul Choliluddin</name>
-        </author>
-        <link href="https://fachrul.id/membentuk-pola-pikir-entrepreneurship-dalam-bekerja-sebagai-karyawan/"/>
-        <id>https://fachrul.id/membentuk-pola-pikir-entrepreneurship-dalam-bekerja-sebagai-karyawan/</id>
-        <media:content url="https://fachrul.id/media/posts/48/pexels-rodnae-productions-7414050.jpg" medium="image" />
-            <category term="today-i-learned"/>
-            <category term="teamwork"/>
-            <category term="opinion"/>
-            <category term="leadership"/>
-
-        <updated>2021-11-07T19:17:42+04:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://fachrul.id/media/posts/48/pexels-rodnae-productions-7414050.jpg" alt="" />
-                    "Your job is NOT your carrer" adalah sebuah kalimat intisari dari diskusi perpisahan dengan manager saya di akhir bulan Oktober lalu, dan kalimat ini masih saja bergema di fikiran saya hingga sekarang dan memicu beberapa perenungan yang akan saya tuliskan disini untuk melepas unek-unek mengganjal ini.
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://fachrul.id/media/posts/48/pexels-rodnae-productions-7414050.jpg" class="type:primaryImage" alt="" /></p>
-                <p><em><strong>"Your job is NOT your carrer" </strong></em>adalah sebuah kalimat intisari dari diskusi perpisahan dengan manager saya di akhir bulan Oktober lalu, dan kalimat ini masih saja bergema di fikiran saya hingga sekarang dan memicu beberapa perenungan yang akan saya tuliskan disini untuk melepas unek-unek mengganjal ini.</p>
-<figure class="post__image post__image--center" ><img loading="lazy" src="https://fachrul.id/media/posts/48/pexels-rodnae-productions-7413915.jpg" alt="Foto oleh RODNAE Productions dari Pexels" width="640" height="426" sizes="100vw" srcset="https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7413915-xs.jpg 300w ,https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7413915-sm.jpg 480w ,https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7413915-md.jpg 768w ,https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7413915-lg.jpg 1024w ,https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7413915-xl.jpg 1360w ,https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7413915-2xl.jpg 1600w">
-<figcaption >Foto oleh <strong><a href="https://www.pexels.com/id-id/@rodnae-prod?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels">RODNAE Productions</a></strong> dari <strong><a href="https://www.pexels.com/id-id/foto/pemasaran-exit-teknologi-bisnis-7413915/?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels">Pexels</a></strong></figcaption>
-</figure>
-<p> </p>
-<hr>
-<p><br>Sabagai pendahuluan, awal mulanya saya mengajukan sebuah pertanyaan kepada dia, <em>"Why resign now, in time where the company is about to IPO?",</em> yup mungkin terdengar materialistis, dan saya menduga jawaban dia akan mengarah ke tawaran perusahaan lain jauh lebih seksi, seperti kenaikan gaji yang signifikan ataupun tawaran RSU yang lebih bernilai. Tapi ternyata tidak!</p>
-<p>Dia menjawab bahwa perusahaan nanti akan menarik, karena disana akan mengakselerasi pencapaian goal karir dia secara profesional, ia menegaskan bukan berarti perusahaan sekarang ini jelek, tetapi dia menemukan kapal yang lebih cepat dalam melaju. <em>"Your job is not your carrier"</em> ujarnya, selanjutnya dibungkus dengan jawaban klise dan politis, nah disini saya tertarik dengan argumen dia, sedikit takjub dengan idealisme yang dia pegang, atau mungkin sugar coating yang menarik jika ujung ujung nya hanya faktor finansial saja ahaha, tapi mari kita kembalikan fokus pada kutipan tadi ya.</p>
-<hr>
-<p><br>Kemudian saya teringat dengan pesan dari sebuah buku yang saya baca tempo lalu, mungkin pada saat itu saya mengingatnya hanya sebuah pengetahuan saja, namun kini mulai terlihat keterkaitannya, karena sangat relevan dengan apa yang dimaksud, bahwa:</p>
-<blockquote>
-<p>kita seharusnya <strong>tidak</strong> berfikir bahwa kita bekerja ke perusahaan <strong>hanya</strong> sebagai karyawan yang menjalankan tugas dan kewajiban dan mendapatkan ganjaran gaji bulanan saja, melainkan kita harus memiliki <strong>mental entrepreneurship</strong>, dimana kita memperlakukan karir kita sebagai sebuah bisnis, dan kita harus memikirkan produk/jasa, marketing, bahkan finance-nya.</p>
-</blockquote>
-<p>Jangan mau dibohongi oleh status "pekerja swasta" yang tugasnya hanya mengerjakan tugas yang diberikan, dan mendapatkan gaji rutin bulanan. <span style="text-decoration: underline;">Mulai sekarang mulailah berfikir bahwa <strong>karir kamu sebagai bisnis yang kita rinitis</strong>, sebuah perusahaan dan kita sebagai CEO nya,</span> sehingga setiap keputusan yang kamu buat bisa berdampak pada kemajuan perusahaan kamu ini, dan anggaplah client perusahaan ini adalah perusahaan dimana kamu bekerja saat ini, ataupun skala lebih intinya, customer kamu adalah rekan kerja kamu, mereka yang mendapatkan <em>value</em> yang kamu berikan.</p>
-<h2>Bagaimana cara mengembangkan bisnis perushaan?</h2>
-<p>Mari kita lanjutkan lebih jauh setelah kita paham bahwa karir kita adalah sebuah bisnis dan bagaimana membuat perusahaan ini menjadi sukses makmur.</p>
-<p>Pertama, layaknya sebuah perusahaan, ia harus memiliki suatu produk atau jasa yang ditawarkan kepada client, karena hanya dengan hal ini perusahaan bisa menghasilkan uang. Pikirkan apa yang perusahaan karir kamu ini bisa jual? apakah suatu barang atau jasa? ambilah contoh karir saya sebagai software developer, produk perusahaan "karir" saya adalah "paket membuat website", atau secara sederhananya yang bisa saya jual adalah jasa untuk membuat sebuah gagasan menjadi produk digital berupa website.</p>
-<p>Sebuah bisnis tentu akan terus menerus mengembangkan produknya menjadi lebih baik, lebih beragam, dan karir kita pun harus seperti itu, contoh produk membuat website tadi misalkan, kita bisa menawarkan produk lain nya yang mendukung seperti TDD <em>(test driven development)</em> sehingga website yang dihasilkan lebih teruji dan berkualitas misalkan, dan salah satu tugas kita pula untuk memasarkan produk ini, kelebihannya dibanding kompetitor, yup kita pun harus bisa menjadi marketing perusahaan (diri) kita sendiri, memiliki produk yang bagus saja belumlah cukup, kita harus bisa meyakinkan klien bahwa produk kita memiliki kualitas yang baik toh, semakin baik kita memasarkan produk kita semakin tinggi keuntungan yang bisa kita dapatkan, bahkan semakin banyak potensial kustomer yang bisa kita peroleh.</p>
-<h2>Bekerja melebihi harapan pelanggan</h2>
-<p>Adalah kunci untuk menjadi yang terdepan, pelanggan kita tidak melulu hanya si perusahaan tempat kita bekerja, rekan kerja kita sebenarnya adalah pelanggan kita, merekalah yang mendapatkan value yang kita berikan.</p>
-<p>Angaplah hubungan di kantor IT adalah hubungan transaksional. Seorang Developer pelanggan nya adalah QA, PM bahkan IT ops. Bagaimana si Developer ini bisa melebihi harapan pelanggan nya? adalah dengan mengetahui keinginan si pelanggan, misal Dev-QA, si developer tentu harus membuat aplikasi dengan kualitas yang baik, dia sendiri pun harus menguji aplikasi yang dia buat dengan teliti, agar dia bisa segera menemukan error dan memperbaiki dengan cepat, sehingga ketika aplikasi di uji oleh seorang QA, maka error sepele tidak lagi ada, dan meringankan kerja QA, atau contoh lain bagi seorang developer adalah membuat code yang baik atau bahkan membuat dokumentasi dari kode yang ia tulis agar di masa depan developer lain yang melanjutkan tidak akan kebingungan atau mengutuk dia dan malah merewrite aplikasi ke kode baru :D</p>
-<figure class="post__image post__image--wide" ><img loading="lazy" src="https://fachrul.id/media/posts/48/pexels-rodnae-productions-7414050.jpg" alt="Foto oleh RODNAE Productions dari Pexels" width="1280" height="853" sizes="100vw" srcset="https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7414050-xs.jpg 300w ,https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7414050-sm.jpg 480w ,https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7414050-md.jpg 768w ,https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7414050-lg.jpg 1024w ,https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7414050-xl.jpg 1360w ,https://fachrul.id/media/posts/48/responsive/pexels-rodnae-productions-7414050-2xl.jpg 1600w">
-<figcaption >Foto oleh <strong><a href="https://www.pexels.com/id-id/@rodnae-prod?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels">RODNAE Productions</a></strong> dari <strong><a href="https://www.pexels.com/id-id/foto/pemasaran-exit-teknologi-bisnis-7413915/?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels">Pexels</a></strong></figcaption>
-</figure>
-<h2>Selanjutnya</h2>
-<p>Layaknya bisnis, ada banyak faktor yang harus diperhatikan selain hanya produk, seperti tadi sudah disingung mengenai marketing, perusahaan di dunia nyata pun kalau kita lihat banyak menghabiskan biaya untuk iklan kan produk mereka, sebagai software developer kitapun harus bisa "menjual diri" kita ke customer agar layak mendapatkan imbalan yang tinggi.</p>
-<p>Contoh marketing yang biasa ditempuh oleh software developer seperti memberikan sharing session, aktif di komunitas, membuat open source, membuat konten di sosial media (instagram, youtube, podcast, ataupun blog/medium).</p>
-<p>Lalu setelah memperoleh income, perusahaan pun harus pandai mengelola uang, divisi finance memegang peranan krusial dalam keberlangsungan perusahaan, kita harus pandai-pandai mengelola aliran uang masuk, khususnya jika kita sebagai pekerja lepas (freelance) dimana penghasilan bisa tak menentu, ataupun jika kamu karyawan bergaji tinggi harus juga mulai melek investasi sehingga bisa membuat portofolio aset untuk masa depan, minimal bisa menjaga kekayaan kita di masa depan (menghindari inflasi) atau bahkan menjadi passive income yang akan memenuhi kebutuhan kita nanti, karena sebesar apapun pendapatan apabila tidak bisa mengelola pengeluaran yang baik serupa ember bolong-bolong, sebanyak apapun air yang kamu isi, kemudian akan bocor juga dan habis suatu saat. Sederhananya, ember boleh saja bolong, tapi pastikan ada banyak keran yang mengisi toh</p>
-<h2>Pekerjaanmu bukanlah karirmu</h2>
-<p>Kembali ke kasus manajer saya tadi, dia tak takut kehilangan potensi keuntungan dan berani mengambil risiko di pekerjaan baru, karena dia tahu keputusan nya pindah pekerjaan akan mengakselerasi karir dia ke depannya.</p>
-<p>Jadi, kita tak perlu setia pada perusahaan dimana kita bekerja, karena kita adalah CEO di perusahaan "karir" kita sendiri.</p>
-<p>Bahkan jika dipikirkan kembali, semua pekerjaan pun bisa menerapkan pola pikir entrepreneurship ini, bukan bekerja tapi berkarya, maka dari itu kita kenal istilah karyawan, orang yang berkarya, sekalipun pekerjaan sebagai tukang Vermak lepis keliling, yang mungkin produk utamanya adalah memotong levis customer, namun jika mau meningkatkan layanan produknya, bisa saja dia berinovasi dari sisi marketing jasanya nya ini, misalnya dengan menuliskan akun sosial media di "grobak" nya dia, atau memberikan kartu nama, sehingga bisa "menjemput rejeki" ketika pelanggan perlu vermak, maka dia akan menghubungi dia, daripada mengandalkan luasnya cakupan keliling untuk meningkatkan probabilitas bertemu pelanggan yang membutuhkan jasanya.</p>
-<p>Baiklah, sekarang sudah percaya karirmu adalah perusahaanmu? seberapa siap kah kamu memimpin perusahaan "Karir" kamu ini?<br><br></p>
             ]]>
         </content>
     </entry>
