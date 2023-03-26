@@ -3,7 +3,7 @@
     <title>Catatan celoteh @FachrulCH</title>
     <link href="https://fachrul.id/feed.xml" rel="self" />
     <link href="https://fachrul.id" />
-    <updated>2023-03-26T15:04:01+04:00</updated>
+    <updated>2023-03-26T15:16:36+04:00</updated>
     <author>
         <name>Fachrul Choliluddin</name>
     </author>
@@ -20,7 +20,7 @@
             <category term="merdeQA"/>
             <category term="belajar-qa"/>
 
-        <updated>2023-03-26T15:04:01+04:00</updated>
+        <updated>2023-03-26T15:16:36+04:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fachrul.id/media/posts/59/ilustrasi-fachrul.id-2.jpg" alt="" />
@@ -66,6 +66,11 @@
 <p>Dan terkait nomer 1 tadi, di planning juga prioritas test cases nya, mana yang masuk test run nanti, mana yang penting di cek duluan sebelum yang lain</p>
 <h4>3. Nyuruh Robot</h4>
 <p>Alias test automation, dengan adanya test automation, pengujian software tentu akan lebih mudah, mereka akan nurut terus disuruh ngetest kapanpun bisa, ga ada capeknya, ga bosen-bosen ngetest hal yang sama 100x sehari. Tentu, robot/automation ini ga akan menggantikan kualitas pengujian yang dijalankan oleh manusia, tapi bayangin deh kita kan klo ngetest ga bisa paralel sekaligus semuanya dikerjain barengan, nah contoh, saat kita lagi test module sign up dengan fitur baru, si test automation ini akan ngetest module login/reset password, nanti pas kita kelar test sign up tinggal liat hasilnya dulu dari yang dikerjain test automation, sebelum kita terjun lebih jauh di pengujian manual, karena kesel juga kan pas ditengah test gataunya ada error dan perbaikannya bisa bikin test kita yang udah kelar harus di-retest lagi.</p>
+<p> </p>
+<figure class="post__image post__image--center" ><a href="https://www.tokopedia.com/ngetest-jualan" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://fachrul.id/media/posts/59/baju-keren-software-tester.jpeg" alt="baju keren software tester nih gaes" width="304" height="304" sizes="100vw" srcset="https://fachrul.id/media/posts/59/responsive/baju-keren-software-tester-xs.jpeg 300w ,https://fachrul.id/media/posts/59/responsive/baju-keren-software-tester-sm.jpeg 480w ,https://fachrul.id/media/posts/59/responsive/baju-keren-software-tester-md.jpeg 768w ,https://fachrul.id/media/posts/59/responsive/baju-keren-software-tester-lg.jpeg 1024w ,https://fachrul.id/media/posts/59/responsive/baju-keren-software-tester-xl.jpeg 1360w ,https://fachrul.id/media/posts/59/responsive/baju-keren-software-tester-2xl.jpeg 1600w"></a>
+<figcaption >klik gambar ini buar beli di Tokopedia</figcaption>
+</figure>
+<p class="align-center"><a href="https://www.tokopedia.com/ngetest-jualan" target="_blank" rel="noopener noreferrer">Coba cek ini, deh kaos keren di toko gw "NgeTest Jualan" Tokopedia</a></p>
 <h4>4. Menggunakan jurus pengujian yang tepat</h4>
 <p>Pernah denger jurus “Kunyuk Melempar buah”? ahaha generasi 90an doang keknya yang inget!</p>
 <p>Oke maksudnya adalah menggunakan teknik pengujian yang tepat bisa meningkatkan kualitas pengujian lebih efektif dan confidence, contohnya gini, pada suatu fitur baru untuk tambah validasi pada suatu form input, kita punya 30 macem validasi, nah kita harus tau ini validasi dari Backend apa frontend, klo tau ini validasi datengnya dari BE, jadi si 30 macem validasi kita test di level API aja, 1x di FE, buat liat tampilan errornya aja, karena konten error message nya dateng dari BE toh, jadi ga perlu deh tuh kita habisin waktu lama-lama buat ngetest semua 30 validasi tadi (atau bahkan influence dev buat cover 30 test tadi di level unit testing)</p>
