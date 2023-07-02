@@ -3,7 +3,7 @@
     <title>Catatan celoteh @FachrulCH</title>
     <link href="https://fachrul.id/feed.xml" rel="self" />
     <link href="https://fachrul.id" />
-    <updated>2023-07-02T11:55:46+04:00</updated>
+    <updated>2023-07-02T12:02:21+04:00</updated>
     <author>
         <name>Fachrul Choliluddin</name>
     </author>
@@ -20,7 +20,7 @@
             <category term="merdeQA"/>
             <category term="belajar-qa"/>
 
-        <updated>2023-07-02T11:55:46+04:00</updated>
+        <updated>2023-07-02T12:02:21+04:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fachrul.id/media/posts/62/Teka-Teki-Segitiga-Sebuah-Pelajaran-Penting-Critical-Thinking-dan-Software-Testing.jpg" alt="" />
@@ -32,7 +32,7 @@
                     <p><img src="https://fachrul.id/media/posts/62/Teka-Teki-Segitiga-Sebuah-Pelajaran-Penting-Critical-Thinking-dan-Software-Testing.jpg" class="type:primaryImage" alt="" /></p>
                 <p>Salam 🙌</p>
 <p>Beberapa waktu lalu, di timeline gw ada tweet yang lagi rame soal tantangan menghitung jumlah segitiga dalam satu gambar, gw langsung mikir "nah ini contoh bagus buat melatih critical thinking buat software tester"</p>
-<p>Kemarin (1 Juli 2023), gw bikin quiz kecil-kecilan di instagram ngetest.id, soal pertanyaan teka-teki menghitung segitiga ini "How many triangles?"</p>
+<p>Kemarin (1 Juli 2023), gw bikin quiz kecil-kecilan di instagram <a href="https://www.instagram.com/ngetest.id/" target="_blank" rel="noopener noreferrer">@ngetest.id</a>, soal pertanyaan teka-teki menghitung segitiga ini "How many triangles?"</p>
 <figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/62/WhatsApp-Image-2023-07-02-at-10.34.17-2.jpeg" alt="" width="360" height="800" sizes="100vw" srcset="https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.34.17-2-xs.jpeg 300w ,https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.34.17-2-sm.jpeg 480w ,https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.34.17-2-md.jpeg 768w ,https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.34.17-2-lg.jpeg 1024w ,https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.34.17-2-xl.jpeg 1360w ,https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.34.17-2-2xl.jpeg 1600w"></figure>
 <figcaption >quiz di akun @ngetest.id (silakan follow klo belum)</figcaption>
 </figure>
@@ -45,7 +45,7 @@
 <figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/62/jawaban-teka-teki-segitiga.jpeg" alt="" width="350" height="355" sizes="100vw" srcset="https://fachrul.id/media/posts/62/responsive/jawaban-teka-teki-segitiga-xs.jpeg 300w ,https://fachrul.id/media/posts/62/responsive/jawaban-teka-teki-segitiga-sm.jpeg 480w ,https://fachrul.id/media/posts/62/responsive/jawaban-teka-teki-segitiga-md.jpeg 768w ,https://fachrul.id/media/posts/62/responsive/jawaban-teka-teki-segitiga-lg.jpeg 1024w ,https://fachrul.id/media/posts/62/responsive/jawaban-teka-teki-segitiga-xl.jpeg 1360w ,https://fachrul.id/media/posts/62/responsive/jawaban-teka-teki-segitiga-2xl.jpeg 1600w"></figure>
 <figcaption >jawaban jumlah segitiga</figcaption>
 </figure>
-<p>Begitulah kenapa muncul angka 18 sebagai jawaban Quiz di instagram, tapi bukan itu jawaban yang gw harapkan dari followers akun ngetest.id yang gw yakin sebagian besar adalah seorang software tester, yaitu "Bertanya"</p>
+<p>Begitulah kenapa muncul angka 18 sebagai jawaban Quiz di instagram <a href="https://www.instagram.com/ngetest.id/" target="_blank" rel="noopener noreferrer">@ngetest.id</a>, tapi bukan itu jawaban yang gw harapkan dari followers akun ngetest.id yang gw yakin sebagian besar adalah seorang software tester, yaitu "Bertanya"</p>
 <hr>
 <h2>Eh gimana maksudnya?</h2>
 <p>Karena di keterangan quiz nya itu banyak informasi yang ambigu bahkan multi tafsir sih, kebiasaan kita tuh banyak yang anggep asumsi umum sebagai kebenaran dari sebuah requirements (user story), padahal belum tentu itu yang diharapkan.</p>
