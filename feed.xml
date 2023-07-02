@@ -3,22 +3,85 @@
     <title>Catatan celoteh @FachrulCH</title>
     <link href="https://fachrul.id/feed.xml" rel="self" />
     <link href="https://fachrul.id" />
-    <updated>2023-06-29T21:46:56+04:00</updated>
+    <updated>2023-07-02T11:55:46+04:00</updated>
     <author>
         <name>Fachrul Choliluddin</name>
     </author>
     <id>https://fachrul.id</id>
 
     <entry>
-        <title>ResensiQAn: Karir Cemerlang Seorang Quality Assurance</title>
+        <title>Teka-Teki Segitiga: Sebuah Pelajaran Penting! Critical Thinking dan Software Testing</title>
         <author>
             <name>Fachrul Choliluddin</name>
         </author>
-        <link href="https://fachrul.id/resensi-karir-cemerlang-seorang-quality-assurance/"/>
-        <id>https://fachrul.id/resensi-karir-cemerlang-seorang-quality-assurance/</id>
+        <link href="https://fachrul.id/teka-teki-segitiga-sebuah-pelajaran-penting-dalam-critical-thinking-dan-software-testing/"/>
+        <id>https://fachrul.id/teka-teki-segitiga-sebuah-pelajaran-penting-dalam-critical-thinking-dan-software-testing/</id>
+        <media:content url="https://fachrul.id/media/posts/62/Teka-Teki-Segitiga-Sebuah-Pelajaran-Penting-Critical-Thinking-dan-Software-Testing.jpg" medium="image" />
+            <category term="merdeQA"/>
             <category term="belajar-qa"/>
 
-        <updated>2023-06-29T21:46:56+04:00</updated>
+        <updated>2023-07-02T11:55:46+04:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://fachrul.id/media/posts/62/Teka-Teki-Segitiga-Sebuah-Pelajaran-Penting-Critical-Thinking-dan-Software-Testing.jpg" alt="" />
+                    Salam 🙌 Beberapa waktu lalu, di timeline gw ada tweet yang lagi rame soal tantangan menghitung jumlah segitiga dalam satu gambar, gw langsung mikir "nah ini contoh bagus buat melatih critical thinking buat software tester" Kemarin (1 Juli 2023), gw bikin quiz kecil-kecilan di instagram&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://fachrul.id/media/posts/62/Teka-Teki-Segitiga-Sebuah-Pelajaran-Penting-Critical-Thinking-dan-Software-Testing.jpg" class="type:primaryImage" alt="" /></p>
+                <p>Salam 🙌</p>
+<p>Beberapa waktu lalu, di timeline gw ada tweet yang lagi rame soal tantangan menghitung jumlah segitiga dalam satu gambar, gw langsung mikir "nah ini contoh bagus buat melatih critical thinking buat software tester"</p>
+<p>Kemarin (1 Juli 2023), gw bikin quiz kecil-kecilan di instagram ngetest.id, soal pertanyaan teka-teki menghitung segitiga ini "How many triangles?"</p>
+<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/62/WhatsApp-Image-2023-07-02-at-10.34.17-2.jpeg" alt="" width="360" height="800" sizes="100vw" srcset="https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.34.17-2-xs.jpeg 300w ,https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.34.17-2-sm.jpeg 480w ,https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.34.17-2-md.jpeg 768w ,https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.34.17-2-lg.jpeg 1024w ,https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.34.17-2-xl.jpeg 1360w ,https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.34.17-2-2xl.jpeg 1600w"></figure>
+<figcaption >quiz di akun @ngetest.id (silakan follow klo belum)</figcaption>
+</figure>
+<p>Rate yang jawab ga banyak sih sekitar 27% orang yang menjawab, tapi pas gw cek jawabannya, gw kaget juga banyak yang jawab "salah" alias kejebak pas ngitung jumlah segitiganya! Terus sebenernya, berapa sih jumlah segitiga yang bener?</p>
+<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/62/WhatsApp-Image-2023-07-02-at-10.35.45-2.jpeg" alt="" width="350" height="451" sizes="100vw" srcset="https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.35.45-2-xs.jpeg 300w ,https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.35.45-2-sm.jpeg 480w ,https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.35.45-2-md.jpeg 768w ,https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.35.45-2-lg.jpeg 1024w ,https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.35.45-2-xl.jpeg 1360w ,https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.35.45-2-2xl.jpeg 1600w"></figure>
+<figcaption >jawabannya 18</figcaption>
+</figure>
+<p>Jawaban utamanya 18, tapi plot twist nya, ini bukan jawaban yang gw harapkan loh 😱</p>
+<p>Oke kita bahas dulu, dari mana sih angka 18 ini muncul? ini di dapat dari kombinasi garis yang membentuk segitiga, percaya-gak percaya ada rumus matematika juga loh untuk ini, karena katanya menghitung segitiga sama halnya dengan menghitung kombinasi dari tiga garis (three lines chosen out of six)</p>
+<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/62/jawaban-teka-teki-segitiga.jpeg" alt="" width="350" height="355" sizes="100vw" srcset="https://fachrul.id/media/posts/62/responsive/jawaban-teka-teki-segitiga-xs.jpeg 300w ,https://fachrul.id/media/posts/62/responsive/jawaban-teka-teki-segitiga-sm.jpeg 480w ,https://fachrul.id/media/posts/62/responsive/jawaban-teka-teki-segitiga-md.jpeg 768w ,https://fachrul.id/media/posts/62/responsive/jawaban-teka-teki-segitiga-lg.jpeg 1024w ,https://fachrul.id/media/posts/62/responsive/jawaban-teka-teki-segitiga-xl.jpeg 1360w ,https://fachrul.id/media/posts/62/responsive/jawaban-teka-teki-segitiga-2xl.jpeg 1600w"></figure>
+<figcaption >jawaban jumlah segitiga</figcaption>
+</figure>
+<p>Begitulah kenapa muncul angka 18 sebagai jawaban Quiz di instagram, tapi bukan itu jawaban yang gw harapkan dari followers akun ngetest.id yang gw yakin sebagian besar adalah seorang software tester, yaitu "Bertanya"</p>
+<hr>
+<h2>Eh gimana maksudnya?</h2>
+<p>Karena di keterangan quiz nya itu banyak informasi yang ambigu bahkan multi tafsir sih, kebiasaan kita tuh banyak yang anggep asumsi umum sebagai kebenaran dari sebuah requirements (user story), padahal belum tentu itu yang diharapkan.</p>
+<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/62/jawaban-yang-diharapkan.jpeg" alt="" width="350" height="778" sizes="100vw" srcset="https://fachrul.id/media/posts/62/responsive/jawaban-yang-diharapkan-xs.jpeg 300w ,https://fachrul.id/media/posts/62/responsive/jawaban-yang-diharapkan-sm.jpeg 480w ,https://fachrul.id/media/posts/62/responsive/jawaban-yang-diharapkan-md.jpeg 768w ,https://fachrul.id/media/posts/62/responsive/jawaban-yang-diharapkan-lg.jpeg 1024w ,https://fachrul.id/media/posts/62/responsive/jawaban-yang-diharapkan-xl.jpeg 1360w ,https://fachrul.id/media/posts/62/responsive/jawaban-yang-diharapkan-2xl.jpeg 1600w"></figure>
+<figcaption >harusnya ada yang tanya di story ini</figcaption>
+</figure>
+<p>Oke di context quiz segitiga ini, informasi yang perlu diklarifikasi dari pertanyaan (reqirements) "How many <em><strong>triangles</strong></em>?" sebenernya:</p>
+<ul>
+<li>Triangles? eh segitiga yang mana nih? segitiga sama kaki? sama sisi? atau segitiga sembarangan?</li>
+<li>Ini ngitung segitiga yang keliatan doang?</li>
+<li>Luar nya doang? apa termasuk yang di dalem? (segitiga dalam segitiga)</li>
+<li>Atau yang paling epik tuh klo ada yang tanya "Ini garis di lembar kertas diitung membelah segitiga juga ga?"</li>
+</ul>
+<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/62/detail-segitiga.png" alt="" width="350" height="100" sizes="100vw" srcset="https://fachrul.id/media/posts/62/responsive/detail-segitiga-xs.png 300w ,https://fachrul.id/media/posts/62/responsive/detail-segitiga-sm.png 480w ,https://fachrul.id/media/posts/62/responsive/detail-segitiga-md.png 768w ,https://fachrul.id/media/posts/62/responsive/detail-segitiga-lg.png 1024w ,https://fachrul.id/media/posts/62/responsive/detail-segitiga-xl.png 1360w ,https://fachrul.id/media/posts/62/responsive/detail-segitiga-2xl.png 1600w"></figure>
+<figcaption >garis kertas juga keiting bikin segitiga baru?</figcaption>
+</figure>
+<p>Pertanyaan ini penting banget untuk dipahami sebelum menjawab (ngeTest), karena jumlah jawabanya (jumlah segitiga) akan tergantung dari kesepakatan bersama dalam konteks pertanyaan ini (requirements), karena salah tafsir bisa ngasih jawaban yang salah atau nggak lengkap</p>
+<p>Sebagai Software Tester, kita harus paham banget apa sih yang kita tes dan konteks nya gimana. Kita harus pastiin klo tim (QA, Dev, dkk) punya pemahaman yang sama tentang apa yang diharapkan dari softwarenya</p>
+<h2>Jadi, apa yang bisa kita pelajari dari teka-teki segitiga ini?</h2>
+<p>Jangan takut buat nanya. Jangan asumsi kamu udah ngerti semuanya. Pahami konteks, pahami requirement, asah critical thinking kamu. Kita harus bisa melihat lebih dari apa yang nampak di depan mata, kita harus bisa "melihat" apa yang tidak tampak oleh orang lain, menguji batas dan memastikan bahwa tim bisa memberikan yang terbaik melebihi harapan pelanggan (production user)</p>
+<hr>
+<p>Sumber artikel: <a href="https://www.popularmechanics.com/science/math/a30706968/viral-triangle-brain-teaser-solved/">https://www.popularmechanics.com/science/math/a30706968/viral-triangle-brain-teaser-solved/</a> </p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>ResensiQAn: Karir Cemerlang Seorang Software Quality Assurance</title>
+        <author>
+            <name>Fachrul Choliluddin</name>
+        </author>
+        <link href="https://fachrul.id/resensiqan-karir-cemerlang-seorang-software-quality-assurance/"/>
+        <id>https://fachrul.id/resensiqan-karir-cemerlang-seorang-software-quality-assurance/</id>
+            <category term="belajar-qa"/>
+
+        <updated>2023-07-02T10:39:36+04:00</updated>
             <summary>
                 <![CDATA[
                     Salam, Apa kabar teman-teman? Semoga selalu dalam keadan baik dan sehat walafiat ya, mohon maaf yak sempat tertunda beberapa pekan tidak rilis tulisan baru, karena ada beberapa kesibukan di kantor, jadi baru sempat di pekan ini saat libur Idul Adha buat ngelarin tulisan ini 😅&hellip;
@@ -891,72 +954,6 @@ O kuncie " width="1456" height="812" data-attrs="{&quot;src&quot;:&quot;https://
 <p>Sugguh situasi pagi yang mind blowing buat saya hari ini.</p>
 <p>Tak hanya dari posting beliau, ternyata sangat menarik membaca posting pengguna yang lain pula, karena mereka membagikan sudut pandang yang menarik, diluar nalar saya!</p>
 <p>Ya gitu deh, terkadang memang kita perlu latihan berfikir kritis dan mengasah <em>common sense</em></p>
-<p> </p>
-<p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Betapa pentingnya keahlian bercerita naratif bagi kepemimpinan sukses jaman now</title>
-        <author>
-            <name>Fachrul Choliluddin</name>
-        </author>
-        <link href="https://fachrul.id/betapa-pentingnya-keahlian-bercerita-bagi-kepemimpinan-sukses-jaman-now/"/>
-        <id>https://fachrul.id/betapa-pentingnya-keahlian-bercerita-bagi-kepemimpinan-sukses-jaman-now/</id>
-
-        <updated>2022-09-17T03:36:15+04:00</updated>
-            <summary>
-                <![CDATA[
-                    Berawal dari sebuah twit-nya mas Gibran Huzaifah, tentang keahlian menulis yang membuat kerja remote bisa optimal, khususnya dengan gaya penulisan naratif, Komunikasi yg baik adalah ciri utama dari pemimpin yg baik Satu resep dasar WFA bisa cukup efektif berjalan di @efishery_ai adalah proses dan kultur&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p class="dropcap">Berawal dari sebuah twit-nya mas <a href="https://twitter.com/gibranhuzaifah">Gibran Huzaifah</a>, tentang keahlian menulis yang membuat kerja remote bisa optimal, khususnya dengan gaya penulisan naratif, Komunikasi yg baik adalah ciri utama dari pemimpin yg baik</p>
-<blockquote class="twitter-tweet" data-partner="tweetdeck">
-<p dir="ltr" lang="in">Satu resep dasar WFA bisa cukup efektif berjalan di <a href="https://twitter.com/efishery_ai?ref_src=twsrc%5Etfw">@efishery_ai</a> adalah proses dan kultur menulis yang kuat, jadi kerja remote/asynchronous bisa optimal. Strategi tahunan, operating plan, evaluasi individu bulanan, sampai weekly review, pake narrative semua. Belum lagi PRD, RFC. <a href="https://t.co/09D54x3Qmp">pic.twitter.com/09D54x3Qmp</a></p>
-— Gibran Huzaifah (@gibranhuzaifah) <a href="https://twitter.com/gibranhuzaifah/status/1541680985011789824?ref_src=twsrc%5Etfw">June 28, 2022</a></blockquote>
-<p>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</p>
-<p>Jujur saja, setelah membaca thread tersebut, seolah menyadarkan saya betapa pentingnya keahlian menulis dengan baik, saya sangat suka dengan analogi komunikatanya, sangat tepat! (bagi generasi baru, mungkin sedikit asing dengan komunikata ya, yaitu permainan tebak kata secara berantai, seperti contohnya pada <a href="https://youtu.be/2CT6MQpBeGU?t=506">youtube disini</a>)</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/52/twit-komunikata.jpg" alt="" width="1024" height="496" sizes="100vw" srcset="https://fachrul.id/media/posts/52/responsive/twit-komunikata-xs.jpg 300w ,https://fachrul.id/media/posts/52/responsive/twit-komunikata-sm.jpg 480w ,https://fachrul.id/media/posts/52/responsive/twit-komunikata-md.jpg 768w ,https://fachrul.id/media/posts/52/responsive/twit-komunikata-lg.jpg 1024w ,https://fachrul.id/media/posts/52/responsive/twit-komunikata-xl.jpg 1360w ,https://fachrul.id/media/posts/52/responsive/twit-komunikata-2xl.jpg 1600w"></figure>
-<p>Saya setuju dengan poin-poin di dalam utas twitter tadi, bahwa menulis naratif merupakan keahlian penting di tengah situasi kerja di rumah (WFH) atau remote, saya menggaris bawahi poin penting pada utas twitter tadi adalah <strong>menulis naratif</strong> dan <strong>asynchronus communication.</strong></p>
-<h2><br>Terus naratif itu apa?</h2>
-<p><em>na.ra.tif</em> : bersifat menguraikan/menjelaskan arti khusus disini adalah pengisahan suatu gagasan dengan sifat menguraikan, pada twit tadi mas Gibran memberikan contoh yang berharga berupa <em>Operating Plan </em>pada lampiran gambarnya. Saya tertarik membacanya sampai habis, seperti sedang membaca cerita pada novel, saya terbawa suasana dan membayangkan perjuangan eFishery sesulit apa, respect!</p>
-<p>Melalui cara naratif ini, pemimpin bisa membagikan gagasannya dengan lebih baik, karena disertai dengan cerita latar belakang masalah dan context pada pembaca/pemirsa akan membentuk sudut pandang yang serupa. Kemampuan tutur cerita/<em>story telling </em>sangat diperlukan untuk membangun narasi yang mudah diikuti dan gampang di cerna.</p>
-<h2>Asynchronous Communication</h2>
-<p>Adalah komunikasi yang tidak mengharuskan lawan bicara hadir disaat yang bersamaan secara langsung dan ada jeda waktu hingga lawan bicara memberikan tanggapannya. Sebenarnya apa yang kita lakukan melalui obrolan Whatsapp, email, komentar di sosial media adalah contoh dari asynchronus ini.</p>
-<p>Dengan cara kerja di era endemi Covid19 yang mewajarkan kerja di rumah/remote work, tentu semakin mempertegas pentingnya komunikasi asinkron ini, karena tidak terlihat secara fisik, kita sering mengandalkan zoom/google meet untuk berbicara dengan rekan kerja, terlalu menguras energi rasanya untuk terus terhubung dengan cara ini, terlebih bekerja di rumah seringkali mendapatkan distraction dari keluarga.</p>
-<h2>Namun</h2>
-<p>Tak melulu harus dalam media tulis, saya melihat saat ini ada berbagai macam platform dimana pemimpin bisa menyampaikan gagasan dengan efektif. Bisa melalui video ataupun audio/podcast, karena saya melihat pemirsa warga net lebih banyak mengkonsumsi tayangan audio/video di media sosial ketimbang membaca buku. Saya berasumsi kemasan berupa video ondemand lebih menarik.<br><br>Keahlian menulis beda dengan lisan, saat menulis, kita memiliki kesempatan untuk merangkai, mengkoreksi, mengganti diksi yg lebih sesuai dalam menggambarkan gagasan. Tentu ini pun bisa berlaku untuk rekaman video ataupun audio karena bisa melalui proses perencanaan dan penyuntingan paska produksi, namun melalui tulisan prose ini menjadi lebih sederhana dan mudah, dibandingkan media lain.</p>
-<h2>Padat Wawasan</h2>
-<p>Ketika gagasan rumit bisa disederhanakan dengan tulisan/lisan yg baik, maka para pembaca/pemirsa akan dengan mudah mencerna makna dan menghilangkan kebingungan. Dengan begitu kita bisa merasakan dampak produktifitas meningkat karena tim sudah paham tentang gagasan dan cakupan tugas yang harus dikerjakan.</p>
-<p>Pernahkah kamu merasa tidak antusias saat lawan bicara (bisa sendiri atau banyak/rapat) memintamu mengulang lagi informasi yang baru disampaikan hanya karena dia kurang menyimak? Orang lain yang sudah paham harus menunggu untuk melanjutkan diskusi, dan ini pun terasa boros waktu. Seringkali mayoritas peserta rapat pun akan lebih banyak diam, antara proses mencerna informasi tiap orang berbeda, atau sungkan untuk berkomentar langsung dan memilih diam, maka dari itu asynconus lebih cocok untuk semua.</p>
-<h2>Kenali tipe seperti apakah kamu</h2>
-<p>Saya adalah tipe audio visual, jadi saya lebih senang memberikan informasi berupa gambar ataupun video rekaman pada tim, bahkan saya termasuk yang sering bercanda dengan membuat meme sendiri pada situasi tertentu, maka dari itu untuk async saya lebih senang memberikan penjelasan melalui media rekaman video dan audio.</p>
-<p>Contoh, saat saya pernah membuat rekaman video menjabarkan perubahan kode yang saya lakukan pada sebuah Merge Request, saya merasa lebih efisien menjelaskan melalui video ketimbang pada tulisan dan melampirkan gambar, sekarang cukup mudah membuat video sendiri, bisa melalui aplikasi loom ataupun obs studio, tentu saja saya akan membuat catatan terlebih dahulu apa saja poin yang perlu dibahas dalam video, pun masih sempat saya edit dengan video editor gratisan untuk membuang kesalahan selama rekaman dan membuang informasi-informasi yang tidak perlu.</p>
-<p>Saya pun pernah memiliki mentor yang sangat pandai dalam bertutur lisan, dan dia sering membuat podcast/rekaman audio tentang visi nya di periode depan, saya tanya dia, katanya lebih cocok menyampaikan dengan audio karena dia bisa menambah intonasi di beberapa titik agar pesan lebih ekspresif, dan lebih nyaman tanpa kelihatan rupa, karena malas dandan, jadi format audio lebih cocok katanya.</p>
-<p>Lalu saya pun pernah memiliki mentor yang sangat rapih dalam membuat dokumentasi pada confluence, semua orang kagum akan kemampuan dia merangkai kata, bahkan presentasi slide yang dia buat sangat menarik dan informatif.</p>
-<h2>Lalu bagaimana cara meningkatkan keahlian bercerita naratif?</h2>
-<p>Berikut ini adalah saran saya dalam rangka menigkatkan keahlian bercerita naratif akan selalu saya perbarui seiring bertambahnya ilmu yang saya dapatkan di masa depan</p>
-<h3>1. Perbanyak mencerna informasi baru</h3>
-<p>Layaknya mesin kopi espresso canggih, sepresisi apapun mesin tersebut tak akan mampu menghasilkan kopi nikmat jiga menggunakan biji kopi yang tidak berkualitas baik, maka pemikiran kita pun seperti itu, untuk menghasilkan keluaran yang baik harus memasok informasi yang berkualitas pula.</p>
-<p>Membaca adalah salah satu metode belajar paling efektif dan cepat, ketika kita tidak paham kita bisa mengulang lagi ataupun membaca perlahan, ditambah lagi si penulis tentu telah memberikan informasi yang terbaik karena telah melalui berbagai macam proses termasuk penyuntingan, sehingga pembaca dengan lebih mudah mencerna informasi.</p>
-<p>Selain itu dengan Video/audio pun salah satu media pembelajaran yang baik, kita akan belajar bagaimana cara berbicara dengan intonasi yang tepat, tempo yang pas dan olah tubuh yang sesuai, pun dengan audio kita bisa belajar sembari mengerjakan hal lain, seperti mendengarkan podcast sambil mencuci piring.</p>
-<h3>2. Berlatih</h3>
-<p>Layaknya keahlian lain, berlaku rumus "bisa karena biasa", latihan memilih kata yang efisien dan tepat, rencanakan dahulu apa yang mau diucapkan dengan membuat draft, lebih mindfull pada saat akan mengirimkan pesan kepada tim, baca ulang, tanyakan pertanyaan ini kepada diri sendiri sebelum mengirimkan tulisan/video/audio:</p>
-<ul>
-<li>apakah gagasan mudah ditangkap?</li>
-<li>apakah saya terlalu bertele-tele?</li>
-<li>ada kata/informasi yang bisa dikurangi/hapus?</li>
-</ul>
-<h3>3. Evaluasi</h3>
-<p>Lihat/minta feedback dari si penerima pesan kita, apakah informasi/gagasan bisa ditangkap dengan benar oleh dia/mereka, bagaimana reaksi mereka. Lapang dada mana kala terdapat kekurangan, justru kita bisa mulai perbaiki dari kesalahan itu di proses selanjutnya.</p>
-<p>Sangat membanggakan ketika menerima feedback positf, kumpulkan dan arsipkan di dokumen pribadi, karena ini akan menambah semangat kita di masa depan, harus lebih baik dari ini lagi.</p>
-<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/52/feedback.jpg" alt="feedback" width="900" height="166" sizes="100vw" srcset="https://fachrul.id/media/posts/52/responsive/feedback-xs.jpg 300w ,https://fachrul.id/media/posts/52/responsive/feedback-sm.jpg 480w ,https://fachrul.id/media/posts/52/responsive/feedback-md.jpg 768w ,https://fachrul.id/media/posts/52/responsive/feedback-lg.jpg 1024w ,https://fachrul.id/media/posts/52/responsive/feedback-xl.jpg 1360w ,https://fachrul.id/media/posts/52/responsive/feedback-2xl.jpg 1600w"></figure>
-<figcaption >Komentar postif dari rekan kerja</figcaption>
-</figure>
 <p> </p>
 <p> </p>
             ]]>
