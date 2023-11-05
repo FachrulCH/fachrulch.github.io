@@ -3,12 +3,171 @@
     <title>Catatan celoteh @FachrulCH</title>
     <link href="https://fachrul.id/feed.xml" rel="self" />
     <link href="https://fachrul.id" />
-    <updated>2023-11-05T13:12:46+04:00</updated>
+    <updated>2023-11-05T14:55:53+04:00</updated>
     <author>
         <name>Fachrul Choliluddin</name>
     </author>
     <id>https://fachrul.id</id>
 
+    <entry>
+        <title>Menjaga Hubungan Baik dengan Developer</title>
+        <author>
+            <name>Fachrul Choliluddin</name>
+        </author>
+        <link href="https://fachrul.id/menjaga-hubungan-baik-dengan-developer/"/>
+        <id>https://fachrul.id/menjaga-hubungan-baik-dengan-developer/</id>
+
+        <updated>2023-11-05T14:55:53+04:00</updated>
+            <summary>
+                <![CDATA[
+                    Bekerja sebagai QA memang terkadang menantang, terutama ketika harus melaporkan kesalahan atau bug ke tim developer. Berikut adalah beberapa tips untuk membangun hubungan kerja yang baik dengan developer dan membuat proses ini menjadi lebih mudah: Penting untuk menjaga komunikasi yang baik dengan Developer. Kamu harus&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Bekerja sebagai QA memang terkadang menantang, terutama ketika harus melaporkan kesalahan atau bug ke tim developer. </p>
+<p>Berikut adalah beberapa tips untuk membangun hubungan kerja yang baik dengan developer dan membuat proses ini menjadi lebih mudah:</p>
+<h3>1. Komunikasi yang Jelas dan Profesional</h3>
+<p>Penting untuk menjaga komunikasi yang baik dengan Developer. Kamu harus sampaikan informasi dengan jelas dan jangan ragu untuk bertanya jika ada hal yang tidak jelas. Pastikan bahwa komunikasimu selalu jelas, profesional, dan berorientasi pada solusi. </p>
+<p>Gunakan bahasa yang netral dan fokus pada fakta ketika melaporkan bug, bukan menyalahkan individu.</p>
+<p>Pelajari juga bahasa teknis, biar ngobrol sama developer bisa lebih nyambung. Gunakan bahasa yang sederhana dan mudah dipahami agar pesan Anda dapat disampaikan dengan jelas.</p>
+<h3>2. Pahami Perspektif Developer</h3>
+<p>Cobalah untuk memahami perspektif developer dan tantangan yang mereka hadapi. Ini akan membantu kamu untuk berkomunikasi dengan lebih efektif dan menunjukkan empati. Apalagi kalo dapet bugs yang susah banget.</p>
+<h3>3. Berikan Feedback yang Konstruktif</h3>
+<p>Jika kamu menemukan bug, berikan feedback yang konstruktif dan bantu mencari solusinya. Hal ini akan dihargai oleh tim developer dan membantu membangun hubungan kerja yang positif.</p>
+<figure class="image"><img loading="lazy" src="https://assets.karyakarsa.com/post-image-647cc7eb3e62b.jpg" data-is-external-image="true"></figure>
+<h3>4. Apresiasi Kerja Mereka</h3>
+<p>Hargai kerja keras tim developer. Jika mereka telah melakukan pekerjaan yang baik atau memperbaiki bug dengan cepat, berikan mereka pujian. Ini akan membangun suasana kerja yang positif dan mempererat hubungan antara QA dan developer.</p>
+<h3>5. Jadilah Tim</h3>
+<p>Ingatlah bahwa kamu dan developer adalah bagian dari tim yang sama dan tujuannya adalah untuk menciptakan produk yang berkualitas. Jangan melihat diri kamu sebagai "polisi kode", tapi sebagai partner yang membantu memastikan kualitas produk.</p>
+<h3>6. Lakukan Sosialisasi</h3>
+<p>Mencoba untuk berinteraksi dengan tim developer di luar lingkungan kerja, misalnya makan siang bersama atau kegiatan tim lainnya, bisa membantu membangun hubungan yang lebih baik dan membuatmu merasa lebih nyaman untuk melaporkan masalah.</p>
+<p>Ingatlah bahwa tujuan utama QA adalah untuk membantu meningkatkan kualitas produk, bukan untuk menunjuk kesalahan. Dengan pendekatan yang tepat, kamu bisa membangun hubungan kerja yang efektif dengan tim developer dan bekerja sama untuk mencapai tujuan bersama.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Lanjutan: Morning Check buat Software Tester</title>
+        <author>
+            <name>Fachrul Choliluddin</name>
+        </author>
+        <link href="https://fachrul.id/lanjutan-morning-check-buat-software-tester/"/>
+        <id>https://fachrul.id/lanjutan-morning-check-buat-software-tester/</id>
+
+        <updated>2023-11-05T14:54:43+04:00</updated>
+            <summary>
+                <![CDATA[
+                    <p>Menyambung pembahasan lebih lanjut dari materi sebelumnya tentang <a href="https://fachrul.id/cem-mana-keseharian-menjadi-software-tester-itu-sih/" target="_blank" rel="noopener noreferrer">keseharian menjadi software tester</a></p>
+<p>Sure, ayo kita bahas lebih dalam soal "morning check" dalam dunia Quality Assurance (QA)!<br>Morning check, atau yang bisa kita sebut "cek pagi", biasanya adalah langkah pertama yang dilakukan oleh seorang QA saat memulai hari kerjanya. Apa aja sih yang biasanya diperiksa dalam morning check ini?<br> </p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Menyambung pembahasan lebih lanjut dari materi sebelumnya tentang <a href="https://fachrul.id/cem-mana-keseharian-menjadi-software-tester-itu-sih/" target="_blank" rel="noopener noreferrer">keseharian menjadi software tester</a></p>
+<p>Sure, ayo kita bahas lebih dalam soal "morning check" dalam dunia Quality Assurance (QA)!<br>Morning check, atau yang bisa kita sebut "cek pagi", biasanya adalah langkah pertama yang dilakukan oleh seorang QA saat memulai hari kerjanya. Apa aja sih yang biasanya diperiksa dalam morning check ini?<br> </p>
+
+<h3>1. Melihat Email<br> </h3>
+<p>Pagi hari adalah waktu yang pas buat memeriksa email atau slack kantor. Mungkin ada update dari tim developer, laporan production bug baru dari user atau anggota tim lainnya, atau mungkin saja ada email penting lain yang berkaitan dengan proyek yang sedang dikerjakan. </p>
+<p>Intinya, memeriksa email ini buat memastikan kamu nggak ketinggalan info penting apa pun.</p>
+<h3><br>2. Memeriksa Update Laporan Bug<br> </h3>
+<p>Kalau tim kamu menggunakan alat pelaporan bug seperti JIRA, Bugzilla, atau Trello, morning check adalah waktu yang baik buat cek apakah ada laporan bug baru dari tim QA lain,, atau mungkin update tentang bug yang kemarin sudah kamu laporin. </p>
+<p>Lagi-lagi, ini buat memastikan kamu selalu up to date dengan progress sprint, karena biasanya tiap pagi kan akan ada Daily Standup Meeting.</p>
+<figure class="image"><img loading="lazy" src="https://assets.karyakarsa.com/post-image-647cc187a3b7a.jpg" data-is-external-image="true"></figure>
+<h3><br>3. Melihat Progress dan Task Hari Itu<br> </h3>
+<p>Setelah mengecek email dan alat pelaporan bug, biasanya QA akan melihat progress proyek secara keseluruhan dan apa saja task atau tugas yang harus dikerjakan hari itu, tiket apa aja yang udah pindah ke kolom <i>ready for testing</i>. Mungkin hari ini ada pengujian fungsional yang harus dilakukan, atau mungkin ada meeting dengan tim developer buat bahas rencana pengembangan fitur baru.</p>
+<h3><br>4. Membuat Rencana Kerja<br> </h3>
+<p>Setelah tahu apa saja yang harus dilakukan hari itu, QA biasanya akan membuat rencana kerja atau to-do list. Ini bisa membantu memprioritaskan tugas-tugas dan memastikan bahwa semua tugas penting dapat diselesaikan dengan efisien.</p>
+<p><br>Jadi, intinya morning check ini adalah proses persiapan dan perencanaan untuk memastikan hari kerja berjalan dengan lancar. Semacam ritual pagi yang membantu QA tetap terorganisir dan efisien dalam mengerjakan tugas-tugasnya. </p>
+<p>Cukup menarik, bukan? Siapa tahu, kamu juga mau coba menerapkan ritual pagi ini dalam pekerjaanmu!<br> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Cem mana keseharian menjadi Software Tester itu sih?</title>
+        <author>
+            <name>Fachrul Choliluddin</name>
+        </author>
+        <link href="https://fachrul.id/cem-mana-keseharian-menjadi-software-tester-itu-sih/"/>
+        <id>https://fachrul.id/cem-mana-keseharian-menjadi-software-tester-itu-sih/</id>
+
+        <updated>2023-11-05T14:51:37+04:00</updated>
+            <summary>
+                <![CDATA[
+                    <p>Halo, sobat teknologi! </p>
+<p>Kayaknya banyak yang penasaran nih sama kerjaan sebagai Quality Assurance atau biasa disebut QA. </p>
+<p>Apa sih yang biasa dilakukan seorang QA dalam sehari-hari? Kok rasanya serem ya, kayak detektif yang mencari-cari kesalahan? Yuk, kita kupas tuntas cerita hidupnya QA!<br> </p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Halo, sobat teknologi! </p>
+<p>Kayaknya banyak yang penasaran nih sama kerjaan sebagai Quality Assurance atau biasa disebut QA. </p>
+<p>Apa sih yang biasa dilakukan seorang QA dalam sehari-hari? Kok rasanya serem ya, kayak detektif yang mencari-cari kesalahan? Yuk, kita kupas tuntas cerita hidupnya QA!<br> </p>
+
+<figure class="image image-style-align-center"><img loading="lazy" src="https://assets.karyakarsa.com/post-image-647c65b68c1cf.jpg" data-is-external-image="true"></figure>
+<h3>Morning Check<br> </h3>
+<p>Pagi-pagi, biasanya QA akan melakukan morning check, alias mengecek slack/email atau tools pelaporan bug seperti JIRA atau report test automation, buat lihat ada laporan bug baru atau nggak. Atau mungkin ada update dari tim developer soal perbaikan bug yang kemarin dilaporkan. </p>
+<p>Intinya, morning check ini buat update status proyek dan siapkan diri buat aktivitas yang bakal dihadapi hari itu (dan modal update di daily standup meeting)</p>
+<h3><br>Pengujian, Pengujian, dan Pengujian<br> </h3>
+<p>Setelah morning check, biasanya QA akan langsung masuk ke aktivitas utamanya: testing atau pengujian. Ada berbagai macam pengujian yang biasanya dilakukan, mulai dari pengujian fungsional (apakah fitur A, B, C berfungsi dengan baik?), pengujian non-fungsional (bagaimana performa dan keamanannya?), sampai pengujian regresi (setelah bug diperbaiki, apakah ada fitur lain yang jadi terganggu?). Sering juga, pengujian ini dilakukan secara manual dan otomatis. </p>
+<p>Pengujian manual biasanya dilakukan untuk melihat pengalaman pengguna secara langsung, istilahnya exploratory testing, sedangkan pengujian otomatis biasanya dilakukan dengan alat atau software khusus macam selenium/appium/API test gitu, buat cek fungsi-fungsi tertentu secara cepat dan efisien, jadi nanti kelar ngejalanin testnya bisa di lihat apakah fitur baru ini bikin error di module lain nggaknya</p>
+<h3><br>Laporan Bug<br> </h3>
+<p>Nah, kalau dalam pengujian tadi ditemukan bug atau masalah, QA harus melaporkannya ke tim developer. Biasanya, laporan ini dilakukan dengan cara yang sistematis dan detail, mulai dari menjelaskan bug yang ditemukan, langkah-langkah untuk mereproduksi bug tersebut, hingga memberikan screenshot atau video sebagai bukti.</p>
+<h3>Diskusi dan Meeting</h3>
+<p>Selain pengujian dan pelaporan, dalam kesehariannya, QA juga sering kali melakukan diskusi dan pembahasan dengan tim developer dan stakeholder lainnya. Misalnya, membahas fitur baru yang akan dikembangkan, memberikan masukan terkait user experience, atau mungkin melakukan review terhadap bug yang sudah diperbaiki.<br> </p>
+<h3>Selalu Belajar dan Update<br> </h3>
+<p>Dalam dunia yang selalu berubah seperti teknologi, seorang QA juga harus selalu belajar dan update pengetahuan. Misalnya belajar teknik pengujian baru, belajar menggunakan tools pengujian yang baru, atau mungkin belajar tentang tren dan perkembangan teknologi terkini.</p>
+<p><br>Intinya mah menjadi QA itu seru dan penuh tantangan. Kamu harus jeli dan teliti, tapi juga harus bisa bekerja sama dengan tim dan terus belajar. Tapi percaya deh, rasanya puas banget kalau bisa membantu menciptakan software yang bebas dari bug dan nyaman digunakan pengguna. Jadi, siapa nih yang tertarik jadi QA?<br> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>9 Hal Penting untuk Dikuasai Software Tester (Quality Assurance)</title>
+        <author>
+            <name>Fachrul Choliluddin</name>
+        </author>
+        <link href="https://fachrul.id/9-hal-penting-untuk-dikuasai-software-tester-quality-assurance/"/>
+        <id>https://fachrul.id/9-hal-penting-untuk-dikuasai-software-tester-quality-assurance/</id>
+
+        <updated>2023-11-05T14:46:17+04:00</updated>
+            <summary>
+                <![CDATA[
+                    1. Pemahaman Dasar tentang Perangkat Lunak Untuk menjadi Software Tester handal, kamu harus memahami gimana cara kerja aplikasi digital (Web, Android, iOS, API). Ditambah juga harus ngerti konsep dasar pemrograman, struktur data, dan algoritma itu penting banget loh. Memang kamu ga mesti paham sedalam Developernya&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h3>1. Pemahaman Dasar tentang Perangkat Lunak</h3>
+<p>Untuk menjadi Software Tester handal, kamu harus memahami gimana cara kerja aplikasi digital (Web, Android, iOS, API). </p>
+<p>Ditambah juga harus ngerti konsep dasar pemrograman, struktur data, dan algoritma itu penting banget loh. Memang kamu ga mesti paham sedalam Developernya (programmer), cukup punya pemahaman dasar cara bikin aplikasinya, cara kerja aplikasi, cara deploy/compile, tentu akan sangat membantu kamu memahami dan menemukan bug dalam aplikasi yang diuji.</p>
+<h3><br>2. Metodologi Pengujian Software</h3>
+<p>Pelajari berbagai teknik dan jenis pengujian software, seperti metode pengujian fungsional, pengujian non-fungsional (performa, keamanan, usability), pengujian regresi, dan test automation. </p>
+<p>Setiap jenis pengujian ini punya tujuan dan tekniknya sendiri yang perlu dipahami, di kesempatan lain saya akan jabarkan lebih dalam ya.</p>
+<h3><br>3. Belajar Bahasa Pemrograman</h3>
+<p>Paling nggak punya satu bahasa pemrograman yang kamu kuasai adalah modal yang sangat berguna dalam karir Software Engineer secara umum, jadi menjadi software tester/QA juga perlu punya bahasa pemrograman andalan, misal buat bikin test automation.</p>
+<p>Kamu bisa pilih bahasa pemrograman seperti: Javascript, Python dan Java adalah bahasa pemrograman yang umum digunakan dalam pengujian perangkat lunak dan digunakan developer untuk bikin aplikasinya, jadi kamu bisa tanya Dev kalo mentok soal koding.</p>
+<figure class="image image-style-align-center"><img loading="lazy" src="https://assets.karyakarsa.com/post-image-647c670139c48.jpg" data-is-external-image="true"></figure>
+<h3>4. Belajar Komunikasi</h3>
+<p>Kemampuan komunikasi yang baik memainkan peran krusial dalam kesuksesan seorang software tester. Karena kamu perlu banget skill komunikasi yang mumpuni biar ga salah paham dengan tim pengembang, tim QA lainnya, pemangku kepentingan, buat hal seperti menyampaikan laporan bug, kolaborasi tim, dan memahami requirement produk.</p>
+<h3><br>5. Pengujian Otomatis</h3>
+<p>Dalam lingkungan kerja modern, pengujian otomatis adalah keterampilan yang penting. Hampir semua startup gede di Indonesia mengimplementasi test automation ke dalam proses rilis nya, biar bisa membantu proses testing perubahan dengan lebih cepat dan konsisten. </p>
+<p>Belajarlah untuk menggunakan, membuat, merawat alat test automation tools seperti Selenium/appium, JUnit, TestNG, dan lainnya.</p>
+<h3><br>6. Pemahaman tentang Siklus Hidup Pengembangan Sistem (SDLC)</h3>
+<p>Seorang QA harus memahami proses SDLC dan bagaimana pengujian perangkat lunak cocok dalam proses tersebut. Pahami juga metode pengembangan seperti Agile dan DevOps.</p>
+<h3><br>7. Pelajari Manajemen Bug dan Alat Pelaporan</h3>
+<p>Software tester biasanya menggunakan tools seperti JIRA, Bugzilla, atau Trello untuk melacak dan melaporkan bug. Laporan bugs yang baik akan berguna bagi Dev untuk memperbaiki bugs dengan cepat, kamu bisa masukin informasi yang jelas dan mudah dipahami dalam laporan bugs, seperti detail masalahnya, cara reporoduce, rekaman video atau screenshot masalah tersebut, hmm di kesempatan lain nanti gw bahas hal ini dengan lebih detail, karena pentingnya kemampuan ini.</p>
+<h3><br>8. Pelajari tentang Basis Data</h3>
+<p>Sebagai seorang software tester, memahami SQL dan operasi basis data dasar adalah keterampilan yang berguna. Karena kamu bisa menguji apakah hasil proses di aplikasi sudah disimpan dengan benar di database, apakah bener nyimpen datanya di kolom tersebut (ga ketuker fieldnya), atau suka ada beberapa element yang suka kelewat, seperti timezone, misal datanya di input jam 7 malem waktu indonesia barat, tetapi di database disimpen GMT+0, pas di cek di sistem lain gada conversi balik ke WIB, dulu saya menemukan bugs ini setelah liat di database</p>
+<h3><br>9. Belajar tentang Keamanan Perangkat Lunak</h3>
+<p>Pemahaman dasar tentang keamanan perangkat lunak juga penting, termasuk topik seperti serangan XSS, SQL Injection, dan teknik penipuan lainnya, walaupun biasanya sudah ada tim khusus terkait software security ini seperti pentester dan devops, tapi keamanan aplikasi baru ini masuk ke dalam non-functional testing</p>
+<p><br>Gitu deh, gimana menurut kamu? Ternyata jadi software tester bukan hanya tentang menemukan bug ya. </p>
+<p>Kita juga harus paham “luar-dalam” aplikasi biar yakin aplikasi kita berfungsi seperti yang diharapkan dan memberikan pengalaman yang baik bagi pengguna. </p>
+<p>Semoga sukses dalam perjalanan belajar Anda menjadi seorang software tester!</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Puisi: Setahun Berlalu di Dubai</title>
         <author>
@@ -611,323 +770,6 @@ O kuncie " width="1456" height="812" data-attrs="{&quot;src&quot;:&quot;https://
 <figure class="gallery__item"><a href="https://fachrul.id/media/posts/58/gallery/4.jpg" data-size="1080x1080"><img loading="lazy" src="https://fachrul.id/media/posts/58/gallery/4-thumbnail.jpg" alt="" width="720" height="720"></a></figure>
 <figure class="gallery__item"><a href="https://fachrul.id/media/posts/58/gallery/3.jpg" data-size="1080x1080"><img loading="lazy" src="https://fachrul.id/media/posts/58/gallery/3-thumbnail.jpg" alt="" width="720" height="720"></a></figure>
 </div></div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Mengapa Software Testing itu Penting?</title>
-        <author>
-            <name>Fachrul Choliluddin</name>
-        </author>
-        <link href="https://fachrul.id/mengapa-software-testing-itu-penting/"/>
-        <id>https://fachrul.id/mengapa-software-testing-itu-penting/</id>
-        <media:content url="https://fachrul.id/media/posts/57/ilustrasi-fachrul.id-2.jpg" medium="image" />
-            <category term="merdeQA"/>
-            <category term="belajar-qa"/>
-
-        <updated>2023-03-26T15:59:41+04:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://fachrul.id/media/posts/57/ilustrasi-fachrul.id-2.jpg" alt="mengapa software testing itu penting" />
-                    Dalam dunia yang semakin bergantung pada teknologi, aplikasi digital telah menjadi bagian tak terpisahkan dari kehidupan sehari-hari. Mulai dari aplikasi pada smartphone kita untuk tetap eksis di sosial media, sampai ke aplikasi jasa yang kita gunakan sehari-hari. Aplikasi digital ini memainkan peran penting dalam berbagai&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://fachrul.id/media/posts/57/ilustrasi-fachrul.id-2.jpg" class="type:primaryImage" alt="mengapa software testing itu penting" /></p>
-                <p class="dropcap"><span style="font-weight: 400;">Dalam dunia yang semakin bergantung pada teknologi, aplikasi digital telah menjadi bagian tak terpisahkan dari kehidupan sehari-hari. Mulai dari aplikasi pada smartphone kita untuk tetap eksis di sosial media, sampai ke aplikasi jasa yang kita gunakan sehari-hari. </span></p>
-<p><span style="font-weight: 400;">Aplikasi digital ini memainkan peran penting dalam berbagai aspek kehidupan kita. Namun, seiring dengan bertambah sesaknya peta persaingan bisnis digital maka aplikasi digital yang handal menjadi sesuatu yang tidak bisa ditawar lagi, penting untuk memastikan bahwa perangkat lunak tersebut bekerja dengan baik dan aman. Inilah mengapa software testing menjadi sangat penting.</span></p>
-<p>Seorang Software Tester Profesional akan mempelajari berbagai teknik pengujian aplikasi digital agar bisa ditemukan kesalahan yang mungkin terjadi, mengidentifikasi masalah, hingga upaya agar masalah bisa dicegah.</p>
-<p>Pun seperti profesi lain seperti penulis dengan editor, akuntan, reviewer, adalah orang yang berbeda dan independen, seorang Software Tester Profesional (atau nama lainnya biasa disebut Quality Assurance, SDET) akan menawarkan perpektif yang berbeda dari pengujian yang dilakukan oleh developer, product manager, ataupun end user. Tujuan dari penguji profesional diantaranya (tidak terbatas pada ini) adalah sebagai berikut.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/57/ilustrasi-fachrul.id-1.jpg" alt="" width="1920" height="1080" sizes="100vw" srcset="https://fachrul.id/media/posts/57/responsive/ilustrasi-fachrul.id-1-xs.jpg 300w ,https://fachrul.id/media/posts/57/responsive/ilustrasi-fachrul.id-1-sm.jpg 480w ,https://fachrul.id/media/posts/57/responsive/ilustrasi-fachrul.id-1-md.jpg 768w ,https://fachrul.id/media/posts/57/responsive/ilustrasi-fachrul.id-1-lg.jpg 1024w ,https://fachrul.id/media/posts/57/responsive/ilustrasi-fachrul.id-1-xl.jpg 1360w ,https://fachrul.id/media/posts/57/responsive/ilustrasi-fachrul.id-1-2xl.jpg 1600w"></figure>
-<hr>
-<h3><span style="font-weight: 400;">Menjaga Kualitas Produk yang Prima</span></h3>
-<p><span style="font-weight: 400;">Salah satu alasan utama mengapa software testing itu penting adalah untuk menjaga kualitas produk berkualitas baik saat yang dirilis ke end user. </span></p>
-<p><span style="font-weight: 400;">Seorang penguji profesional akan melaksanakan berbagai macam pengujian, eksperimen, hingga simulasi untuk dapat mengidentifikasi masalah dan memperbaiki kesalahan aplikasi sebelum peluncuran ke pengguna. </span></p>
-<p><span style="font-weight: 400;">Hal ini akan mengurangi risiko perangkat lunak mengalami masalah atau kegagalan yang bisa berdampak buruk pada pengguna. Tentu perusahaan tidak mau menjadi viral di dunia maya karena dikritik oleh netizen Indonesia.</span></p>
-<h3><span style="font-weight: 400;">Efisiensi Biaya dan Waktu Pengembangan</span></h3>
-<p><span style="font-weight: 400;">Walaupun mungkin tampak bahwa software testing menambah biaya dan waktu pengembangan, pada kenyataannya, testing sebenarnya menghemat uang dan waktu dalam jangka panjang. Kok bisa?</span></p>
-<p><span style="font-weight: 400;">Dengan mengidentifikasi bugs/eror sedini mungkin, developer dapat memperbaiki masalah sebelum bugs tersebut bermutasi menjadi lebih kompleks, dan proses perbaikannya pun relatif lebih cepat karena ingatan developer masih sangat jelas akan kode yang belum lama dia buat. Semakin cepat bugs ditemukan, semakin cepat proses perbaikannya, masih anget kodenya!</span></p>
-<p>Lain cerita kalau bugs criticalnya baru ditemukan di H-1 rilis, sudah tentu waktu rilis bisa menjadi molor dan bisa aja rencana matang launching yang dibuat oleh marketing menjadi sia-sia.</p>
-<h3><span style="font-weight: 400;">Meningkatkan Keamanan</span></h3>
-<p><span style="font-weight: 400;">Keamanan adalah salah satu aspek kritis dalam pengembangan perangkat lunak. Software testing pun akan menguji sis kerentanan yang dapat dieksploitasi oleh penjahat siber. </span></p>
-<p><span style="font-weight: 400;">Dengan melakukan pengujian keamanan, developer dapat mengidentifikasi dan memperbaiki celah keamanan, sehingga melindungi data pengguna dan menjaga reputasi perusahaan.</span></p>
-<p>Catatan: Terkadang untuk keamanan siber, biasanya ada tim khusus (white hacker) yang ahli dalam mencari celah keamanan diluar tim software tester</p>
-<h3><span style="font-weight: 400;">Memenuhi Persyaratan dan Kepatuhan Regulasi</span></h3>
-<p><span style="font-weight: 400;">Dalam beberapa industri, ada persyaratan dan regulasi ketat yang harus dipenuhi oleh perusahaan. Software testing membantu memastikan bahwa perangkat lunak mematuhi standar dan persyaratan yang ditetapkan oleh badan pengatur dan pelanggan. Kepatuhan ini penting untuk menghindari denda, sanksi, dan kerugian reputasi.</span></p>
-<h3><span style="font-weight: 400;">Meraih Kepuasan Pelanggan</span></h3>
-<p><span style="font-weight: 400;">Software yang telah diuji secara menyeluruh cenderung lebih andal, efisien, dan mudah digunakan. Hal ini berarti bahwa pengguna akan memiliki pengalaman yang lebih baik saat menggunakan perangkat lunak, yang pada gilirannya akan meningkatkan kepuasan pelanggan. Perangkat lunak yang memuaskan pelanggan akan lebih mungkin untuk mendapatkan ulasan positif, referensi, dan kesuksesan di pasar.</span></p>
-<hr>
-<p><span style="font-weight: 400;">Software testing adalah proses penting dalam pengembangan perangkat lunak yang membantu memastikan kualitas, keamanan, dan keandalan produk</span></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Belajar Menjadi Full Stack Testing dari buku karya Gayathri Mohan</title>
-        <author>
-            <name>Fachrul Choliluddin</name>
-        </author>
-        <link href="https://fachrul.id/ulasan-buku-full-stack-testing-karya-gayathri-mohan/"/>
-        <id>https://fachrul.id/ulasan-buku-full-stack-testing-karya-gayathri-mohan/</id>
-        <media:content url="https://fachrul.id/media/posts/56/thumbnail-post-fachrul.id.jpg" medium="image" />
-            <category term="ulasan"/>
-            <category term="merdeQA"/>
-
-        <updated>2023-03-26T16:06:57+04:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://fachrul.id/media/posts/56/thumbnail-post-fachrul.id.jpg" alt="" />
-                    Buku Full Stack Testing ini penting dan akan memandu kamu menjadi software tester serba bisa! Di jaman sekarang, banyak bisnis yang mulai melakukan transformasi digital, terbukti dari banyaknya perusahaan yang pengen punya apps sendiri, atau paling nggak kerjasama/integrasi dengan berbagai startup agar bisa tetap bersaing&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://fachrul.id/media/posts/56/thumbnail-post-fachrul.id.jpg" class="type:primaryImage" alt="" /></p>
-                <section class="section section--body">
-<div class="section-divider align-left"><em style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">Buku Full Stack Testing ini penting dan akan memandu kamu menjadi software tester serba bisa!</em></div>
-<div class="section-content align-left">
-<div class="section-inner sectionLayout--insetColumn">
-<p class="dropcap">Di jaman sekarang, banyak bisnis yang mulai melakukan transformasi digital, terbukti dari banyaknya perusahaan yang pengen punya apps sendiri, atau paling nggak kerjasama/integrasi dengan berbagai startup agar bisa tetap bersaing di era informatika ini.</p>
-<p class="graf graf--p">Efek dari perusahaan yang memiliki aplikasi sendiri adalah konsumen sekarang punya lebih dari satu pilihan, lihat aja mau milih transportasi online, belanja online, sampe konsultasi kesehatan pun kita punya banyak pilihan aplikasi.</p>
-<p class="graf graf--p">Sekarang konsumen pun sudah jauh lebih pinter, dan netizen Indonesia sudah tersohor sangat vokal, maka dari itu kebutuhan bisnis untuk bikin aplikasi yang berkualitas baik udah ga bisa di tawar lagi!</p>
-<p class="graf graf--p">Kesalahan aplikasi sekecil apapun bisa jadi bahan roasting netizen Indonesia, tentu ga mau dong bisnis kehilangan pelanggan dan ditikung kompetitor karena hal ini.</p>
-</div>
-</div>
-</section>
-<section class="section section--body">
-<div class="section-divider align-left"><hr class="section-divider"></div>
-<div class="section-content">
-<div class="section-inner sectionLayout--insetColumn align-left">
-<p class="graf graf--p align-left">Nah di buku ini “Full stack testing” akan dibahas mengenai peran Software tester yang serba bisa dan membantu tim menjaga kualitas aplikasi tetap prima, tentu saja perlu peran seluruh stakeholder software development untuk bisa merilis aplikasi terbaik untuk penggunanya.</p>
-<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/56/full-stack-testing.png" alt="fullstack testing" width="778" height="1024" sizes="100vw" srcset="https://fachrul.id/media/posts/56/responsive/full-stack-testing-xs.png 300w ,https://fachrul.id/media/posts/56/responsive/full-stack-testing-sm.png 480w ,https://fachrul.id/media/posts/56/responsive/full-stack-testing-md.png 768w ,https://fachrul.id/media/posts/56/responsive/full-stack-testing-lg.png 1024w ,https://fachrul.id/media/posts/56/responsive/full-stack-testing-xl.png 1360w ,https://fachrul.id/media/posts/56/responsive/full-stack-testing-2xl.png 1600w"></figure>
-<figcaption >Cover buku Full Stack Testing karya Gayathri Mohan</figcaption>
-</figure>
-<p class="graf graf--p align-left">Buku “Fullstack Tester” ini akan memberikan panduan bagaimana seorang tester bisa mulai menempuh jalur ini.</p>
-<p class="graf graf--p align-left">Buku ini ditulis oleh Gayathri Mohan, seorang Principal Consultant di Thoughtworks yang sudah berpengalaman memimpin tim QA Global dengan berbagai klien perusahaan dunia, buku ini diterbitin sama Oreilly Media tahun 2022 lalu, tepatnya untuk edisi pertama rilis bulan Juni 2022</p>
-<h2 class="align-left">Gambaran Umum</h2>
-<p class="align-left">Walaupun istilah fullstack lebih lekat ke developer yang serba bisa, dari ngerjain backend, frontend (website/mobile), ternyata dalam dunia QA, berlaku juga istilah fullstack, bahkan ada 10 keahlian khusus yang dibahas di dalam buku ini. Hmm saya takut spoiler untuk menyebutkan semuanya, tapi kurang lebih sebagai QA serba bisa, kita harus paham proses bisnis dari aplikasi yang diuji, ngerti koding, bikin automation, bisa people skill dan berbagai teknik testing yang bisa bikin software jadi lebih baik</p>
-<h2 class="graf graf--p align-left">Fullstack</h2>
-<p class="graf graf--p align-left">Di buku ini dibahas yang dimaksud fullstack oleh penulis adalah keahlian yang bisa dikuasi seorang QA dari mulai functional test, performance test, contract testing, accesibility testing, bahkan sampe tren kekinian macam: blockchain, AI/ML, IoT, AR/VR juga ada dibahas tools apa aja yang bisa dipelajari disetiap sisi itu tadi.</p>
-<p class="align-left">Buku ini bikin kita paham soal gambaran jelas soal QA yang serba bisa, jadi kek pengenalan menyeluruh soal aspek pengujian yang bisa dijalankan sama QA, ga terlalu teknis karena banyak yang mesti dia bahas di buku ini, tapi gw bilang sih ini cukup dalem buat nganterin kita sampe gerbang 10 skill testing itu, sisanya kita sendiri yang ngarus menyelam lebih dalem lagi.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/56/10-qa-skills.png" alt="" width="640" height="583" sizes="100vw" srcset="https://fachrul.id/media/posts/56/responsive/10-qa-skills-xs.png 300w ,https://fachrul.id/media/posts/56/responsive/10-qa-skills-sm.png 480w ,https://fachrul.id/media/posts/56/responsive/10-qa-skills-md.png 768w ,https://fachrul.id/media/posts/56/responsive/10-qa-skills-lg.png 1024w ,https://fachrul.id/media/posts/56/responsive/10-qa-skills-xl.png 1360w ,https://fachrul.id/media/posts/56/responsive/10-qa-skills-2xl.png 1600w"></figure>
-<p class="align-left">Walaupun sempet mikir ga mau bocorin 10 skill, tapi keknya ini penting diintip, sebelum lo memutuskan untuk beli</p>
-<p class="align-left">Jadi, di setiap bab nya akan dibahas spesifik skillnya, dikupas tuntas tuh sama dia terkait keahlian testing tersebut, juga tools yang mendukung, bahkan juga ada sample kode yang bisa lo pake untuk praktek sendiri, tapi koding di buku ini ga terlalu banyak, cuma simple POC gitu</p>
-<h1 class="align-left">Kesan Setelah Membaca</h1>
-<p class="align-left">Misal yang di bab Manual Exploratory Testing deh ya, orang cenderung meremehkan keahlian manual testing, padahal bagian ini tuh krusial banget dari proses testing, perlu logical and analytical mindset mumpuni, perhatian mendetail, empati, bahkan mampu untuk membuat simulasi real user! Di bab tersebut dibahas juga berbagai metodologi/approach untuk manual exploratory test gitu.</p>
-<p class="graf graf--p align-left">Gw bisa bilang, pembahasan di buku ini udah cukup komprehensif, ga melulu soal automation test, atau bikin bahas continous testing doang, tapi gimana seorang QA harus bisa memberdayakan tools yang ada dengan optimal, dari mulai exploratory testing, cross functional testing, sampe test automation, apa yang bisa di automated harus diautomate</p>
-<hr>
-<p class="align-left">Banyak buku yang udah bahas suatu aspek mendalam soal testing jaman now, kayak agile testing, buku selenium gitu, tapi gw kurang suka buku teknis gitu, karena tools itu cepet berevolusi bahakan bisa cepet basi juga</p>
-<p class="graf graf--p align-left">Nah buku ini beda, gw rasa akan terus relevan dalam jangka waktu lama, jadi worthed untuk dibeli, bahkan ga cukup dibaca satu kali keknya!</p>
-<h2 class="align-left">Belinya dimana?</h2>
-<p class="align-left">Buku ini gw beli di google play book versi digital, tersedia juga di amazon kindle, ataupun oreally (langganan), sayang sekali sangat susah untuk memiliki buku ini secara fisik, karena tidak ada publisher resmi yang beroperasi di Indonesia.</p>
-</div>
-</div>
-</section>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Bagaimana Cara Memilih Bootcamp QA/Software Testing untuk Kamu</title>
-        <author>
-            <name>Fachrul Choliluddin</name>
-        </author>
-        <link href="https://fachrul.id/bagaimana-cara-memilih-bootcamp-qasoftware-testing-untuk-kamu/"/>
-        <id>https://fachrul.id/bagaimana-cara-memilih-bootcamp-qasoftware-testing-untuk-kamu/</id>
-        <media:content url="https://fachrul.id/media/posts/55/cara-memilih-bootcamp-qa.webp" medium="image" />
-            <category term="tutorials"/>
-            <category term="merdeQA"/>
-
-        <updated>2023-03-14T00:43:19+04:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://fachrul.id/media/posts/55/cara-memilih-bootcamp-qa.webp" alt="" />
-                    Saya senang dengan makin banyak pilihan untuk bootcamp sofware testing di Indonesia, tapi apakah kamu tau cara memilih yang bagus? Salam, Saya banyak mendapatkan pertanyaan di DM Instagram @penguji.id dari teman-teman yang menanyakan rekomendasi bootcamp yang bagus untuk memulai karir sebagai Quality Assurance (Software Tester).
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://fachrul.id/media/posts/55/cara-memilih-bootcamp-qa.webp" class="type:primaryImage" alt="" /></p>
-                <p id="7747" class="pw-post-body-paragraph yx yy yb rs b yz za ve zb zc zd vh ze zf zg zh zi zj zk zl zm zn zo zp zq zr of bx" data-selectable-paragraph="">Saya senang dengan makin banyak pilihan untuk bootcamp sofware testing di Indonesia, tapi apakah kamu tau cara memilih yang bagus?</p>
-<figure class="zt zu zv zw xh zx pt pu paragraph-image">
-<div class="zy zz ct aba ad abb" tabindex="0" role="button">
-<div class="pt pu zs"><figure class="ad abc abd c"><source srcset="https://miro.medium.com/v2/resize:fit:640/format:webp/1*FOpMSKouPO5BIQ7nhijuUQ.png 640w, https://miro.medium.com/v2/resize:fit:720/format:webp/1*FOpMSKouPO5BIQ7nhijuUQ.png 720w, https://miro.medium.com/v2/resize:fit:750/format:webp/1*FOpMSKouPO5BIQ7nhijuUQ.png 750w, https://miro.medium.com/v2/resize:fit:786/format:webp/1*FOpMSKouPO5BIQ7nhijuUQ.png 786w, https://miro.medium.com/v2/resize:fit:828/format:webp/1*FOpMSKouPO5BIQ7nhijuUQ.png 828w, https://miro.medium.com/v2/resize:fit:1100/format:webp/1*FOpMSKouPO5BIQ7nhijuUQ.png 1100w, https://miro.medium.com/v2/resize:fit:1400/format:webp/1*FOpMSKouPO5BIQ7nhijuUQ.png 1400w" sizes="(min-resolution: 4dppx) and (max-width: 700px) 50vw, (-webkit-min-device-pixel-ratio: 4) and (max-width: 700px) 50vw, (min-resolution: 3dppx) and (max-width: 700px) 67vw, (-webkit-min-device-pixel-ratio: 3) and (max-width: 700px) 65vw, (min-resolution: 2.5dppx) and (max-width: 700px) 80vw, (-webkit-min-device-pixel-ratio: 2.5) and (max-width: 700px) 80vw, (min-resolution: 2dppx) and (max-width: 700px) 100vw, (-webkit-min-device-pixel-ratio: 2) and (max-width: 700px) 100vw, 700px" type="image/webp"><source data-testid="og" srcset="https://miro.medium.com/v2/resize:fit:640/1*FOpMSKouPO5BIQ7nhijuUQ.png 640w, https://miro.medium.com/v2/resize:fit:720/1*FOpMSKouPO5BIQ7nhijuUQ.png 720w, https://miro.medium.com/v2/resize:fit:750/1*FOpMSKouPO5BIQ7nhijuUQ.png 750w, https://miro.medium.com/v2/resize:fit:786/1*FOpMSKouPO5BIQ7nhijuUQ.png 786w, https://miro.medium.com/v2/resize:fit:828/1*FOpMSKouPO5BIQ7nhijuUQ.png 828w, https://miro.medium.com/v2/resize:fit:1100/1*FOpMSKouPO5BIQ7nhijuUQ.png 1100w, https://miro.medium.com/v2/resize:fit:1400/1*FOpMSKouPO5BIQ7nhijuUQ.png 1400w" sizes="(min-resolution: 4dppx) and (max-width: 700px) 50vw, (-webkit-min-device-pixel-ratio: 4) and (max-width: 700px) 50vw, (min-resolution: 3dppx) and (max-width: 700px) 67vw, (-webkit-min-device-pixel-ratio: 3) and (max-width: 700px) 65vw, (min-resolution: 2.5dppx) and (max-width: 700px) 80vw, (-webkit-min-device-pixel-ratio: 2.5) and (max-width: 700px) 80vw, (min-resolution: 2dppx) and (max-width: 700px) 100vw, (-webkit-min-device-pixel-ratio: 2) and (max-width: 700px) 100vw, 700px"><img  role="presentation" src="https://miro.medium.com/v2/resize:fit:1400/1*FOpMSKouPO5BIQ7nhijuUQ.png" alt="" width="700" height="1051" loading="eager" data-is-external-image="true"></figure></picture></div>
-</div>
-<figcaption class="abe abf wz pt pu abg abh bu b bv bw hj" data-selectable-paragraph="">salah satu jawaban</figcaption>
-</figure>
-<p id="6f15" class="pw-post-body-paragraph yx yy yb rs b yz za ve zb zc zd vh ze zf zg zh zi zj zk zl zm zn zo zp zq zr of bx" data-selectable-paragraph="">Salam,</p>
-<p id="ad12" class="pw-post-body-paragraph yx yy yb rs b yz za ve zb zc zd vh ze zf zg zh zi zj zk zl zm zn zo zp zq zr of bx" data-selectable-paragraph="">Saya banyak mendapatkan pertanyaan di DM Instagram @penguji.id dari teman-teman yang menanyakan rekomendasi bootcamp yang bagus untuk memulai karir sebagai Quality Assurance (Software Tester). Sudah tentu saya tidak akan langsung menyebutkan yang mana yang bagus, karena saya tidak punya kapasitas untuk menilainya secara objektif, karena tidak nyobain langsung ikut semua bootcamp dan menilai mana yang bagus. Pun kalaupu ikut, bisa jadi kualitas pembelajaran di antar batch bisa berbeda dengan bootcamp yang sama, misal ada peserta yang super aktif sampe “mengkuliti” ilmu si mentor 😅, disini saya akan coba sampaikan bagai jika saya ada diposisi kamu yang sedan mencari bootcamp untuk QA.</p>
-<p id="fea7" class="pw-post-body-paragraph yx yy yb rs b yz za ve zb zc zd vh ze zf zg zh zi zj zk zl zm zn zo zp zq zr of bx" data-selectable-paragraph="">Saya berusaha untuk tidak menyebutkan bootcamp tertentu/mana yang terbaik, hanya membagikan sudut pandang gimana kalau saya yang newbie dulu mengevaluasi bootcamp yang ada sekarang.</p>
-<h1 id="d804" class="abi abj yb bu abk abl abm abn qw abo abp abq rb rc abr rd rg rh abs ri rl rm abt rn rq abu bx" data-selectable-paragraph="">Apa Kelebihan Ikut Bootcamp?</h1>
-<p id="d310" class="pw-post-body-paragraph yx yy yb rs b yz abv ve zb zc abw vh ze zf abx zh zi zj aby zl zm zn abz zp zq zr of bx" data-selectable-paragraph="">Jujur saya iri melihat berbagai pilihan bootcamp yang ada sekarang, sepertinya bisa sampai 10 lembaga yang rutin membuka gelombang pendaftaran, jaman saya dulu (2013) sih boro-boro 🥲</p>
-<p id="ec2c" class="pw-post-body-paragraph yx yy yb rs b yz za ve zb zc zd vh ze zf zg zh zi zj zk zl zm zn zo zp zq zr of bx" data-selectable-paragraph="">Oke, menurut saya kelebihan mengikuti bootcamp ini adalah:</p>
-<ol class="">
-<li id="c188" class="aca acb yb rs b yz za zc zd zf acc zj acd zn ace zr acf acg ach dz bx" data-selectable-paragraph="">Kurikulum. Sudah tentu bootcamp menawarkan pembelajaran menjadi Software Tester yang baik, terstruktur dan dipandu oleh mentor berpengalaman, sehingga tak perlu lagi kamu bingung di belantara informasi di internet</li>
-<li id="9a9a" class="aca acb yb rs b yz aci zc acj zf ack zj acl zn acm zr acf acg ach dz bx" data-selectable-paragraph="">Mentor. Sering kali kita menemukan masalah yang unik dan sulit kita temukan jawabannya di mbah gugel, punya mentor yang bisa kita tanya tentu akan membantu kita menyelesaikan masalah, memberikan masukan bagaimana solusi terbaik dari masalah yang kita hadapi</li>
-<li id="d352" class="aca acb yb rs b yz aci zc acj zf ack zj acl zn acm zr acf acg ach dz bx" data-selectable-paragraph="">Networking. Jaringan komunitas bootcamp itu sangat kuat, alumni saling berbagi informasi, karena dengan sistem referal kita jadi percaya diri akan kapasitas rekan satu bootcamp</li>
-<li id="95e0" class="aca acb yb rs b yz aci zc acj zf ack zj acl zn acm zr acf acg ach dz bx" data-selectable-paragraph="">Komitmen Finansial. Ada loh orang yang sengaja ikut kelas bootcamp berbayar agar bisa komit belajar, mereka ngerasa rugi klo udah bayar tapi ga serius belajar</li>
-<li id="bd80" class="aca acb yb rs b yz aci zc acj zf ack zj acl zn acm zr acf acg ach dz bx" data-selectable-paragraph="">Relevan. Biasanya kurikulum di bootcamp itu selalu kekinian sesuai dengan kebutuhan di dunia kerja, misal banyak yang menawarkan kelas automation test dengan Cypress yang memang lagi naik daun akhir-akhir ini</li>
-</ol>
-<figure class="zt zu zv zw xh zx pt pu paragraph-image">
-<div class="zy zz ct aba ad abb" tabindex="0" role="button">
-<div class="pt pu acn"><figure class="ad abc abd c"><source srcset="https://miro.medium.com/v2/resize:fit:640/format:webp/1*ZwKIIyFuwUgZmh__5b0ZQA.png 640w, https://miro.medium.com/v2/resize:fit:720/format:webp/1*ZwKIIyFuwUgZmh__5b0ZQA.png 720w, https://miro.medium.com/v2/resize:fit:750/format:webp/1*ZwKIIyFuwUgZmh__5b0ZQA.png 750w, https://miro.medium.com/v2/resize:fit:786/format:webp/1*ZwKIIyFuwUgZmh__5b0ZQA.png 786w, https://miro.medium.com/v2/resize:fit:828/format:webp/1*ZwKIIyFuwUgZmh__5b0ZQA.png 828w, https://miro.medium.com/v2/resize:fit:1100/format:webp/1*ZwKIIyFuwUgZmh__5b0ZQA.png 1100w, https://miro.medium.com/v2/resize:fit:1400/format:webp/1*ZwKIIyFuwUgZmh__5b0ZQA.png 1400w" sizes="(min-resolution: 4dppx) and (max-width: 700px) 50vw, (-webkit-min-device-pixel-ratio: 4) and (max-width: 700px) 50vw, (min-resolution: 3dppx) and (max-width: 700px) 67vw, (-webkit-min-device-pixel-ratio: 3) and (max-width: 700px) 65vw, (min-resolution: 2.5dppx) and (max-width: 700px) 80vw, (-webkit-min-device-pixel-ratio: 2.5) and (max-width: 700px) 80vw, (min-resolution: 2dppx) and (max-width: 700px) 100vw, (-webkit-min-device-pixel-ratio: 2) and (max-width: 700px) 100vw, 700px" type="image/webp"><source data-testid="og" srcset="https://miro.medium.com/v2/resize:fit:640/1*ZwKIIyFuwUgZmh__5b0ZQA.png 640w, https://miro.medium.com/v2/resize:fit:720/1*ZwKIIyFuwUgZmh__5b0ZQA.png 720w, https://miro.medium.com/v2/resize:fit:750/1*ZwKIIyFuwUgZmh__5b0ZQA.png 750w, https://miro.medium.com/v2/resize:fit:786/1*ZwKIIyFuwUgZmh__5b0ZQA.png 786w, https://miro.medium.com/v2/resize:fit:828/1*ZwKIIyFuwUgZmh__5b0ZQA.png 828w, https://miro.medium.com/v2/resize:fit:1100/1*ZwKIIyFuwUgZmh__5b0ZQA.png 1100w, https://miro.medium.com/v2/resize:fit:1400/1*ZwKIIyFuwUgZmh__5b0ZQA.png 1400w" sizes="(min-resolution: 4dppx) and (max-width: 700px) 50vw, (-webkit-min-device-pixel-ratio: 4) and (max-width: 700px) 50vw, (min-resolution: 3dppx) and (max-width: 700px) 67vw, (-webkit-min-device-pixel-ratio: 3) and (max-width: 700px) 65vw, (min-resolution: 2.5dppx) and (max-width: 700px) 80vw, (-webkit-min-device-pixel-ratio: 2.5) and (max-width: 700px) 80vw, (min-resolution: 2dppx) and (max-width: 700px) 100vw, (-webkit-min-device-pixel-ratio: 2) and (max-width: 700px) 100vw, 700px"><img  role="presentation" src="https://miro.medium.com/v2/resize:fit:1400/1*ZwKIIyFuwUgZmh__5b0ZQA.png" alt="" width="700" height="365" loading="lazy" data-is-external-image="true"></figure></picture></div>
-</div>
-<figcaption class="abe abf wz pt pu abg abh bu b bv bw hj" data-selectable-paragraph="">matrics pilihan</figcaption>
-</figure>
-<h1 id="0fc4" class="abi abj yb bu abk abl abm abn qw abo abp abq rb rc abr rd rg rh abs ri rl rm abt rn rq abu bx" data-selectable-paragraph="">Cara Memilih Bootcamp-nya gimana tuh?</h1>
-<p id="37df" class="pw-post-body-paragraph yx yy yb rs b yz abv ve zb zc abw vh ze zf abx zh zi zj aby zl zm zn abz zp zq zr of bx" data-selectable-paragraph="">Jadi memilih bootcamp ini mesti teliti, karena kita harus komit bayar di depan untuk ikut kelas bootcamp (sejauh yang saya tau ya), jadi sayang betul kalo tidak sesuai dengan kebutuhan kita sendiri, jika bootcamp nya menawarkan kelas percobaan (demo) itu akan sangat membantu sekali, ga akan beli kucing dalam karung deh.</p>
-<p id="134f" class="pw-post-body-paragraph yx yy yb rs b yz za ve zb zc zd vh ze zf zg zh zi zj zk zl zm zn zo zp zq zr of bx" data-selectable-paragraph="">Faktor yang harus diperhatikan dalam memilih bootcamp adalah</p>
-<ol class="">
-<li id="131d" class="aca acb yb rs b yz za zc zd zf acc zj acd zn ace zr acf acg ach dz bx" data-selectable-paragraph=""><strong class="rs mx">Mentor</strong></li>
-</ol>
-<p id="14fd" class="pw-post-body-paragraph yx yy yb rs b yz za ve zb zc zd vh ze zf zg zh zi zj zk zl zm zn zo zp zq zr of bx" data-selectable-paragraph="">Kurikulum yang baik sekalipun kalau yang membawakan materinya kurang mahir hanyalah seperti naik bus mewah tapi supir ugal-ugalan 🤣, kamu ga akan bisa menikmati indahnya pemandangan!</p>
-<p id="7925" class="pw-post-body-paragraph yx yy yb rs b yz za ve zb zc zd vh ze zf zg zh zi zj zk zl zm zn zo zp zq zr of bx" data-selectable-paragraph="">Cari tahu mentornya ini siapa, apakah dia punya video youtube saat mengajar? apakah dia pernah jadi pembicara ISQA? apakah cara omongannya mudah kita pahami? (mudah-mudahan setelah ini banyak penyedia bootcamp membuat video mentornya di youtube ya)</p>
-<p id="0085" class="pw-post-body-paragraph yx yy yb rs b yz za ve zb zc zd vh ze zf zg zh zi zj zk zl zm zn zo zp zq zr of bx" data-selectable-paragraph="">Ini krusial, untuk tau seberapa kompeten mentor-nya nanti, cari tau dari linkedin nya, dari gugling nama dia, lihat apakah dia punya pengalaman ngajar yang baik, artikel yang dia share di linkedin.</p>
-<p id="b356" class="pw-post-body-paragraph yx yy yb rs b yz za ve zb zc zd vh ze zf zg zh zi zj zk zl zm zn zo zp zq zr of bx" data-selectable-paragraph="">Kita akan menginvestasikan waktu kita berhari-hari bersama dia loh, jangan sampai ada opportunity cost!</p>
-<p id="5523" class="pw-post-body-paragraph yx yy yb rs b yz za ve zb zc zd vh ze zf zg zh zi zj zk zl zm zn zo zp zq zr of bx" data-selectable-paragraph="">2. <strong class="rs mx">Kurikulum</strong></p>
-<p id="ab7d" class="pw-post-body-paragraph yx yy yb rs b yz za ve zb zc zd vh ze zf zg zh zi zj zk zl zm zn zo zp zq zr of bx" data-selectable-paragraph="">Biasanya bootcamp yang baik akan memberi tahu silabus mereka, kita bisa lihat dan menilai sendiri:</p>
-<ul class="">
-<li id="4b0d" class="aca acb yb rs b yz za zc zd zf acc zj acd zn ace zr aco acg ach dz bx" data-selectable-paragraph="">apakah mereka mengajarkan best practice menjadi QA?</li>
-<li id="a8ad" class="aca acb yb rs b yz aci zc acj zf ack zj acl zn acm zr aco acg ach dz bx" data-selectable-paragraph="">tools apa saja yang dipelajari nantinya?</li>
-<li id="95d0" class="aca acb yb rs b yz aci zc acj zf ack zj acl zn acm zr aco acg ach dz bx" data-selectable-paragraph="">apakah diajari koding dari dasar?</li>
-<li id="ca7c" class="aca acb yb rs b yz aci zc acj zf ack zj acl zn acm zr aco acg ach dz bx" data-selectable-paragraph="">bahasa pemrograman apa yang nantinya dipakai?</li>
-<li id="ec3b" class="aca acb yb rs b yz aci zc acj zf ack zj acl zn acm zr aco acg ach dz bx" data-selectable-paragraph="">apakah sampai buat automation test untuk API, web, mobile? (semua atau sebagian)</li>
-<li id="f219" class="aca acb yb rs b yz aci zc acj zf ack zj acl zn acm zr aco acg ach dz bx" data-selectable-paragraph="">(optional) sampe ke cara cek database juga kah? performance test?</li>
-</ul>
-<p id="063a" class="pw-post-body-paragraph yx yy yb rs b yz za ve zb zc zd vh ze zf zg zh zi zj zk zl zm zn zo zp zq zr of bx" data-selectable-paragraph="">Oia dan kalo kamu punya inceran mau kerja di kantor/startup tertentu baiknya udah sekalian ikut course yang mengajarkan framework/bahasa pemrograman yang sama, biar effor untuk belajarnya bisa sekalian buat persiapan kerja, contoh: di gojek paka java, better cari course yang bahasa pemrogramannya sudah java.</p>
-<p id="8539" class="pw-post-body-paragraph yx yy yb rs b yz za ve zb zc zd vh ze zf zg zh zi zj zk zl zm zn zo zp zq zr of bx" data-selectable-paragraph="">3. <strong class="rs mx">Harga</strong></p>
-<p id="1c53" class="pw-post-body-paragraph yx yy yb rs b yz za ve zb zc zd vh ze zf zg zh zi zj zk zl zm zn zo zp zq zr of bx" data-selectable-paragraph="">Nominal angka di bootcamp ini relatif memang, ada yang bilang harga X itu terjangkau, ada yang perlu menyisihkan dulu beberapa kali gaji, jadi setiap rupiah yang kamu keluarkan haruslah seusai dengan budget kamu, jangan sampai pake pinjol berlebihan, karena selepas bootcamp belum tentu loh langsung kerja dengan gaji besar</p>
-<p id="c96c" class="pw-post-body-paragraph yx yy yb rs b yz za ve zb zc zd vh ze zf zg zh zi zj zk zl zm zn zo zp zq zr of bx" data-selectable-paragraph="">4. <strong class="rs mx">Review</strong></p>
-<p id="2a54" class="pw-post-body-paragraph yx yy yb rs b yz za ve zb zc zd vh ze zf zg zh zi zj zk zl zm zn zo zp zq zr of bx" data-selectable-paragraph="">Cari alumninya di linkedin, minta pendapat jujur mereka, di website iklan/testimoni mungkin kurang jujur ya, tapi klo kita DM mungkin mereka bisa spill, tanya aja dulu mereka di mentorin sama siapa, gimana cara ngajarnya, kesannya seperti apa, dll.</p>
-<p id="85fb" class="pw-post-body-paragraph yx yy yb rs b yz za ve zb zc zd vh ze zf zg zh zi zj zk zl zm zn zo zp zq zr of bx" data-selectable-paragraph="">5. <strong class="rs mx">Waktu/cara belajar</strong></p>
-<p id="8248" class="pw-post-body-paragraph yx yy yb rs b yz za ve zb zc zd vh ze zf zg zh zi zj zk zl zm zn zo zp zq zr of bx" data-selectable-paragraph="">Pastikan jadwalnya cocok dengan komitment waktu kamu ya, ada yang mulai malam, ada yang akhir pekan, atau mungkin ada yang dari pagi-sore untuk beberapa hari, dan durasinya ada yang 3 bulan, ada yang 10 x pertemuan, dll.</p>
-<p id="4a29" class="pw-post-body-paragraph yx yy yb rs b yz za ve zb zc zd vh ze zf zg zh zi zj zk zl zm zn zo zp zq zr of bx" data-selectable-paragraph="">Ada juga yang perlu offline di Jakarta, ada juga yang bisa diikuti secara online dimanapun, ada yang bentuknya videou course bisa belajar mandiri (asyncronus), ada juga yang bentuknya webminar/meeting, atau gabungan keduanya.</p>
-<p id="5d9c" class="pw-post-body-paragraph yx yy yb rs b yz za ve zb zc zd vh ze zf zg zh zi zj zk zl zm zn zo zp zq zr of bx" data-selectable-paragraph="">Cari yang paling cocok dengan jadwal kamu, yang sudah kerja, kuliah, berkeluarga tentu memiliki waktu senggang yang berbeda.</p>
-<h1 id="03e7" class="abi abj yb bu abk abl abm abn qw abo abp abq rb rc abr rd rg rh abs ri rl rm abt rn rq abu bx" data-selectable-paragraph="">Tapi…</h1>
-<p id="e7fb" class="pw-post-body-paragraph yx yy yb rs b yz abv ve zb zc abw vh ze zf abx zh zi zj aby zl zm zn abz zp zq zr of bx" data-selectable-paragraph="">Bootcamps bukanlah syarat wajib berkari sebagai QA/Software tester, bahkan untuk menjadi SDET (software developer engineer in test) atau Automation Engineer sekalipun.</p>
-<figure class="zt zu zv zw xh zx pt pu paragraph-image">
-<div class="zy zz ct aba ad abb" tabindex="0" role="button">
-<div class="pt pu acp"><figure class="ad abc abd c"><source srcset="https://miro.medium.com/v2/resize:fit:640/format:webp/1*Bf2kd43JzkD9clX_sf_Fuw.png 640w, https://miro.medium.com/v2/resize:fit:720/format:webp/1*Bf2kd43JzkD9clX_sf_Fuw.png 720w, https://miro.medium.com/v2/resize:fit:750/format:webp/1*Bf2kd43JzkD9clX_sf_Fuw.png 750w, https://miro.medium.com/v2/resize:fit:786/format:webp/1*Bf2kd43JzkD9clX_sf_Fuw.png 786w, https://miro.medium.com/v2/resize:fit:828/format:webp/1*Bf2kd43JzkD9clX_sf_Fuw.png 828w, https://miro.medium.com/v2/resize:fit:1100/format:webp/1*Bf2kd43JzkD9clX_sf_Fuw.png 1100w, https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Bf2kd43JzkD9clX_sf_Fuw.png 1400w" sizes="(min-resolution: 4dppx) and (max-width: 700px) 50vw, (-webkit-min-device-pixel-ratio: 4) and (max-width: 700px) 50vw, (min-resolution: 3dppx) and (max-width: 700px) 67vw, (-webkit-min-device-pixel-ratio: 3) and (max-width: 700px) 65vw, (min-resolution: 2.5dppx) and (max-width: 700px) 80vw, (-webkit-min-device-pixel-ratio: 2.5) and (max-width: 700px) 80vw, (min-resolution: 2dppx) and (max-width: 700px) 100vw, (-webkit-min-device-pixel-ratio: 2) and (max-width: 700px) 100vw, 700px" type="image/webp"><source data-testid="og" srcset="https://miro.medium.com/v2/resize:fit:640/1*Bf2kd43JzkD9clX_sf_Fuw.png 640w, https://miro.medium.com/v2/resize:fit:720/1*Bf2kd43JzkD9clX_sf_Fuw.png 720w, https://miro.medium.com/v2/resize:fit:750/1*Bf2kd43JzkD9clX_sf_Fuw.png 750w, https://miro.medium.com/v2/resize:fit:786/1*Bf2kd43JzkD9clX_sf_Fuw.png 786w, https://miro.medium.com/v2/resize:fit:828/1*Bf2kd43JzkD9clX_sf_Fuw.png 828w, https://miro.medium.com/v2/resize:fit:1100/1*Bf2kd43JzkD9clX_sf_Fuw.png 1100w, https://miro.medium.com/v2/resize:fit:1400/1*Bf2kd43JzkD9clX_sf_Fuw.png 1400w" sizes="(min-resolution: 4dppx) and (max-width: 700px) 50vw, (-webkit-min-device-pixel-ratio: 4) and (max-width: 700px) 50vw, (min-resolution: 3dppx) and (max-width: 700px) 67vw, (-webkit-min-device-pixel-ratio: 3) and (max-width: 700px) 65vw, (min-resolution: 2.5dppx) and (max-width: 700px) 80vw, (-webkit-min-device-pixel-ratio: 2.5) and (max-width: 700px) 80vw, (min-resolution: 2dppx) and (max-width: 700px) 100vw, (-webkit-min-device-pixel-ratio: 2) and (max-width: 700px) 100vw, 700px"><img  role="presentation" src="https://miro.medium.com/v2/resize:fit:1400/1*Bf2kd43JzkD9clX_sf_Fuw.png" alt="" width="700" height="636" loading="lazy" data-is-external-image="true"></figure></picture></div>
-</div>
-</figure>
-<p id="338b" class="pw-post-body-paragraph yx yy yb rs b yz za ve zb zc zd vh ze zf zg zh zi zj zk zl zm zn zo zp zq zr of bx" data-selectable-paragraph="">Hampir semua yang diperlukan mencapai itu bisa didapatkan melalui internet secara gratis, atau dengan harga yang relatif lebih murah, bisa belajar langsung dari official documentation nya bahkan. Dan youtube jadi teman belajar segala 😎</p>
-<p id="8e97" class="pw-post-body-paragraph yx yy yb rs b yz za ve zb zc zd vh ze zf zg zh zi zj zk zl zm zn zo zp zq zr of bx" data-selectable-paragraph="">Dan saya sendiri orang yang kurang cocok buat bootcamp live webminar gitu, karena konsentrasi saya relatif pendek, mesti dicicil belajarnya, kadang bahkan video tutorial pun suka diulang &gt;2x karena sering keskip gitu dia ngomong apa 🤣</p>
-<p id="852e" class="pw-post-body-paragraph yx yy yb rs b yz za ve zb zc zd vh ze zf zg zh zi zj zk zl zm zn zo zp zq zr of bx" data-selectable-paragraph="">Again, klo kamu merasa belajar di kelas (offline atau virtually), biayanya bukan masalah, dan berbagai benefit di atas bisa memicu kamu menjadi lebih siap berkarir di QA ya silakan diambil.</p>
-<p id="8a8f" class="pw-post-body-paragraph yx yy yb rs b yz za ve zb zc zd vh ze zf zg zh zi zj zk zl zm zn zo zp zq zr of bx" data-selectable-paragraph="">Tak ada pilihan mutlak, semua relatif dan kontekstual.</p>
-<p id="32cc" class="pw-post-body-paragraph yx yy yb rs b yz za ve zb zc zd vh ze zf zg zh zi zj zk zl zm zn zo zp zq zr of bx" data-selectable-paragraph="">Tetap semangat belajarnya yaaa<br>Salam <strong class="rs mx">Bootcamp MerdeQA</strong></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Apa yang Harus QA Update di Daily Scrum/Standup Meeting?</title>
-        <author>
-            <name>Fachrul Choliluddin</name>
-        </author>
-        <link href="https://fachrul.id/apa-yang-harus-qa-update-di-daily-scrumstandup-meeting/"/>
-        <id>https://fachrul.id/apa-yang-harus-qa-update-di-daily-scrumstandup-meeting/</id>
-        <media:content url="https://fachrul.id/media/posts/54/memikirqan-1.jpg" medium="image" />
-            <category term="tutorials"/>
-            <category term="teamwork"/>
-            <category term="agile"/>
-            <category term=" meeting"/>
-
-        <updated>2023-03-12T16:31:57+04:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://fachrul.id/media/posts/54/memikirqan-1.jpg" alt="" />
-                    Apakah kamu suka bingung mau update apa ya buat standup meeting? Masih ngerjain yang sama kayak hari kemarin? Akan semakin panjang kalau saya bahas disini, ada artikel medium yang menggambarkan persis seperti apa itu daily scrum/standup meeting disini: Umumnya saat daily scrum tim akan menjawab&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://fachrul.id/media/posts/54/memikirqan-1.jpg" class="type:primaryImage" alt="" /></p>
-                <p class="graf graf--p">Apakah kamu suka bingung mau update apa ya buat standup meeting? Masih ngerjain yang sama kayak hari kemarin?</p>
-<h3 class="graf graf--h3">Apaan tuh daily standup meeting?</h3>
-<p class="graf graf--p">Akan semakin panjang kalau saya bahas disini, ada artikel medium yang menggambarkan persis seperti apa itu daily scrum/standup meeting disini:</p>
-<div class="graf graf--mixtapeEmbed"><a href="https://medium.com/belajar-scrum/kenalan-dengan-daily-scrum-e7a35dae51ff" data-href="https://medium.com/belajar-scrum/kenalan-dengan-daily-scrum-e7a35dae51ff" class="markup--anchor markup--mixtapeEmbed-anchor" title="https://medium.com/belajar-scrum/kenalan-dengan-daily-scrum-e7a35dae51ff"><strong class="markup--strong markup--mixtapeEmbed-strong">Daily Scrum untuk Komunikasi Efektif dalam Tim</strong><br><em class="markup--em markup--mixtapeEmbed-em">Apa praktik dalam Scrum yang membuat komunikasi Development Team tetap terjaga dengan baik selama kerja pengembangan…</em>medium.com</a><a href="https://medium.com/belajar-scrum/kenalan-dengan-daily-scrum-e7a35dae51ff" class="js-mixtapeImage mixtapeImage u-ignoreBlock" data-media-id="1c917ec926be14867a7afdca90fe84c9" data-thumbnail-img-id="1*QD1Qrje-1PVybwXLs4mRcQ.png"></a></div>
-<p class="graf graf--p">Umumnya saat daily scrum tim akan menjawab pertanyaan template seperti:</p>
-<ul class="postList">
-<li class="graf graf--li">Apa yang dilakukan dari Daily Scrum sebelumnya sampai saat ini?</li>
-<li class="graf graf--li">Apa yang akan dilakukan hari ini sampai Daily Scrum berikutnya?</li>
-<li class="graf graf--li">Apakah ada kesulitan/hambatan untuk mencapai tujuan Sprint?</li>
-<li class="graf graf--li">(opsional) Siapa seseorang yang bisa diminta bantuannya?</li>
-</ul>
-<p class="graf graf--p">Tapi seringkali saya merasakan daily scrum ini seperti meeting basi dan buang waktu karena ada beberapa kesalahan yang umumnya terjadi pada tim</p>
-<hr>
-<p>Oia gw juga bikin versio videonya di youtube NgeTest bareng Fachrul ya:</p>
-<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/qBw0nfT2Iwc" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
-<h3 class="graf graf--h3">Apa yang harus QA update pada tim saat Daily Scrum</h3>
-<p class="graf graf--p">Ada banyak, bisa jadi tergantung dari timeline projectnya, tapi sebelum saya bahas lebih jauh, kita coba dulu bedah kesalahan umum yang sering terjadi pada tim scrum, dan QA bisa berperan untuk meningkatkan kualitas meeting daily scrum/daily standup meeting ini juga loh</p>
-<h3 class="graf graf--h3">Kesalahan yang sering terjadi pada Daily Scrum</h3>
-<p class="graf graf--p">Beberapa hal berikut ini bikin daily scrum menjadi membosankan dan tidak menarik, diantaranya karena masalah:</p>
-<ul class="postList">
-<li class="graf graf--li">jumlah peserta meeting terlalu banyak, jadi tiap orang dapet jatah yang singkat</li>
-<li class="graf graf--li">ga nyimak update dari teman lain, sibuk mikirin “duh gw mau update apa ya”</li>
-<li class="graf graf--li">justifikasi kesibukan, “gw tuh udah ngerjain banyak kemaren, hari ini banyak banget tugas, gada blocker, gw bisa ngerjain sendiri”</li>
-</ul>
-<p class="graf graf--p">Apakah diantara poin di atas tadi, ada yang kejadian juga di tim kamu?</p>
-<h3 class="graf graf--h3">Gimana Cara Update Daily Scrum yang Baik</h3>
-<p class="graf graf--p">Interaktif dan engagment tinggi adalah tanda utama kalau kamu udah menjalankan daily scrum yang baik, plis jangan sampe update cuma 10 detik di update ini, berasa hambar gimana gitu ya kan!</p>
-<p class="graf graf--p">Padahal tujuan adanya rapat singkat ini kan bagus banget, diantaranya kayak:</p>
-<ul class="postList">
-<li class="graf graf--li">Informasi perkembangan terkini fitur yang sedang dikerjakan</li>
-<li class="graf graf--li">Kesempatan untuk gotong royong menyelesaikan masalah</li>
-<li class="graf graf--li">Memperjuangkan sprint goal</li>
-<li class="graf graf--li">Transparansi</li>
-<li class="graf graf--li">Prioritas yang jelas</li>
-</ul>
-<hr>
-<p class="graf graf--p">Okey kita akan bahas dari sudut pandang “pendengar” dan “pembicara” di standup ini ya</p>
-<h3 class="graf graf--h3">Sebagai Pembicara</h3>
-<p class="graf graf--p">Sebagai QA kita bisa membicarakan banyak hal loh sebenernya, saya bagi lagi ke dalam beberapa bagian Timeline ya:</p>
-<h4 class="graf graf--p">Diawal Sprint</h4>
-<p class="graf graf--p">Biasanya diawal sprint belum ada story yang bisa di test, jadi disini kita bisa update seperti:</p>
-<ul class="postList">
-<li>insigt dari rilis sebelumnya
-<ul class="postList">
-<li>update persentase rollout sekarang udah di berapa persen</li>
-<li>bugs apa aja yang kejadian (crash)</li>
-<li>adopsi user udah berapa banyak update di versi baru</li>
-<li>apakah perlu direncanakan hotfix/patch dari issue baru</li>
-</ul>
-</li>
-<li class="graf graf--li">review requirement document/design</li>
-<li class="graf graf--li">bikin test scenario, ataupun bikin test plan buat fitur tsb</li>
-<li class="graf graf--li">hasil investigasi production bugs</li>
-<li class="graf graf--li">penambahan test case automation</li>
-<li class="graf graf--li">kolaborasi dengan tim lain </li>
-<li class="graf graf--li">belajar module lain yang ada kena dampak perubahan fitur baru nanti</li>
-<li class="graf graf--li">persiapan test data untuk fitur</li>
-</ul>
-<p class="graf graf--p">dan perlu diingat siasat yang satu ini agar lebih menarik:</p>
-<blockquote class="graf graf--blockquote">mention nama teman agar mendapatkan perhatiannya saat kita memberikan update</blockquote>
-<p class="graf graf--p">Contoh:</p>
-<ul class="postList">
-<li class="graf graf--li">Kayaknya gw perlu bantuan mas Ahmad deh buat copy data production biar nanti test fitur A lebih gampang</li>
-<li class="graf graf--li">Klo mas Kamil ga sibuk abis makan siang, gw mau ngajak pairing soal temuan production bugs, gw udah/belum bisa reproduce bugsnya</li>
-<li class="graf graf--li">Mas Bagus, Gw udah siapin test data buat nanti bagian fitur A, jadi klo ada yang perlu buat test implementasi koding, pake aja dulu silakan</li>
-<li class="graf graf--li">Ada yang bisa bantu gw ga nih, ada issue di test automation soal element nya tiba-tiba selectornya ganti sendiri</li>
-</ul>
-<h4 class="graf graf--p graf--empty">Pertengahan Sprint</h4>
-<p>Biasanya ada feature testing yang lagi dikerjain, kita bisa update progress pengerjaan tiket di board Jira/Scrum, issue yang ditemukan, edge case apa yang perlu di test, contoh:</p>
-<ul>
-<li>Kemarin ada test tiket JIRA-150 soal (contoh ya) pembayaran QRIS, happy flow nya udah, nah hari ini mau lanjut test negative cases dan edge cases, kayak lagi scan internet mati, saldonya kepotong service laen sebelum confirm, dst</li>
-<li>Kemarin test tiket JIRA-150, tapi ada bugs nya nih Mas Kunto, pas pembayaran QRIS di android 7.0, keknya libaray nya ga kompatible</li>
-<li>Automation test nya failed pagi ini, keknya karena ada changes yang baru di deploy, mo liat dlu ini failed karena valid new bugs, atau test nya perlu di adjust dengan accepatance criteria baru</li>
-<li>Hari ini mau prepare data testing buat tiket JIRA-150, keknya perlu beberapa persona user yang harus di test, ada BE dev yang bisa bantu buat replicate producetion data kah?</li>
-</ul>
-<h4>Diakhir Sprint</h4>
-<p>Bisa followup issue apa aja yang masih open, dan jadi prioritas sebelum rilis ke real user, trus juga dokumen apa aja yang perlu disiapin dan rencana rilisnya kapan dan persentase rollout</p>
-<hr>
-<h3 class="graf graf--h3">Sebagai Pendengar</h3>
-<p class="graf graf--p">Daily scrum tentu akan bahas mengenai deliverable task dalam satu sprint, biasanya diawal sprint sudah dijelaskan sprint goalsnya apa, story dalam sprint, nah pada saat standup ini kesempatan kita untuk mengecek (dalam bentuk pertanyaan) implementasi yang dilakukan oleh Dev, approach apa yang jadinya diambil.</p>
-<p class="graf graf--p">Jadi perlu disimak update dari tim Developer, pastikan mereka memberikan gambaran implementasi story tersebut, dengan asumsi kamu juga udah baca story tersebut, dan acceptance criteria sudah dibuat, tentu kamu akan memiliki gambaran fiturnya akan jadi seperti apa, jika kamu melihat peluang untuk bertanya silakan tanya, agar dev bisa update kepada yang lain juga untuk menghindari surprise diakhir, ataupun beberapa.</p>
-<p>Contoh:</p>
-<ul>
-<li>Mas Kunto, mau tanya soal implementasi scan QRIS baru itu jadinya lo mau pake library baru? apakah ada impact ke SDK lama? ada refactor ke modul lama?</li>
-<li>Mba Ani, acceptance criteria di tiket JIRA-150 keknya kurang cover case klo usernya suspend deh, itu di handle di frontend apa backend buat validasinya?</li>
-</ul>
-<h4>Tambahan</h4>
-<p>Catat poin penting tiap harinya, buat bekal nanti retrospective meeting mau bahas apa, misal bisa dicatet: Si A explore librarynya kelamaan sampe 4 hari, harusnya senior bisa bantuk biar lebih cepet 😅, dkk. biasanya klo dipikirin saat persis sebelum retrospective suka ga ke recall kejadian buruk sehari-hari itu</p>
             ]]>
         </content>
     </entry>
