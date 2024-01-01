@@ -3,12 +3,78 @@
     <title>Catatan celoteh @FachrulCH</title>
     <link href="https://fachrul.id/feed.xml" rel="self" />
     <link href="https://fachrul.id" />
-    <updated>2023-11-05T14:55:53+04:00</updated>
+    <updated>2024-01-01T23:19:51+07:00</updated>
     <author>
         <name>Fachrul Choliluddin</name>
     </author>
     <id>https://fachrul.id</id>
 
+    <entry>
+        <title>Selintas 2023</title>
+        <author>
+            <name>Fachrul Choliluddin</name>
+        </author>
+        <link href="https://fachrul.id/selintas-2023/"/>
+        <id>https://fachrul.id/selintas-2023/</id>
+            <category term="opinion"/>
+
+        <updated>2024-01-01T23:19:51+07:00</updated>
+            <summary>
+                <![CDATA[
+                    Post ini tidak berisi tutorial software testing, juga bukan hal inspiratif yang bisa diambil oleh kamu, ini hanyalah tulisan yang mengakomodasi penyaluran dari pikiran yang seharian ini menyelimuti saya, dan pesan untuk saya di masa depan, semua tulisan ini sebenernya adalah monolog saya sendiri Awal&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Post ini tidak berisi tutorial software testing, juga bukan hal inspiratif yang bisa diambil oleh kamu, ini hanyalah tulisan yang mengakomodasi penyaluran dari pikiran yang seharian ini menyelimuti saya, dan pesan untuk saya di masa depan, semua tulisan ini sebenernya adalah monolog saya sendiri</p>
+<p>Awal tahun 2024, hari pertama.</p>
+<p>Seperti orang lain lakukan, dan yang sudah-sudah dahulu saya jalankan. Retrospeksi 2023 saya coba fikirkan, baik dan buruk kejadian selama tahun 2023 ini membuat saya sedih dan bahagia, tapi sangat disayangkan di pertengahan tahun 2023 ini saya sedikit sekali membuat konten, bukan karena sibuk bekerja, tapi terlalu sibuk main FIFA &gt;_&lt;</p>
+<p><strong>Alhamdulillah, Apa yang berjalan baik:</strong></p>
+<ul>
+<li><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">Quality time bersama keluarga</span></li>
+<li><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">Rutin Pulang Dubai-Jakarta</span></li>
+<li>
+<div>Rekreasi bersama keluarga &amp; teman</div>
+<div> </div>
+<div> </div>
+</li>
+<li>
+<div>Ikut acara startup award (perusahaan menang startup of the year timur tengah 2023)</div>
+<div> </div>
+</li>
+<li>
+<div>Memiliki sahabat dekat baru</div>
+</li>
+</ul>
+<p><strong>Komplain pribadi:</strong></p>
+<ul>
+<li>Kurang tepat waktu</li>
+<li><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">Harusnya mulai serius belajar bahasa arab, mumpung bisa praktek langsung</span></li>
+<li>Terlalu banyak main game FIFA</li>
+<li>Baca buku banyak tapi ga ada yang tuntas</li>
+<li>Optimis berlebihan itu racun</li>
+<li>Mumpung kepikiran itu sebaiknya ga langsung dikerjain, catat/rekam dan prioritaskan</li>
+<li>Katanya sibuk, tapi masi bisa disempetin maen game</li>
+<li>Catat ilmu dengan menulis, yang dikerjain minggu lalu aja sering lupa, apalagi ilmu baru</li>
+<li>Subscribe course banyak, tapi banyak yang ga dilahap abis ilmunya</li>
+<li>Ngapain di budgetin (waktu/financial) kalo sering over spending tanpa konsekuensi</li>
+</ul>
+<p><strong>Action item:</strong></p>
+<ul>
+<li>Muhasabah diri setiap minggu</li>
+<li>Implementasi skill baru:
+<ul>
+<li>Catat</li>
+<li>PDCA</li>
+<li>Breakdown, jangan terlalu ngawang-ngawang</li>
+<li>non teknis: bisnis/people skill</li>
+</ul>
+</li>
+</ul>
+<p>Bagusnya review kehidupan tuh ga tahunan, tapi bulanan/mingguan biar ga terlambat perbaikan diri nya, cuma alesan aja sebenernya klo bilang sibuk, lebih ga taruh di prioritas yang mendesak</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Menjaga Hubungan Baik dengan Developer</title>
         <author>
@@ -17,7 +83,7 @@
         <link href="https://fachrul.id/menjaga-hubungan-baik-dengan-developer/"/>
         <id>https://fachrul.id/menjaga-hubungan-baik-dengan-developer/</id>
 
-        <updated>2023-11-05T14:55:53+04:00</updated>
+        <updated>2023-11-05T17:55:53+07:00</updated>
             <summary>
                 <![CDATA[
                     Bekerja sebagai QA memang terkadang menantang, terutama ketika harus melaporkan kesalahan atau bug ke tim developer. Berikut adalah beberapa tips untuk membangun hubungan kerja yang baik dengan developer dan membuat proses ini menjadi lebih mudah: Penting untuk menjaga komunikasi yang baik dengan Developer. Kamu harus&hellip;
@@ -54,7 +120,7 @@
         <link href="https://fachrul.id/lanjutan-morning-check-buat-software-tester/"/>
         <id>https://fachrul.id/lanjutan-morning-check-buat-software-tester/</id>
 
-        <updated>2023-11-05T14:54:43+04:00</updated>
+        <updated>2023-11-05T17:54:43+07:00</updated>
             <summary>
                 <![CDATA[
                     <p>Menyambung pembahasan lebih lanjut dari materi sebelumnya tentang <a href="https://fachrul.id/cem-mana-keseharian-menjadi-software-tester-itu-sih/" target="_blank" rel="noopener noreferrer">keseharian menjadi software tester</a></p>
@@ -91,7 +157,7 @@
         <link href="https://fachrul.id/cem-mana-keseharian-menjadi-software-tester-itu-sih/"/>
         <id>https://fachrul.id/cem-mana-keseharian-menjadi-software-tester-itu-sih/</id>
 
-        <updated>2023-11-05T14:51:37+04:00</updated>
+        <updated>2023-11-05T17:51:37+07:00</updated>
             <summary>
                 <![CDATA[
                     <p>Halo, sobat teknologi! </p>
@@ -131,7 +197,7 @@
         <link href="https://fachrul.id/9-hal-penting-untuk-dikuasai-software-tester-quality-assurance/"/>
         <id>https://fachrul.id/9-hal-penting-untuk-dikuasai-software-tester-quality-assurance/</id>
 
-        <updated>2023-11-05T14:46:17+04:00</updated>
+        <updated>2023-11-05T17:46:17+07:00</updated>
             <summary>
                 <![CDATA[
                     1. Pemahaman Dasar tentang Perangkat Lunak Untuk menjadi Software Tester handal, kamu harus memahami gimana cara kerja aplikasi digital (Web, Android, iOS, API). Ditambah juga harus ngerti konsep dasar pemrograman, struktur data, dan algoritma itu penting banget loh. Memang kamu ga mesti paham sedalam Developernya&hellip;
@@ -176,7 +242,7 @@
         <link href="https://fachrul.id/puisi-setahun-merantau-di-dubai/"/>
         <id>https://fachrul.id/puisi-setahun-merantau-di-dubai/</id>
 
-        <updated>2023-11-05T13:12:46+04:00</updated>
+        <updated>2023-11-05T16:12:46+07:00</updated>
             <summary>
                 <![CDATA[
                     Di antara gedung pencakar langit di Dubai, aku berdiri Seorang perantau, jauh dari tanah air. Satu tahun berlalu secepat kilat, seperti mimpi yang lewat Meninggalkan yang terkasih, tak nampak ada wajah mereka di setiap embun pagi di oasis. Mimpi yang kugenggam, tak semudah angan menggapai,&hellip;
@@ -229,7 +295,7 @@
             <category term="merdeQA"/>
             <category term="belajar-qa"/>
 
-        <updated>2023-07-02T12:02:21+04:00</updated>
+        <updated>2023-07-02T15:02:21+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fachrul.id/media/posts/62/Teka-Teki-Segitiga-Sebuah-Pelajaran-Penting-Critical-Thinking-dan-Software-Testing.jpg" alt="" />
@@ -290,7 +356,7 @@
         <id>https://fachrul.id/resensiqan-karir-cemerlang-seorang-software-quality-assurance/</id>
             <category term="belajar-qa"/>
 
-        <updated>2023-07-02T10:39:36+04:00</updated>
+        <updated>2023-07-02T13:39:36+07:00</updated>
             <summary>
                 <![CDATA[
                     Salam, Apa kabar teman-teman? Semoga selalu dalam keadan baik dan sehat walafiat ya, mohon maaf yak sempat tertunda beberapa pekan tidak rilis tulisan baru, karena ada beberapa kesibukan di kantor, jadi baru sempat di pekan ini saat libur Idul Adha buat ngelarin tulisan ini 😅&hellip;
@@ -441,7 +507,7 @@ O kuncie " width="1456" height="812" data-attrs="{&quot;src&quot;:&quot;https://
             <category term="opinion"/>
             <category term="Dubai"/>
 
-        <updated>2023-05-23T20:28:43+04:00</updated>
+        <updated>2023-05-23T23:28:43+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fachrul.id/media/posts/60/siasat-hidup-hemat-dubai.png" alt="" />
@@ -634,7 +700,7 @@ O kuncie " width="1456" height="812" data-attrs="{&quot;src&quot;:&quot;https://
             <category term="merdeQA"/>
             <category term="belajar-qa"/>
 
-        <updated>2023-03-26T16:22:30+04:00</updated>
+        <updated>2023-03-26T19:22:30+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://fachrul.id/media/posts/59/thumbnail-post-fachrul.id-2.jpg" alt="" />
@@ -726,50 +792,6 @@ O kuncie " width="1456" height="812" data-attrs="{&quot;src&quot;:&quot;https://
 </li>
 </ul>
 <p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Peribahasa Software Testing ala ChatGPT</title>
-        <author>
-            <name>Fachrul Choliluddin</name>
-        </author>
-        <link href="https://fachrul.id/peribahasa-software-testing-ala-chatgpt/"/>
-        <id>https://fachrul.id/peribahasa-software-testing-ala-chatgpt/</id>
-        <media:content url="https://fachrul.id/media/posts/58/inspirasi-jeda-ilustrasi.jpg" medium="image" />
-            <category term="opinion"/>
-            <category term="belajar-qa"/>
-
-        <updated>2023-03-26T15:58:42+04:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://fachrul.id/media/posts/58/inspirasi-jeda-ilustrasi.jpg" alt="" />
-                    Apa jadinya kalau ChatGPT disuruh bikin peribahasa terkait software testing? Ceritanya minggu lalu gw baru bisa nyobain chatGPT, setelah lama ga dapet akses mulu, akhirnya nyoba berbayar aja langsung, dapet chatGPT model 4 yang lagi uji coba. Hasilnya? keren-keren ternyata! ada juga yang random sih&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://fachrul.id/media/posts/58/inspirasi-jeda-ilustrasi.jpg" class="type:primaryImage" alt="" /></p>
-                <p>Apa jadinya kalau ChatGPT disuruh bikin peribahasa terkait software testing?</p>
-<hr>
-<p data-pm-slice="1 1 []">Ceritanya minggu lalu gw baru bisa nyobain chatGPT, setelah lama ga dapet akses mulu, akhirnya nyoba berbayar aja langsung, dapet chatGPT model 4 yang lagi uji coba. Hasilnya? keren-keren ternyata! ada juga yang random sih ahaha</p>
-<p>Berikut hasilnya:</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/58/image-2.png" alt="" width="1770" height="1620" sizes="100vw" srcset="https://fachrul.id/media/posts/58/responsive/image-2-xs.png 300w ,https://fachrul.id/media/posts/58/responsive/image-2-sm.png 480w ,https://fachrul.id/media/posts/58/responsive/image-2-md.png 768w ,https://fachrul.id/media/posts/58/responsive/image-2-lg.png 1024w ,https://fachrul.id/media/posts/58/responsive/image-2-xl.png 1360w ,https://fachrul.id/media/posts/58/responsive/image-2-2xl.png 1600w"></figure>
-<p data-pm-slice="1 1 []">Nah gw desain sekalian dalam canva, biar lebih cakep buat di share di instagram atau medsos lo</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/58/1-2.jpg" alt="" width="1080" height="1080" sizes="100vw" srcset="https://fachrul.id/media/posts/58/responsive/1-2-xs.jpg 300w ,https://fachrul.id/media/posts/58/responsive/1-2-sm.jpg 480w ,https://fachrul.id/media/posts/58/responsive/1-2-md.jpg 768w ,https://fachrul.id/media/posts/58/responsive/1-2-lg.jpg 1024w ,https://fachrul.id/media/posts/58/responsive/1-2-xl.jpg 1360w ,https://fachrul.id/media/posts/58/responsive/1-2-2xl.jpg 1600w"></figure>
-<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="3">
-<figure class="gallery__item"><a href="https://fachrul.id/media/posts/58/gallery/2.jpg" data-size="1080x1080"><img loading="lazy" src="https://fachrul.id/media/posts/58/gallery/2-thumbnail.jpg" alt="" width="720" height="720"></a></figure>
-<figure class="gallery__item"><a href="https://fachrul.id/media/posts/58/gallery/12.jpg" data-size="1080x1080"><img loading="lazy" src="https://fachrul.id/media/posts/58/gallery/12-thumbnail.jpg" alt="" width="720" height="720"></a></figure>
-<figure class="gallery__item"><a href="https://fachrul.id/media/posts/58/gallery/11.jpg" data-size="1080x1080"><img loading="lazy" src="https://fachrul.id/media/posts/58/gallery/11-thumbnail.jpg" alt="" width="720" height="720"></a></figure>
-<figure class="gallery__item"><a href="https://fachrul.id/media/posts/58/gallery/10.jpg" data-size="1080x1080"><img loading="lazy" src="https://fachrul.id/media/posts/58/gallery/10-thumbnail.jpg" alt="" width="720" height="720"></a></figure>
-<figure class="gallery__item"><a href="https://fachrul.id/media/posts/58/gallery/9.jpg" data-size="1080x1080"><img loading="lazy" src="https://fachrul.id/media/posts/58/gallery/9-thumbnail.jpg" alt="" width="720" height="720"></a></figure>
-<figure class="gallery__item"><a href="https://fachrul.id/media/posts/58/gallery/8.jpg" data-size="1080x1080"><img loading="lazy" src="https://fachrul.id/media/posts/58/gallery/8-thumbnail.jpg" alt="" width="720" height="720"></a></figure>
-<figure class="gallery__item"><a href="https://fachrul.id/media/posts/58/gallery/7.jpg" data-size="1080x1080"><img loading="lazy" src="https://fachrul.id/media/posts/58/gallery/7-thumbnail.jpg" alt="" width="720" height="720"></a></figure>
-<figure class="gallery__item"><a href="https://fachrul.id/media/posts/58/gallery/6.jpg" data-size="1080x1080"><img loading="lazy" src="https://fachrul.id/media/posts/58/gallery/6-thumbnail.jpg" alt="" width="720" height="720"></a></figure>
-<figure class="gallery__item"><a href="https://fachrul.id/media/posts/58/gallery/5.jpg" data-size="1080x1080"><img loading="lazy" src="https://fachrul.id/media/posts/58/gallery/5-thumbnail.jpg" alt="" width="720" height="720"></a></figure>
-<figure class="gallery__item"><a href="https://fachrul.id/media/posts/58/gallery/4.jpg" data-size="1080x1080"><img loading="lazy" src="https://fachrul.id/media/posts/58/gallery/4-thumbnail.jpg" alt="" width="720" height="720"></a></figure>
-<figure class="gallery__item"><a href="https://fachrul.id/media/posts/58/gallery/3.jpg" data-size="1080x1080"><img loading="lazy" src="https://fachrul.id/media/posts/58/gallery/3-thumbnail.jpg" alt="" width="720" height="720"></a></figure>
-</div></div>
             ]]>
         </content>
     </entry>
