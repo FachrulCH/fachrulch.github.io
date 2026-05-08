@@ -1,0 +1,1249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bug Hunt Challenge - SDET Edition</title>
+    <!-- BUG #11: This stylesheet doesn't exist, causes 404 in Network tab -->
+    <link rel="stylesheet" href="https://cdn.example.com/nonexistent-theme-v3.2.1.css">
+    <!-- BUG #12: This favicon doesn't exist, causes 404 -->
+    <link rel="icon" href="/favicon-bug-hunt-x9z.ico" type="image/x-icon">
+    <style>
+        :root {
+            --primary: #6c5ce7;
+            --primary-dark: #5a4bd1;
+            --success: #00b894;
+            --danger: #d63031;
+            --warning: #fdcb6e;
+            --bg: #f5f6fa;
+            --card: #ffffff;
+            --text: #2d3436;
+            --text-muted: #636e72;
+            --border: #dfe6e9;
+            --shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .header h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+        .header p { opacity: 0.9; }
+
+        .score-panel {
+            background: rgba(255,255,255,0.15);
+            border-radius: 8px;
+            padding: 0.75rem 1.5rem;
+            margin-top: 1rem;
+            display: inline-flex;
+            gap: 2rem;
+            font-weight: 600;
+        }
+
+        .container { max-width: 960px; margin: 2rem auto; padding: 0 1rem; }
+
+        .instructions {
+            background: var(--card);
+            border-radius: 12px;
+            padding: 1.5rem 2rem;
+            margin-bottom: 2rem;
+            box-shadow: var(--shadow);
+            border-left: 4px solid var(--primary);
+        }
+
+        .instructions h2 { font-size: 1.15rem; margin-bottom: 0.5rem; }
+        .instructions ul { margin-left: 1.5rem; color: var(--text-muted); font-size: 0.9rem; }
+        .instructions li { margin-bottom: 0.25rem; }
+
+        .difficulty-label {
+            display: inline-block;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: white;
+            margin-left: 0.5rem;
+            vertical-align: middle;
+        }
+
+        .diff-easy { background: var(--success); }
+        .diff-medium { background: #e17055; }
+        .diff-hard { background: var(--danger); }
+        .diff-expert { background: #2d3436; }
+
+        .section {
+            background: var(--card);
+            border-radius: 12px;
+            padding: 1.5rem 2rem;
+            margin-bottom: 1.5rem;
+            box-shadow: var(--shadow);
+        }
+
+        .section h2 {
+            font-size: 1.15rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        /* Bug Report Form */
+        .report-area {
+            margin-top: 2rem;
+            background: var(--card);
+            border-radius: 12px;
+            padding: 1.5rem 2rem;
+            box-shadow: var(--shadow);
+            border-left: 4px solid var(--danger);
+        }
+
+        .report-area h2 { margin-bottom: 1rem; }
+
+        .report-form {
+            display: grid;
+            gap: 0.75rem;
+        }
+
+        .form-group { display: flex; flex-direction: column; gap: 0.25rem; }
+        .form-group label { font-weight: 500; font-size: 0.9rem; }
+
+        input, select, textarea {
+            padding: 0.5rem 0.75rem;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            font-size: 0.9rem;
+            font-family: inherit;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        input:focus, select:focus, textarea:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 2px rgba(108,92,231,0.15);
+        }
+
+        textarea { resize: vertical; min-height: 80px; }
+
+        .btn {
+            padding: 0.5rem 1.5rem;
+            border: none;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn-primary { background: var(--primary); color: white; }
+        .btn-primary:hover { background: var(--primary-dark); }
+        .btn-success { background: var(--success); color: white; }
+        .btn-danger { background: var(--danger); color: white; }
+        .btn-outline {
+            background: transparent;
+            border: 1px solid var(--border);
+            color: var(--text);
+        }
+        .btn-outline:hover { background: #f1f2f6; }
+
+        /* ===== BUGGY SECTIONS START ===== */
+
+        /* Section: Product Cards */
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+        }
+
+        .product-card {
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+
+        .product-card:hover { transform: translateY(-2px); }
+
+        .product-img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            background: #dfe6e9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        .product-info { padding: 0.75rem; }
+        .product-info h3 { font-size: 0.95rem; margin-bottom: 0.25rem; }
+
+        .product-price {
+            font-weight: 700;
+            color: var(--primary);
+            font-size: 1.1rem;
+        }
+
+        .product-rating { color: var(--warning); font-size: 0.85rem; margin-top: 0.25rem; }
+
+        /* BUG #1: Discount text - white on very light yellow = unreadable */
+        .discount-badge {
+            background: #fffde7;
+            color: #fffde7;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            display: inline-block;
+            margin-top: 0.25rem;
+        }
+
+        /* Navigation */
+        .nav-bar {
+            display: flex;
+            gap: 1rem;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 1rem;
+        }
+
+        .nav-link {
+            color: var(--text);
+            text-decoration: none;
+            padding: 0.4rem 0.8rem;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            transition: background 0.2s;
+        }
+
+        .nav-link:hover { background: #f1f2f6; }
+        .nav-link.active { background: var(--primary); color: white; }
+
+        /* User Profile */
+        .profile-section {
+            display: flex;
+            gap: 1.5rem;
+            align-items: flex-start;
+        }
+
+        .avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: #dfe6e9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            flex-shrink: 0;
+        }
+
+        .profile-details { flex: 1; }
+        .profile-details h3 { margin-bottom: 0.25rem; }
+
+        /* BUG #5: This element has overflow hidden but content is cut off */
+        .bio-text {
+            max-height: 40px;
+            overflow: hidden;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            /* Missing text-overflow or expand mechanism */
+        }
+
+        /* Stats counter */
+        .stats-row {
+            display: flex;
+            gap: 2rem;
+            margin-top: 1rem;
+        }
+
+        .stat-item { text-align: center; }
+        .stat-value { font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .stat-label { font-size: 0.8rem; color: var(--text-muted); }
+
+        /* Table */
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+        }
+
+        .data-table th, .data-table td {
+            padding: 0.5rem 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .data-table th { background: #f1f2f6; font-weight: 600; }
+
+        .status-badge {
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+
+        .status-active { background: #e6f4ea; color: #137333; }
+        .status-pending { background: #fff3e0; color: #e65100; }
+        .status-inactive { background: #fce8e6; color: #c5221f; }
+
+        /* Notification */
+        .notification-bar {
+            background: #dfe6e9;
+            border-radius: 8px;
+            padding: 0.75rem 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        /* BUG #8: Z-index issue - modal backdrop doesn't cover notification */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.5);
+            z-index: 100;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-overlay.active { display: flex; }
+
+        .modal-content {
+            background: var(--card);
+            border-radius: 12px;
+            padding: 2rem;
+            max-width: 480px;
+            width: 90%;
+            position: relative;
+            z-index: 101;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 0.75rem;
+            right: 0.75rem;
+            background: none;
+            border: none;
+            font-size: 1.2rem;
+            cursor: pointer;
+            color: var(--text-muted);
+        }
+
+        /* BUG #8 continued: notification has z-index higher than modal overlay */
+        .notification-floating {
+            position: fixed;
+            top: 1rem;
+            right: 1rem;
+            background: var(--primary);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            z-index: 999;
+            font-size: 0.9rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            display: none;
+        }
+
+        /* Progress bar */
+        .progress-container {
+            background: #dfe6e9;
+            border-radius: 12px;
+            height: 24px;
+            overflow: hidden;
+            margin: 0.75rem 0;
+        }
+
+        .progress-bar {
+            height: 100%;
+            border-radius: 12px;
+            transition: width 0.5s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        /* Search */
+        .search-box {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .search-box input { flex: 1; }
+
+        /* Tabs */
+        .tab-bar {
+            display: flex;
+            border-bottom: 2px solid var(--border);
+            margin-bottom: 1rem;
+        }
+
+        .tab-item {
+            padding: 0.5rem 1.5rem;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            margin-bottom: -2px;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+        }
+
+        .tab-item:hover { color: var(--primary); }
+        .tab-item.active { color: var(--primary); border-bottom-color: var(--primary); font-weight: 600; }
+
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+
+        /* Tooltip */
+        .tooltip-trigger {
+            position: relative;
+            cursor: help;
+            text-decoration: underline dotted;
+        }
+
+        .tooltip-text {
+            display: none;
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #2d3436;
+            color: white;
+            padding: 0.4rem 0.8rem;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            white-space: nowrap;
+            z-index: 50;
+        }
+
+        .tooltip-trigger:hover .tooltip-text { display: block; }
+
+        /* Accordion */
+        .accordion-item {
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            margin-bottom: 0.5rem;
+            overflow: hidden;
+        }
+
+        .accordion-header {
+            padding: 0.75rem 1rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+
+        .accordion-header:hover { background: #f1f2f6; }
+        .accordion-body { padding: 0 1rem 0.75rem; display: none; color: var(--text-muted); font-size: 0.9rem; }
+        .accordion-item.open .accordion-body { display: block; }
+        .accordion-item.open .accordion-arrow { transform: rotate(180deg); }
+        .accordion-arrow { transition: transform 0.2s; }
+
+        /* Chat widget */
+        .chat-widget {
+            position: fixed;
+            bottom: 1.5rem;
+            right: 1.5rem;
+            z-index: 200;
+        }
+
+        .chat-btn {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background: var(--primary);
+            color: white;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(108,92,231,0.4);
+            transition: transform 0.2s;
+        }
+
+        .chat-btn:hover { transform: scale(1.1); }
+
+        .chat-panel {
+            display: none;
+            position: absolute;
+            bottom: 70px;
+            right: 0;
+            width: 320px;
+            background: var(--card);
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+            overflow: hidden;
+        }
+
+        .chat-panel.open { display: block; }
+
+        .chat-header {
+            background: var(--primary);
+            color: white;
+            padding: 1rem;
+            font-weight: 600;
+        }
+
+        .chat-messages {
+            height: 200px;
+            overflow-y: auto;
+            padding: 1rem;
+        }
+
+        .chat-message {
+            margin-bottom: 0.75rem;
+            font-size: 0.85rem;
+        }
+
+        .chat-message.bot {
+            background: #f1f2f6;
+            padding: 0.5rem 0.75rem;
+            border-radius: 8px 8px 8px 0;
+            display: inline-block;
+            max-width: 80%;
+        }
+
+        .chat-input-area {
+            display: flex;
+            border-top: 1px solid var(--border);
+            padding: 0.5rem;
+        }
+
+        .chat-input-area input {
+            flex: 1;
+            border: none;
+            outline: none;
+            padding: 0.5rem;
+            font-size: 0.85rem;
+        }
+
+        .chat-input-area button {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        .footer a { color: var(--primary); text-decoration: none; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Bug Hunt Challenge</h1>
+        <p>Find all the hidden bugs in this page. Use your browser DevTools!</p>
+        <div class="score-panel">
+            <span>Total Bugs: 25</span>
+            <span>Found: <span id="bugs-found">0</span> / 25</span>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="instructions">
+            <h2>How to Play</h2>
+            <ul>
+                <li>This page contains <strong>25 intentional bugs</strong> ranging from easy to expert difficulty.</li>
+                <li>Bugs are hidden in the UI, HTML structure, CSS, JavaScript, Network requests, and Console output.</li>
+                <li>Use the Bug Report form at the bottom to submit each bug you find.</li>
+                <li>Each correct report earns you points based on difficulty.</li>
+                <li>Categories: <span class="difficulty-label diff-easy">Easy (1pt)</span> <span class="difficulty-label diff-medium">Medium (2pt)</span> <span class="difficulty-label diff-hard">Hard (3pt)</span> <span class="difficulty-label diff-expert">Expert (5pt)</span></li>
+            </ul>
+        </div>
+
+        <!-- ===== SECTION 1: Navigation ===== -->
+        <div class="section">
+            <h2>Navigation</h2>
+            <div class="nav-bar">
+                <a href="#" class="nav-link active">Dashboard</a>
+                <a href="#" class="nav-link">Products</a>
+                <!-- BUG #2: Link goes to about:blank instead of a real page -->
+                <a href="about:blank" class="nav-link" data-bugid="2">Settings</a>
+                <a href="#" class="nav-link">Analytics</a>
+                <!-- BUG #3: Duplicate ID - same as the other "Profile" link below -->
+                <a href="#" class="nav-link" id="nav-profile">Profile</a>
+            </div>
+            <div class="notification-bar">
+                <span>You have <strong>3 new notifications</strong></span>
+                <!-- BUG #4: Button does nothing - onclick references undefined function -->
+                <button class="btn btn-outline" onclick="markAllRead()">Mark all read</button>
+            </div>
+        </div>
+
+        <!-- ===== SECTION 2: Product Cards ===== -->
+        <div class="section">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-img">
+                        <!-- BUG #6: Image src returns 404 -->
+                        <img src="https://httpstat.us/404" alt="Wireless Headphones"
+                             style="width:100%;height:100%;object-fit:cover;"
+                             onerror="this.style.display='none';this.parentElement.textContent='Image not available';">
+                    </div>
+                    <div class="product-info">
+                        <h3>Wireless Headphones</h3>
+                        <div class="product-price">$79.99</div>
+                        <div class="product-rating">&#9733;&#9733;&#9733;&#9733;&#9734; (128)</div>
+                        <!-- BUG #1: Discount badge is invisible (same color text and bg) -->
+                        <div class="discount-badge" data-bugid="1">20% OFF</div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img" style="background:#c8d6e5;display:flex;align-items:center;justify-content:center;">
+                        <span style="font-size:3rem;">&#128187;</span>
+                    </div>
+                    <div class="product-info">
+                        <!-- BUG #7: Wrong price - shows negative -->
+                        <h3>Laptop Stand</h3>
+                        <div class="product-price" data-bugid="7">$-29.99</div>
+                        <div class="product-rating">&#9733;&#9733;&#9733;&#9733;&#9733; (256)</div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img" style="background:#ffeaa7;display:flex;align-items:center;justify-content:center;">
+                        <span style="font-size:3rem;">&#9000;</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Mechanical Keyboard</h3>
+                        <div class="product-price">$149.00</div>
+                        <!-- BUG #9: Rating shows 6 out of 5 stars -->
+                        <div class="product-rating" data-bugid="9">&#9733;&#9733;&#9733;&#9733;&#9733;&#9733; (89)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== SECTION 3: User Profile ===== -->
+        <div class="section">
+            <h2>User Profile</h2>
+            <div class="profile-section">
+                <div class="avatar">&#128100;</div>
+                <div class="profile-details">
+                    <!-- BUG #3 continued: Duplicate ID (same as nav link above) -->
+                    <h3 id="nav-profile">Jane Doe</h3>
+                    <p style="color:var(--text-muted);font-size:0.9rem;">Senior Software Engineer</p>
+                    <!-- BUG #5: Bio text is cut off with no way to expand -->
+                    <p class="bio-text" data-bugid="5">
+                        Passionate about building scalable systems and mentoring junior developers.
+                        I specialize in distributed systems, microservices architecture, and cloud-native
+                        development. Currently exploring AI/ML integration patterns for production systems.
+                        Outside of work, I enjoy hiking, photography, and contributing to open-source projects.
+                    </p>
+                    <div class="stats-row">
+                        <div class="stat-item">
+                            <div class="stat-value" id="stat-projects">0</div>
+                            <div class="stat-label">Projects</div>
+                        </div>
+                        <div class="stat-item">
+                            <!-- BUG #10: Counter shows NaN due to bad data -->
+                            <div class="stat-value" id="stat-commits">NaN</div>
+                            <div class="stat-label">Commits</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value" id="stat-reviews">47</div>
+                            <div class="stat-label">Reviews</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== SECTION 4: Data Table ===== -->
+        <div class="section">
+            <h2>Team Members</h2>
+            <div class="search-box">
+                <!-- BUG #13: Search input type is "date" instead of "text" -->
+                <input type="date" id="search-input" placeholder="Search team members..." data-bugid="13">
+                <button class="btn btn-primary" onclick="searchTable()">Search</button>
+            </div>
+            <table class="data-table" id="team-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Role</th>
+                        <th>Email</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Alice Chen</td>
+                        <td>Frontend Developer</td>
+                        <!-- BUG #14: Email is clearly wrong format -->
+                        <td data-bugid="14">alice.chen@@company..com</td>
+                        <td><span class="status-badge status-active">Active</span></td>
+                    </tr>
+                    <tr>
+                        <td>Bob Martin</td>
+                        <td>Backend Developer</td>
+                        <td>bob.martin@company.com</td>
+                        <td><span class="status-badge status-active">Active</span></td>
+                    </tr>
+                    <tr>
+                        <!-- BUG #15: Empty name cell -->
+                        <td data-bugid="15"></td>
+                        <td>DevOps Engineer</td>
+                        <td>charlie.park@company.com</td>
+                        <td><span class="status-badge status-pending">Pending</span></td>
+                    </tr>
+                    <tr>
+                        <td>Diana Ross</td>
+                        <td>QA Engineer</td>
+                        <td>diana.ross@company.com</td>
+                        <!-- BUG #16: Status text says "Active" but uses inactive styling -->
+                        <td data-bugid="16"><span class="status-badge status-inactive">Active</span></td>
+                    </tr>
+                    <tr>
+                        <td>Eve Adams</td>
+                        <td>Product Manager</td>
+                        <td>eve.adams@company.com</td>
+                        <td><span class="status-badge status-active">Active</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- ===== SECTION 5: Tabs + Progress ===== -->
+        <div class="section">
+            <h2>Project Dashboard</h2>
+            <div class="tab-bar">
+                <div class="tab-item active" data-tab="overview" onclick="switchTab('overview')">Overview</div>
+                <div class="tab-item" data-tab="timeline" onclick="switchTab('timeline')">Timeline</div>
+                <div class="tab-item" data-tab="files" onclick="switchTab('files')">Files</div>
+            </div>
+
+            <div class="tab-content active" id="tab-overview">
+                <p style="margin-bottom:0.75rem;">Sprint Progress</p>
+                <!-- BUG #17: Progress bar shows 85% text but width is 45% -->
+                <div class="progress-container">
+                    <div class="progress-bar" style="width:45%;background:var(--primary);" data-bugid="17">85%</div>
+                </div>
+
+                <p style="margin-bottom:0.75rem;margin-top:1rem;">Release Readiness</p>
+                <div class="progress-container">
+                    <div class="progress-bar" style="width:72%;background:var(--success);">72%</div>
+                </div>
+
+                <div style="margin-top:1rem;">
+                    <p style="font-size:0.9rem;color:var(--text-muted);">
+                        Last updated: <span class="tooltip-trigger">2 hours ago
+                            <!-- BUG #18: Tooltip shows wrong/suspicious date -->
+                            <span class="tooltip-text" data-bugid="18">January 1, 1970 00:00:00 UTC</span>
+                        </span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="tab-content" id="tab-timeline">
+                <p>Timeline view content here...</p>
+            </div>
+
+            <div class="tab-content" id="tab-files">
+                <p>Files view content here...</p>
+            </div>
+        </div>
+
+        <!-- ===== SECTION 6: Accordion / FAQ ===== -->
+        <div class="section">
+            <h2>Frequently Asked Questions</h2>
+            <div class="accordion-item open">
+                <div class="accordion-header" onclick="toggleAccordion(this)">
+                    How do I reset my password?
+                    <span class="accordion-arrow">&#9660;</span>
+                </div>
+                <div class="accordion-body">
+                    <p>Go to Settings → Security → Reset Password. You'll receive a confirmation email within 5 minutes.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header" onclick="toggleAccordion(this)">
+                    What payment methods are accepted?
+                    <span class="accordion-arrow">&#9660;</span>
+                </div>
+                <div class="accordion-body">
+                    <!-- BUG #19: Lorem ipsum placeholder text left in -->
+                    <p data-bugid="19">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header" onclick="toggleAccordion(this)">
+                    How do I contact support?
+                    <span class="accordion-arrow">&#9660;</span>
+                </div>
+                <div class="accordion-body">
+                    <p>Email us at support@company.com or call 1-800-555-0199.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== SECTION 7: Form (Login) ===== -->
+        <div class="section">
+            <h2>Login Form</h2>
+            <!-- BUG #20: Form action goes to HTTP (not HTTPS) -->
+            <form id="login-form" action="http://api.example.com/login" method="POST" data-bugid="20">
+                <div class="form-group">
+                    <label for="login-email">Email</label>
+                    <!-- BUG #21: Autocomplete set to "off" for email field (bad for UX and password managers) -->
+                    <input type="email" id="login-email" placeholder="you@example.com" autocomplete="off" data-bugid="21">
+                </div>
+                <div class="form-group" style="margin-top:0.75rem;">
+                    <label for="login-password">Password</label>
+                    <!-- BUG #22: Password field is type="text" - shows password in plain text -->
+                    <input type="text" id="login-password" placeholder="Enter your password" data-bugid="22">
+                </div>
+                <div style="margin-top:0.75rem;display:flex;align-items:center;gap:0.5rem;">
+                    <input type="checkbox" id="remember-me">
+                    <label for="remember-me" style="font-size:0.9rem;">Remember me</label>
+                </div>
+                <button type="submit" class="btn btn-primary" style="margin-top:1rem;width:100%;">Sign In</button>
+            </form>
+        </div>
+
+        <!-- ===== SECTION 8: Modal Trigger ===== -->
+        <div class="section">
+            <h2>Actions</h2>
+            <div style="display:flex;gap:0.75rem;flex-wrap:wrap;">
+                <button class="btn btn-primary" onclick="openModal()">Open Modal</button>
+                <button class="btn btn-success" onclick="showNotification()">Show Notification</button>
+                <!-- BUG #4: This button calls undefined function -->
+                <button class="btn btn-danger" onclick="deleteAllData()" data-bugid="4">Delete All Data</button>
+                <button class="btn btn-outline" onclick="runDiagnostic()">Run Diagnostic</button>
+            </div>
+        </div>
+
+        <!-- ===== BUG REPORT FORM ===== -->
+        <div class="report-area">
+            <h2>Bug Report Submission</h2>
+            <div class="report-form">
+                <div class="form-group">
+                    <label for="bug-id">Bug Number (1-25)</label>
+                    <input type="number" id="bug-id" min="1" max="25" placeholder="Enter bug number">
+                </div>
+                <div class="form-group">
+                    <label for="bug-severity">Severity</label>
+                    <select id="bug-severity">
+                        <option value="">-- Select --</option>
+                        <option value="easy">Easy (UI/Visual)</option>
+                        <option value="medium">Medium (Functional)</option>
+                        <option value="hard">Hard (DevTools Required)</option>
+                        <option value="expert">Expert (Deep Inspection)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="bug-description">Description</label>
+                    <textarea id="bug-description" placeholder="Describe the bug you found..."></textarea>
+                </div>
+                <div style="display:flex;gap:0.75rem;">
+                    <button class="btn btn-primary" onclick="submitBugReport()">Submit Report</button>
+                    <button class="btn btn-outline" onclick="clearReport()">Clear</button>
+                </div>
+                <div id="report-result" style="margin-top:0.5rem;"></div>
+                <div id="found-bugs-list" style="margin-top:1rem;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal-overlay" id="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">&times;</button>
+            <h3>Confirmation</h3>
+            <p style="margin:1rem 0;color:var(--text-muted);">Are you sure you want to proceed with this action?</p>
+            <div style="display:flex;gap:0.75rem;justify-content:flex-end;">
+                <button class="btn btn-outline" onclick="closeModal()">Cancel</button>
+                <button class="btn btn-primary" onclick="closeModal()">Confirm</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating notification (BUG #8: z-index higher than modal) -->
+    <div class="notification-floating" id="floating-notif">Notification: Action completed!</div>
+
+    <!-- Chat Widget -->
+    <div class="chat-widget">
+        <div class="chat-panel" id="chat-panel">
+            <div class="chat-header">Support Chat</div>
+            <div class="chat-messages" id="chat-messages">
+                <div class="chat-message bot">Hi! How can I help you today?</div>
+            </div>
+            <div class="chat-input-area">
+                <input type="text" id="chat-input" placeholder="Type a message..." onkeypress="if(event.key==='Enter')sendChat()">
+                <button onclick="sendChat()">Send</button>
+            </div>
+        </div>
+        <button class="chat-btn" onclick="toggleChat()">&#128172;</button>
+    </div>
+
+    <!-- Hidden elements for inspection bugs -->
+    <!-- BUG #23: Hidden debug panel with sensitive info in DOM -->
+    <div id="debug-panel" style="display:none;" data-bugid="23" aria-hidden="true">
+        <div class="debug-info">
+            <p>DEBUG MODE: ON</p>
+            <p>API Key: sk-test-4f8b2c1a9e3d7f6b5a0c8d2e1f4a7b3c</p>
+            <p>DB Host: prod-db.internal.company.com:5432</p>
+            <p>Admin Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYWRtaW4ifQ.fake</p>
+            <p>Environment: production</p>
+        </div>
+    </div>
+
+    <!-- BUG #24: HTML comment with credentials -->
+    <!-- TODO: Remove before production deploy
+         Staging credentials:
+         Username: admin
+         Password: P@ssw0rd123!
+         API endpoint: https://staging-api.internal.company.com/v2
+    -->
+
+    <div class="footer">
+        <p>Bug Hunt Challenge v1.0 &mdash; Built for SDET Training</p>
+        <p>Session: <code id="session-id"></code></p>
+        <!-- BUG #25: Copyright year is wrong -->
+        <p data-bugid="25">&copy; 2019 Company Inc. All rights reserved.</p>
+    </div>
+
+    <script>
+        // ========================
+        // Session
+        // ========================
+        const sessionId = Math.random().toString(36).substring(2, 14);
+        document.getElementById('session-id').textContent = sessionId;
+
+        // ========================
+        // Bug Registry (answers)
+        // ========================
+        const bugRegistry = {
+            1:  { severity: 'easy',   keyword: 'invisible|unreadable|contrast|color|badge|discount', desc: 'Discount badge text is invisible (same color as background)' },
+            2:  { severity: 'easy',   keyword: 'about:blank|link|settings|href|navigation', desc: 'Settings nav link points to about:blank' },
+            3:  { severity: 'medium', keyword: 'duplicate|id|nav-profile', desc: 'Duplicate ID "nav-profile" on nav link and profile heading' },
+            4:  { severity: 'easy',   keyword: 'undefined|function|markallread|deletealldata|onclick', desc: 'Buttons reference undefined functions (markAllRead, deleteAllData)' },
+            5:  { severity: 'medium', keyword: 'overflow|hidden|cut|truncat|bio|text', desc: 'Bio text is cut off with no expand/read-more mechanism' },
+            6:  { severity: 'hard',   keyword: '404|image|network|failed|broken|headphones', desc: 'Product image returns 404 (failed network request)' },
+            7:  { severity: 'easy',   keyword: 'negative|price|\\-29|\\.99|minus', desc: 'Laptop Stand has a negative price (-$29.99)' },
+            8:  { severity: 'hard',   keyword: 'z-index|modal|notification|overlay|behind|front', desc: 'Floating notification z-index (999) overlaps modal overlay (100)' },
+            9:  { severity: 'easy',   keyword: '6|star|rating|five|5', desc: 'Mechanical Keyboard shows 6 stars out of 5' },
+            10: { severity: 'medium', keyword: 'nan|number|commit|counter|stat', desc: 'Commits counter shows NaN' },
+            11: { severity: 'hard',   keyword: '404|css|stylesheet|network|cdn|nonexistent|theme', desc: 'External CSS file returns 404 (check Network tab)' },
+            12: { severity: 'hard',   keyword: 'favicon|404|network|ico|icon', desc: 'Favicon returns 404 (check Network tab)' },
+            13: { severity: 'medium', keyword: 'date|search|input|type|text', desc: 'Search input is type="date" instead of type="text"' },
+            14: { severity: 'easy',   keyword: 'email|@@|format|invalid|double', desc: 'Invalid email format (double @ and double dot)' },
+            15: { severity: 'easy',   keyword: 'empty|name|missing|cell|blank', desc: 'Empty name cell in team member table' },
+            16: { severity: 'medium', keyword: 'status|active|inactive|mismatch|style|class', desc: 'Status text says "Active" but uses inactive (red) styling' },
+            17: { severity: 'medium', keyword: 'progress|85|45|width|mismatch|bar', desc: 'Progress bar shows 85% text but actual width is 45%' },
+            18: { severity: 'medium', keyword: 'epoch|1970|date|tooltip|timestamp|wrong', desc: 'Tooltip shows Unix epoch date (January 1, 1970)' },
+            19: { severity: 'easy',   keyword: 'lorem|ipsum|placeholder|text|faq', desc: 'FAQ answer contains lorem ipsum placeholder text' },
+            20: { severity: 'hard',   keyword: 'http|https|insecure|form|action|login', desc: 'Login form action uses HTTP instead of HTTPS' },
+            21: { severity: 'medium', keyword: 'autocomplete|off|email|password manager', desc: 'Email field has autocomplete="off" (bad practice)' },
+            22: { severity: 'easy',   keyword: 'password|text|plain|visible|type', desc: 'Password field uses type="text" (visible password)' },
+            23: { severity: 'expert', keyword: 'debug|hidden|api.key|token|sensitive|panel|secret|credential', desc: 'Hidden debug panel in DOM contains API keys and DB credentials' },
+            24: { severity: 'expert', keyword: 'comment|html|credential|password|staging|todo|admin', desc: 'HTML comment contains staging credentials' },
+            25: { severity: 'easy',   keyword: 'copyright|2019|year|date|footer|wrong', desc: 'Copyright year is 2019 (outdated)' }
+        };
+
+        let foundBugs = new Set();
+
+        // ========================
+        // Console Bugs (planted)
+        // ========================
+
+        // BUG visible in Console: Various non-standard log messages
+        console.log('%c[WARNING] Debug mode is enabled in production!', 'color:red;font-weight:bold;font-size:14px;');
+        console.warn('Deprecation warning: userData.legacyFormat() will be removed in v4.0. Migrate to userData.toJSON().');
+        console.error('Failed to load user preferences: QUOTA_EXCEEDED_ERR - localStorage is full (5MB limit reached)');
+        console.log('%c[PERF] Page load took 4,723ms — threshold is 2,000ms', 'color:orange;font-weight:bold;');
+        console.info('[TELEMETRY] Session data sent to analytics.tracker.io — user did not opt in');
+        console.warn('[SECURITY] Content-Security-Policy header is missing. XSS risk elevated.');
+        console.error('Unhandled promise rejection: TypeError: Cannot read property "email" of undefined at UserService.getProfile (user-service.js:142)');
+
+        // Delayed console messages
+        setTimeout(() => {
+            console.error('[MEMORY] Potential memory leak detected: 847 detached DOM nodes');
+        }, 3000);
+
+        setTimeout(() => {
+            console.warn('[API] Rate limit approaching: 487/500 requests in current window');
+        }, 5000);
+
+        setTimeout(() => {
+            console.log('%c[AUTH] Token expires in 30 seconds. No refresh handler registered.', 'color:red;');
+        }, 8000);
+
+        // ========================
+        // Stat counter animation
+        // ========================
+        function animateCounter(id, target) {
+            let current = 0;
+            const step = Math.ceil(target / 30);
+            const interval = setInterval(() => {
+                current += step;
+                if (current >= target) {
+                    current = target;
+                    clearInterval(interval);
+                }
+                document.getElementById(id).textContent = current;
+            }, 50);
+        }
+
+        animateCounter('stat-projects', 34);
+        // BUG #10: Pass undefined to counter which results in NaN
+        animateCounter('stat-commits', parseInt('not-a-number'));
+
+        // ========================
+        // Tab switching
+        // ========================
+        function switchTab(tabName) {
+            document.querySelectorAll('.tab-item').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+            document.querySelector(`[data-tab="${tabName}"]`).classList.add('active');
+            document.getElementById('tab-' + tabName).classList.add('active');
+        }
+
+        // ========================
+        // Accordion
+        // ========================
+        function toggleAccordion(header) {
+            const item = header.parentElement;
+            item.classList.toggle('open');
+        }
+
+        // ========================
+        // Modal
+        // ========================
+        function openModal() {
+            document.getElementById('modal').classList.add('active');
+        }
+
+        function closeModal() {
+            document.getElementById('modal').classList.remove('active');
+        }
+
+        // ========================
+        // Floating notification
+        // ========================
+        function showNotification() {
+            const notif = document.getElementById('floating-notif');
+            notif.style.display = 'block';
+            // BUG #8 demo: notification stays on top of modal
+            setTimeout(() => {
+                notif.style.display = 'none';
+            }, 4000);
+        }
+
+        // ========================
+        // Search (buggy)
+        // ========================
+        function searchTable() {
+            // The search doesn't actually filter because input type is "date"
+            const query = document.getElementById('search-input').value.toLowerCase();
+            const rows = document.querySelectorAll('#team-table tbody tr');
+            rows.forEach(row => {
+                const text = row.textContent.toLowerCase();
+                row.style.display = text.includes(query) ? '' : 'none';
+            });
+        }
+
+        // ========================
+        // Chat widget
+        // ========================
+        function toggleChat() {
+            document.getElementById('chat-panel').classList.toggle('open');
+        }
+
+        function sendChat() {
+            const input = document.getElementById('chat-input');
+            const msg = input.value.trim();
+            if (!msg) return;
+
+            const container = document.getElementById('chat-messages');
+            const userDiv = document.createElement('div');
+            userDiv.className = 'chat-message';
+            userDiv.style.textAlign = 'right';
+            userDiv.textContent = msg;
+            container.appendChild(userDiv);
+
+            input.value = '';
+
+            setTimeout(() => {
+                const botDiv = document.createElement('div');
+                botDiv.className = 'chat-message bot';
+                botDiv.textContent = "Thanks for your message! A human agent will be with you shortly.";
+                container.appendChild(botDiv);
+                container.scrollTop = container.scrollHeight;
+            }, 1000);
+        }
+
+        // ========================
+        // Run Diagnostic (console output)
+        // ========================
+        function runDiagnostic() {
+            console.group('[DIAGNOSTIC] System Check');
+            console.log('Browser: ' + navigator.userAgent);
+            console.log('Window size: ' + window.innerWidth + 'x' + window.innerHeight);
+            console.log('Cookies enabled: ' + navigator.cookieEnabled);
+            console.warn('Service worker: NOT registered');
+            console.error('WebSocket connection to wss://realtime.company.com failed: connection refused');
+            console.log('LocalStorage usage: 4.8MB / 5MB');
+            console.log('%cSTATUS: DEGRADED', 'color:orange;font-weight:bold;font-size:16px;');
+            console.groupEnd();
+        }
+
+        // ========================
+        // Login form handler
+        // ========================
+        document.getElementById('login-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            // BUG visible in console: logs credentials
+            const email = document.getElementById('login-email').value;
+            const password = document.getElementById('login-password').value;
+            console.log('[AUTH] Login attempt — email: ' + email + ', password: ' + password);
+            alert('Login functionality is disabled in this demo.');
+        });
+
+        // ========================
+        // Bug Report System
+        // ========================
+        function submitBugReport() {
+            const bugId = parseInt(document.getElementById('bug-id').value, 10);
+            const severity = document.getElementById('bug-severity').value;
+            const description = document.getElementById('bug-description').value.trim().toLowerCase();
+            const resultEl = document.getElementById('report-result');
+
+            if (!bugId || bugId < 1 || bugId > 25) {
+                resultEl.innerHTML = '<span style="color:var(--danger);">Please enter a valid bug number (1-25).</span>';
+                return;
+            }
+
+            if (!severity) {
+                resultEl.innerHTML = '<span style="color:var(--danger);">Please select a severity level.</span>';
+                return;
+            }
+
+            if (!description || description.length < 5) {
+                resultEl.innerHTML = '<span style="color:var(--danger);">Please provide a description (at least 5 characters).</span>';
+                return;
+            }
+
+            const bug = bugRegistry[bugId];
+            if (!bug) {
+                resultEl.innerHTML = '<span style="color:var(--danger);">Invalid bug number.</span>';
+                return;
+            }
+
+            if (foundBugs.has(bugId)) {
+                resultEl.innerHTML = '<span style="color:var(--warning);">Bug #' + bugId + ' was already reported!</span>';
+                return;
+            }
+
+            // Check if description matches expected keywords
+            const keywords = bug.keyword.split('|');
+            const matchesKeyword = keywords.some(kw => description.includes(kw.toLowerCase().replace(/\\/g, '')));
+            const matchesSeverity = bug.severity === severity;
+
+            if (matchesKeyword) {
+                foundBugs.add(bugId);
+                const points = { easy: 1, medium: 2, hard: 3, expert: 5 }[bug.severity];
+                resultEl.innerHTML = '<span style="color:var(--success);font-weight:600;">' +
+                    '&#10004; Bug #' + bugId + ' confirmed! +' + points + ' points' +
+                    (!matchesSeverity ? ' (severity was actually ' + bug.severity + ')' : '') +
+                    '</span>';
+                document.getElementById('bugs-found').textContent = foundBugs.size;
+                renderFoundBugs();
+            } else {
+                resultEl.innerHTML = '<span style="color:var(--danger);">Description doesn\'t match bug #' + bugId + '. Be more specific about what\'s wrong.</span>';
+            }
+        }
+
+        function clearReport() {
+            document.getElementById('bug-id').value = '';
+            document.getElementById('bug-severity').value = '';
+            document.getElementById('bug-description').value = '';
+            document.getElementById('report-result').innerHTML = '';
+        }
+
+        function renderFoundBugs() {
+            const container = document.getElementById('found-bugs-list');
+            const sorted = [...foundBugs].sort((a, b) => a - b);
+            const points = { easy: 1, medium: 2, hard: 3, expert: 5 };
+            const totalPoints = sorted.reduce((sum, id) => sum + points[bugRegistry[id].severity], 0);
+
+            let html = '<h3 style="font-size:0.95rem;margin-bottom:0.5rem;">Found Bugs (' + foundBugs.size + '/25) — ' + totalPoints + ' points</h3>';
+            html += '<div style="display:flex;flex-wrap:wrap;gap:0.4rem;">';
+            for (let i = 1; i <= 25; i++) {
+                const found = foundBugs.has(i);
+                const bug = bugRegistry[i];
+                const diffClass = 'diff-' + bug.severity;
+                html += '<span style="display:inline-block;width:32px;height:32px;line-height:32px;text-align:center;border-radius:6px;font-size:0.8rem;font-weight:600;' +
+                    (found ? 'background:var(--success);color:white;' : 'background:#dfe6e9;color:var(--text-muted);') +
+                    '" title="' + (found ? bug.desc : 'Bug #' + i + ' (' + bug.severity + ')') + '">' + i + '</span>';
+            }
+            html += '</div>';
+            container.innerHTML = html;
+        }
+
+        renderFoundBugs();
+
+        // ========================
+        // Intentional memory leak for expert detection
+        // ========================
+        const leakyArray = [];
+        setInterval(() => {
+            for (let i = 0; i < 100; i++) {
+                leakyArray.push({
+                    timestamp: Date.now(),
+                    data: new Array(100).fill('x').join(''),
+                    node: document.createElement('div')
+                });
+            }
+        }, 2000);
+
+        // ========================
+        // Throw delayed error
+        // ========================
+        setTimeout(() => {
+            try {
+                const config = JSON.parse('{"port": 3000, invalid}');
+            } catch (e) {
+                console.error('[CONFIG] Failed to parse configuration: ' + e.message);
+            }
+        }, 2000);
+
+        // Log planted non-standard messages
+        setTimeout(() => {
+            console.table([
+                { metric: 'DOM Nodes', value: 2847, threshold: 1500, status: 'EXCEEDED' },
+                { metric: 'Event Listeners', value: 342, threshold: 200, status: 'EXCEEDED' },
+                { metric: 'JS Heap (MB)', value: 127, threshold: 100, status: 'EXCEEDED' },
+                { metric: 'Layout Shifts', value: 0.42, threshold: 0.1, status: 'EXCEEDED' }
+            ]);
+        }, 4000);
+    </script>
+</body>
+</html>
