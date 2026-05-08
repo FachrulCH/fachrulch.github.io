@@ -1,0 +1,7 @@
+{
+  "tool_name": "mcp__plugin_oh-my-claudecode_t__lsp_diagnostics",
+  "tool_input_preview": "{\"file\":\"/Users/fachrulch/koding/lab/repoTest/sdet-challenge.html\"}",
+  "error": "Language server 'vscode-html-language-server' not found.\nInstall with: npm install -g vscode-langservers-extracted",
+  "timestamp": "2026-05-08T16:42:48.642Z",
+  "retry_count": 1
+}

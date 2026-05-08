@@ -1,0 +1,1428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDET Automation Challenge</title>
+    <style>
+        :root {
+            --primary: #1a73e8;
+            --success: #34a853;
+            --danger: #ea4335;
+            --warning: #fbbc04;
+            --bg: #f8f9fa;
+            --card-bg: #ffffff;
+            --text: #202124;
+            --text-secondary: #5f6368;
+            --border: #dadce0;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #1a73e8, #0d47a1);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+
+        .header h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+        .header p { opacity: 0.9; font-size: 1.1rem; }
+
+        .score-bar {
+            background: rgba(255,255,255,0.15);
+            border-radius: 8px;
+            padding: 0.75rem 1.5rem;
+            margin-top: 1rem;
+            display: inline-block;
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .challenge-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 1.5rem 2rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            border-left: 4px solid var(--primary);
+            transition: border-color 0.3s;
+        }
+
+        .challenge-card.solved { border-left-color: var(--success); }
+        .challenge-card.failed { border-left-color: var(--danger); }
+
+        .challenge-card h2 {
+            font-size: 1.15rem;
+            margin-bottom: 0.25rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .challenge-card h2 .badge {
+            font-size: 0.7rem;
+            padding: 2px 8px;
+            border-radius: 12px;
+            background: var(--primary);
+            color: white;
+            font-weight: 500;
+        }
+
+        .challenge-card .description {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .challenge-card .hint {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            font-style: italic;
+            margin-top: 0.5rem;
+        }
+
+        .result-message {
+            margin-top: 0.75rem;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            display: none;
+        }
+
+        .result-message.success {
+            background: #e6f4ea;
+            color: #137333;
+            display: block;
+        }
+
+        .result-message.error {
+            background: #fce8e6;
+            color: #c5221f;
+            display: block;
+        }
+
+        button.submit-btn {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 0.5rem 1.5rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+
+        button.submit-btn:hover { background: #1557b0; }
+        button.submit-btn:disabled { background: #ccc; cursor: not-allowed; }
+
+        select, input[type="text"], input[type="number"], textarea {
+            padding: 0.5rem 0.75rem;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            font-size: 0.9rem;
+            font-family: inherit;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        select:focus, input:focus, textarea:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 2px rgba(26,115,232,0.2);
+        }
+
+        .inline-group {
+            display: flex;
+            gap: 0.75rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        /* Challenge 3: Color classes */
+        .color-red { color: #ea4335; }
+        .color-blue { color: #1a73e8; }
+        .color-green { color: #34a853; }
+        .color-orange { color: #ff6d00; }
+        .color-purple { color: #9c27b0; }
+        .color-teal { color: #009688; }
+
+        .bg-crimson { background-color: crimson; }
+        .bg-navy { background-color: navy; }
+        .bg-forest { background-color: forestgreen; }
+        .bg-gold { background-color: gold; }
+        .bg-coral { background-color: coral; }
+        .bg-slate { background-color: slategray; }
+
+        .color-sample {
+            display: inline-block;
+            width: 80px;
+            height: 40px;
+            border-radius: 6px;
+            vertical-align: middle;
+            margin-right: 0.5rem;
+        }
+
+        /* Challenge 4: Drag and drop */
+        .drag-container {
+            display: flex;
+            gap: 2rem;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+
+        .draggable-item {
+            width: 80px;
+            height: 80px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: grab;
+            font-weight: 600;
+            color: white;
+            font-size: 0.85rem;
+            user-select: none;
+        }
+
+        .draggable-item:active { cursor: grabbing; }
+
+        .drop-zone {
+            width: 120px;
+            height: 120px;
+            border: 3px dashed var(--border);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            text-align: center;
+            transition: border-color 0.2s, background 0.2s;
+        }
+
+        .drop-zone.drag-over {
+            border-color: var(--primary);
+            background: rgba(26,115,232,0.05);
+        }
+
+        .drop-zone.filled {
+            border-style: solid;
+            border-color: var(--success);
+            background: #e6f4ea;
+        }
+
+        /* Challenge 7: Hidden element */
+        .secret-element {
+            opacity: 0;
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+        }
+
+        /* Challenge 8: Delayed element */
+        #delayed-element {
+            display: none;
+            animation: fadeIn 0.5s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Challenge 9: Hover */
+        .hover-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .hover-trigger {
+            background: #e8eaed;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+
+        .hover-trigger:hover { background: #d2e3fc; }
+
+        .hover-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            margin-top: 0.5rem;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            z-index: 100;
+            min-width: 200px;
+        }
+
+        .hover-container:hover .hover-content { display: block; }
+
+        /* Challenge 10: Table */
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0.75rem 0;
+            font-size: 0.9rem;
+        }
+
+        .data-table th, .data-table td {
+            padding: 0.5rem 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .data-table th {
+            background: #f1f3f4;
+            font-weight: 600;
+        }
+
+        .data-table tr:hover { background: #f8f9fa; }
+
+        /* Challenge 11: iframe */
+        .challenge-iframe {
+            width: 100%;
+            height: 80px;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+        }
+
+        /* Challenge 12: Disabled button */
+        .toggle-area {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .toggle-switch {
+            position: relative;
+            width: 48px;
+            height: 26px;
+        }
+
+        .toggle-switch input { opacity: 0; width: 0; height: 0; }
+
+        .toggle-slider {
+            position: absolute;
+            cursor: pointer;
+            inset: 0;
+            background: #ccc;
+            border-radius: 26px;
+            transition: 0.3s;
+        }
+
+        .toggle-slider:before {
+            content: "";
+            position: absolute;
+            height: 20px;
+            width: 20px;
+            left: 3px;
+            bottom: 3px;
+            background: white;
+            border-radius: 50%;
+            transition: 0.3s;
+        }
+
+        .toggle-switch input:checked + .toggle-slider {
+            background: var(--primary);
+        }
+
+        .toggle-switch input:checked + .toggle-slider:before {
+            transform: translateX(22px);
+        }
+
+        /* Challenge 13: Dynamic IDs */
+        .dynamic-id-items {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .dynamic-id-items span {
+            background: #e8eaed;
+            padding: 0.4rem 0.8rem;
+            border-radius: 16px;
+            font-size: 0.85rem;
+        }
+
+        /* Challenge 14: Checkboxes */
+        .checkbox-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 0.5rem;
+            margin: 0.75rem 0;
+        }
+
+        .checkbox-grid label {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.4rem 0.6rem;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .checkbox-grid label:hover { background: #f1f3f4; }
+
+        /* Challenge 15: Context menu */
+        .context-area {
+            background: #e8eaed;
+            padding: 2rem;
+            border-radius: 8px;
+            text-align: center;
+            color: var(--text-secondary);
+            user-select: none;
+        }
+
+        .custom-context-menu {
+            display: none;
+            position: fixed;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            z-index: 1000;
+            min-width: 160px;
+            overflow: hidden;
+        }
+
+        .custom-context-menu div {
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: background 0.15s;
+        }
+
+        .custom-context-menu div:hover { background: #f1f3f4; }
+
+        /* Shadow DOM host */
+        #shadow-host {
+            margin: 0.75rem 0;
+        }
+
+        /* Challenge: Sortable list */
+        .sortable-list {
+            list-style: none;
+            padding: 0;
+            max-width: 300px;
+        }
+
+        .sortable-list li {
+            padding: 0.6rem 1rem;
+            margin: 0.25rem 0;
+            background: #e8eaed;
+            border-radius: 6px;
+            cursor: grab;
+            font-size: 0.9rem;
+            transition: background 0.2s;
+        }
+
+        .sortable-list li:active { cursor: grabbing; background: #d2e3fc; }
+        .sortable-list li.drag-over-item { border-top: 2px solid var(--primary); }
+
+        /* Double click area */
+        .dblclick-box {
+            width: 150px;
+            height: 60px;
+            background: #e8eaed;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            transition: all 0.3s;
+            user-select: none;
+        }
+
+        .dblclick-box.activated {
+            background: var(--success);
+            color: white;
+        }
+
+        /* Alert/Confirm/Prompt interception */
+        .dialog-btn {
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Slider */
+        input[type="range"] {
+            width: 200px;
+            accent-color: var(--primary);
+        }
+
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+
+        /* Nested frames */
+        .nested-container {
+            position: relative;
+        }
+
+        /* Stale element */
+        .stale-element-area {
+            min-height: 40px;
+        }
+
+        /* Loading spinner */
+        .spinner {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border: 2px solid var(--border);
+            border-top-color: var(--primary);
+            border-radius: 50%;
+            animation: spin 0.6s linear infinite;
+            vertical-align: middle;
+            margin-right: 0.5rem;
+        }
+
+        @keyframes spin { to { transform: rotate(360deg); } }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>SDET Automation Challenge</h1>
+        <p>Test your automation skills across 20 challenges. Each page load generates new values.</p>
+        <div class="score-bar" id="score-display">Score: 0 / 20</div>
+    </div>
+
+    <div class="container" id="challenges">
+
+        <!-- Challenge 1: Dropdown Selection -->
+        <div class="challenge-card" id="challenge-1" data-challenge="1">
+            <h2>Challenge 1: Dropdown Selection <span class="badge">Easy</span></h2>
+            <p class="description">Select the correct capital city for the country shown below.</p>
+            <p><strong>Country:</strong> <span id="c1-country"></span></p>
+            <div class="inline-group" style="margin-top:0.75rem;">
+                <select id="c1-select" data-testid="capital-select">
+                    <option value="">-- Select Capital --</option>
+                </select>
+                <button class="submit-btn" onclick="checkChallenge1()">Submit</button>
+            </div>
+            <div class="result-message" id="c1-result"></div>
+        </div>
+
+        <!-- Challenge 2: Text Input -->
+        <div class="challenge-card" id="challenge-2" data-challenge="2">
+            <h2>Challenge 2: Text Input Verification <span class="badge">Easy</span></h2>
+            <p class="description">Type the exact reversed text shown below into the input field.</p>
+            <p><strong>Original text:</strong> <code id="c2-original"></code></p>
+            <div class="inline-group" style="margin-top:0.75rem;">
+                <input type="text" id="c2-input" data-testid="reverse-input" placeholder="Type reversed text here..." autocomplete="off" />
+                <button class="submit-btn" onclick="checkChallenge2()">Submit</button>
+            </div>
+            <div class="result-message" id="c2-result"></div>
+        </div>
+
+        <!-- Challenge 3: CSS Color Detection -->
+        <div class="challenge-card" id="challenge-3" data-challenge="3">
+            <h2>Challenge 3: CSS Color Detection <span class="badge">Medium</span></h2>
+            <p class="description">Identify the background color of the element below by inspecting its CSS class.</p>
+            <div style="margin:0.75rem 0;">
+                <span id="c3-color-box" class="color-sample"></span>
+                <span id="c3-class-hint" style="font-size:0.85rem;color:var(--text-secondary);"></span>
+            </div>
+            <div class="inline-group">
+                <input type="text" id="c3-input" data-testid="color-input" placeholder="Enter the color name..." autocomplete="off" />
+                <button class="submit-btn" onclick="checkChallenge3()">Submit</button>
+            </div>
+            <p class="hint">Hint: The answer is the CSS color name used in the background-color property (e.g., "crimson", "navy").</p>
+            <div class="result-message" id="c3-result"></div>
+        </div>
+
+        <!-- Challenge 4: Drag and Drop -->
+        <div class="challenge-card" id="challenge-4" data-challenge="4">
+            <h2>Challenge 4: Drag and Drop <span class="badge">Medium</span></h2>
+            <p class="description">Drag each colored item to its matching drop zone.</p>
+            <div class="drag-container" style="margin-top:0.75rem;">
+                <div>
+                    <div class="draggable-item" id="drag-red" draggable="true" data-color="red" style="background:#ea4335;">Red</div>
+                    <div class="draggable-item" id="drag-blue" draggable="true" data-color="blue" style="background:#1a73e8;margin-top:0.5rem;">Blue</div>
+                    <div class="draggable-item" id="drag-green" draggable="true" data-color="green" style="background:#34a853;margin-top:0.5rem;">Green</div>
+                </div>
+                <div style="display:flex;gap:1rem;">
+                    <div class="drop-zone" id="drop-red" data-accept="red">Drop<br>Red</div>
+                    <div class="drop-zone" id="drop-blue" data-accept="blue">Drop<br>Blue</div>
+                    <div class="drop-zone" id="drop-green" data-accept="green">Drop<br>Green</div>
+                </div>
+            </div>
+            <div style="margin-top:0.75rem;">
+                <button class="submit-btn" onclick="checkChallenge4()">Verify</button>
+            </div>
+            <div class="result-message" id="c4-result"></div>
+        </div>
+
+        <!-- Challenge 5: Dynamic Calculation -->
+        <div class="challenge-card" id="challenge-5" data-challenge="5">
+            <h2>Challenge 5: Dynamic Calculation <span class="badge">Medium</span></h2>
+            <p class="description">Calculate the sum of all numbers displayed below. Numbers regenerate on each page load.</p>
+            <div id="c5-numbers" style="margin:0.75rem 0; display:flex; gap:0.5rem; flex-wrap:wrap;"></div>
+            <div class="inline-group">
+                <input type="number" id="c5-input" data-testid="sum-input" placeholder="Enter the sum..." />
+                <button class="submit-btn" onclick="checkChallenge5()">Submit</button>
+            </div>
+            <div class="result-message" id="c5-result"></div>
+        </div>
+
+        <!-- Challenge 6: Shadow DOM -->
+        <div class="challenge-card" id="challenge-6" data-challenge="6">
+            <h2>Challenge 6: Shadow DOM Interaction <span class="badge">Hard</span></h2>
+            <p class="description">Find the secret code hidden inside a Shadow DOM element and enter it below.</p>
+            <div id="shadow-host"></div>
+            <div class="inline-group" style="margin-top:0.75rem;">
+                <input type="text" id="c6-input" data-testid="shadow-input" placeholder="Enter the secret code..." autocomplete="off" />
+                <button class="submit-btn" onclick="checkChallenge6()">Submit</button>
+            </div>
+            <div class="result-message" id="c6-result"></div>
+        </div>
+
+        <!-- Challenge 7: Hidden Element -->
+        <div class="challenge-card" id="challenge-7" data-challenge="7">
+            <h2>Challenge 7: Hidden Element Discovery <span class="badge">Hard</span></h2>
+            <p class="description">There is a hidden element on this card containing a secret token. Find it and enter the token below.</p>
+            <div style="position:relative;min-height:20px;">
+                <span class="secret-element" id="c7-hidden" data-testid="hidden-token" aria-hidden="true"></span>
+            </div>
+            <div class="inline-group" style="margin-top:0.75rem;">
+                <input type="text" id="c7-input" data-testid="hidden-input" placeholder="Enter the hidden token..." autocomplete="off" />
+                <button class="submit-btn" onclick="checkChallenge7()">Submit</button>
+            </div>
+            <div class="result-message" id="c7-result"></div>
+        </div>
+
+        <!-- Challenge 8: Delayed Element -->
+        <div class="challenge-card" id="challenge-8" data-challenge="8">
+            <h2>Challenge 8: Wait for Element <span class="badge">Medium</span></h2>
+            <p class="description">A verification code will appear after a random delay (2-7 seconds). Wait for it and enter it below.</p>
+            <div style="margin:0.75rem 0;">
+                <span id="c8-loading"><span class="spinner"></span>Loading verification code...</span>
+                <span id="delayed-element" data-testid="delayed-code" style="font-weight:600;font-size:1.1rem;color:var(--primary);"></span>
+            </div>
+            <div class="inline-group">
+                <input type="text" id="c8-input" data-testid="delayed-input" placeholder="Enter the code..." autocomplete="off" />
+                <button class="submit-btn" onclick="checkChallenge8()">Submit</button>
+            </div>
+            <div class="result-message" id="c8-result"></div>
+        </div>
+
+        <!-- Challenge 9: Hover to Reveal -->
+        <div class="challenge-card" id="challenge-9" data-challenge="9">
+            <h2>Challenge 9: Hover to Reveal <span class="badge">Medium</span></h2>
+            <p class="description">Hover over the button below to reveal a secret word, then enter it.</p>
+            <div class="hover-container" style="margin:0.75rem 0;">
+                <div class="hover-trigger" id="c9-hover-trigger" data-testid="hover-trigger">Hover over me</div>
+                <div class="hover-content" id="c9-hover-content">
+                    <strong>Secret word:</strong> <span id="c9-secret" data-testid="hover-secret"></span>
+                </div>
+            </div>
+            <div class="inline-group">
+                <input type="text" id="c9-input" data-testid="hover-input" placeholder="Enter the secret word..." autocomplete="off" />
+                <button class="submit-btn" onclick="checkChallenge9()">Submit</button>
+            </div>
+            <div class="result-message" id="c9-result"></div>
+        </div>
+
+        <!-- Challenge 10: Dynamic Table -->
+        <div class="challenge-card" id="challenge-10" data-challenge="10">
+            <h2>Challenge 10: Table Data Extraction <span class="badge">Medium</span></h2>
+            <p class="description">Find the email address of the person with the highest score in the table below.</p>
+            <table class="data-table" id="c10-table" data-testid="score-table">
+                <thead>
+                    <tr><th>Name</th><th>Email</th><th>Score</th><th>Department</th></tr>
+                </thead>
+                <tbody id="c10-tbody"></tbody>
+            </table>
+            <div class="inline-group">
+                <input type="text" id="c10-input" data-testid="table-input" placeholder="Enter the email..." autocomplete="off" />
+                <button class="submit-btn" onclick="checkChallenge10()">Submit</button>
+            </div>
+            <div class="result-message" id="c10-result"></div>
+        </div>
+
+        <!-- Challenge 11: iFrame Interaction -->
+        <div class="challenge-card" id="challenge-11" data-challenge="11">
+            <h2>Challenge 11: iFrame Interaction <span class="badge">Hard</span></h2>
+            <p class="description">Read the value inside the iframe below and enter it.</p>
+            <iframe id="c11-iframe" data-testid="challenge-iframe" class="challenge-iframe" srcdoc="" sandbox="allow-same-origin"></iframe>
+            <div class="inline-group" style="margin-top:0.75rem;">
+                <input type="text" id="c11-input" data-testid="iframe-input" placeholder="Enter the iframe value..." autocomplete="off" />
+                <button class="submit-btn" onclick="checkChallenge11()">Submit</button>
+            </div>
+            <div class="result-message" id="c11-result"></div>
+        </div>
+
+        <!-- Challenge 12: Enable and Click -->
+        <div class="challenge-card" id="challenge-12" data-challenge="12">
+            <h2>Challenge 12: Enable and Click <span class="badge">Easy</span></h2>
+            <p class="description">The submit button is disabled. Enable it using the toggle, then click it.</p>
+            <div class="toggle-area" style="margin:0.75rem 0;">
+                <label class="toggle-switch">
+                    <input type="checkbox" id="c12-toggle" data-testid="enable-toggle" onchange="toggleC12()">
+                    <span class="toggle-slider"></span>
+                </label>
+                <span id="c12-toggle-label">Toggle to enable</span>
+            </div>
+            <button class="submit-btn" id="c12-btn" data-testid="enabled-submit" disabled onclick="checkChallenge12()">Submit (Disabled)</button>
+            <div class="result-message" id="c12-result"></div>
+        </div>
+
+        <!-- Challenge 13: Dynamic IDs -->
+        <div class="challenge-card" id="challenge-13" data-challenge="13">
+            <h2>Challenge 13: Dynamic Attribute Selector <span class="badge">Hard</span></h2>
+            <p class="description">Find and click the element below that has the <code>data-target="true"</code> attribute. Its ID changes on every page load.</p>
+            <div class="dynamic-id-items" id="c13-items" style="margin:0.75rem 0;"></div>
+            <div class="result-message" id="c13-result"></div>
+            <p class="hint">Hint: Use attribute selectors like <code>[data-target="true"]</code></p>
+        </div>
+
+        <!-- Challenge 14: Multi-Select Checkboxes -->
+        <div class="challenge-card" id="challenge-14" data-challenge="14">
+            <h2>Challenge 14: Multi-Select Checkboxes <span class="badge">Medium</span></h2>
+            <p class="description">Select ONLY the programming languages from the list below, then submit.</p>
+            <div class="checkbox-grid" id="c14-checkboxes"></div>
+            <button class="submit-btn" onclick="checkChallenge14()">Submit</button>
+            <div class="result-message" id="c14-result"></div>
+        </div>
+
+        <!-- Challenge 15: Right-Click Context Menu -->
+        <div class="challenge-card" id="challenge-15" data-challenge="15">
+            <h2>Challenge 15: Custom Context Menu <span class="badge">Hard</span></h2>
+            <p class="description">Right-click the area below to open a custom context menu, then click "Reveal Code".</p>
+            <div class="context-area" id="c15-area" data-testid="context-area">Right-click here</div>
+            <div class="custom-context-menu" id="c15-menu">
+                <div onclick="c15MenuAction('copy')">Copy Text</div>
+                <div onclick="c15MenuAction('reveal')" data-testid="reveal-code">Reveal Code</div>
+                <div onclick="c15MenuAction('delete')">Delete Item</div>
+                <div onclick="c15MenuAction('close')">Close Menu</div>
+            </div>
+            <div class="inline-group" style="margin-top:0.75rem;">
+                <input type="text" id="c15-input" data-testid="context-input" placeholder="Enter revealed code..." autocomplete="off" />
+                <button class="submit-btn" onclick="checkChallenge15()">Submit</button>
+            </div>
+            <div class="result-message" id="c15-result"></div>
+        </div>
+
+        <!-- Challenge 16: Double Click -->
+        <div class="challenge-card" id="challenge-16" data-challenge="16">
+            <h2>Challenge 16: Double Click Activation <span class="badge">Easy</span></h2>
+            <p class="description">Double-click the box below to activate it and reveal a code.</p>
+            <div class="dblclick-box" id="c16-box" data-testid="dblclick-box">Double-click me</div>
+            <div class="inline-group" style="margin-top:0.75rem;">
+                <input type="text" id="c16-input" data-testid="dblclick-input" placeholder="Enter the revealed code..." autocomplete="off" />
+                <button class="submit-btn" onclick="checkChallenge16()">Submit</button>
+            </div>
+            <div class="result-message" id="c16-result"></div>
+        </div>
+
+        <!-- Challenge 17: Slider Value -->
+        <div class="challenge-card" id="challenge-17" data-challenge="17">
+            <h2>Challenge 17: Slider Precision <span class="badge">Medium</span></h2>
+            <p class="description">Set the slider to the exact target value shown below.</p>
+            <p><strong>Target value:</strong> <span id="c17-target" data-testid="slider-target"></span></p>
+            <div class="inline-group" style="margin:0.75rem 0;">
+                <input type="range" id="c17-slider" data-testid="precision-slider" min="0" max="100" value="50" oninput="document.getElementById('c17-value').textContent=this.value">
+                <span id="c17-value">50</span>
+            </div>
+            <button class="submit-btn" onclick="checkChallenge17()">Submit</button>
+            <div class="result-message" id="c17-result"></div>
+        </div>
+
+        <!-- Challenge 18: Alert/Confirm/Prompt Handling -->
+        <div class="challenge-card" id="challenge-18" data-challenge="18">
+            <h2>Challenge 18: JavaScript Dialog Handling <span class="badge">Hard</span></h2>
+            <p class="description">Click the button below. It will trigger a sequence: an alert, then a confirm dialog, then a prompt. Handle all three correctly. Accept the confirm, and enter the code "<span id="c18-prompt-code"></span>" in the prompt.</p>
+            <button class="submit-btn dialog-btn" id="c18-trigger" data-testid="dialog-trigger" onclick="triggerC18()">Start Dialog Sequence</button>
+            <div class="result-message" id="c18-result"></div>
+        </div>
+
+        <!-- Challenge 19: Stale Element -->
+        <div class="challenge-card" id="challenge-19" data-challenge="19">
+            <h2>Challenge 19: Stale Element Reference <span class="badge">Hard</span></h2>
+            <p class="description">The element below will be replaced with a new one every 3 seconds. Read the current value and submit it. Be careful of stale element references!</p>
+            <div class="stale-element-area" style="margin:0.75rem 0;">
+                <span id="c19-element" data-testid="stale-element" style="font-weight:600;font-size:1.1rem;color:var(--primary);"></span>
+                <span id="c19-timer" style="font-size:0.8rem;color:var(--text-secondary);margin-left:0.5rem;"></span>
+            </div>
+            <div class="inline-group">
+                <input type="text" id="c19-input" data-testid="stale-input" placeholder="Enter current value..." autocomplete="off" />
+                <button class="submit-btn" onclick="checkChallenge19()">Submit</button>
+            </div>
+            <p class="hint">Hint: The value changes every 3 seconds. Read it right before submitting.</p>
+            <div class="result-message" id="c19-result"></div>
+        </div>
+
+        <!-- Challenge 20: Sortable List -->
+        <div class="challenge-card" id="challenge-20" data-challenge="20">
+            <h2>Challenge 20: Sort the List <span class="badge">Hard</span></h2>
+            <p class="description">Drag and drop the items below to sort them in ascending numerical order (smallest first).</p>
+            <ul class="sortable-list" id="c20-list" data-testid="sortable-list"></ul>
+            <button class="submit-btn" style="margin-top:0.75rem;" onclick="checkChallenge20()">Verify Order</button>
+            <div class="result-message" id="c20-result"></div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>SDET Automation Challenge &mdash; All values are dynamically generated on each page load.</p>
+        <p>Session ID: <code id="session-id"></code></p>
+    </div>
+
+    <script>
+        // ========================
+        // Utility Functions
+        // ========================
+        function randomInt(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        function randomString(length) {
+            const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+            return Array.from({ length }, () => chars[randomInt(0, chars.length - 1)]).join('');
+        }
+
+        function shuffleArray(arr) {
+            const a = [...arr];
+            for (let i = a.length - 1; i > 0; i--) {
+                const j = randomInt(0, i);
+                [a[i], a[j]] = [a[j], a[i]];
+            }
+            return a;
+        }
+
+        function setResult(id, success, message) {
+            const el = document.getElementById(id);
+            el.className = 'result-message ' + (success ? 'success' : 'error');
+            el.textContent = message;
+            el.style.display = 'block';
+            if (success) {
+                const card = el.closest('.challenge-card');
+                card.classList.add('solved');
+                card.classList.remove('failed');
+            } else {
+                const card = el.closest('.challenge-card');
+                card.classList.add('failed');
+                card.classList.remove('solved');
+            }
+            updateScore();
+        }
+
+        let solvedChallenges = new Set();
+
+        function updateScore() {
+            const solved = document.querySelectorAll('.challenge-card.solved').length;
+            document.getElementById('score-display').textContent = `Score: ${solved} / 20`;
+        }
+
+        // ========================
+        // Session ID
+        // ========================
+        const sessionId = randomString(12);
+        document.getElementById('session-id').textContent = sessionId;
+
+        // ========================
+        // Challenge 1: Dropdown
+        // ========================
+        const capitals = {
+            'France': ['Paris', 'Lyon', 'Marseille', 'Toulouse'],
+            'Japan': ['Tokyo', 'Osaka', 'Kyoto', 'Nagoya'],
+            'Brazil': ['Brasilia', 'Sao Paulo', 'Rio de Janeiro', 'Salvador'],
+            'Australia': ['Canberra', 'Sydney', 'Melbourne', 'Brisbane'],
+            'Canada': ['Ottawa', 'Toronto', 'Vancouver', 'Montreal'],
+            'Egypt': ['Cairo', 'Alexandria', 'Giza', 'Luxor'],
+            'Germany': ['Berlin', 'Munich', 'Hamburg', 'Frankfurt'],
+            'India': ['New Delhi', 'Mumbai', 'Bangalore', 'Chennai'],
+            'South Korea': ['Seoul', 'Busan', 'Incheon', 'Daegu'],
+            'Turkey': ['Ankara', 'Istanbul', 'Izmir', 'Antalya']
+        };
+        const c1Countries = Object.keys(capitals);
+        const c1Country = c1Countries[randomInt(0, c1Countries.length - 1)];
+        const c1Answer = capitals[c1Country][0];
+        document.getElementById('c1-country').textContent = c1Country;
+        const c1Options = shuffleArray(capitals[c1Country]);
+        const c1Select = document.getElementById('c1-select');
+        c1Options.forEach(opt => {
+            const o = document.createElement('option');
+            o.value = opt; o.textContent = opt;
+            c1Select.appendChild(o);
+        });
+
+        function checkChallenge1() {
+            const val = document.getElementById('c1-select').value;
+            if (val === c1Answer) {
+                setResult('c1-result', true, 'Correct! ' + c1Answer + ' is the capital of ' + c1Country + '.');
+            } else {
+                setResult('c1-result', false, 'Incorrect. Try again.');
+            }
+        }
+
+        // ========================
+        // Challenge 2: Text Reversal
+        // ========================
+        const phrases = ['automation', 'selenium', 'playwright', 'cypress', 'testing', 'framework', 'integration', 'regression', 'validation', 'debugging'];
+        const c2Phrase = phrases[randomInt(0, phrases.length - 1)] + randomInt(100, 999);
+        const c2Answer = c2Phrase.split('').reverse().join('');
+        document.getElementById('c2-original').textContent = c2Phrase;
+
+        function checkChallenge2() {
+            const val = document.getElementById('c2-input').value.trim();
+            if (val === c2Answer) {
+                setResult('c2-result', true, 'Correct! The reversed text is "' + c2Answer + '".');
+            } else {
+                setResult('c2-result', false, 'Incorrect. Make sure you reverse every character exactly.');
+            }
+        }
+
+        // ========================
+        // Challenge 3: CSS Color
+        // ========================
+        const bgColors = [
+            { cls: 'bg-crimson', name: 'crimson' },
+            { cls: 'bg-navy', name: 'navy' },
+            { cls: 'bg-forest', name: 'forestgreen' },
+            { cls: 'bg-gold', name: 'gold' },
+            { cls: 'bg-coral', name: 'coral' },
+            { cls: 'bg-slate', name: 'slategray' }
+        ];
+        const c3Color = bgColors[randomInt(0, bgColors.length - 1)];
+        const c3Box = document.getElementById('c3-color-box');
+        c3Box.classList.add(c3Color.cls);
+        document.getElementById('c3-class-hint').textContent = 'CSS class: ' + c3Color.cls;
+
+        function checkChallenge3() {
+            const val = document.getElementById('c3-input').value.trim().toLowerCase();
+            if (val === c3Color.name) {
+                setResult('c3-result', true, 'Correct! The color is ' + c3Color.name + '.');
+            } else {
+                setResult('c3-result', false, 'Incorrect. Inspect the CSS class to find the exact color name.');
+            }
+        }
+
+        // ========================
+        // Challenge 4: Drag & Drop
+        // ========================
+        const dragState = { red: false, blue: false, green: false };
+
+        document.querySelectorAll('.draggable-item').forEach(item => {
+            item.addEventListener('dragstart', e => {
+                e.dataTransfer.setData('text/plain', item.dataset.color);
+            });
+        });
+
+        document.querySelectorAll('.drop-zone').forEach(zone => {
+            zone.addEventListener('dragover', e => {
+                e.preventDefault();
+                zone.classList.add('drag-over');
+            });
+            zone.addEventListener('dragleave', () => {
+                zone.classList.remove('drag-over');
+            });
+            zone.addEventListener('drop', e => {
+                e.preventDefault();
+                zone.classList.remove('drag-over');
+                const color = e.dataTransfer.getData('text/plain');
+                if (color === zone.dataset.accept) {
+                    zone.classList.add('filled');
+                    zone.textContent = color.charAt(0).toUpperCase() + color.slice(1) + ' ✓';
+                    dragState[color] = true;
+                    const dragEl = document.getElementById('drag-' + color);
+                    dragEl.style.opacity = '0.4';
+                    dragEl.draggable = false;
+                }
+            });
+        });
+
+        function checkChallenge4() {
+            if (dragState.red && dragState.blue && dragState.green) {
+                setResult('c4-result', true, 'All items correctly placed!');
+            } else {
+                const missing = Object.entries(dragState).filter(([, v]) => !v).map(([k]) => k);
+                setResult('c4-result', false, 'Missing: ' + missing.join(', ') + '. Drag each item to its matching zone.');
+            }
+        }
+
+        // ========================
+        // Challenge 5: Dynamic Calculation
+        // ========================
+        const c5Count = randomInt(5, 9);
+        const c5Numbers = Array.from({ length: c5Count }, () => randomInt(1, 99));
+        const c5Answer = c5Numbers.reduce((a, b) => a + b, 0);
+        const c5Container = document.getElementById('c5-numbers');
+        c5Numbers.forEach((n, i) => {
+            const span = document.createElement('span');
+            span.style.cssText = 'background:#e8eaed;padding:0.4rem 0.8rem;border-radius:16px;font-weight:600;font-size:1rem;';
+            span.textContent = n;
+            span.dataset.testid = 'number-' + i;
+            c5Container.appendChild(span);
+        });
+
+        function checkChallenge5() {
+            const val = parseInt(document.getElementById('c5-input').value, 10);
+            if (val === c5Answer) {
+                setResult('c5-result', true, 'Correct! The sum is ' + c5Answer + '.');
+            } else {
+                setResult('c5-result', false, 'Incorrect. Add all ' + c5Count + ' numbers together.');
+            }
+        }
+
+        // ========================
+        // Challenge 6: Shadow DOM
+        // ========================
+        const c6Code = 'SHADOW-' + randomString(6);
+        const shadowHost = document.getElementById('shadow-host');
+        const shadowRoot = shadowHost.attachShadow({ mode: 'open' });
+        shadowRoot.innerHTML = `
+            <style>
+                .shadow-inner { padding: 0.75rem; background: #f1f3f4; border-radius: 8px; font-size: 0.9rem; }
+                .shadow-code { font-weight: 600; color: #1a73e8; }
+            </style>
+            <div class="shadow-inner">
+                <p>This content is inside a Shadow DOM.</p>
+                <p>Secret code: <span class="shadow-code" id="shadow-secret">${c6Code}</span></p>
+            </div>
+        `;
+
+        function checkChallenge6() {
+            const val = document.getElementById('c6-input').value.trim();
+            if (val === c6Code) {
+                setResult('c6-result', true, 'Correct! You found the Shadow DOM secret.');
+            } else {
+                setResult('c6-result', false, 'Incorrect. Look inside the Shadow DOM for the secret code.');
+            }
+        }
+
+        // ========================
+        // Challenge 7: Hidden Element
+        // ========================
+        const c7Token = 'TOKEN-' + randomString(8);
+        document.getElementById('c7-hidden').textContent = c7Token;
+
+        function checkChallenge7() {
+            const val = document.getElementById('c7-input').value.trim();
+            if (val === c7Token) {
+                setResult('c7-result', true, 'Correct! You found the hidden token.');
+            } else {
+                setResult('c7-result', false, 'Incorrect. The element is hidden but present in the DOM.');
+            }
+        }
+
+        // ========================
+        // Challenge 8: Delayed Element
+        // ========================
+        const c8Code = 'WAIT-' + randomInt(1000, 9999);
+        const c8Delay = randomInt(2000, 7000);
+        setTimeout(() => {
+            document.getElementById('c8-loading').style.display = 'none';
+            const el = document.getElementById('delayed-element');
+            el.textContent = c8Code;
+            el.style.display = 'inline-block';
+        }, c8Delay);
+
+        function checkChallenge8() {
+            const val = document.getElementById('c8-input').value.trim();
+            if (val === c8Code) {
+                setResult('c8-result', true, 'Correct! You waited for the element successfully.');
+            } else {
+                setResult('c8-result', false, 'Incorrect. Wait for the code to appear, then read it.');
+            }
+        }
+
+        // ========================
+        // Challenge 9: Hover
+        // ========================
+        const secretWords = ['Chrysanthemum', 'Labyrinth', 'Ephemeral', 'Serendipity', 'Quixotic', 'Obfuscate', 'Paradox', 'Zenith'];
+        const c9Word = secretWords[randomInt(0, secretWords.length - 1)];
+        document.getElementById('c9-secret').textContent = c9Word;
+
+        function checkChallenge9() {
+            const val = document.getElementById('c9-input').value.trim();
+            if (val.toLowerCase() === c9Word.toLowerCase()) {
+                setResult('c9-result', true, 'Correct! The secret word is "' + c9Word + '".');
+            } else {
+                setResult('c9-result', false, 'Incorrect. Hover over the trigger to reveal the word.');
+            }
+        }
+
+        // ========================
+        // Challenge 10: Dynamic Table
+        // ========================
+        const firstNames = ['Alice', 'Bob', 'Charlie', 'Diana', 'Eve', 'Frank', 'Grace', 'Hank', 'Ivy', 'Jack'];
+        const lastNames = ['Smith', 'Johnson', 'Brown', 'Davis', 'Wilson', 'Moore', 'Taylor', 'White', 'Clark', 'Hall'];
+        const departments = ['Engineering', 'Marketing', 'Sales', 'Design', 'Support', 'Finance', 'HR', 'Operations'];
+        const c10Rows = [];
+        const usedEmails = new Set();
+        for (let i = 0; i < randomInt(6, 10); i++) {
+            const fn = firstNames[randomInt(0, firstNames.length - 1)];
+            const ln = lastNames[randomInt(0, lastNames.length - 1)];
+            let email = fn.toLowerCase() + '.' + ln.toLowerCase() + randomInt(1, 99) + '@example.com';
+            while (usedEmails.has(email)) {
+                email = fn.toLowerCase() + '.' + ln.toLowerCase() + randomInt(1, 99) + '@example.com';
+            }
+            usedEmails.add(email);
+            c10Rows.push({
+                name: fn + ' ' + ln,
+                email: email,
+                score: randomInt(50, 100) + i,
+                dept: departments[randomInt(0, departments.length - 1)]
+            });
+        }
+        const c10TopEmail = c10Rows.reduce((max, r) => r.score > max.score ? r : max).email;
+        const c10Tbody = document.getElementById('c10-tbody');
+        c10Rows.forEach(row => {
+            const tr = document.createElement('tr');
+            [row.name, row.email, row.score, row.dept].forEach(val => {
+                const td = document.createElement('td');
+                td.textContent = val;
+                tr.appendChild(td);
+            });
+            c10Tbody.appendChild(tr);
+        });
+
+        function checkChallenge10() {
+            const val = document.getElementById('c10-input').value.trim().toLowerCase();
+            if (val === c10TopEmail.toLowerCase()) {
+                setResult('c10-result', true, 'Correct! The top scorer\'s email is ' + c10TopEmail + '.');
+            } else {
+                setResult('c10-result', false, 'Incorrect. Find the person with the highest score and enter their email.');
+            }
+        }
+
+        // ========================
+        // Challenge 11: iFrame
+        // ========================
+        const c11Value = 'IFRAME-' + randomString(6);
+        const c11Iframe = document.getElementById('c11-iframe');
+        c11Iframe.srcdoc = `
+            <!DOCTYPE html>
+            <html>
+            <body style="font-family:system-ui;display:flex;align-items:center;justify-content:center;height:100vh;margin:0;background:#f1f3f4;">
+                <div>
+                    <span style="color:#5f6368;">Iframe value: </span>
+                    <strong id="iframe-value" data-testid="iframe-value" style="color:#1a73e8;">${c11Value}</strong>
+                </div>
+            </body>
+            </html>
+        `;
+
+        function checkChallenge11() {
+            const val = document.getElementById('c11-input').value.trim();
+            if (val === c11Value) {
+                setResult('c11-result', true, 'Correct! You read the iframe value successfully.');
+            } else {
+                setResult('c11-result', false, 'Incorrect. Switch to the iframe context to read the value.');
+            }
+        }
+
+        // ========================
+        // Challenge 12: Toggle + Button
+        // ========================
+        function toggleC12() {
+            const checked = document.getElementById('c12-toggle').checked;
+            const btn = document.getElementById('c12-btn');
+            btn.disabled = !checked;
+            btn.textContent = checked ? 'Submit (Enabled)' : 'Submit (Disabled)';
+            document.getElementById('c12-toggle-label').textContent = checked ? 'Enabled' : 'Toggle to enable';
+        }
+
+        function checkChallenge12() {
+            setResult('c12-result', true, 'You enabled the toggle and clicked the button!');
+        }
+
+        // ========================
+        // Challenge 13: Dynamic IDs
+        // ========================
+        const c13Count = randomInt(5, 8);
+        const c13TargetIndex = randomInt(0, c13Count - 1);
+        const c13Container = document.getElementById('c13-items');
+        for (let i = 0; i < c13Count; i++) {
+            const span = document.createElement('span');
+            span.id = 'item-' + randomString(8);
+            span.textContent = 'Item ' + (i + 1);
+            span.style.cursor = 'pointer';
+            if (i === c13TargetIndex) {
+                span.dataset.target = 'true';
+                span.dataset.testid = 'dynamic-target';
+            } else {
+                span.dataset.target = 'false';
+            }
+            span.onclick = function() {
+                if (this.dataset.target === 'true') {
+                    setResult('c13-result', true, 'Correct! You found the target element.');
+                } else {
+                    setResult('c13-result', false, 'Wrong element. Look for data-target="true".');
+                }
+            };
+            c13Container.appendChild(span);
+        }
+
+        // ========================
+        // Challenge 14: Multi-Select
+        // ========================
+        const programmingLangs = ['Python', 'JavaScript', 'Rust', 'Go', 'TypeScript', 'Java'];
+        const nonLangs = ['Docker', 'Kubernetes', 'Linux', 'AWS', 'Figma', 'Jira', 'Slack', 'Notion'];
+        const c14PLangs = shuffleArray(programmingLangs).slice(0, randomInt(3, 5));
+        const c14NonLangs = shuffleArray(nonLangs).slice(0, randomInt(3, 5));
+        const c14AllItems = shuffleArray([...c14PLangs, ...c14NonLangs]);
+        const c14Container = document.getElementById('c14-checkboxes');
+        c14AllItems.forEach(item => {
+            const label = document.createElement('label');
+            const cb = document.createElement('input');
+            cb.type = 'checkbox';
+            cb.value = item;
+            cb.dataset.testid = 'checkbox-' + item.toLowerCase();
+            label.appendChild(cb);
+            label.appendChild(document.createTextNode(' ' + item));
+            c14Container.appendChild(label);
+        });
+
+        function checkChallenge14() {
+            const checked = [...document.querySelectorAll('#c14-checkboxes input:checked')].map(cb => cb.value);
+            const correct = checked.length === c14PLangs.length &&
+                checked.every(v => c14PLangs.includes(v)) &&
+                c14PLangs.every(v => checked.includes(v));
+            if (correct) {
+                setResult('c14-result', true, 'Correct! You selected all programming languages.');
+            } else {
+                setResult('c14-result', false, 'Incorrect. Select ONLY the programming languages.');
+            }
+        }
+
+        // ========================
+        // Challenge 15: Right-Click Context Menu
+        // ========================
+        const c15Code = 'CTX-' + randomInt(1000, 9999);
+        let c15Revealed = false;
+
+        document.getElementById('c15-area').addEventListener('contextmenu', e => {
+            e.preventDefault();
+            const menu = document.getElementById('c15-menu');
+            menu.style.display = 'block';
+            menu.style.left = e.clientX + 'px';
+            menu.style.top = e.clientY + 'px';
+        });
+
+        document.addEventListener('click', e => {
+            if (!e.target.closest('.custom-context-menu')) {
+                document.getElementById('c15-menu').style.display = 'none';
+            }
+        });
+
+        function c15MenuAction(action) {
+            document.getElementById('c15-menu').style.display = 'none';
+            if (action === 'reveal') {
+                c15Revealed = true;
+                document.getElementById('c15-area').textContent = 'Code: ' + c15Code;
+                document.getElementById('c15-area').style.fontWeight = '600';
+                document.getElementById('c15-area').style.color = 'var(--primary)';
+            }
+        }
+
+        function checkChallenge15() {
+            const val = document.getElementById('c15-input').value.trim();
+            if (val === c15Code && c15Revealed) {
+                setResult('c15-result', true, 'Correct! You mastered the context menu.');
+            } else if (!c15Revealed) {
+                setResult('c15-result', false, 'You need to right-click and "Reveal Code" first.');
+            } else {
+                setResult('c15-result', false, 'Incorrect code. Read the revealed code carefully.');
+            }
+        }
+
+        // ========================
+        // Challenge 16: Double Click
+        // ========================
+        const c16Code = 'DBL-' + randomInt(1000, 9999);
+
+        document.getElementById('c16-box').addEventListener('dblclick', function() {
+            this.classList.add('activated');
+            this.textContent = c16Code;
+        });
+
+        function checkChallenge16() {
+            const val = document.getElementById('c16-input').value.trim();
+            if (val === c16Code && document.getElementById('c16-box').classList.contains('activated')) {
+                setResult('c16-result', true, 'Correct! Double-click mastered.');
+            } else if (!document.getElementById('c16-box').classList.contains('activated')) {
+                setResult('c16-result', false, 'Double-click the box first to reveal the code.');
+            } else {
+                setResult('c16-result', false, 'Incorrect code.');
+            }
+        }
+
+        // ========================
+        // Challenge 17: Slider
+        // ========================
+        const c17Target = randomInt(10, 90);
+        document.getElementById('c17-target').textContent = c17Target;
+
+        function checkChallenge17() {
+            const val = parseInt(document.getElementById('c17-slider').value, 10);
+            if (val === c17Target) {
+                setResult('c17-result', true, 'Correct! Slider set to ' + c17Target + '.');
+            } else {
+                setResult('c17-result', false, 'Slider is at ' + val + ', target is ' + c17Target + '.');
+            }
+        }
+
+        // ========================
+        // Challenge 18: Dialogs
+        // ========================
+        const c18PromptCode = 'DIALOG-' + randomInt(100, 999);
+        document.getElementById('c18-prompt-code').textContent = c18PromptCode;
+        let c18Completed = false;
+
+        function triggerC18() {
+            alert('Step 1: This is an alert. Click OK to continue.');
+            const confirmed = confirm('Step 2: Do you want to continue? Click OK.');
+            if (!confirmed) {
+                setResult('c18-result', false, 'You must accept the confirm dialog.');
+                return;
+            }
+            const input = prompt('Step 3: Enter the code shown in the challenge description:');
+            if (input && input.trim() === c18PromptCode) {
+                c18Completed = true;
+                setResult('c18-result', true, 'All dialogs handled correctly!');
+            } else {
+                setResult('c18-result', false, 'Incorrect prompt input. Enter the exact code: ' + c18PromptCode);
+            }
+        }
+
+        // ========================
+        // Challenge 19: Stale Element
+        // ========================
+        let c19Value = '';
+        let c19Interval;
+
+        function regenerateC19() {
+            c19Value = 'LIVE-' + randomString(5);
+            const container = document.querySelector('.stale-element-area');
+            const oldEl = document.getElementById('c19-element');
+            const newEl = document.createElement('span');
+            newEl.id = 'c19-element';
+            newEl.dataset.testid = 'stale-element';
+            newEl.style.cssText = 'font-weight:600;font-size:1.1rem;color:var(--primary);';
+            newEl.textContent = c19Value;
+            container.replaceChild(newEl, oldEl);
+        }
+
+        regenerateC19();
+        let c19Counter = 3;
+        c19Interval = setInterval(() => {
+            c19Counter--;
+            if (c19Counter <= 0) {
+                regenerateC19();
+                c19Counter = 3;
+            }
+            document.getElementById('c19-timer').textContent = '(changes in ' + c19Counter + 's)';
+        }, 1000);
+
+        function checkChallenge19() {
+            const val = document.getElementById('c19-input').value.trim();
+            if (val === c19Value) {
+                setResult('c19-result', true, 'Correct! You captured the live value.');
+                clearInterval(c19Interval);
+            } else {
+                setResult('c19-result', false, 'Incorrect. The value may have changed. Current value starts with "LIVE-".');
+            }
+        }
+
+        // ========================
+        // Challenge 20: Sortable List
+        // ========================
+        const c20Set = new Set();
+        while (c20Set.size < 6) c20Set.add(randomInt(1, 100));
+        const c20Numbers = shuffleArray([...c20Set]);
+        const c20List = document.getElementById('c20-list');
+        let c20DragItem = null;
+
+        c20Numbers.forEach(n => {
+            const li = document.createElement('li');
+            li.textContent = n;
+            li.draggable = true;
+            li.dataset.value = n;
+
+            li.addEventListener('dragstart', function(e) {
+                c20DragItem = this;
+                e.dataTransfer.effectAllowed = 'move';
+                setTimeout(() => this.style.opacity = '0.4', 0);
+            });
+
+            li.addEventListener('dragend', function() {
+                this.style.opacity = '1';
+                c20DragItem = null;
+                document.querySelectorAll('.sortable-list li').forEach(el => el.classList.remove('drag-over-item'));
+            });
+
+            li.addEventListener('dragover', function(e) {
+                e.preventDefault();
+                e.dataTransfer.dropEffect = 'move';
+                this.classList.add('drag-over-item');
+            });
+
+            li.addEventListener('dragleave', function() {
+                this.classList.remove('drag-over-item');
+            });
+
+            li.addEventListener('drop', function(e) {
+                e.preventDefault();
+                this.classList.remove('drag-over-item');
+                if (c20DragItem !== this) {
+                    const list = this.parentNode;
+                    const items = [...list.children];
+                    const fromIndex = items.indexOf(c20DragItem);
+                    const toIndex = items.indexOf(this);
+                    if (fromIndex < toIndex) {
+                        list.insertBefore(c20DragItem, this.nextSibling);
+                    } else {
+                        list.insertBefore(c20DragItem, this);
+                    }
+                }
+            });
+
+            c20List.appendChild(li);
+        });
+
+        function checkChallenge20() {
+            const items = [...document.querySelectorAll('#c20-list li')];
+            const values = items.map(li => parseInt(li.dataset.value, 10));
+            const sorted = [...values].sort((a, b) => a - b);
+            const isCorrect = values.every((v, i) => v === sorted[i]);
+            if (isCorrect) {
+                setResult('c20-result', true, 'Correct! List is sorted in ascending order.');
+            } else {
+                setResult('c20-result', false, 'Not in ascending order. Drag items to sort smallest → largest.');
+            }
+        }
+    </script>
+</body>
+</html>
