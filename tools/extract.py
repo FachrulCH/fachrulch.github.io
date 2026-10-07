@@ -249,6 +249,12 @@ def clean_body(entry):
         span.unwrap()
     for el in entry.find_all(style=re.compile(r"^\s*$")):
         del el["style"]
+    # Gallery thumbnails are links whose only content is an image without alt
+    # text; give the image its caption so the link has an accessible name.
+    for item in entry.select("figure.gallery__item"):
+        img, caption = item.find("img"), item.find("figcaption")
+        if img is not None and not img.get("alt") and caption is not None:
+            img["alt"] = caption.get_text(strip=True)
     return entry
 
 
