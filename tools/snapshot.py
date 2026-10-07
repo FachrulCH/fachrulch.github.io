@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
 """Snapshot the public URLs and SEO metadata of the site as it is served today.
 
-Run once against the last Publii export, before the generator replaced it:
+Reads the last Publii export from git (SOURCE_REV), so it can be re-run
+after the generator has replaced the HTML:
 
     python3 tools/snapshot.py
+
+GitHub Pages builds this repo with Jekyll, so the served URLs are the files
+minus anything Jekyll hides (paths with a part starting with "." or "_"),
+plus an .html rendering of every markdown file.
 
 Writes:
   tools/url-inventory.txt  every public URL, one per line: "<kind> <path>"
@@ -24,13 +29,25 @@ ROOT = Path(__file__).resolve().parent.parent
 # Old Publii theme files. The new templates no longer load them and nothing
 # outside the theme links to them; robots.txt already disallowed /assets.
 RETIRED_PREFIXES = ("assets/",)
-SKIP_NAMES = (".DS_Store",)
-SKIP_PREFIXES = ("tools/",)  # this tooling, added after the snapshot
+
+
+SOURCE_REV = "68da9a3"  # last commit served from the Publii export
+
+
+def git(*args):
+    return subprocess.run(["git", *args], cwd=ROOT, capture_output=True, text=True, check=True).stdout
 
 
 def tracked_files():
-    out = subprocess.run(["git", "ls-files"], cwd=ROOT, capture_output=True, text=True, check=True)
-    return [line for line in out.stdout.splitlines() if line]
+    return [line for line in git("ls-tree", "-r", "--name-only", SOURCE_REV).splitlines() if line]
+
+
+def read(path):
+    return git("show", f"{SOURCE_REV}:{path}")
+
+
+def hidden_by_jekyll(path):
+    return any(part.startswith((".", "_")) for part in path.split("/"))
 
 
 def url_for(path):
@@ -71,15 +88,15 @@ def page_meta(html):
     return meta
 
 
-def feed_urls(root):
+def feed_urls():
     """Item URLs of both feeds and the page URLs of the sitemap."""
     import re
     import xml.etree.ElementTree as ET
 
     atom = "{http://www.w3.org/2005/Atom}"
-    xml_feed = ET.parse(root / "feed.xml").getroot()
-    json_feed = json.loads((root / "feed.json").read_text(encoding="utf-8"))
-    sitemap = (root / "sitemap.xml").read_text(encoding="utf-8")
+    xml_feed = ET.fromstring(read("feed.xml").encode("utf-8"))
+    json_feed = json.loads(read("feed.json"))
+    sitemap = read("sitemap.xml")
     return {
         "feed.xml": [e.find(atom + "id").text for e in xml_feed.findall(atom + "entry")],
         "feed.json": [item["url"] for item in json_feed["items"]],
@@ -90,7 +107,7 @@ def feed_urls(root):
 def main():
     lines, retired, baseline = [], [], {}
     for path in sorted(tracked_files()):
-        if Path(path).name in SKIP_NAMES or path.startswith(SKIP_PREFIXES):
+        if hidden_by_jekyll(path):
             continue
         url = url_for(path)
         if path.startswith(RETIRED_PREFIXES):
@@ -98,14 +115,17 @@ def main():
             continue
         kind = kind_for(path)
         lines.append(f"{kind} {url}")
+        if path.endswith(".md"):
+            lines.append(f"jekyll {url[:-3]}.html")
         if kind == "page" and not path.startswith("sdet/"):
-            baseline[url] = page_meta((ROOT / path).read_text(encoding="utf-8"))
+            baseline[url] = page_meta(read(path))
 
-    baseline["__feeds__"] = feed_urls(ROOT)
+    baseline["__feeds__"] = feed_urls()
 
     header = [
         "# Public URLs of fachrul.id as exported by Publii (last publish 2024-02-09).",
-        "# Format: <kind> <url-path>. A path ending in / is served by <path>index.html.",
+        "# Format: <kind> <url-path>. A path ending in / is served by <path>index.html;",
+        "# kind 'jekyll' is rendered by GitHub Pages from the .md file of the same name.",
         "# tools/check_urls.py fails the build if any of these stops existing.",
         "# Retired (old Publii theme files, replaced by the new templates):",
     ] + [f"#   {url}" for url in retired]

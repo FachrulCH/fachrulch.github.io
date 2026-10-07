@@ -1,5 +1,6 @@
 # Public URLs of fachrul.id as exported by Publii (last publish 2024-02-09).
-# Format: <kind> <url-path>. A path ending in / is served by <path>index.html.
+# Format: <kind> <url-path>. A path ending in / is served by <path>index.html;
+# kind 'jekyll' is rendered by GitHub Pages from the .md file of the same name.
 # tools/check_urls.py fails the build if any of these stops existing.
 # Retired (old Publii theme files, replaced by the new templates):
 #   /assets/css/editor.css
@@ -1052,20 +1053,10 @@ page /retrospective-1-agustus-24-agustus-2019/
 file /robots.txt
 page /saya-software-quality-tester-baru-bagaimana-cara-saya-memulai/
 page /scrum-bagi-muslim/
-sdet /sdet/.omc/sessions/44f99713-e15d-4f78-9295-a42c3ac06ba4.json
-sdet /sdet/.omc/state/agent-replay-f8e3ada3-d4d2-4516-b2a5-83c96d81cd28.jsonl
-sdet /sdet/.omc/state/hud-stdin-cache.json
-sdet /sdet/.omc/state/last-tool-error.json
-sdet /sdet/.omc/state/mission-state.json
-sdet /sdet/.omc/state/sessions/44f99713-e15d-4f78-9295-a42c3ac06ba4/hud-state.json
-sdet /sdet/.omc/state/sessions/f8e3ada3-d4d2-4516-b2a5-83c96d81cd28/hud-state.json
-sdet /sdet/.omc/state/sessions/f8e3ada3-d4d2-4516-b2a5-83c96d81cd28/session-started.json
-sdet /sdet/.omc/state/subagent-tracking.json
 sdet /sdet/bug-hunt-answer-key.md
+jekyll /sdet/bug-hunt-answer-key.html
 page /sdet/bug-hunt-challenge.html
 page /sdet/sdet-challenge.html
-sdet /sdet/tests/__pycache__/conftest.cpython-312-pytest-9.0.2.pyc
-sdet /sdet/tests/__pycache__/test_sdet_challenge.cpython-312-pytest-9.0.2.pyc
 sdet /sdet/tests/conftest.py
 sdet /sdet/tests/pytest.ini
 sdet /sdet/tests/test_sdet_challenge.py

@@ -1,0 +1,60 @@
+# Site-wide settings read by tools/build.py.
+url = "https://fachrul.id"
+title = "Catatan celoteh @FachrulCH"
+heading = "{ Celoteh Alul }"
+tagline = "sebuah catatan dari pengalaman, kisah dan gagasannya Fachrul Choliluddin"
+description = "log of life a Software Quality Development Engineer in Test - QA, Agile Testing, Selenium, Appium, Ruby, Python, Cara Belajar"
+language = "id-ID"
+image = "/media/website/profile-newletter-3.png"
+favicon = "/media/website/favicon.ico"
+twitter = "@fachrulch"
+google_analytics = "G-3KW3Y8W8ET"
+facebook_comments_locale = "id_ID"
+copyright = "(c) 2019-2026 - @FachrulCH"
+
+# Page sizes are part of the public URLs (/page/7/, /celoteh/tutorials/page/4/):
+# lowering them is fine, raising them would make existing page URLs disappear.
+per_page_home = 7
+per_page_tag = 4
+per_page_author = 5
+feed_items = 10
+
+[author]
+slug = "fachrulch"
+name = "Fachrul Choliluddin"
+avatar = "/media/website/fachrulch-profile.jpg"
+website = "https://www.ngetest.id"
+meta_description = "fachrul choliluddin, penulis panduan menjadi software quality assurance berbahasa indonesia"
+bio = "Seorang Software Tester yang memiliki pengalaman lebih dari 10 tahun dalam peneliti kualitas perangkat lunak. Aktif berbagi pengetahuan dalam Software Quality Development Engineer in Test, Agile Testing, atau belajar membuat automation test dengan Selenium, Appium, API test dan bahasa pemrograman Python"
+
+[[nav]]
+label = "Daftar Isi"
+url = "/daftar-isi/"
+
+[[nav]]
+label = "Belajar QA"
+url = "/belajar-software-testing-qa-untuk-pemula-sampai-mahir/"
+
+[[nav]]
+label = "Tag"
+url = "/celoteh/"
+
+[[nav]]
+label = "Tentang"
+url = "/about-fachrulch/"
+
+[[social]]
+label = "Twitter"
+url = "https://twitter.com/fachrulch"
+
+[[social]]
+label = "Instagram"
+url = "https://instagram.com/fachrulch"
+
+[[social]]
+label = "LinkedIn"
+url = "https://www.linkedin.com/in/fachrul/"
+
+[[social]]
+label = "YouTube"
+url = "https://www.youtube.com/@ngetest"

@@ -1,0 +1,97 @@
+# Tags: the URL is /celoteh/<slug>/. Posts list tags by slug.
+# description is shown on the tag page; og_description goes to link previews.
+
+["1-1"]
+name = "1-1"
+description = ""
+og_description = "log of life a Software Quality Development Engineer in Test - QA, Agile Testing, Selenium, Appium, Ruby, Python, Cara Belajar"
+
+["meeting"]
+name = "meeting"
+description = ""
+og_description = "log of life a Software Quality Development Engineer in Test - QA, Agile Testing, Selenium, Appium, Ruby, Python, Cara Belajar"
+
+["nba"]
+name = "nba"
+description = ""
+og_description = "log of life a Software Quality Development Engineer in Test - QA, Agile Testing, Selenium, Appium, Ruby, Python, Cara Belajar"
+
+["one-on-one"]
+name = "one-on-one"
+description = ""
+og_description = "log of life a Software Quality Development Engineer in Test - QA, Agile Testing, Selenium, Appium, Ruby, Python, Cara Belajar"
+
+["1on1-meeting"]
+name = "1on1 meeting"
+description = ""
+og_description = "log of life a Software Quality Development Engineer in Test - QA, Agile Testing, Selenium, Appium, Ruby, Python, Cara Belajar"
+
+["agile"]
+name = "agile"
+description = ""
+og_description = "log of life a Software Quality Development Engineer in Test - QA, Agile Testing, Selenium, Appium, Ruby, Python, Cara Belajar"
+
+["automation-python"]
+name = "automation-python"
+description = ""
+og_description = "log of life a Software Quality Development Engineer in Test - QA, Agile Testing, Selenium, Appium, Ruby, Python, Cara Belajar"
+
+["belajar-qa"]
+name = "belajar-qa"
+description = ""
+og_description = "log of life a Software Quality Development Engineer in Test - QA, Agile Testing, Selenium, Appium, Ruby, Python, Cara Belajar"
+
+["dubai"]
+name = "Dubai"
+description = ""
+og_description = "log of life a Software Quality Development Engineer in Test - QA, Agile Testing, Selenium, Appium, Ruby, Python, Cara Belajar"
+
+["leadership"]
+name = "leadership"
+description = ""
+og_description = "log of life a Software Quality Development Engineer in Test - QA, Agile Testing, Selenium, Appium, Ruby, Python, Cara Belajar"
+
+["merdeqa"]
+name = "merdeQA"
+description = ""
+og_description = "log of life a Software Quality Development Engineer in Test - QA, Agile Testing, Selenium, Appium, Ruby, Python, Cara Belajar"
+
+["opinion"]
+name = "opinion"
+description = ""
+og_description = "log of life a Software Quality Development Engineer in Test - QA, Agile Testing, Selenium, Appium, Ruby, Python, Cara Belajar"
+
+["religi-on"]
+name = "Religi.ON"
+description = "Catatan tentang perjalanan spiritual untuk menuju jalan yang diridhoi Alloh SWT tuhan yang maha kuasa"
+og_description = "log of life a Software Quality Development Engineer in Test - QA, Agile Testing, Selenium, Appium, Ruby, Python, Cara Belajar"
+
+["retrospective"]
+name = "retrospective"
+description = ""
+og_description = "log of life a Software Quality Development Engineer in Test - QA, Agile Testing, Selenium, Appium, Ruby, Python, Cara Belajar"
+
+["teamwork"]
+name = "teamwork"
+description = ""
+og_description = "log of life a Software Quality Development Engineer in Test - QA, Agile Testing, Selenium, Appium, Ruby, Python, Cara Belajar"
+
+["testergadungan"]
+name = "Tester Gadungan"
+description = "cerita tentang tips dan trik menjadi seorang software quality tester yang handal dan terampil"
+og_description = "video, promotion, indonesia"
+
+["today-i-learned"]
+name = "today-i-learned"
+description = ""
+og_description = "log of life a Software Quality Development Engineer in Test - QA, Agile Testing, Selenium, Appium, Ruby, Python, Cara Belajar"
+
+["tutorials"]
+name = "tutorials"
+description = "Panduan/tutorial menjadi software quality tester yang piawai"
+og_description = "Panduan/tutorial menjadi software quality tester yang piawai"
+
+["ulasan"]
+name = "ulasan"
+description = ""
+og_description = "log of life a Software Quality Development Engineer in Test - QA, Agile Testing, Selenium, Appium, Ruby, Python, Cara Belajar"

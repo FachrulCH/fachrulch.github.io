@@ -1,0 +1,30 @@
++++
+title = "Belajar Critical Thinking Software Tester dari Anekdot Kode di Mug"
+date = 2022-10-17T07:11:00+04:00
+updated = 2023-03-26T16:18:49+04:00
+tags = []
+description = "Disuatu pagi, saya tak sengaja melihat sebuah 'sentilan' dari posting James Bach di linkedin, kok bisa ya dia berfikir sekritis itu, kanapa saya ga bisa mendekati cara berfikir dia 🤦‍♂️ Jadi ceritanya ada sebuah unggahan di linkedin mengenai tech meme 9gag.com yang isinya ala-ala script…"
+cover = "/media/posts/53/thumbnail-post-fachrul.id-1.jpg"
++++
+
+Disuatu pagi, saya tak sengaja melihat sebuah "sentilan" dari [posting James Bach](https://www.linkedin.com/feed/update/urn:li:activity:6986989686342713346?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A6986989686342713346%2C6987066017705332736%29) di linkedin, kok bisa ya dia berfikir sekritis itu, kanapa saya ga bisa mendekati cara berfikir dia 🤦‍♂️
+
+<figure><figure class="post__image post__image--center"><img alt="" height="950" loading="lazy" sizes="100vw" src="/media/posts/53//Screen-Shot-2022-10-17-at-08.48.10.png" srcset="/media/posts/53//responsive/Screen-Shot-2022-10-17-at-08.48.10-xs.png 300w, /media/posts/53//responsive/Screen-Shot-2022-10-17-at-08.48.10-sm.png 480w, /media/posts/53//responsive/Screen-Shot-2022-10-17-at-08.48.10-md.png 768w, /media/posts/53//responsive/Screen-Shot-2022-10-17-at-08.48.10-lg.png 1024w, /media/posts/53//responsive/Screen-Shot-2022-10-17-at-08.48.10-xl.png 1360w, /media/posts/53//responsive/Screen-Shot-2022-10-17-at-08.48.10-2xl.png 1600w" width="720"/></figure><figcaption>posting thread author</figcaption></figure>
+
+Jadi ceritanya ada sebuah unggahan di linkedin mengenai tech meme [9gag.com](https://9gag.com/) yang isinya ala-ala script untuk mengisi kopi.
+
+Awal melihat saya berfikir ini tak nampak ada yang salah, saya hanya memikirkan bahasa pemrograman apa kira-kira ini, dan ada improvement yang bisa dibuat di inisial constructor objectnya
+
+Namun komentar dari James Bach, yang menemukan metode "Rapid Software Testing" sangat menarik untuk disimak dan ditelaah kembali, dia berkomentar untuk menguji kode tadi, hal-hal remeh yang bisa beresiko dari spesifikasi sebuah mug untuk menampung kopi
+
+<figure><figure class="post__image post__image--center"><img alt="" height="1172" loading="lazy" sizes="100vw" src="/media/posts/53/Screen-Shot-2022-10-17-at-10.12.52.png" srcset="/media/posts/53/responsive/Screen-Shot-2022-10-17-at-10.12.52-xs.png 300w, /media/posts/53/responsive/Screen-Shot-2022-10-17-at-10.12.52-sm.png 480w, /media/posts/53/responsive/Screen-Shot-2022-10-17-at-10.12.52-md.png 768w, /media/posts/53/responsive/Screen-Shot-2022-10-17-at-10.12.52-lg.png 1024w, /media/posts/53/responsive/Screen-Shot-2022-10-17-at-10.12.52-xl.png 1360w, /media/posts/53/responsive/Screen-Shot-2022-10-17-at-10.12.52-2xl.png 1600w" width="1062"/></figure><figcaption>Komentar yang insightful</figcaption></figure>
+
+Yang menarik dari posting dia adalah penggunaan common sense dalam pengujian dia menghasilkan banyak asumsi yang tidak jelas dan perlu klarifikasi kembali agar tidak ada kesalah pahaman, dan bagaimana cara dia menguji dengan bertanya (push back) juga menurut saya keren, karena dia tidak membuat asumsi ulang dengan ekspektasi yang seharusnya terjadi, tapi bertanya untuk membuka peluang diskusi mencari solusi terbaik.
+
+<table border="1" style="border-collapse: collapse; width: 100%;"><tbody><tr><td style="width: 49.9288%;"><strong><span style="color: #f1c40f;">Komentar dia</span></strong></td><td style="width: 49.9288%;"><strong><span style="color: #f1c40f;">Pikiran saya</span></strong></td></tr><tr><td style="width: 49.9288%;">gimana klo kopinya dingin? bukankah itu memici dia mengisi ulang mug?</td><td style="width: 49.9288%;">Ah iya juga ya, jadi triggernya ga cuma mug kosong untuk mengisi kopi</td></tr><tr><td style="width: 49.9288%;">bisa ga coffee.refill() buat isi ulang kopi yang dingin</td><td style="width: 49.9288%;">klo bukan kopi saset sih bisa nambah refil terus kan ya</td></tr><tr><td style="width: 49.9288%;">bisa ga coffee.refill pake tambahan cream atau gula, dimana tambahan ini disimpan? Saat objek kopi dibikin apakah constructor bisa terima arguments?</td><td style="width: 49.9288%;">wah iya ya bener juga, cara bikin kopi itu luas dengan kombinasi preferensi, apakah program terlalu menyepelekan pilihan rasa</td></tr><tr><td style="width: 49.9288%;">bukankah seharusnya pengecekan kondisi ada dalam pengulangan terus menerus dan mengawasi apakah "mau kopi?" klo ga ya ga akan pernah ke eksekusi itu statement isi ulang kopi sampe kopinya abis, justru malah di kasus ini namanya isi kopi bukan isi ulang kopi</td><td style="width: 49.9288%;">wah benar sekali, kondisi nyata juga sepert ini, justru klo mau nambah user ga akan nunggu sampai habis dulu</td></tr><tr><td style="width: 49.9288%;">klo mug nya kebalik, akankah coffee.refill() masuk ke kondisi pengulangan tak terhingga</td><td style="width: 49.9288%;">situasi yang memungkinkan terjadi, tapi jika penanganan salah, ternyata bisa jadi pengulangan yang tak terhingga gini ya</td></tr><tr><td style="width: 49.9288%;">bisa ga sih sensor "kosong" ini berkabut dan bahkan ketutupan?</td><td style="width: 49.9288%;">lagi-lagi situasi yang mungkin terjadi, input nya aja bisa jadi ga reliable</td></tr><tr><td style="width: 49.9288%;">apakah benda ini aman di mesin pencuci piring?</td><td style="width: 49.9288%;">kondisi paska proses</td></tr><tr><td style="width: 49.9288%;">ini sendok guna ga sih? apakah memang perlu untuk rilis ini? terus kode yang manggil sendok ini mana?</td><td style="width: 49.9288%;">lah iya juga ya ini ada sendok! yang ditaronya ora umum gitu</td></tr></tbody></table>
+
+Sugguh situasi pagi yang mind blowing buat saya hari ini.
+
+Tak hanya dari posting beliau, ternyata sangat menarik membaca posting pengguna yang lain pula, karena mereka membagikan sudut pandang yang menarik, diluar nalar saya!
+
+Ya gitu deh, terkadang memang kita perlu latihan berfikir kritis dan mengasah *common sense*
