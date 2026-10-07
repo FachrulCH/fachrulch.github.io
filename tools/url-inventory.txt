@@ -1079,6 +1079,9 @@ file /sitemap.xsl
 page /teka-teki-segitiga-sebuah-pelajaran-penting-dalam-critical-thinking-dan-software-testing/
 page /time-management-sebagai-software-tester/
 page /today-i-learn-april-2019/
+file /tools/baseline-meta.json
+file /tools/snapshot.py
+file /tools/url-inventory.txt
 page /ulasan-buku-full-stack-testing-karya-gayathri-mohan/
 page /ulasan-pekan-ini-18-oktober-2019/
 page /yuk-belajar-cara-membuat-api-test-automation-framework-python-bagian-1/

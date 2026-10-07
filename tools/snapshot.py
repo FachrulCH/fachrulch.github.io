@@ -70,6 +70,22 @@ def page_meta(html):
     return meta
 
 
+def feed_urls(root):
+    """Item URLs of both feeds and the page URLs of the sitemap."""
+    import re
+    import xml.etree.ElementTree as ET
+
+    atom = "{http://www.w3.org/2005/Atom}"
+    xml_feed = ET.parse(root / "feed.xml").getroot()
+    json_feed = json.loads((root / "feed.json").read_text(encoding="utf-8"))
+    sitemap = (root / "sitemap.xml").read_text(encoding="utf-8")
+    return {
+        "feed.xml": [e.find(atom + "id").text for e in xml_feed.findall(atom + "entry")],
+        "feed.json": [item["url"] for item in json_feed["items"]],
+        "sitemap.xml": re.findall(r"<url>\s*<loc>([^<]+)</loc>", sitemap),
+    }
+
+
 def main():
     lines, retired, baseline = [], [], {}
     for path in sorted(tracked_files()):
@@ -83,6 +99,8 @@ def main():
         lines.append(f"{kind} {url}")
         if kind == "page" and not path.startswith("sdet/"):
             baseline[url] = page_meta((ROOT / path).read_text(encoding="utf-8"))
+
+    baseline["__feeds__"] = feed_urls(ROOT)
 
     header = [
         "# Public URLs of fachrul.id as exported by Publii (last publish 2024-02-09).",
