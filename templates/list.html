@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% from "_macros.html" import post_card, pager %}
+{% block links %}
+{% if newer %}<link rel="prev" href="{{ site.url }}{{ newer }}">{% endif %}
+{% if older %}<link rel="next" href="{{ site.url }}{{ older }}">{% endif %}
+{% endblock %}
+{% block main %}
+{% if kind == "home" %}
+<section class="intro">
+  <h1>{{ site.heading }}</h1>
+  <p>{{ site.tagline }}</p>
+</section>
+{% elif kind == "tag" %}
+<header class="page-head">
+  <p class="eyebrow"><a href="/celoteh/">Tag</a></p>
+  <h1>#{{ tag.name }} <span class="count">({{ total }})</span></h1>
+  {% if tag.description %}<p>{{ tag.description }}</p>{% endif %}
+</header>
+{% else %}
+<header class="page-head author-head">
+  <img src="{{ site.author.avatar }}" alt="" width="72" height="72">
+  <div>
+    <h1>{{ site.author.name }} <span class="count">({{ total }})</span></h1>
+    <p>{{ site.author.bio }}</p>
+    <p><a href="{{ site.author.website }}" rel="nofollow noopener">Kunjungi website</a></p>
+  </div>
+</header>
+{% endif %}
+{% if kind == "home" and page_number > 1 %}
+<h2 class="section-title">Tulisan · halaman {{ page_number }}</h2>
+{% elif kind == "home" %}
+<h2 class="section-title">Tulisan terbaru</h2>
+{% endif %}
+<div class="cards">
+{% for post in posts %}
+{{ post_card(post, "h2" if kind != "home" else "h3") }}
+{% endfor %}
+</div>
+{{ pager(newer, older, page_number, page_count) }}
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% from "_macros.html" import post_card %}
+{% block main %}
+<header class="page-head">
+  <p class="eyebrow">404</p>
+  <h1>Halaman tidak ditemukan</h1>
+  <p>Halaman yang kamu cari mungkin sudah dipindah atau tidak pernah ada. Coba <a href="/daftar-isi/">daftar isi</a>, <a href="/search.html">cari</a>, atau kembali ke <a href="/">beranda</a>.</p>
+</header>
+<h2 class="section-title">Tulisan terbaru</h2>
+<div class="cards">
+{% for post in posts %}
+{{ post_card(post) }}
+{% endfor %}
+</div>
+{% endblock %}

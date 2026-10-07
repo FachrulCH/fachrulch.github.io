@@ -1,0 +1,24 @@
+{% macro post_card(post, heading="h2") %}
+<article class="card">
+  <p class="meta"><time datetime="{{ post.date | minute_stamp }}">{{ post.date | short_date }}</time> · {{ post.reading_minutes }} menit baca</p>
+  <{{ heading }} class="card__title"><a href="{{ post.url }}">{{ post.title }}</a></{{ heading }}>
+  <p class="card__excerpt">{{ post.description }}</p>
+  {% if post.tag_list %}
+  <ul class="tags" aria-label="Tag">
+    {% for tag in post.tag_list %}
+    <li><a href="/celoteh/{{ tag.slug }}/">#{{ tag.name }}</a></li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</article>
+{% endmacro %}
+
+{% macro pager(newer, older, page_number, page_count) %}
+{% if page_count > 1 %}
+<nav class="pager" aria-label="Halaman">
+  {% if newer %}<a href="{{ newer }}" rel="prev">← Lebih baru</a>{% else %}<span></span>{% endif %}
+  <span class="pager__count">Halaman {{ page_number }} dari {{ page_count }}</span>
+  {% if older %}<a href="{{ older }}" rel="next">Lebih lama →</a>{% else %}<span></span>{% endif %}
+</nav>
+{% endif %}
+{% endmacro %}

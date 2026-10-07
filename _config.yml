@@ -1,0 +1,10 @@
+# GitHub Pages builds this repo with Jekyll. The pages are already-built HTML
+# (see README.md); Jekyll only copies them. Keep the generator's sources out of
+# the published site. Do not add .nojekyll: Jekyll is what keeps dot-folders
+# and __pycache__ (e.g. under sdet/) from being served.
+exclude:
+  - content
+  - templates
+  - tools
+  - README.md
+  - requirements.txt
