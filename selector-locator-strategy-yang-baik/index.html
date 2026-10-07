@@ -1,20 +1,316 @@
-<!DOCTYPE html><html lang="id-ID"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Selector (Locator) Strategy adalah koentji dari Test Automation - Fachrul Choliluddin</title><meta name="description" content="Belajar selector/locator strategi yang baik adalah kunci membuat test automation framework yang stabil. Dasar dalam mempelajari automated test selenium appium"><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="stylesheet" href="https://fachrul.id/media/plugins/syntaxHighlighter/prism-black.css"><link rel="stylesheet" href="https://fachrul.id/media/plugins/syntaxHighlighter/prism-inline-color.css"><meta name="theme-color" content="#17181E" media="(prefers-color-scheme: dark)"><meta name="theme-color" content="#D73A42" media="(prefers-color-scheme: light)"><meta name="msapplication-navbutton-color" content="#D73A42"><meta name="apple-mobile-web-app-status-bar-style" content="#D73A42"><link rel="canonical" href="https://fachrul.id/selector-locator-strategy-yang-baik/"><link rel="alternate" type="application/atom+xml" href="https://fachrul.id/feed.xml"><link rel="alternate" type="application/json" href="https://fachrul.id/feed.json"><meta property="og:title" content="Selector (Locator) Strategy adalah koentji dari Test Automation"><meta property="og:image" content="https://fachrul.id/media/posts/33/gugel-selector.png"><meta property="og:image:width" content="1024"><meta property="og:image:height" content="523"><meta property="og:site_name" content="Catatan celoteh @FachrulCH"><meta property="og:description" content="Belajar selector/locator strategi yang baik adalah kunci membuat test automation framework yang stabil. Dasar dalam mempelajari automated test selenium appium"><meta property="og:url" content="https://fachrul.id/selector-locator-strategy-yang-baik/"><meta property="og:type" content="article"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@fachrulch"><meta name="twitter:title" content="Selector (Locator) Strategy adalah koentji dari Test Automation"><meta name="twitter:description" content="Belajar selector/locator strategi yang baik adalah kunci membuat test automation framework yang stabil. Dasar dalam mempelajari automated test selenium appium"><meta name="twitter:image" content="https://fachrul.id/media/posts/33/gugel-selector.png"><link rel="shortcut icon" href="https://fachrul.id/media/website/favicon.ico" type="image/x-icon"><link rel="stylesheet" href="https://fachrul.id/assets/css/style.css?v=a96f3b7a53ff4409f99842b2c5a835a9"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://fachrul.id/selector-locator-strategy-yang-baik/"},"headline":"Selector (Locator) Strategy adalah koentji dari Test Automation","datePublished":"2020-05-14T05:25","dateModified":"2020-05-19T20:58","image":{"@type":"ImageObject","url":"https://fachrul.id/media/posts/33/gugel-selector.png","height":523,"width":1024},"description":"Belajar selector/locator strategi yang baik adalah kunci membuat test automation framework yang stabil. Dasar dalam mempelajari automated test selenium appium","author":{"@type":"Person","name":"Fachrul Choliluddin","url":"https://fachrul.id/authors/fachrulch/"},"publisher":{"@type":"Organization","name":"Fachrul Choliluddin","logo":{"@type":"ImageObject","url":"https://fachrul.id/media/website/profile-newletter-3.png","height":800,"width":800}}}</script><noscript><style>img[loading] {
-                    opacity: 1;
-                }</style></noscript><script async src="https://www.googletagmanager.com/gtag/js?id=G-3KW3Y8W8ET"></script><script>window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<!DOCTYPE html>
+<html lang="id-ID">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Selector (Locator) Strategy adalah koentji dari Test Automation - Fachrul Choliluddin</title>
+<meta name="description" content="Belajar selector/locator strategi yang baik adalah kunci membuat test automation framework yang stabil. Dasar dalam mempelajari automated test selenium appium">
+<meta name="theme-color" content="#17181e">
+<meta name="color-scheme" content="dark">
+<link rel="canonical" href="https://fachrul.id/selector-locator-strategy-yang-baik/">
+<link rel="alternate" type="application/atom+xml" href="https://fachrul.id/feed.xml">
+<link rel="alternate" type="application/json" href="https://fachrul.id/feed.json">
+<meta property="og:title" content="Selector (Locator) Strategy adalah koentji dari Test Automation">
+<meta property="og:image" content="https://fachrul.id/media/posts/33/gugel-selector.png">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="523">
+<meta property="og:site_name" content="Catatan celoteh @FachrulCH">
+<meta property="og:description" content="Belajar selector/locator strategi yang baik adalah kunci membuat test automation framework yang stabil. Dasar dalam mempelajari automated test selenium appium">
+<meta property="og:url" content="https://fachrul.id/selector-locator-strategy-yang-baik/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@fachrulch">
+<meta name="twitter:title" content="Selector (Locator) Strategy adalah koentji dari Test Automation">
+<meta name="twitter:description" content="Belajar selector/locator strategi yang baik adalah kunci membuat test automation framework yang stabil. Dasar dalam mempelajari automated test selenium appium">
+<meta name="twitter:image" content="https://fachrul.id/media/posts/33/gugel-selector.png">
+<link rel="icon" href="/media/website/favicon.ico" type="image/x-icon">
+<script type="application/ld+json">{"@context": "http://schema.org", "@type": "Article", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://fachrul.id/selector-locator-strategy-yang-baik/"}, "headline": "Selector (Locator) Strategy adalah koentji dari Test Automation", "datePublished": "2020-05-14T05:25", "dateModified": "2020-05-19T20:58", "image": {"@type": "ImageObject", "url": "https://fachrul.id/media/posts/33/gugel-selector.png", "height": 523, "width": 1024}, "description": "Belajar selector/locator strategi yang baik adalah kunci membuat test automation framework yang stabil. Dasar dalam mempelajari automated test selenium appium", "author": {"@type": "Person", "name": "Fachrul Choliluddin", "url": "https://fachrul.id/authors/fachrulch/"}, "publisher": {"@type": "Organization", "name": "Fachrul Choliluddin", "logo": {"@type": "ImageObject", "url": "https://fachrul.id/media/website/profile-newletter-3.png", "height": 800, "width": 800}}}</script>
+<style>:root{--bg:#17181e;--surface:#20212a;--surface-2:#272934;--border:#30323f;--text:#e4e4e7;--heading:#f4f4f5;--muted:#a1a1aa;--accent:#ff7a80;--brand:#d73a42;--code-bg:#0d1117;--radius:10px;--measure:42rem;--font:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:400 1.0625rem/1.7 var(--font);border-top:3px solid var(--brand);overflow-wrap:break-word}
+a{color:var(--accent);text-underline-offset:.18em;text-decoration-thickness:1px}
+a:hover{text-decoration-thickness:2px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+img,video,iframe,svg{max-width:100%}
+img{height:auto}
+.wrap{max-width:var(--measure);margin:0 auto;padding:0 1rem}
+.skip{position:absolute;left:-999px;top:0;background:var(--surface);padding:.5rem 1rem;z-index:9}
+.skip:focus{left:0}
+h1,h2,h3,h4,h5,h6{color:var(--heading);line-height:1.25;margin:2rem 0 .75rem;font-weight:700;letter-spacing:-.01em}
+.meta,.count,.eyebrow{color:var(--muted);font-size:.875rem}
+.count{font-weight:400}
+.eyebrow{margin:0 0 .25rem;text-transform:uppercase;letter-spacing:.08em;font-weight:600}
+.eyebrow a{color:var(--muted)}
 
-  gtag('config', 'G-3KW3Y8W8ET');</script></head><body><div class="site-container"><header class="top" id="js-header"><a class="logo" href="https://fachrul.id/"><img src="https://fachrul.id/media/website/profile-newletter-3.png" alt="Catatan celoteh @FachrulCH" width="800" height="800"></a><nav class="navbar js-navbar"><button class="navbar__toggle js-toggle" aria-label="Menu" aria-haspopup="true" aria-expanded="false"><span class="navbar__toggle-box"><span class="navbar__toggle-inner">Menu</span></span></button><ul class="navbar__menu"><li><a href="https://fachrul.id/" target="_self">Beranda</a></li><li><a href="https://fachrul.id/daftar-isi/" target="_self">Daftar Isi</a></li><li><a href="https://fachrul.id/belajar-software-testing-qa-untuk-pemula-sampai-mahir/" target="_blank">Belajar QA</a></li><li><a href="https://www.youtube.com/@ngetest" target="_blank">YouTube</a></li><li><a href="https://fachrul.id/about-fachrulch/" target="_self">Tentang Saya</a></li></ul></nav><div class="search"><div class="search__overlay js-search-overlay"><div class="search__overlay-inner"><button class="search__close js-search-close" aria-label="Close">Close</button></div></div><button class="search__btn js-search-btn" aria-label="Search"><svg role="presentation" focusable="false"><use xlink:href="https://fachrul.id/assets/svg/svg-map.svg#search"/></svg></button></div></header><main><article class="post"><div class="hero"><figure class="hero__image hero__image--overlay"><img src="https://fachrul.id/media/posts/33/gugel-selector.png" loading="eager" height="523" width="1024" alt="selector strategy yang baik"></figure><header class="hero__content"><div class="wrapper"><div class="post__meta"><time datetime="2020-05-14T05:25">14 Mei 2020</time></div><h1>Selector (Locator) Strategy adalah koentji dari Test Automation</h1><div class="post__meta post__meta--author"><img src="https://fachrul.id/media/website/fachrulch-profile.jpg" loading="eager" height="1024" width="1024" class="post__author-thumb" alt="Fachrul Choliluddin"> <a href="https://fachrul.id/authors/fachrulch/" class="feed__author">Fachrul Choliluddin</a></div></div></header></div><div class="wrapper post__entry"><p>Hi kawan,</p><p>Jika kamu berkecimpung di pemrograman automation test menggunakan selenium / appium tentunya kamu sudah paham banget kalau sampe salah selector (locator) maka kamu telah membuang banyak waktu karena selector yang kamu telah tuliskan tidak ditemukan dan harus re-run lagi 😭</p><p>Menemukan element pada tampilan aplikasi seperti buttons, inputs, divs, checkboxes ataupun anchor tag terkadang cukup "menantang", terutama ketika tidak adanya ke-unikan ataupun identitas yang jelas pada element tersebut, bahakan pernah saya menguji aplikasi yang ID nya selalu berubah karena digenerate otomatis oleh library front end nya. Alamakjang 😵</p><hr><p>Post ini merupakan rangkaian post mengenai membuat automationt test dengan python</p><h4>Daftar isinya:</h4><ol><li><a href="https://fachrul.id/mau-belajar-automation-test-dengan-python-mulai-dari-mana/" target="_blank" rel="noopener noreferrer">Belajar Python dari dasar</a></li><li><a href="https://fachrul.id/belajar-pytest-framework-1/" target="_blank" rel="noopener noreferrer">Memahami cara kerja Pytest (bagian 1)</a> </li><li><a href="https://fachrul.id/memulai-automation-test-selenium-python-bagian-1/" target="_blank" rel="noopener noreferrer">Mulai membuat automation test dengan Selenium</a></li><li><a href="https://fachrul.id/selector-locator-strategy-yang-baik/" target="_blank" rel="noopener noreferrer">Menemukan Element dengan locator strategi yang baik</a> &lt;== Sekarang disini</li></ol><hr><p> </p><h2>Apa sih web/mobile elements itu?</h2><p>Terjemahan ala saya sih ia adalah sebuah element adalah entitas pada aplikasi yang di render menjadi halaman web ataupun user interface pada mobile app. Jadi apapun yang dilihat oleh pengguna (termasuk yang ga keliatan sih) adalah element, seperti buttons submit, foto profile, navigasi halaman.</p><p>Biasanya bentuknya berupa HTML pada web ataupun XML pada mobile apps, jadi bisa dikatakan memiliki struktur seperti tag name, attributes dan contents, termasuk kedalam hierarki posisinya.</p><p>Untuk pembahasan ini saya cenderung membahas element pada web, untuk mobile apps akan dibahas lebih rinci di lain kesempatan karena perbedaan struktur source code tampilan lintas platformnya, tapi masih sangat relevan dengan mobile apps terutama mobile browser ya gaes.</p><h2>Nah itu kan baru element, trus selector itu apa?</h2><p>Jadi selector ataupun locator adalah sebuah bentuk query untuk mengakses element tertentu yang ada di halaman aplikasi, nah untuk website biasanya object hasil query locator ini disebut node yang terletak di Document Object Model (DOM)</p><p>Perlunya selector element pada aplikasi adalah sebagai awal mula interaksi automation. Setelah selenium/appium menemukan element sesuai selector maka kamu bisa mengakses method di element itu seperti meng-click button, menginput text, ataupun mengambil text pada element tersebut.</p><h2>Kenapa kok perlu banget selector?</h2><p>Jadi gini, sebagai manusia yang menggunakan aplikasi tentu kita tidak perlu selector untuk berinteraksi dengan aplikasi, kita bisa menggunakan indera penglihatan untuk menjalankan aksi seperti submit form, scrolling halaman, click sana sini di halaman web, tapi tidak begitu bagi test automation yang harus menerjemahkan interaksi manusia tadi ke istilah yang komputer bisa mengerti secara programatis. Jadi selenium/appium ga akan melihat aplikasi sebagaimana kita kita melihat tampilannya, tapi ia akan melihatnya secara source code struktural seperti html/xml (catatan: tapi jaman now, sedang gandrung library/tools yang mendukung visual testing juga loh seperti <a href="https://applitools.com" target="_blank" rel="noopener noreferrer">applitools</a>, <a href="https://www.mabl.com" target="_blank" rel="noopener noreferrer">mabl</a>, <a href="http://test.ai/" target="_blank" rel="noopener noreferrer">test.ai</a> dkk)</p><h2>Hmm gitu ya.. Bentuk element itu seperti apa sih?</h2><p>Sebagai contoh kita akan bedah element di google.co.id ya, coba pada browser chrome kamu (sama juga pada firefox ataupun safari) klik kanan pada kotak pencarian trus pilih opsi menu "Inspect" maka akan muncul jendela Developer tool, pada Tab aktif "Elements", seperti ini gambarannya: (kamu coba juga donk ah)</p><figure class="post__image post__image--center"><img loading="lazy" src="https://fachrul.id/media/posts/33/gugel.png" alt="" width="1764" height="901" sizes="100vw" srcset="https://fachrul.id/media/posts/33/responsive/gugel-xs.png 300w, https://fachrul.id/media/posts/33/responsive/gugel-sm.png 480w, https://fachrul.id/media/posts/33/responsive/gugel-md.png 768w, https://fachrul.id/media/posts/33/responsive/gugel-lg.png 1024w, https://fachrul.id/media/posts/33/responsive/gugel-xl.png 1360w, https://fachrul.id/media/posts/33/responsive/gugel-2xl.png 1600w"><figcaption>tampilan inspect element pada google chrome</figcaption></figure><p>Pada gambar diatas saya memberikan keterangan nomer,  yang akan saya jelaskan sebagai berikut:</p><ol><li>Pada gambar no.1 diatas, kotak pencarian adalah target element yang kita lihat, nampak ada highlight warna biru di element tersebut</li><li>Ini adalah kode sumber HTML dari halaman google.co.id yang aktif pada bagian kotak pencarian yaitu tag &lt;input/&gt; beserta atribut yang melekat pada nya</li><li>Apa yang disarankan oleh browser chrome jika kamu mencari element kotak pencarian ini, ada tag dengan classnya, accessibility yang ada pada element tersebut</li></ol><p>Nah jika kita terjemahkan pada kode automation dengan python (yang kurang lebih akan sama juga dengan selenium bindder di bahasa pemrograman lainya) nampak seperti berikut:</p><div><pre><code class="language-python line-numbers">search_box = driver.find_element_by_name('q')
+/* header & footer */
+.site-header{border-bottom:1px solid var(--border)}
+.site-header__inner{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.5rem 1rem;padding-top:.85rem;padding-bottom:.85rem}
+.brand{display:flex;align-items:center;gap:.6rem;color:var(--heading);text-decoration:none;font-weight:700}
+.brand img{border-radius:50%;width:36px;height:36px;object-fit:cover}
+.nav{display:flex;flex-wrap:wrap;gap:.25rem 1rem;list-style:none;margin:0;padding:0;font-size:.9375rem}
+.nav a{color:var(--text);text-decoration:none;display:inline-block;padding:.35rem 0}
+.nav a:hover{color:var(--accent)}
+main{padding-bottom:3rem}
+.site-footer{border-top:1px solid var(--border);color:var(--muted);font-size:.875rem;padding:1.5rem 0 2rem}
+.site-footer p{margin:.75rem 0 0}
+.footer-links{display:flex;flex-wrap:wrap;gap:.25rem 1.1rem;list-style:none;margin:0;padding:0}
+.footer-links a{color:var(--text);display:inline-block;padding:.25rem 0}
+
+/* lists */
+.intro{padding:2.5rem 0 .5rem}
+.intro h1{font-size:clamp(1.9rem,7vw,2.6rem);margin:0 0 .5rem;font-family:var(--mono);font-weight:700;letter-spacing:-.03em}
+.intro p{color:var(--muted);margin:0;font-size:1.0625rem}
+.section-title{font-size:.8125rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:2.25rem 0 .5rem;font-weight:600}
+.page-head{padding:2.25rem 0 .5rem}
+.page-head h1{margin:0 0 .5rem;font-size:clamp(1.6rem,6vw,2.1rem)}
+.page-head p{color:var(--muted);margin:.25rem 0}
+.author-head{display:flex;gap:1rem;align-items:flex-start}
+.author-head img{border-radius:50%;flex:none;width:72px;height:72px;object-fit:cover}
+.cards{display:grid}
+.card{padding:1.35rem 0;border-bottom:1px solid var(--border)}
+.card:last-child{border-bottom:0}
+.card .meta{margin:0}
+.card__title{font-size:1.25rem;margin:.2rem 0 .4rem}
+.card__title a{color:var(--heading);text-decoration:none}
+.card__title a:hover{color:var(--accent);text-decoration:underline}
+.card__excerpt{margin:0;color:var(--muted);font-size:.975rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.tags{display:flex;flex-wrap:wrap;gap:.4rem;list-style:none;margin:.75rem 0 0;padding:0}
+.tags a{display:inline-block;font-size:.8125rem;line-height:1.4;padding:.3rem .65rem;border-radius:999px;background:var(--surface);border:1px solid var(--border);color:var(--text);text-decoration:none}
+.tags a:hover{border-color:var(--accent);color:var(--accent)}
+.pager{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin-top:1.5rem;padding-top:1.25rem;border-top:1px solid var(--border);font-size:.9375rem}
+.pager a{padding:.4rem 0}
+.pager__count{color:var(--muted);font-size:.8125rem;text-align:center}
+.tag-cloud{list-style:none;padding:0;margin:1.5rem 0 0;display:grid;gap:.6rem}
+.tag-cloud>li{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:.75rem 1rem}
+.tag-cloud a{font-weight:600;text-decoration:none;display:block}
+.tag-cloud .count{margin-left:.25rem}
+.tag-cloud p{margin:.25rem 0 0;color:var(--muted);font-size:.875rem}
+@media (min-width:40rem){.tag-cloud{grid-template-columns:1fr 1fr}}
+
+/* article */
+.post-head{padding:2.25rem 0 0}
+.post-head .tags{margin:0 0 .9rem}
+.post-head h1{font-size:clamp(1.75rem,6.5vw,2.4rem);margin:0 0 .75rem;letter-spacing:-.02em}
+.post-head .meta{margin:0}
+.post-head .meta a{color:var(--text)}
+.cover{margin:1.5rem 0 0}
+.cover img{display:block;width:100%;border-radius:var(--radius);background:var(--surface)}
+figcaption{color:var(--muted);font-size:.8125rem;text-align:center;margin-top:.5rem}
+.prose{margin-top:1.75rem}
+.prose>:first-child{margin-top:0}
+.prose p,.prose ul,.prose ol,.prose blockquote,.prose figure,.prose table,.prose pre,.prose .highlight{margin:0 0 1.25rem}
+.prose h1{font-size:1.6rem}
+.prose h2{font-size:1.45rem}
+.prose h3{font-size:1.2rem}
+.prose h4,.prose h5,.prose h6{font-size:1.05rem}
+.prose ul,.prose ol{padding-left:1.4rem}
+.prose li{margin:.3rem 0}
+.prose li>ul,.prose li>ol{margin:.3rem 0}
+.prose li p{margin:.3rem 0}
+.prose hr{border:0;border-top:1px solid var(--border);margin:2.5rem auto;width:40%}
+.prose blockquote{border-left:3px solid var(--brand);background:var(--surface);margin-left:0;margin-right:0;padding:.75rem 1rem;border-radius:0 var(--radius) var(--radius) 0;color:var(--text)}
+.prose blockquote>:last-child{margin-bottom:0}
+.prose strong{color:var(--heading)}
+.prose figure{margin-left:0;margin-right:0}
+.prose figure img{border-radius:6px}
+.prose img{display:inline-block}
+.prose figure>img,.prose figure>a>img,.prose figure picture img{display:block;margin:0 auto}
+.prose iframe{display:block;margin:0 auto 1.25rem;border:0;max-width:100%}
+.prose .post__iframe iframe,.prose .post__video iframe,.prose .youtube-wrap iframe,.prose iframe[src*="youtube"]{width:100%;height:auto;aspect-ratio:16/9}
+.prose table{display:block;overflow-x:auto;border-collapse:collapse;width:max-content;max-width:100%;font-size:.9375rem}
+.prose td,.prose th{border:1px solid var(--border);padding:.45rem .7rem;vertical-align:top}
+.prose th{background:var(--surface)}
+.prose td[style],.prose table[style]{background:none!important;color:inherit!important}
+.prose code{font-family:var(--mono);font-size:.875em;background:var(--surface-2);padding:.12em .35em;border-radius:4px}
+.prose pre{font-family:var(--mono);font-size:.8125rem;line-height:1.6;background:var(--code-bg);border:1px solid var(--border);border-radius:var(--radius);padding:1rem;overflow-x:auto;color:#e6edf3;tab-size:4}
+.prose pre code{background:none;padding:0;font-size:inherit;border-radius:0}
+.prose .highlight{background:var(--code-bg);border-radius:var(--radius)}
+.prose .highlight pre{margin:0}
+.prose .align-center{text-align:center}
+.prose .align-right{text-align:right}
+.prose .msg{background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--accent);border-radius:var(--radius);padding:.85rem 1rem}
+.prose .msg--highlight{border-left-color:#f5c451}
+.prose .dropcap::first-letter{float:left;font-size:3.2em;line-height:.9;padding:.08em .12em 0 0;color:var(--accent);font-weight:700}
+.prose .gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(9rem,1fr));gap:.5rem;margin-bottom:1.25rem}
+.prose .gallery figure{margin:0}
+.prose .gallery img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:6px}
+.prose .gallery-wrapper{margin:0 0 1.25rem}
+.prose [style*="background"]{background:transparent!important}
+.prose [style*="color"]{color:inherit!important}
+.archive{margin-top:2.5rem;border-top:1px solid var(--border)}
+.archive ul{list-style:none;padding:0;margin:0}
+.archive li{display:flex;gap:.9rem;padding:.4rem 0;border-bottom:1px solid var(--border)}
+.archive time{color:var(--muted);font-size:.8125rem;flex:none;width:6.5rem;padding-top:.2rem;font-variant-numeric:tabular-nums}
+.post-foot{margin-top:2.5rem}
+.bio{display:flex;gap:1rem;align-items:flex-start;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1rem;margin-top:1rem}
+.bio img{border-radius:50%;flex:none;width:56px;height:56px;object-fit:cover}
+.bio p{margin:0;color:var(--muted);font-size:.9rem;line-height:1.6}
+.bio .bio__name{color:var(--heading);font-weight:700;margin-bottom:.2rem;font-size:1rem}
+.bio__name a{color:var(--heading);text-decoration:none}
+.post-nav{display:grid;gap:.75rem;margin-top:2rem}
+.post-nav a{display:block;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:.85rem 1rem;color:var(--heading);text-decoration:none;font-weight:600;line-height:1.4}
+.post-nav a:hover{border-color:var(--accent)}
+.post-nav span{display:block;color:var(--muted);font-size:.8125rem;font-weight:400;margin-bottom:.2rem}
+.post-nav__next{text-align:right}
+@media (min-width:40rem){.post-nav{grid-template-columns:1fr 1fr}.post-nav__next{grid-column:2}}
+.comments{margin-top:2rem}
+.button{font:inherit;font-size:.9375rem;font-weight:600;color:var(--heading);background:var(--surface-2);border:1px solid var(--border);border-radius:var(--radius);padding:.6rem 1.1rem;cursor:pointer}
+.button:hover{border-color:var(--accent)}
+.search{margin:1.5rem 0}
+.search label{display:block;font-size:.875rem;color:var(--muted);margin-bottom:.35rem}
+.search__row{display:flex;gap:.5rem}
+.search input{flex:1;min-width:0;font:inherit;color:var(--text);background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:.6rem .85rem}
+@media (min-width:48rem){body{font-size:1.125rem}}
+</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3KW3Y8W8ET"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-3KW3Y8W8ET');</script>
+</head>
+<body>
+<a class="skip" href="#main">Langsung ke isi</a>
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="brand" href="/">
+      <img src="/media/website/fachrulch-profile.jpg" alt="" width="36" height="36">
+      <span>Fachrul Choliluddin</span>
+    </a>
+    <nav aria-label="Menu utama">
+      <ul class="nav">
+        <li><a href="/daftar-isi/">Daftar Isi</a></li>
+        <li><a href="/belajar-software-testing-qa-untuk-pemula-sampai-mahir/">Belajar QA</a></li>
+        <li><a href="/celoteh/">Tag</a></li>
+        <li><a href="/about-fachrulch/">Tentang</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="wrap">
+<article class="post">
+  <header class="post-head">
+    <ul class="tags" aria-label="Tag">
+      <li><a href="/celoteh/automation-python/">#automation-python</a></li>
+      <li><a href="/celoteh/testergadungan/">#Tester Gadungan</a></li>
+      <li><a href="/celoteh/tutorials/">#tutorials</a></li>
+    </ul>
+    <h1>Selector (Locator) Strategy adalah koentji dari Test Automation</h1>
+    <p class="meta">
+      <a href="/authors/fachrulch/">Fachrul Choliluddin</a> ·
+      <time datetime="2020-05-14T05:25">14 Mei 2020</time> ·
+      7 menit baca
+    </p>
+  </header>
+  <figure class="cover">
+    <img src="/media/posts/33/gugel-selector.png" srcset="/media/posts/33/responsive/gugel-selector-xs.png 300w, /media/posts/33/responsive/gugel-selector-sm.png 480w, /media/posts/33/responsive/gugel-selector-md.png 768w, /media/posts/33/responsive/gugel-selector-lg.png 1024w, /media/posts/33/responsive/gugel-selector-xl.png 1360w, /media/posts/33/responsive/gugel-selector-2xl.png 1600w" sizes="(min-width: 46rem) 42rem, 100vw" width="1024" height="523" alt="selector strategy yang baik" fetchpriority="high">
+  </figure>
+  <div class="prose">
+<p>Hi kawan,</p>
+<p>Jika kamu berkecimpung di pemrograman automation test menggunakan selenium / appium tentunya kamu sudah paham banget kalau sampe salah selector (locator) maka kamu telah membuang banyak waktu karena selector yang kamu telah tuliskan tidak ditemukan dan harus re-run lagi 😭</p>
+<p>Menemukan element pada tampilan aplikasi seperti buttons, inputs, divs, checkboxes ataupun anchor tag terkadang cukup "menantang", terutama ketika tidak adanya ke-unikan ataupun identitas yang jelas pada element tersebut, bahakan pernah saya menguji aplikasi yang ID nya selalu berubah karena digenerate otomatis oleh library front end nya. Alamakjang 😵</p>
+<hr />
+<p>Post ini merupakan rangkaian post mengenai membuat automationt test dengan python</p>
+<h4>Daftar isinya:</h4>
+<ol>
+<li><a href="/mau-belajar-automation-test-dengan-python-mulai-dari-mana/">Belajar Python dari dasar</a></li>
+<li><a href="/belajar-pytest-framework-1/">Memahami cara kerja Pytest (bagian 1)</a></li>
+<li><a href="/memulai-automation-test-selenium-python-bagian-1/">Mulai membuat automation test dengan Selenium</a></li>
+<li><a href="/selector-locator-strategy-yang-baik/">Menemukan Element dengan locator strategi yang baik</a> &lt;== Sekarang disini</li>
+</ol>
+<hr />
+<h2>Apa sih web/mobile elements itu?</h2>
+<p>Terjemahan ala saya sih ia adalah sebuah element adalah entitas pada aplikasi yang di render menjadi halaman web ataupun user interface pada mobile app. Jadi apapun yang dilihat oleh pengguna (termasuk yang ga keliatan sih) adalah element, seperti buttons submit, foto profile, navigasi halaman.</p>
+<p>Biasanya bentuknya berupa HTML pada web ataupun XML pada mobile apps, jadi bisa dikatakan memiliki struktur seperti tag name, attributes dan contents, termasuk kedalam hierarki posisinya.</p>
+<p>Untuk pembahasan ini saya cenderung membahas element pada web, untuk mobile apps akan dibahas lebih rinci di lain kesempatan karena perbedaan struktur source code tampilan lintas platformnya, tapi masih sangat relevan dengan mobile apps terutama mobile browser ya gaes.</p>
+<h2>Nah itu kan baru element, trus selector itu apa?</h2>
+<p>Jadi selector ataupun locator adalah sebuah bentuk query untuk mengakses element tertentu yang ada di halaman aplikasi, nah untuk website biasanya object hasil query locator ini disebut node yang terletak di Document Object Model (DOM)</p>
+<p>Perlunya selector element pada aplikasi adalah sebagai awal mula interaksi automation. Setelah selenium/appium menemukan element sesuai selector maka kamu bisa mengakses method di element itu seperti meng-click button, menginput text, ataupun mengambil text pada element tersebut.</p>
+<h2>Kenapa kok perlu banget selector?</h2>
+<p>Jadi gini, sebagai manusia yang menggunakan aplikasi tentu kita tidak perlu selector untuk berinteraksi dengan aplikasi, kita bisa menggunakan indera penglihatan untuk menjalankan aksi seperti submit form, scrolling halaman, click sana sini di halaman web, tapi tidak begitu bagi test automation yang harus menerjemahkan interaksi manusia tadi ke istilah yang komputer bisa mengerti secara programatis. Jadi selenium/appium ga akan melihat aplikasi sebagaimana kita kita melihat tampilannya, tapi ia akan melihatnya secara source code struktural seperti html/xml (catatan: tapi jaman now, sedang gandrung library/tools yang mendukung visual testing juga loh seperti <a href="https://applitools.com">applitools</a>, <a href="https://www.mabl.com">mabl</a>, <a href="http://test.ai/">test.ai</a> dkk)</p>
+<h2>Hmm gitu ya.. Bentuk element itu seperti apa sih?</h2>
+<p>Sebagai contoh kita akan bedah element di google.co.id ya, coba pada browser chrome kamu (sama juga pada firefox ataupun safari) klik kanan pada kotak pencarian trus pilih opsi menu "Inspect" maka akan muncul jendela Developer tool, pada Tab aktif "Elements", seperti ini gambarannya: (kamu coba juga donk ah)</p>
+<figure class="post__image post__image--center"><img alt="" height="901" loading="lazy" sizes="100vw" src="/media/posts/33/gugel.png" srcset="/media/posts/33/responsive/gugel-xs.png 300w, /media/posts/33/responsive/gugel-sm.png 480w, /media/posts/33/responsive/gugel-md.png 768w, /media/posts/33/responsive/gugel-lg.png 1024w, /media/posts/33/responsive/gugel-xl.png 1360w, /media/posts/33/responsive/gugel-2xl.png 1600w" width="1764"/><figcaption>tampilan inspect element pada google chrome</figcaption></figure>
+
+<p>Pada gambar diatas saya memberikan keterangan nomer,  yang akan saya jelaskan sebagai berikut:</p>
+<ol>
+<li>Pada gambar no.1 diatas, kotak pencarian adalah target element yang kita lihat, nampak ada highlight warna biru di element tersebut</li>
+<li>Ini adalah kode sumber HTML dari halaman google.co.id yang aktif pada bagian kotak pencarian yaitu tag &lt;input/&gt; beserta atribut yang melekat pada nya</li>
+<li>Apa yang disarankan oleh browser chrome jika kamu mencari element kotak pencarian ini, ada tag dengan classnya, accessibility yang ada pada element tersebut</li>
+</ol>
+<p>Nah jika kita terjemahkan pada kode automation dengan python (yang kurang lebih akan sama juga dengan selenium bindder di bahasa pemrograman lainya) nampak seperti berikut:</p>
+<div><pre><code class="language-python line-numbers">search_box = driver.find_element_by_name('q')
 # driver.find_element(By.NAME, 'q')  &lt;= atau alternatif bisa juga seperti ini
-search_box.send_keys('Belajar automation testing' + Keys.ENTER)</code></pre></div><p>di baris pertama saya akan membuat variable search_box yang isinya adalah element yang mengandung nama "q" seperti pada keterangan element search box yang saya tunjukan sebelumnya si kotak pencarian ini memiliki element &lt;input ... <span class="webkit-html-attribute-name">name</span>="<span class="webkit-html-attribute-value">q</span>" ... /&gt; nah disini selector yang kita ambil adalah attribut name sama dengan "q", di baris kedua adalah alternatif cara penulisan kode saja</p><p>di baris berikutnya, adalah proses automation test code saya untuk berinteraksi dengan element tersebut yaitu mengirimkan perintah send keys alias ketikan kata Belajar automation testing pada kotak pencarian dilanjutkan dengan menekan tombol Enter</p><figure class="post__image post__image--center"><img loading="lazy" src="https://fachrul.id/media/posts/33/hasil-pencarian-google-belajar-automation.png" alt="" width="1749" height="890" sizes="100vw" srcset="https://fachrul.id/media/posts/33/responsive/hasil-pencarian-google-belajar-automation-xs.png 300w, https://fachrul.id/media/posts/33/responsive/hasil-pencarian-google-belajar-automation-sm.png 480w, https://fachrul.id/media/posts/33/responsive/hasil-pencarian-google-belajar-automation-md.png 768w, https://fachrul.id/media/posts/33/responsive/hasil-pencarian-google-belajar-automation-lg.png 1024w, https://fachrul.id/media/posts/33/responsive/hasil-pencarian-google-belajar-automation-xl.png 1360w, https://fachrul.id/media/posts/33/responsive/hasil-pencarian-google-belajar-automation-2xl.png 1600w"><figcaption>hasil pencarian kata kunci 'belajar automation' pada google search</figcaption></figure><p>Selector pun adakalanya bersifat tidak unik, seperti pada halaman pencarian google diatas, search result pada umumnya berupa list yang identik secara rupa dan bentuk, karena memiliki stylesheet (CSS) yang sama, hanya isi yang beda, lantas bagaimana cara kita memilih element yang kita mau agar lebih akurat akan kita diskusikan nanti ya.</p><p>Bisa jadi kebutuhan test kita pun perlu mendapatkan element yang lebih dari satu juga, katakan lah contoh diatas mau kita jadikan test code seperti ini jadinya (masih di bahasa python):</p><div><pre><code class="language-python line-numbers">results_title = driver.find_elements_by_css_selector('h3')
+search_box.send_keys('Belajar automation testing' + Keys.ENTER)</code></pre></div>
+
+<p>di baris pertama saya akan membuat variable search_box yang isinya adalah element yang mengandung nama "q" seperti pada keterangan element search box yang saya tunjukan sebelumnya si kotak pencarian ini memiliki element &lt;input ... name="q" ... /&gt; nah disini selector yang kita ambil adalah attribut name sama dengan "q", di baris kedua adalah alternatif cara penulisan kode saja</p>
+<p>di baris berikutnya, adalah proses automation test code saya untuk berinteraksi dengan element tersebut yaitu mengirimkan perintah send keys alias ketikan kata Belajar automation testing pada kotak pencarian dilanjutkan dengan menekan tombol Enter</p>
+<figure class="post__image post__image--center"><img alt="" height="890" loading="lazy" sizes="100vw" src="/media/posts/33/hasil-pencarian-google-belajar-automation.png" srcset="/media/posts/33/responsive/hasil-pencarian-google-belajar-automation-xs.png 300w, /media/posts/33/responsive/hasil-pencarian-google-belajar-automation-sm.png 480w, /media/posts/33/responsive/hasil-pencarian-google-belajar-automation-md.png 768w, /media/posts/33/responsive/hasil-pencarian-google-belajar-automation-lg.png 1024w, /media/posts/33/responsive/hasil-pencarian-google-belajar-automation-xl.png 1360w, /media/posts/33/responsive/hasil-pencarian-google-belajar-automation-2xl.png 1600w" width="1749"/><figcaption>hasil pencarian kata kunci 'belajar automation' pada google search</figcaption></figure>
+
+<p>Selector pun adakalanya bersifat tidak unik, seperti pada halaman pencarian google diatas, search result pada umumnya berupa list yang identik secara rupa dan bentuk, karena memiliki stylesheet (CSS) yang sama, hanya isi yang beda, lantas bagaimana cara kita memilih element yang kita mau agar lebih akurat akan kita diskusikan nanti ya.</p>
+<p>Bisa jadi kebutuhan test kita pun perlu mendapatkan element yang lebih dari satu juga, katakan lah contoh diatas mau kita jadikan test code seperti ini jadinya (masih di bahasa python):</p>
+<div><pre><code class="language-python line-numbers">results_title = driver.find_elements_by_css_selector('h3')
 assert len(results_title) &gt; 0
-</code></pre><p> Dimana kebutuhannya memang menghitung jumlah dari hasil pencarian yang didapatkan dengan asusi kata kunci tersebut akan menemukan data pada halaman hasil pencarian, makanya kita memerlukan selector pada element judul pencarian yaitu &lt;h3&gt;</p><p>Pada test framework yang besar umumnya mengadopsi design pattern "<a href="https://www.guru99.com/page-object-model-pom-page-factory-in-selenium-ultimate-guide.html" target="_blank" rel="noopener noreferrer">Page Object Model</a>" untuk mengelola selector / locator dan interaksi di halaman tertentu, ada juga sih yang mengadopsi <a href="https://www.infoq.com/articles/Beyond-Page-Objects-Test-Automation-Serenity-Screenplay" target="_blank" rel="noopener noreferrer">Screenplay Pattern</a> dimana sedikit ada perbedaan lokasi dimana selector disimpan pada kode automation testnya</p><h2>Hmm.. trus gimana cara saya menemukan selector?</h2><p>Sebenernya, cara untuk menentukan selector itu ada banyak, bisa dari element tag, id, class, attributes, isi text, bahkan relatif terhadap element parent/child/sibling juga bisa, bahkan yang saya sebutkan tadi bisa dikombinasikan juga loh. Wadidaw, banyak banget sih selector strategi yang bisa diterapkan. Dalam waktu dekat saya pun akan membuat video tutorial terkait berbagai penggunaan selector strategi, karena medium video lebih enak untuk langsung terjun praktek penggunaan, jadi jangan lupa <a href="https://www.youtube.com/channel/UCZVY3VNPkFs_iINTXEBWWgw" target="_blank" rel="noopener noreferrer">subscibe disini</a> ya gaes ahaha</p><p>Kita harus hati-hati juga, penulisan selector yang salah mengharuskan kita re-run automation test dan ini mubazir waktu loh. Kalau selectornya terlalu luas bisa salah dalam menentukan element yang harusnya kita dapat, kalau terlalu spesifik malah rawan breaking ketika ada yang berubah di struktur DOM nya, kalau terlalu panjang jadi sulit untuk di baca oleh yang lain. Jadi gimana donk?</p><p>Prinsip yang bisa dipegang dalam membuat selector / locator strategy yang saya pegang adalah <strong>Buatlah selector yang paling sederhana dalam menemukan keunikan element yang menjadi target kita</strong></p><p> Nah biasanya urutannya seperti ini:</p><ol><li>Element nya punya ID (yang unik) kah? =&gt; pake ID aja</li><li>CSS class nya spesifik dan cuma ada di element itu (untuk format) =&gt; pake CSS klo selector kalo gitu</li><li>Masih nyampur nih klo pake strategi 1 atau 2 =&gt; yaudah kombinasikan aja kedua nya, jadi "#id .class" atau ".class #id"</li><li>Waduh masih ga bisa nih, saya maunya element yang ke-4 dari filter 1-3 tadi =&gt; Oke tambahin posisi "#id li:nth-of-type(4)"</li><li>Tapi saya maunya element yang mengandung text tertentu =&gt; pake xpath klo gitu //button[text()[contains(.,'Sebut Saja Mawar')]]</li></ol><p>Di urutan 5 itu udah paling rawan banget deh, selector text emang bisa, tapi klo webnya support ganti bahasa bisa jadi ambyar itu loh. Lebih baik diobrolin lagi deh sama developer untuk mulai menuliskan identitas element yang kita mau jadi lebih unik lagi agar lebih testable.</p><p>Sebagai perbandingan, kita coba lihat web tokopedia, mereka memiliki element khusus yang memudahkan QA membuat locator yang stabil</p><figure class="post__image post__image--center"><img loading="lazy" src="https://fachrul.id/media/posts/33/contoh-tokopedia-element-data.jpg" alt="" width="1734" height="893" sizes="100vw" srcset="https://fachrul.id/media/posts/33/responsive/contoh-tokopedia-element-data-xs.jpg 300w, https://fachrul.id/media/posts/33/responsive/contoh-tokopedia-element-data-sm.jpg 480w, https://fachrul.id/media/posts/33/responsive/contoh-tokopedia-element-data-md.jpg 768w, https://fachrul.id/media/posts/33/responsive/contoh-tokopedia-element-data-lg.jpg 1024w, https://fachrul.id/media/posts/33/responsive/contoh-tokopedia-element-data-xl.jpg 1360w, https://fachrul.id/media/posts/33/responsive/contoh-tokopedia-element-data-2xl.jpg 1600w"><figcaption>Kode sumber Tokopedia menunjukan penggunaan data-testid sebagai penunjang selector strategy nya</figcaption></figure><p> </p><p>Data-* adalah attribute baru di HTML5 dan termasuk atribut yang valid, enaknya punya atribut khusus macam ini tuh klo ada perubahan desain di UI yang biasanya akan pakai ID atau CLASS, test nya akan tetap sama dan stabil karena tidak terganggu</p><p>Atau di bukalapak juga ada, bedanya disana pakai css class</p><figure class="post__image post__image--center"><img loading="lazy" src="https://fachrul.id/media/posts/33/contoh-element-qa-class-bukalapak.jpg" alt="" width="1281" height="888" sizes="100vw" srcset="https://fachrul.id/media/posts/33/responsive/contoh-element-qa-class-bukalapak-xs.jpg 300w, https://fachrul.id/media/posts/33/responsive/contoh-element-qa-class-bukalapak-sm.jpg 480w, https://fachrul.id/media/posts/33/responsive/contoh-element-qa-class-bukalapak-md.jpg 768w, https://fachrul.id/media/posts/33/responsive/contoh-element-qa-class-bukalapak-lg.jpg 1024w, https://fachrul.id/media/posts/33/responsive/contoh-element-qa-class-bukalapak-xl.jpg 1360w, https://fachrul.id/media/posts/33/responsive/contoh-element-qa-class-bukalapak-2xl.jpg 1600w"><figcaption>Kode sumber Bukalapak menunjukan penggunaan qa-* class sebagai penunjang selector strategy nya</figcaption></figure><h2>Jadi gimana sebenarnya selector / locator yang baik?</h2><p>Kalau menurut saya, automation test menjadi stabil, locator yang baik itu harus memenuhi kriteria seperti:</p><h4>Sederhana</h4></div><div>Semakin pendek penulisan query selector semakin baik dan stabil, contoh nya "#first_name".  Jangan gunakan attribut atau class yang merujuk ke css formating seperti class="col-sm" atau id="83924csdj" yang tampak seperti di generate otomatis oleh JS lib</div><div> </div><h4>Mudah dibaca</h4><div>Jangan menulis query selector yang panjang ataupun sulit dibaca seperti:</div><ul><li>html/body/div[1]/section/div[1]/div/div/div/div[1]/div/div/div/div/div[3]/div[1]/div/h4[1]/b</li><li>//*[@id="wakwaw"]//child::label//following-sibling::input[1]</li></ul><div> </div><h4>Semantic</h4><div>Artinya query yang dipilih harus sesuai kan dengan maksud element tersebut artinya lebih baik menuliskan selector seperti ini "input#kampus" daripada hanya "#kampus" agar lebih jelas lagi saat membaca kode yang di maksud id="kampus" adalah sebuah element input bukan div ataupun button</div><div> </div><h2>Jadi Kesimpulannya</h2><div>Selector strategy yang baik berperan besar terhadap stabilitas automation code kamu, jika aplikasi yang akan di test tidak memungkinkan membuat selector yang baik, artinya sudah waktunya mengangkat issue testablility aplikasi dengan developer ataupun stakeholder agar test menjadi lebih stabil maka diperlukan sedikit tunning lagi pada kode sumber aplikasinya<br><h2> Rujukan lebih lanjut</h2><ul><li><a href="https://blog.mozilla.org/fxtesteng/2013/09/26/writing-reliable-locators-for-selenium-and-webdriver-tests/">https://blog.mozilla.org/fxtesteng/2013/09/26/writing-reliable-locators-for-selenium-and-webdriver-tests/</a> </li><li><a href="https://www.guru99.com/locators-in-selenium-ide.html">https://www.guru99.com/locators-in-selenium-ide.html</a> </li><li><a href="https://www.guru99.com/xpath-selenium.html">https://www.guru99.com/xpath-selenium.html</a></li><li><a href="https://selenium-python.readthedocs.io/locating-elements.html">https://selenium-python.readthedocs.io/locating-elements.html</a></li><li><a href="https://gs.statcounter.com/browser-market-share">https://gs.statcounter.com/browser-market-share</a> Ternyata browser chrome masih paling banyak dipakai oleh orang seluruh dunia</li></ul><p> </p></div></div><footer class="wrapper post__footer"><p class="post__last-updated">This article was updated on 19 Mei 2020</p><ul class="post__tag"><li><a href="https://fachrul.id/celoteh/automation-python/">automation-python</a></li><li><a href="https://fachrul.id/celoteh/testergadungan/">Tester Gadungan</a></li><li><a href="https://fachrul.id/celoteh/tutorials/">tutorials</a></li></ul>false<div class="post__bio bio"><img src="https://fachrul.id/media/website/fachrulch-profile.jpg" loading="lazy" height="1024" width="1024" class="bio__avatar" alt="Fachrul Choliluddin"><div><h3 class="bio__name"><a href="https://fachrul.id/authors/fachrulch/" rel="author">Fachrul Choliluddin</a></h3><div class="bio__desc"><p>Seorang Software Tester yang memiliki pengalaman lebih dari 10 tahun dalam peneliti kualitas perangkat lunak. Aktif berbagi pengetahuan dalam Software Quality Development Engineer in Test, Agile Testing, atau belajar membuat automation test dengan Selenium, Appium, API test dan bahasa pemrograman Python</p></div></div></div></footer></article><nav class="post__nav"><div class="post__nav-inner"><div class="post__nav-prev"><svg width="1.041em" height="0.416em" aria-hidden="true"><use xlink:href="https://fachrul.id/assets/svg/svg-map.svg#arrow-prev"/></svg> <a href="https://fachrul.id/memulai-automation-test-selenium-python-bagian-1/" class="post__nav-link" rel="prev"><span>Previous</span> Memulai Automation Test Selenium + Python (bagian 1)</a></div><div class="post__nav-next"><a href="https://fachrul.id/belajar-pytest-framework-1/" class="post__nav-link" rel="next"><span>Next</span> Pytest: Memahami Cara Kerja Testing Framework (bagian 1) </a><svg width="1.041em" height="0.416em" aria-hidden="true"><use xlink:href="https://fachrul.id/assets/svg/svg-map.svg#arrow-next"/></svg></div></div></nav><div class="post__related related"><div class="wrapper"><h2 class="h5 related__title">You should also read:</h2><article class="related__item"><div class="feed__meta"><time datetime="2020-05-07T21:07" class="feed__date">7 Mei 2020</time></div><h3 class="h1"><a href="https://fachrul.id/mau-belajar-automation-test-dengan-python-mulai-dari-mana/">Mau Belajar Automation Test dengan Python, Mulai Dari Mana?</a></h3></article><article class="related__item"><div class="feed__meta"><time datetime="2020-04-27T12:24" class="feed__date">27 Apr 2020</time></div><h3 class="h1"><a href="https://fachrul.id/catat-ini-berbagai-command-adb-yang-berguna-untuk-automation-tester/">Catat ini! berbagai command ADB yang berguna untuk automation tester</a></h3></article><article class="related__item"><div class="feed__meta"><time datetime="2019-05-17T14:00" class="feed__date">17 Mei 2019</time></div><h3 class="h1"><a href="https://fachrul.id/kiat-memilih-bahasa-pemrograman-untuk-automation-test/">Kiat memilih bahasa pemrograman untuk automation test</a></h3></article></div></div><div class="post__comments"><div class="wrapper"><div class="comments"><div class="comments-wrapper"><h2>Comments</h2><div class="fb-comments" data-href="https://fachrul.id/selector-locator-strategy-yang-baik/" data-width="100%" data-colorscheme="dark" data-lazy="true" data-order-by="reverse_time" data-numposts="5"></div><noscript>Please enable JS to use the comments form.</noscript></div></div><div id="fb-root"></div><script type="text/javascript" async defer="defer" crossorigin="anonymous" src="https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v12.0">nonce="n4mWU9e7"</script></div></div></main><footer class="footer"><div class="footer__social"><a href="https://twitter.com/fachrulch" aria-label="Twitter"><svg><use xlink:href="https://fachrul.id/assets/svg/svg-map.svg#twitter"/></svg> </a><a href="https://instagram.com/fachrulch" aria-label="Instagram"><svg><use xlink:href="https://fachrul.id/assets/svg/svg-map.svg#instagram"/></svg> </a><a href="https://www.linkedin.com/in/fachrul/" aria-label="LinkedIn"><svg><use xlink:href="https://fachrul.id/assets/svg/svg-map.svg#linkedin"/></svg> </a><a href="https://www.youtube.com/@ngetest" aria-label="Youtube"><svg><use xlink:href="https://fachrul.id/assets/svg/svg-map.svg#youtube"/></svg></a></div><div class="footer__copyright"><p>(c) 2019-2023 - @FachrulCH, powered by Publii</p></div><button onclick="backToTopFunction()" id="backToTop" class="footer__bttop" aria-label="Back to top" title="Back to top"><svg><use xlink:href="https://fachrul.id/assets/svg/svg-map.svg#toparrow"/></svg></button></footer></div><script defer="defer" src="https://fachrul.id/assets/js/scripts.min.js?v=f47c11534595205f20935f0db2a62a85"></script><script>window.publiiThemeMenuConfig={mobileMenuMode:'overlay',animationSpeed:300,submenuWidth: 'auto',doubleClickTime:500,mobileMenuExpandableSubmenus:true,relatedContainerForOverlayMenuSelector:'.top'};</script><script>var images = document.querySelectorAll('img[loading]');
-        for (var i = 0; i < images.length; i++) {
-            if (images[i].complete) {
-                images[i].classList.add('is-loaded');
-            } else {
-                images[i].addEventListener('load', function () {
-                    this.classList.add('is-loaded');
-                }, false);
-            }
-        }</script><script defer="defer" src="https://fachrul.id/media/plugins/syntaxHighlighter/prism.js"></script><script defer="defer" src="https://fachrul.id/media/plugins/syntaxHighlighter/prism-line-numbers.min.js"></script><script defer="defer" src="https://fachrul.id/media/plugins/syntaxHighlighter/clipboard.min.js"></script><script defer="defer" src="https://fachrul.id/media/plugins/syntaxHighlighter/prism-copy-to-clipboard.min.js"></script><script defer="defer" src="https://fachrul.id/media/plugins/syntaxHighlighter/prism-inline-color.min.js"></script></body></html>
+</code></pre><p> Dimana kebutuhannya memang menghitung jumlah dari hasil pencarian yang didapatkan dengan asusi kata kunci tersebut akan menemukan data pada halaman hasil pencarian, makanya kita memerlukan selector pada element judul pencarian yaitu &lt;h3&gt;</p><p>Pada test framework yang besar umumnya mengadopsi design pattern "<a href="https://www.guru99.com/page-object-model-pom-page-factory-in-selenium-ultimate-guide.html" rel="noopener noreferrer" target="_blank">Page Object Model</a>" untuk mengelola selector / locator dan interaksi di halaman tertentu, ada juga sih yang mengadopsi <a href="https://www.infoq.com/articles/Beyond-Page-Objects-Test-Automation-Serenity-Screenplay" rel="noopener noreferrer" target="_blank">Screenplay Pattern</a> dimana sedikit ada perbedaan lokasi dimana selector disimpan pada kode automation testnya</p><h2>Hmm.. trus gimana cara saya menemukan selector?</h2><p>Sebenernya, cara untuk menentukan selector itu ada banyak, bisa dari element tag, id, class, attributes, isi text, bahkan relatif terhadap element parent/child/sibling juga bisa, bahkan yang saya sebutkan tadi bisa dikombinasikan juga loh. Wadidaw, banyak banget sih selector strategi yang bisa diterapkan. Dalam waktu dekat saya pun akan membuat video tutorial terkait berbagai penggunaan selector strategi, karena medium video lebih enak untuk langsung terjun praktek penggunaan, jadi jangan lupa <a href="https://www.youtube.com/channel/UCZVY3VNPkFs_iINTXEBWWgw" rel="noopener noreferrer" target="_blank">subscibe disini</a> ya gaes ahaha</p><p>Kita harus hati-hati juga, penulisan selector yang salah mengharuskan kita re-run automation test dan ini mubazir waktu loh. Kalau selectornya terlalu luas bisa salah dalam menentukan element yang harusnya kita dapat, kalau terlalu spesifik malah rawan breaking ketika ada yang berubah di struktur DOM nya, kalau terlalu panjang jadi sulit untuk di baca oleh yang lain. Jadi gimana donk?</p><p>Prinsip yang bisa dipegang dalam membuat selector / locator strategy yang saya pegang adalah <strong>Buatlah selector yang paling sederhana dalam menemukan keunikan element yang menjadi target kita</strong></p><p> Nah biasanya urutannya seperti ini:</p><ol><li>Element nya punya ID (yang unik) kah? =&gt; pake ID aja</li><li>CSS class nya spesifik dan cuma ada di element itu (untuk format) =&gt; pake CSS klo selector kalo gitu</li><li>Masih nyampur nih klo pake strategi 1 atau 2 =&gt; yaudah kombinasikan aja kedua nya, jadi "#id .class" atau ".class #id"</li><li>Waduh masih ga bisa nih, saya maunya element yang ke-4 dari filter 1-3 tadi =&gt; Oke tambahin posisi "#id li:nth-of-type(4)"</li><li>Tapi saya maunya element yang mengandung text tertentu =&gt; pake xpath klo gitu //button[text()[contains(.,'Sebut Saja Mawar')]]</li></ol><p>Di urutan 5 itu udah paling rawan banget deh, selector text emang bisa, tapi klo webnya support ganti bahasa bisa jadi ambyar itu loh. Lebih baik diobrolin lagi deh sama developer untuk mulai menuliskan identitas element yang kita mau jadi lebih unik lagi agar lebih testable.</p><p>Sebagai perbandingan, kita coba lihat web tokopedia, mereka memiliki element khusus yang memudahkan QA membuat locator yang stabil</p><figure class="post__image post__image--center"><img alt="" height="893" loading="lazy" sizes="100vw" src="/media/posts/33/contoh-tokopedia-element-data.jpg" srcset="/media/posts/33/responsive/contoh-tokopedia-element-data-xs.jpg 300w, /media/posts/33/responsive/contoh-tokopedia-element-data-sm.jpg 480w, /media/posts/33/responsive/contoh-tokopedia-element-data-md.jpg 768w, /media/posts/33/responsive/contoh-tokopedia-element-data-lg.jpg 1024w, /media/posts/33/responsive/contoh-tokopedia-element-data-xl.jpg 1360w, /media/posts/33/responsive/contoh-tokopedia-element-data-2xl.jpg 1600w" width="1734"/><figcaption>Kode sumber Tokopedia menunjukan penggunaan data-testid sebagai penunjang selector strategy nya</figcaption></figure><p> </p><p>Data-* adalah attribute baru di HTML5 dan termasuk atribut yang valid, enaknya punya atribut khusus macam ini tuh klo ada perubahan desain di UI yang biasanya akan pakai ID atau CLASS, test nya akan tetap sama dan stabil karena tidak terganggu</p><p>Atau di bukalapak juga ada, bedanya disana pakai css class</p><figure class="post__image post__image--center"><img alt="" height="888" loading="lazy" sizes="100vw" src="/media/posts/33/contoh-element-qa-class-bukalapak.jpg" srcset="/media/posts/33/responsive/contoh-element-qa-class-bukalapak-xs.jpg 300w, /media/posts/33/responsive/contoh-element-qa-class-bukalapak-sm.jpg 480w, /media/posts/33/responsive/contoh-element-qa-class-bukalapak-md.jpg 768w, /media/posts/33/responsive/contoh-element-qa-class-bukalapak-lg.jpg 1024w, /media/posts/33/responsive/contoh-element-qa-class-bukalapak-xl.jpg 1360w, /media/posts/33/responsive/contoh-element-qa-class-bukalapak-2xl.jpg 1600w" width="1281"/><figcaption>Kode sumber Bukalapak menunjukan penggunaan qa-* class sebagai penunjang selector strategy nya</figcaption></figure><h2>Jadi gimana sebenarnya selector / locator yang baik?</h2><p>Kalau menurut saya, automation test menjadi stabil, locator yang baik itu harus memenuhi kriteria seperti:</p><h4>Sederhana</h4></div>
+
+<div>Semakin pendek penulisan query selector semakin baik dan stabil, contoh nya "#first_name".  Jangan gunakan attribut atau class yang merujuk ke css formating seperti class="col-sm" atau id="83924csdj" yang tampak seperti di generate otomatis oleh JS lib</div>
+
+<div> </div>
+
+<h4>Mudah dibaca</h4>
+<div>Jangan menulis query selector yang panjang ataupun sulit dibaca seperti:</div>
+
+<ul>
+<li>html/body/div[1]/section/div[1]/div/div/div/div[1]/div/div/div/div/div[3]/div[1]/div/h4[1]/b</li>
+<li>//*[@id="wakwaw"]//child::label//following-sibling::input[1]</li>
+</ul>
+<div> </div>
+
+<h4>Semantic</h4>
+<div>Artinya query yang dipilih harus sesuai kan dengan maksud element tersebut artinya lebih baik menuliskan selector seperti ini "input#kampus" daripada hanya "#kampus" agar lebih jelas lagi saat membaca kode yang di maksud id="kampus" adalah sebuah element input bukan div ataupun button</div>
+
+<div> </div>
+
+<h2>Jadi Kesimpulannya</h2>
+<div>Selector strategy yang baik berperan besar terhadap stabilitas automation code kamu, jika aplikasi yang akan di test tidak memungkinkan membuat selector yang baik, artinya sudah waktunya mengangkat issue testablility aplikasi dengan developer ataupun stakeholder agar test menjadi lebih stabil maka diperlukan sedikit tunning lagi pada kode sumber aplikasinya<br/><h2> Rujukan lebih lanjut</h2><ul><li><a href="https://blog.mozilla.org/fxtesteng/2013/09/26/writing-reliable-locators-for-selenium-and-webdriver-tests/">https://blog.mozilla.org/fxtesteng/2013/09/26/writing-reliable-locators-for-selenium-and-webdriver-tests/</a> </li><li><a href="https://www.guru99.com/locators-in-selenium-ide.html">https://www.guru99.com/locators-in-selenium-ide.html</a> </li><li><a href="https://www.guru99.com/xpath-selenium.html">https://www.guru99.com/xpath-selenium.html</a></li><li><a href="https://selenium-python.readthedocs.io/locating-elements.html">https://selenium-python.readthedocs.io/locating-elements.html</a></li><li><a href="https://gs.statcounter.com/browser-market-share">https://gs.statcounter.com/browser-market-share</a> Ternyata browser chrome masih paling banyak dipakai oleh orang seluruh dunia</li></ul><p> </p></div>
+  </div>
+  <footer class="post-foot">
+    <p class="meta">Diperbarui 19 Mei 2020</p>
+    <div class="bio">
+      <img src="/media/website/fachrulch-profile.jpg" alt="" width="56" height="56" loading="lazy">
+      <div>
+        <p class="bio__name"><a href="/authors/fachrulch/" rel="author">Fachrul Choliluddin</a></p>
+        <p>Seorang Software Tester yang memiliki pengalaman lebih dari 10 tahun dalam peneliti kualitas perangkat lunak. Aktif berbagi pengetahuan dalam Software Quality Development Engineer in Test, Agile Testing, atau belajar membuat automation test dengan Selenium, Appium, API test dan bahasa pemrograman Python</p>
+      </div>
+    </div>
+  </footer>
+</article>
+<nav class="post-nav" aria-label="Tulisan lain">
+<a href="/memulai-automation-test-selenium-python-bagian-1/" rel="prev"><span>← Sebelumnya</span>Memulai Automation Test Selenium + Python (bagian 1)</a><a class="post-nav__next" href="/belajar-pytest-framework-1/" rel="next"><span>Berikutnya →</span>Pytest: Memahami Cara Kerja Testing Framework (bagian 1)</a></nav>
+<section class="comments" aria-label="Komentar">
+  <button type="button" class="button" id="load-comments">Tampilkan komentar</button>
+  <div class="fb-comments" data-href="https://fachrul.id/selector-locator-strategy-yang-baik/" data-width="100%" data-colorscheme="dark" data-lazy="true" data-order-by="reverse_time" data-numposts="5"></div>
+  <div id="fb-root"></div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <ul class="footer-links">
+      <li><a href="https://twitter.com/fachrulch" rel="me noopener">Twitter</a></li>
+      <li><a href="https://instagram.com/fachrulch" rel="me noopener">Instagram</a></li>
+      <li><a href="https://www.linkedin.com/in/fachrul/" rel="me noopener">LinkedIn</a></li>
+      <li><a href="https://www.youtube.com/@ngetest" rel="me noopener">YouTube</a></li>
+      <li><a href="/feed.xml">RSS</a></li>
+      <li><a href="/search.html">Cari</a></li>
+    </ul>
+    <p>(c) 2019-2026 - @FachrulCH</p>
+  </div>
+</footer>
+<script>
+document.getElementById('load-comments').addEventListener('click',function(){
+  this.remove();
+  var s=document.createElement('script');
+  s.async=true;s.defer=true;s.crossOrigin='anonymous';
+  s.src='https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v12.0';
+  document.body.appendChild(s);
+});
+</script>
+</body>
+</html>

@@ -1,21 +1,404 @@
-<!DOCTYPE html><html lang="id-ID"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Yuk Belajar Cara Membuat API Test Automation Framework Python (Bagian 1) - Fachrul Choliluddin</title><meta name="description" content="Panduan membuat automation framework dengan python untuk pengujian Rest API"><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="stylesheet" href="https://fachrul.id/media/plugins/syntaxHighlighter/prism-black.css"><link rel="stylesheet" href="https://fachrul.id/media/plugins/syntaxHighlighter/prism-inline-color.css"><meta name="theme-color" content="#17181E" media="(prefers-color-scheme: dark)"><meta name="theme-color" content="#D73A42" media="(prefers-color-scheme: light)"><meta name="msapplication-navbutton-color" content="#D73A42"><meta name="apple-mobile-web-app-status-bar-style" content="#D73A42"><link rel="canonical" href="https://fachrul.id/yuk-belajar-cara-membuat-api-test-automation-framework-python-bagian-1/"><link rel="alternate" type="application/atom+xml" href="https://fachrul.id/feed.xml"><link rel="alternate" type="application/json" href="https://fachrul.id/feed.json"><meta property="og:title" content="Yuk Belajar Cara Membuat API Test Automation Framework Python (Bagian 1)"><meta property="og:image" content="https://fachrul.id/media/posts/41/pexels-zachary-debottis-1888883.jpg"><meta property="og:image:width" content="1280"><meta property="og:image:height" content="853"><meta property="og:site_name" content="Catatan celoteh @FachrulCH"><meta property="og:description" content="Panduan membuat automation framework dengan python untuk pengujian Rest API"><meta property="og:url" content="https://fachrul.id/yuk-belajar-cara-membuat-api-test-automation-framework-python-bagian-1/"><meta property="og:type" content="article"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@fachrulch"><meta name="twitter:title" content="Yuk Belajar Cara Membuat API Test Automation Framework Python (Bagian 1)"><meta name="twitter:description" content="Panduan membuat automation framework dengan python untuk pengujian Rest API"><meta name="twitter:image" content="https://fachrul.id/media/posts/41/pexels-zachary-debottis-1888883.jpg"><link rel="shortcut icon" href="https://fachrul.id/media/website/favicon.ico" type="image/x-icon"><link rel="stylesheet" href="https://fachrul.id/assets/css/style.css?v=a96f3b7a53ff4409f99842b2c5a835a9"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://fachrul.id/yuk-belajar-cara-membuat-api-test-automation-framework-python-bagian-1/"},"headline":"Yuk Belajar Cara Membuat API Test Automation Framework Python (Bagian 1)","datePublished":"2021-01-29T11:00","dateModified":"2021-12-31T06:55","image":{"@type":"ImageObject","url":"https://fachrul.id/media/posts/41/pexels-zachary-debottis-1888883.jpg","height":853,"width":1280},"description":"Panduan membuat automation framework dengan python untuk pengujian Rest API","author":{"@type":"Person","name":"Fachrul Choliluddin","url":"https://fachrul.id/authors/fachrulch/"},"publisher":{"@type":"Organization","name":"Fachrul Choliluddin","logo":{"@type":"ImageObject","url":"https://fachrul.id/media/website/profile-newletter-3.png","height":800,"width":800}}}</script><noscript><style>img[loading] {
-                    opacity: 1;
-                }</style></noscript><script async src="https://www.googletagmanager.com/gtag/js?id=G-3KW3Y8W8ET"></script><script>window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<!DOCTYPE html>
+<html lang="id-ID">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Yuk Belajar Cara Membuat API Test Automation Framework Python (Bagian 1) - Fachrul Choliluddin</title>
+<meta name="description" content="Panduan membuat automation framework dengan python untuk pengujian Rest API">
+<meta name="theme-color" content="#17181e">
+<meta name="color-scheme" content="dark">
+<link rel="canonical" href="https://fachrul.id/yuk-belajar-cara-membuat-api-test-automation-framework-python-bagian-1/">
+<link rel="alternate" type="application/atom+xml" href="https://fachrul.id/feed.xml">
+<link rel="alternate" type="application/json" href="https://fachrul.id/feed.json">
+<meta property="og:title" content="Yuk Belajar Cara Membuat API Test Automation Framework Python (Bagian 1)">
+<meta property="og:image" content="https://fachrul.id/media/posts/41/pexels-zachary-debottis-1888883.jpg">
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="853">
+<meta property="og:site_name" content="Catatan celoteh @FachrulCH">
+<meta property="og:description" content="Panduan membuat automation framework dengan python untuk pengujian Rest API">
+<meta property="og:url" content="https://fachrul.id/yuk-belajar-cara-membuat-api-test-automation-framework-python-bagian-1/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@fachrulch">
+<meta name="twitter:title" content="Yuk Belajar Cara Membuat API Test Automation Framework Python (Bagian 1)">
+<meta name="twitter:description" content="Panduan membuat automation framework dengan python untuk pengujian Rest API">
+<meta name="twitter:image" content="https://fachrul.id/media/posts/41/pexels-zachary-debottis-1888883.jpg">
+<link rel="icon" href="/media/website/favicon.ico" type="image/x-icon">
+<script type="application/ld+json">{"@context": "http://schema.org", "@type": "Article", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://fachrul.id/yuk-belajar-cara-membuat-api-test-automation-framework-python-bagian-1/"}, "headline": "Yuk Belajar Cara Membuat API Test Automation Framework Python (Bagian 1)", "datePublished": "2021-01-29T11:00", "dateModified": "2021-12-31T06:55", "image": {"@type": "ImageObject", "url": "https://fachrul.id/media/posts/41/pexels-zachary-debottis-1888883.jpg", "height": 853, "width": 1280}, "description": "Panduan membuat automation framework dengan python untuk pengujian Rest API", "author": {"@type": "Person", "name": "Fachrul Choliluddin", "url": "https://fachrul.id/authors/fachrulch/"}, "publisher": {"@type": "Organization", "name": "Fachrul Choliluddin", "logo": {"@type": "ImageObject", "url": "https://fachrul.id/media/website/profile-newletter-3.png", "height": 800, "width": 800}}}</script>
+<style>:root{--bg:#17181e;--surface:#20212a;--surface-2:#272934;--border:#30323f;--text:#e4e4e7;--heading:#f4f4f5;--muted:#a1a1aa;--accent:#ff7a80;--brand:#d73a42;--code-bg:#0d1117;--radius:10px;--measure:42rem;--font:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:400 1.0625rem/1.7 var(--font);border-top:3px solid var(--brand);overflow-wrap:break-word}
+a{color:var(--accent);text-underline-offset:.18em;text-decoration-thickness:1px}
+a:hover{text-decoration-thickness:2px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+img,video,iframe,svg{max-width:100%}
+img{height:auto}
+.wrap{max-width:var(--measure);margin:0 auto;padding:0 1rem}
+.skip{position:absolute;left:-999px;top:0;background:var(--surface);padding:.5rem 1rem;z-index:9}
+.skip:focus{left:0}
+h1,h2,h3,h4,h5,h6{color:var(--heading);line-height:1.25;margin:2rem 0 .75rem;font-weight:700;letter-spacing:-.01em}
+.meta,.count,.eyebrow{color:var(--muted);font-size:.875rem}
+.count{font-weight:400}
+.eyebrow{margin:0 0 .25rem;text-transform:uppercase;letter-spacing:.08em;font-weight:600}
+.eyebrow a{color:var(--muted)}
 
-  gtag('config', 'G-3KW3Y8W8ET');</script></head><body><div class="site-container"><header class="top" id="js-header"><a class="logo" href="https://fachrul.id/"><img src="https://fachrul.id/media/website/profile-newletter-3.png" alt="Catatan celoteh @FachrulCH" width="800" height="800"></a><nav class="navbar js-navbar"><button class="navbar__toggle js-toggle" aria-label="Menu" aria-haspopup="true" aria-expanded="false"><span class="navbar__toggle-box"><span class="navbar__toggle-inner">Menu</span></span></button><ul class="navbar__menu"><li><a href="https://fachrul.id/" target="_self">Beranda</a></li><li><a href="https://fachrul.id/daftar-isi/" target="_self">Daftar Isi</a></li><li><a href="https://fachrul.id/belajar-software-testing-qa-untuk-pemula-sampai-mahir/" target="_blank">Belajar QA</a></li><li><a href="https://www.youtube.com/@ngetest" target="_blank">YouTube</a></li><li><a href="https://fachrul.id/about-fachrulch/" target="_self">Tentang Saya</a></li></ul></nav><div class="search"><div class="search__overlay js-search-overlay"><div class="search__overlay-inner"><button class="search__close js-search-close" aria-label="Close">Close</button></div></div><button class="search__btn js-search-btn" aria-label="Search"><svg role="presentation" focusable="false"><use xlink:href="https://fachrul.id/assets/svg/svg-map.svg#search"/></svg></button></div></header><main><article class="post"><div class="hero"><figure class="hero__image hero__image--overlay"><img src="https://fachrul.id/media/posts/41/pexels-zachary-debottis-1888883.jpg" loading="eager" height="853" width="1280" alt=""><figcaption>Foto oleh Zachary DeBottis dari Pexels Pexels</figcaption></figure><header class="hero__content"><div class="wrapper"><div class="post__meta"><time datetime="2021-01-29T11:00">29 Jan 2021</time></div><h1>Yuk Belajar Cara Membuat API Test Automation Framework Python (Bagian 1)</h1><div class="post__meta post__meta--author"><img src="https://fachrul.id/media/website/fachrulch-profile.jpg" loading="eager" height="1024" width="1024" class="post__author-thumb" alt="Fachrul Choliluddin"> <a href="https://fachrul.id/authors/fachrulch/" class="feed__author">Fachrul Choliluddin</a></div></div></header></div><div class="wrapper post__entry"><p>Hi Kawan 👋,</p><p>Di kesempatan kali ini saya akan membuat rangkaian post yang berisi tutorial cara membuat API Test Framework dengan Python dari dasar sampai jadi sebuah framework testing yang siap di integrasikan dengan pipeline CI/CD 😎🤘</p><p>Oke setiap post akan berisi sebuah topik tahapan pelajaran dari dasar disetiap aspeknya, semoga saja ini bisa bermanfaat bagi teman-teman yang mulai belajar menekuni dunia software quality assurance / Test engineering ya, harapan saya, tutorial ini bisa membantu teman-teman untuk memahami approach API testing, dan bisa mempermudah implementasi API test framework dengan python di tempat kerja kalian </p><p>Kurang lebih rangkaian posting akan seperti:</p><ul><li><a href="https://fachrul.id/yuk-belajar-cara-membuat-api-test-automation-framework-python-bagian-1/" target="_blank" rel="noopener noreferrer">Pelajaran 1:  Setup dan pengenalan HTTP requests</a></li><li><a href="https://fachrul.id/api-test-automation-framework-python-bagian-2/" target="_blank" rel="noopener noreferrer">Pelajaran 2: Pengujian dengan assert dan pytest</a></li><li><a href="https://fachrul.id/api-test-framework-python-struktur-framework-dan-fluent-assertion-bagian-3/" target="_blank" rel="noopener noreferrer">Pelajaran 3: Struktur awal test framework dan library fluent assertion</a></li><li><a href="https://fachrul.id/refactoring-dan-base-api-api-test-framework-python-bagian-4/" target="_blank" rel="noopener noreferrer" style="font-family: -apple-system, BlinkMacSystemFont, Arial, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: inherit;">Pelajaran 4: Refaktoring dan base helper</a></li><li><a href="https://fachrul.id/reporting-api-test-framework-python-bagian-5/" target="_blank" rel="noopener noreferrer" style="font-family: -apple-system, BlinkMacSystemFont, Arial, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: inherit;">Pelajaran 5: Reporting</a></li><li><a href="https://fachrul.id/json-schema-validation-api-test-framework-python-extra-bonus/" target="_blank" rel="noopener noreferrer">Extra: Penambahan schema validation dan running test in parallel</a></li></ul><p>Kamu bisa berkomentar atau bertanya di pada bagian komentar post tersebut, insya alloh nanti akan saya jawab sebisanya ehehe, atau bisa juga DM dan follow @fachrulch untuk kritik dan saran nya dalam pembahasan ini </p><hr><h2> Apa itu API sih?</h2><p>Sebenernya saya ga yakin bisa menjelaskannya dengan benar, mungkin bisa kamu googling aja nanti ya klo masih belum jelas dari penjelasan saya ehehe, jadi kurang lebih gini:</p><figure class="post__image--left"><img loading="lazy" src="https://fachrul.id/media/posts/41/api-1.png" alt="" width="800" height="454" sizes="100vw" srcset="https://fachrul.id/media/posts/41/responsive/api-1-xs.png 300w, https://fachrul.id/media/posts/41/responsive/api-1-sm.png 480w, https://fachrul.id/media/posts/41/responsive/api-1-md.png 768w, https://fachrul.id/media/posts/41/responsive/api-1-lg.png 1024w, https://fachrul.id/media/posts/41/responsive/api-1-xl.png 1360w, https://fachrul.id/media/posts/41/responsive/api-1-2xl.png 1600w"></figure>API (Application Programming Interface) atau juga seringkali dikenal dengan webservice adalah bentuk komunikasi antar sistem, sederhananya, API menyediakan serangkaian cara/kontrak bagaimana sebuah informasi bisa ditransfer/diakses.<p></p><p>API ada dua kategori, yaitu SOAP dan REST, SOAPmenggunakan format XML yang membungkus informasi data nya, sejauh yg saya tau soap masih umum dipergunakan oleh perbankan sampai saat ini, sedangkan REST sudah umum dipakai oleh khalayak ramai, karena lebih ringan dalam hal ukuran data yang disimpan dalam format JSON, dan umumnya permintaan dan penerimaan data menggunakan protokol HTTP, biasanya menggunakan verbs GET, POST, PUT dan DELETE dalam berinteraksi.</p><p>Di kesempatan ini kita akan fokus dalam pembuatan API test framework untuk RESTful API ya, tools yang sering dipergunakan dalam berinteraksi dengan API adalah Postman</p><figure class="post__image post__image--full"><img loading="lazy" src="https://fachrul.id/media/posts/41/rest-api-contoh-sederhana.png" alt="" width="1280" height="757" sizes="100vw" srcset="https://fachrul.id/media/posts/41/responsive/rest-api-contoh-sederhana-xs.png 300w, https://fachrul.id/media/posts/41/responsive/rest-api-contoh-sederhana-sm.png 480w, https://fachrul.id/media/posts/41/responsive/rest-api-contoh-sederhana-md.png 768w, https://fachrul.id/media/posts/41/responsive/rest-api-contoh-sederhana-lg.png 1024w, https://fachrul.id/media/posts/41/responsive/rest-api-contoh-sederhana-xl.png 1360w, https://fachrul.id/media/posts/41/responsive/rest-api-contoh-sederhana-2xl.png 1600w"><figcaption>RestAPI secara sederhana</figcaption></figure><p> </p><h2>Kenapa Perlu Membuat API test automation?</h2><p>Test functional dari API sebenarnya lewat postman juga bisa, entah manually atau automation test disana, memiliki functional API automation adalah langkah besar dalam pengujian yang cepat terhadap sistem, apalagi API cenderung lebih stabil daripada UI automation test. Dampak yang bisa kita harapkan dari memiliki automation test pada API/webservice adalah kita bisa menguji user flow, business logic dengan cepat dan stabil.</p><p>Nah kita akan membuat API test automation dengan python, walaupun sebenarnya bisa juga dibuat dengan bahasa pemrograman lain seperti java, kotlin, javascript, dll. tetapi menurut saya python lebih sederhana dan mudah dipelajari oleh pemula, juga sangat powerful bagi tingkat mahir sekalipun, so i think it is good investment</p><h2>OK, terus apa yang diperlukan dalam pengembangan API test framework dengan Python?</h2><p>Udah siap? oke kita list dulu ya apa saja yang diperlukan dalam pengembangan API test framework dengan bahas python</p><ol><li>Komputer kamu sudah terinstal python (saran saya sudah versi 3.8 keatas ya)</li><li>Install code editor, saran saya sih menggunakan PyCharm, tapi klo mau yg lebih ringan boleh pake Visual Code ataupun Notepad++ juga bisa harusnya</li></ol><hr><h2><figure class="post__image--center"><img loading="lazy" src="https://fachrul.id/media/posts/41/airportgap.png" alt="" width="500" height="592" sizes="100vw" srcset="https://fachrul.id/media/posts/41/responsive/airportgap-xs.png 300w, https://fachrul.id/media/posts/41/responsive/airportgap-sm.png 480w, https://fachrul.id/media/posts/41/responsive/airportgap-md.png 768w, https://fachrul.id/media/posts/41/responsive/airportgap-lg.png 1024w, https://fachrul.id/media/posts/41/responsive/airportgap-xl.png 1360w, https://fachrul.id/media/posts/41/responsive/airportgap-2xl.png 1600w"></figure></h2><h2>Studi Kasus</h2><p>Oke, sepertinya kita akan bahas dulu aplikasi apa yang akan menjadi target kita dalam pengembangan API test framework, sebagai contoh kita akan mengautomasi pengujian pada <a href="https://airportgap.dev-tester.com">https://airportgap.dev-tester.com</a> sebuah dummy app yang dikhususkan bagi teman-teman yang berlatih dalam mengasah automation skill pada API</p><p>Kenapa saya pilih ini? karena koleksi API disini kurang lebih akan mirip dengan apa yang kamu punya di kantor, ada API yang bisa diakses dengan GET, POST, DELETE dan PUT/PATCH, jadi bisa dikatakan mini project API, apalagi dokumentasinya API juga sudah cukup jelas ya, bisa diakses disini <a href="https://airportgap.dev-tester.com/docs">https://airportgap.dev-tester.com/docs</a></p><figure class="post__image--left"><img loading="lazy" src="https://fachrul.id/media/posts/41/374px-Requests_Python_Logo.png" alt="" width="374" height="480" sizes="100vw" srcset="https://fachrul.id/media/posts/41/responsive/374px-Requests_Python_Logo-xs.png 300w, https://fachrul.id/media/posts/41/responsive/374px-Requests_Python_Logo-sm.png 480w, https://fachrul.id/media/posts/41/responsive/374px-Requests_Python_Logo-md.png 768w, https://fachrul.id/media/posts/41/responsive/374px-Requests_Python_Logo-lg.png 1024w, https://fachrul.id/media/posts/41/responsive/374px-Requests_Python_Logo-xl.png 1360w, https://fachrul.id/media/posts/41/responsive/374px-Requests_Python_Logo-2xl.png 1600w"></figure><h2>Pelajaran 1 - pengenalan HTTP requests</h2><p>Siap kita mulai ya, untuk mengakses API/webservice kita perlu sebuah library yang akan memudahkan kita dalam berinteraksi dengan API, yaitu menggunakan library requests, cara menginstall library ini adalah dengan command</p><pre>pip install requests</pre><p>Dokumentasi requests menurut saya sangat jelas dan keren, coba saja lihat <a href="https://requests.readthedocs.io/en/master/">https://requests.readthedocs.io/en/master/</a> , kita bisa pelajari lebih lanjut fitur dan kemampuan requests disana ya, tapi secara natural sangat mudah diingat kok method dan fungsi nya</p><p>Lanjut,, kita akan mengakses informasi daftar airports yand bisa diakses dengan melakukan request GET pada endpoint `/api/airports` dan melihat apa saja informasi yang terkandung di dalamnya</p><p>Untuk itu kita harus membuat file python baru di folder/direktori yang sudah kamu pilih ya</p><p>Di baris awal kita perlu melakukan import library request dahulu dengan menambahkan kode `import requests` lalu di baris berikutnya kita akan menggunakan library requests dalam mengakses API dengan kode</p><pre><code class="language-python line-numbers">import requests
+/* header & footer */
+.site-header{border-bottom:1px solid var(--border)}
+.site-header__inner{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.5rem 1rem;padding-top:.85rem;padding-bottom:.85rem}
+.brand{display:flex;align-items:center;gap:.6rem;color:var(--heading);text-decoration:none;font-weight:700}
+.brand img{border-radius:50%;width:36px;height:36px;object-fit:cover}
+.nav{display:flex;flex-wrap:wrap;gap:.25rem 1rem;list-style:none;margin:0;padding:0;font-size:.9375rem}
+.nav a{color:var(--text);text-decoration:none;display:inline-block;padding:.35rem 0}
+.nav a:hover{color:var(--accent)}
+main{padding-bottom:3rem}
+.site-footer{border-top:1px solid var(--border);color:var(--muted);font-size:.875rem;padding:1.5rem 0 2rem}
+.site-footer p{margin:.75rem 0 0}
+.footer-links{display:flex;flex-wrap:wrap;gap:.25rem 1.1rem;list-style:none;margin:0;padding:0}
+.footer-links a{color:var(--text);display:inline-block;padding:.25rem 0}
 
-response = requests.get('https://airportgap.dev-tester.com/api/airports')
-print(response.status_code)
-print(response.text) 
-    </code></pre><p> </p><p>Penjelasan kode:</p><ul><li>import requests =&gt; melakukan import library `requests` sebelum penggunaan di baris selanjutnya</li><li>response = requests.get(&lt;url&gt;) =&gt; kita melakukan permintaan GET pada sebuah url yang kemudian di tampung kedalam variable `response`</li><li>print(response.status_code) dan print(response.text) =&gt; kita mengeluarkan text response dan status code kepada python console dengan command print</li></ul><p>Bagaimana cara run file ini? yaitu dengan membuka terminal/cmd lalu masuk ke directory/folder dimana file python ini berada, kemudian kita tinggal menjalankan command `python namafile.py` maka kita bisa melihat hasil requests di dalam console terminal/cmd</p><hr><h2>Penutup</h2><p>Namun,,, ini masih belum ada test nya ya, di pelajaran kali ini kita hanya bisa melihat hasil GET pada console, tanpa ada pengujian secara otomatis (pengujian masih visual oleh kita melalui console ehehe)</p><p>Karena materi disini sudah cukup panjang ehehe, PR dari saya di tahap 1 ini adalah untuk mempelajari <a href="https://requests.readthedocs.io/en/master/" target="_blank" rel="noopener noreferrer">dokumentasi requests</a> ya, kita lihat betapa mudahnya mengkases webservice dengan library ini, baik itu dengan method GET, POST, PUT, PATCH ya</p><p>Dimateri berikutnya kita akan menggunakan test dengan assertion jadi sudah mulai masuk ke automation test</p><p>Salam!</p><p>Selengkapnya ada di Video live coding berikut ini</p><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/nsdHPitMSSI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div></div><footer class="wrapper post__footer"><p class="post__last-updated">This article was updated on 31 Des 2021</p><ul class="post__tag"><li><a href="https://fachrul.id/celoteh/automation-python/">automation-python</a></li><li><a href="https://fachrul.id/celoteh/tutorials/">tutorials</a></li></ul>false<div class="post__bio bio"><img src="https://fachrul.id/media/website/fachrulch-profile.jpg" loading="lazy" height="1024" width="1024" class="bio__avatar" alt="Fachrul Choliluddin"><div><h3 class="bio__name"><a href="https://fachrul.id/authors/fachrulch/" rel="author">Fachrul Choliluddin</a></h3><div class="bio__desc"><p>Seorang Software Tester yang memiliki pengalaman lebih dari 10 tahun dalam peneliti kualitas perangkat lunak. Aktif berbagi pengetahuan dalam Software Quality Development Engineer in Test, Agile Testing, atau belajar membuat automation test dengan Selenium, Appium, API test dan bahasa pemrograman Python</p></div></div></div></footer></article><nav class="post__nav"><div class="post__nav-inner"><div class="post__nav-prev"><svg width="1.041em" height="0.416em" aria-hidden="true"><use xlink:href="https://fachrul.id/assets/svg/svg-map.svg#arrow-prev"/></svg> <a href="https://fachrul.id/belajar-pytest-framework-1/" class="post__nav-link" rel="prev"><span>Previous</span> Pytest: Memahami Cara Kerja Testing Framework (bagian 1)</a></div><div class="post__nav-next"><a href="https://fachrul.id/api-test-automation-framework-python-bagian-2/" class="post__nav-link" rel="next"><span>Next</span> Assert dan Pytest - API Test Framework Python (Bagian 2) </a><svg width="1.041em" height="0.416em" aria-hidden="true"><use xlink:href="https://fachrul.id/assets/svg/svg-map.svg#arrow-next"/></svg></div></div></nav><div class="post__related related"><div class="wrapper"><h2 class="h5 related__title">You should also read:</h2><article class="related__item"><div class="feed__meta"><time datetime="2020-05-14T05:25" class="feed__date">14 Mei 2020</time></div><h3 class="h1"><a href="https://fachrul.id/selector-locator-strategy-yang-baik/">Selector (Locator) Strategy adalah koentji dari Test Automation</a></h3></article><article class="related__item"><div class="feed__meta"><time datetime="2020-05-12T19:03" class="feed__date">12 Mei 2020</time></div><h3 class="h1"><a href="https://fachrul.id/memulai-automation-test-selenium-python-bagian-1/">Memulai Automation Test Selenium + Python (bagian 1)</a></h3></article><article class="related__item"><div class="feed__meta"><time datetime="2020-05-07T21:07" class="feed__date">7 Mei 2020</time></div><h3 class="h1"><a href="https://fachrul.id/mau-belajar-automation-test-dengan-python-mulai-dari-mana/">Mau Belajar Automation Test dengan Python, Mulai Dari Mana?</a></h3></article></div></div><div class="post__comments"><div class="wrapper"><div class="comments"><div class="comments-wrapper"><h2>Comments</h2><div class="fb-comments" data-href="https://fachrul.id/yuk-belajar-cara-membuat-api-test-automation-framework-python-bagian-1/" data-width="100%" data-colorscheme="dark" data-lazy="true" data-order-by="reverse_time" data-numposts="5"></div><noscript>Please enable JS to use the comments form.</noscript></div></div><div id="fb-root"></div><script type="text/javascript" async defer="defer" crossorigin="anonymous" src="https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v12.0">nonce="n4mWU9e7"</script></div></div></main><footer class="footer"><div class="footer__social"><a href="https://twitter.com/fachrulch" aria-label="Twitter"><svg><use xlink:href="https://fachrul.id/assets/svg/svg-map.svg#twitter"/></svg> </a><a href="https://instagram.com/fachrulch" aria-label="Instagram"><svg><use xlink:href="https://fachrul.id/assets/svg/svg-map.svg#instagram"/></svg> </a><a href="https://www.linkedin.com/in/fachrul/" aria-label="LinkedIn"><svg><use xlink:href="https://fachrul.id/assets/svg/svg-map.svg#linkedin"/></svg> </a><a href="https://www.youtube.com/@ngetest" aria-label="Youtube"><svg><use xlink:href="https://fachrul.id/assets/svg/svg-map.svg#youtube"/></svg></a></div><div class="footer__copyright"><p>(c) 2019-2023 - @FachrulCH, powered by Publii</p></div><button onclick="backToTopFunction()" id="backToTop" class="footer__bttop" aria-label="Back to top" title="Back to top"><svg><use xlink:href="https://fachrul.id/assets/svg/svg-map.svg#toparrow"/></svg></button></footer></div><script defer="defer" src="https://fachrul.id/assets/js/scripts.min.js?v=f47c11534595205f20935f0db2a62a85"></script><script>window.publiiThemeMenuConfig={mobileMenuMode:'overlay',animationSpeed:300,submenuWidth: 'auto',doubleClickTime:500,mobileMenuExpandableSubmenus:true,relatedContainerForOverlayMenuSelector:'.top'};</script><script>var images = document.querySelectorAll('img[loading]');
-        for (var i = 0; i < images.length; i++) {
-            if (images[i].complete) {
-                images[i].classList.add('is-loaded');
-            } else {
-                images[i].addEventListener('load', function () {
-                    this.classList.add('is-loaded');
-                }, false);
-            }
-        }</script><script defer="defer" src="https://fachrul.id/media/plugins/syntaxHighlighter/prism.js"></script><script defer="defer" src="https://fachrul.id/media/plugins/syntaxHighlighter/prism-line-numbers.min.js"></script><script defer="defer" src="https://fachrul.id/media/plugins/syntaxHighlighter/clipboard.min.js"></script><script defer="defer" src="https://fachrul.id/media/plugins/syntaxHighlighter/prism-copy-to-clipboard.min.js"></script><script defer="defer" src="https://fachrul.id/media/plugins/syntaxHighlighter/prism-inline-color.min.js"></script></body></html>
+/* lists */
+.intro{padding:2.5rem 0 .5rem}
+.intro h1{font-size:clamp(1.9rem,7vw,2.6rem);margin:0 0 .5rem;font-family:var(--mono);font-weight:700;letter-spacing:-.03em}
+.intro p{color:var(--muted);margin:0;font-size:1.0625rem}
+.section-title{font-size:.8125rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:2.25rem 0 .5rem;font-weight:600}
+.page-head{padding:2.25rem 0 .5rem}
+.page-head h1{margin:0 0 .5rem;font-size:clamp(1.6rem,6vw,2.1rem)}
+.page-head p{color:var(--muted);margin:.25rem 0}
+.author-head{display:flex;gap:1rem;align-items:flex-start}
+.author-head img{border-radius:50%;flex:none;width:72px;height:72px;object-fit:cover}
+.cards{display:grid}
+.card{padding:1.35rem 0;border-bottom:1px solid var(--border)}
+.card:last-child{border-bottom:0}
+.card .meta{margin:0}
+.card__title{font-size:1.25rem;margin:.2rem 0 .4rem}
+.card__title a{color:var(--heading);text-decoration:none}
+.card__title a:hover{color:var(--accent);text-decoration:underline}
+.card__excerpt{margin:0;color:var(--muted);font-size:.975rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.tags{display:flex;flex-wrap:wrap;gap:.4rem;list-style:none;margin:.75rem 0 0;padding:0}
+.tags a{display:inline-block;font-size:.8125rem;line-height:1.4;padding:.3rem .65rem;border-radius:999px;background:var(--surface);border:1px solid var(--border);color:var(--text);text-decoration:none}
+.tags a:hover{border-color:var(--accent);color:var(--accent)}
+.pager{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin-top:1.5rem;padding-top:1.25rem;border-top:1px solid var(--border);font-size:.9375rem}
+.pager a{padding:.4rem 0}
+.pager__count{color:var(--muted);font-size:.8125rem;text-align:center}
+.tag-cloud{list-style:none;padding:0;margin:1.5rem 0 0;display:grid;gap:.6rem}
+.tag-cloud>li{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:.75rem 1rem}
+.tag-cloud a{font-weight:600;text-decoration:none;display:block}
+.tag-cloud .count{margin-left:.25rem}
+.tag-cloud p{margin:.25rem 0 0;color:var(--muted);font-size:.875rem}
+@media (min-width:40rem){.tag-cloud{grid-template-columns:1fr 1fr}}
+
+/* article */
+.post-head{padding:2.25rem 0 0}
+.post-head .tags{margin:0 0 .9rem}
+.post-head h1{font-size:clamp(1.75rem,6.5vw,2.4rem);margin:0 0 .75rem;letter-spacing:-.02em}
+.post-head .meta{margin:0}
+.post-head .meta a{color:var(--text)}
+.cover{margin:1.5rem 0 0}
+.cover img{display:block;width:100%;border-radius:var(--radius);background:var(--surface)}
+figcaption{color:var(--muted);font-size:.8125rem;text-align:center;margin-top:.5rem}
+.prose{margin-top:1.75rem}
+.prose>:first-child{margin-top:0}
+.prose p,.prose ul,.prose ol,.prose blockquote,.prose figure,.prose table,.prose pre,.prose .highlight{margin:0 0 1.25rem}
+.prose h1{font-size:1.6rem}
+.prose h2{font-size:1.45rem}
+.prose h3{font-size:1.2rem}
+.prose h4,.prose h5,.prose h6{font-size:1.05rem}
+.prose ul,.prose ol{padding-left:1.4rem}
+.prose li{margin:.3rem 0}
+.prose li>ul,.prose li>ol{margin:.3rem 0}
+.prose li p{margin:.3rem 0}
+.prose hr{border:0;border-top:1px solid var(--border);margin:2.5rem auto;width:40%}
+.prose blockquote{border-left:3px solid var(--brand);background:var(--surface);margin-left:0;margin-right:0;padding:.75rem 1rem;border-radius:0 var(--radius) var(--radius) 0;color:var(--text)}
+.prose blockquote>:last-child{margin-bottom:0}
+.prose strong{color:var(--heading)}
+.prose figure{margin-left:0;margin-right:0}
+.prose figure img{border-radius:6px}
+.prose img{display:inline-block}
+.prose figure>img,.prose figure>a>img,.prose figure picture img{display:block;margin:0 auto}
+.prose iframe{display:block;margin:0 auto 1.25rem;border:0;max-width:100%}
+.prose .post__iframe iframe,.prose .post__video iframe,.prose .youtube-wrap iframe,.prose iframe[src*="youtube"]{width:100%;height:auto;aspect-ratio:16/9}
+.prose table{display:block;overflow-x:auto;border-collapse:collapse;width:max-content;max-width:100%;font-size:.9375rem}
+.prose td,.prose th{border:1px solid var(--border);padding:.45rem .7rem;vertical-align:top}
+.prose th{background:var(--surface)}
+.prose td[style],.prose table[style]{background:none!important;color:inherit!important}
+.prose code{font-family:var(--mono);font-size:.875em;background:var(--surface-2);padding:.12em .35em;border-radius:4px}
+.prose pre{font-family:var(--mono);font-size:.8125rem;line-height:1.6;background:var(--code-bg);border:1px solid var(--border);border-radius:var(--radius);padding:1rem;overflow-x:auto;color:#e6edf3;tab-size:4}
+.prose pre code{background:none;padding:0;font-size:inherit;border-radius:0}
+.prose .highlight{background:var(--code-bg);border-radius:var(--radius)}
+.prose .highlight pre{margin:0}
+.prose .align-center{text-align:center}
+.prose .align-right{text-align:right}
+.prose .msg{background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--accent);border-radius:var(--radius);padding:.85rem 1rem}
+.prose .msg--highlight{border-left-color:#f5c451}
+.prose .dropcap::first-letter{float:left;font-size:3.2em;line-height:.9;padding:.08em .12em 0 0;color:var(--accent);font-weight:700}
+.prose .gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(9rem,1fr));gap:.5rem;margin-bottom:1.25rem}
+.prose .gallery figure{margin:0}
+.prose .gallery img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:6px}
+.prose .gallery-wrapper{margin:0 0 1.25rem}
+.prose [style*="background"]{background:transparent!important}
+.prose [style*="color"]{color:inherit!important}
+.archive{margin-top:2.5rem;border-top:1px solid var(--border)}
+.archive ul{list-style:none;padding:0;margin:0}
+.archive li{display:flex;gap:.9rem;padding:.4rem 0;border-bottom:1px solid var(--border)}
+.archive time{color:var(--muted);font-size:.8125rem;flex:none;width:6.5rem;padding-top:.2rem;font-variant-numeric:tabular-nums}
+.post-foot{margin-top:2.5rem}
+.bio{display:flex;gap:1rem;align-items:flex-start;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1rem;margin-top:1rem}
+.bio img{border-radius:50%;flex:none;width:56px;height:56px;object-fit:cover}
+.bio p{margin:0;color:var(--muted);font-size:.9rem;line-height:1.6}
+.bio .bio__name{color:var(--heading);font-weight:700;margin-bottom:.2rem;font-size:1rem}
+.bio__name a{color:var(--heading);text-decoration:none}
+.post-nav{display:grid;gap:.75rem;margin-top:2rem}
+.post-nav a{display:block;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:.85rem 1rem;color:var(--heading);text-decoration:none;font-weight:600;line-height:1.4}
+.post-nav a:hover{border-color:var(--accent)}
+.post-nav span{display:block;color:var(--muted);font-size:.8125rem;font-weight:400;margin-bottom:.2rem}
+.post-nav__next{text-align:right}
+@media (min-width:40rem){.post-nav{grid-template-columns:1fr 1fr}.post-nav__next{grid-column:2}}
+.comments{margin-top:2rem}
+.button{font:inherit;font-size:.9375rem;font-weight:600;color:var(--heading);background:var(--surface-2);border:1px solid var(--border);border-radius:var(--radius);padding:.6rem 1.1rem;cursor:pointer}
+.button:hover{border-color:var(--accent)}
+.search{margin:1.5rem 0}
+.search label{display:block;font-size:.875rem;color:var(--muted);margin-bottom:.35rem}
+.search__row{display:flex;gap:.5rem}
+.search input{flex:1;min-width:0;font:inherit;color:var(--text);background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:.6rem .85rem}
+@media (min-width:48rem){body{font-size:1.125rem}}
+pre { line-height: 125%; }
+td.linenos .normal { color: #6e7681; background-color: #0d1117; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #6e7681; background-color: #0d1117; padding-left: 5px; padding-right: 5px; }
+td.linenos .special { color: #e6edf3; background-color: #6e7681; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #e6edf3; background-color: #6e7681; padding-left: 5px; padding-right: 5px; }
+.highlight .hll { background-color: #6e7681 }
+.highlight { background: #0d1117; color: #E6EDF3 }
+.highlight .c { color: #8B949E; font-style: italic } /* Comment */
+.highlight .err { color: #F85149 } /* Error */
+.highlight .esc { color: #E6EDF3 } /* Escape */
+.highlight .g { color: #E6EDF3 } /* Generic */
+.highlight .k { color: #FF7B72 } /* Keyword */
+.highlight .l { color: #A5D6FF } /* Literal */
+.highlight .n { color: #E6EDF3 } /* Name */
+.highlight .o { color: #FF7B72; font-weight: bold } /* Operator */
+.highlight .x { color: #E6EDF3 } /* Other */
+.highlight .p { color: #E6EDF3 } /* Punctuation */
+.highlight .ch { color: #8B949E; font-style: italic } /* Comment.Hashbang */
+.highlight .cm { color: #8B949E; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #8B949E; font-weight: bold; font-style: italic } /* Comment.Preproc */
+.highlight .cpf { color: #8B949E; font-style: italic } /* Comment.PreprocFile */
+.highlight .c1 { color: #8B949E; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #8B949E; font-weight: bold; font-style: italic } /* Comment.Special */
+.highlight .gd { color: #FFA198; background-color: #490202 } /* Generic.Deleted */
+.highlight .ge { color: #E6EDF3; font-style: italic } /* Generic.Emph */
+.highlight .ges { color: #E6EDF3; font-weight: bold; font-style: italic } /* Generic.EmphStrong */
+.highlight .gr { color: #FFA198 } /* Generic.Error */
+.highlight .gh { color: #79C0FF; font-weight: bold } /* Generic.Heading */
+.highlight .gi { color: #56D364; background-color: #0F5323 } /* Generic.Inserted */
+.highlight .go { color: #8B949E } /* Generic.Output */
+.highlight .gp { color: #8B949E } /* Generic.Prompt */
+.highlight .gs { color: #E6EDF3; font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #79C0FF } /* Generic.Subheading */
+.highlight .gt { color: #FF7B72 } /* Generic.Traceback */
+.highlight .g-Underline { color: #E6EDF3; text-decoration: underline } /* Generic.Underline */
+.highlight .kc { color: #79C0FF } /* Keyword.Constant */
+.highlight .kd { color: #FF7B72 } /* Keyword.Declaration */
+.highlight .kn { color: #FF7B72 } /* Keyword.Namespace */
+.highlight .kp { color: #79C0FF } /* Keyword.Pseudo */
+.highlight .kr { color: #FF7B72 } /* Keyword.Reserved */
+.highlight .kt { color: #FF7B72 } /* Keyword.Type */
+.highlight .ld { color: #79C0FF } /* Literal.Date */
+.highlight .m { color: #A5D6FF } /* Literal.Number */
+.highlight .s { color: #A5D6FF } /* Literal.String */
+.highlight .na { color: #E6EDF3 } /* Name.Attribute */
+.highlight .nb { color: #E6EDF3 } /* Name.Builtin */
+.highlight .nc { color: #F0883E; font-weight: bold } /* Name.Class */
+.highlight .no { color: #79C0FF; font-weight: bold } /* Name.Constant */
+.highlight .nd { color: #D2A8FF; font-weight: bold } /* Name.Decorator */
+.highlight .ni { color: #FFA657 } /* Name.Entity */
+.highlight .ne { color: #F0883E; font-weight: bold } /* Name.Exception */
+.highlight .nf { color: #D2A8FF; font-weight: bold } /* Name.Function */
+.highlight .nl { color: #79C0FF; font-weight: bold } /* Name.Label */
+.highlight .nn { color: #FF7B72 } /* Name.Namespace */
+.highlight .nx { color: #E6EDF3 } /* Name.Other */
+.highlight .py { color: #79C0FF } /* Name.Property */
+.highlight .nt { color: #7EE787 } /* Name.Tag */
+.highlight .nv { color: #79C0FF } /* Name.Variable */
+.highlight .ow { color: #FF7B72; font-weight: bold } /* Operator.Word */
+.highlight .pm { color: #E6EDF3 } /* Punctuation.Marker */
+.highlight .w { color: #6E7681 } /* Text.Whitespace */
+.highlight .mb { color: #A5D6FF } /* Literal.Number.Bin */
+.highlight .mf { color: #A5D6FF } /* Literal.Number.Float */
+.highlight .mh { color: #A5D6FF } /* Literal.Number.Hex */
+.highlight .mi { color: #A5D6FF } /* Literal.Number.Integer */
+.highlight .mo { color: #A5D6FF } /* Literal.Number.Oct */
+.highlight .sa { color: #79C0FF } /* Literal.String.Affix */
+.highlight .sb { color: #A5D6FF } /* Literal.String.Backtick */
+.highlight .sc { color: #A5D6FF } /* Literal.String.Char */
+.highlight .dl { color: #79C0FF } /* Literal.String.Delimiter */
+.highlight .sd { color: #A5D6FF } /* Literal.String.Doc */
+.highlight .s2 { color: #A5D6FF } /* Literal.String.Double */
+.highlight .se { color: #79C0FF } /* Literal.String.Escape */
+.highlight .sh { color: #79C0FF } /* Literal.String.Heredoc */
+.highlight .si { color: #A5D6FF } /* Literal.String.Interpol */
+.highlight .sx { color: #A5D6FF } /* Literal.String.Other */
+.highlight .sr { color: #79C0FF } /* Literal.String.Regex */
+.highlight .s1 { color: #A5D6FF } /* Literal.String.Single */
+.highlight .ss { color: #A5D6FF } /* Literal.String.Symbol */
+.highlight .bp { color: #E6EDF3 } /* Name.Builtin.Pseudo */
+.highlight .fm { color: #D2A8FF; font-weight: bold } /* Name.Function.Magic */
+.highlight .vc { color: #79C0FF } /* Name.Variable.Class */
+.highlight .vg { color: #79C0FF } /* Name.Variable.Global */
+.highlight .vi { color: #79C0FF } /* Name.Variable.Instance */
+.highlight .vm { color: #79C0FF } /* Name.Variable.Magic */
+.highlight .il { color: #A5D6FF } /* Literal.Number.Integer.Long */</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3KW3Y8W8ET"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-3KW3Y8W8ET');</script>
+</head>
+<body>
+<a class="skip" href="#main">Langsung ke isi</a>
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="brand" href="/">
+      <img src="/media/website/fachrulch-profile.jpg" alt="" width="36" height="36">
+      <span>Fachrul Choliluddin</span>
+    </a>
+    <nav aria-label="Menu utama">
+      <ul class="nav">
+        <li><a href="/daftar-isi/">Daftar Isi</a></li>
+        <li><a href="/belajar-software-testing-qa-untuk-pemula-sampai-mahir/">Belajar QA</a></li>
+        <li><a href="/celoteh/">Tag</a></li>
+        <li><a href="/about-fachrulch/">Tentang</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="wrap">
+<article class="post">
+  <header class="post-head">
+    <ul class="tags" aria-label="Tag">
+      <li><a href="/celoteh/automation-python/">#automation-python</a></li>
+      <li><a href="/celoteh/tutorials/">#tutorials</a></li>
+    </ul>
+    <h1>Yuk Belajar Cara Membuat API Test Automation Framework Python (Bagian 1)</h1>
+    <p class="meta">
+      <a href="/authors/fachrulch/">Fachrul Choliluddin</a> ·
+      <time datetime="2021-01-29T11:00">29 Jan 2021</time> ·
+      5 menit baca
+    </p>
+  </header>
+  <figure class="cover">
+    <img src="/media/posts/41/pexels-zachary-debottis-1888883.jpg" srcset="/media/posts/41/responsive/pexels-zachary-debottis-1888883-xs.jpg 300w, /media/posts/41/responsive/pexels-zachary-debottis-1888883-sm.jpg 480w, /media/posts/41/responsive/pexels-zachary-debottis-1888883-md.jpg 768w, /media/posts/41/responsive/pexels-zachary-debottis-1888883-lg.jpg 1024w, /media/posts/41/responsive/pexels-zachary-debottis-1888883-xl.jpg 1360w, /media/posts/41/responsive/pexels-zachary-debottis-1888883-2xl.jpg 1600w" sizes="(min-width: 46rem) 42rem, 100vw" width="1280" height="853" alt="" fetchpriority="high">
+<figcaption>Foto oleh Zachary DeBottis dari Pexels Pexels</figcaption>  </figure>
+  <div class="prose">
+<p>Hi Kawan 👋,</p>
+<p>Di kesempatan kali ini saya akan membuat rangkaian post yang berisi tutorial cara membuat API Test Framework dengan Python dari dasar sampai jadi sebuah framework testing yang siap di integrasikan dengan pipeline CI/CD 😎🤘</p>
+<p>Oke setiap post akan berisi sebuah topik tahapan pelajaran dari dasar disetiap aspeknya, semoga saja ini bisa bermanfaat bagi teman-teman yang mulai belajar menekuni dunia software quality assurance / Test engineering ya, harapan saya, tutorial ini bisa membantu teman-teman untuk memahami approach API testing, dan bisa mempermudah implementasi API test framework dengan python di tempat kerja kalian</p>
+<p>Kurang lebih rangkaian posting akan seperti:</p>
+<ul>
+<li><a href="/yuk-belajar-cara-membuat-api-test-automation-framework-python-bagian-1/">Pelajaran 1:  Setup dan pengenalan HTTP requests</a></li>
+<li><a href="/api-test-automation-framework-python-bagian-2/">Pelajaran 2: Pengujian dengan assert dan pytest</a></li>
+<li><a href="/api-test-framework-python-struktur-framework-dan-fluent-assertion-bagian-3/">Pelajaran 3: Struktur awal test framework dan library fluent assertion</a></li>
+<li><a href="/refactoring-dan-base-api-api-test-framework-python-bagian-4/">Pelajaran 4: Refaktoring dan base helper</a></li>
+<li><a href="/reporting-api-test-framework-python-bagian-5/">Pelajaran 5: Reporting</a></li>
+<li><a href="/json-schema-validation-api-test-framework-python-extra-bonus/">Extra: Penambahan schema validation dan running test in parallel</a></li>
+</ul>
+<p>Kamu bisa berkomentar atau bertanya di pada bagian komentar post tersebut, insya alloh nanti akan saya jawab sebisanya ehehe, atau bisa juga DM dan follow @fachrulch untuk kritik dan saran nya dalam pembahasan ini</p>
+<hr />
+<h2>Apa itu API sih?</h2>
+<p>Sebenernya saya ga yakin bisa menjelaskannya dengan benar, mungkin bisa kamu googling aja nanti ya klo masih belum jelas dari penjelasan saya ehehe, jadi kurang lebih gini:</p>
+<figure class="post__image--left"><img alt="" height="454" loading="lazy" sizes="100vw" src="/media/posts/41/api-1.png" srcset="/media/posts/41/responsive/api-1-xs.png 300w, /media/posts/41/responsive/api-1-sm.png 480w, /media/posts/41/responsive/api-1-md.png 768w, /media/posts/41/responsive/api-1-lg.png 1024w, /media/posts/41/responsive/api-1-xl.png 1360w, /media/posts/41/responsive/api-1-2xl.png 1600w" width="800"/></figure>
+
+<p>API (Application Programming Interface) atau juga seringkali dikenal dengan webservice adalah bentuk komunikasi antar sistem, sederhananya, API menyediakan serangkaian cara/kontrak bagaimana sebuah informasi bisa ditransfer/diakses.</p>
+<p>API ada dua kategori, yaitu SOAP dan REST, SOAPmenggunakan format XML yang membungkus informasi data nya, sejauh yg saya tau soap masih umum dipergunakan oleh perbankan sampai saat ini, sedangkan REST sudah umum dipakai oleh khalayak ramai, karena lebih ringan dalam hal ukuran data yang disimpan dalam format JSON, dan umumnya permintaan dan penerimaan data menggunakan protokol HTTP, biasanya menggunakan verbs GET, POST, PUT dan DELETE dalam berinteraksi.</p>
+<p>Di kesempatan ini kita akan fokus dalam pembuatan API test framework untuk RESTful API ya, tools yang sering dipergunakan dalam berinteraksi dengan API adalah Postman</p>
+<figure class="post__image post__image--full"><img alt="" height="757" loading="lazy" sizes="100vw" src="/media/posts/41/rest-api-contoh-sederhana.png" srcset="/media/posts/41/responsive/rest-api-contoh-sederhana-xs.png 300w, /media/posts/41/responsive/rest-api-contoh-sederhana-sm.png 480w, /media/posts/41/responsive/rest-api-contoh-sederhana-md.png 768w, /media/posts/41/responsive/rest-api-contoh-sederhana-lg.png 1024w, /media/posts/41/responsive/rest-api-contoh-sederhana-xl.png 1360w, /media/posts/41/responsive/rest-api-contoh-sederhana-2xl.png 1600w" width="1280"/><figcaption>RestAPI secara sederhana</figcaption></figure>
+
+<h2>Kenapa Perlu Membuat API test automation?</h2>
+<p>Test functional dari API sebenarnya lewat postman juga bisa, entah manually atau automation test disana, memiliki functional API automation adalah langkah besar dalam pengujian yang cepat terhadap sistem, apalagi API cenderung lebih stabil daripada UI automation test. Dampak yang bisa kita harapkan dari memiliki automation test pada API/webservice adalah kita bisa menguji user flow, business logic dengan cepat dan stabil.</p>
+<p>Nah kita akan membuat API test automation dengan python, walaupun sebenarnya bisa juga dibuat dengan bahasa pemrograman lain seperti java, kotlin, javascript, dll. tetapi menurut saya python lebih sederhana dan mudah dipelajari oleh pemula, juga sangat powerful bagi tingkat mahir sekalipun, so i think it is good investment</p>
+<h2>OK, terus apa yang diperlukan dalam pengembangan API test framework dengan Python?</h2>
+<p>Udah siap? oke kita list dulu ya apa saja yang diperlukan dalam pengembangan API test framework dengan bahas python</p>
+<ol>
+<li>Komputer kamu sudah terinstal python (saran saya sudah versi 3.8 keatas ya)</li>
+<li>Install code editor, saran saya sih menggunakan PyCharm, tapi klo mau yg lebih ringan boleh pake Visual Code ataupun Notepad++ juga bisa harusnya</li>
+</ol>
+<hr />
+<h2><figure class="post__image--center"><img alt="" height="592" loading="lazy" sizes="100vw" src="/media/posts/41/airportgap.png" srcset="/media/posts/41/responsive/airportgap-xs.png 300w, /media/posts/41/responsive/airportgap-sm.png 480w, /media/posts/41/responsive/airportgap-md.png 768w, /media/posts/41/responsive/airportgap-lg.png 1024w, /media/posts/41/responsive/airportgap-xl.png 1360w, /media/posts/41/responsive/airportgap-2xl.png 1600w" width="500"/></figure></h2>
+
+<h2>Studi Kasus</h2>
+<p>Oke, sepertinya kita akan bahas dulu aplikasi apa yang akan menjadi target kita dalam pengembangan API test framework, sebagai contoh kita akan mengautomasi pengujian pada <a href="https://airportgap.dev-tester.com">https://airportgap.dev-tester.com</a> sebuah dummy app yang dikhususkan bagi teman-teman yang berlatih dalam mengasah automation skill pada API</p>
+<p>Kenapa saya pilih ini? karena koleksi API disini kurang lebih akan mirip dengan apa yang kamu punya di kantor, ada API yang bisa diakses dengan GET, POST, DELETE dan PUT/PATCH, jadi bisa dikatakan mini project API, apalagi dokumentasinya API juga sudah cukup jelas ya, bisa diakses disini <a href="https://airportgap.dev-tester.com/docs">https://airportgap.dev-tester.com/docs</a></p>
+<figure class="post__image--left"><img alt="" height="480" loading="lazy" sizes="100vw" src="/media/posts/41/374px-Requests_Python_Logo.png" srcset="/media/posts/41/responsive/374px-Requests_Python_Logo-xs.png 300w, /media/posts/41/responsive/374px-Requests_Python_Logo-sm.png 480w, /media/posts/41/responsive/374px-Requests_Python_Logo-md.png 768w, /media/posts/41/responsive/374px-Requests_Python_Logo-lg.png 1024w, /media/posts/41/responsive/374px-Requests_Python_Logo-xl.png 1360w, /media/posts/41/responsive/374px-Requests_Python_Logo-2xl.png 1600w" width="374"/></figure>
+
+<h2>Pelajaran 1 - pengenalan HTTP requests</h2>
+<p>Siap kita mulai ya, untuk mengakses API/webservice kita perlu sebuah library yang akan memudahkan kita dalam berinteraksi dengan API, yaitu menggunakan library requests, cara menginstall library ini adalah dengan command</p>
+<div class="highlight"><pre><span></span><code>pip install requests
+</code></pre></div>
+
+<p>Dokumentasi requests menurut saya sangat jelas dan keren, coba saja lihat <a href="https://requests.readthedocs.io/en/master/">https://requests.readthedocs.io/en/master/</a> , kita bisa pelajari lebih lanjut fitur dan kemampuan requests disana ya, tapi secara natural sangat mudah diingat kok method dan fungsi nya</p>
+<p>Lanjut,, kita akan mengakses informasi daftar airports yand bisa diakses dengan melakukan request GET pada endpoint `/api/airports` dan melihat apa saja informasi yang terkandung di dalamnya</p>
+<p>Untuk itu kita harus membuat file python baru di folder/direktori yang sudah kamu pilih ya</p>
+<p>Di baris awal kita perlu melakukan import library request dahulu dengan menambahkan kode `import requests` lalu di baris berikutnya kita akan menggunakan library requests dalam mengakses API dengan kode</p>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
+
+<span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;https://airportgap.dev-tester.com/api/airports&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">status_code</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">text</span><span class="p">)</span> 
+</code></pre></div>
+
+<p>Penjelasan kode:</p>
+<ul>
+<li>import requests =&gt; melakukan import library `requests` sebelum penggunaan di baris selanjutnya</li>
+<li>response = requests.get(&lt;url&gt;) =&gt; kita melakukan permintaan GET pada sebuah url yang kemudian di tampung kedalam variable `response`</li>
+<li>print(response.status_code) dan print(response.text) =&gt; kita mengeluarkan text response dan status code kepada python console dengan command print</li>
+</ul>
+<p>Bagaimana cara run file ini? yaitu dengan membuka terminal/cmd lalu masuk ke directory/folder dimana file python ini berada, kemudian kita tinggal menjalankan command `python namafile.py` maka kita bisa melihat hasil requests di dalam console terminal/cmd</p>
+<hr />
+<h2>Penutup</h2>
+<p>Namun,,, ini masih belum ada test nya ya, di pelajaran kali ini kita hanya bisa melihat hasil GET pada console, tanpa ada pengujian secara otomatis (pengujian masih visual oleh kita melalui console ehehe)</p>
+<p>Karena materi disini sudah cukup panjang ehehe, PR dari saya di tahap 1 ini adalah untuk mempelajari <a href="https://requests.readthedocs.io/en/master/">dokumentasi requests</a> ya, kita lihat betapa mudahnya mengkases webservice dengan library ini, baik itu dengan method GET, POST, PUT, PATCH ya</p>
+<p>Dimateri berikutnya kita akan menggunakan test dengan assertion jadi sudah mulai masuk ke automation test</p>
+<p>Salam!</p>
+<p>Selengkapnya ada di Video live coding berikut ini</p>
+<div class="post__iframe"><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" loading="lazy" src="https://www.youtube.com/embed/nsdHPitMSSI" width="560"></iframe></div>
+  </div>
+  <footer class="post-foot">
+    <p class="meta">Diperbarui 31 Des 2021</p>
+    <div class="bio">
+      <img src="/media/website/fachrulch-profile.jpg" alt="" width="56" height="56" loading="lazy">
+      <div>
+        <p class="bio__name"><a href="/authors/fachrulch/" rel="author">Fachrul Choliluddin</a></p>
+        <p>Seorang Software Tester yang memiliki pengalaman lebih dari 10 tahun dalam peneliti kualitas perangkat lunak. Aktif berbagi pengetahuan dalam Software Quality Development Engineer in Test, Agile Testing, atau belajar membuat automation test dengan Selenium, Appium, API test dan bahasa pemrograman Python</p>
+      </div>
+    </div>
+  </footer>
+</article>
+<nav class="post-nav" aria-label="Tulisan lain">
+<a href="/belajar-pytest-framework-1/" rel="prev"><span>← Sebelumnya</span>Pytest: Memahami Cara Kerja Testing Framework (bagian 1)</a><a class="post-nav__next" href="/api-test-automation-framework-python-bagian-2/" rel="next"><span>Berikutnya →</span>Assert dan Pytest - API Test Framework Python (Bagian 2)</a></nav>
+<section class="comments" aria-label="Komentar">
+  <button type="button" class="button" id="load-comments">Tampilkan komentar</button>
+  <div class="fb-comments" data-href="https://fachrul.id/yuk-belajar-cara-membuat-api-test-automation-framework-python-bagian-1/" data-width="100%" data-colorscheme="dark" data-lazy="true" data-order-by="reverse_time" data-numposts="5"></div>
+  <div id="fb-root"></div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <ul class="footer-links">
+      <li><a href="https://twitter.com/fachrulch" rel="me noopener">Twitter</a></li>
+      <li><a href="https://instagram.com/fachrulch" rel="me noopener">Instagram</a></li>
+      <li><a href="https://www.linkedin.com/in/fachrul/" rel="me noopener">LinkedIn</a></li>
+      <li><a href="https://www.youtube.com/@ngetest" rel="me noopener">YouTube</a></li>
+      <li><a href="/feed.xml">RSS</a></li>
+      <li><a href="/search.html">Cari</a></li>
+    </ul>
+    <p>(c) 2019-2026 - @FachrulCH</p>
+  </div>
+</footer>
+<script>
+document.getElementById('load-comments').addEventListener('click',function(){
+  this.remove();
+  var s=document.createElement('script');
+  s.async=true;s.defer=true;s.crossOrigin='anonymous';
+  s.src='https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v12.0';
+  document.body.appendChild(s);
+});
+</script>
+</body>
+</html>
