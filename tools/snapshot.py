@@ -25,6 +25,7 @@ ROOT = Path(__file__).resolve().parent.parent
 # outside the theme links to them; robots.txt already disallowed /assets.
 RETIRED_PREFIXES = ("assets/",)
 SKIP_NAMES = (".DS_Store",)
+SKIP_PREFIXES = ("tools/",)  # this tooling, added after the snapshot
 
 
 def tracked_files():
@@ -89,7 +90,7 @@ def feed_urls(root):
 def main():
     lines, retired, baseline = [], [], {}
     for path in sorted(tracked_files()):
-        if Path(path).name in SKIP_NAMES:
+        if Path(path).name in SKIP_NAMES or path.startswith(SKIP_PREFIXES):
             continue
         url = url_for(path)
         if path.startswith(RETIRED_PREFIXES):
