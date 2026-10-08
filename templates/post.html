@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% from "_macros.html" import post_card %}
+{% block main %}
+<article class="post">
+  <header class="post-head">
+    {% if post.tag_list %}
+    <ul class="tags" aria-label="Tag">
+      {% for tag in post.tag_list %}
+      <li><a href="/celoteh/{{ tag.slug }}/">#{{ tag.name }}</a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+    <h1>{{ post.title }}</h1>
+    <p class="meta">
+      <a href="/authors/{{ site.author.slug }}/">{{ site.author.name }}</a> ·
+      <time datetime="{{ post.date | minute_stamp }}">{{ post.date | short_date }}</time> ·
+      {{ post.reading_minutes }} menit baca
+    </p>
+  </header>
+  {% if post.cover %}
+  <figure class="cover">
+    <img src="{{ post.cover }}"{% if post.cover | srcset %} srcset="{{ post.cover | srcset }}" sizes="(min-width: 46rem) 42rem, 100vw"{% endif %}{% if cover_size %} width="{{ cover_size[0] }}" height="{{ cover_size[1] }}"{% endif %} alt="{{ post.cover_alt or '' }}" fetchpriority="high">
+    {% if post.cover_caption %}<figcaption>{{ post.cover_caption | safe }}</figcaption>{% endif %}
+  </figure>
+  {% endif %}
+  <div class="prose">
+{{ post.body | safe }}
+  </div>
+  {% if archive %}
+  <section class="archive">
+    <h2>Semua tulisan</h2>
+    <ul>
+      {% for item in archive %}
+      <li><time datetime="{{ item.date | minute_stamp }}">{{ item.date | short_date }}</time> <a href="{{ item.url }}">{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+  <footer class="post-foot">
+    {% if post.updated.date() != post.date.date() %}
+    <p class="meta">Diperbarui {{ post.updated | short_date }}</p>
+    {% endif %}
+    <div class="bio">
+      <img src="{{ site.author.avatar }}" alt="" width="56" height="56" loading="lazy">
+      <div>
+        <p class="bio__name"><a href="/authors/{{ site.author.slug }}/" rel="author">{{ site.author.name }}</a></p>
+        <p>{{ site.author.bio }}</p>
+      </div>
+    </div>
+  </footer>
+</article>
+{% if newer or older %}
+<nav class="post-nav" aria-label="Tulisan lain">
+  {% if older %}<a href="{{ older.url }}" rel="prev"><span>← Sebelumnya</span>{{ older.title }}</a>{% endif %}
+  {% if newer %}<a class="post-nav__next" href="{{ newer.url }}" rel="next"><span>Berikutnya →</span>{{ newer.title }}</a>{% endif %}
+</nav>
+{% endif %}
+<section class="comments" aria-label="Komentar">
+  <button type="button" class="button" id="load-comments">Tampilkan komentar</button>
+  <div class="fb-comments" data-href="{{ site.url }}{{ post.url }}" data-width="100%" data-colorscheme="dark" data-lazy="true" data-order-by="reverse_time" data-numposts="5"></div>
+  <div id="fb-root"></div>
+</section>
+{% endblock %}
+{% block scripts %}
+<script>
+document.getElementById('load-comments').addEventListener('click',function(){
+  this.remove();
+  var s=document.createElement('script');
+  s.async=true;s.defer=true;s.crossOrigin='anonymous';
+  s.src='https://connect.facebook.net/{{ site.facebook_comments_locale }}/sdk.js#xfbml=1&version=v12.0';
+  document.body.appendChild(s);
+});
+</script>
+{% endblock %}

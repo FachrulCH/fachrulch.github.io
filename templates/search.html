@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block main %}
+<header class="page-head">
+  <h1>Cari tulisan</h1>
+  <p>Pencarian memakai Google, dibatasi ke fachrul.id.</p>
+</header>
+<form class="search" action="https://www.google.com/search" method="get" role="search">
+  <input type="hidden" name="as_sitesearch" value="fachrul.id">
+  <label for="q">Kata kunci</label>
+  <div class="search__row">
+    <input id="q" name="q" type="search" placeholder="mis. automation python" required>
+    <button class="button" type="submit">Cari</button>
+  </div>
+</form>
+<p>Atau lihat <a href="/daftar-isi/">daftar isi</a> dan <a href="/celoteh/">semua tag</a>.</p>
+{% endblock %}

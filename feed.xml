@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<feed xmlns="http://www.w3.org/2005/Atom">
     <title>Catatan celoteh @FachrulCH</title>
     <link href="https://fachrul.id/feed.xml" rel="self" />
     <link href="https://fachrul.id" />
@@ -16,65 +16,43 @@
         </author>
         <link href="https://fachrul.id/selintas-2023/"/>
         <id>https://fachrul.id/selintas-2023/</id>
-            <category term="opinion"/>
-
+        <category term="opinion"/>
+        <published>2024-01-01T20:19:51+04:00</published>
         <updated>2024-01-01T20:19:51+04:00</updated>
-            <summary>
-                <![CDATA[
-                    Post ini tidak berisi tutorial software testing, juga bukan hal inspiratif yang bisa diambil oleh kamu, ini hanyalah tulisan yang mengakomodasi penyaluran dari pikiran yang seharian ini menyelimuti saya, dan pesan untuk saya di masa depan, semua tulisan ini sebenernya adalah monolog saya sendiri Awal&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>Post ini tidak berisi tutorial software testing, juga bukan hal inspiratif yang bisa diambil oleh kamu, ini hanyalah tulisan yang mengakomodasi penyaluran dari pikiran yang seharian ini menyelimuti saya, dan pesan untuk saya di masa depan, semua tulisan ini sebenernya adalah monolog saya sendiri</p>
-<p>Awal tahun 2024, hari pertama.</p>
-<p>Seperti orang lain lakukan, dan yang sudah-sudah dahulu saya jalankan. Retrospeksi 2023 saya coba fikirkan, baik dan buruk kejadian selama tahun 2023 ini membuat saya sedih dan bahagia, tapi sangat disayangkan di pertengahan tahun 2023 ini saya sedikit sekali membuat konten, bukan karena sibuk bekerja, tapi terlalu sibuk main FIFA &gt;_&lt;</p>
-<p><strong>Alhamdulillah, Apa yang berjalan baik:</strong></p>
-<ul>
-<li><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">Quality time bersama keluarga</span></li>
-<li><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">Rutin Pulang Dubai-Jakarta</span></li>
-<li>
-<div>Rekreasi bersama keluarga &amp; teman</div>
-<div> </div>
-<div> </div>
-</li>
-<li>
-<div>Ikut acara startup award (perusahaan menang startup of the year timur tengah 2023)</div>
-<div> </div>
-</li>
-<li>
-<div>Memiliki sahabat dekat baru</div>
-</li>
-</ul>
-<p><strong>Komplain pribadi:</strong></p>
-<ul>
-<li>Kurang tepat waktu</li>
-<li><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">Harusnya mulai serius belajar bahasa arab, mumpung bisa praktek langsung</span></li>
-<li>Terlalu banyak main game FIFA</li>
-<li>Baca buku banyak tapi ga ada yang tuntas</li>
-<li>Optimis berlebihan itu racun</li>
-<li>Mumpung kepikiran itu sebaiknya ga langsung dikerjain, catat/rekam dan prioritaskan</li>
-<li>Katanya sibuk, tapi masi bisa disempetin maen game</li>
-<li>Catat ilmu dengan menulis, yang dikerjain minggu lalu aja sering lupa, apalagi ilmu baru</li>
-<li>Subscribe course banyak, tapi banyak yang ga dilahap abis ilmunya</li>
-<li>Ngapain di budgetin (waktu/financial) kalo sering over spending tanpa konsekuensi</li>
-</ul>
-<p><strong>Action item:</strong></p>
-<ul>
-<li>Muhasabah diri setiap minggu</li>
-<li>Implementasi skill baru:
-<ul>
-<li>Catat</li>
-<li>PDCA</li>
-<li>Breakdown, jangan terlalu ngawang-ngawang</li>
-<li>non teknis: bisnis/people skill</li>
-</ul>
-</li>
-</ul>
-<p>Bagusnya review kehidupan tuh ga tahunan, tapi bulanan/mingguan biar ga terlambat perbaikan diri nya, cuma alesan aja sebenernya klo bilang sibuk, lebih ga taruh di prioritas yang mendesak</p>
-            ]]>
-        </content>
+        <summary>Post ini tidak berisi tutorial software testing, juga bukan hal inspiratif yang bisa diambil oleh kamu, ini hanyalah tulisan yang mengakomodasi penyaluran dari pikiran yang seharian ini menyelimuti saya, dan pesan untuk saya di masa depan, semua tulisan ini sebenernya adalah monolog saya sendiri Awal…</summary>
+        <content type="html">&lt;p&gt;Post ini tidak berisi tutorial software testing, juga bukan hal inspiratif yang bisa diambil oleh kamu, ini hanyalah tulisan yang mengakomodasi penyaluran dari pikiran yang seharian ini menyelimuti saya, dan pesan untuk saya di masa depan, semua tulisan ini sebenernya adalah monolog saya sendiri&lt;/p&gt;
+&lt;p&gt;Awal tahun 2024, hari pertama.&lt;/p&gt;
+&lt;p&gt;Seperti orang lain lakukan, dan yang sudah-sudah dahulu saya jalankan. Retrospeksi 2023 saya coba fikirkan, baik dan buruk kejadian selama tahun 2023 ini membuat saya sedih dan bahagia, tapi sangat disayangkan di pertengahan tahun 2023 ini saya sedikit sekali membuat konten, bukan karena sibuk bekerja, tapi terlalu sibuk main FIFA &amp;gt;_&amp;lt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Alhamdulillah, Apa yang berjalan baik:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Quality time bersama keluarga&lt;/li&gt;&lt;li&gt;Rutin Pulang Dubai-Jakarta&lt;/li&gt;&lt;li&gt;&lt;div&gt;Rekreasi bersama keluarga &amp;amp; teman&lt;/div&gt;&lt;div&gt; &lt;/div&gt;&lt;div&gt; &lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;div&gt;Ikut acara startup award (perusahaan menang startup of the year timur tengah 2023)&lt;/div&gt;&lt;div&gt; &lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;div&gt;Memiliki sahabat dekat baru&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Komplain pribadi:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kurang tepat waktu&lt;/li&gt;
+&lt;li&gt;Harusnya mulai serius belajar bahasa arab, mumpung bisa praktek langsung&lt;/li&gt;
+&lt;li&gt;Terlalu banyak main game FIFA&lt;/li&gt;
+&lt;li&gt;Baca buku banyak tapi ga ada yang tuntas&lt;/li&gt;
+&lt;li&gt;Optimis berlebihan itu racun&lt;/li&gt;
+&lt;li&gt;Mumpung kepikiran itu sebaiknya ga langsung dikerjain, catat/rekam dan prioritaskan&lt;/li&gt;
+&lt;li&gt;Katanya sibuk, tapi masi bisa disempetin maen game&lt;/li&gt;
+&lt;li&gt;Catat ilmu dengan menulis, yang dikerjain minggu lalu aja sering lupa, apalagi ilmu baru&lt;/li&gt;
+&lt;li&gt;Subscribe course banyak, tapi banyak yang ga dilahap abis ilmunya&lt;/li&gt;
+&lt;li&gt;Ngapain di budgetin (waktu/financial) kalo sering over spending tanpa konsekuensi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Action item:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Muhasabah diri setiap minggu&lt;/li&gt;
+&lt;li&gt;Implementasi skill baru:&lt;ul&gt;
+&lt;li&gt;Catat&lt;/li&gt;
+&lt;li&gt;PDCA&lt;/li&gt;
+&lt;li&gt;Breakdown, jangan terlalu ngawang-ngawang&lt;/li&gt;
+&lt;li&gt;non teknis: bisnis/people skill&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Bagusnya review kehidupan tuh ga tahunan, tapi bulanan/mingguan biar ga terlambat perbaikan diri nya, cuma alesan aja sebenernya klo bilang sibuk, lebih ga taruh di prioritas yang mendesak&lt;/p&gt;</content>
     </entry>
+
     <entry>
         <title>Menjaga Hubungan Baik dengan Developer</title>
         <author>
@@ -82,36 +60,30 @@
         </author>
         <link href="https://fachrul.id/menjaga-hubungan-baik-dengan-developer/"/>
         <id>https://fachrul.id/menjaga-hubungan-baik-dengan-developer/</id>
-
+        <published>2023-11-05T14:55:53+04:00</published>
         <updated>2023-11-05T14:55:53+04:00</updated>
-            <summary>
-                <![CDATA[
-                    Bekerja sebagai QA memang terkadang menantang, terutama ketika harus melaporkan kesalahan atau bug ke tim developer. Berikut adalah beberapa tips untuk membangun hubungan kerja yang baik dengan developer dan membuat proses ini menjadi lebih mudah: Penting untuk menjaga komunikasi yang baik dengan Developer. Kamu harus&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>Bekerja sebagai QA memang terkadang menantang, terutama ketika harus melaporkan kesalahan atau bug ke tim developer. </p>
-<p>Berikut adalah beberapa tips untuk membangun hubungan kerja yang baik dengan developer dan membuat proses ini menjadi lebih mudah:</p>
-<h3>1. Komunikasi yang Jelas dan Profesional</h3>
-<p>Penting untuk menjaga komunikasi yang baik dengan Developer. Kamu harus sampaikan informasi dengan jelas dan jangan ragu untuk bertanya jika ada hal yang tidak jelas. Pastikan bahwa komunikasimu selalu jelas, profesional, dan berorientasi pada solusi. </p>
-<p>Gunakan bahasa yang netral dan fokus pada fakta ketika melaporkan bug, bukan menyalahkan individu.</p>
-<p>Pelajari juga bahasa teknis, biar ngobrol sama developer bisa lebih nyambung. Gunakan bahasa yang sederhana dan mudah dipahami agar pesan Anda dapat disampaikan dengan jelas.</p>
-<h3>2. Pahami Perspektif Developer</h3>
-<p>Cobalah untuk memahami perspektif developer dan tantangan yang mereka hadapi. Ini akan membantu kamu untuk berkomunikasi dengan lebih efektif dan menunjukkan empati. Apalagi kalo dapet bugs yang susah banget.</p>
-<h3>3. Berikan Feedback yang Konstruktif</h3>
-<p>Jika kamu menemukan bug, berikan feedback yang konstruktif dan bantu mencari solusinya. Hal ini akan dihargai oleh tim developer dan membantu membangun hubungan kerja yang positif.</p>
-<figure class="image"><img loading="lazy" src="https://assets.karyakarsa.com/post-image-647cc7eb3e62b.jpg" data-is-external-image="true"></figure>
-<h3>4. Apresiasi Kerja Mereka</h3>
-<p>Hargai kerja keras tim developer. Jika mereka telah melakukan pekerjaan yang baik atau memperbaiki bug dengan cepat, berikan mereka pujian. Ini akan membangun suasana kerja yang positif dan mempererat hubungan antara QA dan developer.</p>
-<h3>5. Jadilah Tim</h3>
-<p>Ingatlah bahwa kamu dan developer adalah bagian dari tim yang sama dan tujuannya adalah untuk menciptakan produk yang berkualitas. Jangan melihat diri kamu sebagai "polisi kode", tapi sebagai partner yang membantu memastikan kualitas produk.</p>
-<h3>6. Lakukan Sosialisasi</h3>
-<p>Mencoba untuk berinteraksi dengan tim developer di luar lingkungan kerja, misalnya makan siang bersama atau kegiatan tim lainnya, bisa membantu membangun hubungan yang lebih baik dan membuatmu merasa lebih nyaman untuk melaporkan masalah.</p>
-<p>Ingatlah bahwa tujuan utama QA adalah untuk membantu meningkatkan kualitas produk, bukan untuk menunjuk kesalahan. Dengan pendekatan yang tepat, kamu bisa membangun hubungan kerja yang efektif dengan tim developer dan bekerja sama untuk mencapai tujuan bersama.</p>
-            ]]>
-        </content>
+        <summary>Bekerja sebagai QA memang terkadang menantang, terutama ketika harus melaporkan kesalahan atau bug ke tim developer. Berikut adalah beberapa tips untuk membangun hubungan kerja yang baik dengan developer dan membuat proses ini menjadi lebih mudah: Penting untuk menjaga komunikasi yang baik dengan Developer. Kamu harus…</summary>
+        <content type="html">&lt;p&gt;Bekerja sebagai QA memang terkadang menantang, terutama ketika harus melaporkan kesalahan atau bug ke tim developer.&lt;/p&gt;
+&lt;p&gt;Berikut adalah beberapa tips untuk membangun hubungan kerja yang baik dengan developer dan membuat proses ini menjadi lebih mudah:&lt;/p&gt;
+&lt;h3&gt;1. Komunikasi yang Jelas dan Profesional&lt;/h3&gt;
+&lt;p&gt;Penting untuk menjaga komunikasi yang baik dengan Developer. Kamu harus sampaikan informasi dengan jelas dan jangan ragu untuk bertanya jika ada hal yang tidak jelas. Pastikan bahwa komunikasimu selalu jelas, profesional, dan berorientasi pada solusi.&lt;/p&gt;
+&lt;p&gt;Gunakan bahasa yang netral dan fokus pada fakta ketika melaporkan bug, bukan menyalahkan individu.&lt;/p&gt;
+&lt;p&gt;Pelajari juga bahasa teknis, biar ngobrol sama developer bisa lebih nyambung. Gunakan bahasa yang sederhana dan mudah dipahami agar pesan Anda dapat disampaikan dengan jelas.&lt;/p&gt;
+&lt;h3&gt;2. Pahami Perspektif Developer&lt;/h3&gt;
+&lt;p&gt;Cobalah untuk memahami perspektif developer dan tantangan yang mereka hadapi. Ini akan membantu kamu untuk berkomunikasi dengan lebih efektif dan menunjukkan empati. Apalagi kalo dapet bugs yang susah banget.&lt;/p&gt;
+&lt;h3&gt;3. Berikan Feedback yang Konstruktif&lt;/h3&gt;
+&lt;p&gt;Jika kamu menemukan bug, berikan feedback yang konstruktif dan bantu mencari solusinya. Hal ini akan dihargai oleh tim developer dan membantu membangun hubungan kerja yang positif.&lt;/p&gt;
+&lt;figure class=&#34;image&#34;&gt;&lt;img data-is-external-image=&#34;true&#34; loading=&#34;lazy&#34; src=&#34;https://assets.karyakarsa.com/post-image-647cc7eb3e62b.jpg&#34;/&gt;&lt;/figure&gt;
+
+&lt;h3&gt;4. Apresiasi Kerja Mereka&lt;/h3&gt;
+&lt;p&gt;Hargai kerja keras tim developer. Jika mereka telah melakukan pekerjaan yang baik atau memperbaiki bug dengan cepat, berikan mereka pujian. Ini akan membangun suasana kerja yang positif dan mempererat hubungan antara QA dan developer.&lt;/p&gt;
+&lt;h3&gt;5. Jadilah Tim&lt;/h3&gt;
+&lt;p&gt;Ingatlah bahwa kamu dan developer adalah bagian dari tim yang sama dan tujuannya adalah untuk menciptakan produk yang berkualitas. Jangan melihat diri kamu sebagai &#34;polisi kode&#34;, tapi sebagai partner yang membantu memastikan kualitas produk.&lt;/p&gt;
+&lt;h3&gt;6. Lakukan Sosialisasi&lt;/h3&gt;
+&lt;p&gt;Mencoba untuk berinteraksi dengan tim developer di luar lingkungan kerja, misalnya makan siang bersama atau kegiatan tim lainnya, bisa membantu membangun hubungan yang lebih baik dan membuatmu merasa lebih nyaman untuk melaporkan masalah.&lt;/p&gt;
+&lt;p&gt;Ingatlah bahwa tujuan utama QA adalah untuk membantu meningkatkan kualitas produk, bukan untuk menunjuk kesalahan. Dengan pendekatan yang tepat, kamu bisa membangun hubungan kerja yang efektif dengan tim developer dan bekerja sama untuk mencapai tujuan bersama.&lt;/p&gt;</content>
     </entry>
+
     <entry>
         <title>Lanjutan: Morning Check buat Software Tester</title>
         <author>
@@ -119,36 +91,31 @@
         </author>
         <link href="https://fachrul.id/lanjutan-morning-check-buat-software-tester/"/>
         <id>https://fachrul.id/lanjutan-morning-check-buat-software-tester/</id>
-
+        <published>2023-11-05T14:54:43+04:00</published>
         <updated>2023-11-05T14:54:43+04:00</updated>
-            <summary>
-                <![CDATA[
-                    <p>Menyambung pembahasan lebih lanjut dari materi sebelumnya tentang <a href="https://fachrul.id/cem-mana-keseharian-menjadi-software-tester-itu-sih/" target="_blank" rel="noopener noreferrer">keseharian menjadi software tester</a></p>
-<p>Sure, ayo kita bahas lebih dalam soal "morning check" dalam dunia Quality Assurance (QA)!<br>Morning check, atau yang bisa kita sebut "cek pagi", biasanya adalah langkah pertama yang dilakukan oleh seorang QA saat memulai hari kerjanya. Apa aja sih yang biasanya diperiksa dalam morning check ini?<br> </p>
+        <summary>Menyambung pembahasan lebih lanjut dari materi sebelumnya tentang keseharian menjadi software testerSure, ayo kita bahas lebih dalam soal &#39;morning check&#39; dalam dunia Quality Assurance (QA)!Morning check, atau yang bisa kita sebut &#39;cek pagi&#39;, biasanya adalah langkah pertama yang dilakukan oleh seorang QA saat memulai hari kerjanya. Apa aja sih yang biasanya diperiksa dalam morning check ini? </summary>
+        <content type="html">&lt;p&gt;Menyambung pembahasan lebih lanjut dari materi sebelumnya tentang &lt;a href=&#34;https://fachrul.id/cem-mana-keseharian-menjadi-software-tester-itu-sih/&#34;&gt;keseharian menjadi software tester&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Sure, ayo kita bahas lebih dalam soal &#34;morning check&#34; dalam dunia Quality Assurance (QA)!&lt;br&gt;Morning check, atau yang bisa kita sebut &#34;cek pagi&#34;, biasanya adalah langkah pertama yang dilakukan oleh seorang QA saat memulai hari kerjanya. Apa aja sih yang biasanya diperiksa dalam morning check ini?&lt;br&gt;&lt;/p&gt;
+&lt;h3&gt;1. Melihat Email&lt;br/&gt; &lt;/h3&gt;
 
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>Menyambung pembahasan lebih lanjut dari materi sebelumnya tentang <a href="https://fachrul.id/cem-mana-keseharian-menjadi-software-tester-itu-sih/" target="_blank" rel="noopener noreferrer">keseharian menjadi software tester</a></p>
-<p>Sure, ayo kita bahas lebih dalam soal "morning check" dalam dunia Quality Assurance (QA)!<br>Morning check, atau yang bisa kita sebut "cek pagi", biasanya adalah langkah pertama yang dilakukan oleh seorang QA saat memulai hari kerjanya. Apa aja sih yang biasanya diperiksa dalam morning check ini?<br> </p>
+&lt;p&gt;Pagi hari adalah waktu yang pas buat memeriksa email atau slack kantor. Mungkin ada update dari tim developer, laporan production bug baru dari user atau anggota tim lainnya, atau mungkin saja ada email penting lain yang berkaitan dengan proyek yang sedang dikerjakan.&lt;/p&gt;
+&lt;p&gt;Intinya, memeriksa email ini buat memastikan kamu nggak ketinggalan info penting apa pun.&lt;/p&gt;
+&lt;h3&gt;&lt;br/&gt;2. Memeriksa Update Laporan Bug&lt;br/&gt; &lt;/h3&gt;
 
-<h3>1. Melihat Email<br> </h3>
-<p>Pagi hari adalah waktu yang pas buat memeriksa email atau slack kantor. Mungkin ada update dari tim developer, laporan production bug baru dari user atau anggota tim lainnya, atau mungkin saja ada email penting lain yang berkaitan dengan proyek yang sedang dikerjakan. </p>
-<p>Intinya, memeriksa email ini buat memastikan kamu nggak ketinggalan info penting apa pun.</p>
-<h3><br>2. Memeriksa Update Laporan Bug<br> </h3>
-<p>Kalau tim kamu menggunakan alat pelaporan bug seperti JIRA, Bugzilla, atau Trello, morning check adalah waktu yang baik buat cek apakah ada laporan bug baru dari tim QA lain,, atau mungkin update tentang bug yang kemarin sudah kamu laporin. </p>
-<p>Lagi-lagi, ini buat memastikan kamu selalu up to date dengan progress sprint, karena biasanya tiap pagi kan akan ada Daily Standup Meeting.</p>
-<figure class="image"><img loading="lazy" src="https://assets.karyakarsa.com/post-image-647cc187a3b7a.jpg" data-is-external-image="true"></figure>
-<h3><br>3. Melihat Progress dan Task Hari Itu<br> </h3>
-<p>Setelah mengecek email dan alat pelaporan bug, biasanya QA akan melihat progress proyek secara keseluruhan dan apa saja task atau tugas yang harus dikerjakan hari itu, tiket apa aja yang udah pindah ke kolom <i>ready for testing</i>. Mungkin hari ini ada pengujian fungsional yang harus dilakukan, atau mungkin ada meeting dengan tim developer buat bahas rencana pengembangan fitur baru.</p>
-<h3><br>4. Membuat Rencana Kerja<br> </h3>
-<p>Setelah tahu apa saja yang harus dilakukan hari itu, QA biasanya akan membuat rencana kerja atau to-do list. Ini bisa membantu memprioritaskan tugas-tugas dan memastikan bahwa semua tugas penting dapat diselesaikan dengan efisien.</p>
-<p><br>Jadi, intinya morning check ini adalah proses persiapan dan perencanaan untuk memastikan hari kerja berjalan dengan lancar. Semacam ritual pagi yang membantu QA tetap terorganisir dan efisien dalam mengerjakan tugas-tugasnya. </p>
-<p>Cukup menarik, bukan? Siapa tahu, kamu juga mau coba menerapkan ritual pagi ini dalam pekerjaanmu!<br> </p>
-            ]]>
-        </content>
+&lt;p&gt;Kalau tim kamu menggunakan alat pelaporan bug seperti JIRA, Bugzilla, atau Trello, morning check adalah waktu yang baik buat cek apakah ada laporan bug baru dari tim QA lain,, atau mungkin update tentang bug yang kemarin sudah kamu laporin.&lt;/p&gt;
+&lt;p&gt;Lagi-lagi, ini buat memastikan kamu selalu up to date dengan progress sprint, karena biasanya tiap pagi kan akan ada Daily Standup Meeting.&lt;/p&gt;
+&lt;figure class=&#34;image&#34;&gt;&lt;img data-is-external-image=&#34;true&#34; loading=&#34;lazy&#34; src=&#34;https://assets.karyakarsa.com/post-image-647cc187a3b7a.jpg&#34;/&gt;&lt;/figure&gt;
+
+&lt;h3&gt;&lt;br/&gt;3. Melihat Progress dan Task Hari Itu&lt;br/&gt; &lt;/h3&gt;
+
+&lt;p&gt;Setelah mengecek email dan alat pelaporan bug, biasanya QA akan melihat progress proyek secara keseluruhan dan apa saja task atau tugas yang harus dikerjakan hari itu, tiket apa aja yang udah pindah ke kolom &lt;em&gt;ready for testing&lt;/em&gt;. Mungkin hari ini ada pengujian fungsional yang harus dilakukan, atau mungkin ada meeting dengan tim developer buat bahas rencana pengembangan fitur baru.&lt;/p&gt;
+&lt;h3&gt;&lt;br/&gt;4. Membuat Rencana Kerja&lt;br/&gt; &lt;/h3&gt;
+
+&lt;p&gt;Setelah tahu apa saja yang harus dilakukan hari itu, QA biasanya akan membuat rencana kerja atau to-do list. Ini bisa membantu memprioritaskan tugas-tugas dan memastikan bahwa semua tugas penting dapat diselesaikan dengan efisien.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;Jadi, intinya morning check ini adalah proses persiapan dan perencanaan untuk memastikan hari kerja berjalan dengan lancar. Semacam ritual pagi yang membantu QA tetap terorganisir dan efisien dalam mengerjakan tugas-tugasnya.&lt;/p&gt;
+&lt;p&gt;Cukup menarik, bukan? Siapa tahu, kamu juga mau coba menerapkan ritual pagi ini dalam pekerjaanmu!&lt;br&gt;&lt;/p&gt;</content>
     </entry>
+
     <entry>
         <title>Cem mana keseharian menjadi Software Tester itu sih?</title>
         <author>
@@ -156,39 +123,33 @@
         </author>
         <link href="https://fachrul.id/cem-mana-keseharian-menjadi-software-tester-itu-sih/"/>
         <id>https://fachrul.id/cem-mana-keseharian-menjadi-software-tester-itu-sih/</id>
-
+        <published>2023-11-05T14:51:37+04:00</published>
         <updated>2023-11-05T14:51:37+04:00</updated>
-            <summary>
-                <![CDATA[
-                    <p>Halo, sobat teknologi! </p>
-<p>Kayaknya banyak yang penasaran nih sama kerjaan sebagai Quality Assurance atau biasa disebut QA. </p>
-<p>Apa sih yang biasa dilakukan seorang QA dalam sehari-hari? Kok rasanya serem ya, kayak detektif yang mencari-cari kesalahan? Yuk, kita kupas tuntas cerita hidupnya QA!<br> </p>
+        <summary>Halo, sobat teknologi! Kayaknya banyak yang penasaran nih sama kerjaan sebagai Quality Assurance atau biasa disebut QA. Apa sih yang biasa dilakukan seorang QA dalam sehari-hari? Kok rasanya serem ya, kayak detektif yang mencari-cari kesalahan? Yuk, kita kupas tuntas cerita hidupnya QA! </summary>
+        <content type="html">&lt;p&gt;Halo, sobat teknologi!&lt;/p&gt;
+&lt;p&gt;Kayaknya banyak yang penasaran nih sama kerjaan sebagai Quality Assurance atau biasa disebut QA.&lt;/p&gt;
+&lt;p&gt;Apa sih yang biasa dilakukan seorang QA dalam sehari-hari? Kok rasanya serem ya, kayak detektif yang mencari-cari kesalahan? Yuk, kita kupas tuntas cerita hidupnya QA!&lt;br&gt;&lt;/p&gt;
+&lt;figure class=&#34;image image-style-align-center&#34;&gt;&lt;img data-is-external-image=&#34;true&#34; loading=&#34;lazy&#34; src=&#34;https://assets.karyakarsa.com/post-image-647c65b68c1cf.jpg&#34;/&gt;&lt;/figure&gt;
 
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>Halo, sobat teknologi! </p>
-<p>Kayaknya banyak yang penasaran nih sama kerjaan sebagai Quality Assurance atau biasa disebut QA. </p>
-<p>Apa sih yang biasa dilakukan seorang QA dalam sehari-hari? Kok rasanya serem ya, kayak detektif yang mencari-cari kesalahan? Yuk, kita kupas tuntas cerita hidupnya QA!<br> </p>
+&lt;h3&gt;Morning Check&lt;br/&gt; &lt;/h3&gt;
 
-<figure class="image image-style-align-center"><img loading="lazy" src="https://assets.karyakarsa.com/post-image-647c65b68c1cf.jpg" data-is-external-image="true"></figure>
-<h3>Morning Check<br> </h3>
-<p>Pagi-pagi, biasanya QA akan melakukan morning check, alias mengecek slack/email atau tools pelaporan bug seperti JIRA atau report test automation, buat lihat ada laporan bug baru atau nggak. Atau mungkin ada update dari tim developer soal perbaikan bug yang kemarin dilaporkan. </p>
-<p>Intinya, morning check ini buat update status proyek dan siapkan diri buat aktivitas yang bakal dihadapi hari itu (dan modal update di daily standup meeting)</p>
-<h3><br>Pengujian, Pengujian, dan Pengujian<br> </h3>
-<p>Setelah morning check, biasanya QA akan langsung masuk ke aktivitas utamanya: testing atau pengujian. Ada berbagai macam pengujian yang biasanya dilakukan, mulai dari pengujian fungsional (apakah fitur A, B, C berfungsi dengan baik?), pengujian non-fungsional (bagaimana performa dan keamanannya?), sampai pengujian regresi (setelah bug diperbaiki, apakah ada fitur lain yang jadi terganggu?). Sering juga, pengujian ini dilakukan secara manual dan otomatis. </p>
-<p>Pengujian manual biasanya dilakukan untuk melihat pengalaman pengguna secara langsung, istilahnya exploratory testing, sedangkan pengujian otomatis biasanya dilakukan dengan alat atau software khusus macam selenium/appium/API test gitu, buat cek fungsi-fungsi tertentu secara cepat dan efisien, jadi nanti kelar ngejalanin testnya bisa di lihat apakah fitur baru ini bikin error di module lain nggaknya</p>
-<h3><br>Laporan Bug<br> </h3>
-<p>Nah, kalau dalam pengujian tadi ditemukan bug atau masalah, QA harus melaporkannya ke tim developer. Biasanya, laporan ini dilakukan dengan cara yang sistematis dan detail, mulai dari menjelaskan bug yang ditemukan, langkah-langkah untuk mereproduksi bug tersebut, hingga memberikan screenshot atau video sebagai bukti.</p>
-<h3>Diskusi dan Meeting</h3>
-<p>Selain pengujian dan pelaporan, dalam kesehariannya, QA juga sering kali melakukan diskusi dan pembahasan dengan tim developer dan stakeholder lainnya. Misalnya, membahas fitur baru yang akan dikembangkan, memberikan masukan terkait user experience, atau mungkin melakukan review terhadap bug yang sudah diperbaiki.<br> </p>
-<h3>Selalu Belajar dan Update<br> </h3>
-<p>Dalam dunia yang selalu berubah seperti teknologi, seorang QA juga harus selalu belajar dan update pengetahuan. Misalnya belajar teknik pengujian baru, belajar menggunakan tools pengujian yang baru, atau mungkin belajar tentang tren dan perkembangan teknologi terkini.</p>
-<p><br>Intinya mah menjadi QA itu seru dan penuh tantangan. Kamu harus jeli dan teliti, tapi juga harus bisa bekerja sama dengan tim dan terus belajar. Tapi percaya deh, rasanya puas banget kalau bisa membantu menciptakan software yang bebas dari bug dan nyaman digunakan pengguna. Jadi, siapa nih yang tertarik jadi QA?<br> </p>
-            ]]>
-        </content>
+&lt;p&gt;Pagi-pagi, biasanya QA akan melakukan morning check, alias mengecek slack/email atau tools pelaporan bug seperti JIRA atau report test automation, buat lihat ada laporan bug baru atau nggak. Atau mungkin ada update dari tim developer soal perbaikan bug yang kemarin dilaporkan.&lt;/p&gt;
+&lt;p&gt;Intinya, morning check ini buat update status proyek dan siapkan diri buat aktivitas yang bakal dihadapi hari itu (dan modal update di daily standup meeting)&lt;/p&gt;
+&lt;h3&gt;&lt;br/&gt;Pengujian, Pengujian, dan Pengujian&lt;br/&gt; &lt;/h3&gt;
+
+&lt;p&gt;Setelah morning check, biasanya QA akan langsung masuk ke aktivitas utamanya: testing atau pengujian. Ada berbagai macam pengujian yang biasanya dilakukan, mulai dari pengujian fungsional (apakah fitur A, B, C berfungsi dengan baik?), pengujian non-fungsional (bagaimana performa dan keamanannya?), sampai pengujian regresi (setelah bug diperbaiki, apakah ada fitur lain yang jadi terganggu?). Sering juga, pengujian ini dilakukan secara manual dan otomatis.&lt;/p&gt;
+&lt;p&gt;Pengujian manual biasanya dilakukan untuk melihat pengalaman pengguna secara langsung, istilahnya exploratory testing, sedangkan pengujian otomatis biasanya dilakukan dengan alat atau software khusus macam selenium/appium/API test gitu, buat cek fungsi-fungsi tertentu secara cepat dan efisien, jadi nanti kelar ngejalanin testnya bisa di lihat apakah fitur baru ini bikin error di module lain nggaknya&lt;/p&gt;
+&lt;h3&gt;&lt;br/&gt;Laporan Bug&lt;br/&gt; &lt;/h3&gt;
+
+&lt;p&gt;Nah, kalau dalam pengujian tadi ditemukan bug atau masalah, QA harus melaporkannya ke tim developer. Biasanya, laporan ini dilakukan dengan cara yang sistematis dan detail, mulai dari menjelaskan bug yang ditemukan, langkah-langkah untuk mereproduksi bug tersebut, hingga memberikan screenshot atau video sebagai bukti.&lt;/p&gt;
+&lt;h3&gt;Diskusi dan Meeting&lt;/h3&gt;
+&lt;p&gt;Selain pengujian dan pelaporan, dalam kesehariannya, QA juga sering kali melakukan diskusi dan pembahasan dengan tim developer dan stakeholder lainnya. Misalnya, membahas fitur baru yang akan dikembangkan, memberikan masukan terkait user experience, atau mungkin melakukan review terhadap bug yang sudah diperbaiki.&lt;br&gt;&lt;/p&gt;
+&lt;h3&gt;Selalu Belajar dan Update&lt;br/&gt; &lt;/h3&gt;
+
+&lt;p&gt;Dalam dunia yang selalu berubah seperti teknologi, seorang QA juga harus selalu belajar dan update pengetahuan. Misalnya belajar teknik pengujian baru, belajar menggunakan tools pengujian yang baru, atau mungkin belajar tentang tren dan perkembangan teknologi terkini.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;Intinya mah menjadi QA itu seru dan penuh tantangan. Kamu harus jeli dan teliti, tapi juga harus bisa bekerja sama dengan tim dan terus belajar. Tapi percaya deh, rasanya puas banget kalau bisa membantu menciptakan software yang bebas dari bug dan nyaman digunakan pengguna. Jadi, siapa nih yang tertarik jadi QA?&lt;br&gt;&lt;/p&gt;</content>
     </entry>
+
     <entry>
         <title>9 Hal Penting untuk Dikuasai Software Tester (Quality Assurance)</title>
         <author>
@@ -196,44 +157,45 @@
         </author>
         <link href="https://fachrul.id/9-hal-penting-untuk-dikuasai-software-tester-quality-assurance/"/>
         <id>https://fachrul.id/9-hal-penting-untuk-dikuasai-software-tester-quality-assurance/</id>
-
+        <published>2023-11-05T14:46:17+04:00</published>
         <updated>2023-11-05T14:46:17+04:00</updated>
-            <summary>
-                <![CDATA[
-                    1. Pemahaman Dasar tentang Perangkat Lunak Untuk menjadi Software Tester handal, kamu harus memahami gimana cara kerja aplikasi digital (Web, Android, iOS, API). Ditambah juga harus ngerti konsep dasar pemrograman, struktur data, dan algoritma itu penting banget loh. Memang kamu ga mesti paham sedalam Developernya&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <h3>1. Pemahaman Dasar tentang Perangkat Lunak</h3>
-<p>Untuk menjadi Software Tester handal, kamu harus memahami gimana cara kerja aplikasi digital (Web, Android, iOS, API). </p>
-<p>Ditambah juga harus ngerti konsep dasar pemrograman, struktur data, dan algoritma itu penting banget loh. Memang kamu ga mesti paham sedalam Developernya (programmer), cukup punya pemahaman dasar cara bikin aplikasinya, cara kerja aplikasi, cara deploy/compile, tentu akan sangat membantu kamu memahami dan menemukan bug dalam aplikasi yang diuji.</p>
-<h3><br>2. Metodologi Pengujian Software</h3>
-<p>Pelajari berbagai teknik dan jenis pengujian software, seperti metode pengujian fungsional, pengujian non-fungsional (performa, keamanan, usability), pengujian regresi, dan test automation. </p>
-<p>Setiap jenis pengujian ini punya tujuan dan tekniknya sendiri yang perlu dipahami, di kesempatan lain saya akan jabarkan lebih dalam ya.</p>
-<h3><br>3. Belajar Bahasa Pemrograman</h3>
-<p>Paling nggak punya satu bahasa pemrograman yang kamu kuasai adalah modal yang sangat berguna dalam karir Software Engineer secara umum, jadi menjadi software tester/QA juga perlu punya bahasa pemrograman andalan, misal buat bikin test automation.</p>
-<p>Kamu bisa pilih bahasa pemrograman seperti: Javascript, Python dan Java adalah bahasa pemrograman yang umum digunakan dalam pengujian perangkat lunak dan digunakan developer untuk bikin aplikasinya, jadi kamu bisa tanya Dev kalo mentok soal koding.</p>
-<figure class="image image-style-align-center"><img loading="lazy" src="https://assets.karyakarsa.com/post-image-647c670139c48.jpg" data-is-external-image="true"></figure>
-<h3>4. Belajar Komunikasi</h3>
-<p>Kemampuan komunikasi yang baik memainkan peran krusial dalam kesuksesan seorang software tester. Karena kamu perlu banget skill komunikasi yang mumpuni biar ga salah paham dengan tim pengembang, tim QA lainnya, pemangku kepentingan, buat hal seperti menyampaikan laporan bug, kolaborasi tim, dan memahami requirement produk.</p>
-<h3><br>5. Pengujian Otomatis</h3>
-<p>Dalam lingkungan kerja modern, pengujian otomatis adalah keterampilan yang penting. Hampir semua startup gede di Indonesia mengimplementasi test automation ke dalam proses rilis nya, biar bisa membantu proses testing perubahan dengan lebih cepat dan konsisten. </p>
-<p>Belajarlah untuk menggunakan, membuat, merawat alat test automation tools seperti Selenium/appium, JUnit, TestNG, dan lainnya.</p>
-<h3><br>6. Pemahaman tentang Siklus Hidup Pengembangan Sistem (SDLC)</h3>
-<p>Seorang QA harus memahami proses SDLC dan bagaimana pengujian perangkat lunak cocok dalam proses tersebut. Pahami juga metode pengembangan seperti Agile dan DevOps.</p>
-<h3><br>7. Pelajari Manajemen Bug dan Alat Pelaporan</h3>
-<p>Software tester biasanya menggunakan tools seperti JIRA, Bugzilla, atau Trello untuk melacak dan melaporkan bug. Laporan bugs yang baik akan berguna bagi Dev untuk memperbaiki bugs dengan cepat, kamu bisa masukin informasi yang jelas dan mudah dipahami dalam laporan bugs, seperti detail masalahnya, cara reporoduce, rekaman video atau screenshot masalah tersebut, hmm di kesempatan lain nanti gw bahas hal ini dengan lebih detail, karena pentingnya kemampuan ini.</p>
-<h3><br>8. Pelajari tentang Basis Data</h3>
-<p>Sebagai seorang software tester, memahami SQL dan operasi basis data dasar adalah keterampilan yang berguna. Karena kamu bisa menguji apakah hasil proses di aplikasi sudah disimpan dengan benar di database, apakah bener nyimpen datanya di kolom tersebut (ga ketuker fieldnya), atau suka ada beberapa element yang suka kelewat, seperti timezone, misal datanya di input jam 7 malem waktu indonesia barat, tetapi di database disimpen GMT+0, pas di cek di sistem lain gada conversi balik ke WIB, dulu saya menemukan bugs ini setelah liat di database</p>
-<h3><br>9. Belajar tentang Keamanan Perangkat Lunak</h3>
-<p>Pemahaman dasar tentang keamanan perangkat lunak juga penting, termasuk topik seperti serangan XSS, SQL Injection, dan teknik penipuan lainnya, walaupun biasanya sudah ada tim khusus terkait software security ini seperti pentester dan devops, tapi keamanan aplikasi baru ini masuk ke dalam non-functional testing</p>
-<p><br>Gitu deh, gimana menurut kamu? Ternyata jadi software tester bukan hanya tentang menemukan bug ya. </p>
-<p>Kita juga harus paham “luar-dalam” aplikasi biar yakin aplikasi kita berfungsi seperti yang diharapkan dan memberikan pengalaman yang baik bagi pengguna. </p>
-<p>Semoga sukses dalam perjalanan belajar Anda menjadi seorang software tester!</p>
-            ]]>
-        </content>
+        <summary>1. Pemahaman Dasar tentang Perangkat Lunak Untuk menjadi Software Tester handal, kamu harus memahami gimana cara kerja aplikasi digital (Web, Android, iOS, API). Ditambah juga harus ngerti konsep dasar pemrograman, struktur data, dan algoritma itu penting banget loh. Memang kamu ga mesti paham sedalam Developernya…</summary>
+        <content type="html">&lt;h3&gt;1. Pemahaman Dasar tentang Perangkat Lunak&lt;/h3&gt;
+&lt;p&gt;Untuk menjadi Software Tester handal, kamu harus memahami gimana cara kerja aplikasi digital (Web, Android, iOS, API).&lt;/p&gt;
+&lt;p&gt;Ditambah juga harus ngerti konsep dasar pemrograman, struktur data, dan algoritma itu penting banget loh. Memang kamu ga mesti paham sedalam Developernya (programmer), cukup punya pemahaman dasar cara bikin aplikasinya, cara kerja aplikasi, cara deploy/compile, tentu akan sangat membantu kamu memahami dan menemukan bug dalam aplikasi yang diuji.&lt;/p&gt;
+&lt;h3&gt;&lt;br/&gt;2. Metodologi Pengujian Software&lt;/h3&gt;
+
+&lt;p&gt;Pelajari berbagai teknik dan jenis pengujian software, seperti metode pengujian fungsional, pengujian non-fungsional (performa, keamanan, usability), pengujian regresi, dan test automation.&lt;/p&gt;
+&lt;p&gt;Setiap jenis pengujian ini punya tujuan dan tekniknya sendiri yang perlu dipahami, di kesempatan lain saya akan jabarkan lebih dalam ya.&lt;/p&gt;
+&lt;h3&gt;&lt;br/&gt;3. Belajar Bahasa Pemrograman&lt;/h3&gt;
+
+&lt;p&gt;Paling nggak punya satu bahasa pemrograman yang kamu kuasai adalah modal yang sangat berguna dalam karir Software Engineer secara umum, jadi menjadi software tester/QA juga perlu punya bahasa pemrograman andalan, misal buat bikin test automation.&lt;/p&gt;
+&lt;p&gt;Kamu bisa pilih bahasa pemrograman seperti: Javascript, Python dan Java adalah bahasa pemrograman yang umum digunakan dalam pengujian perangkat lunak dan digunakan developer untuk bikin aplikasinya, jadi kamu bisa tanya Dev kalo mentok soal koding.&lt;/p&gt;
+&lt;figure class=&#34;image image-style-align-center&#34;&gt;&lt;img data-is-external-image=&#34;true&#34; loading=&#34;lazy&#34; src=&#34;https://assets.karyakarsa.com/post-image-647c670139c48.jpg&#34;/&gt;&lt;/figure&gt;
+
+&lt;h3&gt;4. Belajar Komunikasi&lt;/h3&gt;
+&lt;p&gt;Kemampuan komunikasi yang baik memainkan peran krusial dalam kesuksesan seorang software tester. Karena kamu perlu banget skill komunikasi yang mumpuni biar ga salah paham dengan tim pengembang, tim QA lainnya, pemangku kepentingan, buat hal seperti menyampaikan laporan bug, kolaborasi tim, dan memahami requirement produk.&lt;/p&gt;
+&lt;h3&gt;&lt;br/&gt;5. Pengujian Otomatis&lt;/h3&gt;
+
+&lt;p&gt;Dalam lingkungan kerja modern, pengujian otomatis adalah keterampilan yang penting. Hampir semua startup gede di Indonesia mengimplementasi test automation ke dalam proses rilis nya, biar bisa membantu proses testing perubahan dengan lebih cepat dan konsisten.&lt;/p&gt;
+&lt;p&gt;Belajarlah untuk menggunakan, membuat, merawat alat test automation tools seperti Selenium/appium, JUnit, TestNG, dan lainnya.&lt;/p&gt;
+&lt;h3&gt;&lt;br/&gt;6. Pemahaman tentang Siklus Hidup Pengembangan Sistem (SDLC)&lt;/h3&gt;
+
+&lt;p&gt;Seorang QA harus memahami proses SDLC dan bagaimana pengujian perangkat lunak cocok dalam proses tersebut. Pahami juga metode pengembangan seperti Agile dan DevOps.&lt;/p&gt;
+&lt;h3&gt;&lt;br/&gt;7. Pelajari Manajemen Bug dan Alat Pelaporan&lt;/h3&gt;
+
+&lt;p&gt;Software tester biasanya menggunakan tools seperti JIRA, Bugzilla, atau Trello untuk melacak dan melaporkan bug. Laporan bugs yang baik akan berguna bagi Dev untuk memperbaiki bugs dengan cepat, kamu bisa masukin informasi yang jelas dan mudah dipahami dalam laporan bugs, seperti detail masalahnya, cara reporoduce, rekaman video atau screenshot masalah tersebut, hmm di kesempatan lain nanti gw bahas hal ini dengan lebih detail, karena pentingnya kemampuan ini.&lt;/p&gt;
+&lt;h3&gt;&lt;br/&gt;8. Pelajari tentang Basis Data&lt;/h3&gt;
+
+&lt;p&gt;Sebagai seorang software tester, memahami SQL dan operasi basis data dasar adalah keterampilan yang berguna. Karena kamu bisa menguji apakah hasil proses di aplikasi sudah disimpan dengan benar di database, apakah bener nyimpen datanya di kolom tersebut (ga ketuker fieldnya), atau suka ada beberapa element yang suka kelewat, seperti timezone, misal datanya di input jam 7 malem waktu indonesia barat, tetapi di database disimpen GMT+0, pas di cek di sistem lain gada conversi balik ke WIB, dulu saya menemukan bugs ini setelah liat di database&lt;/p&gt;
+&lt;h3&gt;&lt;br/&gt;9. Belajar tentang Keamanan Perangkat Lunak&lt;/h3&gt;
+
+&lt;p&gt;Pemahaman dasar tentang keamanan perangkat lunak juga penting, termasuk topik seperti serangan XSS, SQL Injection, dan teknik penipuan lainnya, walaupun biasanya sudah ada tim khusus terkait software security ini seperti pentester dan devops, tapi keamanan aplikasi baru ini masuk ke dalam non-functional testing&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;Gitu deh, gimana menurut kamu? Ternyata jadi software tester bukan hanya tentang menemukan bug ya.&lt;/p&gt;
+&lt;p&gt;Kita juga harus paham “luar-dalam” aplikasi biar yakin aplikasi kita berfungsi seperti yang diharapkan dan memberikan pengalaman yang baik bagi pengguna.&lt;/p&gt;
+&lt;p&gt;Semoga sukses dalam perjalanan belajar Anda menjadi seorang software tester!&lt;/p&gt;</content>
     </entry>
+
     <entry>
         <title>Puisi: Setahun Berlalu di Dubai</title>
         <author>
@@ -241,49 +203,14 @@
         </author>
         <link href="https://fachrul.id/puisi-setahun-merantau-di-dubai/"/>
         <id>https://fachrul.id/puisi-setahun-merantau-di-dubai/</id>
-
+        <published>2023-10-29T13:11:00+04:00</published>
         <updated>2023-11-05T13:12:46+04:00</updated>
-            <summary>
-                <![CDATA[
-                    Di antara gedung pencakar langit di Dubai, aku berdiri Seorang perantau, jauh dari tanah air. Satu tahun berlalu secepat kilat, seperti mimpi yang lewat Meninggalkan yang terkasih, tak nampak ada wajah mereka di setiap embun pagi di oasis. Mimpi yang kugenggam, tak semudah angan menggapai,&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <div>
-<div>Di antara gedung pencakar langit di Dubai, aku berdiri</div>
-<div>Seorang perantau, jauh dari tanah air.</div>
-<div>Satu tahun berlalu secepat kilat, seperti mimpi yang lewat</div>
-<div>Meninggalkan yang terkasih,</div>
-<div>tak nampak ada wajah mereka di setiap embun pagi di oasis.</div>
-<div> </div>
-</div>
-<div><figure class="post__image post__image--left"><img loading="lazy"  src="https://fachrul.id/media/posts/63/masuk-ae.webp" alt="" width="250" height="333" sizes="100vw" srcset="https://fachrul.id/media/posts/63/responsive/masuk-ae-xs.webp 300w ,https://fachrul.id/media/posts/63/responsive/masuk-ae-sm.webp 480w ,https://fachrul.id/media/posts/63/responsive/masuk-ae-md.webp 768w ,https://fachrul.id/media/posts/63/responsive/masuk-ae-lg.webp 1024w ,https://fachrul.id/media/posts/63/responsive/masuk-ae-xl.webp 1360w ,https://fachrul.id/media/posts/63/responsive/masuk-ae-2xl.webp 1600w"></figure>
-<div>Mimpi yang kugenggam, tak semudah angan menggapai,</div>
-<div>Setiap langkahku ada bayang kerinduan yang tak pernah layu.</div>
-<div>"Apakah ini layak? Ketika harus meninggalkan mereka yang kucinta"</div>
-<div>Tanya tanya ku pada hati di malam yang sunyi,</div>
-<div>Kerinduan pada senyum anak, atau tawa istri yang tak bisa kusentuh.</div>
-<br>
-<div>Namun, di balik rindu ini, harapan terus bersinar,</div>
-<div>Semua demi masa depan yang cerah, itulah yang kuharapkan.</div>
-<div>Ku berdoa suatu hari nanti, saat perjalanan ini berakhir,</div>
-<div>Tak ada penyesalan yang tersisa, hanya syukur yang mengalir.</div>
-<br>
-<div>Istriku yang sabar ya</div>
-<div>Aku tahu betul tak mudah mendidik dua anak kita sendirian.</div>
-<div>Semoga kesabaran mengisi setiap detik yang kita lalui terpisah,</div>
-<br>
-<div>Aku berdoa, semoga tak lama lagi kita dapat bersua,</div>
-<div>Dan semua pengorbanan ini,</div>
-<div>menjadi anugerah terbaik untuk keluarga.</div>
-<div>Kuharap ini takkan sia-sia, dan aku yakin kerinduan akan berbuah bahagia.</div>
-<div> </div>
-<div>Dubai, 29 Oktober 2023</div>
-</div>
-            ]]>
-        </content>
+        <summary>Di antara gedung pencakar langit di Dubai, aku berdiri Seorang perantau, jauh dari tanah air. Satu tahun berlalu secepat kilat, seperti mimpi yang lewat Meninggalkan yang terkasih, tak nampak ada wajah mereka di setiap embun pagi di oasis. Mimpi yang kugenggam, tak semudah angan menggapai,…</summary>
+        <content type="html">&lt;div&gt;&lt;div&gt;Di antara gedung pencakar langit di Dubai, aku berdiri&lt;/div&gt;&lt;div&gt;Seorang perantau, jauh dari tanah air.&lt;/div&gt;&lt;div&gt;Satu tahun berlalu secepat kilat, seperti mimpi yang lewat&lt;/div&gt;&lt;div&gt;Meninggalkan yang terkasih,&lt;/div&gt;&lt;div&gt;tak nampak ada wajah mereka di setiap embun pagi di oasis.&lt;/div&gt;&lt;div&gt; &lt;/div&gt;&lt;/div&gt;
+
+&lt;div&gt;&lt;figure class=&#34;post__image post__image--left&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;333&#34; loading=&#34;lazy&#34; sizes=&#34;100vw&#34; src=&#34;https://fachrul.id/media/posts/63/masuk-ae.webp&#34; srcset=&#34;https://fachrul.id/media/posts/63/responsive/masuk-ae-xs.webp 300w, https://fachrul.id/media/posts/63/responsive/masuk-ae-sm.webp 480w, https://fachrul.id/media/posts/63/responsive/masuk-ae-md.webp 768w, https://fachrul.id/media/posts/63/responsive/masuk-ae-lg.webp 1024w, https://fachrul.id/media/posts/63/responsive/masuk-ae-xl.webp 1360w, https://fachrul.id/media/posts/63/responsive/masuk-ae-2xl.webp 1600w&#34; width=&#34;250&#34;/&gt;&lt;/figure&gt;&lt;div&gt;Mimpi yang kugenggam, tak semudah angan menggapai,&lt;/div&gt;&lt;div&gt;Setiap langkahku ada bayang kerinduan yang tak pernah layu.&lt;/div&gt;&lt;div&gt;&#34;Apakah ini layak? Ketika harus meninggalkan mereka yang kucinta&#34;&lt;/div&gt;&lt;div&gt;Tanya tanya ku pada hati di malam yang sunyi,&lt;/div&gt;&lt;div&gt;Kerinduan pada senyum anak, atau tawa istri yang tak bisa kusentuh.&lt;/div&gt;&lt;br/&gt;&lt;div&gt;Namun, di balik rindu ini, harapan terus bersinar,&lt;/div&gt;&lt;div&gt;Semua demi masa depan yang cerah, itulah yang kuharapkan.&lt;/div&gt;&lt;div&gt;Ku berdoa suatu hari nanti, saat perjalanan ini berakhir,&lt;/div&gt;&lt;div&gt;Tak ada penyesalan yang tersisa, hanya syukur yang mengalir.&lt;/div&gt;&lt;br/&gt;&lt;div&gt;Istriku yang sabar ya&lt;/div&gt;&lt;div&gt;Aku tahu betul tak mudah mendidik dua anak kita sendirian.&lt;/div&gt;&lt;div&gt;Semoga kesabaran mengisi setiap detik yang kita lalui terpisah,&lt;/div&gt;&lt;br/&gt;&lt;div&gt;Aku berdoa, semoga tak lama lagi kita dapat bersua,&lt;/div&gt;&lt;div&gt;Dan semua pengorbanan ini,&lt;/div&gt;&lt;div&gt;menjadi anugerah terbaik untuk keluarga.&lt;/div&gt;&lt;div&gt;Kuharap ini takkan sia-sia, dan aku yakin kerinduan akan berbuah bahagia.&lt;/div&gt;&lt;div&gt; &lt;/div&gt;&lt;div&gt;Dubai, 29 Oktober 2023&lt;/div&gt;&lt;/div&gt;</content>
     </entry>
+
     <entry>
         <title>Teka-Teki Segitiga: Sebuah Pelajaran Penting! Critical Thinking dan Software Testing</title>
         <author>
@@ -291,62 +218,46 @@
         </author>
         <link href="https://fachrul.id/teka-teki-segitiga-sebuah-pelajaran-penting-dalam-critical-thinking-dan-software-testing/"/>
         <id>https://fachrul.id/teka-teki-segitiga-sebuah-pelajaran-penting-dalam-critical-thinking-dan-software-testing/</id>
-        <media:content url="https://fachrul.id/media/posts/62/Teka-Teki-Segitiga-Sebuah-Pelajaran-Penting-Critical-Thinking-dan-Software-Testing.jpg" medium="image" />
-            <category term="merdeQA"/>
-            <category term="belajar-qa"/>
-
+        <category term="belajar-qa"/>
+        <category term="merdeQA"/>
+        <published>2023-07-02T11:07:00+04:00</published>
         <updated>2023-07-02T12:02:21+04:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://fachrul.id/media/posts/62/Teka-Teki-Segitiga-Sebuah-Pelajaran-Penting-Critical-Thinking-dan-Software-Testing.jpg" alt="" />
-                    Salam 🙌 Beberapa waktu lalu, di timeline gw ada tweet yang lagi rame soal tantangan menghitung jumlah segitiga dalam satu gambar, gw langsung mikir "nah ini contoh bagus buat melatih critical thinking buat software tester" Kemarin (1 Juli 2023), gw bikin quiz kecil-kecilan di instagram&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://fachrul.id/media/posts/62/Teka-Teki-Segitiga-Sebuah-Pelajaran-Penting-Critical-Thinking-dan-Software-Testing.jpg" class="type:primaryImage" alt="" /></p>
-                <p>Salam 🙌</p>
-<p>Beberapa waktu lalu, di timeline gw ada tweet yang lagi rame soal tantangan menghitung jumlah segitiga dalam satu gambar, gw langsung mikir "nah ini contoh bagus buat melatih critical thinking buat software tester"</p>
-<p>Kemarin (1 Juli 2023), gw bikin quiz kecil-kecilan di instagram <a href="https://www.instagram.com/ngetest.id/" target="_blank" rel="noopener noreferrer">@ngetest.id</a>, soal pertanyaan teka-teki menghitung segitiga ini "How many triangles?"</p>
-<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/62/WhatsApp-Image-2023-07-02-at-10.34.17-2.jpeg" alt="" width="360" height="800" sizes="100vw" srcset="https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.34.17-2-xs.jpeg 300w ,https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.34.17-2-sm.jpeg 480w ,https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.34.17-2-md.jpeg 768w ,https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.34.17-2-lg.jpeg 1024w ,https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.34.17-2-xl.jpeg 1360w ,https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.34.17-2-2xl.jpeg 1600w"></figure>
-<figcaption >quiz di akun @ngetest.id (silakan follow klo belum)</figcaption>
-</figure>
-<p>Rate yang jawab ga banyak sih sekitar 27% orang yang menjawab, tapi pas gw cek jawabannya, gw kaget juga banyak yang jawab "salah" alias kejebak pas ngitung jumlah segitiganya! Terus sebenernya, berapa sih jumlah segitiga yang bener?</p>
-<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/62/WhatsApp-Image-2023-07-02-at-10.35.45-2.jpeg" alt="" width="350" height="451" sizes="100vw" srcset="https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.35.45-2-xs.jpeg 300w ,https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.35.45-2-sm.jpeg 480w ,https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.35.45-2-md.jpeg 768w ,https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.35.45-2-lg.jpeg 1024w ,https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.35.45-2-xl.jpeg 1360w ,https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.35.45-2-2xl.jpeg 1600w"></figure>
-<figcaption >jawabannya 18</figcaption>
-</figure>
-<p>Jawaban utamanya 18, tapi plot twist nya, ini bukan jawaban yang gw harapkan loh 😱</p>
-<p>Oke kita bahas dulu, dari mana sih angka 18 ini muncul? ini di dapat dari kombinasi garis yang membentuk segitiga, percaya-gak percaya ada rumus matematika juga loh untuk ini, karena katanya menghitung segitiga sama halnya dengan menghitung kombinasi dari tiga garis (three lines chosen out of six)</p>
-<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/62/jawaban-teka-teki-segitiga.jpeg" alt="" width="350" height="355" sizes="100vw" srcset="https://fachrul.id/media/posts/62/responsive/jawaban-teka-teki-segitiga-xs.jpeg 300w ,https://fachrul.id/media/posts/62/responsive/jawaban-teka-teki-segitiga-sm.jpeg 480w ,https://fachrul.id/media/posts/62/responsive/jawaban-teka-teki-segitiga-md.jpeg 768w ,https://fachrul.id/media/posts/62/responsive/jawaban-teka-teki-segitiga-lg.jpeg 1024w ,https://fachrul.id/media/posts/62/responsive/jawaban-teka-teki-segitiga-xl.jpeg 1360w ,https://fachrul.id/media/posts/62/responsive/jawaban-teka-teki-segitiga-2xl.jpeg 1600w"></figure>
-<figcaption >jawaban jumlah segitiga</figcaption>
-</figure>
-<p>Begitulah kenapa muncul angka 18 sebagai jawaban Quiz di instagram <a href="https://www.instagram.com/ngetest.id/" target="_blank" rel="noopener noreferrer">@ngetest.id</a>, tapi bukan itu jawaban yang gw harapkan dari followers akun ngetest.id yang gw yakin sebagian besar adalah seorang software tester, yaitu "Bertanya"</p>
-<hr>
-<h2>Eh gimana maksudnya?</h2>
-<p>Karena di keterangan quiz nya itu banyak informasi yang ambigu bahkan multi tafsir sih, kebiasaan kita tuh banyak yang anggep asumsi umum sebagai kebenaran dari sebuah requirements (user story), padahal belum tentu itu yang diharapkan.</p>
-<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/62/jawaban-yang-diharapkan.jpeg" alt="" width="350" height="778" sizes="100vw" srcset="https://fachrul.id/media/posts/62/responsive/jawaban-yang-diharapkan-xs.jpeg 300w ,https://fachrul.id/media/posts/62/responsive/jawaban-yang-diharapkan-sm.jpeg 480w ,https://fachrul.id/media/posts/62/responsive/jawaban-yang-diharapkan-md.jpeg 768w ,https://fachrul.id/media/posts/62/responsive/jawaban-yang-diharapkan-lg.jpeg 1024w ,https://fachrul.id/media/posts/62/responsive/jawaban-yang-diharapkan-xl.jpeg 1360w ,https://fachrul.id/media/posts/62/responsive/jawaban-yang-diharapkan-2xl.jpeg 1600w"></figure>
-<figcaption >harusnya ada yang tanya di story ini</figcaption>
-</figure>
-<p>Oke di context quiz segitiga ini, informasi yang perlu diklarifikasi dari pertanyaan (reqirements) "How many <em><strong>triangles</strong></em>?" sebenernya:</p>
-<ul>
-<li>Triangles? eh segitiga yang mana nih? segitiga sama kaki? sama sisi? atau segitiga sembarangan?</li>
-<li>Ini ngitung segitiga yang keliatan doang?</li>
-<li>Luar nya doang? apa termasuk yang di dalem? (segitiga dalam segitiga)</li>
-<li>Atau yang paling epik tuh klo ada yang tanya "Ini garis di lembar kertas diitung membelah segitiga juga ga?"</li>
-</ul>
-<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/62/detail-segitiga.png" alt="" width="350" height="100" sizes="100vw" srcset="https://fachrul.id/media/posts/62/responsive/detail-segitiga-xs.png 300w ,https://fachrul.id/media/posts/62/responsive/detail-segitiga-sm.png 480w ,https://fachrul.id/media/posts/62/responsive/detail-segitiga-md.png 768w ,https://fachrul.id/media/posts/62/responsive/detail-segitiga-lg.png 1024w ,https://fachrul.id/media/posts/62/responsive/detail-segitiga-xl.png 1360w ,https://fachrul.id/media/posts/62/responsive/detail-segitiga-2xl.png 1600w"></figure>
-<figcaption >garis kertas juga keiting bikin segitiga baru?</figcaption>
-</figure>
-<p>Pertanyaan ini penting banget untuk dipahami sebelum menjawab (ngeTest), karena jumlah jawabanya (jumlah segitiga) akan tergantung dari kesepakatan bersama dalam konteks pertanyaan ini (requirements), karena salah tafsir bisa ngasih jawaban yang salah atau nggak lengkap</p>
-<p>Sebagai Software Tester, kita harus paham banget apa sih yang kita tes dan konteks nya gimana. Kita harus pastiin klo tim (QA, Dev, dkk) punya pemahaman yang sama tentang apa yang diharapkan dari softwarenya</p>
-<h2>Jadi, apa yang bisa kita pelajari dari teka-teki segitiga ini?</h2>
-<p>Jangan takut buat nanya. Jangan asumsi kamu udah ngerti semuanya. Pahami konteks, pahami requirement, asah critical thinking kamu. Kita harus bisa melihat lebih dari apa yang nampak di depan mata, kita harus bisa "melihat" apa yang tidak tampak oleh orang lain, menguji batas dan memastikan bahwa tim bisa memberikan yang terbaik melebihi harapan pelanggan (production user)</p>
-<hr>
-<p>Sumber artikel: <a href="https://www.popularmechanics.com/science/math/a30706968/viral-triangle-brain-teaser-solved/">https://www.popularmechanics.com/science/math/a30706968/viral-triangle-brain-teaser-solved/</a> </p>
-<p> </p>
-            ]]>
-        </content>
+        <summary>Gimana cara gw belajar melatih critical thinking dari sebuah teka-teki untuk softaware quality assurance (tester)</summary>
+        <content type="html">&lt;p&gt;Salam 🙌&lt;/p&gt;
+&lt;p&gt;Beberapa waktu lalu, di timeline gw ada tweet yang lagi rame soal tantangan menghitung jumlah segitiga dalam satu gambar, gw langsung mikir &#34;nah ini contoh bagus buat melatih critical thinking buat software tester&#34;&lt;/p&gt;
+&lt;p&gt;Kemarin (1 Juli 2023), gw bikin quiz kecil-kecilan di instagram &lt;a href=&#34;https://www.instagram.com/ngetest.id/&#34;&gt;@ngetest.id&lt;/a&gt;, soal pertanyaan teka-teki menghitung segitiga ini &#34;How many triangles?&#34;&lt;/p&gt;
+&lt;figure&gt;&lt;figure class=&#34;post__image post__image--center&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;800&#34; loading=&#34;lazy&#34; sizes=&#34;100vw&#34; src=&#34;https://fachrul.id/media/posts/62/WhatsApp-Image-2023-07-02-at-10.34.17-2.jpeg&#34; srcset=&#34;https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.34.17-2-xs.jpeg 300w, https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.34.17-2-sm.jpeg 480w, https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.34.17-2-md.jpeg 768w, https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.34.17-2-lg.jpeg 1024w, https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.34.17-2-xl.jpeg 1360w, https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.34.17-2-2xl.jpeg 1600w&#34; width=&#34;360&#34;/&gt;&lt;/figure&gt;&lt;figcaption&gt;quiz di akun @ngetest.id (silakan follow klo belum)&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Rate yang jawab ga banyak sih sekitar 27% orang yang menjawab, tapi pas gw cek jawabannya, gw kaget juga banyak yang jawab &#34;salah&#34; alias kejebak pas ngitung jumlah segitiganya! Terus sebenernya, berapa sih jumlah segitiga yang bener?&lt;/p&gt;
+&lt;figure&gt;&lt;figure class=&#34;post__image post__image--center&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;451&#34; loading=&#34;lazy&#34; sizes=&#34;100vw&#34; src=&#34;https://fachrul.id/media/posts/62/WhatsApp-Image-2023-07-02-at-10.35.45-2.jpeg&#34; srcset=&#34;https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.35.45-2-xs.jpeg 300w, https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.35.45-2-sm.jpeg 480w, https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.35.45-2-md.jpeg 768w, https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.35.45-2-lg.jpeg 1024w, https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.35.45-2-xl.jpeg 1360w, https://fachrul.id/media/posts/62/responsive/WhatsApp-Image-2023-07-02-at-10.35.45-2-2xl.jpeg 1600w&#34; width=&#34;350&#34;/&gt;&lt;/figure&gt;&lt;figcaption&gt;jawabannya 18&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Jawaban utamanya 18, tapi plot twist nya, ini bukan jawaban yang gw harapkan loh 😱&lt;/p&gt;
+&lt;p&gt;Oke kita bahas dulu, dari mana sih angka 18 ini muncul? ini di dapat dari kombinasi garis yang membentuk segitiga, percaya-gak percaya ada rumus matematika juga loh untuk ini, karena katanya menghitung segitiga sama halnya dengan menghitung kombinasi dari tiga garis (three lines chosen out of six)&lt;/p&gt;
+&lt;figure&gt;&lt;figure class=&#34;post__image post__image--center&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;355&#34; loading=&#34;lazy&#34; sizes=&#34;100vw&#34; src=&#34;https://fachrul.id/media/posts/62/jawaban-teka-teki-segitiga.jpeg&#34; srcset=&#34;https://fachrul.id/media/posts/62/responsive/jawaban-teka-teki-segitiga-xs.jpeg 300w, https://fachrul.id/media/posts/62/responsive/jawaban-teka-teki-segitiga-sm.jpeg 480w, https://fachrul.id/media/posts/62/responsive/jawaban-teka-teki-segitiga-md.jpeg 768w, https://fachrul.id/media/posts/62/responsive/jawaban-teka-teki-segitiga-lg.jpeg 1024w, https://fachrul.id/media/posts/62/responsive/jawaban-teka-teki-segitiga-xl.jpeg 1360w, https://fachrul.id/media/posts/62/responsive/jawaban-teka-teki-segitiga-2xl.jpeg 1600w&#34; width=&#34;350&#34;/&gt;&lt;/figure&gt;&lt;figcaption&gt;jawaban jumlah segitiga&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Begitulah kenapa muncul angka 18 sebagai jawaban Quiz di instagram &lt;a href=&#34;https://www.instagram.com/ngetest.id/&#34;&gt;@ngetest.id&lt;/a&gt;, tapi bukan itu jawaban yang gw harapkan dari followers akun ngetest.id yang gw yakin sebagian besar adalah seorang software tester, yaitu &#34;Bertanya&#34;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Eh gimana maksudnya?&lt;/h2&gt;
+&lt;p&gt;Karena di keterangan quiz nya itu banyak informasi yang ambigu bahkan multi tafsir sih, kebiasaan kita tuh banyak yang anggep asumsi umum sebagai kebenaran dari sebuah requirements (user story), padahal belum tentu itu yang diharapkan.&lt;/p&gt;
+&lt;figure&gt;&lt;figure class=&#34;post__image post__image--center&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;778&#34; loading=&#34;lazy&#34; sizes=&#34;100vw&#34; src=&#34;https://fachrul.id/media/posts/62/jawaban-yang-diharapkan.jpeg&#34; srcset=&#34;https://fachrul.id/media/posts/62/responsive/jawaban-yang-diharapkan-xs.jpeg 300w, https://fachrul.id/media/posts/62/responsive/jawaban-yang-diharapkan-sm.jpeg 480w, https://fachrul.id/media/posts/62/responsive/jawaban-yang-diharapkan-md.jpeg 768w, https://fachrul.id/media/posts/62/responsive/jawaban-yang-diharapkan-lg.jpeg 1024w, https://fachrul.id/media/posts/62/responsive/jawaban-yang-diharapkan-xl.jpeg 1360w, https://fachrul.id/media/posts/62/responsive/jawaban-yang-diharapkan-2xl.jpeg 1600w&#34; width=&#34;350&#34;/&gt;&lt;/figure&gt;&lt;figcaption&gt;harusnya ada yang tanya di story ini&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Oke di context quiz segitiga ini, informasi yang perlu diklarifikasi dari pertanyaan (reqirements) &#34;How many &lt;strong&gt;&lt;em&gt;triangles&lt;/em&gt;&lt;/strong&gt;?&#34; sebenernya:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Triangles? eh segitiga yang mana nih? segitiga sama kaki? sama sisi? atau segitiga sembarangan?&lt;/li&gt;
+&lt;li&gt;Ini ngitung segitiga yang keliatan doang?&lt;/li&gt;
+&lt;li&gt;Luar nya doang? apa termasuk yang di dalem? (segitiga dalam segitiga)&lt;/li&gt;
+&lt;li&gt;Atau yang paling epik tuh klo ada yang tanya &#34;Ini garis di lembar kertas diitung membelah segitiga juga ga?&#34;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;&lt;figure class=&#34;post__image post__image--center&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;100&#34; loading=&#34;lazy&#34; sizes=&#34;100vw&#34; src=&#34;https://fachrul.id/media/posts/62/detail-segitiga.png&#34; srcset=&#34;https://fachrul.id/media/posts/62/responsive/detail-segitiga-xs.png 300w, https://fachrul.id/media/posts/62/responsive/detail-segitiga-sm.png 480w, https://fachrul.id/media/posts/62/responsive/detail-segitiga-md.png 768w, https://fachrul.id/media/posts/62/responsive/detail-segitiga-lg.png 1024w, https://fachrul.id/media/posts/62/responsive/detail-segitiga-xl.png 1360w, https://fachrul.id/media/posts/62/responsive/detail-segitiga-2xl.png 1600w&#34; width=&#34;350&#34;/&gt;&lt;/figure&gt;&lt;figcaption&gt;garis kertas juga keiting bikin segitiga baru?&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Pertanyaan ini penting banget untuk dipahami sebelum menjawab (ngeTest), karena jumlah jawabanya (jumlah segitiga) akan tergantung dari kesepakatan bersama dalam konteks pertanyaan ini (requirements), karena salah tafsir bisa ngasih jawaban yang salah atau nggak lengkap&lt;/p&gt;
+&lt;p&gt;Sebagai Software Tester, kita harus paham banget apa sih yang kita tes dan konteks nya gimana. Kita harus pastiin klo tim (QA, Dev, dkk) punya pemahaman yang sama tentang apa yang diharapkan dari softwarenya&lt;/p&gt;
+&lt;h2&gt;Jadi, apa yang bisa kita pelajari dari teka-teki segitiga ini?&lt;/h2&gt;
+&lt;p&gt;Jangan takut buat nanya. Jangan asumsi kamu udah ngerti semuanya. Pahami konteks, pahami requirement, asah critical thinking kamu. Kita harus bisa melihat lebih dari apa yang nampak di depan mata, kita harus bisa &#34;melihat&#34; apa yang tidak tampak oleh orang lain, menguji batas dan memastikan bahwa tim bisa memberikan yang terbaik melebihi harapan pelanggan (production user)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Sumber artikel: &lt;a href=&#34;https://www.popularmechanics.com/science/math/a30706968/viral-triangle-brain-teaser-solved/&#34;&gt;https://www.popularmechanics.com/science/math/a30706968/viral-triangle-brain-teaser-solved/&lt;/a&gt;&lt;/p&gt;</content>
     </entry>
+
     <entry>
         <title>ResensiQAn: Karir Cemerlang Seorang Software Quality Assurance</title>
         <author>
@@ -354,40 +265,26 @@
         </author>
         <link href="https://fachrul.id/resensiqan-karir-cemerlang-seorang-software-quality-assurance/"/>
         <id>https://fachrul.id/resensiqan-karir-cemerlang-seorang-software-quality-assurance/</id>
-            <category term="belajar-qa"/>
-
+        <category term="belajar-qa"/>
+        <published>2023-06-29T21:46:00+04:00</published>
         <updated>2023-07-02T10:39:36+04:00</updated>
-            <summary>
-                <![CDATA[
-                    Salam, Apa kabar teman-teman? Semoga selalu dalam keadan baik dan sehat walafiat ya, mohon maaf yak sempat tertunda beberapa pekan tidak rilis tulisan baru, karena ada beberapa kesibukan di kantor, jadi baru sempat di pekan ini saat libur Idul Adha buat ngelarin tulisan ini 😅&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p data-pm-slice="0 0 []">Salam,</p>
-<p>Apa kabar teman-teman? Semoga selalu dalam keadan baik dan sehat walafiat ya, mohon maaf yak sempat tertunda beberapa pekan tidak rilis tulisan baru, karena ada beberapa kesibukan di kantor, jadi baru sempat di pekan ini saat libur Idul Adha buat ngelarin tulisan ini 😅</p>
-<p>Ok, kita lanjutin series “Resensi QA” merangkum hasil dari gw menyimak suatu video/buku, kali ini gw udah nulis resensi dari sebuah youtube <strong>Kuncie:</strong> <strong>Bright Opportunity of a Quality Assurance</strong></p>
-<div id="youtube2-SuA_fKCL5Pw" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;SuA_fKCL5Pw&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}" data-component-name="Youtube2ToDOM">
-<div class="youtube-inner"><div class="post__iframe"><iframe width="728" height="409" src="https://www.youtube-nocookie.com/embed/SuA_fKCL5Pw?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></div></div>
-</div>
-<p>Video ini sangat cocok buat lo yang baru lulus kuliah dan tertarik untuk memiliki karir di Software Quality Assurance, gw saranin buat nonton videonya sampe akhir ya, karena di sesi tanya jawabnya juga menarik banget!</p>
-<p>Video rekaman webminar di atas adalah sebuah <em>teaser </em>dari kursus yang ditawarkan Kuncie di bulan Januari/Februari 2023 kemarin, dan Kuncie baik sekali membuat dan membagikan webminar ini sehingga kita bisa menyimaknya juga 🌟</p>
-<p>Oke gw bahas intisari dari pembahasan Mas Tegar yang keren banget</p>
-<p class="button-wrapper" data-attrs="{&quot;url&quot;:&quot;%%checkout_url%%&quot;,&quot;text&quot;:&quot;Subscribe now&quot;,&quot;action&quot;:null,&quot;class&quot;:null}" data-component-name="ButtonCreateButton"><a class="button primary" href="%%checkout_url%%">Subscribe now</a></p>
-<hr>
-<p>Profesi Software Quality Assurance itu sangat menjanjikan di jaman sekarang, terlebih saat AI mulai merajalela, peran QA justru semakin penting, karena gak semua bisa di kerjakan oleh AI, bahkan hasil generated kode dari AI perlu di verifikasi lagi oleh manusia, bahkan menurut Gartner yang membuat daftar skill critical dan niche di masa depan ternyata banyak irisannya dengan peran QA loh.</p>
-<p>Tapi, jangan salah kaprah, banyak mahasiswa jurusan IT yang bilangnya mau jadi QA karena ga bisa koding, padahal faktanya, menjadi QA perlu juga keahlian koding, bahkan kalo mau menjadi QA yang “membara” harus bisa testing fitur, membantu Dev untuk bikin unit test yang efektif &amp; efisien sampe ke membantu proses deployment ke user, QA ikut memupuk DevOps culture di perusahaan.</p>
-<div class="captioned-image-container">
-<figure><a class="image-link is-viewable-img image2" target="_blank" href="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa223c3ac-c643-44c8-aaff-5a7f427910a3_1860x1042.png" data-component-name="Image2ToDOM" rel="noopener">
-<div class="image2-inset"><figure class="sizing-normal"><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa223c3ac-c643-44c8-aaff-5a7f427910a3_1860x1042.png 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa223c3ac-c643-44c8-aaff-5a7f427910a3_1860x1042.png 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa223c3ac-c643-44c8-aaff-5a7f427910a3_1860x1042.png 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa223c3ac-c643-44c8-aaff-5a7f427910a3_1860x1042.png 1456w" sizes="100vw"><img loading="lazy"  src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa223c3ac-c643-44c8-aaff-5a7f427910a3_1860x1042.png" sizes="100vw" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa223c3ac-c643-44c8-aaff-5a7f427910a3_1860x1042.png 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa223c3ac-c643-44c8-aaff-5a7f427910a3_1860x1042.png 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa223c3ac-c643-44c8-aaff-5a7f427910a3_1860x1042.png 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa223c3ac-c643-44c8-aaff-5a7f427910a3_1860x1042.png 1456w" alt="" width="1456" height="816" data-attrs="{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/a223c3ac-c643-44c8-aaff-5a7f427910a3_1860x1042.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:816,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:1545993,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null}" data-is-external-image="true"></figure></picture>
-<div> </div>
-</div>
-</a></figure>
-</div>
-<p>Di bagian selanjutnya, Mas Tegar menjabarkan kalo karir QA juga ga jauh beda dengan software engineer lainya, umumnya ada jalur karir sebagai managerial atau individual contributor, tapi yang lebih menarik adalah pagian 3 nya tentang Roadmap!</p>
-<div class="captioned-image-container">
-<figure><a class="image-link is-viewable-img image2" target="_blank" href="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4dbefe64-73ac-4b73-8f9a-7120c41c8a27_2266x1263.png" data-component-name="Image2ToDOM" rel="noopener">
-<div class="image2-inset"><picture><source type="image/webp" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4dbefe64-73ac-4b73-8f9a-7120c41c8a27_2266x1263.png 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4dbefe64-73ac-4b73-8f9a-7120c41c8a27_2266x1263.png 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4dbefe64-73ac-4b73-8f9a-7120c41c8a27_2266x1263.png 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4dbefe64-73ac-4b73-8f9a-7120c41c8a27_2266x1263.png 1456w" sizes="100vw"><img loading="lazy" class="sizing-normal" title="kuncie 
+        <summary>Gimana cara menjadi Software Quality Assurance? masih menjamin ga sih di masa depan? saat AI, ChatGPT merajalela justru QA menjadi sangat dibutuhkan loh!</summary>
+        <content type="html">&lt;p&gt;Salam,&lt;/p&gt;
+&lt;p&gt;Apa kabar teman-teman? Semoga selalu dalam keadan baik dan sehat walafiat ya, mohon maaf yak sempat tertunda beberapa pekan tidak rilis tulisan baru, karena ada beberapa kesibukan di kantor, jadi baru sempat di pekan ini saat libur Idul Adha buat ngelarin tulisan ini 😅&lt;/p&gt;
+&lt;p&gt;Ok, kita lanjutin series “Resensi QA” merangkum hasil dari gw menyimak suatu video/buku, kali ini gw udah nulis resensi dari sebuah youtube &lt;strong&gt;Kuncie:&lt;/strong&gt; &lt;strong&gt;Bright Opportunity of a Quality Assurance&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;youtube-wrap&#34; data-attrs=&#39;{&#34;videoId&#34;:&#34;SuA_fKCL5Pw&#34;,&#34;startTime&#34;:null,&#34;endTime&#34;:null}&#39; data-component-name=&#34;Youtube2ToDOM&#34; id=&#34;youtube2-SuA_fKCL5Pw&#34;&gt;&lt;div class=&#34;youtube-inner&#34;&gt;&lt;div class=&#34;post__iframe&#34;&gt;&lt;iframe allow=&#34;autoplay; fullscreen&#34; allowautoplay=&#34;true&#34; allowfullscreen=&#34;allowfullscreen&#34; data-mce-fragment=&#34;1&#34; frameborder=&#34;0&#34; gesture=&#34;media&#34; height=&#34;409&#34; loading=&#34;lazy&#34; src=&#34;https://www.youtube-nocookie.com/embed/SuA_fKCL5Pw?rel=0&amp;amp;autoplay=0&amp;amp;showinfo=0&amp;amp;enablejsapi=0&#34; width=&#34;728&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Video ini sangat cocok buat lo yang baru lulus kuliah dan tertarik untuk memiliki karir di Software Quality Assurance, gw saranin buat nonton videonya sampe akhir ya, karena di sesi tanya jawabnya juga menarik banget!&lt;/p&gt;
+&lt;p&gt;Video rekaman webminar di atas adalah sebuah &lt;em&gt;teaser&lt;/em&gt; dari kursus yang ditawarkan Kuncie di bulan Januari/Februari 2023 kemarin, dan Kuncie baik sekali membuat dan membagikan webminar ini sehingga kita bisa menyimaknya juga 🌟&lt;/p&gt;
+&lt;p&gt;Oke gw bahas intisari dari pembahasan Mas Tegar yang keren banget&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;%%checkout_url%%&#34;&gt;Subscribe now&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Profesi Software Quality Assurance itu sangat menjanjikan di jaman sekarang, terlebih saat AI mulai merajalela, peran QA justru semakin penting, karena gak semua bisa di kerjakan oleh AI, bahkan hasil generated kode dari AI perlu di verifikasi lagi oleh manusia, bahkan menurut Gartner yang membuat daftar skill critical dan niche di masa depan ternyata banyak irisannya dengan peran QA loh.&lt;/p&gt;
+&lt;p&gt;Tapi, jangan salah kaprah, banyak mahasiswa jurusan IT yang bilangnya mau jadi QA karena ga bisa koding, padahal faktanya, menjadi QA perlu juga keahlian koding, bahkan kalo mau menjadi QA yang “membara” harus bisa testing fitur, membantu Dev untuk bikin unit test yang efektif &amp;amp; efisien sampe ke membantu proses deployment ke user, QA ikut memupuk DevOps culture di perusahaan.&lt;/p&gt;
+&lt;div class=&#34;captioned-image-container&#34;&gt;&lt;figure&gt;&lt;a class=&#34;image-link is-viewable-img image2&#34; data-component-name=&#34;Image2ToDOM&#34; href=&#34;https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa223c3ac-c643-44c8-aaff-5a7f427910a3_1860x1042.png&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;&lt;div class=&#34;image2-inset&#34;&gt;&lt;figure class=&#34;sizing-normal&#34;&gt;&lt;source sizes=&#34;100vw&#34; srcset=&#34;https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa223c3ac-c643-44c8-aaff-5a7f427910a3_1860x1042.png 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa223c3ac-c643-44c8-aaff-5a7f427910a3_1860x1042.png 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa223c3ac-c643-44c8-aaff-5a7f427910a3_1860x1042.png 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa223c3ac-c643-44c8-aaff-5a7f427910a3_1860x1042.png 1456w&#34; type=&#34;image/webp&#34;&gt;&lt;img alt=&#34;&#34; data-attrs=&#39;{&#34;src&#34;:&#34;https://substack-post-media.s3.amazonaws.com/public/images/a223c3ac-c643-44c8-aaff-5a7f427910a3_1860x1042.png&#34;,&#34;fullscreen&#34;:null,&#34;imageSize&#34;:null,&#34;height&#34;:816,&#34;width&#34;:1456,&#34;resizeWidth&#34;:null,&#34;bytes&#34;:1545993,&#34;alt&#34;:null,&#34;title&#34;:null,&#34;type&#34;:&#34;image/png&#34;,&#34;href&#34;:null,&#34;belowTheFold&#34;:false,&#34;topImage&#34;:false,&#34;internalRedirect&#34;:null}&#39; data-is-external-image=&#34;true&#34; height=&#34;816&#34; loading=&#34;lazy&#34; sizes=&#34;100vw&#34; src=&#34;https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa223c3ac-c643-44c8-aaff-5a7f427910a3_1860x1042.png&#34; srcset=&#34;https://substackcdn.com/image/fetch/w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa223c3ac-c643-44c8-aaff-5a7f427910a3_1860x1042.png 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa223c3ac-c643-44c8-aaff-5a7f427910a3_1860x1042.png 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa223c3ac-c643-44c8-aaff-5a7f427910a3_1860x1042.png 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa223c3ac-c643-44c8-aaff-5a7f427910a3_1860x1042.png 1456w&#34; width=&#34;1456&#34;/&gt;&lt;/source&gt;&lt;/figure&gt;&lt;div&gt; &lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;Di bagian selanjutnya, Mas Tegar menjabarkan kalo karir QA juga ga jauh beda dengan software engineer lainya, umumnya ada jalur karir sebagai managerial atau individual contributor, tapi yang lebih menarik adalah pagian 3 nya tentang Roadmap!&lt;/p&gt;
+&lt;div class=&#34;captioned-image-container&#34;&gt;&lt;figure&gt;&lt;a class=&#34;image-link is-viewable-img image2&#34; data-component-name=&#34;Image2ToDOM&#34; href=&#34;https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4dbefe64-73ac-4b73-8f9a-7120c41c8a27_2266x1263.png&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;&lt;div class=&#34;image2-inset&#34;&gt;&lt;picture&gt;&lt;source sizes=&#34;100vw&#34; srcset=&#34;https://substackcdn.com/image/fetch/w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4dbefe64-73ac-4b73-8f9a-7120c41c8a27_2266x1263.png 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4dbefe64-73ac-4b73-8f9a-7120c41c8a27_2266x1263.png 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4dbefe64-73ac-4b73-8f9a-7120c41c8a27_2266x1263.png 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4dbefe64-73ac-4b73-8f9a-7120c41c8a27_2266x1263.png 1456w&#34; type=&#34;image/webp&#34;&gt;&lt;img alt=&#34;kuncie 
 03 | Roadmaps 
 Phase I 
 Introduction to 
@@ -417,7 +314,7 @@ Respecting Testing
 Pyramid by AT 
 Leverage it into real 
 project 
-SOET &amp; QA 
+SOET &amp;amp; QA 
 Phase 4 
 Agile Maturity Matrix 
 on Engineering 
@@ -426,10 +323,10 @@ Integrated and
 Impactful 
 Testing on 
 Engineering 
-Perspective: Unit &amp; 
+Perspective: Unit &amp;amp; 
 component T est 
 First Critical Fundamental Portfolio 
-O kuncie " src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4dbefe64-73ac-4b73-8f9a-7120c41c8a27_2266x1263.png" sizes="100vw" srcset="https://substackcdn.com/image/fetch/w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4dbefe64-73ac-4b73-8f9a-7120c41c8a27_2266x1263.png 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4dbefe64-73ac-4b73-8f9a-7120c41c8a27_2266x1263.png 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4dbefe64-73ac-4b73-8f9a-7120c41c8a27_2266x1263.png 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4dbefe64-73ac-4b73-8f9a-7120c41c8a27_2266x1263.png 1456w" alt="kuncie 
+O kuncie &#34; class=&#34;sizing-normal&#34; data-attrs=&#39;{&#34;src&#34;:&#34;https://substack-post-media.s3.amazonaws.com/public/images/4dbefe64-73ac-4b73-8f9a-7120c41c8a27_2266x1263.png&#34;,&#34;fullscreen&#34;:null,&#34;imageSize&#34;:null,&#34;height&#34;:812,&#34;width&#34;:1456,&#34;resizeWidth&#34;:null,&#34;bytes&#34;:null,&#34;alt&#34;:&#34;kuncie \n03 | Roadmaps \nPhase I \nIntroduction to \nf Kilat \nQuality Assurance. \nDefine Short Term \nGoal on Career \nStarting learn the \nbasic and \nfundamental \nLeverage it into the \nreal domain portfolio \nPhase 2 \nSpecific Platform \nTesting: Backend and \nRespecting Testing \nPyramid by AT \nShaping Test \nOperational: \nDevelopment. \nExecutions. Reporting \nPhase 3 \nSpecific Platform \nTesting: AOS and i0S \nMobile AT \nRespecting Testing \nPyramid by AT \nLeverage it into real \nproject \nSOET &amp;amp; QA \nPhase 4 \nAgile Maturity Matrix \non Engineering \nCI/CD Beginner: \nIntegrated and \nImpactful \nTesting on \nEngineering \nPerspective: Unit &amp;amp; \ncomponent T est \nFirst Critical Fundamental Portfolio \nO kuncie &#34;,&#34;title&#34;:null,&#34;type&#34;:null,&#34;href&#34;:null,&#34;belowTheFold&#34;:false,&#34;topImage&#34;:false,&#34;internalRedirect&#34;:null}&#39; data-is-external-image=&#34;true&#34; height=&#34;812&#34; loading=&#34;lazy&#34; sizes=&#34;100vw&#34; src=&#34;https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4dbefe64-73ac-4b73-8f9a-7120c41c8a27_2266x1263.png&#34; srcset=&#34;https://substackcdn.com/image/fetch/w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4dbefe64-73ac-4b73-8f9a-7120c41c8a27_2266x1263.png 424w, https://substackcdn.com/image/fetch/w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4dbefe64-73ac-4b73-8f9a-7120c41c8a27_2266x1263.png 848w, https://substackcdn.com/image/fetch/w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4dbefe64-73ac-4b73-8f9a-7120c41c8a27_2266x1263.png 1272w, https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4dbefe64-73ac-4b73-8f9a-7120c41c8a27_2266x1263.png 1456w&#34; title=&#34;kuncie 
 03 | Roadmaps 
 Phase I 
 Introduction to 
@@ -459,7 +356,7 @@ Respecting Testing
 Pyramid by AT 
 Leverage it into real 
 project 
-SOET &amp; QA 
+SOET &amp;amp; QA 
 Phase 4 
 Agile Maturity Matrix 
 on Engineering 
@@ -468,33 +365,27 @@ Integrated and
 Impactful 
 Testing on 
 Engineering 
-Perspective: Unit &amp; 
+Perspective: Unit &amp;amp; 
 component T est 
 First Critical Fundamental Portfolio 
-O kuncie " width="1456" height="812" data-attrs="{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/4dbefe64-73ac-4b73-8f9a-7120c41c8a27_2266x1263.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:812,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;kuncie \n03 | Roadmaps \nPhase I \nIntroduction to \nf Kilat \nQuality Assurance. \nDefine Short Term \nGoal on Career \nStarting learn the \nbasic and \nfundamental \nLeverage it into the \nreal domain portfolio \nPhase 2 \nSpecific Platform \nTesting: Backend and \nRespecting Testing \nPyramid by AT \nShaping Test \nOperational: \nDevelopment. \nExecutions. Reporting \nPhase 3 \nSpecific Platform \nTesting: AOS and i0S \nMobile AT \nRespecting Testing \nPyramid by AT \nLeverage it into real \nproject \nSOET &amp; QA \nPhase 4 \nAgile Maturity Matrix \non Engineering \nCI/CD Beginner: \nIntegrated and \nImpactful \nTesting on \nEngineering \nPerspective: Unit &amp; \ncomponent T est \nFirst Critical Fundamental Portfolio \nO kuncie &quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null}" data-is-external-image="true"></picture>
-<div> </div>
-</div>
-</a></figure>
-</div>
-<p>Jadi disini dijelasin klo roadmap QA itu ibarat mendaki gunung, awalnya mendaki itu gampang saat landai, tapi perjalanan tentu naik-turun sebelum sampai puncak, ketika sampai puncak pun jangan dulu puas dengan apa yang dicapai, masih ada puncak lain (phase) yang perlu ditaklukan juga</p>
-<p>Nah poin-poin yang ada di tiap fase nya itu dijelasin lagi secara rinci di dalam video, ga mungkin gw tulis semua disini karena nanti jadi panjang ahaha, langsung di cekidot aja video sumbernya ya.</p>
-<p>Lompat ke bagian tanya jawab, sebenernya ada berbagai pertanyaan yang umumnya ditanyakan oleh pemula, yang mungkil lo juga penasaran gitu soal karir di QA ini, tapi klo bisa gw simpulkan dari tanya jawab adalah:</p>
-<p>Dengan adanya test automation, artificial intelligence, ChatGPT itu semua hanya tools yang akan bikin testing menjadi lebih efisien, sehingga jumlah software tester di perusahaan ga sebanyak dulu, tapi bukan berarti peran QA akan tergantikan oleh robot, justru perlu QA expert yang bisa mengendalikan tools tadi.</p>
-<p>QA Expert ga cuma perlu keahlian koding, test infra (devops), tapi fundamental testing juga sangat perlu dilatih, dan business domain di perusahaan juga harus dimengerti juga.</p>
-<p>Talenta software tester di Indonesia tuh ga kalah bagus kok dari luar negeri, bahkan banyak yang lebih jago, cuma untuk bisa berkarir di luar negeri harus bisa bahasa Inggris, ga mesti grammarly correct, yang penting bisa berkomunikasi dengan jelas aja, dan punya rasa curious yang tinggi dan ga malu bertanya.</p>
-<hr>
-<p>Nah begitu deh resensi webminar dari Mas Tegar di channel <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.youtube.com/@KuncieID">Kuncie</a>, silakan di cek deh, ada beberapa video lanjutan juga terkait software testing loh!</p>
-<div id="youtube2-fazDUaBhotc" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;fazDUaBhotc&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}" data-component-name="Youtube2ToDOM">
-<div class="youtube-inner"><div class="post__iframe"><iframe width="728" height="409" src="https://www.youtube-nocookie.com/embed/fazDUaBhotc?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></div></div>
-</div>
-<div id="youtube2-besHeAIpWYk" class="youtube-wrap" data-attrs="{&quot;videoId&quot;:&quot;besHeAIpWYk&quot;,&quot;startTime&quot;:null,&quot;endTime&quot;:null}" data-component-name="Youtube2ToDOM">
-<div class="youtube-inner"><div class="post__iframe"><iframe width="728" height="409" src="https://www.youtube-nocookie.com/embed/besHeAIpWYk?rel=0&amp;autoplay=0&amp;showinfo=0&amp;enablejsapi=0" frameborder="0" loading="lazy" gesture="media" allow="autoplay; fullscreen" allowautoplay="true" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></div></div>
-</div>
-<p>Klo ada video yang mau dibikinin resensinya, silakan komen disini ya 🙏</p>
-<p class="button-wrapper" data-attrs="{&quot;url&quot;:&quot;%%share_pub_url%%&quot;,&quot;text&quot;:&quot;Share ✅ NgeTest Bareng Fachrul 🧑🏻‍💻&quot;,&quot;action&quot;:null,&quot;class&quot;:null}" data-component-name="ButtonCreateButton"><a class="button primary" href="%%share_pub_url%%">Share ✅ NgeTest Bareng Fachrul 🧑🏻‍💻</a></p>
-            ]]>
-        </content>
+O kuncie &#34; width=&#34;1456&#34;/&gt;&lt;/source&gt;&lt;/picture&gt;&lt;div&gt; &lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;/figure&gt;&lt;/div&gt;
+
+&lt;p&gt;Jadi disini dijelasin klo roadmap QA itu ibarat mendaki gunung, awalnya mendaki itu gampang saat landai, tapi perjalanan tentu naik-turun sebelum sampai puncak, ketika sampai puncak pun jangan dulu puas dengan apa yang dicapai, masih ada puncak lain (phase) yang perlu ditaklukan juga&lt;/p&gt;
+&lt;p&gt;Nah poin-poin yang ada di tiap fase nya itu dijelasin lagi secara rinci di dalam video, ga mungkin gw tulis semua disini karena nanti jadi panjang ahaha, langsung di cekidot aja video sumbernya ya.&lt;/p&gt;
+&lt;p&gt;Lompat ke bagian tanya jawab, sebenernya ada berbagai pertanyaan yang umumnya ditanyakan oleh pemula, yang mungkil lo juga penasaran gitu soal karir di QA ini, tapi klo bisa gw simpulkan dari tanya jawab adalah:&lt;/p&gt;
+&lt;p&gt;Dengan adanya test automation, artificial intelligence, ChatGPT itu semua hanya tools yang akan bikin testing menjadi lebih efisien, sehingga jumlah software tester di perusahaan ga sebanyak dulu, tapi bukan berarti peran QA akan tergantikan oleh robot, justru perlu QA expert yang bisa mengendalikan tools tadi.&lt;/p&gt;
+&lt;p&gt;QA Expert ga cuma perlu keahlian koding, test infra (devops), tapi fundamental testing juga sangat perlu dilatih, dan business domain di perusahaan juga harus dimengerti juga.&lt;/p&gt;
+&lt;p&gt;Talenta software tester di Indonesia tuh ga kalah bagus kok dari luar negeri, bahkan banyak yang lebih jago, cuma untuk bisa berkarir di luar negeri harus bisa bahasa Inggris, ga mesti grammarly correct, yang penting bisa berkomunikasi dengan jelas aja, dan punya rasa curious yang tinggi dan ga malu bertanya.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Nah begitu deh resensi webminar dari Mas Tegar di channel &lt;a href=&#34;https://www.youtube.com/@KuncieID&#34;&gt;Kuncie&lt;/a&gt;, silakan di cek deh, ada beberapa video lanjutan juga terkait software testing loh!&lt;/p&gt;
+&lt;div class=&#34;youtube-wrap&#34; data-attrs=&#39;{&#34;videoId&#34;:&#34;fazDUaBhotc&#34;,&#34;startTime&#34;:null,&#34;endTime&#34;:null}&#39; data-component-name=&#34;Youtube2ToDOM&#34; id=&#34;youtube2-fazDUaBhotc&#34;&gt;&lt;div class=&#34;youtube-inner&#34;&gt;&lt;div class=&#34;post__iframe&#34;&gt;&lt;iframe allow=&#34;autoplay; fullscreen&#34; allowautoplay=&#34;true&#34; allowfullscreen=&#34;allowfullscreen&#34; data-mce-fragment=&#34;1&#34; frameborder=&#34;0&#34; gesture=&#34;media&#34; height=&#34;409&#34; loading=&#34;lazy&#34; src=&#34;https://www.youtube-nocookie.com/embed/fazDUaBhotc?rel=0&amp;amp;autoplay=0&amp;amp;showinfo=0&amp;amp;enablejsapi=0&#34; width=&#34;728&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&#34;youtube-wrap&#34; data-attrs=&#39;{&#34;videoId&#34;:&#34;besHeAIpWYk&#34;,&#34;startTime&#34;:null,&#34;endTime&#34;:null}&#39; data-component-name=&#34;Youtube2ToDOM&#34; id=&#34;youtube2-besHeAIpWYk&#34;&gt;&lt;div class=&#34;youtube-inner&#34;&gt;&lt;div class=&#34;post__iframe&#34;&gt;&lt;iframe allow=&#34;autoplay; fullscreen&#34; allowautoplay=&#34;true&#34; allowfullscreen=&#34;allowfullscreen&#34; data-mce-fragment=&#34;1&#34; frameborder=&#34;0&#34; gesture=&#34;media&#34; height=&#34;409&#34; loading=&#34;lazy&#34; src=&#34;https://www.youtube-nocookie.com/embed/besHeAIpWYk?rel=0&amp;amp;autoplay=0&amp;amp;showinfo=0&amp;amp;enablejsapi=0&#34; width=&#34;728&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Klo ada video yang mau dibikinin resensinya, silakan komen disini ya 🙏&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;%%share_pub_url%%&#34;&gt;Share ✅ NgeTest Bareng Fachrul 🧑🏻‍💻&lt;/a&gt;&lt;/p&gt;</content>
     </entry>
+
     <entry>
         <title>Siasat Hemat di Dubai: Panduan Hidup Ekonomis ala Anak Kos</title>
         <author>
@@ -502,192 +393,157 @@ O kuncie " width="1456" height="812" data-attrs="{&quot;src&quot;:&quot;https://
         </author>
         <link href="https://fachrul.id/hemat-di-dubai-panduan-hidup-ekonomis-ala-anak-kos/"/>
         <id>https://fachrul.id/hemat-di-dubai-panduan-hidup-ekonomis-ala-anak-kos/</id>
-        <media:content url="https://fachrul.id/media/posts/60/siasat-hidup-hemat-dubai.png" medium="image" />
-            <category term="ulasan"/>
-            <category term="opinion"/>
-            <category term="Dubai"/>
-
+        <category term="Dubai"/>
+        <category term="opinion"/>
+        <category term="ulasan"/>
+        <published>2023-05-20T21:37:00+04:00</published>
         <updated>2024-02-09T19:59:33+04:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://fachrul.id/media/posts/60/siasat-hidup-hemat-dubai.png" alt="" />
-                    <p>Sebagai kota yang dikenal dengan kemegahannya, Dubai mungkin tidak langsung terlintas di pikiran kamu ketika memikirkan hidup hemat. Namun, meski kota ini memang memiliki biaya hidup yang cukup tinggi apalagi bagi orang Indonesia, masih ada loh cara untuk menjalani gaya hidup yang hemat dan memaksimalkan penghasilan kita sebagai tenaga kerja dari Indonesia, ya kan kita di Dubai mau cari duit, bukan wisatawan yang siap ngabisin duit liburan 🤣</p>
-<p>Berikut beberapa pengalaman saya menjadi hidup hemat ala anak kos di Dubai!</p>
-<h2 class="align-center">Daftar isi:</h2>
-<ul>
-<li><a href="#makanan">Pilihan Makan Murah di Dubai</a></li>
-<li><a href="#akomodasi">Tempat Tinggal di Dubai</a></li>
-</ul>
+        <summary>Dubai dikenal dengan kemegahannya, apa iya sih bisa hidup hemat ala anak kos di Dubai? Berikut ini siasat hidup hemat ala anak kos</summary>
+        <content type="html">&lt;p&gt;Sebagai kota yang dikenal dengan kemegahannya, Dubai mungkin tidak langsung terlintas di pikiran kamu ketika memikirkan hidup hemat. Namun, meski kota ini memang memiliki biaya hidup yang cukup tinggi apalagi bagi orang Indonesia, masih ada loh cara untuk menjalani gaya hidup yang hemat dan memaksimalkan penghasilan kita sebagai tenaga kerja dari Indonesia, ya kan kita di Dubai mau cari duit, bukan wisatawan yang siap ngabisin duit liburan 🤣&lt;/p&gt;
+&lt;p&gt;Berikut beberapa pengalaman saya menjadi hidup hemat ala anak kos di Dubai!&lt;/p&gt;
+&lt;h2 class=&#34;align-center&#34;&gt;Daftar isi:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#makanan&#34;&gt;Pilihan Makan Murah di Dubai&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#akomodasi&#34;&gt;Tempat Tinggal di Dubai&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 class=&#34;msg msg--info align-center&#34; id=&#34;makanan&#34;&gt;🍽️ Makanan&lt;/h1&gt;
+&lt;p&gt;Mengatur anggaran makanan sebagai anak kos di Dubai bisa pos pengeluaran yang fleksibel, memang anggaran makanan ini sifatnya relatif terhadap gaya hidup kamu, tapi dengan sedikit kreativitas dan perencanaan, kita bisa mendapatkan makanan bergizi dengan harga yang terjangkau juga loh!&lt;/p&gt;
+&lt;p&gt;Hal pertama yang langsung terasa hilang saat berada di Dubai adalah, tidak adanya budaya makanan kaki lima 😢 , jadi pengusaha kuliner harus memiliki toko fisik seperti halnya restoran, mungkin ini karena Dubai dikenal sebagai kota modern dan futuristik, yang memiliki standar yang tinggi untuk segala hal, termasuk standar kesehatan dan kebersihan dalam penyajian makanan, kata pemilik restoran kenalan saya sih, katanya usaha kuliner itu harus memenuhi serangkaian aturan dan regulasi yang cukup ketat, termasuk memiliki izin tempat, mematuhi standar kebersihan, dan menjaga kualitas makanan.&lt;/p&gt;
+&lt;p&gt;Alasan lain kenapa gak  Sebagai kota gurun, Dubai memiliki suhu yang sangat panas saat Summer bahkan malem hari pun hawanya masih gerah, dan ini membuat lingkungan kurang menguntungkan untuk penjual makanan jalanan kaki lima (kalau winter sih sering liat popup food festival di lokasi populer juga kok).&lt;/p&gt;
+&lt;h4&gt;Seberapa dirhamkah yang termasuk murah?&lt;/h4&gt;
+&lt;p&gt;Memang, jika diconversikan dirham ke rupiah (1 dirham sekitar Rp4.000), semua akan terlihat mahal sekali, bisa 3x lipat harga benda yang sama di Jakarta, jadi tidak adil rasanya jika uang dirham yang didapat dari kerja disini selalu dikalikan nilai rupiahnya, semua kelihatan mahal jadinya (kecuali memang kita liburan ke Dubai, jadi gajian Rupiah spendingnya Dirham).&lt;/p&gt;
+&lt;p&gt;Lebih bijaksana jika kita memiliki standar harga wajar, apakah untuk ukuran Dubai, harganya termasuk murah atau mahal. Saya akan bagikan rumus pribadi saya dalam menilai harga makanan/minuman itu termasuk mahal atau murah menurut standar hidup dubai&lt;/p&gt;
+&lt;p class=&#34;msg msg--highlight&#34;&gt;Harga wajar senilai Rupiah = 1,5 Harga Dirham x 1000&lt;/p&gt;
+&lt;h5&gt;Contoh:&lt;/h5&gt;
+&lt;p&gt;Harga Indomie goreng mentah di Dubai itu AED 2/pc, jadi kalau pakai rumus di atas menjadi Rp3.000, tentu harga wajar sama kek di Jakarta kan&lt;/p&gt;
+&lt;h5&gt;Contoh lain:&lt;/h5&gt;
+&lt;p&gt;Makan siang di kantor itu nasi briyani + minum itu AED25 jadi setara dengan nilai Rp37.500 di Jakarta, dimana ini wajar buat makan siang di restoran wilayah perkantoran Jakarta.&lt;/p&gt;
+&lt;p&gt;Saya punya anggaran makan itu 20-30 dirham untuk sekali makan, di bawah 20 dirham (Rp80ribuan) termasuk murah dan di atas 30 dirham (Rp120ribuan) itu sudah termasuk mahal buat saya&lt;/p&gt;
+&lt;figure&gt;&lt;figure class=&#34;post__image post__image--center&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;1080&#34; loading=&#34;lazy&#34; sizes=&#34;100vw&#34; src=&#34;https://fachrul.id/media/posts/60/aneka-bahan-masakan.jpg&#34; srcset=&#34;https://fachrul.id/media/posts/60/responsive/aneka-bahan-masakan-xs.jpg 300w, https://fachrul.id/media/posts/60/responsive/aneka-bahan-masakan-sm.jpg 480w, https://fachrul.id/media/posts/60/responsive/aneka-bahan-masakan-md.jpg 768w, https://fachrul.id/media/posts/60/responsive/aneka-bahan-masakan-lg.jpg 1024w, https://fachrul.id/media/posts/60/responsive/aneka-bahan-masakan-xl.jpg 1360w, https://fachrul.id/media/posts/60/responsive/aneka-bahan-masakan-2xl.jpg 1600w&#34; width=&#34;1280&#34;/&gt;&lt;/figure&gt;&lt;figcaption&gt;Aneka harga bahan masakan di Lulu (Mei 2023)&lt;/figcaption&gt;&lt;/figure&gt;
 
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://fachrul.id/media/posts/60/siasat-hidup-hemat-dubai.png" class="type:primaryImage" alt="" /></p>
-                <p>Sebagai kota yang dikenal dengan kemegahannya, Dubai mungkin tidak langsung terlintas di pikiran kamu ketika memikirkan hidup hemat. Namun, meski kota ini memang memiliki biaya hidup yang cukup tinggi apalagi bagi orang Indonesia, masih ada loh cara untuk menjalani gaya hidup yang hemat dan memaksimalkan penghasilan kita sebagai tenaga kerja dari Indonesia, ya kan kita di Dubai mau cari duit, bukan wisatawan yang siap ngabisin duit liburan 🤣</p>
-<p>Berikut beberapa pengalaman saya menjadi hidup hemat ala anak kos di Dubai!</p>
-<h2 class="align-center">Daftar isi:</h2>
-<ul>
-<li><a href="#makanan">Pilihan Makan Murah di Dubai</a></li>
-<li><a href="#akomodasi">Tempat Tinggal di Dubai</a></li>
-</ul>
+&lt;p&gt;Sebagai anak kosan yang hidup sendirian di Dubai, menurut saya pribadi, lebih murah beli makan di luar daripada masak sendiri di rumah loh 😅, mungkin kalau untuk makan sekeluarga itu tentu bisa lebih murah masak sendiri, tapi kalau buat sendirian sih mahal ya, menurut saya kalau masak itu minimal harus siapin 3 jenis makanan, yaitu sayuran, protein (telur/daging/ikan) dan nasi, belanja bahan masakan aja kadang ga bisa dalam porsi kecil, jadi harus beli banyak dalam satu pack gitu (bisa disimpen di kulkas sih), belum minyak dan bumbunya ya, kalau saya hitung biayanya lebih mahal daripada beli makan di luar, apalagi restoran masakan india itu seperti nasi padang, kalau di bungkus porsinya jumbo! jadi sekali beli bisa buat 2x makan loh 🤣 nah pada kesempatan kali ini saya akan fokus pembahasanya adalah beli makan di luar dengan harga terjangkau ya, bukan masak sendiri biar hemat.&lt;/p&gt;
+&lt;p&gt;Dan kalau ada yang nyari makanan Indonesia di Dubai itu ada banyak juga kok, dan rasanya sangat mirip citarasa asli di Indonesia, walaupun beberapa tempat itu pake bumbu instan karena sulit dapet rempah-rempah masakan Indonesia di Dubai, tapi jangan kaget kalau harganya tergolong mahal, karena makanan Indonesia termasuk makanan luar negeri yang beberapa bahan baku bahkan harus di import, jadi biasanya untuk makan dan minum bisa habis sekitar 30 sampai 50 dirham loh (sekitar 120rbuan atau harga wajarnya 45ribuan sampai 200rbuan), kalau mau hemat pilihannya ada di makanan lokal sini aja masakan arab atau india, seperti nasi briyani, nasi kebuli, nasi mandi itu harganya jauh lebih murah daripada harga di Jakarta 😅&lt;/p&gt;
+&lt;h2&gt;1. Beli Makanan Matang di Supermarket&lt;/h2&gt;
+&lt;p&gt;Carrefour, Lulu, Viva, Waitrose, Choitram adalah nama supermarket yang menawarkan menu makan ala warteg, aneka masakan dari eropa, asia, india, salad sudah tersedia, misal kita bisa beli ayam goreng, ayam bakar, bisa satu potong, setengah ekor, bahkan satu ekor utuh (bakakak) pun ada! harganya murah&lt;/p&gt;
+&lt;figure&gt;&lt;figure class=&#34;post__image post__image--center&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;1080&#34; loading=&#34;lazy&#34; sizes=&#34;100vw&#34; src=&#34;https://fachrul.id/media/posts/60/makanan-mateng.jpg&#34; srcset=&#34;https://fachrul.id/media/posts/60/responsive/makanan-mateng-xs.jpg 300w, https://fachrul.id/media/posts/60/responsive/makanan-mateng-sm.jpg 480w, https://fachrul.id/media/posts/60/responsive/makanan-mateng-md.jpg 768w, https://fachrul.id/media/posts/60/responsive/makanan-mateng-lg.jpg 1024w, https://fachrul.id/media/posts/60/responsive/makanan-mateng-xl.jpg 1360w, https://fachrul.id/media/posts/60/responsive/makanan-mateng-2xl.jpg 1600w&#34; width=&#34;1280&#34;/&gt;&lt;/figure&gt;&lt;figcaption&gt;aneka masakanan matang di Lulu (Mei 2023)&lt;/figcaption&gt;&lt;/figure&gt;
 
-<h1 id="makanan" class="msg msg--info align-center">🍽️ Makanan</h1>
-<p>Mengatur anggaran makanan sebagai anak kos di Dubai bisa pos pengeluaran yang fleksibel, memang anggaran makanan ini sifatnya relatif terhadap gaya hidup kamu, tapi dengan sedikit kreativitas dan perencanaan, kita bisa mendapatkan makanan bergizi dengan harga yang terjangkau juga loh!</p>
-<p>Hal pertama yang langsung terasa hilang saat berada di Dubai adalah, tidak adanya budaya makanan kaki lima 😢 , jadi pengusaha kuliner harus memiliki toko fisik seperti halnya restoran, mungkin ini karena Dubai dikenal sebagai kota modern dan futuristik, yang memiliki standar yang tinggi untuk segala hal, termasuk standar kesehatan dan kebersihan dalam penyajian makanan, kata pemilik restoran kenalan saya sih, katanya usaha kuliner itu harus memenuhi serangkaian aturan dan regulasi yang cukup ketat, termasuk memiliki izin tempat, mematuhi standar kebersihan, dan menjaga kualitas makanan.</p>
-<p>Alasan lain kenapa gak  Sebagai kota gurun, Dubai memiliki suhu yang sangat panas saat Summer bahkan malem hari pun hawanya masih gerah, dan ini membuat lingkungan kurang menguntungkan untuk penjual makanan jalanan kaki lima (kalau winter sih sering liat popup food festival di lokasi populer juga kok).</p>
-<h4>Seberapa dirhamkah yang termasuk murah?</h4>
-<p>Memang, jika diconversikan dirham ke rupiah (1 dirham sekitar Rp4.000), semua akan terlihat mahal sekali, bisa 3x lipat harga benda yang sama di Jakarta, jadi tidak adil rasanya jika uang dirham yang didapat dari kerja disini selalu dikalikan nilai rupiahnya, semua kelihatan mahal jadinya (kecuali memang kita liburan ke Dubai, jadi gajian Rupiah spendingnya Dirham).</p>
-<p>Lebih bijaksana jika kita memiliki standar harga wajar, apakah untuk ukuran Dubai, harganya termasuk murah atau mahal. Saya akan bagikan rumus pribadi saya dalam menilai harga makanan/minuman itu termasuk mahal atau murah menurut standar hidup dubai</p>
-<p class="msg msg--highlight ">Harga wajar senilai Rupiah = 1,5 Harga Dirham x 1000</p>
-<h5>Contoh:</h5>
-<p>Harga Indomie goreng mentah di Dubai itu AED 2/pc, jadi kalau pakai rumus di atas menjadi Rp3.000, tentu harga wajar sama kek di Jakarta kan</p>
-<h5>Contoh lain:</h5>
-<p>Makan siang di kantor itu nasi briyani + minum itu AED25 jadi setara dengan nilai Rp37.500 di Jakarta, dimana ini wajar buat makan siang di restoran wilayah perkantoran Jakarta.</p>
-<p>Saya punya anggaran makan itu 20-30 dirham untuk sekali makan, di bawah 20 dirham (Rp80ribuan) termasuk murah dan di atas 30 dirham (Rp120ribuan) itu sudah termasuk mahal buat saya</p>
-<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/60/aneka-bahan-masakan.jpg" alt="" width="1280" height="1080" sizes="100vw" srcset="https://fachrul.id/media/posts/60/responsive/aneka-bahan-masakan-xs.jpg 300w ,https://fachrul.id/media/posts/60/responsive/aneka-bahan-masakan-sm.jpg 480w ,https://fachrul.id/media/posts/60/responsive/aneka-bahan-masakan-md.jpg 768w ,https://fachrul.id/media/posts/60/responsive/aneka-bahan-masakan-lg.jpg 1024w ,https://fachrul.id/media/posts/60/responsive/aneka-bahan-masakan-xl.jpg 1360w ,https://fachrul.id/media/posts/60/responsive/aneka-bahan-masakan-2xl.jpg 1600w"></figure>
-<figcaption >Aneka harga bahan masakan di Lulu (Mei 2023)</figcaption>
-</figure>
-<p>Sebagai anak kosan yang hidup sendirian di Dubai, menurut saya pribadi, lebih murah beli makan di luar daripada masak sendiri di rumah loh 😅, mungkin kalau untuk makan sekeluarga itu tentu bisa lebih murah masak sendiri, tapi kalau buat sendirian sih mahal ya, menurut saya kalau masak itu minimal harus siapin 3 jenis makanan, yaitu sayuran, protein (telur/daging/ikan) dan nasi, belanja bahan masakan aja kadang ga bisa dalam porsi kecil, jadi harus beli banyak dalam satu pack gitu (bisa disimpen di kulkas sih), belum minyak dan bumbunya ya, kalau saya hitung biayanya lebih mahal daripada beli makan di luar, apalagi restoran masakan india itu seperti nasi padang, kalau di bungkus porsinya jumbo! jadi sekali beli bisa buat 2x makan loh 🤣 nah pada kesempatan kali ini saya akan fokus pembahasanya adalah <span style="text-decoration: underline;"><span style="color: #000000; text-decoration: underline;">beli makan di luar dengan harga terjangkau</span></span> ya, bukan masak sendiri biar hemat.</p>
-<p>Dan kalau ada yang nyari makanan Indonesia di Dubai itu ada banyak juga kok, dan rasanya sangat mirip citarasa asli di Indonesia, walaupun beberapa tempat itu pake bumbu instan karena sulit dapet rempah-rempah masakan Indonesia di Dubai, tapi jangan kaget kalau harganya tergolong mahal, karena makanan Indonesia termasuk makanan luar negeri yang beberapa bahan baku bahkan harus di import, jadi biasanya untuk makan dan minum bisa habis sekitar 30 sampai 50 dirham loh (sekitar 120rbuan atau harga wajarnya 45ribuan sampai 200rbuan), kalau mau hemat pilihannya ada di makanan lokal sini aja masakan arab atau india, seperti nasi briyani, nasi kebuli, nasi mandi itu harganya jauh lebih murah daripada harga di Jakarta 😅</p>
-<h2>1. Beli Makanan Matang di Supermarket</h2>
-<p>Carrefour, Lulu, Viva, Waitrose, Choitram adalah nama supermarket yang menawarkan menu makan ala warteg, aneka masakan dari eropa, asia, india, salad sudah tersedia, misal kita bisa beli ayam goreng, ayam bakar, bisa satu potong, setengah ekor, bahkan satu ekor utuh (bakakak) pun ada! harganya murah</p>
-<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/60/makanan-mateng.jpg" alt="" width="1280" height="1080" sizes="100vw" srcset="https://fachrul.id/media/posts/60/responsive/makanan-mateng-xs.jpg 300w ,https://fachrul.id/media/posts/60/responsive/makanan-mateng-sm.jpg 480w ,https://fachrul.id/media/posts/60/responsive/makanan-mateng-md.jpg 768w ,https://fachrul.id/media/posts/60/responsive/makanan-mateng-lg.jpg 1024w ,https://fachrul.id/media/posts/60/responsive/makanan-mateng-xl.jpg 1360w ,https://fachrul.id/media/posts/60/responsive/makanan-mateng-2xl.jpg 1600w"></figure>
-<figcaption >aneka masakanan matang di Lulu (Mei 2023)</figcaption>
-</figure>
-<p>perhatikan harga yang tertera dan satuannya, ada yang dalam "per piece" harga satuan, ada yang harga "per kg" jadi perlu ditimbang dulu.</p>
-<h4>Gimana Cara Pesannya:</h4>
-<p>Mirip warteg, kita tinggal sentuh kaca nya aja dan bilang "karo iki mase" dalam bahasa Inggris tapi ya 🤣 "I want this one pc/scoop please" dan si mas-mas india nya akan menimbang dulu berapa gram hasil cidukan buat ditentukan harga jualnya, sehabis itu kita juga bisa kombinasikan dengan beberapa menu, misal nasi kebuli dan setengah ekor ayam guling, lalu bayar di kasir.</p>
-<p>Biasanya sekali beli sekitar 25 dirham (harga wajarnya senilai 37ribuan) bisa buat makan seharian, jadi beli pagi untuk makan siang dan malam, tinggal dihangatkan saja pakai microwave atau kompor gas, jadi kalo dibagi dua jadi sekali makan kan cuma 12.5 dirham aja, murah banget! atau kalau mau lebih murah lagi, untuk sumber karbohidratnya jangan beli nasi tapi beli roti arab gitu 1.75 dirham udah bikin kenyang untuk 2x makan loh</p>
-<h2>2. Beli Makanan Jadi di Supermarket</h2>
-<p>Carrefour, Lulu, Viva, Waitrose, Choitram, dan Zoom pun biasanya menyediakan makanan jadi satu set kumplit yang siap saji, tapi tetap harus dipanaskan di microwave dulu, biasanya disana sudah ada, tinggal minta tolong ke pramusaji nya untuk dihangatkan dlu, ya kurang lebih 2 menit sampai siap santap, dari mulai salad, burger, sandwich, makanan india, makanan filipina, sampe kadang ada nasi goreng juga loh! </p>
-<p>Makanan siap saji ini memang perlu microwave untuk kembali segar, ini sebenarnya sudah ada banyak di Jakarta seperti di Lawson, Family Mart gitu kalo gak salah.</p>
-<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/60/makanan-siap-saji.jpg" alt="" width="1280" height="1080" sizes="100vw" srcset="https://fachrul.id/media/posts/60/responsive/makanan-siap-saji-xs.jpg 300w ,https://fachrul.id/media/posts/60/responsive/makanan-siap-saji-sm.jpg 480w ,https://fachrul.id/media/posts/60/responsive/makanan-siap-saji-md.jpg 768w ,https://fachrul.id/media/posts/60/responsive/makanan-siap-saji-lg.jpg 1024w ,https://fachrul.id/media/posts/60/responsive/makanan-siap-saji-xl.jpg 1360w ,https://fachrul.id/media/posts/60/responsive/makanan-siap-saji-2xl.jpg 1600w"></figure>
-<figcaption >Aneka makanan siap saji di supermarket Dubai</figcaption>
-</figure>
-<p>Harganya banyak yang di bawah 20 dirham, bahkan 3 dirham buat roti sandwich isi (harga wajarnya senilai Rp4500), tapi memang untuk sekali makan saja, beda dengan yang makanan matang sebelumnya yang bisa 2 kali makan</p>
-<h2>3. Beli Makan di Cafetaria</h2>
-<p>Hampir di setiap stasiun kereta Metro itu ada kerjasama dengan UMKM Dubai untuk buka warung makanan, harga disini murah-murah menu yang nasi biasanya 18 dirham, menu roti-rotian lebih murah lagi, cocok sekali untuk sarapan sebelum berangkat kerja</p>
-<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/60/nasi-goreng-metro.jpg" alt="" width="1280" height="1080" sizes="100vw" srcset="https://fachrul.id/media/posts/60/responsive/nasi-goreng-metro-xs.jpg 300w ,https://fachrul.id/media/posts/60/responsive/nasi-goreng-metro-sm.jpg 480w ,https://fachrul.id/media/posts/60/responsive/nasi-goreng-metro-md.jpg 768w ,https://fachrul.id/media/posts/60/responsive/nasi-goreng-metro-lg.jpg 1024w ,https://fachrul.id/media/posts/60/responsive/nasi-goreng-metro-xl.jpg 1360w ,https://fachrul.id/media/posts/60/responsive/nasi-goreng-metro-2xl.jpg 1600w"></figure>
-<figcaption >Sarapan Nasi Goreng Ayam Spesial di Metro</figcaption>
-</figure>
-<p>Kalau nasi goreng terlalu berat bisa minta spring roll atau samosa dan karak tea, biasanya cuma 5 dirham (harga wajar senilai Rp7500) aja loh</p>
-<p>Atau favorit sarapan saya adalah wrap porata egg seharga 5 dirham, porata itu sebenarnya biasa kita kenal dengan roti canai, terus bentuknya di gulung menyerupai kebab gitu</p>
-<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/60/porata-cafetaria.jpg" alt="" width="1280" height="1080" sizes="100vw" srcset="https://fachrul.id/media/posts/60/responsive/porata-cafetaria-xs.jpg 300w ,https://fachrul.id/media/posts/60/responsive/porata-cafetaria-sm.jpg 480w ,https://fachrul.id/media/posts/60/responsive/porata-cafetaria-md.jpg 768w ,https://fachrul.id/media/posts/60/responsive/porata-cafetaria-lg.jpg 1024w ,https://fachrul.id/media/posts/60/responsive/porata-cafetaria-xl.jpg 1360w ,https://fachrul.id/media/posts/60/responsive/porata-cafetaria-2xl.jpg 1600w"></figure>
-<figcaption >porata di cafetaria</figcaption>
-</figure>
-<h2>4. Beli Makanan di Restoran</h2>
-<p>Menikmati makanan di restoran gak selalu harus merogoh kocek dalam-dalam. Ada beberapa restoran yang harganya miring loh, seperti sudah disebutkan sekilas di atas, yaitu restoran lokal yang menyajikan makanan india, chinese, wrap, burger gitu</p>
-<p>Salah satunya restoran ini yang berlokasi di Al Rashidiya, dekat dengan tempat tinggal saya, lihat saja harganya masi murah banget banyak yang dibawah 20 dirham, dan kalau dibungkus porsinya jumbo, kadang bisa buat 2x makan untuk saya sih:</p>
-<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="3">
-<figure class="gallery__item"><a href="https://fachrul.id/media/posts/60/gallery/foto-depan-restoran.jpeg" data-size="960x1280"><img loading="lazy" src="https://fachrul.id/media/posts/60/gallery/foto-depan-restoran-thumbnail.jpeg" alt="" width="720" height="960"></a>
-<figcaption>tampak depan restoran</figcaption>
-</figure>
-<figure class="gallery__item"><a href="https://fachrul.id/media/posts/60/gallery/foto-menu-restoran-5.jpg" data-size="960x1280"><img loading="lazy" src="https://fachrul.id/media/posts/60/gallery/foto-menu-restoran-5-thumbnail.jpg" alt="" width="720" height="960"></a>
-<figcaption>aneka nasi briyani</figcaption>
-</figure>
-<figure class="gallery__item"><a href="https://fachrul.id/media/posts/60/gallery/foto-menu-restoran-4.jpg" data-size="960x1280"><img loading="lazy" src="https://fachrul.id/media/posts/60/gallery/foto-menu-restoran-4-thumbnail.jpg" alt="" width="720" height="960"></a>
-<figcaption>shawarma yang menggoda</figcaption>
-</figure>
-<figure class="gallery__item"><a href="https://fachrul.id/media/posts/60/gallery/foto-menu-restoran-3.jpg" data-size="960x1280"><img loading="lazy" src="https://fachrul.id/media/posts/60/gallery/foto-menu-restoran-3-thumbnail.jpg" alt="" width="720" height="960"></a>
-<figcaption>aneka mie goreng</figcaption>
-</figure>
-<figure class="gallery__item"><a href="https://fachrul.id/media/posts/60/gallery/foto-menu-restoran-2.jpg" data-size="960x1280"><img loading="lazy" src="https://fachrul.id/media/posts/60/gallery/foto-menu-restoran-2-thumbnail.jpg" alt="" width="720" height="960"></a>
-<figcaption>aneka nasi goreng</figcaption>
-</figure>
-<figure class="gallery__item"><a href="https://fachrul.id/media/posts/60/gallery/foto-menu-restoran-1.jpg" data-size="960x1280"><img loading="lazy" src="https://fachrul.id/media/posts/60/gallery/foto-menu-restoran-1-thumbnail.jpg" alt="" width="720" height="960"></a>
-<figcaption>menu india</figcaption>
-</figure>
-</div></div>
-<p>Dan jangan lupa dipantau juga aplikasi antar makanan online seperti Careem Food, Talabat, Deliveroo dkk karena terkadang ada promo diskon makanan juga, jadi bisa hemat untuk pesan makanan online</p>
-<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://fachrul.id/media/posts/60/mcd-kfc.jpg" alt="" width="1280" height="1080" sizes="100vw" srcset="https://fachrul.id/media/posts/60/responsive/mcd-kfc-xs.jpg 300w ,https://fachrul.id/media/posts/60/responsive/mcd-kfc-sm.jpg 480w ,https://fachrul.id/media/posts/60/responsive/mcd-kfc-md.jpg 768w ,https://fachrul.id/media/posts/60/responsive/mcd-kfc-lg.jpg 1024w ,https://fachrul.id/media/posts/60/responsive/mcd-kfc-xl.jpg 1360w ,https://fachrul.id/media/posts/60/responsive/mcd-kfc-2xl.jpg 1600w"></figure>
-<figcaption >Harga McD dan KFC di Dubai</figcaption>
-</figure>
-<p> </p>
-<h1>5. Kreatifitas Anak Kos</h1>
-<p>Sempet saya singung juga di atas, kalau masak sendiri lebih mahal? sebenernya ga berlaku kalau yang dimasak adalah Indomie dan telur ahaha, karena indomie selalu jadi penyelamat di tanggal tua</p>
-<figure class="post__image"><img loading="lazy"  src="https://fachrul.id/media/posts/60/indomie.jpg" alt="" width="1080" height="810" sizes="100vw" srcset="https://fachrul.id/media/posts/60/responsive/indomie-xs.jpg 300w ,https://fachrul.id/media/posts/60/responsive/indomie-sm.jpg 480w ,https://fachrul.id/media/posts/60/responsive/indomie-md.jpg 768w ,https://fachrul.id/media/posts/60/responsive/indomie-lg.jpg 1024w ,https://fachrul.id/media/posts/60/responsive/indomie-xl.jpg 1360w ,https://fachrul.id/media/posts/60/responsive/indomie-2xl.jpg 1600w"><figcaption>indomie 8.95 dirham isi 5 bungkus</figcaption></figure>
-<p>Untuk menambah variasi dan gizinya, saya sering berkreasi dengan masaknya tambah telur, sayuran dan sosis bahkan sarden pun pernah, ini beneran bisa sangat menghemat di hari-hari menjelang gajian 😂</p>
-<p>Atau kadang juga saya berkreasi dengan roti arab ditambah telur ceplok, harga rotinya murah 1-2 dirham bisa buat makan seharian sih untuk satu plastik seperti ini</p>
-<figure class="post__image"><img loading="lazy"  src="https://fachrul.id/media/posts/60/roti-arab.jpg" alt="" width="810" height="1080" sizes="100vw" srcset="https://fachrul.id/media/posts/60/responsive/roti-arab-xs.jpg 300w ,https://fachrul.id/media/posts/60/responsive/roti-arab-sm.jpg 480w ,https://fachrul.id/media/posts/60/responsive/roti-arab-md.jpg 768w ,https://fachrul.id/media/posts/60/responsive/roti-arab-lg.jpg 1024w ,https://fachrul.id/media/posts/60/responsive/roti-arab-xl.jpg 1360w ,https://fachrul.id/media/posts/60/responsive/roti-arab-2xl.jpg 1600w"><figcaption>roti arab</figcaption></figure>
-<p>Tapi harus seimbangkan juga dengan buah-buahan ya biar ada asupan vitamin juga, karena sakit disini itu mahal, panadol aja bisa 150ribuan harganya 😅</p>
-<p>Jadi harus dirutinkan mengkonsumsi buah, biasanya saya membeli buah botong campur biar bisa dapet beragam jenis buah dan dapet banyak vitamin</p>
-<figure class="post__image"><img loading="lazy"  src="https://fachrul.id/media/posts/60/aneka-buah-2.jpg" alt="" width="1280" height="1080" sizes="100vw" srcset="https://fachrul.id/media/posts/60/responsive/aneka-buah-2-xs.jpg 300w ,https://fachrul.id/media/posts/60/responsive/aneka-buah-2-sm.jpg 480w ,https://fachrul.id/media/posts/60/responsive/aneka-buah-2-md.jpg 768w ,https://fachrul.id/media/posts/60/responsive/aneka-buah-2-lg.jpg 1024w ,https://fachrul.id/media/posts/60/responsive/aneka-buah-2-xl.jpg 1360w ,https://fachrul.id/media/posts/60/responsive/aneka-buah-2-2xl.jpg 1600w"><figcaption>aneka buah dan harganya</figcaption></figure>
-<p>Bonus:</p>
-<p>Perbandingan makanan yang biasa ada di supermarket Indonesia dengan supermarket di Dubai (Lulu di Mei 2023)</p>
-<figure class="post__image"><img loading="lazy"  src="https://fachrul.id/media/posts/60/jajanan-indo.jpg" alt="" width="1280" height="1080" sizes="100vw" srcset="https://fachrul.id/media/posts/60/responsive/jajanan-indo-xs.jpg 300w ,https://fachrul.id/media/posts/60/responsive/jajanan-indo-sm.jpg 480w ,https://fachrul.id/media/posts/60/responsive/jajanan-indo-md.jpg 768w ,https://fachrul.id/media/posts/60/responsive/jajanan-indo-lg.jpg 1024w ,https://fachrul.id/media/posts/60/responsive/jajanan-indo-xl.jpg 1360w ,https://fachrul.id/media/posts/60/responsive/jajanan-indo-2xl.jpg 1600w"><figcaption>Jajanan Indonesia di Dubai (kecuali oronamin sih, ini made in Japan)</figcaption></figure>
-<hr>
-<h1 id="akomodasi" class="msg msg--info align-center"><strong>🏠 Tempat Tinggal</strong></h1>
-<p>Alias kosan nya, adalah kebutuhan primer yang paling signifikan dalam biaya hidup di Dubai, ibaratnya kalo biaya makan itu bisa diakalin cara murahnya gimana, tapi klo biaya sewa tempat tinggal itu udah pasti sama perbulannya, jadi perlu cermat dalam memilih jenis tempat tinggal, karena biayanya sangat bervariasi, tergantung pada tipe properti, lokasi, dan fasilitas yang ditawarkan, dan kalo bisa cari tempat tinggal yang dekat dengan tempat kerja, klo naek metro harus dalam 1 zona biar hemat poll.</p>
-<p>Yang pertama yang perlu dipahami adalah perbedaan bentuk sewa tempat tinggal (kosan) antara Jakarta dan Dubai, yaitu:</p>
-<p>Tipe Apartment (pusat kota):</p>
-<ul>
-<li>Sharing
-<ul>
-<li>bed space</li>
-<li>partition</li>
-<li>private (master) room,</li>
-</ul>
-</li>
-<li>Tipe Studio (sendirian) </li>
-</ul>
-<p>Biasanya klo tipe apartemen sharing ini bentuknya tuh tipe kondominium yang luas tapi dipermak sedemikian rupa buat di sewain eceran gitu, lalu biaya sewa bulannya udah termasuk berbagai fasilitas umum:</p>
-<ul>
-<li>Internet high speed (biasanya diatas 250 mpbs)</li>
-<li>Air minum, gas &amp; Listrik</li>
-<li>Kamar mandi diluar (air panas/dingin), biasanya satu apartemen ada 2 kamar mandi luar</li>
-<li>Dapur umum (bisa masak di kompor dan microwave)</li>
-<li>Mesin cuci &amp; Setrikaan (ada yang termasuk keringin jadi ga perlu jemur)</li>
-</ul>
-<p>Tipe Rumah/Kamar di atas tanah:</p>
-<ul>
-<li>Villa</li>
-</ul>
-<p>Nanti akan saya jelasin perbedaannya satu-satu, tapi perlu dipahami dulu, bentuk hunian umum di Dubai itu adalah gedung apartemen, hampir ga ada pilihan rumah di atas tanah untuk hunian di pusat kota Dubai, kecuali jika melipir jauh lagi baru biasanya ada pilihan sewa rumah arab (rumah lama penduduk lokal) gitu yang disebutnya Villa.</p>
-<p>Hal berikutnya yang perlu kamu lakukan adalah memahami struktur kota dan zona mana yang menawarkan harga sewa yang lebih terjangkau. Wilayah Deira, Al Qusais, Al Rashidiya, dan Karama biasanya harga sewanya yang lebih rendah dibandingkan dengan area pusat kota seperti Downtown Dubai atau Marina.</p>
-<p>Biasanya saya mencari di website seperti <a href="https://dubai.dubizzle.com/" target="_blank" rel="nofollow noopener noreferrer">Dubizzle</a>, <a href="https://www.propertyfinder.ae/" target="_blank" rel="nofollow noopener noreferrer">Property Finder</a>, dan <a href="https://www.bayut.com/to-rent/property/dubai/" target="_blank" rel="nofollow noopener noreferrer">Bayut</a>. Prosesnya biasanya kita janjian dengan Landlord (yang punya properti) untuk lihat dulu ke TKP, liat fasilitas umumnya, lingkungan, dan jarak dengan transportasi umum, kalo cocok bisa langsung deal dan DP, atau bilang mau lihat yang lain dulu, nanti di kabari lagi dalam tempo tertentu (tapi bisa jadi juga di tikung sama pencari yang lain sih, buat mereka yang penting laku) Oh iya, jangan ragu buat menawar atau bernegosiasi terkait biaya sewa dengan Landlord.</p>
-<p>Yuk kita bahas penjelasan tipe kosan di Dubai</p>
-<h3>Bed Space</h3>
-<p>Secara harfiah adalah sewa kasur! Jadi cuma buat tidur aja gitu, ala backpacker. Ini adalah opsi paling murah, sewa perbulan sekitar 300 dirham (harga wajar 450ribuan) dan harga kasur bawah itu lebih mahal, biasanya satu apartemen gede akan dibagi beberapa kamar, di dalam kamar itu ada beberapa kasur untuk disewakan.</p>
-<figure class="post__image"><img loading="lazy"  src="https://fachrul.id/media/posts/60/Screenshot-2023-05-20-at-21.45.58-2.png" alt="bed space" width="1024" height="747" sizes="100vw" srcset="https://fachrul.id/media/posts/60/responsive/Screenshot-2023-05-20-at-21.45.58-2-xs.png 300w ,https://fachrul.id/media/posts/60/responsive/Screenshot-2023-05-20-at-21.45.58-2-sm.png 480w ,https://fachrul.id/media/posts/60/responsive/Screenshot-2023-05-20-at-21.45.58-2-md.png 768w ,https://fachrul.id/media/posts/60/responsive/Screenshot-2023-05-20-at-21.45.58-2-lg.png 1024w ,https://fachrul.id/media/posts/60/responsive/Screenshot-2023-05-20-at-21.45.58-2-xl.png 1360w ,https://fachrul.id/media/posts/60/responsive/Screenshot-2023-05-20-at-21.45.58-2-2xl.png 1600w"><figcaption>taken from Dubizzle</figcaption></figure>
-<p>Dan penghuni kamarnya pun bisa beragam, bisa orang asia selatan, filipin, eropa atau afrika dalam satu ruangan, yang ga kuat denger suara ngorok mending jangan coba-coba deh 😅</p>
-<figure class="post__image"><img loading="lazy"  src="https://fachrul.id/media/posts/60/kosan-bed-space.jpg" alt="" width="1080" height="569" sizes="100vw" srcset="https://fachrul.id/media/posts/60/responsive/kosan-bed-space-xs.jpg 300w ,https://fachrul.id/media/posts/60/responsive/kosan-bed-space-sm.jpg 480w ,https://fachrul.id/media/posts/60/responsive/kosan-bed-space-md.jpg 768w ,https://fachrul.id/media/posts/60/responsive/kosan-bed-space-lg.jpg 1024w ,https://fachrul.id/media/posts/60/responsive/kosan-bed-space-xl.jpg 1360w ,https://fachrul.id/media/posts/60/responsive/kosan-bed-space-2xl.jpg 1600w"><figcaption>harga kosan bedspace di dubizzle</figcaption></figure>
-<h3>Partition Room</h3>
-<p>Klo ini kita sewa satu kamar, jadi lebih ada privasinya ya, biasanya satu kondominium apartemen itu dibagi jadi banyak kamar, sempet suatu waktu pas lagi survei lokasi saya menghitung ga kurang dari 24 pintu untuk satu apartemen itu loh! dan kamar mandi luar nya cuma 2, ga kebayang antri mandinya tiap pagi itu loh 😱</p>
-<figure class="post__image"><img loading="lazy"  src="https://fachrul.id/media/posts/60/kosan-barsha.png" alt="kosan private partition" width="1024" height="995" sizes="100vw" srcset="https://fachrul.id/media/posts/60/responsive/kosan-barsha-xs.png 300w ,https://fachrul.id/media/posts/60/responsive/kosan-barsha-sm.png 480w ,https://fachrul.id/media/posts/60/responsive/kosan-barsha-md.png 768w ,https://fachrul.id/media/posts/60/responsive/kosan-barsha-lg.png 1024w ,https://fachrul.id/media/posts/60/responsive/kosan-barsha-xl.png 1360w ,https://fachrul.id/media/posts/60/responsive/kosan-barsha-2xl.png 1600w"><figcaption>saya sempet ngekos di kamar ini</figcaption></figure>
-<p>Gambar di atas adalah contoh partition room yang saya sempet tinggali, lebarnya itu serentangan tangan aja, itu di foto aja keliatan ga sampe 3 ubin lebarnya, sempit banget ya 😅</p>
-<p>Dulu di kamar itu saya bisa sewa klo perbulannya sekitar 1600 dirham (harga wajar 2,4jutaan, emang berasa mahal sih sekamar 3 ubin gini 🤣), fasilitasnya sama kayak di atas, dapet lemari baju, free internet, sharing kitchen dan kamar mandi di luar, dan selimut karena AC central nya dingin banget ga bisa dikecilin!</p>
-<p>Oia biasanya variasi harga tergantung fasilitas juga, misal ada balkon nya, ada meja kerjanya atau bahkan ada jendelanya gitu juga bisa mempengaruhi harga loh.</p>
-<figure class="post__image"><img loading="lazy"  src="https://fachrul.id/media/posts/60/kosan-room-partition.jpg" alt="" width="1080" height="571" sizes="100vw" srcset="https://fachrul.id/media/posts/60/responsive/kosan-room-partition-xs.jpg 300w ,https://fachrul.id/media/posts/60/responsive/kosan-room-partition-sm.jpg 480w ,https://fachrul.id/media/posts/60/responsive/kosan-room-partition-md.jpg 768w ,https://fachrul.id/media/posts/60/responsive/kosan-room-partition-lg.jpg 1024w ,https://fachrul.id/media/posts/60/responsive/kosan-room-partition-xl.jpg 1360w ,https://fachrul.id/media/posts/60/responsive/kosan-room-partition-2xl.jpg 1600w"><figcaption>harga iklan room partition di dubizzle</figcaption></figure>
-<p> </p>
-<h3>Private Room</h3>
-<p>Klo perlu ruangan yang lebih luas dari pada Partition room, ini dia Private Room, masi di dalam kawasan yang sama di sebuah kondominium apartemen biasanya ada satu/beberapa ruangan yang punya ruangan lebih lega lagi, banyak yang bilang tipe ruangan yang master bedroom </p>
-<p>fasilitasnya juga lebih banyak, saya sempet sewa yang beberapa tempat tipe ini, biasanya ada tivi, kamar mandi dalam, sofa, lemari, meja kerja dan pernah sekali yang ada kulkasnya di kamar, harga perbulannya sekitar 2000-3500 dirham (harga wajar senilai Rp3juta-5,2jutaan)</p>
-<figure class="post__image"><img loading="lazy"  src="https://fachrul.id/media/posts/60/private-room-2.jpg" alt="" width="800" height="600" sizes="100vw" srcset="https://fachrul.id/media/posts/60/responsive/private-room-2-xs.jpg 300w ,https://fachrul.id/media/posts/60/responsive/private-room-2-sm.jpg 480w ,https://fachrul.id/media/posts/60/responsive/private-room-2-md.jpg 768w ,https://fachrul.id/media/posts/60/responsive/private-room-2-lg.jpg 1024w ,https://fachrul.id/media/posts/60/responsive/private-room-2-xl.jpg 1360w ,https://fachrul.id/media/posts/60/responsive/private-room-2-2xl.jpg 1600w"><figcaption>diambil dari Dubizzle</figcaption></figure>
-<figure class="post__image"><img loading="lazy"  src="https://fachrul.id/media/posts/60/harga-kosan-private-room.jpg" alt="" width="1080" height="555" sizes="100vw" srcset="https://fachrul.id/media/posts/60/responsive/harga-kosan-private-room-xs.jpg 300w ,https://fachrul.id/media/posts/60/responsive/harga-kosan-private-room-sm.jpg 480w ,https://fachrul.id/media/posts/60/responsive/harga-kosan-private-room-md.jpg 768w ,https://fachrul.id/media/posts/60/responsive/harga-kosan-private-room-lg.jpg 1024w ,https://fachrul.id/media/posts/60/responsive/harga-kosan-private-room-xl.jpg 1360w ,https://fachrul.id/media/posts/60/responsive/harga-kosan-private-room-2xl.jpg 1600w"><figcaption>contoh harga kosan private room</figcaption></figure>
-<h3>Apartemen Studio (flat)</h3>
-<p>Kalo ini kita sewa satu apartemen bisa tipe studio, ataupun tipe yang punya 2-3 kamar gitu, tentu harganya akan mahal, untuk yang ke Dubai bersama keluarga tentu pilihan sewa apartemen studio lebih cocok, pun biasanya harga sewa yang ditawarkan sudah termasuk dengan barang-barang fasilitas (furnished) seperti TV, mesin cuci, kulkas, sofa dan kadang ada juga fasilitas umum apartemen seperti gym dan kolam renang.</p>
-<p>Untuk mencari apartemen bisa kita lihat spanduk merah/putih yang isinya "TOLET 05xxx (nomer telp)" artinya apartemen itu ada yang kosong dan silahkan hubungi nomer tersebut untuk komunikasi dengan agen landlordnya, emang aneh sih tolet mungkin dari To Let yang artinya di sewakan 😂</p>
-<figure class="post__image"><img loading="lazy"  src="https://fachrul.id/media/posts/60/tolet.jpg" alt="" width="901" height="1080" sizes="100vw" srcset="https://fachrul.id/media/posts/60/responsive/tolet-xs.jpg 300w ,https://fachrul.id/media/posts/60/responsive/tolet-sm.jpg 480w ,https://fachrul.id/media/posts/60/responsive/tolet-md.jpg 768w ,https://fachrul.id/media/posts/60/responsive/tolet-lg.jpg 1024w ,https://fachrul.id/media/posts/60/responsive/tolet-xl.jpg 1360w ,https://fachrul.id/media/posts/60/responsive/tolet-2xl.jpg 1600w"><figcaption>iklan apartemen</figcaption></figure>
-<p>Jadi biasanya daerah Al Barsha, Al Karama yang banyak sekali apartemen Tolet ini, lingkungannya juga bagus, banyak makanan enak dilingkungan ini loh 😍</p>
-<p>Tapi prosesnya beda dengan sharing apartemen yang saya bahas sebelumnya, untuk tipe satu apartemen sendiri seperti ini prosesnya lebih rinci, seperti ada perjanjian sewa dengan landlordnya, ada uang jaminan, lalu pembayarannya juga biasanya dihitung pertahun walaupun sebenarnya bisa di cicil dengan menggunakan cek bank gitu (ditagih berkala sebanyak jumlah ceknya), ga pembayaran dengan tunai ataupun transfer bulanan, karena dengan cek bisa memiliki posisi hukum yang lebih kuat lagi.</p>
-<figure class="post__image"><img loading="lazy"  src="https://fachrul.id/media/posts/60/iklan-apartemen.jpg" alt="" width="1080" height="550" sizes="100vw" srcset="https://fachrul.id/media/posts/60/responsive/iklan-apartemen-xs.jpg 300w ,https://fachrul.id/media/posts/60/responsive/iklan-apartemen-sm.jpg 480w ,https://fachrul.id/media/posts/60/responsive/iklan-apartemen-md.jpg 768w ,https://fachrul.id/media/posts/60/responsive/iklan-apartemen-lg.jpg 1024w ,https://fachrul.id/media/posts/60/responsive/iklan-apartemen-xl.jpg 1360w ,https://fachrul.id/media/posts/60/responsive/iklan-apartemen-2xl.jpg 1600w"><figcaption>iklan flat di bulan Mei 2023</figcaption></figure>
-<p>Kisaran harganya 40.000 dirham (harga yang tercantum biasanya per tahun) itu biasanya jauh dari metro, atau bahkan ga ada akses transportasi umum, jadi harus punya kendaraan pribadi, bisa beli scooter listrik (otopad) biar bisa ambil yang jaraknya lebih jauh sedikit dari transportasi umum</p>
-<p><strong>Penting untuk diperhatikan:</strong></p>
-<p>Lokasi tempat tinggal usahakan dekat dengan transportasi umum, seperti bus ataupun metro (seperti MRT) yang bisa diakses dengan jalan kaki, atau kalau pekerjaan sensitif dengan waktu lebih baik dekat dengan metro, karena menunggu bus itu tidak tentu, kadang perlu 30 menit atau sering kali lebih malah (kadang penuh dan harus nunggu selanjutnya dan lama datengnya), metro itu di jam sibuk bisa 1 menit sekali udah dateng keretanya.</p>
-<p>Ongkos Metro untuk 1 zona itu sekitar 5 dirham</p>
-<hr>
-<h1>Penutup</h1>
-<p>Sekian kiranya sebuah catatan siasat bagaimana cara saya untuk bisa hidup murah sebagai anak kos di Dubai, mudah-mudahan ini bisa kamu jadikan referensi untuk melihat biaya hidup di Dubai seperti apa dan gak salah negosiasi gaji ya</p>
-<hr>
-<p>Terkadang, perjalanan hidup membawa kita ke tempat-tempat yang gak pernah kita bayangin sebelumnya, di post kali ini, kita akan berbicara tentang hidup di salah satu metropolis yang menjadi tujuan populer para ekspatriat: Dubai</p>
-<p>Salah satu cita-cita kecil saya adalah merantau ke negeri orang, alhamdulilah, sejak November 2022 kemarin saya berkesempatan menjadi talenta digital Indonesia yang di export ke Dubai! Saya akan berbagi siasat untuk bisa hidup murah ala anak kosan ditengah gemerlap kemegahan kota Dubai.</p>
-<figure class="post__image"><img loading="lazy"  src="https://fachrul.id/media/posts/60/IMG_0109-2.JPG" alt="" width="1080" height="1088" sizes="100vw" srcset="https://fachrul.id/media/posts/60/responsive/IMG_0109-2-xs.JPG 300w ,https://fachrul.id/media/posts/60/responsive/IMG_0109-2-sm.JPG 480w ,https://fachrul.id/media/posts/60/responsive/IMG_0109-2-md.JPG 768w ,https://fachrul.id/media/posts/60/responsive/IMG_0109-2-lg.JPG 1024w ,https://fachrul.id/media/posts/60/responsive/IMG_0109-2-xl.JPG 1360w ,https://fachrul.id/media/posts/60/responsive/IMG_0109-2-2xl.JPG 1600w"><figcaption>Mampir ke Burj Khalifa</figcaption></figure>
-<p> </p>
-<p> </p>
-            ]]>
-        </content>
+&lt;p&gt;perhatikan harga yang tertera dan satuannya, ada yang dalam &#34;per piece&#34; harga satuan, ada yang harga &#34;per kg&#34; jadi perlu ditimbang dulu.&lt;/p&gt;
+&lt;h4&gt;Gimana Cara Pesannya:&lt;/h4&gt;
+&lt;p&gt;Mirip warteg, kita tinggal sentuh kaca nya aja dan bilang &#34;karo iki mase&#34; dalam bahasa Inggris tapi ya 🤣 &#34;I want this one pc/scoop please&#34; dan si mas-mas india nya akan menimbang dulu berapa gram hasil cidukan buat ditentukan harga jualnya, sehabis itu kita juga bisa kombinasikan dengan beberapa menu, misal nasi kebuli dan setengah ekor ayam guling, lalu bayar di kasir.&lt;/p&gt;
+&lt;p&gt;Biasanya sekali beli sekitar 25 dirham (harga wajarnya senilai 37ribuan) bisa buat makan seharian, jadi beli pagi untuk makan siang dan malam, tinggal dihangatkan saja pakai microwave atau kompor gas, jadi kalo dibagi dua jadi sekali makan kan cuma 12.5 dirham aja, murah banget! atau kalau mau lebih murah lagi, untuk sumber karbohidratnya jangan beli nasi tapi beli roti arab gitu 1.75 dirham udah bikin kenyang untuk 2x makan loh&lt;/p&gt;
+&lt;h2&gt;2. Beli Makanan Jadi di Supermarket&lt;/h2&gt;
+&lt;p&gt;Carrefour, Lulu, Viva, Waitrose, Choitram, dan Zoom pun biasanya menyediakan makanan jadi satu set kumplit yang siap saji, tapi tetap harus dipanaskan di microwave dulu, biasanya disana sudah ada, tinggal minta tolong ke pramusaji nya untuk dihangatkan dlu, ya kurang lebih 2 menit sampai siap santap, dari mulai salad, burger, sandwich, makanan india, makanan filipina, sampe kadang ada nasi goreng juga loh!&lt;/p&gt;
+&lt;p&gt;Makanan siap saji ini memang perlu microwave untuk kembali segar, ini sebenarnya sudah ada banyak di Jakarta seperti di Lawson, Family Mart gitu kalo gak salah.&lt;/p&gt;
+&lt;figure&gt;&lt;figure class=&#34;post__image post__image--center&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;1080&#34; loading=&#34;lazy&#34; sizes=&#34;100vw&#34; src=&#34;https://fachrul.id/media/posts/60/makanan-siap-saji.jpg&#34; srcset=&#34;https://fachrul.id/media/posts/60/responsive/makanan-siap-saji-xs.jpg 300w, https://fachrul.id/media/posts/60/responsive/makanan-siap-saji-sm.jpg 480w, https://fachrul.id/media/posts/60/responsive/makanan-siap-saji-md.jpg 768w, https://fachrul.id/media/posts/60/responsive/makanan-siap-saji-lg.jpg 1024w, https://fachrul.id/media/posts/60/responsive/makanan-siap-saji-xl.jpg 1360w, https://fachrul.id/media/posts/60/responsive/makanan-siap-saji-2xl.jpg 1600w&#34; width=&#34;1280&#34;/&gt;&lt;/figure&gt;&lt;figcaption&gt;Aneka makanan siap saji di supermarket Dubai&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Harganya banyak yang di bawah 20 dirham, bahkan 3 dirham buat roti sandwich isi (harga wajarnya senilai Rp4500), tapi memang untuk sekali makan saja, beda dengan yang makanan matang sebelumnya yang bisa 2 kali makan&lt;/p&gt;
+&lt;h2&gt;3. Beli Makan di Cafetaria&lt;/h2&gt;
+&lt;p&gt;Hampir di setiap stasiun kereta Metro itu ada kerjasama dengan UMKM Dubai untuk buka warung makanan, harga disini murah-murah menu yang nasi biasanya 18 dirham, menu roti-rotian lebih murah lagi, cocok sekali untuk sarapan sebelum berangkat kerja&lt;/p&gt;
+&lt;figure&gt;&lt;figure class=&#34;post__image post__image--center&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;1080&#34; loading=&#34;lazy&#34; sizes=&#34;100vw&#34; src=&#34;https://fachrul.id/media/posts/60/nasi-goreng-metro.jpg&#34; srcset=&#34;https://fachrul.id/media/posts/60/responsive/nasi-goreng-metro-xs.jpg 300w, https://fachrul.id/media/posts/60/responsive/nasi-goreng-metro-sm.jpg 480w, https://fachrul.id/media/posts/60/responsive/nasi-goreng-metro-md.jpg 768w, https://fachrul.id/media/posts/60/responsive/nasi-goreng-metro-lg.jpg 1024w, https://fachrul.id/media/posts/60/responsive/nasi-goreng-metro-xl.jpg 1360w, https://fachrul.id/media/posts/60/responsive/nasi-goreng-metro-2xl.jpg 1600w&#34; width=&#34;1280&#34;/&gt;&lt;/figure&gt;&lt;figcaption&gt;Sarapan Nasi Goreng Ayam Spesial di Metro&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Kalau nasi goreng terlalu berat bisa minta spring roll atau samosa dan karak tea, biasanya cuma 5 dirham (harga wajar senilai Rp7500) aja loh&lt;/p&gt;
+&lt;p&gt;Atau favorit sarapan saya adalah wrap porata egg seharga 5 dirham, porata itu sebenarnya biasa kita kenal dengan roti canai, terus bentuknya di gulung menyerupai kebab gitu&lt;/p&gt;
+&lt;figure&gt;&lt;figure class=&#34;post__image post__image--center&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;1080&#34; loading=&#34;lazy&#34; sizes=&#34;100vw&#34; src=&#34;https://fachrul.id/media/posts/60/porata-cafetaria.jpg&#34; srcset=&#34;https://fachrul.id/media/posts/60/responsive/porata-cafetaria-xs.jpg 300w, https://fachrul.id/media/posts/60/responsive/porata-cafetaria-sm.jpg 480w, https://fachrul.id/media/posts/60/responsive/porata-cafetaria-md.jpg 768w, https://fachrul.id/media/posts/60/responsive/porata-cafetaria-lg.jpg 1024w, https://fachrul.id/media/posts/60/responsive/porata-cafetaria-xl.jpg 1360w, https://fachrul.id/media/posts/60/responsive/porata-cafetaria-2xl.jpg 1600w&#34; width=&#34;1280&#34;/&gt;&lt;/figure&gt;&lt;figcaption&gt;porata di cafetaria&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h2&gt;4. Beli Makanan di Restoran&lt;/h2&gt;
+&lt;p&gt;Menikmati makanan di restoran gak selalu harus merogoh kocek dalam-dalam. Ada beberapa restoran yang harganya miring loh, seperti sudah disebutkan sekilas di atas, yaitu restoran lokal yang menyajikan makanan india, chinese, wrap, burger gitu&lt;/p&gt;
+&lt;p&gt;Salah satunya restoran ini yang berlokasi di Al Rashidiya, dekat dengan tempat tinggal saya, lihat saja harganya masi murah banget banyak yang dibawah 20 dirham, dan kalau dibungkus porsinya jumbo, kadang bisa buat 2x makan untuk saya sih:&lt;/p&gt;
+&lt;div class=&#34;gallery-wrapper&#34;&gt;&lt;div class=&#34;gallery&#34; data-columns=&#34;3&#34; data-is-empty=&#34;false&#34; data-translation=&#34;Add images&#34;&gt;&lt;figure class=&#34;gallery__item&#34;&gt;&lt;a data-size=&#34;960x1280&#34; href=&#34;https://fachrul.id/media/posts/60/gallery/foto-depan-restoran.jpeg&#34;&gt;&lt;img alt=&#34;tampak depan restoran&#34; height=&#34;960&#34; loading=&#34;lazy&#34; src=&#34;https://fachrul.id/media/posts/60/gallery/foto-depan-restoran-thumbnail.jpeg&#34; width=&#34;720&#34;/&gt;&lt;/a&gt;&lt;figcaption&gt;tampak depan restoran&lt;/figcaption&gt;&lt;/figure&gt;&lt;figure class=&#34;gallery__item&#34;&gt;&lt;a data-size=&#34;960x1280&#34; href=&#34;https://fachrul.id/media/posts/60/gallery/foto-menu-restoran-5.jpg&#34;&gt;&lt;img alt=&#34;aneka nasi briyani&#34; height=&#34;960&#34; loading=&#34;lazy&#34; src=&#34;https://fachrul.id/media/posts/60/gallery/foto-menu-restoran-5-thumbnail.jpg&#34; width=&#34;720&#34;/&gt;&lt;/a&gt;&lt;figcaption&gt;aneka nasi briyani&lt;/figcaption&gt;&lt;/figure&gt;&lt;figure class=&#34;gallery__item&#34;&gt;&lt;a data-size=&#34;960x1280&#34; href=&#34;https://fachrul.id/media/posts/60/gallery/foto-menu-restoran-4.jpg&#34;&gt;&lt;img alt=&#34;shawarma yang menggoda&#34; height=&#34;960&#34; loading=&#34;lazy&#34; src=&#34;https://fachrul.id/media/posts/60/gallery/foto-menu-restoran-4-thumbnail.jpg&#34; width=&#34;720&#34;/&gt;&lt;/a&gt;&lt;figcaption&gt;shawarma yang menggoda&lt;/figcaption&gt;&lt;/figure&gt;&lt;figure class=&#34;gallery__item&#34;&gt;&lt;a data-size=&#34;960x1280&#34; href=&#34;https://fachrul.id/media/posts/60/gallery/foto-menu-restoran-3.jpg&#34;&gt;&lt;img alt=&#34;aneka mie goreng&#34; height=&#34;960&#34; loading=&#34;lazy&#34; src=&#34;https://fachrul.id/media/posts/60/gallery/foto-menu-restoran-3-thumbnail.jpg&#34; width=&#34;720&#34;/&gt;&lt;/a&gt;&lt;figcaption&gt;aneka mie goreng&lt;/figcaption&gt;&lt;/figure&gt;&lt;figure class=&#34;gallery__item&#34;&gt;&lt;a data-size=&#34;960x1280&#34; href=&#34;https://fachrul.id/media/posts/60/gallery/foto-menu-restoran-2.jpg&#34;&gt;&lt;img alt=&#34;aneka nasi goreng&#34; height=&#34;960&#34; loading=&#34;lazy&#34; src=&#34;https://fachrul.id/media/posts/60/gallery/foto-menu-restoran-2-thumbnail.jpg&#34; width=&#34;720&#34;/&gt;&lt;/a&gt;&lt;figcaption&gt;aneka nasi goreng&lt;/figcaption&gt;&lt;/figure&gt;&lt;figure class=&#34;gallery__item&#34;&gt;&lt;a data-size=&#34;960x1280&#34; href=&#34;https://fachrul.id/media/posts/60/gallery/foto-menu-restoran-1.jpg&#34;&gt;&lt;img alt=&#34;menu india&#34; height=&#34;960&#34; loading=&#34;lazy&#34; src=&#34;https://fachrul.id/media/posts/60/gallery/foto-menu-restoran-1-thumbnail.jpg&#34; width=&#34;720&#34;/&gt;&lt;/a&gt;&lt;figcaption&gt;menu india&lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Dan jangan lupa dipantau juga aplikasi antar makanan online seperti Careem Food, Talabat, Deliveroo dkk karena terkadang ada promo diskon makanan juga, jadi bisa hemat untuk pesan makanan online&lt;/p&gt;
+&lt;figure&gt;&lt;figure class=&#34;post__image post__image--center&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;1080&#34; loading=&#34;lazy&#34; sizes=&#34;100vw&#34; src=&#34;https://fachrul.id/media/posts/60/mcd-kfc.jpg&#34; srcset=&#34;https://fachrul.id/media/posts/60/responsive/mcd-kfc-xs.jpg 300w, https://fachrul.id/media/posts/60/responsive/mcd-kfc-sm.jpg 480w, https://fachrul.id/media/posts/60/responsive/mcd-kfc-md.jpg 768w, https://fachrul.id/media/posts/60/responsive/mcd-kfc-lg.jpg 1024w, https://fachrul.id/media/posts/60/responsive/mcd-kfc-xl.jpg 1360w, https://fachrul.id/media/posts/60/responsive/mcd-kfc-2xl.jpg 1600w&#34; width=&#34;1280&#34;/&gt;&lt;/figure&gt;&lt;figcaption&gt;Harga McD dan KFC di Dubai&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h1&gt;5. Kreatifitas Anak Kos&lt;/h1&gt;
+&lt;p&gt;Sempet saya singung juga di atas, kalau masak sendiri lebih mahal? sebenernya ga berlaku kalau yang dimasak adalah Indomie dan telur ahaha, karena indomie selalu jadi penyelamat di tanggal tua&lt;/p&gt;
+&lt;figure class=&#34;post__image&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;810&#34; loading=&#34;lazy&#34; sizes=&#34;100vw&#34; src=&#34;https://fachrul.id/media/posts/60/indomie.jpg&#34; srcset=&#34;https://fachrul.id/media/posts/60/responsive/indomie-xs.jpg 300w, https://fachrul.id/media/posts/60/responsive/indomie-sm.jpg 480w, https://fachrul.id/media/posts/60/responsive/indomie-md.jpg 768w, https://fachrul.id/media/posts/60/responsive/indomie-lg.jpg 1024w, https://fachrul.id/media/posts/60/responsive/indomie-xl.jpg 1360w, https://fachrul.id/media/posts/60/responsive/indomie-2xl.jpg 1600w&#34; width=&#34;1080&#34;/&gt;&lt;figcaption&gt;indomie 8.95 dirham isi 5 bungkus&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Untuk menambah variasi dan gizinya, saya sering berkreasi dengan masaknya tambah telur, sayuran dan sosis bahkan sarden pun pernah, ini beneran bisa sangat menghemat di hari-hari menjelang gajian 😂&lt;/p&gt;
+&lt;p&gt;Atau kadang juga saya berkreasi dengan roti arab ditambah telur ceplok, harga rotinya murah 1-2 dirham bisa buat makan seharian sih untuk satu plastik seperti ini&lt;/p&gt;
+&lt;figure class=&#34;post__image&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;1080&#34; loading=&#34;lazy&#34; sizes=&#34;100vw&#34; src=&#34;https://fachrul.id/media/posts/60/roti-arab.jpg&#34; srcset=&#34;https://fachrul.id/media/posts/60/responsive/roti-arab-xs.jpg 300w, https://fachrul.id/media/posts/60/responsive/roti-arab-sm.jpg 480w, https://fachrul.id/media/posts/60/responsive/roti-arab-md.jpg 768w, https://fachrul.id/media/posts/60/responsive/roti-arab-lg.jpg 1024w, https://fachrul.id/media/posts/60/responsive/roti-arab-xl.jpg 1360w, https://fachrul.id/media/posts/60/responsive/roti-arab-2xl.jpg 1600w&#34; width=&#34;810&#34;/&gt;&lt;figcaption&gt;roti arab&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Tapi harus seimbangkan juga dengan buah-buahan ya biar ada asupan vitamin juga, karena sakit disini itu mahal, panadol aja bisa 150ribuan harganya 😅&lt;/p&gt;
+&lt;p&gt;Jadi harus dirutinkan mengkonsumsi buah, biasanya saya membeli buah botong campur biar bisa dapet beragam jenis buah dan dapet banyak vitamin&lt;/p&gt;
+&lt;figure class=&#34;post__image&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;1080&#34; loading=&#34;lazy&#34; sizes=&#34;100vw&#34; src=&#34;https://fachrul.id/media/posts/60/aneka-buah-2.jpg&#34; srcset=&#34;https://fachrul.id/media/posts/60/responsive/aneka-buah-2-xs.jpg 300w, https://fachrul.id/media/posts/60/responsive/aneka-buah-2-sm.jpg 480w, https://fachrul.id/media/posts/60/responsive/aneka-buah-2-md.jpg 768w, https://fachrul.id/media/posts/60/responsive/aneka-buah-2-lg.jpg 1024w, https://fachrul.id/media/posts/60/responsive/aneka-buah-2-xl.jpg 1360w, https://fachrul.id/media/posts/60/responsive/aneka-buah-2-2xl.jpg 1600w&#34; width=&#34;1280&#34;/&gt;&lt;figcaption&gt;aneka buah dan harganya&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Bonus:&lt;/p&gt;
+&lt;p&gt;Perbandingan makanan yang biasa ada di supermarket Indonesia dengan supermarket di Dubai (Lulu di Mei 2023)&lt;/p&gt;
+&lt;figure class=&#34;post__image&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;1080&#34; loading=&#34;lazy&#34; sizes=&#34;100vw&#34; src=&#34;https://fachrul.id/media/posts/60/jajanan-indo.jpg&#34; srcset=&#34;https://fachrul.id/media/posts/60/responsive/jajanan-indo-xs.jpg 300w, https://fachrul.id/media/posts/60/responsive/jajanan-indo-sm.jpg 480w, https://fachrul.id/media/posts/60/responsive/jajanan-indo-md.jpg 768w, https://fachrul.id/media/posts/60/responsive/jajanan-indo-lg.jpg 1024w, https://fachrul.id/media/posts/60/responsive/jajanan-indo-xl.jpg 1360w, https://fachrul.id/media/posts/60/responsive/jajanan-indo-2xl.jpg 1600w&#34; width=&#34;1280&#34;/&gt;&lt;figcaption&gt;Jajanan Indonesia di Dubai (kecuali oronamin sih, ini made in Japan)&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;hr /&gt;
+&lt;h1 class=&#34;msg msg--info align-center&#34; id=&#34;akomodasi&#34;&gt;&lt;strong&gt;🏠 Tempat Tinggal&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;Alias kosan nya, adalah kebutuhan primer yang paling signifikan dalam biaya hidup di Dubai, ibaratnya kalo biaya makan itu bisa diakalin cara murahnya gimana, tapi klo biaya sewa tempat tinggal itu udah pasti sama perbulannya, jadi perlu cermat dalam memilih jenis tempat tinggal, karena biayanya sangat bervariasi, tergantung pada tipe properti, lokasi, dan fasilitas yang ditawarkan, dan kalo bisa cari tempat tinggal yang dekat dengan tempat kerja, klo naek metro harus dalam 1 zona biar hemat poll.&lt;/p&gt;
+&lt;p&gt;Yang pertama yang perlu dipahami adalah perbedaan bentuk sewa tempat tinggal (kosan) antara Jakarta dan Dubai, yaitu:&lt;/p&gt;
+&lt;p&gt;Tipe Apartment (pusat kota):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sharing&lt;ul&gt;
+&lt;li&gt;bed space&lt;/li&gt;
+&lt;li&gt;partition&lt;/li&gt;
+&lt;li&gt;private (master) room,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Tipe Studio (sendirian)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Biasanya klo tipe apartemen sharing ini bentuknya tuh tipe kondominium yang luas tapi dipermak sedemikian rupa buat di sewain eceran gitu, lalu biaya sewa bulannya udah termasuk berbagai fasilitas umum:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Internet high speed (biasanya diatas 250 mpbs)&lt;/li&gt;
+&lt;li&gt;Air minum, gas &amp;amp; Listrik&lt;/li&gt;
+&lt;li&gt;Kamar mandi diluar (air panas/dingin), biasanya satu apartemen ada 2 kamar mandi luar&lt;/li&gt;
+&lt;li&gt;Dapur umum (bisa masak di kompor dan microwave)&lt;/li&gt;
+&lt;li&gt;Mesin cuci &amp;amp; Setrikaan (ada yang termasuk keringin jadi ga perlu jemur)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tipe Rumah/Kamar di atas tanah:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Villa&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Nanti akan saya jelasin perbedaannya satu-satu, tapi perlu dipahami dulu, bentuk hunian umum di Dubai itu adalah gedung apartemen, hampir ga ada pilihan rumah di atas tanah untuk hunian di pusat kota Dubai, kecuali jika melipir jauh lagi baru biasanya ada pilihan sewa rumah arab (rumah lama penduduk lokal) gitu yang disebutnya Villa.&lt;/p&gt;
+&lt;p&gt;Hal berikutnya yang perlu kamu lakukan adalah memahami struktur kota dan zona mana yang menawarkan harga sewa yang lebih terjangkau. Wilayah Deira, Al Qusais, Al Rashidiya, dan Karama biasanya harga sewanya yang lebih rendah dibandingkan dengan area pusat kota seperti Downtown Dubai atau Marina.&lt;/p&gt;
+&lt;p&gt;Biasanya saya mencari di website seperti &lt;a href=&#34;https://dubai.dubizzle.com/&#34;&gt;Dubizzle&lt;/a&gt;, &lt;a href=&#34;https://www.propertyfinder.ae/&#34;&gt;Property Finder&lt;/a&gt;, dan &lt;a href=&#34;https://www.bayut.com/to-rent/property/dubai/&#34;&gt;Bayut&lt;/a&gt;. Prosesnya biasanya kita janjian dengan Landlord (yang punya properti) untuk lihat dulu ke TKP, liat fasilitas umumnya, lingkungan, dan jarak dengan transportasi umum, kalo cocok bisa langsung deal dan DP, atau bilang mau lihat yang lain dulu, nanti di kabari lagi dalam tempo tertentu (tapi bisa jadi juga di tikung sama pencari yang lain sih, buat mereka yang penting laku) Oh iya, jangan ragu buat menawar atau bernegosiasi terkait biaya sewa dengan Landlord.&lt;/p&gt;
+&lt;p&gt;Yuk kita bahas penjelasan tipe kosan di Dubai&lt;/p&gt;
+&lt;h3&gt;Bed Space&lt;/h3&gt;
+&lt;p&gt;Secara harfiah adalah sewa kasur! Jadi cuma buat tidur aja gitu, ala backpacker. Ini adalah opsi paling murah, sewa perbulan sekitar 300 dirham (harga wajar 450ribuan) dan harga kasur bawah itu lebih mahal, biasanya satu apartemen gede akan dibagi beberapa kamar, di dalam kamar itu ada beberapa kasur untuk disewakan.&lt;/p&gt;
+&lt;figure class=&#34;post__image&#34;&gt;&lt;img alt=&#34;bed space&#34; height=&#34;747&#34; loading=&#34;lazy&#34; sizes=&#34;100vw&#34; src=&#34;https://fachrul.id/media/posts/60/Screenshot-2023-05-20-at-21.45.58-2.png&#34; srcset=&#34;https://fachrul.id/media/posts/60/responsive/Screenshot-2023-05-20-at-21.45.58-2-xs.png 300w, https://fachrul.id/media/posts/60/responsive/Screenshot-2023-05-20-at-21.45.58-2-sm.png 480w, https://fachrul.id/media/posts/60/responsive/Screenshot-2023-05-20-at-21.45.58-2-md.png 768w, https://fachrul.id/media/posts/60/responsive/Screenshot-2023-05-20-at-21.45.58-2-lg.png 1024w, https://fachrul.id/media/posts/60/responsive/Screenshot-2023-05-20-at-21.45.58-2-xl.png 1360w, https://fachrul.id/media/posts/60/responsive/Screenshot-2023-05-20-at-21.45.58-2-2xl.png 1600w&#34; width=&#34;1024&#34;/&gt;&lt;figcaption&gt;taken from Dubizzle&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Dan penghuni kamarnya pun bisa beragam, bisa orang asia selatan, filipin, eropa atau afrika dalam satu ruangan, yang ga kuat denger suara ngorok mending jangan coba-coba deh 😅&lt;/p&gt;
+&lt;figure class=&#34;post__image&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;569&#34; loading=&#34;lazy&#34; sizes=&#34;100vw&#34; src=&#34;https://fachrul.id/media/posts/60/kosan-bed-space.jpg&#34; srcset=&#34;https://fachrul.id/media/posts/60/responsive/kosan-bed-space-xs.jpg 300w, https://fachrul.id/media/posts/60/responsive/kosan-bed-space-sm.jpg 480w, https://fachrul.id/media/posts/60/responsive/kosan-bed-space-md.jpg 768w, https://fachrul.id/media/posts/60/responsive/kosan-bed-space-lg.jpg 1024w, https://fachrul.id/media/posts/60/responsive/kosan-bed-space-xl.jpg 1360w, https://fachrul.id/media/posts/60/responsive/kosan-bed-space-2xl.jpg 1600w&#34; width=&#34;1080&#34;/&gt;&lt;figcaption&gt;harga kosan bedspace di dubizzle&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3&gt;Partition Room&lt;/h3&gt;
+&lt;p&gt;Klo ini kita sewa satu kamar, jadi lebih ada privasinya ya, biasanya satu kondominium apartemen itu dibagi jadi banyak kamar, sempet suatu waktu pas lagi survei lokasi saya menghitung ga kurang dari 24 pintu untuk satu apartemen itu loh! dan kamar mandi luar nya cuma 2, ga kebayang antri mandinya tiap pagi itu loh 😱&lt;/p&gt;
+&lt;figure class=&#34;post__image&#34;&gt;&lt;img alt=&#34;kosan private partition&#34; height=&#34;995&#34; loading=&#34;lazy&#34; sizes=&#34;100vw&#34; src=&#34;https://fachrul.id/media/posts/60/kosan-barsha.png&#34; srcset=&#34;https://fachrul.id/media/posts/60/responsive/kosan-barsha-xs.png 300w, https://fachrul.id/media/posts/60/responsive/kosan-barsha-sm.png 480w, https://fachrul.id/media/posts/60/responsive/kosan-barsha-md.png 768w, https://fachrul.id/media/posts/60/responsive/kosan-barsha-lg.png 1024w, https://fachrul.id/media/posts/60/responsive/kosan-barsha-xl.png 1360w, https://fachrul.id/media/posts/60/responsive/kosan-barsha-2xl.png 1600w&#34; width=&#34;1024&#34;/&gt;&lt;figcaption&gt;saya sempet ngekos di kamar ini&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Gambar di atas adalah contoh partition room yang saya sempet tinggali, lebarnya itu serentangan tangan aja, itu di foto aja keliatan ga sampe 3 ubin lebarnya, sempit banget ya 😅&lt;/p&gt;
+&lt;p&gt;Dulu di kamar itu saya bisa sewa klo perbulannya sekitar 1600 dirham (harga wajar 2,4jutaan, emang berasa mahal sih sekamar 3 ubin gini 🤣), fasilitasnya sama kayak di atas, dapet lemari baju, free internet, sharing kitchen dan kamar mandi di luar, dan selimut karena AC central nya dingin banget ga bisa dikecilin!&lt;/p&gt;
+&lt;p&gt;Oia biasanya variasi harga tergantung fasilitas juga, misal ada balkon nya, ada meja kerjanya atau bahkan ada jendelanya gitu juga bisa mempengaruhi harga loh.&lt;/p&gt;
+&lt;figure class=&#34;post__image&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;571&#34; loading=&#34;lazy&#34; sizes=&#34;100vw&#34; src=&#34;https://fachrul.id/media/posts/60/kosan-room-partition.jpg&#34; srcset=&#34;https://fachrul.id/media/posts/60/responsive/kosan-room-partition-xs.jpg 300w, https://fachrul.id/media/posts/60/responsive/kosan-room-partition-sm.jpg 480w, https://fachrul.id/media/posts/60/responsive/kosan-room-partition-md.jpg 768w, https://fachrul.id/media/posts/60/responsive/kosan-room-partition-lg.jpg 1024w, https://fachrul.id/media/posts/60/responsive/kosan-room-partition-xl.jpg 1360w, https://fachrul.id/media/posts/60/responsive/kosan-room-partition-2xl.jpg 1600w&#34; width=&#34;1080&#34;/&gt;&lt;figcaption&gt;harga iklan room partition di dubizzle&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3&gt;Private Room&lt;/h3&gt;
+&lt;p&gt;Klo perlu ruangan yang lebih luas dari pada Partition room, ini dia Private Room, masi di dalam kawasan yang sama di sebuah kondominium apartemen biasanya ada satu/beberapa ruangan yang punya ruangan lebih lega lagi, banyak yang bilang tipe ruangan yang master bedroom&lt;/p&gt;
+&lt;p&gt;fasilitasnya juga lebih banyak, saya sempet sewa yang beberapa tempat tipe ini, biasanya ada tivi, kamar mandi dalam, sofa, lemari, meja kerja dan pernah sekali yang ada kulkasnya di kamar, harga perbulannya sekitar 2000-3500 dirham (harga wajar senilai Rp3juta-5,2jutaan)&lt;/p&gt;
+&lt;figure class=&#34;post__image&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;600&#34; loading=&#34;lazy&#34; sizes=&#34;100vw&#34; src=&#34;https://fachrul.id/media/posts/60/private-room-2.jpg&#34; srcset=&#34;https://fachrul.id/media/posts/60/responsive/private-room-2-xs.jpg 300w, https://fachrul.id/media/posts/60/responsive/private-room-2-sm.jpg 480w, https://fachrul.id/media/posts/60/responsive/private-room-2-md.jpg 768w, https://fachrul.id/media/posts/60/responsive/private-room-2-lg.jpg 1024w, https://fachrul.id/media/posts/60/responsive/private-room-2-xl.jpg 1360w, https://fachrul.id/media/posts/60/responsive/private-room-2-2xl.jpg 1600w&#34; width=&#34;800&#34;/&gt;&lt;figcaption&gt;diambil dari Dubizzle&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;figure class=&#34;post__image&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;555&#34; loading=&#34;lazy&#34; sizes=&#34;100vw&#34; src=&#34;https://fachrul.id/media/posts/60/harga-kosan-private-room.jpg&#34; srcset=&#34;https://fachrul.id/media/posts/60/responsive/harga-kosan-private-room-xs.jpg 300w, https://fachrul.id/media/posts/60/responsive/harga-kosan-private-room-sm.jpg 480w, https://fachrul.id/media/posts/60/responsive/harga-kosan-private-room-md.jpg 768w, https://fachrul.id/media/posts/60/responsive/harga-kosan-private-room-lg.jpg 1024w, https://fachrul.id/media/posts/60/responsive/harga-kosan-private-room-xl.jpg 1360w, https://fachrul.id/media/posts/60/responsive/harga-kosan-private-room-2xl.jpg 1600w&#34; width=&#34;1080&#34;/&gt;&lt;figcaption&gt;contoh harga kosan private room&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3&gt;Apartemen Studio (flat)&lt;/h3&gt;
+&lt;p&gt;Kalo ini kita sewa satu apartemen bisa tipe studio, ataupun tipe yang punya 2-3 kamar gitu, tentu harganya akan mahal, untuk yang ke Dubai bersama keluarga tentu pilihan sewa apartemen studio lebih cocok, pun biasanya harga sewa yang ditawarkan sudah termasuk dengan barang-barang fasilitas (furnished) seperti TV, mesin cuci, kulkas, sofa dan kadang ada juga fasilitas umum apartemen seperti gym dan kolam renang.&lt;/p&gt;
+&lt;p&gt;Untuk mencari apartemen bisa kita lihat spanduk merah/putih yang isinya &#34;TOLET 05xxx (nomer telp)&#34; artinya apartemen itu ada yang kosong dan silahkan hubungi nomer tersebut untuk komunikasi dengan agen landlordnya, emang aneh sih tolet mungkin dari To Let yang artinya di sewakan 😂&lt;/p&gt;
+&lt;figure class=&#34;post__image&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;1080&#34; loading=&#34;lazy&#34; sizes=&#34;100vw&#34; src=&#34;https://fachrul.id/media/posts/60/tolet.jpg&#34; srcset=&#34;https://fachrul.id/media/posts/60/responsive/tolet-xs.jpg 300w, https://fachrul.id/media/posts/60/responsive/tolet-sm.jpg 480w, https://fachrul.id/media/posts/60/responsive/tolet-md.jpg 768w, https://fachrul.id/media/posts/60/responsive/tolet-lg.jpg 1024w, https://fachrul.id/media/posts/60/responsive/tolet-xl.jpg 1360w, https://fachrul.id/media/posts/60/responsive/tolet-2xl.jpg 1600w&#34; width=&#34;901&#34;/&gt;&lt;figcaption&gt;iklan apartemen&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Jadi biasanya daerah Al Barsha, Al Karama yang banyak sekali apartemen Tolet ini, lingkungannya juga bagus, banyak makanan enak dilingkungan ini loh 😍&lt;/p&gt;
+&lt;p&gt;Tapi prosesnya beda dengan sharing apartemen yang saya bahas sebelumnya, untuk tipe satu apartemen sendiri seperti ini prosesnya lebih rinci, seperti ada perjanjian sewa dengan landlordnya, ada uang jaminan, lalu pembayarannya juga biasanya dihitung pertahun walaupun sebenarnya bisa di cicil dengan menggunakan cek bank gitu (ditagih berkala sebanyak jumlah ceknya), ga pembayaran dengan tunai ataupun transfer bulanan, karena dengan cek bisa memiliki posisi hukum yang lebih kuat lagi.&lt;/p&gt;
+&lt;figure class=&#34;post__image&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;550&#34; loading=&#34;lazy&#34; sizes=&#34;100vw&#34; src=&#34;https://fachrul.id/media/posts/60/iklan-apartemen.jpg&#34; srcset=&#34;https://fachrul.id/media/posts/60/responsive/iklan-apartemen-xs.jpg 300w, https://fachrul.id/media/posts/60/responsive/iklan-apartemen-sm.jpg 480w, https://fachrul.id/media/posts/60/responsive/iklan-apartemen-md.jpg 768w, https://fachrul.id/media/posts/60/responsive/iklan-apartemen-lg.jpg 1024w, https://fachrul.id/media/posts/60/responsive/iklan-apartemen-xl.jpg 1360w, https://fachrul.id/media/posts/60/responsive/iklan-apartemen-2xl.jpg 1600w&#34; width=&#34;1080&#34;/&gt;&lt;figcaption&gt;iklan flat di bulan Mei 2023&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Kisaran harganya 40.000 dirham (harga yang tercantum biasanya per tahun) itu biasanya jauh dari metro, atau bahkan ga ada akses transportasi umum, jadi harus punya kendaraan pribadi, bisa beli scooter listrik (otopad) biar bisa ambil yang jaraknya lebih jauh sedikit dari transportasi umum&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Penting untuk diperhatikan:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Lokasi tempat tinggal usahakan dekat dengan transportasi umum, seperti bus ataupun metro (seperti MRT) yang bisa diakses dengan jalan kaki, atau kalau pekerjaan sensitif dengan waktu lebih baik dekat dengan metro, karena menunggu bus itu tidak tentu, kadang perlu 30 menit atau sering kali lebih malah (kadang penuh dan harus nunggu selanjutnya dan lama datengnya), metro itu di jam sibuk bisa 1 menit sekali udah dateng keretanya.&lt;/p&gt;
+&lt;p&gt;Ongkos Metro untuk 1 zona itu sekitar 5 dirham&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1&gt;Penutup&lt;/h1&gt;
+&lt;p&gt;Sekian kiranya sebuah catatan siasat bagaimana cara saya untuk bisa hidup murah sebagai anak kos di Dubai, mudah-mudahan ini bisa kamu jadikan referensi untuk melihat biaya hidup di Dubai seperti apa dan gak salah negosiasi gaji ya&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Terkadang, perjalanan hidup membawa kita ke tempat-tempat yang gak pernah kita bayangin sebelumnya, di post kali ini, kita akan berbicara tentang hidup di salah satu metropolis yang menjadi tujuan populer para ekspatriat: Dubai&lt;/p&gt;
+&lt;p&gt;Salah satu cita-cita kecil saya adalah merantau ke negeri orang, alhamdulilah, sejak November 2022 kemarin saya berkesempatan menjadi talenta digital Indonesia yang di export ke Dubai! Saya akan berbagi siasat untuk bisa hidup murah ala anak kosan ditengah gemerlap kemegahan kota Dubai.&lt;/p&gt;
+&lt;figure class=&#34;post__image&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;1088&#34; loading=&#34;lazy&#34; sizes=&#34;100vw&#34; src=&#34;https://fachrul.id/media/posts/60/IMG_0109-2.JPG&#34; srcset=&#34;https://fachrul.id/media/posts/60/responsive/IMG_0109-2-xs.JPG 300w, https://fachrul.id/media/posts/60/responsive/IMG_0109-2-sm.JPG 480w, https://fachrul.id/media/posts/60/responsive/IMG_0109-2-md.JPG 768w, https://fachrul.id/media/posts/60/responsive/IMG_0109-2-lg.JPG 1024w, https://fachrul.id/media/posts/60/responsive/IMG_0109-2-xl.JPG 1360w, https://fachrul.id/media/posts/60/responsive/IMG_0109-2-2xl.JPG 1600w&#34; width=&#34;1080&#34;/&gt;&lt;figcaption&gt;Mampir ke Burj Khalifa&lt;/figcaption&gt;&lt;/figure&gt;</content>
     </entry>
+
     <entry>
         <title>Time Management sebagai Software Tester</title>
         <author>
@@ -695,103 +551,77 @@ O kuncie " width="1456" height="812" data-attrs="{&quot;src&quot;:&quot;https://
         </author>
         <link href="https://fachrul.id/time-management-sebagai-software-tester/"/>
         <id>https://fachrul.id/time-management-sebagai-software-tester/</id>
-        <media:content url="https://fachrul.id/media/posts/59/thumbnail-post-fachrul.id-2.jpg" medium="image" />
-            <category term="merdeQA"/>
-            <category term="belajar-qa"/>
-
+        <category term="belajar-qa"/>
+        <category term="merdeQA"/>
+        <published>2023-03-26T14:56:00+04:00</published>
         <updated>2023-03-26T16:22:30+04:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://fachrul.id/media/posts/59/thumbnail-post-fachrul.id-2.jpg" alt="" />
-                    Sebagai software tester, apakah kamu sering merasakan hal seperti ini? Keteteran kerjaan Sering dapet tugas dadakan Ga tau bisa kelar hari ini apa nggak Sama, gw juga! ahaha, tapi jangan sedih dulu, gw akan share siasat gw dalam mengelola waktu biar lebih efisien dengan cara&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://fachrul.id/media/posts/59/thumbnail-post-fachrul.id-2.jpg" class="type:primaryImage" alt="" /></p>
-                <p data-pm-slice="0 0 []">Sebagai software tester, apakah kamu sering merasakan hal seperti ini?</p>
-<ul>
-<li>
-<p>Keteteran kerjaan</p>
-</li>
-<li>
-<p>Sering dapet tugas dadakan</p>
-</li>
-<li>
-<p>Ga tau bisa kelar hari ini apa nggak</p>
-</li>
-</ul>
-<p>Sama, gw juga! ahaha, tapi jangan sedih dulu, gw akan share siasat gw dalam mengelola waktu biar lebih efisien dengan cara <strong>mengurangi</strong> waktu!!</p>
-<hr>
-<h2><figure class="post__image"><img loading="lazy"  src="https://fachrul.id/media/posts/59//coin.png" alt="" width="1008" height="192" sizes="100vw" srcset="https://fachrul.id/media/posts/59//responsive/coin-xs.png 300w ,https://fachrul.id/media/posts/59//responsive/coin-sm.png 480w ,https://fachrul.id/media/posts/59//responsive/coin-md.png 768w ,https://fachrul.id/media/posts/59//responsive/coin-lg.png 1024w ,https://fachrul.id/media/posts/59//responsive/coin-xl.png 1360w ,https://fachrul.id/media/posts/59//responsive/coin-2xl.png 1600w"></figure></h2>
-<h2>Mengelola waktu</h2>
-<p>Sepertinya, time management (manajemen waktu) sudah menjadi sebuah skill wajib bagi software testing, karena pekerja software itu dituntut result oriented, banyak variabel yang bisa bikin waktu tempuh pengujian jadi semakin lama. Misal, klo nemu bugs tapi intermitten atau bahkan klo testnya lancar ga nemu bugs baru (malah was-was ga sih).</p>
-<p>Karena waktu adalah <strong>sumber daya yang tidak bisa ditambah atau kurangin</strong>, bahkan ga bisa di transfer juga, jadinya keahlian mengelola waktu sangat kritikal bagi software tester, biar ga burnout saat bekerja, dan kualitas pengujian juga tetap semangat dan produktif.</p>
-<h2>Waktunya Ngaret</h2>
-<p>Sering kali perusahaan itu menempatkan software tester sebagai “Quality gate keeper”, alias si penentu rilis apa nggaknya sebuah fitur/version, akhirnya software tester (QA) menjadi bottleneck, berasa semua pada nungguin kerjaan QA kelar ga sih 😅</p>
-<p>Dengan kek gitu, sering kali QA jadi kambing hitam saat tim harus ambil delay rilis/waktu yang ga sesuai jadwal. Karena ujung-ujungnya klo delay itu nambah cost produksi software loh, kebayang ga sih klo ada hard deadline launching produk, tapi H-1 fiturnya masih kayak zombie! klo sampe mesti delay,, beeuuuh berasa duduk di kursi panas!</p>
-<h2>Waktu Efisien</h2>
-<p>Ga selalu loh istilah “Lebih cepat, Lebih baik” berlaku di software testing, karena bisa jadi ternyata cepat dan banyak yang kelewat! ahaha, ujung-ujungnya puter balik 😂</p>
-<p>Jadi harus cepat DAN baik, hasilnya adalah efisien, sungguh idaman setiap software tester ya untuk bisa terus efisien, nah karena kita ga bisa menambah waktu lebih dari 24 jam sehari, atau menambah waktu rilis dengan mudah, makanya gw mo share cara gw mengurangi waktu!</p>
-<h2><figure class="post__image"><img loading="lazy"  src="https://fachrul.id/media/posts/59//ilustrasi-jeda-nulis.png" alt="" width="1008" height="192" sizes="100vw" srcset="https://fachrul.id/media/posts/59//responsive/ilustrasi-jeda-nulis-xs.png 300w ,https://fachrul.id/media/posts/59//responsive/ilustrasi-jeda-nulis-sm.png 480w ,https://fachrul.id/media/posts/59//responsive/ilustrasi-jeda-nulis-md.png 768w ,https://fachrul.id/media/posts/59//responsive/ilustrasi-jeda-nulis-lg.png 1024w ,https://fachrul.id/media/posts/59//responsive/ilustrasi-jeda-nulis-xl.png 1360w ,https://fachrul.id/media/posts/59//responsive/ilustrasi-jeda-nulis-2xl.png 1600w"></figure></h2>
-<h2>Mengurangi Waktu Regression Test</h2>
-<p>Regression test adalah salah satu sumber pengeluaran waktu terbesar bagi seorang software tester, jalanin regression test suite itu bisa berhari-hari (beda-beda sih tiap tim/kantor), gw pun kadang mo muntah ngeliatin testrail runner ga kelar-kelar keknya!</p>
-<p>Nah gimana cara ngurangin waktu regression test yang biasa gw lakuin:</p>
-<h4>1. Rawatlah test suite si regression test</h4>
-<p>Lo tentu akan masukin fitur baru ke koleksi test suite, tapi apakah lo akan kurangin juga test fitur lama dari koleksi? Udah 10 rilis loh itu ga ada perubahan, aman-aman aja kan? masi tetep perlu di cek berkala? Tentu tergantung ya, klo bukan core features sih lebih baik dikurangin, atau bahkan outsource aja ke test automation</p>
-<h4>2. Test planning yang bener</h4>
-<p>Katakanlah di sprint planning udah ketahuan fitur baru apa aja yang akan di rilis, nah kita bisa rencanain tuh nanti ada dampaknya ga di regression test, klo bisa colong start, coba jalanin regression test dulu di fase feature test biar keliatan ada imbas ke regression test suite ga nya.</p>
-<p>Atau bahkan dengan fitur baru, kita perlu persiapan lebih lama buat production testing nantinya, misal kita perlu setup akun dengan kondisi tertentu biar bisa gampang di testnya.</p>
-<p>Dan terkait nomer 1 tadi, di planning juga prioritas test cases nya, mana yang masuk test run nanti, mana yang penting di cek duluan sebelum yang lain</p>
-<h4>3. Nyuruh Robot</h4>
-<p>Alias test automation, dengan adanya test automation, pengujian software tentu akan lebih mudah, mereka akan nurut terus disuruh ngetest kapanpun bisa, ga ada capeknya, ga bosen-bosen ngetest hal yang sama 100x sehari. Tentu, robot/automation ini ga akan menggantikan kualitas pengujian yang dijalankan oleh manusia, tapi bayangin deh kita kan klo ngetest ga bisa paralel sekaligus semuanya dikerjain barengan, nah contoh, saat kita lagi test module sign up dengan fitur baru, si test automation ini akan ngetest module login/reset password, nanti pas kita kelar test sign up tinggal liat hasilnya dulu dari yang dikerjain test automation, sebelum kita terjun lebih jauh di pengujian manual, karena kesel juga kan pas ditengah test gataunya ada error dan perbaikannya bisa bikin test kita yang udah kelar harus di-retest lagi.</p>
-<p> </p>
-<figure class="post__image post__image--center" ><a href="https://www.tokopedia.com/ngetest-jualan" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://fachrul.id/media/posts/59/baju-keren-software-tester.jpeg" alt="baju keren software tester nih gaes" width="304" height="304" sizes="100vw" srcset="https://fachrul.id/media/posts/59/responsive/baju-keren-software-tester-xs.jpeg 300w ,https://fachrul.id/media/posts/59/responsive/baju-keren-software-tester-sm.jpeg 480w ,https://fachrul.id/media/posts/59/responsive/baju-keren-software-tester-md.jpeg 768w ,https://fachrul.id/media/posts/59/responsive/baju-keren-software-tester-lg.jpeg 1024w ,https://fachrul.id/media/posts/59/responsive/baju-keren-software-tester-xl.jpeg 1360w ,https://fachrul.id/media/posts/59/responsive/baju-keren-software-tester-2xl.jpeg 1600w"></a>
-<figcaption >klik gambar ini buar beli di Tokopedia</figcaption>
-</figure>
-<p class="align-center"><a href="https://www.tokopedia.com/ngetest-jualan" target="_blank" rel="noopener noreferrer">Coba cek ini, deh kaos keren di toko gw "NgeTest Jualan" Tokopedia</a></p>
-<h4>4. Menggunakan jurus pengujian yang tepat</h4>
-<p>Pernah denger jurus “Kunyuk Melempar buah”? ahaha generasi 90an doang keknya yang inget!</p>
-<p>Oke maksudnya adalah menggunakan teknik pengujian yang tepat bisa meningkatkan kualitas pengujian lebih efektif dan confidence, contohnya gini, pada suatu fitur baru untuk tambah validasi pada suatu form input, kita punya 30 macem validasi, nah kita harus tau ini validasi dari Backend apa frontend, klo tau ini validasi datengnya dari BE, jadi si 30 macem validasi kita test di level API aja, 1x di FE, buat liat tampilan errornya aja, karena konten error message nya dateng dari BE toh, jadi ga perlu deh tuh kita habisin waktu lama-lama buat ngetest semua 30 validasi tadi (atau bahkan influence dev buat cover 30 test tadi di level unit testing)</p>
-<h2><figure class="post__image"><img loading="lazy"  src="https://fachrul.id/media/posts/59/ilustrasi-jeda-nulis-2.png" alt="" width="1008" height="192" sizes="100vw" srcset="https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-2-xs.png 300w ,https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-2-sm.png 480w ,https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-2-md.png 768w ,https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-2-lg.png 1024w ,https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-2-xl.png 1360w ,https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-2-2xl.png 1600w"></figure></h2>
-<h2>Mengurangi Waktu Debug</h2>
-<p>Gw sangat senang sama debugging, ibarat detektif yang lagi ngumpulin bukti kriminal, dan cari tau siapa dalangnya, dalam hati “ini tuh beneran error loh gaes, nih liat aja lognya, screenshot nya, video reproducenya”</p>
-<p>Tapi semua itu perlu waktu yang ga singkat, reproduce issue deh minimal lebih dari satu kali, kadang buat mastiin ini kejadiannya cuma di kondisi A aja apa juga di kondisi B, belom lagi klo kita mau mastiin ini kejadain nya sejak di versi baru aja atau kejadian juga di production! gimana ga lama tuh waktu debuging nya ahahaa</p>
-<p>Yang bisa kita kurangin di waktu debug adalah:</p>
-<h4>1. Error Logging sistem yang terintegrasi</h4>
-<p>Pastikan aplikasi kamu udah terkoneksi dengan logging system yang baik, minta developer manager buat pasang di aplikasi development (integration/alpha/beta) juga, ga cuma di production aja gitu, karena kan fitur baru pasti di testnya ga langsung di production donk!</p>
-<p>Jadi mana kala muncul bugs/crash/faliures, langkah pertama kita adalah ngecek log ini, yang barusan kejadian tuh stacktrace nya kek mana, seringkali informasi ini udah cukup jelas buat dev</p>
-<h4>2. Laporan bugs yang jelas</h4>
-<p>Red flag deh klo devnya selalu nanya QA di standup/DM buat jelasin temuan bugsnya, karena itu berarti laporan bugsnya ga jelas dimengerti oleh dev (atau Devnya masih baru, atau emang pengen ngobrol sama lo aja/PDKT 🤣 )</p>
-<p>Coba refleksi, apa yang ditanyakan dev itu, apakah step reproduce nya ga jelas? tambahin foto, klo kurang jelas juga tambahin video! apakah mungkin bugs report lo itu description nya ga jelas, ekspektasi yang ga make sense.</p>
-<p>Intinya, ini adalah feedback dari dev agar komunikasi lo jadi lebih baik, kalaupun ga ada komentar dari Dev, coba tanyain kira-kira ada yang bisa di improve ga dari bugs report nya yang biasa dia terima? kadang ada dev yang mau juga di tambahin info device/browser detail.</p>
-<p>Jadi devnya bisa sat-set langsun ngerjain bugsnya.</p>
-<h2><figure class="post__image"><img loading="lazy"  src="https://fachrul.id/media/posts/59/ilustrasi-jeda-nulis-1.png" alt="" width="1008" height="192" sizes="100vw" srcset="https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-1-xs.png 300w ,https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-1-sm.png 480w ,https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-1-md.png 768w ,https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-1-lg.png 1024w ,https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-1-xl.png 1360w ,https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-1-2xl.png 1600w"></figure></h2>
-<h2>Mengurangi Waktu Nunggu</h2>
-<p>Menunggu itu pemborosan waktu, apalagi klo sambil bengong gada kuota internet, beuh mati gaya dah tuh nunggu! ehehe tapi ini bukan soal nunggu bus transjakarta gaes, kita harus identifikasi titik mana aja yang biasanya kita habiskan buat menunggu</p>
-<h4>Menunggu feature yang Ready for Testing</h4>
-<p>Di awal sprint biasanya belum ada fitur baru yang ready for testing langsung kan, coba liat apa yang bisa QA kerjain di waktu kosong ini, misalkan cek crashlytic di production, di release sebelumnya banyak error ganya, bikin test automation, entah buat automate fitur lama atau fitur yang berjalan (API sih ada kontrak response yang bisa dipake buat automate), atau ngerjain apa kek biar nanti test nya langsung sat-set-sat-set, macam prepare test data gitu</p>
-<h4>Menunggu bugs yang Ready for Testing</h4>
-<p>Nah ini sering jadi bumerang, kita udah rise issue tapi ternyata ga kunjung dikerjain developer! Mana itu bugs severity critical, bisa masalah klo dilolosin sebelum rilis! nah makanya tetep pantau terus itu bugs report kita, tiap hari di standup kita harus sundul developernya:</p>
-<ul>
-<li>
-<p>bugs yang gw report udah di baca belom?</p>
-</li>
-<li>
-<p>ada yang perlu gw jelasin ga soal bugs itu?</p>
-</li>
-<li>
-<p>ke reproduce ga di tempat lo?</p>
-</li>
-<li>
-<p>apa perlu gw yang kerjain itu bugs? (ini klo bisa ya ahaha)</p>
-</li>
-<li>
-<p>gw bilangin bapak lo ya! (eskalasi)</p>
-</li>
-</ul>
-<p> </p>
-            ]]>
-        </content>
+        <summary>Keahlian mengelola waktu merupakan keahlian penting bagi software tester, Ini siasat gw dalam mengelola waktu biar lebih efisien dengan cara mengurangi waktu</summary>
+        <content type="html">&lt;p&gt;Sebagai software tester, apakah kamu sering merasakan hal seperti ini?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Keteteran kerjaan&lt;/li&gt;
+&lt;li&gt;Sering dapet tugas dadakan&lt;/li&gt;
+&lt;li&gt;Ga tau bisa kelar hari ini apa nggak&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sama, gw juga! ahaha, tapi jangan sedih dulu, gw akan share siasat gw dalam mengelola waktu biar lebih efisien dengan cara &lt;strong&gt;mengurangi&lt;/strong&gt; waktu!!&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;&lt;figure class=&#34;post__image&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;192&#34; loading=&#34;lazy&#34; sizes=&#34;100vw&#34; src=&#34;https://fachrul.id/media/posts/59//coin.png&#34; srcset=&#34;https://fachrul.id/media/posts/59//responsive/coin-xs.png 300w, https://fachrul.id/media/posts/59//responsive/coin-sm.png 480w, https://fachrul.id/media/posts/59//responsive/coin-md.png 768w, https://fachrul.id/media/posts/59//responsive/coin-lg.png 1024w, https://fachrul.id/media/posts/59//responsive/coin-xl.png 1360w, https://fachrul.id/media/posts/59//responsive/coin-2xl.png 1600w&#34; width=&#34;1008&#34;/&gt;&lt;/figure&gt;&lt;/h2&gt;
+
+&lt;h2&gt;Mengelola waktu&lt;/h2&gt;
+&lt;p&gt;Sepertinya, time management (manajemen waktu) sudah menjadi sebuah skill wajib bagi software testing, karena pekerja software itu dituntut result oriented, banyak variabel yang bisa bikin waktu tempuh pengujian jadi semakin lama. Misal, klo nemu bugs tapi intermitten atau bahkan klo testnya lancar ga nemu bugs baru (malah was-was ga sih).&lt;/p&gt;
+&lt;p&gt;Karena waktu adalah &lt;strong&gt;sumber daya yang tidak bisa ditambah atau kurangin&lt;/strong&gt;, bahkan ga bisa di transfer juga, jadinya keahlian mengelola waktu sangat kritikal bagi software tester, biar ga burnout saat bekerja, dan kualitas pengujian juga tetap semangat dan produktif.&lt;/p&gt;
+&lt;h2&gt;Waktunya Ngaret&lt;/h2&gt;
+&lt;p&gt;Sering kali perusahaan itu menempatkan software tester sebagai “Quality gate keeper”, alias si penentu rilis apa nggaknya sebuah fitur/version, akhirnya software tester (QA) menjadi bottleneck, berasa semua pada nungguin kerjaan QA kelar ga sih 😅&lt;/p&gt;
+&lt;p&gt;Dengan kek gitu, sering kali QA jadi kambing hitam saat tim harus ambil delay rilis/waktu yang ga sesuai jadwal. Karena ujung-ujungnya klo delay itu nambah cost produksi software loh, kebayang ga sih klo ada hard deadline launching produk, tapi H-1 fiturnya masih kayak zombie! klo sampe mesti delay,, beeuuuh berasa duduk di kursi panas!&lt;/p&gt;
+&lt;h2&gt;Waktu Efisien&lt;/h2&gt;
+&lt;p&gt;Ga selalu loh istilah “Lebih cepat, Lebih baik” berlaku di software testing, karena bisa jadi ternyata cepat dan banyak yang kelewat! ahaha, ujung-ujungnya puter balik 😂&lt;/p&gt;
+&lt;p&gt;Jadi harus cepat DAN baik, hasilnya adalah efisien, sungguh idaman setiap software tester ya untuk bisa terus efisien, nah karena kita ga bisa menambah waktu lebih dari 24 jam sehari, atau menambah waktu rilis dengan mudah, makanya gw mo share cara gw mengurangi waktu!&lt;/p&gt;
+&lt;h2&gt;&lt;figure class=&#34;post__image&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;192&#34; loading=&#34;lazy&#34; sizes=&#34;100vw&#34; src=&#34;https://fachrul.id/media/posts/59//ilustrasi-jeda-nulis.png&#34; srcset=&#34;https://fachrul.id/media/posts/59//responsive/ilustrasi-jeda-nulis-xs.png 300w, https://fachrul.id/media/posts/59//responsive/ilustrasi-jeda-nulis-sm.png 480w, https://fachrul.id/media/posts/59//responsive/ilustrasi-jeda-nulis-md.png 768w, https://fachrul.id/media/posts/59//responsive/ilustrasi-jeda-nulis-lg.png 1024w, https://fachrul.id/media/posts/59//responsive/ilustrasi-jeda-nulis-xl.png 1360w, https://fachrul.id/media/posts/59//responsive/ilustrasi-jeda-nulis-2xl.png 1600w&#34; width=&#34;1008&#34;/&gt;&lt;/figure&gt;&lt;/h2&gt;
+
+&lt;h2&gt;Mengurangi Waktu Regression Test&lt;/h2&gt;
+&lt;p&gt;Regression test adalah salah satu sumber pengeluaran waktu terbesar bagi seorang software tester, jalanin regression test suite itu bisa berhari-hari (beda-beda sih tiap tim/kantor), gw pun kadang mo muntah ngeliatin testrail runner ga kelar-kelar keknya!&lt;/p&gt;
+&lt;p&gt;Nah gimana cara ngurangin waktu regression test yang biasa gw lakuin:&lt;/p&gt;
+&lt;h4&gt;1. Rawatlah test suite si regression test&lt;/h4&gt;
+&lt;p&gt;Lo tentu akan masukin fitur baru ke koleksi test suite, tapi apakah lo akan kurangin juga test fitur lama dari koleksi? Udah 10 rilis loh itu ga ada perubahan, aman-aman aja kan? masi tetep perlu di cek berkala? Tentu tergantung ya, klo bukan core features sih lebih baik dikurangin, atau bahkan outsource aja ke test automation&lt;/p&gt;
+&lt;h4&gt;2. Test planning yang bener&lt;/h4&gt;
+&lt;p&gt;Katakanlah di sprint planning udah ketahuan fitur baru apa aja yang akan di rilis, nah kita bisa rencanain tuh nanti ada dampaknya ga di regression test, klo bisa colong start, coba jalanin regression test dulu di fase feature test biar keliatan ada imbas ke regression test suite ga nya.&lt;/p&gt;
+&lt;p&gt;Atau bahkan dengan fitur baru, kita perlu persiapan lebih lama buat production testing nantinya, misal kita perlu setup akun dengan kondisi tertentu biar bisa gampang di testnya.&lt;/p&gt;
+&lt;p&gt;Dan terkait nomer 1 tadi, di planning juga prioritas test cases nya, mana yang masuk test run nanti, mana yang penting di cek duluan sebelum yang lain&lt;/p&gt;
+&lt;h4&gt;3. Nyuruh Robot&lt;/h4&gt;
+&lt;p&gt;Alias test automation, dengan adanya test automation, pengujian software tentu akan lebih mudah, mereka akan nurut terus disuruh ngetest kapanpun bisa, ga ada capeknya, ga bosen-bosen ngetest hal yang sama 100x sehari. Tentu, robot/automation ini ga akan menggantikan kualitas pengujian yang dijalankan oleh manusia, tapi bayangin deh kita kan klo ngetest ga bisa paralel sekaligus semuanya dikerjain barengan, nah contoh, saat kita lagi test module sign up dengan fitur baru, si test automation ini akan ngetest module login/reset password, nanti pas kita kelar test sign up tinggal liat hasilnya dulu dari yang dikerjain test automation, sebelum kita terjun lebih jauh di pengujian manual, karena kesel juga kan pas ditengah test gataunya ada error dan perbaikannya bisa bikin test kita yang udah kelar harus di-retest lagi.&lt;/p&gt;
+&lt;figure class=&#34;post__image post__image--center&#34;&gt;&lt;a href=&#34;https://www.tokopedia.com/ngetest-jualan&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;baju keren software tester nih gaes&#34; height=&#34;304&#34; loading=&#34;lazy&#34; sizes=&#34;100vw&#34; src=&#34;https://fachrul.id/media/posts/59/baju-keren-software-tester.jpeg&#34; srcset=&#34;https://fachrul.id/media/posts/59/responsive/baju-keren-software-tester-xs.jpeg 300w, https://fachrul.id/media/posts/59/responsive/baju-keren-software-tester-sm.jpeg 480w, https://fachrul.id/media/posts/59/responsive/baju-keren-software-tester-md.jpeg 768w, https://fachrul.id/media/posts/59/responsive/baju-keren-software-tester-lg.jpeg 1024w, https://fachrul.id/media/posts/59/responsive/baju-keren-software-tester-xl.jpeg 1360w, https://fachrul.id/media/posts/59/responsive/baju-keren-software-tester-2xl.jpeg 1600w&#34; width=&#34;304&#34;/&gt;&lt;/a&gt;&lt;figcaption&gt;klik gambar ini buar beli di Tokopedia&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p class=&#34;align-center&#34;&gt;&lt;a href=&#34;https://www.tokopedia.com/ngetest-jualan&#34;&gt;Coba cek ini, deh kaos keren di toko gw &#34;NgeTest Jualan&#34; Tokopedia&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;4. Menggunakan jurus pengujian yang tepat&lt;/h4&gt;
+&lt;p&gt;Pernah denger jurus “Kunyuk Melempar buah”? ahaha generasi 90an doang keknya yang inget!&lt;/p&gt;
+&lt;p&gt;Oke maksudnya adalah menggunakan teknik pengujian yang tepat bisa meningkatkan kualitas pengujian lebih efektif dan confidence, contohnya gini, pada suatu fitur baru untuk tambah validasi pada suatu form input, kita punya 30 macem validasi, nah kita harus tau ini validasi dari Backend apa frontend, klo tau ini validasi datengnya dari BE, jadi si 30 macem validasi kita test di level API aja, 1x di FE, buat liat tampilan errornya aja, karena konten error message nya dateng dari BE toh, jadi ga perlu deh tuh kita habisin waktu lama-lama buat ngetest semua 30 validasi tadi (atau bahkan influence dev buat cover 30 test tadi di level unit testing)&lt;/p&gt;
+&lt;h2&gt;&lt;figure class=&#34;post__image&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;192&#34; loading=&#34;lazy&#34; sizes=&#34;100vw&#34; src=&#34;https://fachrul.id/media/posts/59/ilustrasi-jeda-nulis-2.png&#34; srcset=&#34;https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-2-xs.png 300w, https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-2-sm.png 480w, https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-2-md.png 768w, https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-2-lg.png 1024w, https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-2-xl.png 1360w, https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-2-2xl.png 1600w&#34; width=&#34;1008&#34;/&gt;&lt;/figure&gt;&lt;/h2&gt;
+
+&lt;h2&gt;Mengurangi Waktu Debug&lt;/h2&gt;
+&lt;p&gt;Gw sangat senang sama debugging, ibarat detektif yang lagi ngumpulin bukti kriminal, dan cari tau siapa dalangnya, dalam hati “ini tuh beneran error loh gaes, nih liat aja lognya, screenshot nya, video reproducenya”&lt;/p&gt;
+&lt;p&gt;Tapi semua itu perlu waktu yang ga singkat, reproduce issue deh minimal lebih dari satu kali, kadang buat mastiin ini kejadiannya cuma di kondisi A aja apa juga di kondisi B, belom lagi klo kita mau mastiin ini kejadain nya sejak di versi baru aja atau kejadian juga di production! gimana ga lama tuh waktu debuging nya ahahaa&lt;/p&gt;
+&lt;p&gt;Yang bisa kita kurangin di waktu debug adalah:&lt;/p&gt;
+&lt;h4&gt;1. Error Logging sistem yang terintegrasi&lt;/h4&gt;
+&lt;p&gt;Pastikan aplikasi kamu udah terkoneksi dengan logging system yang baik, minta developer manager buat pasang di aplikasi development (integration/alpha/beta) juga, ga cuma di production aja gitu, karena kan fitur baru pasti di testnya ga langsung di production donk!&lt;/p&gt;
+&lt;p&gt;Jadi mana kala muncul bugs/crash/faliures, langkah pertama kita adalah ngecek log ini, yang barusan kejadian tuh stacktrace nya kek mana, seringkali informasi ini udah cukup jelas buat dev&lt;/p&gt;
+&lt;h4&gt;2. Laporan bugs yang jelas&lt;/h4&gt;
+&lt;p&gt;Red flag deh klo devnya selalu nanya QA di standup/DM buat jelasin temuan bugsnya, karena itu berarti laporan bugsnya ga jelas dimengerti oleh dev (atau Devnya masih baru, atau emang pengen ngobrol sama lo aja/PDKT 🤣 )&lt;/p&gt;
+&lt;p&gt;Coba refleksi, apa yang ditanyakan dev itu, apakah step reproduce nya ga jelas? tambahin foto, klo kurang jelas juga tambahin video! apakah mungkin bugs report lo itu description nya ga jelas, ekspektasi yang ga make sense.&lt;/p&gt;
+&lt;p&gt;Intinya, ini adalah feedback dari dev agar komunikasi lo jadi lebih baik, kalaupun ga ada komentar dari Dev, coba tanyain kira-kira ada yang bisa di improve ga dari bugs report nya yang biasa dia terima? kadang ada dev yang mau juga di tambahin info device/browser detail.&lt;/p&gt;
+&lt;p&gt;Jadi devnya bisa sat-set langsun ngerjain bugsnya.&lt;/p&gt;
+&lt;h2&gt;&lt;figure class=&#34;post__image&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;192&#34; loading=&#34;lazy&#34; sizes=&#34;100vw&#34; src=&#34;https://fachrul.id/media/posts/59/ilustrasi-jeda-nulis-1.png&#34; srcset=&#34;https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-1-xs.png 300w, https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-1-sm.png 480w, https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-1-md.png 768w, https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-1-lg.png 1024w, https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-1-xl.png 1360w, https://fachrul.id/media/posts/59/responsive/ilustrasi-jeda-nulis-1-2xl.png 1600w&#34; width=&#34;1008&#34;/&gt;&lt;/figure&gt;&lt;/h2&gt;
+
+&lt;h2&gt;Mengurangi Waktu Nunggu&lt;/h2&gt;
+&lt;p&gt;Menunggu itu pemborosan waktu, apalagi klo sambil bengong gada kuota internet, beuh mati gaya dah tuh nunggu! ehehe tapi ini bukan soal nunggu bus transjakarta gaes, kita harus identifikasi titik mana aja yang biasanya kita habiskan buat menunggu&lt;/p&gt;
+&lt;h4&gt;Menunggu feature yang Ready for Testing&lt;/h4&gt;
+&lt;p&gt;Di awal sprint biasanya belum ada fitur baru yang ready for testing langsung kan, coba liat apa yang bisa QA kerjain di waktu kosong ini, misalkan cek crashlytic di production, di release sebelumnya banyak error ganya, bikin test automation, entah buat automate fitur lama atau fitur yang berjalan (API sih ada kontrak response yang bisa dipake buat automate), atau ngerjain apa kek biar nanti test nya langsung sat-set-sat-set, macam prepare test data gitu&lt;/p&gt;
+&lt;h4&gt;Menunggu bugs yang Ready for Testing&lt;/h4&gt;
+&lt;p&gt;Nah ini sering jadi bumerang, kita udah rise issue tapi ternyata ga kunjung dikerjain developer! Mana itu bugs severity critical, bisa masalah klo dilolosin sebelum rilis! nah makanya tetep pantau terus itu bugs report kita, tiap hari di standup kita harus sundul developernya:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;bugs yang gw report udah di baca belom?&lt;/li&gt;
+&lt;li&gt;ada yang perlu gw jelasin ga soal bugs itu?&lt;/li&gt;
+&lt;li&gt;ke reproduce ga di tempat lo?&lt;/li&gt;
+&lt;li&gt;apa perlu gw yang kerjain itu bugs? (ini klo bisa ya ahaha)&lt;/li&gt;
+&lt;li&gt;gw bilangin bapak lo ya! (eskalasi)&lt;/li&gt;
+&lt;/ul&gt;</content>
     </entry>
 </feed>

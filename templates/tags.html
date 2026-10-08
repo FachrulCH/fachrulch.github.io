@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block main %}
+<header class="page-head">
+  <h1>Tag <span class="count">({{ tags | length }})</span></h1>
+  <p>Semua topik yang pernah saya tulis.</p>
+</header>
+<ul class="tag-cloud">
+  {% for slug, tag in tags.items() | sort(attribute="1.name", case_sensitive=False) %}
+  <li>
+    <a href="/celoteh/{{ slug }}/">#{{ tag.name }} <span class="count">{{ counts[slug] }}</span></a>
+    {% if tag.description %}<p>{{ tag.description }}</p>{% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{% endblock %}
